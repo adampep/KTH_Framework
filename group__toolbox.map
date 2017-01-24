@@ -1,7 +1,5 @@
 <map id="Toolbox" name="Toolbox">
-<area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000. " alt="" coords="135,5,283,32"/>
-<area shape="rect" id="node2" href="$group__statistics2D.html" title="2D time averaged flow statistics for Nek5000 " alt="" coords="161,56,257,83"/>
-<area shape="rect" id="node3" href="$group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="131,107,288,149"/>
-<area shape="rect" id="node5" href="$group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="121,173,297,214"/>
-<area shape="rect" id="node6" href="$group__tools.html" title="Set of tools for KHT framework. " alt="" coords="131,238,288,279"/>
+<area shape="rect" id="node1" href="$group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="131,5,288,47"/>
+<area shape="rect" id="node3" href="$group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="121,71,297,112"/>
+<area shape="rect" id="node4" href="$group__tools.html" title="Set of tools for KHT framework. " alt="" coords="131,136,288,177"/>
 </map>

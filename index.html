@@ -102,20 +102,30 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">Framework for toolboxes developed for Nek5000 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This framework provides created at KTH platform for development and shearing the tools based on Nek5000 code. It contains number of utilities that allow Nek5000 to perform additional tasks or to simplfy its usage. The main objective is to allow different Nek5000 users to exchange their code that is not part of Nek5000 core but operates through standard user interface (mainly through userchk).</p>
+<div class="textblock"><p>This framework provides created at KTH platform for development and shearing the tools based on <a href="https://nek5000.mcs.anl.gov/">Nek5000</a> code. It contains number of utilities that allow Nek5000 to perform additional tasks or to simplfy its usage. The main objective is to allow different Nek5000 users to exchange their code that is not part of Nek5000 core but operates through standard user interface (mainly through userchk).</p>
 <h1><a class="anchor" id="documentation"></a>
 Documentation</h1>
 <p>To make this platform easy to use we pay attention to <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> based documentation of every tolls. It has to provide detailed description of the tool itsef, the routine interfaces, runtime parameters and possible dependencies between tools. The general description of every tool is given in FRAMEWORK.txt, which is present in most directories.</p>
 <h1><a class="anchor" id="structure"></a>
 Framework structure</h1>
-<p>To make this platform easy to expand and reuse existing code we introduce specific directory structure representing different tasks. All files are grouped by taks and placed in a tree structure, where the parent directories (modules) perform some operations and can define tasks and interfaces that have to be provided by their subdirectories (submodules). This structure can be repeated recursively with submodules becoming parent modules for nex level structures.</p>
-<p>The top level direcotries in the framework point to three main github repositories (using git submodules): stable release of Nek5000, toolboxes and examples. </p>
-</div></div><!-- contents -->
+<p>To make this platform easy to expand and reuse existing code we introduce specific directory structure representing different tasks. All files are grouped by taks and placed in a tree structure, where the parent directories (modules in Doxygen nomenclature) perform some operations and can define tasks and interfaces that have to be provided by their subdirectories (submodules). This structure can be repeated recursively with submodules becoming parent modules for next level structures.</p>
+<h1><a class="anchor" id="download"></a>
+Download</h1>
+<p>The top level direcotries in the framework point to stable release of three main github repositories (using <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">git submodules</a>):</p><ul>
+<li><a href="https://github.com/Nek5000/Nek5000">Nek5000</a>,</li>
+<li><a href="https://github.com/adampep/KTH_Toolbox">toolbox</a>,</li>
+<li><a href="https://github.com/adampep/KTH_Examples">tool examples</a>.</li>
+</ul>
+<p>Each ot these repositories can be downloaded separately by executing </p><pre class="fragment">git clone https://github.com/Nek5000/Nek5000.git -b master
+git clone https://github.com/adampep/KTH_Toolbox -b master
+git clone https://github.com/adampep/KTH_Examples -b master
+</pre><p> or as a single framework by </p><pre class="fragment">git clone --recursive https://github.com/adampep/KTH_Framework
+</pre> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 24 2017 13:27:24 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jan 24 2017 16:19:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

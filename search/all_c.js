@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['runtime_20parameters_20readers_2fwriters_2e',['Runtime parameters readers/writers.',['../readers_writers_page.html',1,'runtime_parameters_page']]],
   ['restart_5fpert',['restart_pert',['../group__chkpoint__dns__lin.html#ga10eb9bc9a027b431e602d4dacdb75adb',1,'chkpt_dns_lin.f']]],
   ['restart_5fsave_5fpert',['restart_save_pert',['../group__chkpoint__dns__lin.html#ga51e97a641b801dc9c5e5f9aa80866282',1,'chkpt_dns_lin.f']]],
   ['runtime_20parameters',['Runtime parameters',['../group__runparam.html',1,'']]],

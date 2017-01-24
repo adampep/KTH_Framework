@@ -3,7 +3,8 @@ var NAVTREE =
   [ "KTH framework for Nek5000 toolboxes; testing version", "index.html", [
     [ "Framework for toolboxes developed for Nek5000", "index.html", [
       [ "Documentation", "index.html#documentation", null ],
-      [ "Framework structure", "index.html#structure", null ]
+      [ "Framework structure", "index.html#structure", null ],
+      [ "Download", "index.html#download", null ]
     ] ],
     [ "Runtime parameters for KTH framework.", "runtime_parameters_page.html", "runtime_parameters_page" ],
     [ "Todo List", "todo.html", null ],
