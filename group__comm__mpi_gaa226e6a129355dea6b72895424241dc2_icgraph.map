@@ -1,0 +1,7 @@
+<map id="ibcastn" name="ibcastn">
+<area shape="rect" id="node2" href="$avg__spt_8f.html#abec34cddc2b84d45096f4e75f0a4d927" title="stat_comm_map" alt="" coords="117,5,236,32"/>
+<area shape="rect" id="node4" href="$group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="128,56,225,83"/>
+<area shape="rect" id="node3" href="$group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="293,5,367,32"/>
+<area shape="rect" id="node5" href="$group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="284,56,376,83"/>
+<area shape="rect" id="node6" href="$group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d" title="Redistribute points. " alt="" coords="424,56,493,83"/>
+</map>

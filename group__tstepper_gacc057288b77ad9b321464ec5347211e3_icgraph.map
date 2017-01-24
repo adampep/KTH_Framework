@@ -1,0 +1,9 @@
+<map id="tstpr_dssum" name="tstpr_dssum">
+<area shape="rect" id="node2" href="$group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="162,31,245,57"/>
+<area shape="rect" id="node7" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="155,81,251,108"/>
+<area shape="rect" id="node8" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="148,132,259,159"/>
+<area shape="rect" id="node3" href="$group__arnoldi__arpack.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise arnoldi_arpack. " alt="" coords="314,5,410,32"/>
+<area shape="rect" id="node5" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="307,56,417,83"/>
+<area shape="rect" id="node4" href="$group__tstepper.html#gaa47323e7b1b4f77263e8a912d58c2427" title="Initialise time stepper and call suitable stepper_vinit of required submodule. " alt="" coords="473,5,545,32"/>
+<area shape="rect" id="node6" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="465,56,552,83"/>
+</map>

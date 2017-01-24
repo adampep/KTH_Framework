@@ -1,0 +1,9 @@
+<map id="avgs_init" name="avgs_init">
+<area shape="rect" id="node2" href="$group__avg__spt.html#gab77646316ccfb62e71942e6835231f27" title="Reshuffle coordinate arrays. " alt="" coords="131,5,244,32"/>
+<area shape="rect" id="node4" href="$group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="133,56,241,83"/>
+<area shape="rect" id="node5" href="$avg__spt_8f.html#abec34cddc2b84d45096f4e75f0a4d927" title="stat_comm_map" alt="" coords="128,107,247,133"/>
+<area shape="rect" id="node3" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="309,5,403,32"/>
+<area shape="rect" id="node6" href="$avg__spt_8f.html#a73c520ff5e72230300454f50a62b3ae3" title="get_send_no" alt="" coords="308,56,404,83"/>
+<area shape="rect" id="node7" href="$group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="324,107,388,133"/>
+<area shape="rect" id="node8" href="$group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="295,157,417,184"/>
+</map>

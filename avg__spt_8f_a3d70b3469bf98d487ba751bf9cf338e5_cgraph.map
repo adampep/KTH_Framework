@@ -1,0 +1,7 @@
+<map id="stat_compute" name="stat_compute">
+<area shape="rect" id="node2" href="$avg__spt_8f.html#aad87c54a79675d05b4ee470ae15c7781" title="stat_compute_1dav1" alt="" coords="155,5,297,32"/>
+<area shape="rect" id="node3" href="$avg__spt_8f.html#a63de2af0905f453ba12789eec647020c" title="stat_compute_1dav2" alt="" coords="155,56,297,83"/>
+<area shape="rect" id="node4" href="$avg__spt_8f.html#a6164d508389988e554b78097e7f283b9" title="stat_reshufflev" alt="" coords="172,107,280,133"/>
+<area shape="rect" id="node5" href="$avg__spt__usr_8f.html#a76d99ab486dfdd2573f2e91a828ae90e" title="user_stat_compute" alt="" coords="159,157,293,184"/>
+<area shape="rect" id="node6" href="$avg__spt__usr_8f.html#a3737d0f38b1a9847edf53beaabc8c5f4" title="user_stat_trnsv" alt="" coords="170,208,282,235"/>
+</map>

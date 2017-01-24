@@ -1,0 +1,6 @@
+<map id="pts_timing" name="pts_timing">
+<area shape="rect" id="node2" href="$group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d" title="Redistribute points. " alt="" coords="136,31,205,57"/>
+<area shape="rect" id="node3" href="$group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="253,5,345,32"/>
+<area shape="rect" id="node5" href="$group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="254,56,345,83"/>
+<area shape="rect" id="node4" href="$group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="393,5,491,32"/>
+</map>

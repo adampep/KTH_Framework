@@ -1,0 +1,4 @@
+<map id="pts_map_set" name="pts_map_set">
+<area shape="rect" id="node2" href="$group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="180,5,244,32"/>
+<area shape="rect" id="node3" href="$group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="151,56,273,83"/>
+</map>

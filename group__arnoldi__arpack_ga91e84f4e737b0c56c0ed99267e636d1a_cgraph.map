@@ -1,0 +1,5 @@
+<map id="arn_read_par" name="arn_read_par">
+<area shape="rect" id="node2" href="$group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="151,5,281,32"/>
+<area shape="rect" id="node3" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="164,56,268,83"/>
+<area shape="rect" id="node4" href="$group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="180,107,252,133"/>
+</map>
