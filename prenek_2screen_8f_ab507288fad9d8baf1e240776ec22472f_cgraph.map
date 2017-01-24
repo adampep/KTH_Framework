@@ -1,0 +1,16 @@
+<map id="dr_bezier" name="dr_bezier">
+<area shape="rect" id="node2" href="$prenek_2plot_8f.html#a42f6299155939e3444d98ef785050ec5" title="diam2" alt="" coords="343,56,400,83"/>
+<area shape="rect" id="node10" href="$postnek_2plot_8f.html#a793aa91ed5b51eab3531f2cbf03a6b08" title="vdraw" alt="" coords="128,81,185,108"/>
+<area shape="rect" id="node3" href="$postnek_2xinterface_8f.html#aca8979e3f74809654f66e0294f7dde7b" title="drawsc" alt="" coords="450,157,514,184"/>
+<area shape="rect" id="node7" href="$postnek_2xinterface_8f.html#a22eca17c14bd8636f3cae9df2af7bda8" title="movesc" alt="" coords="448,5,516,32"/>
+<area shape="rect" id="node8" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="459,107,505,133"/>
+<area shape="rect" id="node9" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="459,56,505,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="579,12,617,39"/>
+<area shape="rect" id="node5" href="$postnek_2xinterface_8f.html#aae51c0482b994611d7a882c59204835f" title="scoordx" alt="" coords="564,69,632,96"/>
+<area shape="rect" id="node6" href="$postnek_2xinterface_8f.html#a910f02566c930fd32f763e48d2435501" title="scoordy" alt="" coords="564,132,632,159"/>
+<area shape="rect" id="node11" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="235,132,293,159"/>
+<area shape="rect" id="node15" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="233,81,295,108"/>
+<area shape="rect" id="node12" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="351,107,391,133"/>
+<area shape="rect" id="node13" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="346,157,397,184"/>
+<area shape="rect" id="node14" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="344,5,399,32"/>
+</map>

@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -239,7 +240,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="runparam_8f_source.html#l00015">15</a> of file <a class="el" href="runparam_8f_source.html">runparam.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>, <a class="el" href="runparam_8f_source.html#l00070">runprm_in()</a>, and <a class="el" href="runparam_8f_source.html#l00092">runprm_out()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>, <a class="el" href="runparam_8f_source.html#l00070">runprm_in()</a>, and <a class="el" href="runparam_8f_source.html#l00092">runprm_out()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -248,11 +249,18 @@ Functions</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__runparam_ga3a89d10dd1612ab9d1a62204590593a9_cgraph.png" border="0" usemap="#group__runparam_ga3a89d10dd1612ab9d1a62204590593a9_cgraph" alt=""/></div>
 <map name="group__runparam_ga3a89d10dd1612ab9d1a62204590593a9_cgraph" id="group__runparam_ga3a89d10dd1612ab9d1a62204590593a9_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="151,5,245,32"/>
-<area shape="rect" id="node3" href="group__runparam.html#ga43bf29050a742c99b7f9b8b107aaa5a1" title="Execute user/module parameter reading routines. " alt="" coords="159,56,237,83"/>
-<area shape="rect" id="node5" href="group__runparam.html#ga88722e512cf52805894597a86bafda11" title="Execute user/module parameter writing routines. " alt="" coords="155,107,241,133"/>
-<area shape="rect" id="node4" href="group__upardummy.html#gaf47b06a2815b0ffda9b89ec15a60214a" title="Dummy replacement for user runtime parameter reader. " alt="" coords="297,56,404,83"/>
-<area shape="rect" id="node6" href="group__upardummy.html#gac1b07820b1e779a86ec1d53dcda8a4de" title="Dummy replacement for user runtime parameter writer. " alt="" coords="293,107,408,133"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="165,132,231,159"/>
+<area shape="rect" id="node9" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="151,208,245,235"/>
+<area shape="rect" id="node10" href="group__runparam.html#ga43bf29050a742c99b7f9b8b107aaa5a1" title="Execute user/module parameter reading routines. " alt="" coords="159,259,237,285"/>
+<area shape="rect" id="node12" href="group__runparam.html#ga88722e512cf52805894597a86bafda11" title="Execute user/module parameter writing routines. " alt="" coords="155,309,241,336"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="324,5,377,32"/>
+<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="319,56,383,83"/>
+<area shape="rect" id="node5" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="551,132,597,159"/>
+<area shape="rect" id="node6" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="321,157,381,184"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="324,208,377,235"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="456,157,503,184"/>
+<area shape="rect" id="node11" href="group__upardummy.html#gaf47b06a2815b0ffda9b89ec15a60214a" title="Dummy replacement for user runtime parameter reader. " alt="" coords="297,259,404,285"/>
+<area shape="rect" id="node13" href="group__upardummy.html#gac1b07820b1e779a86ec1d53dcda8a4de" title="Dummy replacement for user runtime parameter writer. " alt="" coords="293,309,408,336"/>
 </map>
 </div>
 </p>
@@ -319,7 +327,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 24 2017 16:19:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jan 24 2017 16:27:17 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

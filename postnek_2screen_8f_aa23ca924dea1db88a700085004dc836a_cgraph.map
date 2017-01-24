@@ -1,0 +1,14 @@
+<map id="setobj" name="setobj">
+<area shape="rect" id="node2" href="$postnek_2screen_8f.html#acced2c4e938290b28ccb029ef2ecc477" title="drwobj" alt="" coords="111,56,171,83"/>
+<area shape="rect" id="node6" href="$postnek_2screen_8f.html#a89899b972081f6b3e7926add98d4e367" title="ellgen" alt="" coords="113,132,169,159"/>
+<area shape="rect" id="node13" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="115,183,166,209"/>
+<area shape="rect" id="node3" href="$postnek_2plot_8f.html#a793aa91ed5b51eab3531f2cbf03a6b08" title="vdraw" alt="" coords="222,31,279,57"/>
+<area shape="rect" id="node4" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="333,5,390,32"/>
+<area shape="rect" id="node5" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="331,56,392,83"/>
+<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="225,81,276,108"/>
+<area shape="rect" id="node8" href="$postnek_2screen_8f.html#a8e3374f33308118c4a94e5c9cb8e765d" title="genpair" alt="" coords="219,132,283,159"/>
+<area shape="rect" id="node9" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="341,183,381,209"/>
+<area shape="rect" id="node11" href="$postnek_2iolib_8f.html#ab7de4123e3cde9b19c53b4754f9a3d2f" title="rerr" alt="" coords="230,233,271,260"/>
+<area shape="rect" id="node10" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="440,183,504,209"/>
+<area shape="rect" id="node12" href="$postnek_2iolib_8f.html#a1e12d5f0a58f8389eff1920b1ce03e59" title="res" alt="" coords="341,233,381,260"/>
+</map>

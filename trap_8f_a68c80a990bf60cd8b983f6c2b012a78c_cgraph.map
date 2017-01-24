@@ -1,0 +1,6 @@
+<map id="quickscan_xy" name="quickscan_xy">
+<area shape="rect" id="node2" href="$postnek_2plot_8f.html#a1692babb5ece1bc4ad2785994999a8fe" title="xiso" alt="" coords="156,5,203,32"/>
+<area shape="rect" id="node5" href="$postnek_2plot_8f.html#ae265a6274cb6098ee60c6560e9977ca9" title="yiso" alt="" coords="156,56,203,83"/>
+<area shape="rect" id="node3" href="$postnek_2plot_8f.html#aa7499829dcb167485599d4cd86a1c60d" title="dotprod" alt="" coords="251,5,316,32"/>
+<area shape="rect" id="node4" href="$postnek_2plot_8f.html#a3a6db1479ebad8473cab367dbfff13ff" title="setrot" alt="" coords="256,56,311,83"/>
+</map>

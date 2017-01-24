@@ -1,0 +1,8 @@
+<map id="ping_loop" name="ping_loop">
+<area shape="rect" id="node2" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="134,5,213,32"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="134,56,213,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="136,107,211,133"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="131,157,216,184"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="134,208,213,235"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="264,208,351,235"/>
+</map>

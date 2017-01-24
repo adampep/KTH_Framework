@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spatial_20average_20routines_2e',['Spatial average routines.',['../group__avg__spt.html',1,'']]]
+  ['runtime_20parameters',['Runtime parameters',['../group__runparam.html',1,'']]]
 ];

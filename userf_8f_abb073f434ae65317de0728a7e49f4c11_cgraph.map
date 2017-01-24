@@ -1,0 +1,11 @@
+<map id="get_map" name="get_map">
+<area shape="rect" id="node2" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="125,56,185,83"/>
+<area shape="rect" id="node7" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="127,107,183,133"/>
+<area shape="rect" id="node8" href="$postnek_2iolib_8f.html#ab88d1b26d6822a97d16aa8f40419c55d" title="prsi" alt="" coords="134,157,177,184"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="233,56,280,83"/>
+<area shape="rect" id="node4" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="356,5,403,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="353,56,406,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="328,107,431,133"/>
+<area shape="rect" id="node9" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="237,157,277,184"/>
+<area shape="rect" id="node10" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="347,157,411,184"/>
+</map>

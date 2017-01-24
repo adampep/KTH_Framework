@@ -1,0 +1,9 @@
+<map id="igop" name="igop">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="128,5,175,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="125,56,178,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="100,107,203,133"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title="mpi_reduce_double_precision" alt="" coords="251,31,444,57"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title="mpi_reduce_integer" alt="" coords="280,81,415,108"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#abbddc050d7faafb34959984f69652e0a" title="mpi_reduce_integer8" alt="" coords="276,132,419,159"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title="mpi_reduce_real" alt="" coords="289,183,406,209"/>
+</map>

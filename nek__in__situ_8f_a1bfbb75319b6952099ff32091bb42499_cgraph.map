@@ -1,0 +1,6 @@
+<map id="in_situ_init" name="in_situ_init">
+<area shape="rect" id="node2" href="$visit_8f.html#af13f954f4053cd7d857a77b8bb2a360f" title="visit_init" alt="" coords="137,56,208,83"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#aabc99956c6af4e66cc75f4247046594c" title="mpi_comm_rank" alt="" coords="268,5,387,32"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ac160db4315dd0998ac7f60dd94f35c0e" title="mpi_comm_size" alt="" coords="269,56,386,83"/>
+<area shape="rect" id="node5" href="$visit_8f.html#a562c040b04c63da063d17739869a30d9" title="simulationarguments" alt="" coords="256,107,399,133"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tet_chk" name="tet_chk">
+<area shape="rect" id="node2" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="135,5,185,32"/>
+<area shape="rect" id="node3" href="$build2_8f.html#aa07051804e8748259ab488afa1553d7b" title="triple_prod" alt="" coords="119,56,201,83"/>
+<area shape="rect" id="node4" href="$core_2genxyz_8f.html#abaf230ec04e873e9768e7ea62dc6b1a0" title="cross" alt="" coords="249,31,304,57"/>
+<area shape="rect" id="node5" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="257,81,297,108"/>
+</map>

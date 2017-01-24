@@ -1,0 +1,8 @@
+<map id="scsr_permute" name="scsr_permute">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="169,5,215,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="165,56,219,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#a2add00098b77e54191b10eb6711193f6" title="isort" alt="" coords="169,107,215,133"/>
+<area shape="rect" id="node5" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="167,157,217,184"/>
+<area shape="rect" id="node6" href="$navier7_8f.html#aa9d5cfdec7571438bbdc0ee794956de2" title="mbw_csr" alt="" coords="155,208,229,235"/>
+<area shape="rect" id="node7" href="$navier7_8f.html#ae5853d8199b3ec1ff454795153efde35" title="swap" alt="" coords="165,259,219,285"/>
+</map>

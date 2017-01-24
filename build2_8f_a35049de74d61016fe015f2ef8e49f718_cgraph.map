@@ -1,0 +1,12 @@
+<map id="get_lattice_per_bc" name="get_lattice_per_bc">
+<area shape="rect" id="node2" href="$build2_8f.html#a9e2eff19d06f84df52392e2ec3ee4098" title="get_vert_tet" alt="" coords="181,5,272,32"/>
+<area shape="rect" id="node3" href="$core_2genxyz_8f.html#ab1ce14609c107357a717ecb7506eb781" title="norm3d" alt="" coords="194,56,259,83"/>
+<area shape="rect" id="node5" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="207,107,247,133"/>
+<area shape="rect" id="node7" href="$postnek_2iolib_8f.html#a1e12d5f0a58f8389eff1920b1ce03e59" title="res" alt="" coords="207,157,247,184"/>
+<area shape="rect" id="node10" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="201,208,252,235"/>
+<area shape="rect" id="node11" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="201,259,252,285"/>
+<area shape="rect" id="node4" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="332,56,372,83"/>
+<area shape="rect" id="node6" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="320,107,384,133"/>
+<area shape="rect" id="node8" href="$core_2genbox_8f.html#aded7cdd7342c89c88593da29a85e8b24" title="gets" alt="" coords="329,157,375,184"/>
+<area shape="rect" id="node9" href="$core_2genbox_8f.html#a131c1c03c9a1ea6c539c76345e138cc0" title="scannocom" alt="" coords="432,157,521,184"/>
+</map>

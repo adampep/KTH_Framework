@@ -1,3 +1,13 @@
 <map id="avgs_init_coord" name="avgs_init_coord">
-<area shape="rect" id="node2" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="167,5,261,32"/>
+<area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="189,107,239,133"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="181,157,247,184"/>
+<area shape="rect" id="node9" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="516,208,569,235"/>
+<area shape="rect" id="node11" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="195,309,233,336"/>
+<area shape="rect" id="node12" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="167,360,261,387"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="315,5,368,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="309,56,373,83"/>
+<area shape="rect" id="node6" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="519,132,566,159"/>
+<area shape="rect" id="node7" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="311,157,371,184"/>
+<area shape="rect" id="node10" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="315,208,368,235"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="421,157,468,184"/>
 </map>

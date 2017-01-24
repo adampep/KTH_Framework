@@ -1,0 +1,6 @@
+<map id="hsmg_tnsr3d_el" name="hsmg_tnsr3d_el">
+<area shape="rect" id="node2" href="$hsmg_8f.html#acd0fd595d73abf0e912253ccef6d10c6" title="hsmg_do_fast" alt="" coords="168,31,272,57"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#a52546ae5a97db5ee9f5cb50c4bf87d0b" title="hsmg_fdm" alt="" coords="320,31,403,57"/>
+<area shape="rect" id="node4" href="$hsmg_8f.html#a41ea2767327fa20d88571c3a13e7d5ac" title="h1mg_schwarz_part1" alt="" coords="451,5,597,32"/>
+<area shape="rect" id="node5" href="$hsmg_8f.html#a66d72f30649dfb581129bf9adafe017f" title="hsmg_schwarz" alt="" coords="469,56,579,83"/>
+</map>

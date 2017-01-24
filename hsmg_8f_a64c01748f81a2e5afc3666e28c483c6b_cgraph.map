@@ -1,0 +1,12 @@
+<map id="h1mg_rstr" name="h1mg_rstr">
+<area shape="rect" id="node2" href="$hsmg_8f.html#aa1b03ec639e9f6db6957f7f0605e6a46" title="hsmg_do_wt" alt="" coords="135,5,231,32"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#a53462275516b6927e6922dca3e6c2ecf" title="hsmg_dssum" alt="" coords="133,56,233,83"/>
+<area shape="rect" id="node8" href="$hsmg_8f.html#abc013fa1c122bcc698426c45239377cc" title="hsmg_tnsr1" alt="" coords="138,107,229,133"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="297,5,376,32"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="296,56,377,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="440,5,527,32"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="441,56,526,83"/>
+<area shape="rect" id="node9" href="$hsmg_8f.html#a50ee5d2e8cf9255fccd339032141e69b" title="hsmg_tnsr1_2d" alt="" coords="281,107,392,133"/>
+<area shape="rect" id="node11" href="$hsmg_8f.html#a5e10dbe1edc69356e30b0fdb24c8ad5c" title="hsmg_tnsr1_3d" alt="" coords="281,157,392,184"/>
+<area shape="rect" id="node10" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="458,132,509,159"/>
+</map>

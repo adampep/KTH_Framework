@@ -1,0 +1,15 @@
+<map id="semi_init_bcs" name="semi_init_bcs">
+<area shape="rect" id="node2" href="$bound_8f.html#a5fe98c697875c45e5c278e92731ac61c" title="letbc" alt="" coords="156,220,207,247"/>
+<area shape="rect" id="node3" href="$postnek_2xinterface_8f.html#a38427b6d929242043fdbf5db9659829a" title="beginp" alt="" coords="255,132,315,159"/>
+<area shape="rect" id="node9" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="259,220,310,247"/>
+<area shape="rect" id="node11" href="$postnek_2xinterface_8f.html#a5d1d5eed3065d1ccf65bb3d010226db0" title="endp" alt="" coords="259,5,310,32"/>
+<area shape="rect" id="node12" href="$postnek_2xinterface_8f.html#a27cb1da06839d074efcde9d4998103ee" title="fillp" alt="" coords="263,321,306,348"/>
+<area shape="rect" id="node13" href="$postnek_2xinterface_8f.html#ae0a3a2ae9aee23121a61b3802d0826df" title="gwrite" alt="" coords="366,340,423,367"/>
+<area shape="rect" id="node4" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="484,87,523,113"/>
+<area shape="rect" id="node5" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="367,188,422,215"/>
+<area shape="rect" id="node8" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="364,36,425,63"/>
+<area shape="rect" id="node6" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="480,239,527,265"/>
+<area shape="rect" id="node7" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="480,289,527,316"/>
+<area shape="rect" id="node10" href="$postnek_2xinterface_8f.html#aca8979e3f74809654f66e0294f7dde7b" title="drawsc" alt="" coords="363,137,427,164"/>
+<area shape="rect" id="node14" href="$postnek_2xinterface_8f.html#a15b1e6ead87be733cf1f84db272e6f09" title="gswrit" alt="" coords="475,340,532,367"/>
+</map>

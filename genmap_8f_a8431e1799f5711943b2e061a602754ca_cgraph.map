@@ -1,0 +1,7 @@
+<map id="iglmax" name="iglmax">
+<area shape="rect" id="node2" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="113,56,173,83"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="221,56,268,83"/>
+<area shape="rect" id="node4" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="344,5,391,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="341,56,394,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="316,107,419,133"/>
+</map>

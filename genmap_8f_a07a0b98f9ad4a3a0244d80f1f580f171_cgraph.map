@@ -1,0 +1,26 @@
+<map id="spec_bis" name="spec_bis">
+<area shape="rect" id="node2" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="487,132,541,159"/>
+<area shape="rect" id="node3" href="$genmap_8f.html#afba8fe2b96b49267160df3edca991154" title="glanczos" alt="" coords="128,234,203,260"/>
+<area shape="rect" id="node13" href="$math_8f.html#a255eb2b5e6ee8be11915d2c3b5b5bf74" title="glsc2" alt="" coords="371,538,424,564"/>
+<area shape="rect" id="node16" href="$genmap_8f.html#ae3acbd76d11830b6e20f444cb711beac" title="ortho1" alt="" coords="255,284,313,311"/>
+<area shape="rect" id="node17" href="$genmap_8f.html#a95a43e01e4366f8e8bdfa3fe87b8e0c1" title="lanczos2" alt="" coords="128,386,203,412"/>
+<area shape="rect" id="node21" href="$genmap_8f.html#a99961a2a4459119fc8cb4368aba0f787" title="rint" alt="" coords="145,588,185,615"/>
+<area shape="rect" id="node22" href="$genmap_8f.html#abb08ab70a77297bcefc89376eba4ca71" title="sbisect" alt="" coords="133,639,197,666"/>
+<area shape="rect" id="node4" href="$math_8f.html#aeeb6d3ca3e70266452bcf92e16cb317d" title="add2s1" alt="" coords="252,183,316,210"/>
+<area shape="rect" id="node5" href="$math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="252,335,316,362"/>
+<area shape="rect" id="node6" href="$gmres_8f.html#abb09784e907975584f1a8f4dbf282a79" title="ax" alt="" coords="265,82,303,108"/>
+<area shape="rect" id="node9" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="489,284,539,311"/>
+<area shape="rect" id="node11" href="$subs2_8f.html#a3c61e9653d5734accc15712a2f1b9c11" title="cmult2" alt="" coords="253,31,315,58"/>
+<area shape="rect" id="node12" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="599,487,649,514"/>
+<area shape="rect" id="node7" href="$hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="365,132,429,159"/>
+<area shape="rect" id="node8" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="491,56,537,83"/>
+<area shape="rect" id="node10" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="367,82,428,108"/>
+<area shape="rect" id="node14" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="493,538,535,564"/>
+<area shape="rect" id="node15" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="601,563,647,590"/>
+<area shape="rect" id="node18" href="$genmap_8f.html#a56a5bc446b451865ed290e7e4ca5628c" title="calcvec" alt="" coords="251,436,317,463"/>
+<area shape="rect" id="node19" href="$calcz_8f.html#a8a2ffe21627ed404094a75d5f5fcf82c" title="ident" alt="" coords="372,386,423,412"/>
+<area shape="rect" id="node20" href="$connect2_8f.html#a6e862f603b59c81091476a690c5e94ee" title="scale" alt="" coords="371,436,424,463"/>
+<area shape="rect" id="node23" href="$math_8f.html#a738abeedcb1c393dd45b76c72b18939f" title="iswap_ip" alt="" coords="477,588,551,615"/>
+<area shape="rect" id="node24" href="$core_2genbox_8f.html#ab06738df426c0752bc70d5323f5b2b99" title="jjnt" alt="" coords="265,639,303,666"/>
+<area shape="rect" id="node25" href="$math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title="sort" alt="" coords="262,690,306,716"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="cex_setup" name="cex_setup">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="136,56,183,83"/>
+<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="259,5,305,32"/>
+<area shape="rect" id="node4" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="255,56,309,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="231,107,333,133"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title="mpi_reduce_double_precision" alt="" coords="381,31,575,57"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title="mpi_reduce_integer" alt="" coords="411,81,545,108"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#abbddc050d7faafb34959984f69652e0a" title="mpi_reduce_integer8" alt="" coords="407,132,549,159"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title="mpi_reduce_real" alt="" coords="419,183,537,209"/>
+</map>

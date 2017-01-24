@@ -1,0 +1,12 @@
+<map id="comm_init_" name="comm_init_">
+<area shape="rect" id="node2" href="$tools_2postnek_2comm_8c.html#a5f19f09f6cd5ba3ce5391359d3ff207a" title="comm_init" alt="" coords="143,107,225,133"/>
+<area shape="rect" id="node3" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="283,56,395,83"/>
+<area shape="rect" id="node6" href="$error_8c.html#acd5ba534263bf658c108027dc25bc010" title="error_msg_warning" alt="" coords="273,5,405,32"/>
+<area shape="rect" id="node7" href="$ivec_8c.html#aa689e5d8d92910f34e5b662b5a0347b5" title="ivec_zero" alt="" coords="300,107,379,133"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a2fae0158282f10009f27373acd2a0337" title="mynode" alt="" coords="305,157,373,184"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1" title="numnodes" alt="" coords="298,208,381,235"/>
+<area shape="rect" id="node4" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="487,5,538,32"/>
+<area shape="rect" id="node5" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="453,56,572,83"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#aabc99956c6af4e66cc75f4247046594c" title="mpi_comm_rank" alt="" coords="453,157,572,184"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#ac160db4315dd0998ac7f60dd94f35c0e" title="mpi_comm_size" alt="" coords="454,208,571,235"/>
+</map>

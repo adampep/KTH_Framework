@@ -1,0 +1,7 @@
+<map id="sph_combine_d" name="sph_combine_d">
+<area shape="rect" id="node2" href="$build2_8f.html#a0e234cfc38bfc65e1b9e41adf6324a36" title="user_s" alt="" coords="167,56,228,83"/>
+<area shape="rect" id="node3" href="$build2_8f.html#a9136b8053f9ecdc1c9ee3fc4df08077f" title="sph_wall_elmt1" alt="" coords="276,5,388,32"/>
+<area shape="rect" id="node5" href="$build2_8f.html#a0962061d395ba845556ca914ad8680a9" title="sph_wall_elmt2" alt="" coords="276,56,388,83"/>
+<area shape="rect" id="node6" href="$build2_8f.html#aea089c71fdce884419b5095ebface551" title="sph_wall_elmt3" alt="" coords="276,107,388,133"/>
+<area shape="rect" id="node4" href="$build2_8f.html#a57faf0ed4ca6d09958fb4b68f70c5afe" title="sph_wall_elmt" alt="" coords="436,56,541,83"/>
+</map>

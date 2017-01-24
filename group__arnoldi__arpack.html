@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -294,7 +295,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00387">387</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>, and <a class="el" href="prepost_8f_source.html#l01943">outpost2()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -303,7 +304,22 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph" id="group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="139,5,233,32"/>
+<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="555,169,606,196"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="548,397,613,424"/>
+<area shape="rect" id="node6" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="876,245,923,272"/>
+<area shape="rect" id="node10" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="139,195,233,221"/>
+<area shape="rect" id="node11" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="150,93,222,120"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="675,448,728,475"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="669,499,733,525"/>
+<area shape="rect" id="node7" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="671,347,731,373"/>
+<area shape="rect" id="node9" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="675,397,728,424"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="781,347,828,373"/>
+<area shape="rect" id="node12" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="281,296,347,323"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="540,321,621,348"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="422,245,465,272"/>
+<area shape="rect" id="node15" href="prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="416,499,471,525"/>
+<area shape="rect" id="node16" href="prepost_8f.html#aa744b6bf02ba449c6084ad4d0f878af7" title="outhis" alt="" coords="415,296,472,323"/>
+<area shape="rect" id="node17" href="prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="395,195,492,221"/>
 </map>
 </div>
 </p>
@@ -341,7 +357,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00571">571</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="time__stepper_8f_source.html#l00485">tstpr_dssum()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, and <a class="el" href="time__stepper_8f_source.html#l00485">tstpr_dssum()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -350,7 +366,18 @@ Functions</h2></td></tr>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga2128f4c08428d15f1f20c5ee697da010_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga2128f4c08428d15f1f20c5ee697da010_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga2128f4c08428d15f1f20c5ee697da010_cgraph" id="group__arnoldi__arpack_ga2128f4c08428d15f1f20c5ee697da010_cgraph">
-<area shape="rect" id="node2" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="136,5,231,32"/>
+<area shape="rect" id="node2" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="293,5,339,32"/>
+<area shape="rect" id="node3" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="160,107,207,133"/>
+<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="158,157,209,184"/>
+<area shape="rect" id="node5" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="160,208,207,235"/>
+<area shape="rect" id="node6" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="136,56,231,83"/>
+<area shape="rect" id="node7" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="279,107,353,133"/>
+<area shape="rect" id="node12" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="286,157,346,184"/>
+<area shape="rect" id="node13" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="415,56,477,83"/>
+<area shape="rect" id="node8" href="navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title="rotate_cyc" alt="" coords="405,107,487,133"/>
+<area shape="rect" id="node9" href="dssum_8f.html#a04a475747f747981907f8e5203c421ed" title="vec_dssum" alt="" coords="401,157,491,184"/>
+<area shape="rect" id="node10" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="539,69,620,96"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="540,132,619,159"/>
 </map>
 </div>
 </p>
@@ -397,7 +424,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00217">217</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00154">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, and <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">mfi_arnp()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, <a class="el" href="core_2byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00154">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">mfi_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -406,9 +433,21 @@ Functions</h2></td></tr>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph" id="group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="151,5,281,32"/>
-<area shape="rect" id="node3" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="164,56,268,83"/>
-<area shape="rect" id="node4" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="180,107,252,133"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="189,56,243,83"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="183,157,249,184"/>
+<area shape="rect" id="node11" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="151,208,281,235"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="164,259,268,285"/>
+<area shape="rect" id="node13" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="180,309,252,336"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="177,385,255,412"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="331,5,414,32"/>
+<area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="346,259,399,285"/>
+<area shape="rect" id="node6" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="341,56,405,83"/>
+<area shape="rect" id="node7" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="559,157,605,184"/>
+<area shape="rect" id="node8" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="343,157,403,184"/>
+<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="346,208,399,235"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="464,157,511,184"/>
+<area shape="rect" id="node14" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="347,360,398,387"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="329,411,416,437"/>
 </map>
 </div>
 </p>
@@ -455,12 +494,33 @@ Functions</h2></td></tr>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph" id="group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="148,56,245,83"/>
-<area shape="rect" id="node6" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="161,107,233,133"/>
-<area shape="rect" id="node3" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="293,5,424,32"/>
-<area shape="rect" id="node4" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="307,107,411,133"/>
-<area shape="rect" id="node5" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="323,56,395,83"/>
-<area shape="rect" id="node7" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="315,157,403,184"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="276,563,373,589"/>
+<area shape="rect" id="node17" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="148,461,220,488"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="639,461,693,488"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="633,309,699,336"/>
+<area shape="rect" id="node11" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="429,664,560,691"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="443,512,547,539"/>
+<area shape="rect" id="node13" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="459,613,531,640"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="627,689,705,716"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="774,461,857,488"/>
+<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="789,348,842,375"/>
+<area shape="rect" id="node7" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="783,108,847,135"/>
+<area shape="rect" id="node8" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="792,221,839,248"/>
+<area shape="rect" id="node9" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="785,297,845,324"/>
+<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="789,25,842,52"/>
+<area shape="rect" id="node14" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="641,512,691,539"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="772,689,859,716"/>
+<area shape="rect" id="node18" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="449,208,540,235"/>
+<area shape="rect" id="node25" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="281,411,369,437"/>
+<area shape="rect" id="node28" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="268,512,381,539"/>
+<area shape="rect" id="node19" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="613,360,719,387"/>
+<area shape="rect" id="node20" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="613,56,719,83"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="608,107,724,133"/>
+<area shape="rect" id="node22" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="636,411,696,437"/>
+<area shape="rect" id="node23" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="619,5,713,32"/>
+<area shape="rect" id="node24" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="614,157,718,184"/>
+<area shape="rect" id="node26" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="459,411,531,437"/>
+<area shape="rect" id="node27" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="459,360,531,387"/>
 </map>
 </div>
 </p>
@@ -507,12 +567,34 @@ Functions</h2></td></tr>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph" id="group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="151,56,251,83"/>
-<area shape="rect" id="node6" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="163,107,239,133"/>
-<area shape="rect" id="node3" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="312,107,416,133"/>
-<area shape="rect" id="node4" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="299,5,429,32"/>
-<area shape="rect" id="node5" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="326,56,402,83"/>
-<area shape="rect" id="node7" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="318,157,410,184"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="281,639,381,665"/>
+<area shape="rect" id="node15" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="151,385,227,412"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="631,613,709,640"/>
+<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="449,613,553,640"/>
+<area shape="rect" id="node6" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="436,715,567,741"/>
+<area shape="rect" id="node7" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="463,664,539,691"/>
+<area shape="rect" id="node10" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="637,208,703,235"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="785,613,872,640"/>
+<area shape="rect" id="node8" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="802,309,855,336"/>
+<area shape="rect" id="node9" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="645,664,695,691"/>
+<area shape="rect" id="node11" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="797,157,861,184"/>
+<area shape="rect" id="node12" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="805,360,852,387"/>
+<area shape="rect" id="node13" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="799,259,859,285"/>
+<area shape="rect" id="node14" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="802,208,855,235"/>
+<area shape="rect" id="node16" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="623,107,717,133"/>
+<area shape="rect" id="node20" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="449,360,553,387"/>
+<area shape="rect" id="node26" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="285,461,377,488"/>
+<area shape="rect" id="node29" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="275,335,388,361"/>
+<area shape="rect" id="node17" href="byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="773,5,884,32"/>
+<area shape="rect" id="node18" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="803,56,854,83"/>
+<area shape="rect" id="node19" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="801,107,856,133"/>
+<area shape="rect" id="node21" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="617,512,723,539"/>
+<area shape="rect" id="node22" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="615,411,725,437"/>
+<area shape="rect" id="node23" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="643,360,697,387"/>
+<area shape="rect" id="node24" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="641,461,699,488"/>
+<area shape="rect" id="node25" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="643,157,697,184"/>
+<area shape="rect" id="node27" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="463,411,539,437"/>
+<area shape="rect" id="node28" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="463,461,539,488"/>
 </map>
 </div>
 </p>
@@ -557,7 +639,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00071">71</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00154">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, and <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">mfo_arnp()</a>.</p>
+<p>References <a class="el" href="core_2byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00154">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">mfo_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
 
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -566,9 +648,19 @@ Functions</h2></td></tr>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph" id="group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="153,5,284,32"/>
-<area shape="rect" id="node3" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="167,56,271,83"/>
-<area shape="rect" id="node4" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="181,107,257,133"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="186,107,251,133"/>
+<area shape="rect" id="node9" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="153,157,284,184"/>
+<area shape="rect" id="node10" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="167,208,271,235"/>
+<area shape="rect" id="node11" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="181,259,257,285"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="179,309,258,336"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="349,208,402,235"/>
+<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="343,5,407,32"/>
+<area shape="rect" id="node5" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="561,81,608,108"/>
+<area shape="rect" id="node6" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="345,107,405,133"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="349,157,402,184"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="467,107,513,133"/>
+<area shape="rect" id="node12" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="350,259,401,285"/>
+<area shape="rect" id="node14" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="332,309,419,336"/>
 </map>
 </div>
 </p>
@@ -606,11 +698,27 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">431</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
+<p>References <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="core_2byte_8c_source.html#l00038">byte_read</a>, <a class="el" href="core_2byte_8c_source.html#l00033">byte_reverse</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>.</p>
+
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_cgraph.png" border="0" usemap="#group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_cgraph" alt=""/></div>
+<map name="group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_cgraph" id="group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="125,5,179,32"/>
+<area shape="rect" id="node3" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="127,56,177,83"/>
+<area shape="rect" id="node4" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="129,107,175,133"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_icgraph.png" border="0" usemap="#group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_icgraph" id="group__arnoldi__arpack_gae7393736ffebb04c321c9899ef9e592d_icgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="125,5,223,32"/>
@@ -647,26 +755,61 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00683">683</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, and <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">mfi_singlev()</a>.</p>
+<p>References <a class="el" href="core_2byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02651">mfi_prepare()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">mfi_singlev()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph" id="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="125,5,229,32"/>
-<area shape="rect" id="node3" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="133,56,221,83"/>
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="125,719,239,745"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="451,465,516,492"/>
+<area shape="rect" id="node10" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="130,1352,234,1379"/>
+<area shape="rect" id="node11" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="287,465,377,492"/>
+<area shape="rect" id="node27" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="138,871,226,897"/>
+<area shape="rect" id="node36" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="444,1225,523,1252"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="618,440,671,467"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="613,389,677,416"/>
+<area shape="rect" id="node6" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="900,136,947,163"/>
+<area shape="rect" id="node7" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="615,541,675,568"/>
+<area shape="rect" id="node9" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="618,339,671,365"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="777,541,823,568"/>
+<area shape="rect" id="node12" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="456,668,511,695"/>
+<area shape="rect" id="node14" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="430,617,537,644"/>
+<area shape="rect" id="node15" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="430,288,537,315"/>
+<area shape="rect" id="node16" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="425,516,541,543"/>
+<area shape="rect" id="node19" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="453,567,513,593"/>
+<area shape="rect" id="node20" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="437,339,530,365"/>
+<area shape="rect" id="node24" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="431,85,535,112"/>
+<area shape="rect" id="node13" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="603,693,686,720"/>
+<area shape="rect" id="node17" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="605,592,684,619"/>
+<area shape="rect" id="node18" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="775,921,825,948"/>
+<area shape="rect" id="node21" href="byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="589,187,700,213"/>
+<area shape="rect" id="node22" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="619,237,670,264"/>
+<area shape="rect" id="node23" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="617,288,672,315"/>
+<area shape="rect" id="node25" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="618,35,671,61"/>
+<area shape="rect" id="node26" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="748,85,852,112"/>
+<area shape="rect" id="node28" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="296,921,368,948"/>
+<area shape="rect" id="node38" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="296,871,368,897"/>
+<area shape="rect" id="node29" href="prepost_8f.html#a5802584ce57124068d1ee183348e3275" title="copy4r" alt="" coords="614,921,675,948"/>
+<area shape="rect" id="node30" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="455,1124,512,1151"/>
+<area shape="rect" id="node31" href="comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="458,820,509,847"/>
+<area shape="rect" id="node32" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="450,921,517,948"/>
+<area shape="rect" id="node33" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a" title="mapab" alt="" coords="453,871,514,897"/>
+<area shape="rect" id="node34" href="ic_8f.html#a170de261200bce1070ca719caaf56df0" title="mapab4r" alt="" coords="447,972,519,999"/>
+<area shape="rect" id="node35" href="comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="448,1023,519,1049"/>
+<area shape="rect" id="node37" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="458,1073,509,1100"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_icgraph" id="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_icgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="125,5,220,32"/>
@@ -709,25 +852,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1*lx1*lx1*lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1*lx1*lx1*<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>ur1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1*lx1*lx1*lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1*lx1*lx1*<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>ur2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1*lx1*lx1*lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1*lx1*lx1*<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>ur3</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lvas)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lvas)&#160;</td>
           <td class="paramname"><em>vect</em>&#160;</td>
         </tr>
         <tr>
@@ -754,11 +897,56 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">855</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="byte__mpi_8f_source.html#l00136">byte_set_view()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02004">mfi_gets()</a>, and <a class="el" href="ic_8f_source.html#l02149">mfi_getv()</a>.</p>
+
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph" alt=""/></div>
+<map name="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph" id="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph">
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="141,748,248,774"/>
+<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="469,140,519,166"/>
+<area shape="rect" id="node5" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="159,444,231,470"/>
+<area shape="rect" id="node33" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="159,393,231,420"/>
+<area shape="rect" id="node3" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="697,773,744,800"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="322,494,377,521"/>
+<area shape="rect" id="node8" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="296,140,403,166"/>
+<area shape="rect" id="node9" href="prepost_8f.html#a5802584ce57124068d1ee183348e3275" title="copy4r" alt="" coords="463,190,525,217"/>
+<area shape="rect" id="node10" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="321,545,378,572"/>
+<area shape="rect" id="node12" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="317,646,382,673"/>
+<area shape="rect" id="node18" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="319,697,379,724"/>
+<area shape="rect" id="node19" href="comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="324,748,375,774"/>
+<area shape="rect" id="node21" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="316,596,383,622"/>
+<area shape="rect" id="node23" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a" title="mapab" alt="" coords="319,342,380,369"/>
+<area shape="rect" id="node27" href="ic_8f.html#a170de261200bce1070ca719caaf56df0" title="mapab4r" alt="" coords="313,292,385,318"/>
+<area shape="rect" id="node28" href="comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="314,393,385,420"/>
+<area shape="rect" id="node30" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="310,444,389,470"/>
+<area shape="rect" id="node32" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="324,89,375,116"/>
+<area shape="rect" id="node7" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="453,494,535,521"/>
+<area shape="rect" id="node11" href="mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="455,545,533,572"/>
+<area shape="rect" id="node13" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="591,646,644,673"/>
+<area shape="rect" id="node14" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="585,748,649,774"/>
+<area shape="rect" id="node15" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="464,849,524,876"/>
+<area shape="rect" id="node17" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="591,798,644,825"/>
+<area shape="rect" id="node16" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="594,849,641,876"/>
+<area shape="rect" id="node20" href="mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="455,950,533,977"/>
+<area shape="rect" id="node22" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="469,697,519,724"/>
+<area shape="rect" id="node24" href="core_2speclib_8f.html#a8263325d9c535ec58c5ced807370cd22" title="igllm" alt="" coords="469,292,519,318"/>
+<area shape="rect" id="node25" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="469,342,519,369"/>
+<area shape="rect" id="node26" href="core_2speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="468,241,520,268"/>
+<area shape="rect" id="node29" href="mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="457,393,531,420"/>
+<area shape="rect" id="node31" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="451,444,537,470"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_icgraph" id="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_icgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="141,5,213,32"/>
@@ -787,11 +975,26 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">139</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="core_2byte_8c_source.html#l00039">byte_write</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="core_2byte_8c_source.html#l00042">get_bytesw_write</a>, and <a class="el" href="core_2byte_8c_source.html#l00040">set_bytesw_write</a>.</p>
+
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_cgraph.png" border="0" usemap="#group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_cgraph" alt=""/></div>
+<map name="group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_cgraph" id="group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="129,5,183,32"/>
+<area shape="rect" id="node3" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="131,56,181,83"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_icgraph.png" border="0" usemap="#group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_icgraph" id="group__arnoldi__arpack_gaae330c083938363c2f1810f66edff8ff_icgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="129,5,229,32"/>
@@ -828,26 +1031,49 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00537">537</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, and <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">mfo_singlev()</a>.</p>
+<p>References <a class="el" href="core_2byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="ic_8f_source.html#l02601">mbyte_open()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">mfo_singlev()</a>, and <a class="el" href="prepost_8f_source.html#l02385">mfo_write_hdr()</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph.png" border="0" usemap="#group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph" id="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="129,5,233,32"/>
-<area shape="rect" id="node3" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="135,56,227,83"/>
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="129,132,243,159"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="465,183,531,209"/>
+<area shape="rect" id="node11" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="134,537,238,564"/>
+<area shape="rect" id="node12" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="451,689,545,716"/>
+<area shape="rect" id="node16" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="140,335,232,361"/>
+<area shape="rect" id="node26" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="291,284,395,311"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="630,132,683,159"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="625,613,689,640"/>
+<area shape="rect" id="node6" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="858,259,905,285"/>
+<area shape="rect" id="node7" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="627,183,687,209"/>
+<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="630,664,683,691"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="760,81,807,108"/>
+<area shape="rect" id="node9" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="855,56,908,83"/>
+<area shape="rect" id="node13" href="byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="601,715,712,741"/>
+<area shape="rect" id="node14" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="631,765,682,792"/>
+<area shape="rect" id="node15" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="629,816,684,843"/>
+<area shape="rect" id="node17" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="445,5,551,32"/>
+<area shape="rect" id="node18" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="473,537,523,564"/>
+<area shape="rect" id="node19" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="305,385,381,412"/>
+<area shape="rect" id="node25" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="305,335,381,361"/>
+<area shape="rect" id="node20" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="443,385,553,412"/>
+<area shape="rect" id="node21" href="prepost_8f.html#a91be720c5e5090ee2c5641ca594c2a92" title="copyx4" alt="" coords="466,487,530,513"/>
+<area shape="rect" id="node22" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="471,284,525,311"/>
+<area shape="rect" id="node23" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="469,436,527,463"/>
+<area shape="rect" id="node24" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="459,335,537,361"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_icgraph.png" border="0" usemap="#group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_icgraph" id="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_icgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="129,5,227,32"/>
@@ -896,25 +1122,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lxo*lxo*lxo*lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxo*lxo*lxo*<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>ur1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lxo*lxo*lxo*lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxo*lxo*lxo*<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>ur2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lxo*lxo*lxo*lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxo*lxo*lxo*<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>ur3</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lvas)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lvas)&#160;</td>
           <td class="paramname"><em>vect</em>&#160;</td>
         </tr>
         <tr>
@@ -941,11 +1167,42 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">801</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="byte__mpi_8f_source.html#l00136">byte_set_view()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="prepost_8f_source.html#l02177">mfo_outs()</a>, and <a class="el" href="prepost_8f_source.html#l02265">mfo_outv()</a>.</p>
+
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph" alt=""/></div>
+<map name="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph" id="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph">
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="145,335,252,361"/>
+<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="330,5,381,32"/>
+<area shape="rect" id="node5" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="161,183,237,209"/>
+<area shape="rect" id="node19" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="161,233,237,260"/>
+<area shape="rect" id="node3" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="479,360,525,387"/>
+<area shape="rect" id="node6" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="300,208,411,235"/>
+<area shape="rect" id="node7" href="prepost_8f.html#a91be720c5e5090ee2c5641ca594c2a92" title="copyx4" alt="" coords="323,309,387,336"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="328,259,383,285"/>
+<area shape="rect" id="node10" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="327,107,384,133"/>
+<area shape="rect" id="node12" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="323,461,388,488"/>
+<area shape="rect" id="node17" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="316,157,395,184"/>
+<area shape="rect" id="node9" href="mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="465,259,539,285"/>
+<area shape="rect" id="node11" href="mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="463,107,541,133"/>
+<area shape="rect" id="node13" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="475,512,529,539"/>
+<area shape="rect" id="node14" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="470,563,534,589"/>
+<area shape="rect" id="node15" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="472,411,532,437"/>
+<area shape="rect" id="node16" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="475,461,529,488"/>
+<area shape="rect" id="node18" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="459,157,545,184"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_icgraph" id="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_icgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="145,5,221,32"/>
@@ -984,11 +1241,33 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00022">22</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>.</p>
+
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_cgraph" alt=""/></div>
+<map name="group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_cgraph" id="group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="184,31,239,57"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="179,132,244,159"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="292,5,375,32"/>
+<area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="307,56,360,83"/>
+<area shape="rect" id="node6" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="301,107,365,133"/>
+<area shape="rect" id="node7" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="517,183,564,209"/>
+<area shape="rect" id="node8" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="303,208,363,235"/>
+<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="307,259,360,285"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="423,208,469,235"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_icgraph" id="group__arnoldi__arpack_ga36e8b594d99446c4eefcb673a717999f_icgraph">
 <area shape="rect" id="node2" href="group__tstepper.html#ga566f70e7afca09a930084f9488423305" title="Read parameters for time stepper and call suitable param_reader of required submodule. " alt="" coords="179,5,287,32"/>
@@ -1024,11 +1303,31 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00078">78</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>.</p>
+
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_cgraph" alt=""/></div>
+<map name="group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_cgraph" id="group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="187,107,252,133"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="305,5,359,32"/>
+<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="300,56,364,83"/>
+<area shape="rect" id="node5" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="507,132,553,159"/>
+<area shape="rect" id="node6" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="302,157,362,184"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="305,208,359,235"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="412,157,459,184"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_icgraph" id="group__arnoldi__arpack_ga8de58bbc4c663edb26c939dc3ef682f1_icgraph">
 <area shape="rect" id="node2" href="group__tstepper.html#gab6c850779a3f7bbdc4b39845bf25de8c" title="Write parameters for time stepper and call suitable param_writer of required submodule. " alt="" coords="187,5,303,32"/>
@@ -1056,33 +1355,47 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00106">106</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00045">arn_rst_read()</a>, <a class="el" href="debug_8h_source.html#l00008">logfil</a>, <a class="el" href="debug_8h_source.html#l00008">mnaitr</a>, <a class="el" href="debug_8h_source.html#l00008">mnapps</a>, <a class="el" href="debug_8h_source.html#l00008">mnaup2</a>, <a class="el" href="debug_8h_source.html#l00008">mnaupd</a>, <a class="el" href="debug_8h_source.html#l00008">mneupd</a>, <a class="el" href="debug_8h_source.html#l00008">mngets</a>, and <a class="el" href="debug_8h_source.html#l00008">ndigit</a>.</p>
+<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00045">arn_rst_read()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="math_8f_source.html#l00377">izero()</a>, <a class="el" href="debug_8h_source.html#l00008">logfil</a>, <a class="el" href="debug_8h_source.html#l00008">mnaitr</a>, <a class="el" href="debug_8h_source.html#l00008">mnapps</a>, <a class="el" href="debug_8h_source.html#l00008">mnaup2</a>, <a class="el" href="debug_8h_source.html#l00008">mnaupd</a>, <a class="el" href="debug_8h_source.html#l00008">mneupd</a>, <a class="el" href="debug_8h_source.html#l00008">mngets</a>, <a class="el" href="debug_8h_source.html#l00008">ndigit</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph" id="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="155,5,238,32"/>
-<area shape="rect" id="node4" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="149,56,244,83"/>
-<area shape="rect" id="node3" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="293,5,388,32"/>
-<area shape="rect" id="node5" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="292,56,389,83"/>
-<area shape="rect" id="node9" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="305,107,377,133"/>
-<area shape="rect" id="node6" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="437,5,568,32"/>
-<area shape="rect" id="node7" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="451,107,555,133"/>
-<area shape="rect" id="node8" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="467,56,539,83"/>
-<area shape="rect" id="node10" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="459,157,547,184"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="155,740,238,767"/>
+<area shape="rect" id="node4" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="317,816,364,843"/>
+<area shape="rect" id="node5" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="630,31,681,57"/>
+<area shape="rect" id="node6" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="743,461,789,488"/>
+<area shape="rect" id="node12" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="149,385,244,412"/>
+<area shape="rect" id="node23" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="171,917,222,944"/>
+<area shape="rect" id="node24" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="171,968,222,995"/>
+<area shape="rect" id="node3" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="479,613,526,640"/>
+<area shape="rect" id="node7" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="293,715,388,741"/>
+<area shape="rect" id="node8" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="465,664,540,691"/>
+<area shape="rect" id="node9" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="473,715,533,741"/>
+<area shape="rect" id="node10" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="472,765,533,792"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="616,563,695,589"/>
+<area shape="rect" id="node13" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="292,259,389,285"/>
+<area shape="rect" id="node19" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="305,385,377,412"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="628,411,683,437"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="623,360,688,387"/>
+<area shape="rect" id="node16" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="437,107,568,133"/>
+<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="451,309,555,336"/>
+<area shape="rect" id="node18" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="467,56,539,83"/>
+<area shape="rect" id="node20" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="446,512,559,539"/>
+<area shape="rect" id="node21" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="457,411,548,437"/>
+<area shape="rect" id="node22" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="459,208,547,235"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_icgraph" id="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_icgraph">
 <area shape="rect" id="node2" href="group__tstepper.html#gaa47323e7b1b4f77263e8a912d58c2427" title="Initialise time stepper and call suitable stepper_vinit of required submodule. " alt="" coords="149,5,221,32"/>
@@ -1111,36 +1424,54 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00319">319</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00549">arn_end()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00387">arn_esolve()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, and <a class="el" href="arnoldi__arpack__io_8f_source.html#l00009">arn_rst_save()</a>.</p>
+<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00549">arn_end()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00387">arn_esolve()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00009">arn_rst_save()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph" id="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph">
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga6e2500fe6c297e1616d83a0601eaaffe" title="Finalise arnoldi. " alt="" coords="179,5,247,32"/>
-<area shape="rect" id="node3" href="group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="170,56,255,83"/>
-<area shape="rect" id="node5" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="171,107,254,133"/>
-<area shape="rect" id="node7" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="164,157,261,184"/>
-<area shape="rect" id="node4" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="312,56,407,83"/>
-<area shape="rect" id="node6" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="312,107,407,133"/>
-<area shape="rect" id="node8" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,157,409,184"/>
-<area shape="rect" id="node12" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,208,397,235"/>
-<area shape="rect" id="node9" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="457,107,588,133"/>
-<area shape="rect" id="node10" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="471,208,575,235"/>
-<area shape="rect" id="node11" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="485,157,561,184"/>
-<area shape="rect" id="node13" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="477,259,569,285"/>
+<area shape="rect" id="node3" href="group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="170,487,255,513"/>
+<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="657,436,708,463"/>
+<area shape="rect" id="node8" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="786,512,833,539"/>
+<area shape="rect" id="node14" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="171,259,254,285"/>
+<area shape="rect" id="node16" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="336,360,383,387"/>
+<area shape="rect" id="node22" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="164,867,261,893"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="650,917,715,944"/>
+<area shape="rect" id="node11" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="312,461,407,488"/>
+<area shape="rect" id="node12" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="323,512,395,539"/>
+<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="783,867,836,893"/>
+<area shape="rect" id="node7" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="777,968,841,995"/>
+<area shape="rect" id="node9" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="779,917,839,944"/>
+<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="783,1019,836,1045"/>
+<area shape="rect" id="node13" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="490,765,555,792"/>
+<area shape="rect" id="node15" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="499,259,546,285"/>
+<area shape="rect" id="node17" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="312,309,407,336"/>
+<area shape="rect" id="node18" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="485,309,560,336"/>
+<area shape="rect" id="node19" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="493,360,553,387"/>
+<area shape="rect" id="node20" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="492,664,553,691"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="643,715,722,741"/>
+<area shape="rect" id="node23" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,867,409,893"/>
+<area shape="rect" id="node27" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,1069,397,1096"/>
+<area shape="rect" id="node24" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="457,867,588,893"/>
+<area shape="rect" id="node25" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="471,968,575,995"/>
+<area shape="rect" id="node26" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="485,613,561,640"/>
+<area shape="rect" id="node28" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="466,1120,579,1147"/>
+<area shape="rect" id="node29" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="636,1019,729,1045"/>
+<area shape="rect" id="node30" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="477,1019,569,1045"/>
+<area shape="rect" id="node31" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="471,1069,575,1096"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_icgraph.png" border="0" usemap="#group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_icgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_icgraph" id="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_icgraph">
 <area shape="rect" id="node2" href="group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="164,5,251,32"/>
@@ -1156,7 +1487,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 24 2017 16:19:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jan 24 2017 16:27:17 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

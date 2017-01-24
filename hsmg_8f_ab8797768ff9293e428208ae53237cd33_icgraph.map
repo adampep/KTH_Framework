@@ -1,0 +1,8 @@
+<map id="hsmg_coarse_solve" name="hsmg_coarse_solve">
+<area shape="rect" id="node2" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="192,5,284,32"/>
+<area shape="rect" id="node5" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="192,56,284,83"/>
+<area shape="rect" id="node3" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="332,5,435,32"/>
+<area shape="rect" id="node4" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title="esolver" alt="" coords="483,5,547,32"/>
+<area shape="rect" id="node6" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title="hmh_gmres" alt="" coords="338,56,429,83"/>
+<area shape="rect" id="node7" href="$hmholtz_8f.html#a8734f3cc2d37d6a2ccd1daa8db57513d" title="cggo" alt="" coords="489,56,540,83"/>
+</map>

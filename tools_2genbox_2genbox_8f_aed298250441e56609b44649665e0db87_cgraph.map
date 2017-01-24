@@ -1,0 +1,6 @@
+<map id="set_logical" name="set_logical">
+<area shape="rect" id="node2" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="139,5,193,32"/>
+<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#ab395a30db1137d3deabe520b8e73097d" title="ccopy" alt="" coords="137,56,195,83"/>
+<area shape="rect" id="node4" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="139,107,193,133"/>
+<area shape="rect" id="node5" href="$math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="139,157,193,184"/>
+</map>

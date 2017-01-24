@@ -1,7 +1,20 @@
 <map id="stat_gl_collation" name="stat_gl_collation">
-<area shape="rect" id="node2" href="$avg__spt_8f.html#a9b903cfbbdd2a206dc092e2ea206705e" title="colldata" alt="" coords="191,5,257,32"/>
-<area shape="rect" id="node3" href="$avg__spt_8f.html#a236762eaa97c15e967e6ca282d8db959" title="msgwaitstat" alt="" coords="177,56,271,83"/>
-<area shape="rect" id="node4" href="$avg__spt_8f.html#a9629e73cd7f2ca103b2b39e0da96b99c" title="senddata" alt="" coords="187,107,261,133"/>
-<area shape="rect" id="node5" href="$avg__spt_8f.html#ae2d83fc8bd7f811af463a8a913e3ecc7" title="sendmap" alt="" coords="187,157,261,184"/>
-<area shape="rect" id="node6" href="$avg__spt_8f.html#a326cbad0835af0eeeddafe0a5eab4d96" title="trnsfm_recmap" alt="" coords="169,208,279,235"/>
+<area shape="rect" id="node2" href="$math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="345,13,395,39"/>
+<area shape="rect" id="node3" href="$avg__spt_8f.html#a9b903cfbbdd2a206dc092e2ea206705e" title="colldata" alt="" coords="191,38,257,65"/>
+<area shape="rect" id="node4" href="$math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="193,89,255,115"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#af79af788fda578a00994523fd8ef5e48" title="mpi_get_count" alt="" coords="171,139,277,166"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="189,190,259,217"/>
+<area shape="rect" id="node10" href="$avg__spt_8f.html#a236762eaa97c15e967e6ca282d8db959" title="msgwaitstat" alt="" coords="177,241,271,267"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="185,291,263,318"/>
+<area shape="rect" id="node13" href="$avg__spt_8f.html#a9629e73cd7f2ca103b2b39e0da96b99c" title="senddata" alt="" coords="187,342,261,369"/>
+<area shape="rect" id="node18" href="$avg__spt_8f.html#ae2d83fc8bd7f811af463a8a913e3ecc7" title="sendmap" alt="" coords="187,393,261,419"/>
+<area shape="rect" id="node19" href="$avg__spt_8f.html#a326cbad0835af0eeeddafe0a5eab4d96" title="trnsfm_recmap" alt="" coords="169,443,279,470"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="329,89,411,115"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="461,89,547,115"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="333,190,407,217"/>
+<area shape="rect" id="node12" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="327,241,413,267"/>
+<area shape="rect" id="node14" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="345,291,395,318"/>
+<area shape="rect" id="node15" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="341,393,399,419"/>
+<area shape="rect" id="node17" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="345,342,395,369"/>
+<area shape="rect" id="node16" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="465,393,543,419"/>
 </map>

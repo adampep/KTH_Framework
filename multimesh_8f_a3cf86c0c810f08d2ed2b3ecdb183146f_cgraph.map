@@ -1,0 +1,9 @@
+<map id="happy_check" name="happy_check">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="437,5,484,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="181,56,237,83"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="159,107,260,133"/>
+<area shape="rect" id="node8" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="152,157,267,184"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="315,56,361,83"/>
+<area shape="rect" id="node5" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="434,56,487,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="409,107,512,133"/>
+</map>

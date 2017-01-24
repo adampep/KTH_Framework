@@ -1,0 +1,12 @@
+<map id="lorentz_force" name="lorentz_force">
+<area shape="rect" id="node2" href="$induct_8f.html#ae4aad436730b0ff07bdad407671e6fae" title="curl" alt="" coords="151,132,193,159"/>
+<area shape="rect" id="node3" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="371,107,417,133"/>
+<area shape="rect" id="node4" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="243,56,304,83"/>
+<area shape="rect" id="node7" href="$navier1_8f.html#aee3ef7096c2b505346f996daf6cf6cd3" title="dudxyz" alt="" coords="241,157,305,184"/>
+<area shape="rect" id="node11" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="248,208,299,235"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="353,5,435,32"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="355,56,433,83"/>
+<area shape="rect" id="node8" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="360,157,428,184"/>
+<area shape="rect" id="node9" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="369,208,419,235"/>
+<area shape="rect" id="node10" href="$math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="361,259,427,285"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="vdraw" name="vdraw">
+<area shape="rect" id="node2" href="$postnek_2screen_8f.html#acced2c4e938290b28ccb029ef2ecc477" title="drwobj" alt="" coords="128,715,188,741"/>
+<area shape="rect" id="node22" href="$prenek_2screen_8f.html#a3cd57d122c9bcf2aac971ce7d5a35f2d" title="drgrid" alt="" coords="410,816,465,843"/>
+<area shape="rect" id="node23" href="$prenek_2screen_8f.html#a6717b1c720b337c38aea734c68c219fe" title="drwobj_dash" alt="" coords="111,765,205,792"/>
+<area shape="rect" id="node24" href="$prenek_2screen_8f.html#ab507288fad9d8baf1e240776ec22472f" title="dr_bezier" alt="" coords="121,867,195,893"/>
+<area shape="rect" id="node3" href="$postnek_2screen_8f.html#a3cd57d122c9bcf2aac971ce7d5a35f2d" title="drgrid" alt="" coords="259,385,314,412"/>
+<area shape="rect" id="node20" href="$postnek_2screen_8f.html#aa23ca924dea1db88a700085004dc836a" title="setobj" alt="" coords="258,715,315,741"/>
+<area shape="rect" id="node21" href="$prenek_2screen_8f.html#a26c246fba4c19be279b9e3d4d7cd8449" title="drwobjs" alt="" coords="253,765,320,792"/>
+<area shape="rect" id="node4" href="$tools_2postnek_2vprops_8f.html#a895c417a4106672b662bf2fb96b26f06" title="vprops" alt="" coords="407,107,468,133"/>
+<area shape="rect" id="node5" href="$postnek_2screen_8f.html#a3efa5e887ada6fec8386c93b779c0bcf" title="setgrd" alt="" coords="408,208,467,235"/>
+<area shape="rect" id="node6" href="$build_8f.html#a6ee6ba21247a79cb4ce5c140c7d30b7c" title="build1" alt="" coords="555,613,611,640"/>
+<area shape="rect" id="node7" href="$postnek_2screen_8f.html#a69a1180f4cbedbd63ae22830203bff5d" title="setrans" alt="" coords="405,360,470,387"/>
+<area shape="rect" id="node8" href="$prenek_2screen_8f.html#ab716cfca4f841d2338ee84e8e4d7dac3" title="redraw_mesh" alt="" coords="387,765,487,792"/>
+<area shape="rect" id="node10" href="$prenek_2screen_8f.html#a658dcd3462d269118c2e35dd191e0edc" title="redraw_mesh_small" alt="" coords="368,664,507,691"/>
+<area shape="rect" id="node11" href="$bound_8f.html#a735f43bba78b2718d762c92d72996413" title="rezoom" alt="" coords="405,411,470,437"/>
+<area shape="rect" id="node12" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="555,81,611,108"/>
+<area shape="rect" id="node13" href="$build_8f.html#a92428172ea054795bc7f4b3a6533cffd" title="setscl" alt="" coords="409,5,466,32"/>
+<area shape="rect" id="node14" href="$build_8f.html#a8907c829f1285b3593359db4a8347b7e" title="delete" alt="" coords="409,461,466,488"/>
+<area shape="rect" id="node15" href="$edit_8f.html#a03bb8028670672390a8f4aa58934809c" title="mesh_edit" alt="" coords="396,259,479,285"/>
+<area shape="rect" id="node16" href="$glomod_8f.html#a8fcf3f2eff03a6e0df10d6cecf1f1966" title="mult_del" alt="" coords="402,512,473,539"/>
+<area shape="rect" id="node17" href="$glomod_8f.html#acf879c88a971e5f816165644d1603482" title="clippern" alt="" coords="404,563,471,589"/>
+<area shape="rect" id="node18" href="$prenek_8f.html#ae271080c3b7fd4b2700e3efc9aa0a061" title="after_build" alt="" coords="396,56,479,83"/>
+<area shape="rect" id="node19" href="$zipper2_8f.html#a2643cecd7739476badc8b59cd69c442a" title="renum_special" alt="" coords="384,309,491,336"/>
+<area shape="rect" id="node9" href="$prenek_2screen_8f.html#aa23ca924dea1db88a700085004dc836a" title="setobj" alt="" coords="555,816,612,843"/>
+<area shape="rect" id="node25" href="$prenek_2screen_8f.html#a30832db97c555fca0f56d284793ba3e3" title="bezier" alt="" coords="258,867,315,893"/>
+</map>

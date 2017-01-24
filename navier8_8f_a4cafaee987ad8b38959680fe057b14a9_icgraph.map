@@ -1,0 +1,17 @@
+<map id="tuple_sort" name="tuple_sort">
+<area shape="rect" id="node2" href="$genmap_8f.html#a0d1b6bfb23510f801fb3f23301af1062" title="unique_vertex2" alt="" coords="132,81,243,108"/>
+<area shape="rect" id="node8" href="$nekmerge_8f.html#ae804ac1012b422a36674f516abcdbef4" title="global_fnbr" alt="" coords="145,157,230,184"/>
+<area shape="rect" id="node11" href="$trap_8f.html#a317f53fd96fcf2dadc3ca26779f72f7b" title="set_cluster" alt="" coords="144,208,231,235"/>
+<area shape="rect" id="node14" href="$group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="133,259,241,285"/>
+<area shape="rect" id="node16" href="$avg__spt_8f.html#aaf88745b5387f32cd7b6cbd5d3aea46c" title="stat_init_global" alt="" coords="133,309,242,336"/>
+<area shape="rect" id="node3" href="$genmap_8f.html#a9b711f022616b7896ad2159c42f97f47" title="makemesh" alt="" coords="295,5,381,32"/>
+<area shape="rect" id="node5" href="$build_8f.html#a235b8c89d131abc0f28926558ea63798" title="makecell" alt="" coords="301,81,375,108"/>
+<area shape="rect" id="node4" href="$genmap_8f.html#a9292fa09096386a7603b5a2634730479" title="genmap" alt="" coords="473,5,541,32"/>
+<area shape="rect" id="node6" href="$build_8f.html#afb97e8e51f78e236bca59efba0b94a21" title="cell_cell_connectivity" alt="" coords="433,56,580,83"/>
+<area shape="rect" id="node7" href="$glomod_8f.html#a74fa431ce14df2e1f4f4b4cfa6963ddb" title="smoother2" alt="" coords="465,107,548,133"/>
+<area shape="rect" id="node9" href="$nekmerge_8f.html#ace8216e6e1ef191f5a08d1c019855fac" title="set_ee_bcs" alt="" coords="293,157,383,184"/>
+<area shape="rect" id="node10" href="$nekmerge_8f.html#ac5b8a256442025ae7a35ae8e8dfb28a9" title="nekmerge" alt="" coords="467,157,546,184"/>
+<area shape="rect" id="node12" href="$trap_8f.html#a1f95ef6544d485943c89c1386fbeb40f" title="avg_u_radial" alt="" coords="291,208,385,235"/>
+<area shape="rect" id="node13" href="$trap_8f.html#a7150c1d8b77441967e4c1b3adb48227f" title="avg_uvwpt_radial" alt="" coords="445,208,568,235"/>
+<area shape="rect" id="node15" href="$group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="301,259,375,285"/>
+</map>

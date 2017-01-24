@@ -1,4 +1,14 @@
 <map id="chkpt_write" name="chkpt_write">
-<area shape="rect" id="node2" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="157,5,251,32"/>
-<area shape="rect" id="node3" href="$group__chkpoint__dns__lin.html#ga51e97a641b801dc9c5e5f9aa80866282" title="Save checkpoint variables in a single set of files. " alt="" coords="143,56,265,83"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="547,157,612,184"/>
+<area shape="rect" id="node9" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="157,208,251,235"/>
+<area shape="rect" id="node10" href="$group__chkpoint__dns__lin.html#ga51e97a641b801dc9c5e5f9aa80866282" title="Save checkpoint variables in a single set of files. " alt="" coords="143,259,265,285"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="665,56,719,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="660,107,724,133"/>
+<area shape="rect" id="node5" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="867,208,913,235"/>
+<area shape="rect" id="node6" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="662,208,722,235"/>
+<area shape="rect" id="node8" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="665,5,719,32"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="772,208,819,235"/>
+<area shape="rect" id="node11" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="313,259,385,285"/>
+<area shape="rect" id="node12" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="441,309,491,336"/>
+<area shape="rect" id="node13" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="433,208,499,235"/>
 </map>

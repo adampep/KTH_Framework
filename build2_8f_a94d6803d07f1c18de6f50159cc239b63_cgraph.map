@@ -1,0 +1,6 @@
+<map id="proj2plane" name="proj2plane">
+<area shape="rect" id="node2" href="$math_8f.html#af75d691116fa36c290d6a2848b113928" title="chsign" alt="" coords="158,5,218,32"/>
+<area shape="rect" id="node3" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="168,56,208,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="163,107,213,133"/>
+<area shape="rect" id="node5" href="$userf_8f.html#a44a6660954f5cbc970c7a4a7663a5d12" title="vcross_normal" alt="" coords="135,157,241,184"/>
+</map>

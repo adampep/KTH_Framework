@@ -1,0 +1,8 @@
+<map id="swap_lengths" name="swap_lengths">
+<area shape="rect" id="node2" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="173,31,234,57"/>
+<area shape="rect" id="node7" href="$fast3d_8f.html#a657bf5a4b87c3e07069aa7bbc7d4ee43" title="plane_space" alt="" coords="156,81,251,108"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="299,5,380,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="300,56,379,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="429,5,514,32"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="428,56,515,83"/>
+</map>

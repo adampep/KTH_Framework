@@ -1,0 +1,12 @@
+<map id="rdhist" name="rdhist">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="113,19,168,45"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="236,56,289,83"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="108,157,173,184"/>
+<area shape="rect" id="node7" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="447,208,493,235"/>
+<area shape="rect" id="node11" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="115,360,166,387"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="221,5,304,32"/>
+<area shape="rect" id="node6" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="231,107,295,133"/>
+<area shape="rect" id="node8" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="233,208,293,235"/>
+<area shape="rect" id="node10" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="236,259,289,285"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="352,208,399,235"/>
+</map>

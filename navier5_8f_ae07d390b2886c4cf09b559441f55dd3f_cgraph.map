@@ -1,0 +1,32 @@
+<map id="torque_calc" name="torque_calc">
+<area shape="rect" id="node2" href="$math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="148,5,212,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#ab95827421c17318596b9c66d38e7d1d5" title="cadd2" alt="" coords="151,56,209,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#add7cf4f5279a2239cfd54f963a53e618" title="cfill" alt="" coords="159,107,201,133"/>
+<area shape="rect" id="node5" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="153,157,207,184"/>
+<area shape="rect" id="node6" href="$navier5_8f.html#a185d4885f14595e2815a867b5b1efdad" title="comp_sij" alt="" coords="143,208,217,235"/>
+<area shape="rect" id="node12" href="$navier5_8f.html#a265ad5efc261b013c1ef3f99748f2b58" title="drgtrq" alt="" coords="153,664,207,691"/>
+<area shape="rect" id="node15" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="281,411,338,437"/>
+<area shape="rect" id="node16" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="414,411,457,437"/>
+<area shape="rect" id="node21" href="$math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="153,309,207,336"/>
+<area shape="rect" id="node22" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="150,740,210,767"/>
+<area shape="rect" id="node25" href="$navier5_8f.html#a57f63ab0ef01ccae40715cb16224349a" title="mappr" alt="" coords="280,259,339,285"/>
+<area shape="rect" id="node28" href="$connect2_8f.html#a6e862f603b59c81091476a690c5e94ee" title="scale" alt="" coords="153,537,207,564"/>
+<area shape="rect" id="node7" href="$navier5_8f.html#a53feb767cebebba399ab3c5a50f53155" title="local_grad2" alt="" coords="265,157,353,184"/>
+<area shape="rect" id="node9" href="$navier5_8f.html#ad24367e4a843f60b63a2205aef1ba551" title="local_grad3" alt="" coords="265,208,353,235"/>
+<area shape="rect" id="node10" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="401,132,469,159"/>
+<area shape="rect" id="node8" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="410,208,461,235"/>
+<area shape="rect" id="node11" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="543,259,594,285"/>
+<area shape="rect" id="node13" href="$connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="282,715,337,741"/>
+<area shape="rect" id="node14" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="284,664,335,691"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="528,309,609,336"/>
+<area shape="rect" id="node18" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="545,411,592,437"/>
+<area shape="rect" id="node19" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="517,461,620,488"/>
+<area shape="rect" id="node20" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="529,360,608,387"/>
+<area shape="rect" id="node23" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="412,487,459,513"/>
+<area shape="rect" id="node24" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="542,512,595,539"/>
+<area shape="rect" id="node26" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="412,360,459,387"/>
+<area shape="rect" id="node27" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="405,309,466,336"/>
+<area shape="rect" id="node29" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="281,613,338,640"/>
+<area shape="rect" id="node30" href="$connect2_8f.html#a15434c453b53c83ba2cb2a768d35085e" title="inrtia" alt="" coords="284,461,335,488"/>
+<area shape="rect" id="node31" href="$connect2_8f.html#a87e4cf77e2fcb243172fa8da88d5dfae" title="volume2" alt="" coords="274,512,345,539"/>
+</map>

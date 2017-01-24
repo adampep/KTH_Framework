@@ -1,0 +1,7 @@
+<map id="newcurve" name="newcurve">
+<area shape="rect" id="node2" href="$n2to3_8f.html#a394749537354f0509aa8bf67caa8a37b" title="get_midside" alt="" coords="132,5,224,32"/>
+<area shape="rect" id="node4" href="$n2to3_8f.html#a838d84585fb9a4640fc1c6b2bdc9e1a8" title="outcurve" alt="" coords="142,56,214,83"/>
+<area shape="rect" id="node6" href="$n2to3_8f.html#a26c03d72410c21aff0ed9ea3d3eef6f5" title="sweep_circ" alt="" coords="134,107,222,133"/>
+<area shape="rect" id="node3" href="$math_8f.html#a18da186617e323c027aa36f56343e400" title="mod1" alt="" coords="277,5,331,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="272,56,336,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="self_chk" name="self_chk">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="133,5,180,32"/>
+<area shape="rect" id="node3" href="$map2_8f.html#a40168bc8e07df5fcafc8fac28c80441b" title="outmati" alt="" coords="124,56,189,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="237,56,316,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="364,56,451,83"/>
+</map>

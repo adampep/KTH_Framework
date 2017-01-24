@@ -1,0 +1,17 @@
+<map id="auto_size_pixel_window" name="auto_size_pixel_window">
+<area shape="rect" id="node2" href="$postnek9_8f.html#af4d53c1c9741b65d4f48e37591b68a39" title="quick_get_box" alt="" coords="216,225,323,251"/>
+<area shape="rect" id="node9" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="633,22,680,49"/>
+<area shape="rect" id="node10" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="633,73,680,99"/>
+<area shape="rect" id="node15" href="$postnek_2xinterface_8f.html#aae51c0482b994611d7a882c59204835f" title="scoordx" alt="" coords="235,377,303,403"/>
+<area shape="rect" id="node16" href="$postnek_2xinterface_8f.html#a910f02566c930fd32f763e48d2435501" title="scoordy" alt="" coords="235,427,303,454"/>
+<area shape="rect" id="node3" href="$trap_8f.html#a68c80a990bf60cd8b983f6c2b012a78c" title="quickscan_xy" alt="" coords="371,275,473,302"/>
+<area shape="rect" id="node6" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="391,225,453,251"/>
+<area shape="rect" id="node7" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="393,98,451,125"/>
+<area shape="rect" id="node13" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="402,174,442,201"/>
+<area shape="rect" id="node4" href="$postnek_2plot_8f.html#a1692babb5ece1bc4ad2785994999a8fe" title="xiso" alt="" coords="530,225,577,251"/>
+<area shape="rect" id="node5" href="$postnek_2plot_8f.html#ae265a6274cb6098ee60c6560e9977ca9" title="yiso" alt="" coords="530,275,577,302"/>
+<area shape="rect" id="node8" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="526,22,581,49"/>
+<area shape="rect" id="node11" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="533,123,573,150"/>
+<area shape="rect" id="node12" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="528,73,579,99"/>
+<area shape="rect" id="node14" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="521,174,585,201"/>
+</map>

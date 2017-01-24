@@ -1,0 +1,10 @@
+<map id="centralinviscid_fluxfunction" name="centralinviscid_fluxfunction">
+<area shape="rect" id="node2" href="$inflow__bc_8f.html#afc144e6c03098b855983465787888ae9" title="inflow_rflu" alt="" coords="237,5,318,32"/>
+<area shape="rect" id="node6" href="$outflow__bc_8f.html#a5cd60209078677665983be9203978140" title="outflow_rflu" alt="" coords="233,56,322,83"/>
+<area shape="rect" id="node8" href="$wall__bc_8f.html#a35d05746a590f5692773bf23511755d9" title="slipwall_rflu" alt="" coords="232,107,323,133"/>
+<area shape="rect" id="node3" href="$inflow__bc_8f.html#a4c35f8c9bfa750662ee53320b3d6c2ec" title="inflow" alt="" coords="375,5,431,32"/>
+<area shape="rect" id="node4" href="$surface__fluxes_8f.html#a0c7f45ae75e5a08dc4393b8b68594d79" title="inviscidflux" alt="" coords="483,56,569,83"/>
+<area shape="rect" id="node5" href="$bound_8f.html#aba9a67d56085ab4fbc87a0e009aaf19f" title="set_bc_fld" alt="" coords="485,5,567,32"/>
+<area shape="rect" id="node7" href="$outflow__bc_8f.html#a612ede8af5852659206ba91602c93b8c" title="outflow" alt="" coords="371,56,435,83"/>
+<area shape="rect" id="node9" href="$wall__bc_8f.html#a1ee141c5e11aa2d70f239d00b31b616c" title="wallbc" alt="" coords="373,107,432,133"/>
+</map>

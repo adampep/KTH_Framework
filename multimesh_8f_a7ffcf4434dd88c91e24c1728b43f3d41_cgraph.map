@@ -1,0 +1,14 @@
+<map id="uglamax" name="uglamax">
+<area shape="rect" id="node2" href="$math_8f.html#ad52d460588be4ef01891806b14c0ecda" title="glamax" alt="" coords="141,132,205,159"/>
+<area shape="rect" id="node9" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="124,208,223,235"/>
+<area shape="rect" id="node12" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="277,259,379,285"/>
+<area shape="rect" id="node13" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="271,309,385,336"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="435,107,478,133"/>
+<area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="554,5,605,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="539,56,620,83"/>
+<area shape="rect" id="node6" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="556,208,603,235"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="528,157,631,184"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="540,107,619,133"/>
+<area shape="rect" id="node10" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="300,157,356,184"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="433,157,480,184"/>
+</map>

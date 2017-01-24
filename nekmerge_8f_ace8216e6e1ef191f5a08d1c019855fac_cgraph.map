@@ -1,0 +1,18 @@
+<map id="set_ee_bcs" name="set_ee_bcs">
+<area shape="rect" id="node2" href="$nekmerge_8f.html#ad09c87bcfd210bb971b793eedff7f199" title="f_pairing" alt="" coords="143,51,213,77"/>
+<area shape="rect" id="node5" href="$nekmerge_8f.html#adc32c5734f0f8f43666ceabe29d09879" title="get_side" alt="" coords="143,152,213,179"/>
+<area shape="rect" id="node13" href="$nekmerge_8f.html#ae804ac1012b422a36674f516abcdbef4" title="global_fnbr" alt="" coords="363,101,448,128"/>
+<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="655,127,702,153"/>
+<area shape="rect" id="node4" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="263,51,313,77"/>
+<area shape="rect" id="node6" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="380,152,431,179"/>
+<area shape="rect" id="node7" href="$connect2_8f.html#a6e862f603b59c81091476a690c5e94ee" title="scale" alt="" coords="261,228,315,255"/>
+<area shape="rect" id="node8" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="377,253,434,280"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="529,253,572,280"/>
+<area shape="rect" id="node11" href="$connect2_8f.html#a15434c453b53c83ba2cb2a768d35085e" title="inrtia" alt="" coords="380,355,431,381"/>
+<area shape="rect" id="node12" href="$connect2_8f.html#a87e4cf77e2fcb243172fa8da88d5dfae" title="volume2" alt="" coords="370,203,441,229"/>
+<area shape="rect" id="node10" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="653,203,704,229"/>
+<area shape="rect" id="node14" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="524,51,577,77"/>
+<area shape="rect" id="node15" href="$math_8f.html#a738abeedcb1c393dd45b76c72b18939f" title="iswap_ip" alt="" coords="514,101,587,128"/>
+<area shape="rect" id="node16" href="$navier8_8f.html#a4cafaee987ad8b38959680fe057b14a9" title="tuple_sort" alt="" coords="511,203,590,229"/>
+<area shape="rect" id="node17" href="$genmap_8f.html#aafdee81bb69e97b8d8f72c1fc2d297c1" title="tuple_swapt_ip" alt="" coords="496,152,605,179"/>
+</map>

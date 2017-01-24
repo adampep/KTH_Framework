@@ -1,0 +1,20 @@
+<map id="y_avg_buff" name="y_avg_buff">
+<area shape="rect" id="node2" href="$navier5_8f.html#ad898dd9dc938e307b09d3b648ae6ae31" title="buff_2d_out" alt="" coords="140,228,231,255"/>
+<area shape="rect" id="node12" href="$navier5_8f.html#afc981db1d6064ff910b880956013dd10" title="y_average" alt="" coords="144,385,227,412"/>
+<area shape="rect" id="node3" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="441,309,492,336"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="287,183,353,209"/>
+<area shape="rect" id="node10" href="$navier5_8f.html#abfa36016a152bb54c570afaf2d486d81" title="outfld2d_p" alt="" coords="279,56,361,83"/>
+<area shape="rect" id="node5" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="440,56,493,83"/>
+<area shape="rect" id="node6" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="435,208,499,235"/>
+<area shape="rect" id="node7" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="443,259,490,285"/>
+<area shape="rect" id="node8" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="437,107,497,133"/>
+<area shape="rect" id="node9" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="440,157,493,184"/>
+<area shape="rect" id="node11" href="$navier5_8f.html#a65fc009edc773fa18c30b07586e8b366" title="dump_header2d" alt="" coords="409,5,524,32"/>
+<area shape="rect" id="node13" href="$navier5_8f.html#ab52fb19f2ec15bc259fa80ac383d4db0" title="get_exyz" alt="" coords="283,411,357,437"/>
+<area shape="rect" id="node15" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="299,360,341,387"/>
+<area shape="rect" id="node19" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="295,461,345,488"/>
+<area shape="rect" id="node14" href="$math_8f.html#a18da186617e323c027aa36f56343e400" title="mod1" alt="" coords="439,512,494,539"/>
+<area shape="rect" id="node16" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="426,461,507,488"/>
+<area shape="rect" id="node17" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="415,360,518,387"/>
+<area shape="rect" id="node18" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="427,411,506,437"/>
+</map>

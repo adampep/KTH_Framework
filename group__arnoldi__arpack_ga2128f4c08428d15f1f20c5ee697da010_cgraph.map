@@ -1,3 +1,14 @@
 <map id="arn_naupd" name="arn_naupd">
-<area shape="rect" id="node2" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="136,5,231,32"/>
+<area shape="rect" id="node2" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="293,5,339,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="160,107,207,133"/>
+<area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="158,157,209,184"/>
+<area shape="rect" id="node5" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="160,208,207,235"/>
+<area shape="rect" id="node6" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="136,56,231,83"/>
+<area shape="rect" id="node7" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="279,107,353,133"/>
+<area shape="rect" id="node12" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="286,157,346,184"/>
+<area shape="rect" id="node13" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="415,56,477,83"/>
+<area shape="rect" id="node8" href="$navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title="rotate_cyc" alt="" coords="405,107,487,133"/>
+<area shape="rect" id="node9" href="$dssum_8f.html#a04a475747f747981907f8e5203c421ed" title="vec_dssum" alt="" coords="401,157,491,184"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="539,69,620,96"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="540,132,619,159"/>
 </map>

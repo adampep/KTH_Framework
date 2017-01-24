@@ -1,0 +1,21 @@
+<map id="opnorm" name="opnorm">
+<area shape="rect" id="node2" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="342,81,399,108"/>
+<area shape="rect" id="node9" href="$subs1_8f.html#a8f2e17fa9df4e1df865aa17b294f867c" title="unorm" alt="" coords="119,233,177,260"/>
+<area shape="rect" id="node20" href="$navier4_8f.html#a6adc3e5d428cdceba2217edd727ab4ae" title="vlsc3" alt="" coords="121,284,175,311"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="461,81,504,108"/>
+<area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="589,157,639,184"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="573,309,655,336"/>
+<area shape="rect" id="node6" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="591,5,637,32"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="563,56,665,83"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="575,107,653,133"/>
+<area shape="rect" id="node10" href="$navier1_8f.html#a99a692f0ae41114b4725a9cf62458f1f" title="normvc" alt="" coords="225,436,291,463"/>
+<area shape="rect" id="node19" href="$navier1_8f.html#af8f288bd13e9077cfadcd76c95c59dc5" title="normsc" alt="" coords="225,233,291,260"/>
+<area shape="rect" id="node11" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="591,639,637,665"/>
+<area shape="rect" id="node12" href="$math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="589,563,639,589"/>
+<area shape="rect" id="node13" href="$math_8f.html#ad52d460588be4ef01891806b14c0ecda" title="glamax" alt="" coords="339,284,403,311"/>
+<area shape="rect" id="node14" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="591,436,637,463"/>
+<area shape="rect" id="node15" href="$math_8f.html#ae1294c8ac3b5b3c38bbcc250d252b9cb" title="rone" alt="" coords="347,385,394,412"/>
+<area shape="rect" id="node16" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="589,487,639,513"/>
+<area shape="rect" id="node17" href="$navier1_8f.html#aaf82c7bf142ad5f9c363e3dc3c39fa3c" title="ophx" alt="" coords="345,487,396,513"/>
+<area shape="rect" id="node18" href="$hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="451,487,515,513"/>
+</map>

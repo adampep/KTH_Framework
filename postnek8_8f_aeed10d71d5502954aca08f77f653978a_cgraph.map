@@ -1,0 +1,11 @@
+<map id="angle_fix" name="angle_fix">
+<area shape="rect" id="node2" href="$math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="145,5,196,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="143,56,198,83"/>
+<area shape="rect" id="node4" href="$core_2genxyz_8f.html#abaf230ec04e873e9768e7ea62dc6b1a0" title="cross" alt="" coords="143,107,198,133"/>
+<area shape="rect" id="node5" href="$core_2genxyz_8f.html#ab1ce14609c107357a717ecb7506eb781" title="norm3d" alt="" coords="138,157,203,184"/>
+<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="145,208,196,235"/>
+<area shape="rect" id="node8" href="$math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="145,259,196,285"/>
+<area shape="rect" id="node9" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="145,309,196,336"/>
+<area shape="rect" id="node10" href="$postnek8_8f.html#a2f60ec833b63661b8cad42e24a6713a1" title="vec_length" alt="" coords="128,360,213,387"/>
+<area shape="rect" id="node6" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="261,157,301,184"/>
+</map>

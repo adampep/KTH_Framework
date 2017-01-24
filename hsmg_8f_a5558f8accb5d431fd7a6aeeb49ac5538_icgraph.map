@@ -1,0 +1,12 @@
+<map id="hsmg_schwarz_toreg2d" name="hsmg_schwarz_toreg2d">
+<area shape="rect" id="node2" href="$hsmg_8f.html#a41ea2767327fa20d88571c3a13e7d5ac" title="h1mg_schwarz_part1" alt="" coords="232,5,379,32"/>
+<area shape="rect" id="node5" href="$hsmg_8f.html#a66d72f30649dfb581129bf9adafe017f" title="hsmg_schwarz" alt="" coords="250,56,361,83"/>
+<area shape="rect" id="node7" href="$hsmg_8f.html#a3a1d835d21909b14006ae8ccb47e038b" title="h1mg_setup_schwarz_wt_1" alt="" coords="213,107,397,133"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title="h1mg_schwarz" alt="" coords="475,5,586,32"/>
+<area shape="rect" id="node4" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="665,5,757,32"/>
+<area shape="rect" id="node6" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="485,56,577,83"/>
+<area shape="rect" id="node8" href="$hsmg_8f.html#accbdb01566e67145d38e52bbca5745ca" title="hsmg_setup_schwarz_wt" alt="" coords="445,107,616,133"/>
+<area shape="rect" id="node10" href="$hsmg_8f.html#a384ba9e93b27030f6644852cfaec8b8b" title="h1mg_setup_schwarz_wt" alt="" coords="445,157,616,184"/>
+<area shape="rect" id="node9" href="$hsmg_8f.html#a5b9a68644a0879d9edf2c00a48f74126" title="hsmg_setup" alt="" coords="664,107,757,133"/>
+<area shape="rect" id="node11" href="$hsmg_8f.html#a6dff08ef961a6a5565642ab92a12b1e8" title="h1mg_setup" alt="" coords="664,157,757,184"/>
+</map>

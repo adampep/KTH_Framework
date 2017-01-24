@@ -1,0 +1,7 @@
+<map id="byte_write_" name="byte_write_">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#af1bae61615e1c13f98e0b73fd39b2464" title="byte_read" alt="" coords="159,5,238,32"/>
+<area shape="rect" id="node3" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="337,56,387,83"/>
+<area shape="rect" id="node4" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="143,107,255,133"/>
+<area shape="rect" id="node5" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="303,107,421,133"/>
+<area shape="rect" id="node6" href="$prenek_8f.html#ae44e3fff1eecf95252efbb1abfb76a40" title="exit" alt="" coords="469,107,512,133"/>
+</map>

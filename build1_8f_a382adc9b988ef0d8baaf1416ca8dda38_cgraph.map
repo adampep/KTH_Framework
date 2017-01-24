@@ -1,0 +1,35 @@
+<map id="drawel" name="drawel">
+<area shape="rect" id="node2" href="$postnek_2xinterface_8f.html#a7c6bc0acf46b543c61b1bcf3bf2d4aea" title="beginb" alt="" coords="443,121,503,148"/>
+<area shape="rect" id="node8" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="551,70,612,97"/>
+<area shape="rect" id="node9" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="115,121,170,148"/>
+<area shape="rect" id="node10" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="444,172,501,198"/>
+<area shape="rect" id="node14" href="$postnek_2xinterface_8f.html#a5d1d5eed3065d1ccf65bb3d010226db0" title="endp" alt="" coords="447,20,498,46"/>
+<area shape="rect" id="node15" href="$postnek_2xinterface_8f.html#a27cb1da06839d074efcde9d4998103ee" title="fillp" alt="" coords="451,222,494,249"/>
+<area shape="rect" id="node16" href="$postnek_2plot_8f.html#a8e1130cc783afb04a805017d800b7f60" title="getpts" alt="" coords="113,526,172,553"/>
+<area shape="rect" id="node20" href="$postnek_2xinterface_8f.html#ae0a3a2ae9aee23121a61b3802d0826df" title="gwrite" alt="" coords="553,374,610,401"/>
+<area shape="rect" id="node26" href="$postnek_2iolib_8f.html#ab88d1b26d6822a97d16aa8f40419c55d" title="prsi" alt="" coords="231,678,274,705"/>
+<area shape="rect" id="node27" href="$math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title="sort" alt="" coords="121,678,165,705"/>
+<area shape="rect" id="node28" href="$postnek_2plot_8f.html#a1692babb5ece1bc4ad2785994999a8fe" title="xiso" alt="" coords="119,780,166,806"/>
+<area shape="rect" id="node31" href="$postnek_2plot_8f.html#ae2577a05732077bec366eaff43536785" title="xisom" alt="" coords="114,830,171,857"/>
+<area shape="rect" id="node32" href="$postnek_2plot_8f.html#ae265a6274cb6098ee60c6560e9977ca9" title="yiso" alt="" coords="119,881,166,908"/>
+<area shape="rect" id="node33" href="$postnek_2plot_8f.html#a42318d0273698368ebfe7965432578dc" title="yisom" alt="" coords="114,932,171,958"/>
+<area shape="rect" id="node34" href="$postnek_2plot_8f.html#a45adc1c9b64a014ff32ce5896ae2ca0f" title="ziso" alt="" coords="119,729,166,756"/>
+<area shape="rect" id="node3" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="776,146,815,173"/>
+<area shape="rect" id="node4" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="554,222,609,249"/>
+<area shape="rect" id="node5" href="$postnek_2xinterface_8f.html#a22eca17c14bd8636f3cae9df2af7bda8" title="movesc" alt="" coords="660,178,728,205"/>
+<area shape="rect" id="node6" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="671,317,717,344"/>
+<area shape="rect" id="node7" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="671,374,717,401"/>
+<area shape="rect" id="node11" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="561,172,601,198"/>
+<area shape="rect" id="node12" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="556,273,607,300"/>
+<area shape="rect" id="node13" href="$postnek_2xinterface_8f.html#aca8979e3f74809654f66e0294f7dde7b" title="drawsc" alt="" coords="662,241,726,268"/>
+<area shape="rect" id="node17" href="$step_8f.html#a7b5ee2daf5c645627c0bfa9d89591d54" title="dist2" alt="" coords="339,628,389,654"/>
+<area shape="rect" id="node18" href="$postnek_2plot_8f.html#ad3db34c76208b008c816f30c81d0a3a0" title="keypad" alt="" coords="221,450,285,477"/>
+<area shape="rect" id="node22" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="453,628,493,654"/>
+<area shape="rect" id="node25" href="$postnek_2screen_8f.html#ab0ed34fd77f429091873b9fb86b8f91e" title="latchob" alt="" coords="221,577,285,604"/>
+<area shape="rect" id="node19" href="$postnek_2plot_8f.html#ae9d7f9ed2d6416f5251679d91f0d4316" title="drkey" alt="" coords="337,324,391,350"/>
+<area shape="rect" id="node21" href="$postnek_2xinterface_8f.html#a6f045724a49b3303493e5814692ba706" title="mouse" alt="" coords="333,526,395,553"/>
+<area shape="rect" id="node23" href="$postnek_2plot_8f.html#ab5bebd857fb6086222605c713478da21" title="rdkey" alt="" coords="337,425,391,452"/>
+<area shape="rect" id="node24" href="$postnek_2xinterface_8f.html#a695401e16569d5d76bece71dac5e247b" title="sgvis" alt="" coords="446,476,499,502"/>
+<area shape="rect" id="node29" href="$postnek_2plot_8f.html#aa7499829dcb167485599d4cd86a1c60d" title="dotprod" alt="" coords="220,805,285,832"/>
+<area shape="rect" id="node30" href="$postnek_2plot_8f.html#a3a6db1479ebad8473cab367dbfff13ff" title="setrot" alt="" coords="225,856,280,882"/>
+</map>

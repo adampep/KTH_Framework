@@ -1,0 +1,7 @@
+<map id="chk_nel" name="chk_nel">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="351,5,397,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="120,56,180,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="228,56,275,83"/>
+<area shape="rect" id="node5" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="347,56,401,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="323,107,425,133"/>
+</map>

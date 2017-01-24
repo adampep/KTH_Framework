@@ -1,0 +1,12 @@
+<map id="output_mesh_ascii" name="output_mesh_ascii">
+<area shape="rect" id="node2" href="$nekmerge_2strings_8f.html#a128501bbe79667fba7a017c4567ef7f9" title="lineout" alt="" coords="211,5,271,32"/>
+<area shape="rect" id="node4" href="$nekmerge_8f.html#a54c345b418e73f36d5d92f18c3987f09" title="out_bdry_ascii" alt="" coords="187,157,294,184"/>
+<area shape="rect" id="node5" href="$nekmerge_8f.html#aece47b6c7b60b4b2eb967025b42c3c69" title="out_curve_ascii" alt="" coords="184,208,297,235"/>
+<area shape="rect" id="node7" href="$nekmerge_8f.html#a624813316b4e0ecfda18d8d1c1efdbe3" title="out_xyz_ascii" alt="" coords="189,56,292,83"/>
+<area shape="rect" id="node9" href="$tools_2genbox_2genbox_8f.html#aaccf479a6db28c864108891c39c5def2" title="scanout" alt="" coords="207,107,275,133"/>
+<area shape="rect" id="node3" href="$math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="347,5,401,32"/>
+<area shape="rect" id="node6" href="$nekmerge_2strings_8f.html#adfcb06b242c298b3e55a4402ea00d281" title="cleanr" alt="" coords="345,208,403,235"/>
+<area shape="rect" id="node8" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="347,56,401,83"/>
+<area shape="rect" id="node10" href="$core_23rd__party_2blas_8f.html#ab395a30db1137d3deabe520b8e73097d" title="ccopy" alt="" coords="345,157,403,184"/>
+<area shape="rect" id="node11" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="347,107,401,133"/>
+</map>

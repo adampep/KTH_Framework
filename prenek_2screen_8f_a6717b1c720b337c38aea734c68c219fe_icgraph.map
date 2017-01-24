@@ -1,0 +1,21 @@
+<map id="drwobj_dash" name="drwobj_dash">
+<area shape="rect" id="node2" href="$prenek_2screen_8f.html#a26c246fba4c19be279b9e3d4d7cd8449" title="drwobjs" alt="" coords="148,385,215,412"/>
+<area shape="rect" id="node3" href="$prenek_2screen_8f.html#a3cd57d122c9bcf2aac971ce7d5a35f2d" title="drgrid" alt="" coords="305,335,359,361"/>
+<area shape="rect" id="node4" href="$prenek_2screen_8f.html#ab716cfca4f841d2338ee84e8e4d7dac3" title="redraw_mesh" alt="" coords="282,385,382,412"/>
+<area shape="rect" id="node20" href="$prenek_2screen_8f.html#a658dcd3462d269118c2e35dd191e0edc" title="redraw_mesh_small" alt="" coords="263,588,401,615"/>
+<area shape="rect" id="node5" href="$prenek_2screen_8f.html#a72f7babf9c632686c721f6ff3cc8c7d6" title="getobjs" alt="" coords="503,5,567,32"/>
+<area shape="rect" id="node6" href="$prenek_2screen_8f.html#aa23ca924dea1db88a700085004dc836a" title="setobj" alt="" coords="671,31,729,57"/>
+<area shape="rect" id="node7" href="$build_8f.html#a6ee6ba21247a79cb4ce5c140c7d30b7c" title="build1" alt="" coords="780,323,836,349"/>
+<area shape="rect" id="node8" href="$build1_8f.html#a7f786e6d98046d7c4c5c65e4717bb244" title="model2d" alt="" coords="499,157,570,184"/>
+<area shape="rect" id="node9" href="$build2_8f.html#aae2ac95e9606a0734359d9410a594581" title="nw_sphmesh" alt="" coords="485,208,584,235"/>
+<area shape="rect" id="node10" href="$curve_8f.html#afbda46b1e736e65db6f92b6f45be27af" title="curves" alt="" coords="669,284,731,311"/>
+<area shape="rect" id="node11" href="$curve_8f.html#ac4df8d4eb1154a7a5fe1305bc8908d50" title="hexagon_refine" alt="" coords="479,309,590,336"/>
+<area shape="rect" id="node12" href="$glomod_8f.html#ac2a4dd5fade0636f739af802899b28b4" title="glomod" alt="" coords="668,360,732,387"/>
+<area shape="rect" id="node13" href="$curve_8f.html#a2cbc3a897f1dc64c8f8eefc698dffb8e" title="std_transform" alt="" coords="483,411,586,437"/>
+<area shape="rect" id="node14" href="$curve_8f.html#acedaa8354a8b6cddcfa1c8005d471ccc" title="circle_in_arc_transform_0" alt="" coords="449,461,620,488"/>
+<area shape="rect" id="node15" href="$glomod_8f.html#a200badd11bcc92d8417f625cc3654a69" title="smooth" alt="" coords="502,512,567,539"/>
+<area shape="rect" id="node16" href="$glomod_8f.html#a2ad15625f3779f04b343db155fa64130" title="stretch_outside_circ2" alt="" coords="461,563,608,589"/>
+<area shape="rect" id="node17" href="$zipper2_8f.html#a96b1f1eedbf07cbd03e2e66d122c8d53" title="renum" alt="" coords="505,613,564,640"/>
+<area shape="rect" id="node18" href="$zipper2_8f.html#a3207cb5df2fa9afceca1aa9a8025f839" title="shift" alt="" coords="511,664,558,691"/>
+<area shape="rect" id="node19" href="$zipper2_8f.html#a09803a6f2185228ed543aed2a20ffde9" title="shift2" alt="" coords="507,715,562,741"/>
+</map>

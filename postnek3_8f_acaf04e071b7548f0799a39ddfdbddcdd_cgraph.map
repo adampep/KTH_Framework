@@ -1,0 +1,29 @@
+<map id="get_prof_vars" name="get_prof_vars">
+<area shape="rect" id="node2" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="263,68,317,95"/>
+<area shape="rect" id="node3" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="599,43,663,69"/>
+<area shape="rect" id="node4" href="$postnek_2plot_8f.html#a7c581fec56c85204764143baaa6f71fa" title="menu" alt="" coords="155,409,209,436"/>
+<area shape="rect" id="node5" href="$postnek_2plot_8f.html#ad083480aedc1bdf87f4e76d0ee1817df" title="drcovr" alt="" coords="261,296,319,323"/>
+<area shape="rect" id="node14" href="$postnek_2plot_8f.html#a0265f8f4ae335335382ac2507a4df36b" title="drmenu" alt="" coords="257,524,323,551"/>
+<area shape="rect" id="node19" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="497,1081,537,1108"/>
+<area shape="rect" id="node20" href="$postnek_2xinterface_8f.html#a695401e16569d5d76bece71dac5e247b" title="sgvis" alt="" coords="376,853,429,880"/>
+<area shape="rect" id="node21" href="$math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="263,1031,317,1057"/>
+<area shape="rect" id="node22" href="$postnek_2xinterface_8f.html#a6f045724a49b3303493e5814692ba706" title="mouse" alt="" coords="259,980,321,1007"/>
+<area shape="rect" id="node26" href="$postnek_2iolib_8f.html#afd32d06109750520c45d01f0d352e08c" title="rei" alt="" coords="271,1157,309,1184"/>
+<area shape="rect" id="node27" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="267,119,313,145"/>
+<area shape="rect" id="node28" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="267,169,313,196"/>
+<area shape="rect" id="node6" href="$postnek_2xinterface_8f.html#a38427b6d929242043fdbf5db9659829a" title="beginp" alt="" coords="373,448,433,475"/>
+<area shape="rect" id="node7" href="$postnek_2xinterface_8f.html#ae0c6177f95f334270fac9f198fd4ed4a" title="clsseg" alt="" coords="373,245,433,272"/>
+<area shape="rect" id="node8" href="$postnek_2xinterface_8f.html#a5d1d5eed3065d1ccf65bb3d010226db0" title="endp" alt="" coords="377,296,428,323"/>
+<area shape="rect" id="node9" href="$postnek_2xinterface_8f.html#a27cb1da06839d074efcde9d4998103ee" title="fillp" alt="" coords="381,347,424,373"/>
+<area shape="rect" id="node10" href="$postnek_2xinterface_8f.html#a22eca17c14bd8636f3cae9df2af7bda8" title="movesc" alt="" coords="483,499,551,525"/>
+<area shape="rect" id="node11" href="$postnek_2xinterface_8f.html#a5ed3357d34a64f0a92311b5cd074f472" title="opnseg" alt="" coords="371,397,435,424"/>
+<area shape="rect" id="node12" href="$postnek_2plot_8f.html#a4ec54acb6421be2555cd3efe39ba3510" title="xphy" alt="" coords="491,727,542,753"/>
+<area shape="rect" id="node13" href="$postnek_2plot_8f.html#a1bf5e8e41f48c165cf50c832d2f8365e" title="yphy" alt="" coords="491,867,542,893"/>
+<area shape="rect" id="node15" href="$postnek_2xinterface_8f.html#a7c6bc0acf46b543c61b1bcf3bf2d4aea" title="beginb" alt="" coords="373,600,433,627"/>
+<area shape="rect" id="node16" href="$postnek_2xinterface_8f.html#a20a0d5df1d6d4e82ccd41605af3070d4" title="delseg" alt="" coords="373,651,433,677"/>
+<area shape="rect" id="node17" href="$postnek_2xinterface_8f.html#aca8979e3f74809654f66e0294f7dde7b" title="drawsc" alt="" coords="371,701,435,728"/>
+<area shape="rect" id="node18" href="$postnek_2xinterface_8f.html#a15b1e6ead87be733cf1f84db272e6f09" title="gswrit" alt="" coords="374,803,431,829"/>
+<area shape="rect" id="node23" href="$postnek_2iolib_8f.html#a1e12d5f0a58f8389eff1920b1ce03e59" title="res" alt="" coords="383,1157,423,1184"/>
+<area shape="rect" id="node24" href="$postnek_2screen_8f.html#aec8a2fb255b1dfc7e4fe074bde83b491" title="filter" alt="" coords="379,955,426,981"/>
+<area shape="rect" id="node25" href="$postnek_2iolib_8f.html#a759604523225e83e92645afd6606767b" title="prsr" alt="" coords="381,1056,425,1083"/>
+</map>

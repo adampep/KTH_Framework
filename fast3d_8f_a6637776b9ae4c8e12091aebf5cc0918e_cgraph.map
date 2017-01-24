@@ -1,0 +1,9 @@
+<map id="set_up_1d_geom" name="set_up_1d_geom">
+<area shape="rect" id="node2" href="$math_8f.html#ae1294c8ac3b5b3c38bbcc250d252b9cb" title="rone" alt="" coords="178,56,225,83"/>
+<area shape="rect" id="node3" href="$connect2_8f.html#a6e862f603b59c81091476a690c5e94ee" title="scale" alt="" coords="175,107,228,133"/>
+<area shape="rect" id="node4" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="283,5,340,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="395,56,437,83"/>
+<area shape="rect" id="node6" href="$connect2_8f.html#a15434c453b53c83ba2cb2a768d35085e" title="inrtia" alt="" coords="286,107,337,133"/>
+<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="286,157,337,184"/>
+<area shape="rect" id="node8" href="$connect2_8f.html#a87e4cf77e2fcb243172fa8da88d5dfae" title="volume2" alt="" coords="276,208,347,235"/>
+</map>

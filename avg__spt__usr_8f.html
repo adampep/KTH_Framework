@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -119,7 +120,7 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:ab1d6679a645453d7a30a47d158f76f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3737d0f38b1a9847edf53beaabc8c5f4"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="avg__spt__usr_8f.html#a3737d0f38b1a9847edf53beaabc8c5f4">user_stat_trnsv</a> (lvel, dudx, dvdx, dwdx, vort)</td></tr>
 <tr class="separator:a3737d0f38b1a9847edf53beaabc8c5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d99ab486dfdd2573f2e91a828ae90e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="avg__spt__usr_8f.html#a76d99ab486dfdd2573f2e91a828ae90e">user_stat_compute</a> (slvel, slp, tmpvel, tmppr, dudx, dvdx, dwdx, lnvar, npos, alpha, beta)</td></tr>
+<tr class="memitem:a76d99ab486dfdd2573f2e91a828ae90e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="avg__spt__usr_8f.html#a76d99ab486dfdd2573f2e91a828ae90e">user_stat_compute</a> (slvel, slp, tmpvel, tmppr, dudx, dvdx, dwdx, lnvar, npos, <a class="el" href="lanczos_8c.html#a20f4c4490bc8ecbdd1ffcb79acce6035">alpha</a>, <a class="el" href="lanczos_8c.html#ab146b9cbab6e73e7588b240dc709fe01">beta</a>)</td></tr>
 <tr class="separator:a76d99ab486dfdd2573f2e91a828ae90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
@@ -130,43 +131,43 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine user_stat_compute </td>
           <td>(</td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>slvel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>slp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>tmpvel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>)&#160;</td>
           <td class="paramname"><em>tmppr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>dudx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>dvdx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>dwdx</em>, </td>
         </tr>
         <tr>
@@ -184,13 +185,13 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
           <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
           <td class="paramname"><em>beta</em>&#160;</td>
         </tr>
         <tr>
@@ -224,7 +225,7 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine user_stat_init </td>
           <td>(</td>
-          <td class="paramtype">real, dimension(lctrs1,lctrs2)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lctrs1,lctrs2)&#160;</td>
           <td class="paramname"><em>ctrs</em>, </td>
         </tr>
         <tr>
@@ -261,6 +262,25 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="avg__spt__usr_8f_source.html#l00012">12</a> of file <a class="el" href="avg__spt__usr_8f_source.html">avg_spt_usr.f</a>.</p>
 
+<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="dssum_8f_source.html#l00413">ftovec()</a>, <a class="el" href="math_8f_source.html#l00407">ifill()</a>, and <a class="el" href="math_8f_source.html#l00377">izero()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph.png" border="0" usemap="#avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph" alt=""/></div>
+<map name="avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph" id="avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="157,5,208,32"/>
+<area shape="rect" id="node3" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="159,56,206,83"/>
+<area shape="rect" id="node4" href="dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title="ftovec" alt="" coords="153,107,212,133"/>
+<area shape="rect" id="node6" href="math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="163,157,202,184"/>
+<area shape="rect" id="node7" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="157,208,208,235"/>
+<area shape="rect" id="node5" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="260,107,317,133"/>
+</map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a3737d0f38b1a9847edf53beaabc8c5f4"></a>
@@ -270,31 +290,31 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="memname">subroutine user_stat_trnsv </td>
           <td>(</td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>lvel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>dudx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>dvdx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>dwdx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lx1,ly1,lz1,lelt,3)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,<a class="el" href="cvode__aux_8h.html#ae8a6dbc0082912460ceb6911caa9cc44">lelt</a>,3)&#160;</td>
           <td class="paramname"><em>vort</em>&#160;</td>
         </tr>
         <tr>
@@ -307,11 +327,31 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="avg__spt__usr_8f_source.html#l00171">171</a> of file <a class="el" href="avg__spt__usr_8f_source.html">avg_spt_usr.f</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="lanczos_8c_source.html#l00014">alpha</a>, <a class="el" href="lanczos_8c_source.html#l00014">beta</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="navier5_8f_source.html#l00733">gradm1()</a>, and <a class="el" href="math_8f_source.html#l00298">sub3()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_cgraph.png" border="0" usemap="#avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_cgraph" alt=""/></div>
+<map name="avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_cgraph" id="avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="415,8,465,35"/>
+<area shape="rect" id="node3" href="navier5_8f.html#aef718c6a74c3602cfcd7871434619ee5" title="gradm1" alt="" coords="165,45,231,72"/>
+<area shape="rect" id="node8" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="173,96,223,123"/>
+<area shape="rect" id="node4" href="navier5_8f.html#a53feb767cebebba399ab3c5a50f53155" title="local_grad2" alt="" coords="279,71,367,97"/>
+<area shape="rect" id="node6" href="navier5_8f.html#ad24367e4a843f60b63a2205aef1ba551" title="local_grad3" alt="" coords="279,121,367,148"/>
+<area shape="rect" id="node7" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="289,20,357,47"/>
+<area shape="rect" id="node5" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="415,84,465,111"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_icgraph.png" border="0" usemap="#avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_icgraph" alt=""/></div>
 <map name="avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_icgraph" id="avg__spt__usr_8f_a3737d0f38b1a9847edf53beaabc8c5f4_icgraph">
 <area shape="rect" id="node2" href="avg__spt_8f.html#a3d70b3469bf98d487ba751bf9cf338e5" title="stat_compute" alt="" coords="165,5,267,32"/>
@@ -327,7 +367,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_90a01da27c815ec0f52ae9e4dc4ab23c.html">Toolbox</a></li><li class="navelem"><a class="el" href="dir_dd3dfcc4d15c653c39b56b77027fb104.html">driver</a></li><li class="navelem"><a class="el" href="dir_762c4435fd05f794ccef0153fe961702.html">avg_spt</a></li><li class="navelem"><a class="el" href="avg__spt__usr_8f.html">avg_spt_usr.f</a></li>
-    <li class="footer">Generated on Tue Jan 24 2017 16:19:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jan 24 2017 16:27:17 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

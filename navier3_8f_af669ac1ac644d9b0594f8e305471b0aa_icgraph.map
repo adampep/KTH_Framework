@@ -1,0 +1,6 @@
+<map id="dd_solver" name="dd_solver">
+<area shape="rect" id="node2" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title="eprec2" alt="" coords="132,31,193,57"/>
+<area shape="rect" id="node3" href="$navier1_8f.html#a437311d1b46ce62fc7b4d3b1dda969e2" title="uzprec" alt="" coords="241,31,303,57"/>
+<area shape="rect" id="node4" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="351,5,453,32"/>
+<area shape="rect" id="node5" href="$navier1_8f.html#a159801e9971330a0281ce3a6f984b7de" title="uzawa" alt="" coords="372,56,432,83"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="set_auto_curve" name="set_auto_curve">
+<area shape="rect" id="node2" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="187,95,240,121"/>
+<area shape="rect" id="node3" href="$build1_8f.html#abeb8a2f7ad20bee344fccea3b56310a6" title="chk_neighbor" alt="" coords="164,145,263,172"/>
+<area shape="rect" id="node8" href="$build1_8f.html#afc91d6f828ea2c42e19b6aa22b4ea120" title="chk_obj" alt="" coords="180,196,247,223"/>
+<area shape="rect" id="node12" href="$build1_8f.html#aac390cc053a2161089dedc879d7fd232" title="chk_polar" alt="" coords="174,247,253,273"/>
+<area shape="rect" id="node13" href="$postnek3_8f.html#a382adc9b988ef0d8baaf1416ca8dda38" title="drawel" alt="" coords="315,341,375,368"/>
+<area shape="rect" id="node21" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="431,563,482,589"/>
+<area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="319,56,370,83"/>
+<area shape="rect" id="node5" href="$build1_8f.html#a14d987f1babe52f57585b7cd3c01676e" title="getside" alt="" coords="313,5,377,32"/>
+<area shape="rect" id="node7" href="$math_8f.html#a18da186617e323c027aa36f56343e400" title="mod1" alt="" coords="317,208,372,235"/>
+<area shape="rect" id="node6" href="$prenek_8f.html#ab5cfb1af1dbce0560737abf4152c366f" title="rmin" alt="" coords="433,5,480,32"/>
+<area shape="rect" id="node9" href="$step_8f.html#a7b5ee2daf5c645627c0bfa9d89591d54" title="dist2" alt="" coords="647,157,697,184"/>
+<area shape="rect" id="node10" href="$postnek_2screen_8f.html#ab0ed34fd77f429091873b9fb86b8f91e" title="latchob" alt="" coords="535,157,599,184"/>
+<area shape="rect" id="node11" href="$build1_8f.html#a9f197cfedbd918d3394aae589036b6ec" title="rad_circ" alt="" coords="311,259,379,285"/>
+<area shape="rect" id="node14" href="$postnek_2xinterface_8f.html#a7c6bc0acf46b543c61b1bcf3bf2d4aea" title="beginb" alt="" coords="427,461,487,488"/>
+<area shape="rect" id="node15" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="536,436,597,463"/>
+<area shape="rect" id="node16" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="428,512,485,539"/>
+<area shape="rect" id="node17" href="$postnek_2xinterface_8f.html#a5d1d5eed3065d1ccf65bb3d010226db0" title="endp" alt="" coords="431,259,482,285"/>
+<area shape="rect" id="node18" href="$postnek_2xinterface_8f.html#a27cb1da06839d074efcde9d4998103ee" title="fillp" alt="" coords="435,309,478,336"/>
+<area shape="rect" id="node19" href="$postnek_2plot_8f.html#a8e1130cc783afb04a805017d800b7f60" title="getpts" alt="" coords="427,208,486,235"/>
+<area shape="rect" id="node20" href="$postnek_2xinterface_8f.html#ae0a3a2ae9aee23121a61b3802d0826df" title="gwrite" alt="" coords="428,360,485,387"/>
+</map>

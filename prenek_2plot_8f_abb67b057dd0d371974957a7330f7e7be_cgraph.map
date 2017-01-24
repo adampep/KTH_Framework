@@ -1,0 +1,11 @@
+<map id="drwbox" name="drwbox">
+<area shape="rect" id="node2" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="119,107,177,133"/>
+<area shape="rect" id="node10" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="117,157,179,184"/>
+<area shape="rect" id="node3" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="227,56,281,83"/>
+<area shape="rect" id="node7" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="234,157,274,184"/>
+<area shape="rect" id="node8" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="229,107,279,133"/>
+<area shape="rect" id="node4" href="$postnek_2xinterface_8f.html#a22eca17c14bd8636f3cae9df2af7bda8" title="movesc" alt="" coords="329,5,397,32"/>
+<area shape="rect" id="node5" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="340,56,387,83"/>
+<area shape="rect" id="node6" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="340,107,387,133"/>
+<area shape="rect" id="node9" href="$postnek_2xinterface_8f.html#aca8979e3f74809654f66e0294f7dde7b" title="drawsc" alt="" coords="331,157,395,184"/>
+</map>

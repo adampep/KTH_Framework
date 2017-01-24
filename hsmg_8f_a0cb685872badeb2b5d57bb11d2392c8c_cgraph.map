@@ -1,0 +1,16 @@
+<map id="h1mg_setup_fdm" name="h1mg_setup_fdm">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="729,175,776,201"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#ad38a0646e0ae6eba29f1be94d7458e27" title="hsmg_setup_fast" alt="" coords="176,175,299,201"/>
+<area shape="rect" id="node4" href="$fast3d_8f.html#ab60c76ed10c432bca639d052ca18f115" title="get_fast_bc" alt="" coords="369,124,460,151"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="581,73,631,100"/>
+<area shape="rect" id="node7" href="$hsmg_8f.html#a57c4906700aca571f060a547363b280f" title="hsmg_setup_fast1d" alt="" coords="347,225,483,252"/>
+<area shape="rect" id="node13" href="$math_8f.html#a3a4077924e14ce175a0d9991f9006d16" title="vlmax" alt="" coords="386,276,443,303"/>
+<area shape="rect" id="node14" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="385,377,445,404"/>
+<area shape="rect" id="node6" href="$fast3d_8f.html#a2bcd520bc16e2b56ea423dc6f2c183eb" title="mhd_bc_dn" alt="" coords="561,124,651,151"/>
+<area shape="rect" id="node8" href="$hsmg_8f.html#a714e37d985f241a169198b8da7dc584f" title="hsmg_setup_fast1d_a" alt="" coords="531,175,681,201"/>
+<area shape="rect" id="node9" href="$hsmg_8f.html#ace45b89db607ed56eac50785774b298b" title="hsmg_setup_fast1d_b" alt="" coords="531,225,681,252"/>
+<area shape="rect" id="node10" href="$hmholtz_8f.html#a5a846560cdbe979f8cf9a71599a7f460" title="generalev" alt="" coords="567,276,645,303"/>
+<area shape="rect" id="node11" href="$fast3d_8f.html#a85ab5f066f6e3f2c4d37e131c38b4774" title="row_zero" alt="" coords="569,327,643,353"/>
+<area shape="rect" id="node12" href="$math_8f.html#a17c0ecae12cc5c6096939885da90ad2b" title="transpose" alt="" coords="567,377,645,404"/>
+<area shape="rect" id="node15" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="583,428,629,455"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="i8glmax" name="i8glmax">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#af260c1a2fb7cc8a919bbf5d01e83b74c" title="i8gop" alt="" coords="120,56,173,83"/>
+<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="249,5,296,32"/>
+<area shape="rect" id="node4" href="$math_8f.html#ae440982936535b602f42ea90d02b94d9" title="i8copy" alt="" coords="243,56,303,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="221,107,324,133"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title="mpi_reduce_double_precision" alt="" coords="372,31,565,57"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title="mpi_reduce_integer" alt="" coords="401,81,536,108"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#abbddc050d7faafb34959984f69652e0a" title="mpi_reduce_integer8" alt="" coords="397,132,540,159"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title="mpi_reduce_real" alt="" coords="410,183,527,209"/>
+</map>

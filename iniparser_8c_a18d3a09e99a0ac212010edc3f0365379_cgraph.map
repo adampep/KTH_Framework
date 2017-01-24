@@ -1,0 +1,7 @@
+<map id="iniparser_getdouble" name="iniparser_getdouble">
+<area shape="rect" id="node2" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key. " alt="" coords="188,31,316,57"/>
+<area shape="rect" id="node3" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase. " alt="" coords="387,5,444,32"/>
+<area shape="rect" id="node5" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary. " alt="" coords="364,56,467,83"/>
+<area shape="rect" id="node4" href="$bss__malloc_8c.html#a7ac38fce3243a7dcf448301ee9ffd392" title="malloc" alt="" coords="541,5,601,32"/>
+<area shape="rect" id="node6" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="515,56,628,83"/>
+</map>

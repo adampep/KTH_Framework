@@ -1,0 +1,16 @@
+<map id="exchange_points" name="exchange_points">
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="501,90,547,117"/>
+<area shape="rect" id="node3" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="194,40,251,66"/>
+<area shape="rect" id="node4" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="197,90,248,117"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="183,141,262,168"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="183,192,262,218"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="185,242,260,269"/>
+<area shape="rect" id="node8" href="$bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="187,293,258,320"/>
+<area shape="rect" id="node9" href="$multimesh_8f.html#a64aa2bd0372ecd39dc24a2eafcaab578" title="neknekgsync" alt="" coords="173,344,272,370"/>
+<area shape="rect" id="node15" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="197,394,248,421"/>
+<area shape="rect" id="node10" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="320,242,419,269"/>
+<area shape="rect" id="node14" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="326,344,413,370"/>
+<area shape="rect" id="node11" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="473,192,575,218"/>
+<area shape="rect" id="node12" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="496,242,552,269"/>
+<area shape="rect" id="node13" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="467,293,581,320"/>
+</map>

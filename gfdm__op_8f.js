@@ -1,0 +1,26 @@
+var gfdm__op_8f =
+[
+    [ "a1d", "gfdm__op_8f.html#a4779eeec9058bbcb20ff744d3a1897da", null ],
+    [ "add2s2mat2p", "gfdm__op_8f.html#aadc605974d30d4b12f5772424ce47361", null ],
+    [ "axpym", "gfdm__op_8f.html#a7f4a8aa860ea21d55613963c8172cc5c", null ],
+    [ "build_d1d_d", "gfdm__op_8f.html#ad585b52f6d305b681f2b257544b3c43d", null ],
+    [ "gen_1d_mult", "gfdm__op_8f.html#a5163e3ca136e8dbe48f54c3cd8b47628", null ],
+    [ "gfdm_chk_size", "gfdm__op_8f.html#ab1d355fb5c9f50f0a07185f25b1dcaf3", null ],
+    [ "gfdm_ops", "gfdm__op_8f.html#abcb7a1e984fdf87426a864f76d69a9eb", null ],
+    [ "gfdm_set_bc", "gfdm__op_8f.html#a71c047ef9da2ab44c4b3e201d08a023b", null ],
+    [ "gfdm_set_diagp", "gfdm__op_8f.html#a40891dc0fea02e4a6e158e2f561e4f3f", null ],
+    [ "gfdm_set_genwz", "gfdm__op_8f.html#a69bd2fc3d23c237ff13d702c0f893c86", null ],
+    [ "gfdm_set_geom", "gfdm__op_8f.html#a48031fe5de63d883227e2b0d73118cf6", null ],
+    [ "gfdm_set_prs_op", "gfdm__op_8f.html#a0115b9bbecf2744ba4396eb899825358", null ],
+    [ "map12q", "gfdm__op_8f.html#abb0c108511eba6c4f6453a2bb4019e6d", null ],
+    [ "modify_eig", "gfdm__op_8f.html#a6331990818e245937a7f0b4e2ff814f6", null ],
+    [ "overflow_chk", "gfdm__op_8f.html#a97731c4912f6adfc7fbca9a39cbb98d3", null ],
+    [ "row_mult", "gfdm__op_8f.html#a80e2e814f575d5b116435d70267ada13", null ],
+    [ "set_1d_a_mat", "gfdm__op_8f.html#a02fddaaa1953a0d9b240836ae92b4158", null ],
+    [ "set_1d_abq", "gfdm__op_8f.html#a30480043703d86afe52324b6149f344e", null ],
+    [ "set_1d_e_mat", "gfdm__op_8f.html#a8f3ad1bda4906849d0d7b9ad2b6ab3be", null ],
+    [ "set_diaga", "gfdm__op_8f.html#a96abf40cd7408016d95f90e94f34b56c", null ],
+    [ "set_fast_solve_1d", "gfdm__op_8f.html#a5d3328016c68c2ef1db34c95f6ff70e2", null ],
+    [ "set_ident", "gfdm__op_8f.html#a0dc491f472f1917a696f61f6a9f8eb8c", null ],
+    [ "set_q_1d", "gfdm__op_8f.html#aff5a0dbcb5f619414178bb1acd9bad62", null ]
+];

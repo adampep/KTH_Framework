@@ -1,0 +1,8 @@
+<map id="rescal" name="rescal">
+<area shape="rect" id="node2" href="$postnek_2plot_8f.html#a1692babb5ece1bc4ad2785994999a8fe" title="xiso" alt="" coords="113,5,159,32"/>
+<area shape="rect" id="node5" href="$postnek_2plot_8f.html#a4ec54acb6421be2555cd3efe39ba3510" title="xphy" alt="" coords="111,107,161,133"/>
+<area shape="rect" id="node6" href="$postnek_2plot_8f.html#ae265a6274cb6098ee60c6560e9977ca9" title="yiso" alt="" coords="113,56,159,83"/>
+<area shape="rect" id="node7" href="$postnek_2plot_8f.html#a1bf5e8e41f48c165cf50c832d2f8365e" title="yphy" alt="" coords="111,157,161,184"/>
+<area shape="rect" id="node3" href="$postnek_2plot_8f.html#aa7499829dcb167485599d4cd86a1c60d" title="dotprod" alt="" coords="209,5,275,32"/>
+<area shape="rect" id="node4" href="$postnek_2plot_8f.html#a3a6db1479ebad8473cab367dbfff13ff" title="setrot" alt="" coords="215,56,269,83"/>
+</map>

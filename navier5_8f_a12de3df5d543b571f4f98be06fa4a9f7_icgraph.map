@@ -1,0 +1,6 @@
+<map id="cheap_dist" name="cheap_dist">
+<area shape="rect" id="node2" href="$navier5_8f.html#a3b8385196a4d5a61eac8ecf6a5ea47f8" title="turb_outflow" alt="" coords="139,5,232,32"/>
+<area shape="rect" id="node3" href="$glomod_8f.html#a74fa431ce14df2e1f4f4b4cfa6963ddb" title="smoother2" alt="" coords="144,56,227,83"/>
+<area shape="rect" id="node4" href="$glomod_8f.html#a200badd11bcc92d8417f625cc3654a69" title="smooth" alt="" coords="280,56,345,83"/>
+<area shape="rect" id="node5" href="$glomod_8f.html#ac2a4dd5fade0636f739af802899b28b4" title="glomod" alt="" coords="393,56,457,83"/>
+</map>

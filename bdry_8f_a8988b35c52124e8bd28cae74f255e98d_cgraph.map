@@ -1,0 +1,7 @@
+<map id="bcneusc" name="bcneusc">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="124,5,205,32"/>
+<area shape="rect" id="node4" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="136,56,193,83"/>
+<area shape="rect" id="node5" href="$bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="129,107,200,133"/>
+<area shape="rect" id="node6" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="139,157,190,184"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="253,5,339,32"/>
+</map>

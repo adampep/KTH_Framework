@@ -1,0 +1,28 @@
+<map id="mfi_prepare" name="mfi_prepare">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="175,5,229,32"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="337,259,390,285"/>
+<area shape="rect" id="node5" href="$byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="149,563,255,589"/>
+<area shape="rect" id="node6" href="$byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="483,107,589,133"/>
+<area shape="rect" id="node7" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="657,183,703,209"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="169,404,235,431"/>
+<area shape="rect" id="node14" href="$comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="144,455,260,481"/>
+<area shape="rect" id="node19" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="172,328,232,355"/>
+<area shape="rect" id="node20" href="$ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="155,512,249,539"/>
+<area shape="rect" id="node24" href="$ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="150,208,254,235"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="322,5,405,32"/>
+<area shape="rect" id="node9" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="331,461,395,488"/>
+<area shape="rect" id="node10" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="333,411,393,437"/>
+<area shape="rect" id="node13" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="337,512,390,539"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="513,385,559,412"/>
+<area shape="rect" id="node12" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="653,412,707,439"/>
+<area shape="rect" id="node15" href="$mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="324,563,403,589"/>
+<area shape="rect" id="node16" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="511,512,561,539"/>
+<area shape="rect" id="node17" href="$math_8f.html#ae440982936535b602f42ea90d02b94d9" title="i8copy" alt="" coords="506,563,566,589"/>
+<area shape="rect" id="node18" href="$math_8f.html#a4052b45630e3d7ac3a9b01c8c11a498a" title="rrcopy" alt="" coords="507,613,565,640"/>
+<area shape="rect" id="node21" href="$byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="308,613,419,640"/>
+<area shape="rect" id="node22" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="338,664,389,691"/>
+<area shape="rect" id="node23" href="$math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="336,715,391,741"/>
+<area shape="rect" id="node25" href="$ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="337,208,390,235"/>
+<area shape="rect" id="node26" href="$ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="311,157,415,184"/>
+<area shape="rect" id="node27" href="$ic_8f.html#a5784c4f0036a7484628c467ffd0c7d26" title="parse_std_hdr_2006" alt="" coords="467,208,605,235"/>
+</map>

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['q_5ffilter',['q_filter',['../navier5_8f.html#a519066c177fc94530849e83d3b9d4cfb',1,'navier5.f']]],
+  ['q_5fto_5fneklin',['q_to_neklin',['../zipper2_8f.html#aabc56de5e04c41169dcd3c3c3c2d121a',1,'zipper2.f']]],
+  ['qb',['qb',['../postnek8_8f.html#a939701e1c0416240c376863614f36a5c',1,'qb(b, n, x, x0, x1):&#160;postnek8.f'],['../glomod_8f.html#adbff04d37c0dbc2867224b1dc98802ad',1,'qb(b, nv, x, x0, x1):&#160;glomod.f']]],
+  ['qchk',['qchk',['../bound_8f.html#ac5f0e4f484a36f77f9b342360e392f4f',1,'bound.f']]],
+  ['qmask',['qmask',['../subs2_8f.html#a70dbc71f203381a03c32548c6a3d112e',1,'subs2.f']]],
+  ['qqt',['qqt',['../glomod_8f.html#ab109bbf0085421c3e7983678c648d7fa',1,'glomod.f']]],
+  ['qqtavg',['qqtavg',['../glomod_8f.html#a833d0e2b74502a927870b673d9ba7a32',1,'glomod.f']]],
+  ['qqtmax',['qqtmax',['../glomod_8f.html#a830686d9e70865167521ce3e1541d631',1,'glomod.f']]],
+  ['qqtmin',['qqtmin',['../glomod_8f.html#a9141e2c18b1de18eeac2b42fe18ad8e5',1,'glomod.f']]],
+  ['qsplite',['qsplite',['../zipper2_8f.html#ab4814dba44f64cc2ba0c49812c758f73',1,'zipper2.f']]],
+  ['qthermal',['qthermal',['../plan4_8f.html#a31a4d0455758249074026097810e85be',1,'plan4.f']]],
+  ['qthermal_5fig',['qthermal_ig',['../plan4_8f.html#a68de6875b6cda8e2bea83f4adf2929d6',1,'plan4.f']]],
+  ['qtrapu',['qtrapu',['../userf_8f.html#af2d3b60ad520eb6d208e24bd59c14cef',1,'userf.f']]],
+  ['quadratic',['quadratic',['../postpro_8f.html#a11f020d8a137ee68b5d838083c80348e',1,'quadratic(x1, x2, a, b, c, ierr):&#160;postpro.f'],['../postnek3_8f.html#a11f020d8a137ee68b5d838083c80348e',1,'quadratic(x1, x2, a, b, c, ierr):&#160;postnek3.f']]],
+  ['quadratic_5fh',['quadratic_h',['../navier2_8f.html#a3efc5bd9f1b9d39762a1abdd185f6fba',1,'navier2.f']]],
+  ['quick_5fget_5fbox',['quick_get_box',['../postnek9_8f.html#af4d53c1c9741b65d4f48e37591b68a39',1,'postnek9.f']]],
+  ['quickfill',['quickfill',['../postnek_8f.html#a72ea146f2353eb0e8304b580d1425c06',1,'postnek.f']]],
+  ['quickmv',['quickmv',['../mvmesh_8f.html#adf1cbfc9ae2527725b97e2c86ba76da6',1,'mvmesh.f']]],
+  ['quickmv2d',['quickmv2d',['../mvmesh_8f.html#a023a1e8aeb7a95de9f37a2f4e56beea4',1,'mvmesh.f']]],
+  ['quickmv3d',['quickmv3d',['../mvmesh_8f.html#a205a6ce03abe9348a4134fb327cfa037',1,'mvmesh.f']]],
+  ['quickscan_5fxy',['quickscan_xy',['../trap_8f.html#a68c80a990bf60cd8b983f6c2b012a78c',1,'trap.f']]],
+  ['quit',['Quit',['../prenek_2xdriver_8c.html#a85da031395378ab15c153ca551d021b8',1,'xdriver.c']]]
+];

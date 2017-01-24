@@ -1,0 +1,7 @@
+<map id="spbslpf" name="spbslpf">
+<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#adb136e14634fe4b772a0b034f52f3939" title="daxpy" alt="" coords="129,5,187,32"/>
+<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#a2a42ecc597403b22ad786715c739196b" title="ddot" alt="" coords="135,56,181,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="117,107,199,133"/>
+<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="129,157,187,184"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="247,107,332,133"/>
+</map>

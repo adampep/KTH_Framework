@@ -1,7 +1,12 @@
 <map id="pts_rdst" name="pts_rdst">
-<area shape="rect" id="node2" href="$group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="123,31,215,57"/>
-<area shape="rect" id="node6" href="$group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="123,81,214,108"/>
-<area shape="rect" id="node3" href="$group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="263,31,360,57"/>
-<area shape="rect" id="node4" href="$group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="437,5,501,32"/>
-<area shape="rect" id="node5" href="$group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="408,56,531,83"/>
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="446,5,493,32"/>
+<area shape="rect" id="node3" href="$group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="123,81,215,108"/>
+<area shape="rect" id="node11" href="$group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="123,132,214,159"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="272,208,351,235"/>
+<area shape="rect" id="node6" href="$group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="263,107,360,133"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="426,259,513,285"/>
+<area shape="rect" id="node7" href="$group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="437,107,501,133"/>
+<area shape="rect" id="node8" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="443,157,496,184"/>
+<area shape="rect" id="node9" href="$group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="408,208,531,235"/>
+<area shape="rect" id="node10" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="444,56,495,83"/>
 </map>

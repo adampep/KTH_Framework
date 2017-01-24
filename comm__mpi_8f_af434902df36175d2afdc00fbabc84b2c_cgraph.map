@@ -1,0 +1,5 @@
+<map id="dnekclock_sync" name="dnekclock_sync">
+<area shape="rect" id="node2" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="169,5,255,32"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="173,56,251,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="303,56,389,83"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="s2vec" name="s2vec">
+<area shape="rect" id="node2" href="$curve_8f.html#aca98d6e7458693386b672925c41e9e76" title="make_top" alt="" coords="125,5,203,32"/>
+<area shape="rect" id="node5" href="$curve_8f.html#ab3e16f6eac0886ce4e452d8ed7383e9f" title="make_core" alt="" coords="121,56,207,83"/>
+<area shape="rect" id="node6" href="$curve_8f.html#a54fea379cc9602c339b07b8951ac121b" title="make_top_2d" alt="" coords="114,107,214,133"/>
+<area shape="rect" id="node8" href="$curve_8f.html#a0219e13a426ccb5d992a5c056c5622e3" title="make_core_2d" alt="" coords="111,157,217,184"/>
+<area shape="rect" id="node3" href="$curve_8f.html#a3843dc32d3efb3bc18184681af110007" title="filled_sphere_oct" alt="" coords="271,56,391,83"/>
+<area shape="rect" id="node4" href="$curve_8f.html#afbda46b1e736e65db6f92b6f45be27af" title="curves" alt="" coords="444,81,505,108"/>
+<area shape="rect" id="node7" href="$curve_8f.html#ac4207e327fbfee37dc206f20fbcf4add" title="filled_cyl_quadrant" alt="" coords="265,107,396,133"/>
+</map>

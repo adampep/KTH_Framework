@@ -1,0 +1,8 @@
+<map id="local_solves_fdm" name="local_solves_fdm">
+<area shape="rect" id="node2" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="303,5,395,32"/>
+<area shape="rect" id="node5" href="$navier3_8f.html#af669ac1ac644d9b0594f8e305471b0aa" title="dd_solver" alt="" coords="176,56,255,83"/>
+<area shape="rect" id="node3" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="552,31,655,57"/>
+<area shape="rect" id="node4" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title="esolver" alt="" coords="703,31,767,57"/>
+<area shape="rect" id="node6" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title="eprec2" alt="" coords="318,56,379,83"/>
+<area shape="rect" id="node7" href="$navier1_8f.html#a437311d1b46ce62fc7b4d3b1dda969e2" title="uzprec" alt="" coords="443,56,504,83"/>
+</map>

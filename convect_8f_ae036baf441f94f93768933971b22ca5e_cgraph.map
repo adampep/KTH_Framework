@@ -1,0 +1,15 @@
+<map id="setup_dg_gs" name="setup_dg_gs">
+<area shape="rect" id="node2" href="$convect_8f.html#a1d8a59863f266d28d004d705e5034093" title="iface_vert_int8" alt="" coords="149,100,256,126"/>
+<area shape="rect" id="node5" href="$navier8_8f.html#a51b2c2d951e069b7ffa9a395b2def117" title="set_vert" alt="" coords="168,194,237,221"/>
+<area shape="rect" id="node3" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="321,49,379,76"/>
+<area shape="rect" id="node4" href="$math_8f.html#a1b43063a28b6cf21d36618121c8b0d10" title="i8zero" alt="" coords="321,100,379,126"/>
+<area shape="rect" id="node6" href="$navier8_8f.html#a928aff746415692c89ffdfbaf08fd98d" title="setvert3d" alt="" coords="312,150,388,177"/>
+<area shape="rect" id="node13" href="$navier8_8f.html#aacefc924fd8555d5a3b58b36c7eda2ad" title="setvert2d" alt="" coords="312,226,388,253"/>
+<area shape="rect" id="node14" href="$navier8_8f.html#a0233bb24c5654d0cfdce5b4a72f6c61b" title="check_p_bc" alt="" coords="304,277,396,304"/>
+<area shape="rect" id="node7" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="588,238,648,265"/>
+<area shape="rect" id="node8" href="$navier8_8f.html#ad95667f017072090d261e5eaef823395" title="gbtuple_rank" alt="" coords="444,238,540,265"/>
+<area shape="rect" id="node9" href="$math_8f.html#a2add00098b77e54191b10eb6711193f6" title="isort" alt="" coords="469,36,515,62"/>
+<area shape="rect" id="node10" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="465,86,519,113"/>
+<area shape="rect" id="node11" href="$connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="465,137,519,164"/>
+<area shape="rect" id="node12" href="$navier8_8f.html#a05f99aec875f63f8db64d774836f2902" title="irank" alt="" coords="467,188,517,214"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="avg1" name="avg1">
+<area shape="rect" id="node2" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="104,5,196,32"/>
+<area shape="rect" id="node5" href="$navier5_8f.html#a709e553d5ae6d0ef58b983805f0be486" title="avg_all" alt="" coords="119,56,181,83"/>
+<area shape="rect" id="node3" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="244,5,347,32"/>
+<area shape="rect" id="node4" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title="esolver" alt="" coords="395,5,459,32"/>
+</map>

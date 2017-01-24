@@ -1,0 +1,19 @@
+<map id="trngl1" name="trngl1">
+<area shape="rect" id="node2" href="$postnek_2plot_8f.html#ad166f95aad6e08dbaea444bc4ba20656" title="bcolor" alt="" coords="109,5,167,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="113,56,163,83"/>
+<area shape="rect" id="node4" href="$postnek_2plot_8f.html#aa320c0b1923a90cf8c5e7b89ec173608" title="icolor1" alt="" coords="108,107,168,133"/>
+<area shape="rect" id="node5" href="$postnek_2plot_8f.html#a168a40f5b85aaa151185cac37aec59ef" title="trngl2" alt="" coords="111,157,165,184"/>
+<area shape="rect" id="node6" href="$postnek_2plot_8f.html#a1692babb5ece1bc4ad2785994999a8fe" title="xiso" alt="" coords="223,31,269,57"/>
+<area shape="rect" id="node9" href="$postnek_2plot_8f.html#ae265a6274cb6098ee60c6560e9977ca9" title="yiso" alt="" coords="223,81,269,108"/>
+<area shape="rect" id="node10" href="$postnek_2xinterface_8f.html#a27cb1da06839d074efcde9d4998103ee" title="fillp" alt="" coords="225,132,267,159"/>
+<area shape="rect" id="node11" href="$postnek_2xinterface_8f.html#a38427b6d929242043fdbf5db9659829a" title="beginp" alt="" coords="216,233,276,260"/>
+<area shape="rect" id="node15" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="217,309,275,336"/>
+<area shape="rect" id="node18" href="$postnek_2xinterface_8f.html#a5d1d5eed3065d1ccf65bb3d010226db0" title="endp" alt="" coords="221,183,271,209"/>
+<area shape="rect" id="node7" href="$postnek_2plot_8f.html#a3a6db1479ebad8473cab367dbfff13ff" title="setrot" alt="" coords="329,81,384,108"/>
+<area shape="rect" id="node8" href="$postnek_2plot_8f.html#aa7499829dcb167485599d4cd86a1c60d" title="dotprod" alt="" coords="324,31,389,57"/>
+<area shape="rect" id="node12" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="337,183,376,209"/>
+<area shape="rect" id="node13" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="326,233,387,260"/>
+<area shape="rect" id="node14" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="329,284,384,311"/>
+<area shape="rect" id="node16" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="337,385,377,412"/>
+<area shape="rect" id="node17" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="331,335,382,361"/>
+</map>

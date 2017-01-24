@@ -1,0 +1,11 @@
+<map id="init_weight_op" name="init_weight_op">
+<area shape="rect" id="node2" href="$fasts_8f.html#aa8fc56b441461ca7120172e9d0607497" title="dface_add1si" alt="" coords="159,5,258,32"/>
+<area shape="rect" id="node3" href="$fasts_8f.html#a63db5cdcc66dff9bed317458c17523c1" title="dface_ext" alt="" coords="169,56,248,83"/>
+<area shape="rect" id="node4" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="178,107,239,133"/>
+<area shape="rect" id="node9" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="183,157,234,184"/>
+<area shape="rect" id="node10" href="$fasts_8f.html#a54d901fabdc331c56c38f89c30f7efe8" title="s_face_to_int" alt="" coords="159,208,259,235"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="307,81,388,108"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="308,132,387,159"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="437,81,522,108"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="436,132,523,159"/>
+</map>

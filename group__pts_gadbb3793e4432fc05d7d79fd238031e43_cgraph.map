@@ -1,5 +1,12 @@
 <map id="pts_map_all" name="pts_map_all">
-<area shape="rect" id="node2" href="$group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="145,31,243,57"/>
-<area shape="rect" id="node3" href="$group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="291,5,413,32"/>
-<area shape="rect" id="node4" href="$group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="320,56,384,83"/>
+<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="329,56,375,83"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="155,5,233,32"/>
+<area shape="rect" id="node5" href="$group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="145,132,243,159"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="309,5,395,32"/>
+<area shape="rect" id="node6" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="327,208,377,235"/>
+<area shape="rect" id="node7" href="$group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="291,107,413,133"/>
+<area shape="rect" id="node9" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="592,183,645,209"/>
+<area shape="rect" id="node10" href="$group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="320,157,384,184"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="463,107,542,133"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="461,157,544,184"/>
 </map>

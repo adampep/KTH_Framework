@@ -1,0 +1,5 @@
+<map id="crs_solve_l2" name="crs_solve_l2">
+<area shape="rect" id="node2" href="$navier3_8f.html#af669ac1ac644d9b0594f8e305471b0aa" title="dd_solver" alt="" coords="148,5,227,32"/>
+<area shape="rect" id="node3" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title="eprec2" alt="" coords="275,5,336,32"/>
+<area shape="rect" id="node4" href="$navier1_8f.html#a437311d1b46ce62fc7b4d3b1dda969e2" title="uzprec" alt="" coords="384,5,445,32"/>
+</map>

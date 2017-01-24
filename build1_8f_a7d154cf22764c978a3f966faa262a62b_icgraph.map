@@ -1,0 +1,27 @@
+<map id="drised" name="drised">
+<area shape="rect" id="node2" href="$build1_8f.html#a4a2bbfdd8169df94b1e56e3fc38b02bf" title="drawis" alt="" coords="111,846,171,872"/>
+<area shape="rect" id="node3" href="$prenek_2screen_8f.html#ab716cfca4f841d2338ee84e8e4d7dac3" title="redraw_mesh" alt="" coords="219,440,319,467"/>
+<area shape="rect" id="node6" href="$build_8f.html#a6ee6ba21247a79cb4ce5c140c7d30b7c" title="build1" alt="" coords="772,668,828,695"/>
+<area shape="rect" id="node9" href="$build1_8f.html#ad433007913244e6a82d61e93752c0c3e" title="model" alt="" coords="626,770,683,796"/>
+<area shape="rect" id="node21" href="$prenek_2screen_8f.html#a658dcd3462d269118c2e35dd191e0edc" title="redraw_mesh_small" alt="" coords="585,972,724,999"/>
+<area shape="rect" id="node22" href="$bound_8f.html#aacf6c707af3907854348fdcd80d1083d" title="set_up_level" alt="" coords="221,871,316,898"/>
+<area shape="rect" id="node24" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="772,935,828,962"/>
+<area shape="rect" id="node25" href="$build_8f.html#a8907c829f1285b3593359db4a8347b7e" title="delete" alt="" coords="240,35,297,62"/>
+<area shape="rect" id="node26" href="$build1_8f.html#a9dee75678673b8a093ed7335c753003d" title="newel" alt="" coords="241,187,297,214"/>
+<area shape="rect" id="node4" href="$prenek_2screen_8f.html#a72f7babf9c632686c721f6ff3cc8c7d6" title="getobjs" alt="" coords="420,162,484,188"/>
+<area shape="rect" id="node5" href="$prenek_2screen_8f.html#aa23ca924dea1db88a700085004dc836a" title="setobj" alt="" coords="626,238,683,264"/>
+<area shape="rect" id="node8" href="$build1_8f.html#a7f786e6d98046d7c4c5c65e4717bb244" title="model2d" alt="" coords="417,770,487,796"/>
+<area shape="rect" id="node10" href="$build2_8f.html#aae2ac95e9606a0734359d9410a594581" title="nw_sphmesh" alt="" coords="403,668,501,695"/>
+<area shape="rect" id="node11" href="$curve_8f.html#afbda46b1e736e65db6f92b6f45be27af" title="curves" alt="" coords="624,668,685,695"/>
+<area shape="rect" id="node12" href="$curve_8f.html#ac4df8d4eb1154a7a5fe1305bc8908d50" title="hexagon_refine" alt="" coords="397,618,507,644"/>
+<area shape="rect" id="node13" href="$glomod_8f.html#ac2a4dd5fade0636f739af802899b28b4" title="glomod" alt="" coords="623,567,687,594"/>
+<area shape="rect" id="node14" href="$curve_8f.html#a2cbc3a897f1dc64c8f8eefc698dffb8e" title="std_transform" alt="" coords="401,60,503,87"/>
+<area shape="rect" id="node15" href="$curve_8f.html#acedaa8354a8b6cddcfa1c8005d471ccc" title="circle_in_arc_transform_0" alt="" coords="367,111,537,138"/>
+<area shape="rect" id="node16" href="$glomod_8f.html#a200badd11bcc92d8417f625cc3654a69" title="smooth" alt="" coords="419,567,485,594"/>
+<area shape="rect" id="node17" href="$glomod_8f.html#a2ad15625f3779f04b343db155fa64130" title="stretch_outside_circ2" alt="" coords="379,212,525,239"/>
+<area shape="rect" id="node18" href="$zipper2_8f.html#a96b1f1eedbf07cbd03e2e66d122c8d53" title="renum" alt="" coords="423,263,481,290"/>
+<area shape="rect" id="node19" href="$zipper2_8f.html#a3207cb5df2fa9afceca1aa9a8025f839" title="shift" alt="" coords="429,466,475,492"/>
+<area shape="rect" id="node20" href="$zipper2_8f.html#a09803a6f2185228ed543aed2a20ffde9" title="shift2" alt="" coords="425,364,479,391"/>
+<area shape="rect" id="node7" href="$build_8f.html#a21aa0d39c5d51bfa6baf441bb274a484" title="build" alt="" coords="876,758,925,784"/>
+<area shape="rect" id="node23" href="$bound_8f.html#aba9a67d56085ab4fbc87a0e009aaf19f" title="set_bc_fld" alt="" coords="411,871,493,898"/>
+</map>

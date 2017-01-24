@@ -1,0 +1,9 @@
+<map id="hpts_out" name="hpts_out">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="137,56,192,83"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="136,107,193,133"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="125,157,204,184"/>
+<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="272,5,319,32"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="258,56,333,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="256,107,335,133"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="252,157,339,184"/>
+</map>

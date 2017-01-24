@@ -1,0 +1,26 @@
+<map id="xyzlin" name="xyzlin">
+<area shape="rect" id="node2" href="$core_2genxyz_8f.html#a68c86aab3d5439b8cdc8368eed562f9c" title="linquad" alt="" coords="228,320,291,346"/>
+<area shape="rect" id="node6" href="$curve_8f.html#ab3e16f6eac0886ce4e452d8ed7383e9f" title="make_core" alt="" coords="349,61,435,88"/>
+<area shape="rect" id="node8" href="$curve_8f.html#a0219e13a426ccb5d992a5c056c5622e3" title="make_core_2d" alt="" coords="339,472,445,498"/>
+<area shape="rect" id="node25" href="$core_2genxyz_8f.html#a7c0d9ad72ade85a885511477626382a9" title="xyzquad" alt="" coords="109,282,180,309"/>
+<area shape="rect" id="node3" href="$core_2genxyz_8f.html#a10f2e4b6c10053ac6abb2cd014cb8d44" title="genxyz" alt="" coords="360,112,424,138"/>
+<area shape="rect" id="node10" href="$zipper2_8f.html#afefb867064d6ba0363ef5ec1c0eb0964" title="genxyz_e" alt="" coords="353,421,431,448"/>
+<area shape="rect" id="node4" href="$core_2genxyz_8f.html#a6861908edfdc393cd40b5fd8ec8b242d" title="gencoor" alt="" coords="531,41,599,68"/>
+<area shape="rect" id="node5" href="$postnek_8f.html#a0c8adf3a5a2322d04fc746b55c3614ca" title="mespos" alt="" coords="531,92,599,118"/>
+<area shape="rect" id="node7" href="$curve_8f.html#a3843dc32d3efb3bc18184681af110007" title="filled_sphere_oct" alt="" coords="691,776,811,802"/>
+<area shape="rect" id="node9" href="$curve_8f.html#ac4207e327fbfee37dc206f20fbcf4add" title="filled_cyl_quadrant" alt="" coords="685,826,816,853"/>
+<area shape="rect" id="node11" href="$prenek_2postnek6_8f.html#a56710cc4b9fe3dd4ef6793c53580d1dc" title="gencen" alt="" coords="533,294,597,321"/>
+<area shape="rect" id="node12" href="$build2_8f.html#aa8a1be4a1ab848b3ce93eaf62043ea49" title="sc_cartesian_shell_b" alt="" coords="493,345,637,372"/>
+<area shape="rect" id="node13" href="$build2_8f.html#a03683773582c74f8fb97f7d790fbcc15" title="convert_top_to_mid" alt="" coords="497,396,633,422"/>
+<area shape="rect" id="node14" href="$curve_8f.html#a9bfc4a8158145e4741cdd05fe6afd98b" title="hex_transition_3d_e" alt="" coords="496,446,635,473"/>
+<area shape="rect" id="node15" href="$curve_8f.html#a6995d9aced64ab58975530533d572593" title="hexagon_refine_e" alt="" coords="503,497,627,524"/>
+<area shape="rect" id="node16" href="$glomod_8f.html#ad93084510260452900ab2a8abc741760" title="gencen2" alt="" coords="530,548,601,574"/>
+<area shape="rect" id="node17" href="$zipper2_8f.html#a7dd47639ed8b871baa69f85afd67a7e9" title="fndpln" alt="" coords="537,598,594,625"/>
+<area shape="rect" id="node18" href="$zipper2_8f.html#a5bf4d7189613d548ca949e35274c1a67" title="win3d" alt="" coords="537,649,593,676"/>
+<area shape="rect" id="node19" href="$zipper2_8f.html#acebfb07ae6f57f600cc82bc47df56ee0" title="splite" alt="" coords="539,700,592,726"/>
+<area shape="rect" id="node20" href="$zipper2_8f.html#ab4814dba44f64cc2ba0c49812c758f73" title="qsplite" alt="" coords="535,750,595,777"/>
+<area shape="rect" id="node21" href="$zipper2_8f.html#a20941c2db6e3976fdc73766442b8bf63" title="hsplite" alt="" coords="535,142,595,169"/>
+<area shape="rect" id="node22" href="$zipper2_8f.html#a357c438795029c7fb8d12c2fc0a643e3" title="zsplite" alt="" coords="535,193,595,220"/>
+<area shape="rect" id="node23" href="$zipper2_8f.html#a4a25f0ecbfd881188b8ad9dcfc12a508" title="msplite" alt="" coords="533,801,597,828"/>
+<area shape="rect" id="node24" href="$zipper2_8f.html#a2bdc2191b2abff15c87b538fd76725a0" title="octsplite" alt="" coords="530,244,601,270"/>
+</map>

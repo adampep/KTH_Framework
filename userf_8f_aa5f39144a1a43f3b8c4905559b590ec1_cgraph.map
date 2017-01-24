@@ -1,0 +1,12 @@
+<map id="azi_avg" name="azi_avg">
+<area shape="rect" id="node2" href="$userf_8f.html#a723152d9489dd0aee419603b1d12c717" title="azi_int" alt="" coords="122,107,182,133"/>
+<area shape="rect" id="node8" href="$userf_8f.html#a1d9319ce4218fe03bdd44a47504ae02a" title="get_file" alt="" coords="120,157,184,184"/>
+<area shape="rect" id="node3" href="$userf_8f.html#af2d3b60ad520eb6d208e24bd59c14cef" title="qtrapu" alt="" coords="232,107,291,133"/>
+<area shape="rect" id="node4" href="$math_8f.html#add7cf4f5279a2239cfd54f963a53e618" title="cfill" alt="" coords="350,5,393,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="452,81,503,108"/>
+<area shape="rect" id="node6" href="$userf_8f.html#a9ae90edbdb2a8dc6885bd9d8187d4647" title="trapzdu" alt="" coords="339,107,404,133"/>
+<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="346,157,397,184"/>
+<area shape="rect" id="node9" href="$postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="241,157,281,184"/>
+<area shape="rect" id="node10" href="$postnek_2iolib_8f.html#a1e12d5f0a58f8389eff1920b1ce03e59" title="res" alt="" coords="241,208,281,235"/>
+<area shape="rect" id="node11" href="$core_2genbox_8f.html#aded7cdd7342c89c88593da29a85e8b24" title="gets" alt="" coords="348,208,395,235"/>
+</map>

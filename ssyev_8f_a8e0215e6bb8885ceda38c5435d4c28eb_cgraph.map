@@ -1,0 +1,14 @@
+<map id="sorgqr" name="sorgqr">
+<area shape="rect" id="node2" href="$ssygv_8f.html#abd00c98d81aee1efa14e838bafa8078a" title="slarfb" alt="" coords="219,69,273,96"/>
+<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="435,208,492,235"/>
+<area shape="rect" id="node7" href="$ssygv_8f.html#aee4c78e6f808a5c1a782b3eaaee5d12c" title="slarft" alt="" coords="221,208,271,235"/>
+<area shape="rect" id="node10" href="$ssygv_8f.html#a4968b973936e8a9f1ae4ab1f252cb230" title="sorg2r" alt="" coords="112,335,171,361"/>
+<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#a7082b747d31963a7c4bcc9a6e488f6cc" title="scopy" alt="" coords="325,56,383,83"/>
+<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#afe51bacb54592ff5de056acabd83c260" title="sgemm" alt="" coords="321,5,387,32"/>
+<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a5a8ec25aba550c224cf6941fca7a2c98" title="strmm" alt="" coords="325,107,383,133"/>
+<area shape="rect" id="node8" href="$core_23rd__party_2blas_8f.html#afc92361b74c6d41c7e5afa0aa5d13ec9" title="sgemv" alt="" coords="323,259,385,285"/>
+<area shape="rect" id="node9" href="$core_23rd__party_2blas_8f.html#a2ff27ee8951accd778cd785023f71ac0" title="strmv" alt="" coords="327,208,381,235"/>
+<area shape="rect" id="node11" href="$ssygv_8f.html#a38688653aa8fa8f1e3fadbdcd1377969" title="slarf" alt="" coords="223,309,269,336"/>
+<area shape="rect" id="node13" href="$core_23rd__party_2blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="219,411,273,437"/>
+<area shape="rect" id="node12" href="$core_23rd__party_2blas_8f.html#a408fbda62b1284363c01d7595da11292" title="sger" alt="" coords="331,309,377,336"/>
+</map>

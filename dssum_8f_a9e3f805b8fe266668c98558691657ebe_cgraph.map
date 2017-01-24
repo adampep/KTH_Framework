@@ -1,0 +1,20 @@
+<map id="dssum_msk" name="dssum_msk">
+<area shape="rect" id="node2" href="$dssum_8f.html#a31a64067a6274e816e2291149e0fbc26" title="apply_j" alt="" coords="156,132,219,159"/>
+<area shape="rect" id="node10" href="$dssum_8f.html#a9443c1f36d3059401c55b612e5292096" title="apply_jt" alt="" coords="154,259,221,285"/>
+<area shape="rect" id="node15" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="164,309,211,336"/>
+<area shape="rect" id="node16" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="147,360,228,387"/>
+<area shape="rect" id="node18" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="148,411,227,437"/>
+<area shape="rect" id="node3" href="$dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title="ftovec" alt="" coords="290,5,349,32"/>
+<area shape="rect" id="node5" href="$dssum_8f.html#a6a874ca710334407c7e4e1e45ba3622b" title="matvec3" alt="" coords="283,208,355,235"/>
+<area shape="rect" id="node9" href="$dssum_8f.html#aae6bc5b0b8979029573a6a52e83de868" title="vectof" alt="" coords="290,56,349,83"/>
+<area shape="rect" id="node4" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="421,81,479,108"/>
+<area shape="rect" id="node6" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="425,309,475,336"/>
+<area shape="rect" id="node7" href="$math_8f.html#a17c0ecae12cc5c6096939885da90ad2b" title="transpose" alt="" coords="411,208,489,235"/>
+<area shape="rect" id="node8" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="425,259,475,285"/>
+<area shape="rect" id="node11" href="$dssum_8f.html#a83fca26083d2ff2aa1533db6c722224a" title="ftovec_0" alt="" coords="283,157,355,184"/>
+<area shape="rect" id="node12" href="$dssum_8f.html#a4d41cefc422619f6ca03720b4c6002df" title="matvec3t" alt="" coords="281,259,357,285"/>
+<area shape="rect" id="node13" href="$dssum_8f.html#afd8c7209444f900fe30712458263fbc9" title="matvect" alt="" coords="285,309,354,336"/>
+<area shape="rect" id="node14" href="$dssum_8f.html#a67e4507f868154bf0bd8a76edddfbefd" title="vectof_add" alt="" coords="276,107,363,133"/>
+<area shape="rect" id="node17" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="277,360,362,387"/>
+<area shape="rect" id="node19" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="276,411,363,437"/>
+</map>

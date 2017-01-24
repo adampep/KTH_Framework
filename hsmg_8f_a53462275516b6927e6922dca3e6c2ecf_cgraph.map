@@ -1,0 +1,6 @@
+<map id="hsmg_dssum" name="hsmg_dssum">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="153,5,235,32"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="155,56,233,83"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="283,5,369,32"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="283,56,369,83"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="nek_comm_io" name="nek_comm_io">
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="193,5,248,32"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="193,56,248,83"/>
+<area shape="rect" id="node6" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="351,107,398,133"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="192,157,249,184"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a618bcab324319530f525367d1c8fd603" title="mpi_comm_create" alt="" coords="156,208,285,235"/>
+<area shape="rect" id="node10" href="$mpi__dummy_8f.html#ab70da585207f96f91cd148d290e290de" title="mpi_comm_group" alt="" coords="158,259,283,285"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#a7bca770c4297369fe69dae7f244ece04" title="mpi_group_free" alt="" coords="165,309,276,336"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="333,5,416,32"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="337,56,412,83"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="335,157,414,184"/>
+</map>

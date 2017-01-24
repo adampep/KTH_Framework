@@ -1,0 +1,25 @@
+<map id="gs_gop_vec_" name="gs_gop_vec_">
+<area shape="rect" id="node2" href="$tools_2postnek_2gs_8c.html#af170cb26ccb03ded4b3ba6e895084b65" title="gs_gop_vec" alt="" coords="152,563,244,589"/>
+<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#adb136e14634fe4b772a0b034f52f3939" title="daxpy" alt="" coords="305,5,362,32"/>
+<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#afc29c83942509cba5f3764115f0471d5" title="dcopy" alt="" coords="305,56,362,83"/>
+<area shape="rect" id="node5" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="582,247,694,273"/>
+<area shape="rect" id="node8" href="$error_8c.html#acd5ba534263bf658c108027dc25bc010" title="error_msg_warning" alt="" coords="572,171,704,197"/>
+<area shape="rect" id="node9" href="$tools_2postnek_2comm_8c.html#a83a65020c19fc57cede7ec617e2e12ee" title="grop" alt="" coords="310,309,357,336"/>
+<area shape="rect" id="node14" href="$ivec_8c.html#af3d462980fc01fd7b43ab73fbd332d04" title="rvec_add" alt="" coords="601,461,675,488"/>
+<area shape="rect" id="node15" href="$comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="308,563,359,589"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#a7148047a95eacae2b80e9f95fd981ce9" title="isend" alt="" coords="307,613,360,640"/>
+<area shape="rect" id="node19" href="$comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="298,664,369,691"/>
+<area shape="rect" id="node21" href="$ivec_8c.html#ae0f1f11d5ed3c848b63c2cc0aeb65704" title="rvec_copy" alt="" coords="292,715,375,741"/>
+<area shape="rect" id="node22" href="$avg_8c.html#ad23dba9636930476b341b972a20f7ac6" title="rvec_zero" alt="" coords="294,765,373,792"/>
+<area shape="rect" id="node23" href="$core_23rd__party_2blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="305,816,362,843"/>
+<area shape="rect" id="node24" href="$core_23rd__party_2blas_8f.html#a7082b747d31963a7c4bcc9a6e488f6cc" title="scopy" alt="" coords="305,867,362,893"/>
+<area shape="rect" id="node6" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="786,184,837,211"/>
+<area shape="rect" id="node7" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="752,247,871,273"/>
+<area shape="rect" id="node10" href="$tools_2postnek_2comm_8c.html#a5f19f09f6cd5ba3ce5391359d3ff207a" title="comm_init" alt="" coords="432,208,515,235"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="446,309,501,336"/>
+<area shape="rect" id="node12" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="445,360,502,387"/>
+<area shape="rect" id="node13" href="$ivec_8c.html#a8b607d0af45587a7e3c80dff9f3c9429" title="rvec_fct_addr" alt="" coords="423,411,524,437"/>
+<area shape="rect" id="node16" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="434,563,513,589"/>
+<area shape="rect" id="node18" href="$mpi__dummy_8f.html#a4c6ff99fbf164179b98c120547561b30" title="mpi_isend" alt="" coords="433,613,514,640"/>
+<area shape="rect" id="node20" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="436,664,511,691"/>
+</map>

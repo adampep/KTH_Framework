@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -134,13 +135,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5d6b98a61acebdfeef2a1f23bc11286d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d">pts_rdst</a> (nptimb, urbuf, lurbuf, lpbuf, ifutrans)</td></tr>
 <tr class="memdesc:ga5d6b98a61acebdfeef2a1f23bc11286d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redistribute points.  <a href="#ga5d6b98a61acebdfeef2a1f23bc11286d">More...</a><br /></td></tr>
 <tr class="separator:ga5d6b98a61acebdfeef2a1f23bc11286d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee86e081cba918c5dad92c606f63ce3d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#gaee86e081cba918c5dad92c606f63ce3d">pts_transfer</a> (rbuf, lrbuf, ibuf, libuf, lpts, npts)</td></tr>
+<tr class="memitem:gaee86e081cba918c5dad92c606f63ce3d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#gaee86e081cba918c5dad92c606f63ce3d">pts_transfer</a> (rbuf, lrbuf, ibuf, libuf, lpts, <a class="el" href="vtk__interface_8c.html#a0306378cd06415f84b10cb3d15516ec3">npts</a>)</td></tr>
 <tr class="memdesc:gaee86e081cba918c5dad92c606f63ce3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point data transfer.  <a href="#gaee86e081cba918c5dad92c606f63ce3d">More...</a><br /></td></tr>
 <tr class="separator:gaee86e081cba918c5dad92c606f63ce3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadbb3793e4432fc05d7d79fd238031e43"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#gadbb3793e4432fc05d7d79fd238031e43">pts_map_all</a> (mid, lpts, npts, npoints, nptimb)</td></tr>
+<tr class="memitem:gadbb3793e4432fc05d7d79fd238031e43"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#gadbb3793e4432fc05d7d79fd238031e43">pts_map_all</a> (mid, lpts, <a class="el" href="vtk__interface_8c.html#a0306378cd06415f84b10cb3d15516ec3">npts</a>, npoints, nptimb)</td></tr>
 <tr class="memdesc:gadbb3793e4432fc05d7d79fd238031e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point-process mapping.  <a href="#gadbb3793e4432fc05d7d79fd238031e43">More...</a><br /></td></tr>
 <tr class="separator:gadbb3793e4432fc05d7d79fd238031e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49ab7666f657f9bf235511a423cd74fd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd">pts_map_set</a> (mid, lpts, istatus, indasg, npts_plist, lplist, npts, nplist)</td></tr>
+<tr class="memitem:ga49ab7666f657f9bf235511a423cd74fd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd">pts_map_set</a> (mid, lpts, istatus, indasg, npts_plist, lplist, <a class="el" href="vtk__interface_8c.html#a0306378cd06415f84b10cb3d15516ec3">npts</a>, nplist)</td></tr>
 <tr class="memdesc:ga49ab7666f657f9bf235511a423cd74fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point-process mapping for given process set.  <a href="#ga49ab7666f657f9bf235511a423cd74fd">More...</a><br /></td></tr>
 <tr class="separator:ga49ab7666f657f9bf235511a423cd74fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -159,7 +160,7 @@ Functions</h2></td></tr>
 <li>pts_ihpts - (integer) findpts_setup handle</li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      <span class="keywordtype">real</span> ubuffer(2,lhis)</div><div class="line"></div><div class="line"><span class="comment">!     pts timing and redistribute</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__pts.html#ga2cf3ce0242552490651de969fdd5a550">pts_timing</a>(nptimb,ubuffer,2,lhis,.true.)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --> <div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      <span class="keywordtype">real</span> ubuffer(2,lhis)</div><div class="line"></div><div class="line"><span class="comment">!     main pts interface; point redistribute</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d">pts_rdst</a>(nptimb,ubuffer,2,lhis,.true.)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span><a class="code" href="postnek9_8f.html#a0122af094b81b39ee04eeac13f2837d2">userchk</a></div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      <span class="keywordtype">real</span> ubuffer(2,lhis)</div><div class="line"></div><div class="line"><span class="comment">!     pts timing and redistribute</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__pts.html#ga2cf3ce0242552490651de969fdd5a550">pts_timing</a>(nptimb,ubuffer,2,lhis,.true.)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --> <div class="fragment"><div class="line"><span class="keyword">      subroutine </span><a class="code" href="postnek9_8f.html#a0122af094b81b39ee04eeac13f2837d2">userchk</a></div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      <span class="keywordtype">real</span> ubuffer(2,lhis)</div><div class="line"></div><div class="line"><span class="comment">!     main pts interface; point redistribute</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d">pts_rdst</a>(nptimb,ubuffer,2,lhis,.true.)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This vesion of the code does not work for number of processors bigger than 2*LX1*LY1*LZ1*LELT.</dd>
 <dd>
 Check PTSD include file for definition of memeory structures provided by this module.</dd>
@@ -224,7 +225,7 @@ This module requres findpts_setup to be executed before any of the module routin
 
 <p>Definition at line <a class="el" href="pts__redistribute_8f_source.html#l00371">371</a> of file <a class="el" href="pts__redistribute_8f_source.html">pts_redistribute.f</a>.</p>
 
-<p>References <a class="el" href="pts__redistribute_8f_source.html#l00599">pts_map_set()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>, <a class="el" href="vtk__interface_8c_source.html#l00037">npts</a>, and <a class="el" href="pts__redistribute_8f_source.html#l00599">pts_map_set()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -233,9 +234,16 @@ This module requres findpts_setup to be executed before any of the module routin
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__pts_gadbb3793e4432fc05d7d79fd238031e43_cgraph.png" border="0" usemap="#group__pts_gadbb3793e4432fc05d7d79fd238031e43_cgraph" alt=""/></div>
 <map name="group__pts_gadbb3793e4432fc05d7d79fd238031e43_cgraph" id="group__pts_gadbb3793e4432fc05d7d79fd238031e43_cgraph">
-<area shape="rect" id="node2" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="145,31,243,57"/>
-<area shape="rect" id="node3" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="291,5,413,32"/>
-<area shape="rect" id="node4" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="320,56,384,83"/>
+<area shape="rect" id="node2" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="329,56,375,83"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="155,5,233,32"/>
+<area shape="rect" id="node5" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="145,132,243,159"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="309,5,395,32"/>
+<area shape="rect" id="node6" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="327,208,377,235"/>
+<area shape="rect" id="node7" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="291,107,413,133"/>
+<area shape="rect" id="node9" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="592,183,645,209"/>
+<area shape="rect" id="node10" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="320,157,384,184"/>
+<area shape="rect" id="node8" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="463,107,542,133"/>
+<area shape="rect" id="node11" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="461,157,544,184"/>
 </map>
 </div>
 </p>
@@ -333,7 +341,7 @@ This module requres findpts_setup to be executed before any of the module routin
 
 <p>Definition at line <a class="el" href="pts__redistribute_8f_source.html#l00599">599</a> of file <a class="el" href="pts__redistribute_8f_source.html">pts_redistribute.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi__wrp_8f_source.html#l00044">ibcastn()</a>, and <a class="el" href="comm__mpi__wrp_8f_source.html#l00017">ivgl_running_sum()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="comm__mpi__wrp_8f_source.html#l00044">ibcastn()</a>, <a class="el" href="math_8f_source.html#l00444">icopy()</a>, <a class="el" href="comm__mpi__wrp_8f_source.html#l00017">ivgl_running_sum()</a>, <a class="el" href="math_8f_source.html#l00377">izero()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -342,8 +350,16 @@ This module requres findpts_setup to be executed before any of the module routin
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__pts_ga49ab7666f657f9bf235511a423cd74fd_cgraph.png" border="0" usemap="#group__pts_ga49ab7666f657f9bf235511a423cd74fd_cgraph" alt=""/></div>
 <map name="group__pts_ga49ab7666f657f9bf235511a423cd74fd_cgraph" id="group__pts_ga49ab7666f657f9bf235511a423cd74fd_cgraph">
-<area shape="rect" id="node2" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="180,5,244,32"/>
-<area shape="rect" id="node3" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="151,56,273,83"/>
+<area shape="rect" id="node2" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="189,5,235,32"/>
+<area shape="rect" id="node3" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="180,56,244,83"/>
+<area shape="rect" id="node5" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="455,107,509,133"/>
+<area shape="rect" id="node6" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="151,157,273,184"/>
+<area shape="rect" id="node11" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="187,208,237,235"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="321,56,404,83"/>
+<area shape="rect" id="node7" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="323,157,402,184"/>
+<area shape="rect" id="node8" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="457,157,507,184"/>
+<area shape="rect" id="node9" href="math_8f.html#ae440982936535b602f42ea90d02b94d9" title="i8copy" alt="" coords="452,208,512,235"/>
+<area shape="rect" id="node10" href="math_8f.html#a4052b45630e3d7ac3a9b01c8c11a498a" title="rrcopy" alt="" coords="453,259,511,285"/>
 </map>
 </div>
 </p>
@@ -377,7 +393,7 @@ This module requres findpts_setup to be executed before any of the module routin
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lurbuf,lpbuf)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lurbuf,lpbuf)&#160;</td>
           <td class="paramname"><em>urbuf</em>, </td>
         </tr>
         <tr>
@@ -421,7 +437,7 @@ This module requres findpts_setup to be executed before any of the module routin
 
 <p>Definition at line <a class="el" href="pts__redistribute_8f_source.html#l00157">157</a> of file <a class="el" href="pts__redistribute_8f_source.html">pts_redistribute.f</a>.</p>
 
-<p>References <a class="el" href="pts__redistribute_8f_source.html#l00371">pts_map_all()</a>, and <a class="el" href="pts__redistribute_8f_source.html#l00304">pts_transfer()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="pts__redistribute_8f_source.html#l00371">pts_map_all()</a>, and <a class="el" href="pts__redistribute_8f_source.html#l00304">pts_transfer()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -430,11 +446,16 @@ This module requres findpts_setup to be executed before any of the module routin
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__pts_ga5d6b98a61acebdfeef2a1f23bc11286d_cgraph.png" border="0" usemap="#group__pts_ga5d6b98a61acebdfeef2a1f23bc11286d_cgraph" alt=""/></div>
 <map name="group__pts_ga5d6b98a61acebdfeef2a1f23bc11286d_cgraph" id="group__pts_ga5d6b98a61acebdfeef2a1f23bc11286d_cgraph">
-<area shape="rect" id="node2" href="group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="123,31,215,57"/>
-<area shape="rect" id="node6" href="group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="123,81,214,108"/>
-<area shape="rect" id="node3" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="263,31,360,57"/>
-<area shape="rect" id="node4" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="437,5,501,32"/>
-<area shape="rect" id="node5" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="408,56,531,83"/>
+<area shape="rect" id="node2" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="446,5,493,32"/>
+<area shape="rect" id="node3" href="group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="123,81,215,108"/>
+<area shape="rect" id="node11" href="group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="123,132,214,159"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="272,208,351,235"/>
+<area shape="rect" id="node6" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="263,107,360,133"/>
+<area shape="rect" id="node5" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="426,259,513,285"/>
+<area shape="rect" id="node7" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2" title="Broadcast integer array from specified process. " alt="" coords="437,107,501,133"/>
+<area shape="rect" id="node8" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="443,157,496,184"/>
+<area shape="rect" id="node9" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2" title="Global MPI scan for integer array. " alt="" coords="408,208,531,235"/>
+<area shape="rect" id="node10" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="444,56,495,83"/>
 </map>
 </div>
 </p>
@@ -466,7 +487,7 @@ This module requres findpts_setup to be executed before any of the module routin
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">real, dimension(lurbuf,lpbuf)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lurbuf,lpbuf)&#160;</td>
           <td class="paramname"><em>urbuf</em>, </td>
         </tr>
         <tr>
@@ -510,7 +531,7 @@ This module requres findpts_setup to be executed before any of the module routin
 
 <p>Definition at line <a class="el" href="pts__redistribute_8f_source.html#l00021">21</a> of file <a class="el" href="pts__redistribute_8f_source.html">pts_redistribute.f</a>.</p>
 
-<p>References <a class="el" href="pts__redistribute_8f_source.html#l00157">pts_rdst()</a>.</p>
+<p>References <a class="el" href="findpts__imp_8h_source.html#l00028">findpts</a>, <a class="el" href="findpts__imp_8h_source.html#l00029">findpts_eval</a>, and <a class="el" href="pts__redistribute_8f_source.html#l00157">pts_rdst()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -520,9 +541,11 @@ This module requres findpts_setup to be executed before any of the module routin
 <div class="center"><img src="group__pts_ga2cf3ce0242552490651de969fdd5a550_cgraph.png" border="0" usemap="#group__pts_ga2cf3ce0242552490651de969fdd5a550_cgraph" alt=""/></div>
 <map name="group__pts_ga2cf3ce0242552490651de969fdd5a550_cgraph" id="group__pts_ga2cf3ce0242552490651de969fdd5a550_cgraph">
 <area shape="rect" id="node2" href="group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d" title="Redistribute points. " alt="" coords="136,31,205,57"/>
-<area shape="rect" id="node3" href="group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="253,5,345,32"/>
-<area shape="rect" id="node5" href="group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="254,56,345,83"/>
-<area shape="rect" id="node4" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="393,5,491,32"/>
+<area shape="rect" id="node3" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="539,5,585,32"/>
+<area shape="rect" id="node4" href="group__pts.html#gadbb3793e4432fc05d7d79fd238031e43" title="Point&#45;process mapping. " alt="" coords="253,31,345,57"/>
+<area shape="rect" id="node7" href="group__pts.html#gaee86e081cba918c5dad92c606f63ce3d" title="Point data transfer. " alt="" coords="254,81,345,108"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="403,56,481,83"/>
+<area shape="rect" id="node6" href="group__pts.html#ga49ab7666f657f9bf235511a423cd74fd" title="Point&#45;process mapping for given process set. " alt="" coords="393,107,491,133"/>
 </map>
 </div>
 </p>
@@ -536,7 +559,7 @@ This module requres findpts_setup to be executed before any of the module routin
         <tr>
           <td class="memname">subroutine pts_transfer </td>
           <td>(</td>
-          <td class="paramtype">real, dimension(lrbuf,lpts)&#160;</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lrbuf,lpts)&#160;</td>
           <td class="paramname"><em>rbuf</em>, </td>
         </tr>
         <tr>
@@ -612,7 +635,7 @@ This module requres findpts_setup to be executed before any of the module routin
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 24 2017 16:19:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jan 24 2017 16:27:17 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
