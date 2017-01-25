@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['d1ops_2ef',['d1ops.f',['../d1ops_8f.html',1,'']]],
-  ['dc_2ef',['dc.f',['../dc_8f.html',1,'']]],
   ['debug_2eh',['debug.h',['../debug_8h.html',1,'']]],
-  ['diagmm_2ec',['diagmm.c',['../diagmm_8c.html',1,'']]],
   ['diagnostics_2ef',['diagnostics.f',['../diagnostics_8f.html',1,'']]],
   ['dictionary_2ec',['dictionary.c',['../dictionary_8c.html',1,'']]],
   ['dictionary_2eh',['dictionary.h',['../dictionary_8h.html',1,'']]],

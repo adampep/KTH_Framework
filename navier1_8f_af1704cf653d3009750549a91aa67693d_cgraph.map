@@ -2,12 +2,12 @@
 <area shape="rect" id="node2" href="$fast3d_8f.html#ad007f6eca12b1b9307f46e56bcc40a59" title="fd_weights_full" alt="" coords="124,56,233,83"/>
 <area shape="rect" id="node3" href="$convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="145,107,212,133"/>
 <area shape="rect" id="node9" href="$math_8f.html#a17c0ecae12cc5c6096939885da90ad2b" title="transpose" alt="" coords="139,157,218,184"/>
-<area shape="rect" id="node10" href="$core_2speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="153,208,205,235"/>
+<area shape="rect" id="node10" href="$speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="153,208,205,235"/>
 <area shape="rect" id="node4" href="$comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="282,107,333,133"/>
 <area shape="rect" id="node5" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="387,5,440,32"/>
 <area shape="rect" id="node6" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="381,56,445,83"/>
-<area shape="rect" id="node7" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="493,208,540,235"/>
+<area shape="rect" id="node7" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="493,208,540,235"/>
 <area shape="rect" id="node8" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="387,157,440,184"/>
-<area shape="rect" id="node11" href="$core_2speclib_8f.html#a0a1a17375323b7ab32d6ebe1c52ab1c3" title="zwglj" alt="" coords="281,208,333,235"/>
-<area shape="rect" id="node12" href="$core_2speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title="zwgljd" alt="" coords="384,259,443,285"/>
+<area shape="rect" id="node11" href="$speclib_8f.html#a0a1a17375323b7ab32d6ebe1c52ab1c3" title="zwglj" alt="" coords="281,208,333,235"/>
+<area shape="rect" id="node12" href="$speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title="zwgljd" alt="" coords="384,259,443,285"/>
 </map>

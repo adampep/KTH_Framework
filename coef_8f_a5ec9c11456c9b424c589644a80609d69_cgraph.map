@@ -1,0 +1,8 @@
+<map id="area3" name="area3">
+<area shape="rect" id="node2" href="$genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="227,132,267,159"/>
+<area shape="rect" id="node3" href="$subs2_8f.html#a74608551ad6832584488671fd36acad8" title="facexv" alt="" coords="109,5,171,32"/>
+<area shape="rect" id="node5" href="$bdry_8f.html#a08a4a461c2a4ae5f28db958154068379" title="unitvec" alt="" coords="108,107,172,133"/>
+<area shape="rect" id="node6" href="$math_8f.html#af2f223956e6ec007feaf762d60bbd395" title="vcross" alt="" coords="109,157,171,184"/>
+<area shape="rect" id="node7" href="$math_8f.html#af1b95db3cc8ee10635deec9d7c241e82" title="vdot3" alt="" coords="113,208,167,235"/>
+<area shape="rect" id="node4" href="$connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="220,5,275,32"/>
+</map>

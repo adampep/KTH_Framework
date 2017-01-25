@@ -1,0 +1,12 @@
+<map id="dgj" name="dgj">
+<area shape="rect" id="node2" href="$speclib_8f.html#a890ed6cfc31fc92bbd3351e11d05a678" title="dgjd" alt="" coords="92,208,139,235"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="192,157,239,184"/>
+<area shape="rect" id="node11" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title="jacobf" alt="" coords="187,208,244,235"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="299,5,383,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="301,56,382,83"/>
+<area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="308,107,375,133"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="292,157,391,184"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="296,208,387,235"/>
+<area shape="rect" id="node9" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="302,259,381,285"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="302,309,381,336"/>
+</map>

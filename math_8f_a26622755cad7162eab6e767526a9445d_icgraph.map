@@ -1,12 +1,9 @@
 <map id="copyi4" name="copyi4">
-<area shape="rect" id="node2" href="$connect2_8f.html#a328e6df4b7c218ce4b3b46b72ac3711f" title="buf_to_xyz" alt="" coords="119,107,205,133"/>
-<area shape="rect" id="node7" href="$connect2_8f.html#a637876278ed588a2f4d0c595ec4ea32c" title="buf_to_curve" alt="" coords="113,5,211,32"/>
-<area shape="rect" id="node8" href="$connect2_8f.html#a02a2663bd073292a0684da670c1bb250" title="bin_rd1_curve" alt="" coords="259,5,361,32"/>
-<area shape="rect" id="node9" href="$connect2_8f.html#a189e9cbe1eb8f139fb4274fc08ee13ee" title="buf_to_bc" alt="" coords="123,208,201,235"/>
-<area shape="rect" id="node10" href="$connect2_8f.html#ae148b6a074a40d9a6959f82d066d1927" title="bin_rd1_bc" alt="" coords="267,157,353,184"/>
-<area shape="rect" id="node3" href="$connect2_8f.html#a14cdc9443ed9567e04fab4f74b6f8494" title="bin_rd1_mesh" alt="" coords="259,56,361,83"/>
-<area shape="rect" id="node5" href="$genmap_8f.html#a0e9fa7e7fedcfb12addbf5884a438e88" title="cscan_dxyz" alt="" coords="264,107,356,133"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#ad09b243239aba53c94a7c1d3d906e7d0" title="bin_rd1" alt="" coords="421,56,485,83"/>
-<area shape="rect" id="node6" href="$genmap_8f.html#a9b711f022616b7896ad2159c42f97f47" title="makemesh" alt="" coords="409,157,496,184"/>
-<area shape="rect" id="node11" href="$genmap_8f.html#afa8efaa5f5f4694f0750df820d377f63" title="rd_bc_bin" alt="" coords="271,208,349,235"/>
+<area shape="rect" id="node2" href="$connect2_8f.html#a328e6df4b7c218ce4b3b46b72ac3711f" title="buf_to_xyz" alt="" coords="119,5,205,32"/>
+<area shape="rect" id="node5" href="$connect2_8f.html#a637876278ed588a2f4d0c595ec4ea32c" title="buf_to_curve" alt="" coords="113,56,211,83"/>
+<area shape="rect" id="node6" href="$connect2_8f.html#a02a2663bd073292a0684da670c1bb250" title="bin_rd1_curve" alt="" coords="259,95,361,121"/>
+<area shape="rect" id="node7" href="$connect2_8f.html#a189e9cbe1eb8f139fb4274fc08ee13ee" title="buf_to_bc" alt="" coords="123,157,201,184"/>
+<area shape="rect" id="node8" href="$connect2_8f.html#ae148b6a074a40d9a6959f82d066d1927" title="bin_rd1_bc" alt="" coords="267,157,353,184"/>
+<area shape="rect" id="node3" href="$connect2_8f.html#a14cdc9443ed9567e04fab4f74b6f8494" title="bin_rd1_mesh" alt="" coords="259,19,361,45"/>
+<area shape="rect" id="node4" href="$connect2_8f.html#ad09b243239aba53c94a7c1d3d906e7d0" title="bin_rd1" alt="" coords="409,95,473,121"/>
 </map>

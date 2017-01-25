@@ -3,16 +3,9 @@
 <area shape="rect" id="node3" href="$dsygv_8f.html#a404759a75990a78660c741b3448b27e8" title="dlaev2" alt="" coords="112,56,172,83"/>
 <area shape="rect" id="node4" href="$dsygv_8f.html#a73cdfda601476bb0fdd86047dee1d357" title="dlartg" alt="" coords="115,107,169,133"/>
 <area shape="rect" id="node5" href="$dsygv_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8" title="dlascl" alt="" coords="114,157,170,184"/>
-<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="233,259,290,285"/>
+<area shape="rect" id="node6" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="220,259,277,285"/>
 <area shape="rect" id="node7" href="$dsygv_8f.html#a89e332374c7cd87e5db54bfe21550bc3" title="dlaset" alt="" coords="113,259,171,285"/>
 <area shape="rect" id="node8" href="$dsygv_8f.html#aa0a984d2062d62286a7a78ed3ba06fda" title="dlasr" alt="" coords="117,309,167,336"/>
 <area shape="rect" id="node9" href="$dsygv_8f.html#a88a9fb57b6459176b68f21720d3d2ad2" title="dlasrt" alt="" coords="115,360,169,387"/>
-<area shape="rect" id="node10" href="$core_23rd__party_2blas_8f.html#a780475990528dce288cf4f7bba36c90f" title="dswap" alt="" coords="112,411,172,437"/>
-<area shape="rect" id="node11" href="$big__post_8f.html#ae6213e4fa1afece3b9d926ec6dea6237" title="tst" alt="" coords="123,461,161,488"/>
-<area shape="rect" id="node12" href="$big__post_8f.html#add8e2749a8240d0ff26137c417655cbf" title="get_scalar" alt="" coords="220,461,303,488"/>
-<area shape="rect" id="node13" href="$prenek_8f.html#ae44e3fff1eecf95252efbb1abfb76a40" title="exit" alt="" coords="375,360,418,387"/>
-<area shape="rect" id="node14" href="$core_2speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="371,411,423,437"/>
-<area shape="rect" id="node15" href="$big__post_8f.html#afbbf3d5d985f20468021e0044057aee7" title="get_velocity" alt="" coords="351,461,443,488"/>
-<area shape="rect" id="node16" href="$big__post_8f.html#af07970d240d143d9137120a62721931d" title="get_coords" alt="" coords="353,512,440,539"/>
-<area shape="rect" id="node17" href="$navier5_8f.html#ab52fb19f2ec15bc259fa80ac383d4db0" title="get_exyz" alt="" coords="359,563,434,589"/>
+<area shape="rect" id="node10" href="$blas_8f.html#a780475990528dce288cf4f7bba36c90f" title="dswap" alt="" coords="112,411,172,437"/>
 </map>

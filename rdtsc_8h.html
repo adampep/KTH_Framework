@@ -145,8 +145,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> __inline__ <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> getticks(<span class="keywordtype">void</span>) \</div><div class="line">{ \</div><div class="line">   volatile <span class="keywordtype">unsigned</span> low, high; \</div><div class="line">   __asm__ __volatile__(<span class="stringliteral">&quot;rdtsc&quot;</span> : <span class="stringliteral">&quot;=a&quot;</span> (low), <span class="stringliteral">&quot;=d&quot;</span> (high)); <a class="code" href="lanczos_8c.html#a47a61acfa6511cd4cd7f6359c30cce59">\</a></div><div class="line"><a class="code" href="lanczos_8c.html#a47a61acfa6511cd4cd7f6359c30cce59">   return</a> ((<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span>)high)&lt;&lt;32 | low; \</div><div class="line">}</div><div class="ttc" id="lanczos_8c_html_a47a61acfa6511cd4cd7f6359c30cce59"><div class="ttname"><a href="lanczos_8c.html#a47a61acfa6511cd4cd7f6359c30cce59">return</a></div><div class="ttdeci">return(color)</div></div>
-</div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> __inline__ <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> getticks(<span class="keywordtype">void</span>) \</div><div class="line">{ \</div><div class="line">   volatile <span class="keywordtype">unsigned</span> low, high; \</div><div class="line">   __asm__ __volatile__(<span class="stringliteral">&quot;rdtsc&quot;</span> : <span class="stringliteral">&quot;=a&quot;</span> (low), <span class="stringliteral">&quot;=d&quot;</span> (high)); \</div><div class="line">   return ((<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span>)high)&lt;&lt;32 | low; \</div><div class="line">}</div></div><!-- fragment -->
 <p>Definition at line <a class="el" href="rdtsc_8h_source.html#l00004">4</a> of file <a class="el" href="rdtsc_8h_source.html">rdtsc.h</a>.</p>
 
 </div>
@@ -157,7 +156,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_6de6dc92cfde8dbe681aaf1971089863.html">jl</a></li><li class="navelem"><a class="el" href="rdtsc_8h.html">rdtsc.h</a></li>
-    <li class="footer">Generated on Tue Jan 24 2017 16:27:14 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

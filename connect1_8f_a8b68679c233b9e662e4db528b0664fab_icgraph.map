@@ -1,12 +1,5 @@
 <map id="crss2d" name="crss2d">
-<area shape="rect" id="node2" href="$connect1_8f.html#ab641b774823d34f2ffdc9965944d1c38" title="verrhe" alt="" coords="131,5,189,32"/>
-<area shape="rect" id="node5" href="$build_8f.html#ab726ad2aab46e9b2440166bf76ced895" title="chk_right_hand" alt="" coords="253,56,364,83"/>
-<area shape="rect" id="node9" href="$build1_8f.html#ad43f91599b38553d1c7430bc1cda9c8e" title="clockw_chk" alt="" coords="115,107,205,133"/>
-<area shape="rect" id="node11" href="$build1_8f.html#a424bc873061594885b589973ccb369a3" title="crss2d" alt="" coords="129,157,191,184"/>
-<area shape="rect" id="node3" href="$connect1_8f.html#ad2fa64ec84d1358545061390d925ff77" title="verify" alt="" coords="281,5,336,32"/>
-<area shape="rect" id="node4" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="412,5,499,32"/>
-<area shape="rect" id="node6" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="427,56,483,83"/>
-<area shape="rect" id="node8" href="$build_8f.html#a6ee6ba21247a79cb4ce5c140c7d30b7c" title="build1" alt="" coords="427,107,483,133"/>
-<area shape="rect" id="node7" href="$build_8f.html#a21aa0d39c5d51bfa6baf441bb274a484" title="build" alt="" coords="547,81,596,108"/>
-<area shape="rect" id="node10" href="$build1_8f.html#a9dee75678673b8a093ed7335c753003d" title="newel" alt="" coords="281,107,337,133"/>
+<area shape="rect" id="node2" href="$connect1_8f.html#ab641b774823d34f2ffdc9965944d1c38" title="verrhe" alt="" coords="115,5,173,32"/>
+<area shape="rect" id="node3" href="$connect1_8f.html#ad2fa64ec84d1358545061390d925ff77" title="verify" alt="" coords="221,5,276,32"/>
+<area shape="rect" id="node4" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="324,5,411,32"/>
 </map>

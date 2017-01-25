@@ -1,24 +1,10 @@
 var searchData=
 [
-  ['tag',['tag',['../vtk__interface_8c.html#aab34f2fc02b4a86bea93c68e1ec09d75',1,'vtk_interface.c']]],
-  ['tail',['tail',['../structqueue__CDT.html#ae0e7455c5ad8ec190795c0870ac0baf6',1,'queue_CDT']]],
-  ['text_5fscreenh',['text_screenh',['../prenek_2xdriver_8c.html#a20c94d1ecbd327bd7565dcc8d4f05cc5',1,'xdriver.c']]],
   ['timing',['timing',['../structcrs__data.html#a245803200de196e8f11ffe166b4c711b',1,'crs_data::timing()'],['../nek__comm_8c.html#a6f16d111b8db0c25178071b897605d54',1,'TIMING():&#160;nek_comm.c']]],
   ['timing_5fn',['timing_n',['../structcrs__data.html#a4e51c17186e6c6400eea980b60d43fdd',1,'crs_data']]],
-  ['tmp',['tmp',['../lanczos_8c.html#ab817851e1ff98f713358ea03223cf91d',1,'lanczos.c']]],
   ['tni',['tni',['../structcrs__data.html#ab0e44f3f44c79cf47d32577364d113be',1,'crs_data']]],
   ['tol',['tol',['../structfindpts__local__data__2.html#ab47d696f3a7331f84a0f8fcf87d460ce',1,'findpts_local_data_2::tol()'],['../structfindpts__local__data__3.html#ac9a9b0c464659847358bb9c18d173584',1,'findpts_local_data_3::tol()'],['../structfindpts__local__data.html#a282a4218039fe14e81e4c0b4453b8978',1,'findpts_local_data::tol()']]],
-  ['top',['top',['../structstack__CDT.html#a7c1d788db66172f8db7a0a588427b8fc',1,'stack_CDT']]],
-  ['top_5fline',['top_line',['../prenek_2xdriver_8c.html#a16227221d86824c71551f06dc3b1f019',1,'xdriver.c']]],
   ['total',['total',['../structpw__comm__data.html#aa7a78b5c7aebc36a18c2402968c507a7',1,'pw_comm_data']]],
   ['total_5fshared',['total_shared',['../structgs__topology.html#a4d37db5a617b1bdfcc99a55bbf6dffe0',1,'gs_topology']]],
-  ['tr',['tr',['../structfindpts__el__pt__2.html#afe14a32bf6063da83f8dfe60cd5313a0',1,'findpts_el_pt_2::tr()'],['../structfindpts__el__pt__3.html#abfb203e9460e0f5ca25a2d44caaae67e',1,'findpts_el_pt_3::tr()']]],
-  ['tree_5fbuf',['tree_buf',['../structgather__scatter__id.html#a61038edf1b49aa740fb615ba9bf9bcb6',1,'gather_scatter_id']]],
-  ['tree_5felms',['tree_elms',['../structgather__scatter__id.html#aa057e475e2f39390f029e561f2e57c6d',1,'gather_scatter_id']]],
-  ['tree_5fmap_5fin',['tree_map_in',['../structgather__scatter__id.html#afbcd0debce98a6a8d533451dc9bbb4bf',1,'gather_scatter_id']]],
-  ['tree_5fmap_5fout',['tree_map_out',['../structgather__scatter__id.html#a96ee3c9175c918367a88a385e46a0697',1,'gather_scatter_id']]],
-  ['tree_5fmap_5fsz',['tree_map_sz',['../structgather__scatter__id.html#ad97b3a2f5afdd680836f49bfc94af9e3',1,'gather_scatter_id']]],
-  ['tree_5fnel',['tree_nel',['../structgather__scatter__id.html#a4493a035383991d773fd0338d3e13d74',1,'gather_scatter_id']]],
-  ['tree_5fnghs',['tree_nghs',['../structgather__scatter__id.html#a562e0c94f5a324e98c8c3bc6c416a1a2',1,'gather_scatter_id']]],
-  ['tree_5fwork',['tree_work',['../structgather__scatter__id.html#a6bcda40184a811f22362b606dfc472aa',1,'gather_scatter_id']]]
+  ['tr',['tr',['../structfindpts__el__pt__2.html#afe14a32bf6063da83f8dfe60cd5313a0',1,'findpts_el_pt_2::tr()'],['../structfindpts__el__pt__3.html#abfb203e9460e0f5ca25a2d44caaae67e',1,'findpts_el_pt_3::tr()']]]
 ];

@@ -1,7 +1,14 @@
 <map id="stat_output_mapping" name="stat_output_mapping">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="197,56,252,83"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="196,107,253,133"/>
-<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="317,5,364,32"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="303,56,378,83"/>
-<area shape="rect" id="node6" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="301,107,380,133"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="197,208,252,235"/>
+<area shape="rect" id="node12" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="196,259,253,285"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="317,157,364,184"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="303,208,378,235"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="435,5,519,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="437,56,518,83"/>
+<area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="444,107,511,133"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="428,157,527,184"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="432,208,523,235"/>
+<area shape="rect" id="node9" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="438,259,517,285"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="438,309,517,336"/>
+<area shape="rect" id="node13" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="301,259,380,285"/>
 </map>

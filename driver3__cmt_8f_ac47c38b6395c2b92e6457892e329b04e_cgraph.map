@@ -12,8 +12,8 @@
 <area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="544,120,629,147"/>
 <area shape="rect" id="node9" href="$induct_8f.html#adcae8f87adfb3b7c619cd72c46ccd4ac" title="set_dealias_rx" alt="" coords="389,196,496,223"/>
 <area shape="rect" id="node11" href="$convect_8f.html#a9560f353879de6e4a86926a9831842a3" title="intp_rstd" alt="" coords="551,247,623,273"/>
-<area shape="rect" id="node10" href="$core_2speclib_8f.html#a1aea25f2ddfcdcb1f50e66bbd4282fe2" title="zwgl" alt="" coords="562,196,611,223"/>
+<area shape="rect" id="node10" href="$speclib_8f.html#a1aea25f2ddfcdcb1f50e66bbd4282fe2" title="zwgl" alt="" coords="562,196,611,223"/>
 <area shape="rect" id="node14" href="$bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="407,309,478,336"/>
 <area shape="rect" id="node15" href="$driver3__cmt_8f.html#a0427858fb7b0c582bcd5ff776de86a09" title="cmtasgn" alt="" coords="407,360,479,387"/>
-<area shape="rect" id="node17" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="423,411,463,437"/>
+<area shape="rect" id="node17" href="$genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="423,411,463,437"/>
 </map>

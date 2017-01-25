@@ -26,7 +26,7 @@
 <area shape="rect" id="node20" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="639,285,690,311"/>
 <area shape="rect" id="node21" href="$driver3__cmt_8f.html#a91fd597ad604e7412e8d78a79beefe34" title="tdstate" alt="" coords="633,335,696,362"/>
 <area shape="rect" id="node22" href="$convect_8f.html#ab9dc1c74179f5d10465e63bb065f65eb" title="set_convect_cons" alt="" coords="601,133,729,159"/>
-<area shape="rect" id="node16" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="831,209,871,235"/>
+<area shape="rect" id="node16" href="$genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="831,209,871,235"/>
 <area shape="rect" id="node23" href="$induct_8f.html#adcae8f87adfb3b7c619cd72c46ccd4ac" title="set_dealias_rx" alt="" coords="797,133,904,159"/>
 <area shape="rect" id="node25" href="$intpdiff_8f.html#a65689efbb78eee023a3a9a7d4b9caff7" title="set_dealias_face" alt="" coords="605,1285,725,1311"/>
 <area shape="rect" id="node26" href="$intpdiff_8f.html#a850ca013bfbf88b2bf9d588ebbc7d1d9" title="set_alias_rx" alt="" coords="619,1234,711,1261"/>

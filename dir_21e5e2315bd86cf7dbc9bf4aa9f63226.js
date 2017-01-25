@@ -1,6 +1,6 @@
 var dir_21e5e2315bd86cf7dbc9bf4aa9f63226 =
 [
-    [ "blas.f", "core_23rd__party_2blas_8f.html", "core_23rd__party_2blas_8f" ],
+    [ "blas.f", "blas_8f.html", "blas_8f" ],
     [ "dictionary.c", "dictionary_8c.html", "dictionary_8c" ],
     [ "dictionary.h", "dictionary_8h.html", "dictionary_8h" ],
     [ "dsygv.f", "dsygv_8f.html", "dsygv_8f" ],

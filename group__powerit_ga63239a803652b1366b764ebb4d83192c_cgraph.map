@@ -8,7 +8,7 @@
 <area shape="rect" id="node13" href="$group__chkpoint__dns__lin.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="452,107,541,133"/>
 <area shape="rect" id="node4" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="623,309,678,336"/>
 <area shape="rect" id="node5" href="$group__chkpoint__dns__lin.html#ga1363a35613e8de8c797911d9eb4784a4" title="Generate restart file names. " alt="" coords="602,107,699,133"/>
-<area shape="rect" id="node8" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="769,233,815,260"/>
+<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="769,233,815,260"/>
 <area shape="rect" id="node7" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="760,411,824,437"/>
 <area shape="rect" id="node11" href="$ic_8f.html#a32489501c226ee8536f0fca3ac1b1b48" title="restart" alt="" coords="467,360,526,387"/>
 <area shape="rect" id="node12" href="$group__chkpoint__dns__lin.html#ga10eb9bc9a027b431e602d4dacdb75adb" title="Load checpoint variables from single set of files. " alt="" coords="453,259,541,285"/>

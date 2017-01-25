@@ -3,14 +3,11 @@
 <area shape="rect" id="node3" href="$navier5_8f.html#ab51e12895080c3167757b275472ecff1" title="dist2d" alt="" coords="157,56,215,83"/>
 <area shape="rect" id="node4" href="$navier5_8f.html#adcaf081ec967b5b587729875b8e8a94a" title="dist3d" alt="" coords="157,107,215,133"/>
 <area shape="rect" id="node5" href="$navier5_8f.html#a3217e6a269fa85eb45a341de65c74283" title="domain_size" alt="" coords="139,157,233,184"/>
-<area shape="rect" id="node10" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="283,208,340,235"/>
-<area shape="rect" id="node11" href="$connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="159,309,213,336"/>
-<area shape="rect" id="node13" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="281,259,341,285"/>
-<area shape="rect" id="node6" href="$math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="285,157,338,184"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="391,208,434,235"/>
-<area shape="rect" id="node8" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="512,259,559,285"/>
-<area shape="rect" id="node9" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="484,208,587,235"/>
-<area shape="rect" id="node12" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="283,309,340,336"/>
-<area shape="rect" id="node14" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="389,259,436,285"/>
-<area shape="rect" id="node15" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="509,309,562,336"/>
+<area shape="rect" id="node8" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="281,208,339,235"/>
+<area shape="rect" id="node9" href="$connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="159,259,213,285"/>
+<area shape="rect" id="node11" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="156,309,216,336"/>
+<area shape="rect" id="node6" href="$math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="283,157,337,184"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="387,183,429,209"/>
+<area shape="rect" id="node10" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="281,259,339,285"/>
+<area shape="rect" id="node12" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="287,309,333,336"/>
 </map>

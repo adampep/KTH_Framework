@@ -1,6 +1,5 @@
 <map id="chk_nel" name="chk_nel">
 <area shape="rect" id="node2" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="120,5,239,32"/>
 <area shape="rect" id="node3" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="287,31,345,57"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="393,5,460,32"/>
-<area shape="rect" id="node5" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="399,56,455,83"/>
+<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="393,31,460,57"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="mxmf3" name="mxmf3">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="125,5,190,32"/>
+<area shape="rect" id="node2" href="$blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="125,5,190,32"/>
 <area shape="rect" id="node4" href="$mxm__std_8f.html#a3430c05cac7709c28358d953cbe6c068" title="mxmf3_1" alt="" coords="119,56,195,83"/>
 <area shape="rect" id="node5" href="$mxm__std_8f.html#a9584e1d89e0db2bb5a544db65c97fadf" title="mxmf3_10" alt="" coords="116,107,199,133"/>
 <area shape="rect" id="node6" href="$mxm__std_8f.html#a1e16f394f0fdffd1d235e2f8a76701b0" title="mxmf3_11" alt="" coords="116,157,199,184"/>
@@ -24,6 +24,6 @@
 <area shape="rect" id="node25" href="$mxm__std_8f.html#a94b31c3df512be5e86cd6b26d2cafbde" title="mxmf3_7" alt="" coords="119,1120,195,1147"/>
 <area shape="rect" id="node26" href="$mxm__std_8f.html#a76c3f134ec8c9af3dd2d6f1ec86769e7" title="mxmf3_8" alt="" coords="119,1171,195,1197"/>
 <area shape="rect" id="node27" href="$mxm__std_8f.html#a2deb272c8c5cbf6f2b98bbecda447a78" title="mxmf3_9" alt="" coords="119,1221,195,1248"/>
-<area shape="rect" id="node28" href="$core_23rd__party_2blas_8f.html#afe51bacb54592ff5de056acabd83c260" title="sgemm" alt="" coords="125,1272,190,1299"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="247,639,304,665"/>
+<area shape="rect" id="node28" href="$blas_8f.html#afe51bacb54592ff5de056acabd83c260" title="sgemm" alt="" coords="125,1272,190,1299"/>
+<area shape="rect" id="node3" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="247,639,304,665"/>
 </map>

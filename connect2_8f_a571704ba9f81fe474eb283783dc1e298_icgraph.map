@@ -1,11 +1,5 @@
 <map id="rdcurve" name="rdcurve">
-<area shape="rect" id="node2" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="129,56,187,83"/>
-<area shape="rect" id="node7" href="$n2to3_8f.html#a7e798784e1e86b4f859dadb4b38433a0" title="rea23" alt="" coords="363,132,418,159"/>
-<area shape="rect" id="node9" href="$n2to3_8f.html#ab87267d42965f3ee26f38de96c853f0e" title="re2_curve" alt="" coords="119,157,197,184"/>
-<area shape="rect" id="node3" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="245,5,312,32"/>
-<area shape="rect" id="node5" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="251,56,307,83"/>
-<area shape="rect" id="node4" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="360,5,421,32"/>
-<area shape="rect" id="node6" href="$build_8f.html#a21aa0d39c5d51bfa6baf441bb274a484" title="build" alt="" coords="366,56,415,83"/>
-<area shape="rect" id="node8" href="$n2to3_8f.html#ad17804ba9a4a2abdf495e7b954aaf1f8" title="trans" alt="" coords="469,132,520,159"/>
-<area shape="rect" id="node10" href="$n2to3_8f.html#ab771ce94f385e8c5f4386981f3aa2f93" title="rea2re2" alt="" coords="246,157,311,184"/>
+<area shape="rect" id="node2" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="119,5,177,32"/>
+<area shape="rect" id="node3" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="225,5,292,32"/>
+<area shape="rect" id="node4" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="340,5,401,32"/>
 </map>

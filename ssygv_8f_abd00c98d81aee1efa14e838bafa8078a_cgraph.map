@@ -1,6 +1,6 @@
 <map id="slarfb" name="slarfb">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#a7082b747d31963a7c4bcc9a6e488f6cc" title="scopy" alt="" coords="112,5,169,32"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#afe51bacb54592ff5de056acabd83c260" title="sgemm" alt="" coords="108,56,173,83"/>
-<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#a5a8ec25aba550c224cf6941fca7a2c98" title="strmm" alt="" coords="111,107,170,133"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="221,81,279,108"/>
+<area shape="rect" id="node2" href="$blas_8f.html#a7082b747d31963a7c4bcc9a6e488f6cc" title="scopy" alt="" coords="112,5,169,32"/>
+<area shape="rect" id="node3" href="$blas_8f.html#afe51bacb54592ff5de056acabd83c260" title="sgemm" alt="" coords="108,56,173,83"/>
+<area shape="rect" id="node5" href="$blas_8f.html#a5a8ec25aba550c224cf6941fca7a2c98" title="strmm" alt="" coords="111,107,170,133"/>
+<area shape="rect" id="node4" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="221,81,279,108"/>
 </map>

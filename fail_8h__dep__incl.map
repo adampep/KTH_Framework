@@ -1,6 +1,6 @@
 <map id="Nek5000/jl/fail.h" name="Nek5000/jl/fail.h">
 <area shape="rect" id="node2" href="$amg_8c.html" title="Nek5000/jl/amg.c" alt="" coords="5,87,129,114"/>
-<area shape="rect" id="node3" href="$jl_2comm_8c.html" title="Nek5000/jl/comm.c" alt="" coords="153,87,288,114"/>
+<area shape="rect" id="node3" href="$comm_8c.html" title="Nek5000/jl/comm.c" alt="" coords="153,87,288,114"/>
 <area shape="rect" id="node4" href="$comm__test_8c.html" title="Nek5000/jl/comm_test.c" alt="" coords="312,87,476,114"/>
 <area shape="rect" id="node5" href="$crs__test_8c.html" title="Nek5000/jl/crs_test.c" alt="" coords="501,87,647,114"/>
 <area shape="rect" id="node6" href="$crystal_8c.html" title="Nek5000/jl/crystal.c" alt="" coords="671,87,810,114"/>
@@ -19,7 +19,7 @@
 <area shape="rect" id="node19" href="$findpts__local_8c.html" title="Nek5000/jl/findpts\l_local.c" alt="" coords="2680,80,2807,121"/>
 <area shape="rect" id="node20" href="$findpts__local__test_8c.html" title="Nek5000/jl/findpts\l_local_test.c" alt="" coords="2831,80,2957,121"/>
 <area shape="rect" id="node21" href="$findpts__test_8c.html" title="Nek5000/jl/findpts\l_test.c" alt="" coords="2981,80,3108,121"/>
-<area shape="rect" id="node22" href="$jl_2gs_8c.html" title="Nek5000/jl/gs.c" alt="" coords="3132,87,3245,114"/>
+<area shape="rect" id="node22" href="$gs_8c.html" title="Nek5000/jl/gs.c" alt="" coords="3132,87,3245,114"/>
 <area shape="rect" id="node23" href="$gs__test_8c.html" title="Nek5000/jl/gs_test.c" alt="" coords="3269,87,3412,114"/>
 <area shape="rect" id="node24" href="$gs__unique__test_8c.html" title="Nek5000/jl/gs_unique\l_test.c" alt="" coords="3437,80,3583,121"/>
 <area shape="rect" id="node25" href="$lob__bnd_8c.html" title="Nek5000/jl/lob_bnd.c" alt="" coords="3607,87,3751,114"/>

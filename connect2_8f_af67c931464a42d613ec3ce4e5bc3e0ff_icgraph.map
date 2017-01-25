@@ -1,7 +1,5 @@
 <map id="rdmatp" name="rdmatp">
-<area shape="rect" id="node2" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="116,31,175,57"/>
+<area shape="rect" id="node2" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="116,5,175,32"/>
 <area shape="rect" id="node3" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="223,5,289,32"/>
-<area shape="rect" id="node5" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="228,56,284,83"/>
 <area shape="rect" id="node4" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="337,5,399,32"/>
-<area shape="rect" id="node6" href="$build_8f.html#a21aa0d39c5d51bfa6baf441bb274a484" title="build" alt="" coords="343,56,393,83"/>
 </map>

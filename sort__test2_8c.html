@@ -158,11 +158,11 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2e8035c9e8ce16ae7da2ca7071eb1515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sort__test2_8c.html#a2e8035c9e8ce16ae7da2ca7071eb1515">A</a> [<a class="el" href="_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:a2e8035c9e8ce16ae7da2ca7071eb1515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sort__test2_8c.html#a2e8035c9e8ce16ae7da2ca7071eb1515">A</a> [<a class="el" href="sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
 <tr class="separator:a2e8035c9e8ce16ae7da2ca7071eb1515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057c38dcc1a8e243def9c715abfa3ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sort__test2_8c.html#a057c38dcc1a8e243def9c715abfa3ef4">out</a> [<a class="el" href="_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:a057c38dcc1a8e243def9c715abfa3ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sort__test2_8c.html#a057c38dcc1a8e243def9c715abfa3ef4">out</a> [<a class="el" href="sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
 <tr class="separator:a057c38dcc1a8e243def9c715abfa3ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1083bf9f0923eae02da4afa51627204d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sort__test2_8c.html#a1083bf9f0923eae02da4afa51627204d">P</a> [<a class="el" href="_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
+<tr class="memitem:a1083bf9f0923eae02da4afa51627204d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sort__test2_8c.html#a1083bf9f0923eae02da4afa51627204d">P</a> [<a class="el" href="sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td></tr>
 <tr class="separator:a1083bf9f0923eae02da4afa51627204d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -209,8 +209,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { <a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">\</a></div><div class="line"><a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">    for</a>(r=repeat;r;--r) { what; } \</div><div class="line">    tic = getticks(); <a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">\</a></div><div class="line"><a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">    for</a>(r=repeat;r;--r) { what; } \</div><div class="line">    toc = getticks(); \</div><div class="line">    t = toc-tic; \</div><div class="line">  } <span class="keywordflow">while</span>(0)</div><div class="ttc" id="lanczos_8c_html_a0e97e3e909a3a676aa1ba1bebc4f0f95"><div class="ttname"><a href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">for</a></div><div class="ttdeci">for(i=1;i&lt;=k;i++)</div><div class="ttdef"><b>Definition:</b> <a href="lanczos_8c_source.html#l00160">lanczos.c:160</a></div></div>
-</div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">    for(r=repeat;r;--r) { what; } \</div><div class="line">    tic = getticks(); \</div><div class="line">    for(r=repeat;r;--r) { what; } \</div><div class="line">    toc = getticks(); \</div><div class="line">    t = toc-tic; \</div><div class="line">  } <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -229,19 +228,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="sort__test2_8c_source.html#l00023">23</a> of file <a class="el" href="sort__test2_8c_source.html">sort_test2.c</a>.</p>
 
-<p>References <a class="el" href="mem_8h_source.html#l00158">buffer_free</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="sort__test2_8c_source.html#l00018">N</a>, <a class="el" href="mem_8h_source.html#l00154">null_buffer</a>, <a class="el" href="lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca">printf()</a>, <a class="el" href="sort_8h_source.html#l00057">sortp_long</a>, <a class="el" href="sort_8h_source.html#l00056">sortv_long</a>, <a class="el" href="sort__test2_8c.html#a224d543cc652e7d3542b1fccf0d2784e">TIME</a>, <a class="el" href="types_8h_source.html#l00070">uint</a>, and <a class="el" href="types_8h_source.html#l00075">ulong</a>.</p>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="sort__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#sort__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
-<map name="sort__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="sort__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
-<area shape="rect" id="node2" href="lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="104,5,155,32"/>
-</map>
-</div>
-</p>
+<p>References <a class="el" href="mem_8h_source.html#l00158">buffer_free</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="sort__test2_8c_source.html#l00018">N</a>, <a class="el" href="mem_8h_source.html#l00154">null_buffer</a>, <a class="el" href="sort_8h_source.html#l00057">sortp_long</a>, <a class="el" href="sort_8h_source.html#l00056">sortv_long</a>, <a class="el" href="sort__test2_8c.html#a224d543cc652e7d3542b1fccf0d2784e">TIME</a>, <a class="el" href="types_8h_source.html#l00070">uint</a>, and <a class="el" href="types_8h_source.html#l00075">ulong</a>.</p>
 
 </div>
 </div>
@@ -251,7 +238,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> A[<a class="el" href="_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+          <td class="memname"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> A[<a class="el" href="sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,7 +252,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> out[<a class="el" href="_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+          <td class="memname"><a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> out[<a class="el" href="sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -279,7 +266,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> P[<a class="el" href="_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> P[<a class="el" href="sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -294,7 +281,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_6de6dc92cfde8dbe681aaf1971089863.html">jl</a></li><li class="navelem"><a class="el" href="sort__test2_8c.html">sort_test2.c</a></li>
-    <li class="footer">Generated on Tue Jan 24 2017 16:27:14 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

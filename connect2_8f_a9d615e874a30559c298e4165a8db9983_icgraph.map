@@ -1,11 +1,5 @@
 <map id="cscan" name="cscan">
-<area shape="rect" id="node2" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="127,31,186,57"/>
-<area shape="rect" id="node7" href="$genmap_8f.html#a0e9fa7e7fedcfb12addbf5884a438e88" title="cscan_dxyz" alt="" coords="111,81,203,108"/>
-<area shape="rect" id="node10" href="$genmap_8f.html#af5f6ecdfe38235f2935f0ac852e916a6" title="cscan_bcs" alt="" coords="114,132,199,159"/>
-<area shape="rect" id="node3" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="261,5,327,32"/>
-<area shape="rect" id="node5" href="$build_8f.html#add2463b6ff1824ecdb5ca54077058fde" title="build0" alt="" coords="266,56,322,83"/>
-<area shape="rect" id="node4" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="389,5,450,32"/>
-<area shape="rect" id="node6" href="$build_8f.html#a21aa0d39c5d51bfa6baf441bb274a484" title="build" alt="" coords="395,56,444,83"/>
-<area shape="rect" id="node8" href="$genmap_8f.html#a9b711f022616b7896ad2159c42f97f47" title="makemesh" alt="" coords="251,119,337,145"/>
-<area shape="rect" id="node9" href="$genmap_8f.html#a9292fa09096386a7603b5a2634730479" title="genmap" alt="" coords="385,119,453,145"/>
+<area shape="rect" id="node2" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="111,5,169,32"/>
+<area shape="rect" id="node3" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="217,5,284,32"/>
+<area shape="rect" id="node4" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="332,5,393,32"/>
 </map>

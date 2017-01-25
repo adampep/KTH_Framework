@@ -1,11 +1,6 @@
 var searchData=
 [
   ['gather_5fmap',['gather_map',['../structcr__stage.html#a14f52a89a9efdb749aa8c29352a871ee',1,'cr_stage']]],
-  ['gl_5fbss_5fmin',['gl_bss_min',['../structgather__scatter__id.html#a3464629dc5d055163f409c4d8471ba59',1,'gather_scatter_id']]],
-  ['gl_5fmax',['gl_max',['../structgather__scatter__id.html#a05fb701391399dad89d6e51f9e16ad86',1,'gather_scatter_id']]],
-  ['gl_5fmin',['gl_min',['../structgather__scatter__id.html#a00e6d01b9f1f765440c144df43ad1bd3',1,'gather_scatter_id']]],
-  ['gl_5fperm_5fmin',['gl_perm_min',['../structgather__scatter__id.html#af5162e15324b9037b354a808e024aa1f',1,'gather_scatter_id']]],
-  ['gop_5flocal_5freduce',['gop_local_reduce',['../structgather__scatter__id.html#a8c500710cfb5348ae705819ecd2e9ebb',1,'gather_scatter_id']]],
   ['gs_5fgather',['gs_gather',['../gs__local_8h.html#a4a62aa2e92a9f6bbee70d09dc88ee28d',1,'gs_local.h']]],
   ['gs_5fgather_5fmany',['gs_gather_many',['../gs__local_8h.html#a5fad5df7c236fc43ec96460342d703ca',1,'gs_local.h']]],
   ['gs_5fgather_5fvec',['gs_gather_vec',['../gs__local_8h.html#a5aec4cdfcf2098255027a91e3b55f57a',1,'gs_local.h']]],

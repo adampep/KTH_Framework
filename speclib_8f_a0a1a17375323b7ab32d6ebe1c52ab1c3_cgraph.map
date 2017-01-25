@@ -1,0 +1,24 @@
+<map id="zwglj" name="zwglj">
+<area shape="rect" id="node2" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="327,208,374,235"/>
+<area shape="rect" id="node16" href="$speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title="zwgljd" alt="" coords="105,319,164,345"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="437,107,521,133"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="438,157,519,184"/>
+<area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="445,208,512,235"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="429,259,528,285"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="433,309,524,336"/>
+<area shape="rect" id="node12" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="439,5,518,32"/>
+<area shape="rect" id="node14" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="439,56,518,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="591,157,676,184"/>
+<area shape="rect" id="node8" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="605,259,661,285"/>
+<area shape="rect" id="node9" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="583,309,684,336"/>
+<area shape="rect" id="node10" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="576,208,691,235"/>
+<area shape="rect" id="node13" href="$papi_8f.html#a838be3d39e287e29002d5a68c6ad2dd8" title="getflops_papi" alt="" coords="584,5,683,32"/>
+<area shape="rect" id="node15" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="590,56,677,83"/>
+<area shape="rect" id="node17" href="$speclib_8f.html#a66d184d6cf0d520944c94caa7c86c03e" title="zwgjd" alt="" coords="214,353,270,380"/>
+<area shape="rect" id="node20" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title="jacobf" alt="" coords="450,360,507,387"/>
+<area shape="rect" id="node22" href="$speclib_8f.html#a91eec848c820802e16160a8e3afaefe2" title="endw1" alt="" coords="212,441,272,468"/>
+<area shape="rect" id="node23" href="$speclib_8f.html#adcb1c928c54b6d9a681b89921cf154e3" title="endw2" alt="" coords="212,568,272,595"/>
+<area shape="rect" id="node18" href="$speclib_8f.html#a4490eba1c2e68b68c343afc070461ad0" title="gammaf" alt="" coords="444,512,513,539"/>
+<area shape="rect" id="node19" href="$speclib_8f.html#ac094a28a65ff1a54fc5ad2755d4d3667" title="jacg" alt="" coords="327,385,374,412"/>
+<area shape="rect" id="node21" href="$speclib_8f.html#aca6a12813e9f8da78d33fb36fd7e75c5" title="pnormj" alt="" coords="320,436,381,463"/>
+</map>

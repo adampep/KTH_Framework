@@ -1,14 +1,21 @@
 <map id="chkpt_write" name="chkpt_write">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="547,157,612,184"/>
-<area shape="rect" id="node9" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="157,208,251,235"/>
-<area shape="rect" id="node10" href="$group__chkpoint__dns__lin.html#ga51e97a641b801dc9c5e5f9aa80866282" title="Save checkpoint variables in a single set of files. " alt="" coords="143,259,265,285"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="665,56,719,83"/>
-<area shape="rect" id="node4" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="660,107,724,133"/>
-<area shape="rect" id="node5" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="867,208,913,235"/>
-<area shape="rect" id="node6" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="662,208,722,235"/>
-<area shape="rect" id="node8" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="665,5,719,32"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="772,208,819,235"/>
-<area shape="rect" id="node11" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="313,259,385,285"/>
-<area shape="rect" id="node12" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="441,309,491,336"/>
-<area shape="rect" id="node13" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="433,208,499,235"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="547,208,612,235"/>
+<area shape="rect" id="node16" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="157,240,251,267"/>
+<area shape="rect" id="node17" href="$group__chkpoint__dns__lin.html#ga51e97a641b801dc9c5e5f9aa80866282" title="Save checkpoint variables in a single set of files. " alt="" coords="143,101,265,128"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="665,157,719,184"/>
+<area shape="rect" id="node4" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="660,208,724,235"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="867,259,913,285"/>
+<area shape="rect" id="node13" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="662,360,722,387"/>
+<area shape="rect" id="node15" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="665,309,719,336"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="969,259,1053,285"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="970,56,1051,83"/>
+<area shape="rect" id="node8" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="977,309,1044,336"/>
+<area shape="rect" id="node9" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="961,360,1060,387"/>
+<area shape="rect" id="node10" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="965,107,1056,133"/>
+<area shape="rect" id="node11" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="971,157,1050,184"/>
+<area shape="rect" id="node12" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="971,208,1050,235"/>
+<area shape="rect" id="node14" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="772,335,819,361"/>
+<area shape="rect" id="node18" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="313,81,385,108"/>
+<area shape="rect" id="node19" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="441,5,491,32"/>
+<area shape="rect" id="node20" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="433,56,499,83"/>
 </map>

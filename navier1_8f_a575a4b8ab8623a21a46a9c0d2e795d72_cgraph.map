@@ -2,5 +2,18 @@
 <area shape="rect" id="node2" href="$math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="117,5,181,32"/>
 <area shape="rect" id="node3" href="$math_8f.html#ac62ce88420771d0183fa4e9182f250dc" title="add3s2" alt="" coords="117,56,181,83"/>
 <area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="124,107,175,133"/>
-<area shape="rect" id="node5" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="126,157,173,184"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="126,157,173,184"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="237,5,321,32"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="238,56,319,83"/>
+<area shape="rect" id="node9" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="245,107,312,133"/>
+<area shape="rect" id="node10" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="229,157,328,184"/>
+<area shape="rect" id="node14" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="233,208,324,235"/>
+<area shape="rect" id="node15" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="239,259,318,285"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="239,309,318,336"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="391,56,476,83"/>
+<area shape="rect" id="node11" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="405,107,461,133"/>
+<area shape="rect" id="node12" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="383,157,484,184"/>
+<area shape="rect" id="node13" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="376,208,491,235"/>
+<area shape="rect" id="node16" href="$papi_8f.html#a838be3d39e287e29002d5a68c6ad2dd8" title="getflops_papi" alt="" coords="384,259,483,285"/>
+<area shape="rect" id="node18" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="390,309,477,336"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="dsygs2" name="dsygs2">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#adb136e14634fe4b772a0b034f52f3939" title="daxpy" alt="" coords="117,5,175,32"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="119,56,173,83"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#ae96880c53b8eaee70bbef273b905715f" title="dsyr2" alt="" coords="119,107,173,133"/>
-<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="223,183,280,209"/>
-<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a596c2acd9f81df6608bd5ed97e193897" title="dtrmv" alt="" coords="119,208,173,235"/>
-<area shape="rect" id="node7" href="$core_23rd__party_2blas_8f.html#ad2a01dd62718b28e35b752dbad8474ab" title="dtrsv" alt="" coords="121,259,171,285"/>
+<area shape="rect" id="node2" href="$blas_8f.html#adb136e14634fe4b772a0b034f52f3939" title="daxpy" alt="" coords="117,5,175,32"/>
+<area shape="rect" id="node3" href="$blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="119,56,173,83"/>
+<area shape="rect" id="node4" href="$blas_8f.html#ae96880c53b8eaee70bbef273b905715f" title="dsyr2" alt="" coords="119,107,173,133"/>
+<area shape="rect" id="node5" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="223,183,280,209"/>
+<area shape="rect" id="node6" href="$blas_8f.html#a596c2acd9f81df6608bd5ed97e193897" title="dtrmv" alt="" coords="119,208,173,235"/>
+<area shape="rect" id="node7" href="$blas_8f.html#ad2a01dd62718b28e35b752dbad8474ab" title="dtrsv" alt="" coords="121,259,171,285"/>
 </map>

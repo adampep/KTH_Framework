@@ -1,8 +1,8 @@
 <map id="ssytd2" name="ssytd2">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="117,5,174,32"/>
+<area shape="rect" id="node2" href="$blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="117,5,174,32"/>
 <area shape="rect" id="node3" href="$ssygv_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38" title="slarfg" alt="" coords="118,56,173,83"/>
-<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#abbe9933ddf6f0137156d4f2491f2afdb" title="ssymv" alt="" coords="115,107,176,133"/>
-<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="224,157,281,184"/>
-<area shape="rect" id="node7" href="$core_23rd__party_2blas_8f.html#afeb94d36b0bb94a6f87a0576e339434d" title="ssyr2" alt="" coords="118,208,173,235"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="226,56,279,83"/>
+<area shape="rect" id="node5" href="$blas_8f.html#abbe9933ddf6f0137156d4f2491f2afdb" title="ssymv" alt="" coords="115,107,176,133"/>
+<area shape="rect" id="node6" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="224,157,281,184"/>
+<area shape="rect" id="node7" href="$blas_8f.html#afeb94d36b0bb94a6f87a0576e339434d" title="ssyr2" alt="" coords="118,208,173,235"/>
+<area shape="rect" id="node4" href="$blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="226,56,279,83"/>
 </map>

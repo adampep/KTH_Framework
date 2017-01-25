@@ -1,12 +1,12 @@
 <map id="ssytrd" name="ssytrd">
 <area shape="rect" id="node2" href="$ssygv_8f.html#ac1312699353e70d4e05bb21f60d76e27" title="slatrd" alt="" coords="115,102,170,128"/>
-<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="331,254,388,280"/>
-<area shape="rect" id="node9" href="$core_23rd__party_2blas_8f.html#a6ee4760a413296c246b1ecbc1ac985a0" title="ssyr2k" alt="" coords="112,380,173,407"/>
+<area shape="rect" id="node5" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="331,254,388,280"/>
+<area shape="rect" id="node9" href="$blas_8f.html#a6ee4760a413296c246b1ecbc1ac985a0" title="ssyr2k" alt="" coords="112,380,173,407"/>
 <area shape="rect" id="node10" href="$ssygv_8f.html#ac702851ad871b3170b0566876fd588b1" title="ssytd2" alt="" coords="112,203,173,230"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="223,127,281,154"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#afc92361b74c6d41c7e5afa0aa5d13ec9" title="sgemv" alt="" coords="221,26,283,52"/>
+<area shape="rect" id="node3" href="$blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="223,127,281,154"/>
+<area shape="rect" id="node4" href="$blas_8f.html#afc92361b74c6d41c7e5afa0aa5d13ec9" title="sgemv" alt="" coords="221,26,283,52"/>
 <area shape="rect" id="node6" href="$ssygv_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38" title="slarfg" alt="" coords="225,76,279,103"/>
-<area shape="rect" id="node7" href="$core_23rd__party_2blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="333,26,386,52"/>
-<area shape="rect" id="node8" href="$core_23rd__party_2blas_8f.html#abbe9933ddf6f0137156d4f2491f2afdb" title="ssymv" alt="" coords="221,178,283,204"/>
-<area shape="rect" id="node11" href="$core_23rd__party_2blas_8f.html#afeb94d36b0bb94a6f87a0576e339434d" title="ssyr2" alt="" coords="225,279,279,306"/>
+<area shape="rect" id="node7" href="$blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="333,26,386,52"/>
+<area shape="rect" id="node8" href="$blas_8f.html#abbe9933ddf6f0137156d4f2491f2afdb" title="ssymv" alt="" coords="221,178,283,204"/>
+<area shape="rect" id="node11" href="$blas_8f.html#afeb94d36b0bb94a6f87a0576e339434d" title="ssyr2" alt="" coords="225,279,279,306"/>
 </map>

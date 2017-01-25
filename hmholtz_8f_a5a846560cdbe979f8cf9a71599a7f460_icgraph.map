@@ -5,19 +5,17 @@
 <area shape="rect" id="node10" href="$gmres_8f.html#aa171d4647e9b81013eef39d18ffc4592" title="set_up_fast_1d_sem_g" alt="" coords="132,157,289,184"/>
 <area shape="rect" id="node13" href="$hmholtz_8f.html#abd6f3614f9436265a22e0d5354f18926" title="set_fdm_prec_h1a_gen" alt="" coords="132,208,289,235"/>
 <area shape="rect" id="node17" href="$hsmg_8f.html#a57c4906700aca571f060a547363b280f" title="hsmg_setup_fast1d" alt="" coords="143,259,279,285"/>
-<area shape="rect" id="node21" href="$userf_8f.html#a998548c583978295ead5aadbdfcb6cc2" title="wave_space_z" alt="" coords="156,309,265,336"/>
 <area shape="rect" id="node3" href="$fast3d_8f.html#ae816aca38820baec08dcc7ac8a89275c" title="gen_fast" alt="" coords="366,5,438,32"/>
 <area shape="rect" id="node4" href="$navier6_8f.html#a45317b1def173b8f1db2e5083595d095" title="set_overlap" alt="" coords="531,5,621,32"/>
-<area shape="rect" id="node6" href="$gfdm__op_8f.html#a0115b9bbecf2744ba4396eb899825358" title="gfdm_set_prs_op" alt="" coords="515,56,637,83"/>
-<area shape="rect" id="node7" href="$gfdm__op_8f.html#abcb7a1e984fdf87426a864f76d69a9eb" title="gfdm_ops" alt="" coords="685,56,764,83"/>
+<area shape="rect" id="node6" href="$gfdm__op_8f.html#a0115b9bbecf2744ba4396eb899825358" title="gfdm_set_prs_op" alt="" coords="515,81,637,108"/>
+<area shape="rect" id="node7" href="$gfdm__op_8f.html#abcb7a1e984fdf87426a864f76d69a9eb" title="gfdm_ops" alt="" coords="685,81,764,108"/>
 <area shape="rect" id="node9" href="$gfdm__op_8f.html#a02fddaaa1953a0d9b240836ae92b4158" title="set_1d_a_mat" alt="" coords="350,107,454,133"/>
 <area shape="rect" id="node11" href="$gmres_8f.html#a318ed98b18a9670923d141144c2eeb15" title="gen_fast_g" alt="" coords="359,157,445,184"/>
-<area shape="rect" id="node12" href="$gmres_8f.html#ac62460e6c2b6516988bd796051c3119c" title="set_overlap2" alt="" coords="528,107,624,133"/>
+<area shape="rect" id="node12" href="$gmres_8f.html#ac62460e6c2b6516988bd796051c3119c" title="set_overlap2" alt="" coords="528,144,624,171"/>
 <area shape="rect" id="node14" href="$hmholtz_8f.html#ac60fe35dd9bdf67147fe5cc0898a49bb" title="set_fdm_prec_h1a" alt="" coords="337,208,467,235"/>
-<area shape="rect" id="node15" href="$hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d" title="hmholtz" alt="" coords="542,157,610,184"/>
-<area shape="rect" id="node16" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="545,208,607,235"/>
-<area shape="rect" id="node18" href="$hsmg_8f.html#ad38a0646e0ae6eba29f1be94d7458e27" title="hsmg_setup_fast" alt="" coords="341,259,463,285"/>
-<area shape="rect" id="node19" href="$hsmg_8f.html#a0cb685872badeb2b5d57bb11d2392c8c" title="h1mg_setup_fdm" alt="" coords="515,259,637,285"/>
-<area shape="rect" id="node20" href="$hsmg_8f.html#a97ac4daa5772d8a28941639b361add77" title="hsmg_setup_fdm" alt="" coords="515,309,637,336"/>
-<area shape="rect" id="node22" href="$userf_8f.html#af906b58a8a6d3347811d144d8c28fb9a" title="userf" alt="" coords="377,309,427,336"/>
+<area shape="rect" id="node15" href="$hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d" title="hmholtz" alt="" coords="542,195,610,221"/>
+<area shape="rect" id="node16" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="545,245,607,272"/>
+<area shape="rect" id="node18" href="$hsmg_8f.html#ad38a0646e0ae6eba29f1be94d7458e27" title="hsmg_setup_fast" alt="" coords="341,296,463,323"/>
+<area shape="rect" id="node19" href="$hsmg_8f.html#a0cb685872badeb2b5d57bb11d2392c8c" title="h1mg_setup_fdm" alt="" coords="515,296,637,323"/>
+<area shape="rect" id="node20" href="$hsmg_8f.html#a97ac4daa5772d8a28941639b361add77" title="hsmg_setup_fdm" alt="" coords="515,347,637,373"/>
 </map>

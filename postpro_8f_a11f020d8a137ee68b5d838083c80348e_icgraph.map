@@ -1,9 +1,4 @@
 <map id="quadratic" name="quadratic">
-<area shape="rect" id="node2" href="$postpro_8f.html#a5e4573123ff55fc1297d411b345e4dc0" title="find_lam3" alt="" coords="128,31,207,57"/>
-<area shape="rect" id="node7" href="$postnek3_8f.html#adc0b8f0e605ecbd5e243628c7d41a00b" title="find_lam2" alt="" coords="255,107,333,133"/>
-<area shape="rect" id="node8" href="$postnek3_8f.html#a3b55db2c76d5127e4c47b072367be4b1" title="muller2" alt="" coords="135,132,199,159"/>
-<area shape="rect" id="node3" href="$postpro_8f.html#a4ca1ad81cb2ab69d79d69cf9c2100485" title="lambda2" alt="" coords="259,5,329,32"/>
-<area shape="rect" id="node4" href="$postnek3_8f.html#a85f120473b96abbfe995a8a99c917f27" title="new_vortex" alt="" coords="381,81,471,108"/>
-<area shape="rect" id="node5" href="$postnek3_8f.html#aea8985289cde0d55cc438c3f701a6d6d" title="setwrk" alt="" coords="543,56,605,83"/>
-<area shape="rect" id="node6" href="$userf_8f.html#af1a9f87d13ce36ec3953e93f193ec8c5" title="vortex_tracking" alt="" coords="519,107,629,133"/>
+<area shape="rect" id="node2" href="$postpro_8f.html#a5e4573123ff55fc1297d411b345e4dc0" title="find_lam3" alt="" coords="128,5,207,32"/>
+<area shape="rect" id="node3" href="$postpro_8f.html#a4ca1ad81cb2ab69d79d69cf9c2100485" title="lambda2" alt="" coords="255,5,325,32"/>
 </map>

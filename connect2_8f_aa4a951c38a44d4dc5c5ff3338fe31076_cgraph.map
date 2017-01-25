@@ -1,12 +1,10 @@
 <map id="divide" name="divide">
-<area shape="rect" id="node2" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="117,50,163,77"/>
-<area shape="rect" id="node3" href="$math_8f.html#abc6939c444fe5c50eff847672386c620" title="fmdian" alt="" coords="109,101,171,127"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="324,202,371,229"/>
-<area shape="rect" id="node4" href="$math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="221,126,274,153"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="326,126,369,153"/>
-<area shape="rect" id="node6" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="447,101,493,127"/>
-<area shape="rect" id="node8" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="219,25,276,51"/>
-<area shape="rect" id="node9" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="222,75,273,102"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="419,151,521,178"/>
-<area shape="rect" id="node11" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="443,202,497,229"/>
+<area shape="rect" id="node2" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="117,81,163,108"/>
+<area shape="rect" id="node3" href="$math_8f.html#abc6939c444fe5c50eff847672386c620" title="fmdian" alt="" coords="109,132,171,159"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="324,233,371,260"/>
+<area shape="rect" id="node4" href="$math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="221,5,274,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="326,81,369,108"/>
+<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="419,157,465,184"/>
+<area shape="rect" id="node7" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="219,107,276,133"/>
+<area shape="rect" id="node8" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="222,208,273,235"/>
 </map>

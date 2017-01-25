@@ -1,8 +1,7 @@
 <map id="iniparser_dump_ini" name="iniparser_dump_ini">
 <area shape="rect" id="node2" href="$iniparser_8c.html#a790111c03777a5377712b5ea78431637" title="Save a dictionary section to a loadable ini file. " alt="" coords="184,5,356,32"/>
-<area shape="rect" id="node5" href="$lanczos_8c.html#a47a61acfa6511cd4cd7f6359c30cce59" title="return" alt="" coords="444,56,499,83"/>
-<area shape="rect" id="node6" href="$iniparser_8c.html#ad2a00b86e48c9ce0a730e3f7057f541e" title="Get number of sections in a dictionary. " alt="" coords="208,107,332,133"/>
-<area shape="rect" id="node7" href="$iniparser_8c.html#abf0d2fa0fa9978b5458192396a0fba79" title="Get name for section n in a dictionary. " alt="" coords="195,157,345,184"/>
+<area shape="rect" id="node5" href="$iniparser_8c.html#ad2a00b86e48c9ce0a730e3f7057f541e" title="Get number of sections in a dictionary. " alt="" coords="208,56,332,83"/>
+<area shape="rect" id="node6" href="$iniparser_8c.html#abf0d2fa0fa9978b5458192396a0fba79" title="Get name for section n in a dictionary. " alt="" coords="195,107,345,133"/>
 <area shape="rect" id="node3" href="$iniparser_8c.html#acd872a1e8c56f23a79ab2f2f7a26a7ac" title="Finds out if a given entry exists in a dictionary. " alt="" coords="404,5,539,32"/>
 <area shape="rect" id="node4" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key. " alt="" coords="587,5,715,32"/>
 </map>

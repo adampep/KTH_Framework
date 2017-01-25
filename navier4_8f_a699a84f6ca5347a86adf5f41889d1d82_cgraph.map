@@ -9,10 +9,10 @@
 <area shape="rect" id="node17" href="$math_8f.html#ab07e2f3ed4f12e1651e80df2497ffaa2" title="vlsc2" alt="" coords="137,360,191,387"/>
 <area shape="rect" id="node18" href="$navier4_8f.html#a6adc3e5d428cdceba2217edd727ab4ae" title="vlsc3" alt="" coords="137,411,191,437"/>
 <area shape="rect" id="node6" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="363,252,405,279"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="464,195,545,221"/>
-<area shape="rect" id="node8" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="481,245,528,272"/>
-<area shape="rect" id="node9" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="453,296,556,323"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="465,347,544,373"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="604,208,685,235"/>
+<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="481,245,528,272"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="605,284,684,311"/>
+<area shape="rect" id="node10" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="453,347,556,373"/>
 <area shape="rect" id="node14" href="$connect2_8f.html#a15434c453b53c83ba2cb2a768d35085e" title="inrtia" alt="" coords="254,360,305,387"/>
 <area shape="rect" id="node15" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="254,411,305,437"/>
 <area shape="rect" id="node16" href="$connect2_8f.html#a87e4cf77e2fcb243172fa8da88d5dfae" title="volume2" alt="" coords="244,461,315,488"/>

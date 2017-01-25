@@ -1,7 +1,7 @@
 <map id="set_alias_rx" name="set_alias_rx">
 <area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="146,5,197,32"/>
-<area shape="rect" id="node3" href="$core_2speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="145,56,197,83"/>
-<area shape="rect" id="node4" href="$core_2speclib_8f.html#a0a1a17375323b7ab32d6ebe1c52ab1c3" title="zwglj" alt="" coords="245,56,297,83"/>
-<area shape="rect" id="node5" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="452,56,499,83"/>
-<area shape="rect" id="node6" href="$core_2speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title="zwgljd" alt="" coords="345,81,404,108"/>
+<area shape="rect" id="node3" href="$speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="145,56,197,83"/>
+<area shape="rect" id="node4" href="$speclib_8f.html#a0a1a17375323b7ab32d6ebe1c52ab1c3" title="zwglj" alt="" coords="245,56,297,83"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="452,56,499,83"/>
+<area shape="rect" id="node6" href="$speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title="zwgljd" alt="" coords="345,81,404,108"/>
 </map>

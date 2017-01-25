@@ -6,7 +6,7 @@
 <area shape="rect" id="node6" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="259,107,316,133"/>
 <area shape="rect" id="node8" href="$math_8f.html#a73058ab7dcbe8aa40dbbd6ffe547b1c9" title="log2" alt="" coords="264,157,311,184"/>
 <area shape="rect" id="node9" href="$comm__mpi_8f.html#aa58338baef9abc506b23bd96e3c54d44" title="xor" alt="" coords="267,208,307,235"/>
-<area shape="rect" id="node4" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="380,5,427,32"/>
+<area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="380,5,427,32"/>
 <area shape="rect" id="node5" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="366,56,441,83"/>
 <area shape="rect" id="node7" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="364,107,443,133"/>
 </map>

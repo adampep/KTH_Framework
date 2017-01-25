@@ -1,16 +1,16 @@
 <map id="dorgtr" name="dorgtr">
 <area shape="rect" id="node2" href="$dsygv_8f.html#a97adc24a3547a789a3ab145688e3a3ca" title="dorgql" alt="" coords="109,271,166,297"/>
-<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="540,245,597,272"/>
+<area shape="rect" id="node6" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="540,245,597,272"/>
 <area shape="rect" id="node14" href="$dsygv_8f.html#a14b45f7374dc8654073aa06879c1c459" title="dorgqr" alt="" coords="108,347,167,373"/>
 <area shape="rect" id="node3" href="$dsygv_8f.html#a83c81583bd444e0cf021fb006cd9a5e8" title="dlarfb" alt="" coords="217,195,271,221"/>
 <area shape="rect" id="node8" href="$dsygv_8f.html#a25cff1fc222eccac2633af51f7eff84a" title="dlarft" alt="" coords="219,423,269,449"/>
 <area shape="rect" id="node11" href="$dsygv_8f.html#a36e161d993b87804f7014a7020fc4bac" title="dorg2l" alt="" coords="215,283,273,309"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#afc29c83942509cba5f3764115f0471d5" title="dcopy" alt="" coords="321,144,379,171"/>
-<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="427,119,492,145"/>
-<area shape="rect" id="node7" href="$core_23rd__party_2blas_8f.html#af07edfbb2d2077687522652c9e283e1e" title="dtrmm" alt="" coords="430,195,489,221"/>
-<area shape="rect" id="node9" href="$core_23rd__party_2blas_8f.html#add421a107a488d524859b4a64c1901a9" title="dgemv" alt="" coords="429,448,490,475"/>
-<area shape="rect" id="node10" href="$core_23rd__party_2blas_8f.html#a596c2acd9f81df6608bd5ed97e193897" title="dtrmv" alt="" coords="432,499,487,525"/>
+<area shape="rect" id="node4" href="$blas_8f.html#afc29c83942509cba5f3764115f0471d5" title="dcopy" alt="" coords="321,144,379,171"/>
+<area shape="rect" id="node5" href="$blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="427,119,492,145"/>
+<area shape="rect" id="node7" href="$blas_8f.html#af07edfbb2d2077687522652c9e283e1e" title="dtrmm" alt="" coords="430,195,489,221"/>
+<area shape="rect" id="node9" href="$blas_8f.html#add421a107a488d524859b4a64c1901a9" title="dgemv" alt="" coords="429,448,490,475"/>
+<area shape="rect" id="node10" href="$blas_8f.html#a596c2acd9f81df6608bd5ed97e193897" title="dtrmv" alt="" coords="432,499,487,525"/>
 <area shape="rect" id="node12" href="$dsygv_8f.html#a39a2b39f56ce497b218c5f48339ee712" title="dlarf" alt="" coords="327,296,373,323"/>
-<area shape="rect" id="node13" href="$core_23rd__party_2blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="323,347,377,373"/>
+<area shape="rect" id="node13" href="$blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="323,347,377,373"/>
 <area shape="rect" id="node15" href="$dsygv_8f.html#a0598b93548008b36c26ce99b314e77e5" title="dorg2r" alt="" coords="215,347,273,373"/>
 </map>

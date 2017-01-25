@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n',['N',['../amg_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;amg.c'],['../lob__bnd__test_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;lob_bnd_test.c'],['../obbox__test_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;obbox_test.c'],['../poly__test2_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;poly_test2.c'],['../sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;sort_test2.c'],['../loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;loadbin.c'],['../_2loadbin_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;loadbin.c']]],
+  ['n',['N',['../amg_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;amg.c'],['../lob__bnd__test_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;lob_bnd_test.c'],['../obbox__test_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;obbox_test.c'],['../poly__test2_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;poly_test2.c'],['../sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;sort_test2.c']]],
   ['ncounter',['NCOUNTER',['../nek__comm_8c.html#a1a6f368ac1a7f1490f588d3352edc266',1,'nek_comm.c']]],
   ['nek_5fcomm_5fgetstat',['nek_comm_getstat',['../nek__comm_8c.html#a3dfc59a9f266a56108f849d783074816',1,'nek_comm.c']]],
   ['nek_5fcomm_5fsettings',['nek_comm_settings',['../nek__comm_8c.html#a8eef6edde31174e8ebcf13aeddef1e18',1,'nek_comm.c']]],
@@ -21,7 +21,6 @@ var searchData=
   ['null_5farray',['null_array',['../mem_8h.html#aae4451b74860cd7d1b9338c683856ef2',1,'mem.h']]],
   ['null_5fbuffer',['null_buffer',['../mem_8h.html#aea4c3757b9e97f460480174db6f6d1f2',1,'mem.h']]],
   ['num',['NUM',['../sort__test_8c.html#aaf0952059602752258dccaa015d7b54a',1,'sort_test.c']]],
-  ['num_5fcolor_5fcells',['NUM_COLOR_CELLS',['../postnek_2xdriver_8c.html#a3fbf0e47b7b62d791b0bf19572788374',1,'NUM_COLOR_CELLS():&#160;xdriver.c'],['../prenek_2xdriver_8c.html#a3fbf0e47b7b62d791b0bf19572788374',1,'NUM_COLOR_CELLS():&#160;xdriver.c']]],
   ['ny',['NY',['../lob__bnd__test_8c.html#a652e87ecc9140879666ae9d6bf4ca893',1,'lob_bnd_test.c']]],
   ['nz',['NZ',['../lob__bnd__test_8c.html#a693aee47b2103d0a7fcd3a0a0dd4fb57',1,'lob_bnd_test.c']]],
   ['nz_5fpos_5fequal',['nz_pos_equal',['../amg_8c.html#aeebb74cc79e62af79c23f14de34364a3',1,'amg.c']]]

@@ -18,7 +18,6 @@ var searchData=
   ['size_5ftotal',['size_total',['../structcr__stage.html#ad320d784bacf733d603c29aa739a5d21',1,'cr_stage']]],
   ['sn',['sn',['../structxxt.html#aacccb5866eea10379e30eb38aa87c21c',1,'xxt']]],
   ['src_5fif',['src_if',['../structunique__id.html#a61abbb13261aa70f0a7d333114de93a4',1,'unique_id']]],
-  ['srf_5fthresholds',['srf_thresholds',['../vtk__interface_8c.html#aa3d575f02bc810b76af1af3557852ed3',1,'vtk_interface.c']]],
   ['stage',['stage',['../structcr__data.html#a78f1eccdd556e034657ab8995f724367',1,'cr_data']]],
   ['stage_5fbuffer_5fsize',['stage_buffer_size',['../structcr__data.html#a73c2b314c67e2de8b02f0b9ece462cff',1,'cr_data']]],
   ['swap',['swap',['../structfile.html#a07811816ba9d2e97fe7e0c48c92f7c16',1,'file']]],

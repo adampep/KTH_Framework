@@ -295,8 +295,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { <a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">\</a></div><div class="line"><a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">      for</a>(r=repeat;r;--r) { what; } \</div><div class="line">      tic = getticks(); <a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">\</a></div><div class="line"><a class="code" href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">      for</a>(r=repeat;r;--r) { what; } \</div><div class="line">      toc = getticks(); \</div><div class="line">      t = toc-tic; \</div><div class="line">    } <span class="keywordflow">while</span>(0)</div><div class="ttc" id="lanczos_8c_html_a0e97e3e909a3a676aa1ba1bebc4f0f95"><div class="ttname"><a href="lanczos_8c.html#a0e97e3e909a3a676aa1ba1bebc4f0f95">for</a></div><div class="ttdeci">for(i=1;i&lt;=k;i++)</div><div class="ttdef"><b>Definition:</b> <a href="lanczos_8c_source.html#l00160">lanczos.c:160</a></div></div>
-</div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">      for(r=repeat;r;--r) { what; } \</div><div class="line">      tic = getticks(); \</div><div class="line">      for(r=repeat;r;--r) { what; } \</div><div class="line">      toc = getticks(); \</div><div class="line">      t = toc-tic; \</div><div class="line">    } <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a3d21fc79d3118ba2a70295235a2910d8"></a>
@@ -344,7 +343,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="poly__test2_8c_source.html#l00229">229</a> of file <a class="el" href="poly__test2_8c_source.html">poly_test2.c</a>.</p>
 
-<p>References <a class="el" href="poly__test2_8c_source.html#l00138">ref_lagrange_data::D</a>, <a class="el" href="poly__test2_8c_source.html#l00138">ref_lagrange_data::D2</a>, <a class="el" href="poly_8c_source.html#l00013">gauss_nodes</a>, <a class="el" href="poly_8c_source.html#l00014">gauss_quad</a>, <a class="el" href="poly_8c_source.html#l00018">gll_lag_setup</a>, <a class="el" href="poly_8c_source.html#l00017">gll_lag_size</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="poly__test2_8c_source.html#l00138">ref_lagrange_data::J</a>, <a class="el" href="poly_8c_source.html#l00012">lagrange_setup</a>, <a class="el" href="poly_8c_source.html#l00011">lagrange_size</a>, <a class="el" href="poly_8c_source.html#l00016">lobatto_quad</a>, <a class="el" href="poly__test2_8c_source.html#l00014">N</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca">printf()</a>, <a class="el" href="poly__test2_8c_source.html#l00222">ref_lagrange_free()</a>, <a class="el" href="poly__test2_8c_source.html#l00015">REPEAT</a>, <a class="el" href="poly__test2_8c.html#a224d543cc652e7d3542b1fccf0d2784e">TIME</a>, <a class="el" href="mem_8h_source.html#l00091">tmalloc</a>, and <a class="el" href="types_8h_source.html#l00070">uint</a>.</p>
+<p>References <a class="el" href="poly__test2_8c_source.html#l00138">ref_lagrange_data::D</a>, <a class="el" href="poly__test2_8c_source.html#l00138">ref_lagrange_data::D2</a>, <a class="el" href="poly_8c_source.html#l00013">gauss_nodes</a>, <a class="el" href="poly_8c_source.html#l00014">gauss_quad</a>, <a class="el" href="poly_8c_source.html#l00018">gll_lag_setup</a>, <a class="el" href="poly_8c_source.html#l00017">gll_lag_size</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="poly__test2_8c_source.html#l00138">ref_lagrange_data::J</a>, <a class="el" href="poly_8c_source.html#l00012">lagrange_setup</a>, <a class="el" href="poly_8c_source.html#l00011">lagrange_size</a>, <a class="el" href="poly_8c_source.html#l00016">lobatto_quad</a>, <a class="el" href="poly__test2_8c_source.html#l00014">N</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="poly__test2_8c_source.html#l00222">ref_lagrange_free()</a>, <a class="el" href="poly__test2_8c_source.html#l00015">REPEAT</a>, <a class="el" href="poly__test2_8c.html#a224d543cc652e7d3542b1fccf0d2784e">TIME</a>, <a class="el" href="mem_8h_source.html#l00091">tmalloc</a>, and <a class="el" href="types_8h_source.html#l00070">uint</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -353,8 +352,7 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="poly__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#poly__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
 <map name="poly__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="poly__test2_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
-<area shape="rect" id="node2" href="lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="140,5,191,32"/>
-<area shape="rect" id="node3" href="poly__test2_8c.html#ada38fa73086ffef439ef8940b46c6e9f" title="ref_lagrange_free" alt="" coords="104,56,227,83"/>
+<area shape="rect" id="node2" href="poly__test2_8c.html#ada38fa73086ffef439ef8940b46c6e9f" title="ref_lagrange_free" alt="" coords="104,5,227,32"/>
 </map>
 </div>
 </p>
@@ -399,7 +397,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_6de6dc92cfde8dbe681aaf1971089863.html">jl</a></li><li class="navelem"><a class="el" href="poly__test2_8c.html">poly_test2.c</a></li>
-    <li class="footer">Generated on Tue Jan 24 2017 16:27:14 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

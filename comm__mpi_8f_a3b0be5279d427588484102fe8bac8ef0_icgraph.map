@@ -1,51 +1,41 @@
 <map id="msgwait" name="msgwait">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a557724d36fed5680ba696aae60ae5992" title="pingpongo" alt="" coords="305,40,386,67"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#a4ae0ceb703bba6170a61c696ee3871d3" title="get_msg_vol" alt="" coords="134,40,230,67"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#af348945adab9e6683c509187f6e4e2fc" title="ping_loop1" alt="" coords="140,142,224,168"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#ae95dc0de6852549c6cab7465978b3570" title="ping_loop2" alt="" coords="140,91,224,118"/>
-<area shape="rect" id="node9" href="$gfdm__par_8f.html#a2039fc61fb10c3e0ed323e0b316afc54" title="cexr" alt="" coords="159,243,205,270"/>
-<area shape="rect" id="node14" href="$gfdm__par_8f.html#a456f7fcec3acbec52672316dade58b74" title="cextr" alt="" coords="157,192,207,219"/>
-<area shape="rect" id="node15" href="$gfdm__par_8f.html#a36b3f5a0d7e9c17af23a656240c3c543" title="cexi" alt="" coords="159,294,205,320"/>
-<area shape="rect" id="node18" href="$gfdm__par_8f.html#a7dc51cdb76ca9f18d7688c3adc4dface" title="cexti" alt="" coords="157,344,207,371"/>
-<area shape="rect" id="node19" href="$ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="146,446,218,472"/>
-<area shape="rect" id="node28" href="$ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="146,395,218,422"/>
-<area shape="rect" id="node29" href="$navier8_8f.html#a7b711f52527072521e8670492a58ed16" title="get_vert_map" alt="" coords="131,496,233,523"/>
-<area shape="rect" id="node37" href="$postpro_8f.html#a2f6c2d9733e0eb8ffc45f8b1d9499d76" title="buffer_in" alt="" coords="146,547,218,574"/>
-<area shape="rect" id="node39" href="$tools_2postnek_2comm_8c.html#a22f9d8a98ae3b8c33aa6efee0fa90980" title="staged_iadd_" alt="" coords="133,598,231,624"/>
-<area shape="rect" id="node40" href="$tools_2postnek_2comm_8c.html#a45a42a55a1a452d0eec4e0f180740022" title="staged_radd_" alt="" coords="132,648,232,675"/>
-<area shape="rect" id="node41" href="$tools_2postnek_2comm_8c.html#ade0daea599aa6182d9e5304906a4908e" title="hmt_concat_" alt="" coords="133,699,231,726"/>
-<area shape="rect" id="node42" href="$tools_2postnek_2gs_8c.html#aa38054541a35df83d85ef57d6f40cfee" title="gs_gop_binary" alt="" coords="129,750,235,776"/>
-<area shape="rect" id="node43" href="$tools_2postnek_2gs_8c.html#a104676ad43eaa907e02b2fc561259ef3" title="gs_gop" alt="" coords="150,800,214,827"/>
-<area shape="rect" id="node45" href="$tools_2postnek_2gs_8c.html#af170cb26ccb03ded4b3ba6e895084b65" title="gs_gop_vec" alt="" coords="136,851,228,878"/>
-<area shape="rect" id="node47" href="$tools_2postnek_2gs_8c.html#a6bb3350a626e3d258381b4f63cceeaec" title="gs_gop_hc" alt="" coords="139,902,225,928"/>
-<area shape="rect" id="node49" href="$avg__spt_8f.html#aaf88745b5387f32cd7b6cbd5d3aea46c" title="stat_init_global" alt="" coords="127,952,237,979"/>
-<area shape="rect" id="node50" href="$avg__spt_8f.html#aafe5488e41dfa82e450b85120e7bd05c" title="stat_gl_collation" alt="" coords="124,1003,240,1030"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144" title="comm_test" alt="" coords="477,40,563,67"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06" title="platform_timer" alt="" coords="637,40,743,67"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29" title="pingpong" alt="" coords="308,91,383,118"/>
-<area shape="rect" id="node10" href="$gfdm__solve_8f.html#a0fbdc5965e878a1cad487bb5702f2883" title="gfdm_pres_solv" alt="" coords="288,192,403,219"/>
-<area shape="rect" id="node11" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title="esolver" alt="" coords="488,91,552,118"/>
-<area shape="rect" id="node12" href="$navier1_8f.html#a23e6343990072aa1a6b17109ccc7ba2b" title="plan1" alt="" coords="493,142,547,168"/>
-<area shape="rect" id="node13" href="$navier1_8f.html#a437311d1b46ce62fc7b4d3b1dda969e2" title="uzprec" alt="" coords="489,192,551,219"/>
-<area shape="rect" id="node16" href="$gfdm__par_8f.html#a1eb25cbced7ae88f506a2c3cf85ffa05" title="gfdm_mappings" alt="" coords="288,268,403,295"/>
-<area shape="rect" id="node17" href="$gfdm__par_8f.html#a14456faa0a226d1d5463675d56fcd06f" title="gfdm_init" alt="" coords="483,243,557,270"/>
-<area shape="rect" id="node20" href="$ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a" title="mfi" alt="" coords="325,395,365,422"/>
-<area shape="rect" id="node24" href="$group__chkpoint__dns__lin.html#gacf9552fc34701138f4e91b0e7042c78c" title="Load checkpoint variables from single file. " alt="" coords="311,446,380,472"/>
-<area shape="rect" id="node26" href="$group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="301,496,389,523"/>
-<area shape="rect" id="node21" href="$ic_8f.html#a32489501c226ee8536f0fca3ac1b1b48" title="restart" alt="" coords="491,294,549,320"/>
-<area shape="rect" id="node22" href="$navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="485,395,555,422"/>
-<area shape="rect" id="node23" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="658,370,722,396"/>
-<area shape="rect" id="node25" href="$group__chkpoint__dns__lin.html#ga10eb9bc9a027b431e602d4dacdb75adb" title="Load checpoint variables from single set of files. " alt="" coords="476,446,564,472"/>
-<area shape="rect" id="node27" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="484,496,556,523"/>
-<area shape="rect" id="node30" href="$navier8_8f.html#a3126acd6d2b7a3e63f6f0329d5bae424" title="get_vert" alt="" coords="311,623,380,650"/>
-<area shape="rect" id="node31" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="477,547,563,574"/>
-<area shape="rect" id="node32" href="$hsmg_8f.html#ae0fd4b116048f3b3c3efe9116ae63a58" title="hsmg_setup_dssum" alt="" coords="451,598,589,624"/>
-<area shape="rect" id="node33" href="$hsmg_8f.html#af4bdfbdcb8eeccc615c574ca02e629a9" title="h1mg_setup_dssum" alt="" coords="451,648,589,675"/>
-<area shape="rect" id="node34" href="$map2_8f.html#a13d7dde54ee02508285dda66f7def6bf" title="get_map" alt="" coords="484,699,556,726"/>
-<area shape="rect" id="node35" href="$navier8_8f.html#a3c68a6cfc47f9c2602ab5029cae20ac8" title="get_vertex" alt="" coords="479,750,561,776"/>
-<area shape="rect" id="node36" href="$postnek8_8f.html#ae1845e92945819a9bc76a8db16d23994" title="surfchk" alt="" coords="487,800,553,827"/>
-<area shape="rect" id="node38" href="$postpro_8f.html#a1ae2f280ca541c30569f011b346ddcac" title="hpts_in" alt="" coords="313,674,377,700"/>
-<area shape="rect" id="node44" href="$tools_2postnek_2gs_8c.html#a261a160b7779655d0d8fbddb2711093b" title="gs_gop_" alt="" coords="310,800,381,827"/>
-<area shape="rect" id="node46" href="$tools_2postnek_2gs_8c.html#ac3cf004f62be68d8e55376b8e197fbfe" title="gs_gop_vec_" alt="" coords="296,851,395,878"/>
-<area shape="rect" id="node48" href="$tools_2postnek_2gs_8c.html#ab18d8b94fe0faff1961479926ecd09a5" title="gs_gop_hc_" alt="" coords="299,902,391,928"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a557724d36fed5680ba696aae60ae5992" title="pingpongo" alt="" coords="305,107,386,133"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a4ae0ceb703bba6170a61c696ee3871d3" title="get_msg_vol" alt="" coords="134,107,230,133"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#af348945adab9e6683c509187f6e4e2fc" title="ping_loop1" alt="" coords="140,5,224,32"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#ae95dc0de6852549c6cab7465978b3570" title="ping_loop2" alt="" coords="140,56,224,83"/>
+<area shape="rect" id="node9" href="$gfdm__par_8f.html#a2039fc61fb10c3e0ed323e0b316afc54" title="cexr" alt="" coords="159,208,205,235"/>
+<area shape="rect" id="node14" href="$gfdm__par_8f.html#a456f7fcec3acbec52672316dade58b74" title="cextr" alt="" coords="157,259,207,285"/>
+<area shape="rect" id="node15" href="$gfdm__par_8f.html#a36b3f5a0d7e9c17af23a656240c3c543" title="cexi" alt="" coords="159,309,205,336"/>
+<area shape="rect" id="node18" href="$gfdm__par_8f.html#a7dc51cdb76ca9f18d7688c3adc4dface" title="cexti" alt="" coords="157,360,207,387"/>
+<area shape="rect" id="node19" href="$ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="146,411,218,437"/>
+<area shape="rect" id="node28" href="$ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="146,461,218,488"/>
+<area shape="rect" id="node29" href="$navier8_8f.html#a7b711f52527072521e8670492a58ed16" title="get_vert_map" alt="" coords="131,512,233,539"/>
+<area shape="rect" id="node36" href="$postpro_8f.html#a2f6c2d9733e0eb8ffc45f8b1d9499d76" title="buffer_in" alt="" coords="146,563,218,589"/>
+<area shape="rect" id="node39" href="$avg__spt_8f.html#aaf88745b5387f32cd7b6cbd5d3aea46c" title="stat_init_global" alt="" coords="127,613,237,640"/>
+<area shape="rect" id="node40" href="$avg__spt_8f.html#aafe5488e41dfa82e450b85120e7bd05c" title="stat_gl_collation" alt="" coords="124,664,240,691"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144" title="comm_test" alt="" coords="477,56,563,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06" title="platform_timer" alt="" coords="637,56,743,83"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29" title="pingpong" alt="" coords="308,56,383,83"/>
+<area shape="rect" id="node10" href="$gfdm__solve_8f.html#a0fbdc5965e878a1cad487bb5702f2883" title="gfdm_pres_solv" alt="" coords="288,208,403,235"/>
+<area shape="rect" id="node11" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title="esolver" alt="" coords="488,107,552,133"/>
+<area shape="rect" id="node12" href="$navier1_8f.html#a23e6343990072aa1a6b17109ccc7ba2b" title="plan1" alt="" coords="493,157,547,184"/>
+<area shape="rect" id="node13" href="$navier1_8f.html#a437311d1b46ce62fc7b4d3b1dda969e2" title="uzprec" alt="" coords="489,208,551,235"/>
+<area shape="rect" id="node16" href="$gfdm__par_8f.html#a1eb25cbced7ae88f506a2c3cf85ffa05" title="gfdm_mappings" alt="" coords="288,284,403,311"/>
+<area shape="rect" id="node17" href="$gfdm__par_8f.html#a14456faa0a226d1d5463675d56fcd06f" title="gfdm_init" alt="" coords="483,259,557,285"/>
+<area shape="rect" id="node20" href="$ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a" title="mfi" alt="" coords="325,411,365,437"/>
+<area shape="rect" id="node24" href="$group__chkpoint__dns__lin.html#gacf9552fc34701138f4e91b0e7042c78c" title="Load checkpoint variables from single file. " alt="" coords="311,461,380,488"/>
+<area shape="rect" id="node26" href="$group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="301,512,389,539"/>
+<area shape="rect" id="node21" href="$ic_8f.html#a32489501c226ee8536f0fca3ac1b1b48" title="restart" alt="" coords="491,309,549,336"/>
+<area shape="rect" id="node22" href="$navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="485,411,555,437"/>
+<area shape="rect" id="node23" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="658,385,722,412"/>
+<area shape="rect" id="node25" href="$group__chkpoint__dns__lin.html#ga10eb9bc9a027b431e602d4dacdb75adb" title="Load checpoint variables from single set of files. " alt="" coords="476,461,564,488"/>
+<area shape="rect" id="node27" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="484,512,556,539"/>
+<area shape="rect" id="node30" href="$navier8_8f.html#a3126acd6d2b7a3e63f6f0329d5bae424" title="get_vert" alt="" coords="311,639,380,665"/>
+<area shape="rect" id="node31" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="477,715,563,741"/>
+<area shape="rect" id="node32" href="$hsmg_8f.html#ae0fd4b116048f3b3c3efe9116ae63a58" title="hsmg_setup_dssum" alt="" coords="451,765,589,792"/>
+<area shape="rect" id="node33" href="$hsmg_8f.html#af4bdfbdcb8eeccc615c574ca02e629a9" title="h1mg_setup_dssum" alt="" coords="451,563,589,589"/>
+<area shape="rect" id="node34" href="$map2_8f.html#a13d7dde54ee02508285dda66f7def6bf" title="get_map" alt="" coords="484,613,556,640"/>
+<area shape="rect" id="node35" href="$navier8_8f.html#a3c68a6cfc47f9c2602ab5029cae20ac8" title="get_vertex" alt="" coords="479,664,561,691"/>
+<area shape="rect" id="node37" href="$postpro_8f.html#a1ae2f280ca541c30569f011b346ddcac" title="hpts_in" alt="" coords="313,740,377,767"/>
+<area shape="rect" id="node38" href="$postpro_8f.html#a0b3f5bf61d6858b1006e51de47d6e2bf" title="hpts" alt="" coords="497,816,543,843"/>
 </map>

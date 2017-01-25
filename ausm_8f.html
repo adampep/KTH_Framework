@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('ausm_8f.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:af6c8229a9390146354e5f643b0b24063"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ausm_8f.html#af6c8229a9390146354e5f643b0b24063">ausm_fluxfunction</a> (ntot, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, nm, fs, rl, ul, vl, wl, pl, al, tl, <a class="el" href="lanczos_8c.html#aeb9279982226a42afdf2860dbdc29b45">rr</a>, ur, vr, wr, pr, ar, tr, flx, cpl, cpr)</td></tr>
+<tr class="memitem:af6c8229a9390146354e5f643b0b24063"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ausm_8f.html#af6c8229a9390146354e5f643b0b24063">ausm_fluxfunction</a> (ntot, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, nm, fs, rl, ul, vl, wl, pl, al, tl, rr, ur, vr, wr, pr, ar, tr, flx, cpl, cpr)</td></tr>
 <tr class="separator:af6c8229a9390146354e5f643b0b24063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a083fcb64cd04500931d07c3c271a3d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ausm_8f.html#a3a083fcb64cd04500931d07c3c271a3d">centralinviscid_fluxfunction</a> (ntot, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, fs, ul, pl, ur, pr, flx)</td></tr>
 <tr class="separator:a3a083fcb64cd04500931d07c3c271a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,7 +274,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ausm_8f_source.html#l00044">44</a> of file <a class="el" href="ausm_8f_source.html">ausm.f</a>.</p>
 
-<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="math_8f_source.html#l00109">invcol2()</a>, <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>, and <a class="el" href="lanczos_8c_source.html#l00014">rr</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="math_8f_source.html#l00109">invcol2()</a>, and <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -380,39 +380,22 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ausm_8f_source.html#l00140">140</a> of file <a class="el" href="ausm_8f_source.html">ausm.f</a>.</p>
 
-<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="postnek_2iolib_8f_source.html#l00507">rer()</a>, and <a class="el" href="lanczos_8c_source.html#l00014">rr</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_cgraph.png" border="0" usemap="#ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_cgraph" alt=""/></div>
-<map name="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_cgraph" id="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_cgraph">
-<area shape="rect" id="node2" href="postnek_2iolib_8f.html#a28b657d380f0d6648c826e5d88db9530" title="rer" alt="" coords="232,31,271,57"/>
-<area shape="rect" id="node3" href="postnek_2iolib_8f.html#a1e12d5f0a58f8389eff1920b1ce03e59" title="res" alt="" coords="319,5,359,32"/>
-<area shape="rect" id="node5" href="postnek_2iolib_8f.html#ad45fc22873349f8dd5c126f3f0bd8441" title="prs" alt="" coords="319,56,359,83"/>
-<area shape="rect" id="node4" href="core_2genbox_8f.html#aded7cdd7342c89c88593da29a85e8b24" title="gets" alt="" coords="415,5,462,32"/>
-<area shape="rect" id="node6" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="407,56,471,83"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph.png" border="0" usemap="#ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph" alt=""/></div>
 <map name="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph" id="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph">
 <area shape="rect" id="node2" href="inflow__bc_8f.html#afc144e6c03098b855983465787888ae9" title="inflow_rflu" alt="" coords="237,5,318,32"/>
-<area shape="rect" id="node6" href="outflow__bc_8f.html#a5cd60209078677665983be9203978140" title="outflow_rflu" alt="" coords="233,56,322,83"/>
-<area shape="rect" id="node8" href="wall__bc_8f.html#a35d05746a590f5692773bf23511755d9" title="slipwall_rflu" alt="" coords="232,107,323,133"/>
+<area shape="rect" id="node5" href="outflow__bc_8f.html#a5cd60209078677665983be9203978140" title="outflow_rflu" alt="" coords="233,56,322,83"/>
+<area shape="rect" id="node7" href="wall__bc_8f.html#a35d05746a590f5692773bf23511755d9" title="slipwall_rflu" alt="" coords="232,107,323,133"/>
 <area shape="rect" id="node3" href="inflow__bc_8f.html#a4c35f8c9bfa750662ee53320b3d6c2ec" title="inflow" alt="" coords="375,5,431,32"/>
 <area shape="rect" id="node4" href="surface__fluxes_8f.html#a0c7f45ae75e5a08dc4393b8b68594d79" title="inviscidflux" alt="" coords="483,56,569,83"/>
-<area shape="rect" id="node5" href="bound_8f.html#aba9a67d56085ab4fbc87a0e009aaf19f" title="set_bc_fld" alt="" coords="485,5,567,32"/>
-<area shape="rect" id="node7" href="outflow__bc_8f.html#a612ede8af5852659206ba91602c93b8c" title="outflow" alt="" coords="371,56,435,83"/>
-<area shape="rect" id="node9" href="wall__bc_8f.html#a1ee141c5e11aa2d70f239d00b31b616c" title="wallbc" alt="" coords="373,107,432,133"/>
+<area shape="rect" id="node6" href="outflow__bc_8f.html#a612ede8af5852659206ba91602c93b8c" title="outflow" alt="" coords="371,56,435,83"/>
+<area shape="rect" id="node8" href="wall__bc_8f.html#a1ee141c5e11aa2d70f239d00b31b616c" title="wallbc" alt="" coords="373,107,432,133"/>
 </map>
 </div>
 </p>
@@ -425,7 +408,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="ausm_8f.html">ausm.f</a></li>
-    <li class="footer">Generated on Tue Jan 24 2017 16:27:11 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Wed Jan 25 2017 13:04:14 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

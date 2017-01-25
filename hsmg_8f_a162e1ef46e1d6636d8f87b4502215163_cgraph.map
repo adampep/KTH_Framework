@@ -9,12 +9,12 @@
 <area shape="rect" id="node7" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title="mxm_bgq_16" alt="" coords="417,259,517,285"/>
 <area shape="rect" id="node8" href="$mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title="mxm_bgq_10" alt="" coords="417,5,517,32"/>
 <area shape="rect" id="node9" href="$mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title="mxm_bgq_6" alt="" coords="421,56,514,83"/>
-<area shape="rect" id="node10" href="$core_23rd__party_2blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="435,107,500,133"/>
+<area shape="rect" id="node10" href="$blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="435,107,500,133"/>
 <area shape="rect" id="node11" href="$mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title="mxmf2" alt="" coords="436,157,499,184"/>
 <area shape="rect" id="node14" href="$comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="312,360,363,387"/>
 <area shape="rect" id="node19" href="$math_8f.html#a0fcb0ff151fe3548d0d07961e8365efe" title="invers2" alt="" coords="305,411,369,437"/>
 <area shape="rect" id="node15" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="441,411,494,437"/>
 <area shape="rect" id="node16" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="435,461,499,488"/>
-<area shape="rect" id="node17" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="444,309,491,336"/>
+<area shape="rect" id="node17" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="444,309,491,336"/>
 <area shape="rect" id="node18" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="441,360,494,387"/>
 </map>

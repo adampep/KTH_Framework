@@ -1,5 +1,4 @@
 <map id="rotate_cyc" name="rotate_cyc">
-<area shape="rect" id="node2" href="$postnek_2plot_8f.html#aa7499829dcb167485599d4cd86a1c60d" title="dotprod" alt="" coords="136,5,201,32"/>
-<area shape="rect" id="node3" href="$turb_8f.html#adaa309873cbbbd3c117145741e3e41b3" title="facind2" alt="" coords="137,56,201,83"/>
-<area shape="rect" id="node4" href="$connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="249,56,304,83"/>
+<area shape="rect" id="node2" href="$turb_8f.html#adaa309873cbbbd3c117145741e3e41b3" title="facind2" alt="" coords="136,5,200,32"/>
+<area shape="rect" id="node3" href="$connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="248,5,303,32"/>
 </map>

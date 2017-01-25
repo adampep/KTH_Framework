@@ -1,11 +1,18 @@
 <map id="gfdm_set_bc" name="gfdm_set_bc">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="153,56,199,83"/>
-<area shape="rect" id="node10" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="151,107,201,133"/>
-<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="277,5,324,32"/>
-<area shape="rect" id="node4" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="274,56,327,83"/>
-<area shape="rect" id="node5" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="249,107,352,133"/>
-<area shape="rect" id="node6" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title="mpi_reduce_double_precision" alt="" coords="400,31,593,57"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title="mpi_reduce_integer" alt="" coords="429,81,564,108"/>
-<area shape="rect" id="node8" href="$mpi__dummy_8f.html#abbddc050d7faafb34959984f69652e0a" title="mpi_reduce_integer8" alt="" coords="425,132,568,159"/>
-<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title="mpi_reduce_real" alt="" coords="438,183,555,209"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="153,284,199,311"/>
+<area shape="rect" id="node17" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="151,335,201,361"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="277,157,324,184"/>
+<area shape="rect" id="node11" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="274,284,327,311"/>
+<area shape="rect" id="node12" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="249,411,352,437"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="455,5,539,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="456,56,537,83"/>
+<area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="463,107,530,133"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="447,157,546,184"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="451,208,542,235"/>
+<area shape="rect" id="node9" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="457,259,536,285"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="457,309,536,336"/>
+<area shape="rect" id="node13" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title="mpi_reduce_double_precision" alt="" coords="400,360,593,387"/>
+<area shape="rect" id="node14" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title="mpi_reduce_integer" alt="" coords="429,411,564,437"/>
+<area shape="rect" id="node15" href="$mpi__dummy_8f.html#abbddc050d7faafb34959984f69652e0a" title="mpi_reduce_integer8" alt="" coords="425,461,568,488"/>
+<area shape="rect" id="node16" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title="mpi_reduce_real" alt="" coords="438,512,555,539"/>
 </map>

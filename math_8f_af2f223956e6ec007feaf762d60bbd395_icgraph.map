@@ -1,12 +1,9 @@
 <map id="vcross" name="vcross">
-<area shape="rect" id="node2" href="$core_2coef_8f.html#a5ec9c11456c9b424c589644a80609d69" title="area3" alt="" coords="125,56,179,83"/>
-<area shape="rect" id="node6" href="$subs2_8f.html#a1e79703717b90d067439461628ea0b4c" title="comavn3" alt="" coords="115,107,189,133"/>
-<area shape="rect" id="node10" href="$postnek9_8f.html#a753d06463899a9776c6e5ac32f97c1ca" title="genstrv" alt="" coords="119,157,185,184"/>
-<area shape="rect" id="node3" href="$core_2coef_8f.html#a1c4499ad278bab596a1b4c978fa79ea8" title="setarea" alt="" coords="239,56,304,83"/>
-<area shape="rect" id="node4" href="$core_2coef_8f.html#aea7fbfba708ba55609135adf3064f1c3" title="geodat1" alt="" coords="357,5,425,32"/>
-<area shape="rect" id="node5" href="$tools_2postnek_2coef_8f.html#a39520fb9d386da9befb72e1a8d9e655c" title="geom1" alt="" coords="360,56,421,83"/>
-<area shape="rect" id="node7" href="$subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="237,107,305,133"/>
-<area shape="rect" id="node8" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="355,107,427,133"/>
-<area shape="rect" id="node9" href="$subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title="updmsys" alt="" coords="353,157,428,184"/>
-<area shape="rect" id="node11" href="$postnek3_8f.html#aea8985289cde0d55cc438c3f701a6d6d" title="setwrk" alt="" coords="241,157,302,184"/>
+<area shape="rect" id="node2" href="$coef_8f.html#a5ec9c11456c9b424c589644a80609d69" title="area3" alt="" coords="125,5,179,32"/>
+<area shape="rect" id="node5" href="$subs2_8f.html#a1e79703717b90d067439461628ea0b4c" title="comavn3" alt="" coords="115,56,189,83"/>
+<area shape="rect" id="node3" href="$coef_8f.html#a1c4499ad278bab596a1b4c978fa79ea8" title="setarea" alt="" coords="239,5,304,32"/>
+<area shape="rect" id="node4" href="$coef_8f.html#aea7fbfba708ba55609135adf3064f1c3" title="geodat1" alt="" coords="357,5,425,32"/>
+<area shape="rect" id="node6" href="$subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="237,56,305,83"/>
+<area shape="rect" id="node7" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="355,56,427,83"/>
+<area shape="rect" id="node8" href="$subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title="updmsys" alt="" coords="353,107,428,133"/>
 </map>

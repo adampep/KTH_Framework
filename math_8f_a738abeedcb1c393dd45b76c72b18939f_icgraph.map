@@ -1,26 +1,8 @@
 <map id="iswap_ip" name="iswap_ip">
 <area shape="rect" id="node2" href="$gfdm__par_8f.html#a1eb25cbced7ae88f506a2c3cf85ffa05" title="gfdm_mappings" alt="" coords="127,5,241,32"/>
-<area shape="rect" id="node5" href="$genmap_8f.html#a9292fa09096386a7603b5a2634730479" title="genmap" alt="" coords="887,145,955,172"/>
-<area shape="rect" id="node6" href="$genmap_8f.html#ab549e174454ef5406c4aa1e751e57678" title="bipart_sort" alt="" coords="623,145,706,172"/>
-<area shape="rect" id="node8" href="$genmap_8f.html#a16d5aa6128b08714b8f264322d63e8c0" title="part_clean" alt="" coords="143,157,225,184"/>
-<area shape="rect" id="node9" href="$genmap_8f.html#abb08ab70a77297bcefc89376eba4ca71" title="sbisect" alt="" coords="152,208,216,235"/>
-<area shape="rect" id="node11" href="$genmap_8f.html#afb4579e999437d5a9d4b1e7a6e282c61" title="spec_bis_conn" alt="" coords="445,183,555,209"/>
-<area shape="rect" id="node12" href="$genmap_8f.html#a0d1b6bfb23510f801fb3f23301af1062" title="unique_vertex2" alt="" coords="129,309,239,336"/>
-<area shape="rect" id="node17" href="$nekmerge_8f.html#ae804ac1012b422a36674f516abcdbef4" title="global_fnbr" alt="" coords="141,360,227,387"/>
-<area shape="rect" id="node20" href="$zipper2_8f.html#a30fbd24aafebf032a828990921105272" title="el_bc_swap_ip" alt="" coords="130,411,238,437"/>
-<area shape="rect" id="node23" href="$group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="130,461,238,488"/>
-<area shape="rect" id="node25" href="$avg__spt_8f.html#aaf88745b5387f32cd7b6cbd5d3aea46c" title="stat_init_global" alt="" coords="129,512,239,539"/>
-<area shape="rect" id="node3" href="$gfdm__par_8f.html#a14456faa0a226d1d5463675d56fcd06f" title="gfdm_init" alt="" coords="297,5,371,32"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="467,5,533,32"/>
-<area shape="rect" id="node7" href="$genmap_8f.html#a556a01f71eca67692fd0582204f13583" title="rec_bisect" alt="" coords="756,145,839,172"/>
-<area shape="rect" id="node10" href="$genmap_8f.html#a07a0b98f9ad4a3a0244d80f1f580f171" title="spec_bis" alt="" coords="297,183,371,209"/>
-<area shape="rect" id="node13" href="$genmap_8f.html#a9b711f022616b7896ad2159c42f97f47" title="makemesh" alt="" coords="621,221,708,248"/>
-<area shape="rect" id="node14" href="$build_8f.html#a235b8c89d131abc0f28926558ea63798" title="makecell" alt="" coords="297,335,371,361"/>
-<area shape="rect" id="node15" href="$build_8f.html#afb97e8e51f78e236bca59efba0b94a21" title="cell_cell_connectivity" alt="" coords="427,335,573,361"/>
-<area shape="rect" id="node16" href="$glomod_8f.html#a74fa431ce14df2e1f4f4b4cfa6963ddb" title="smoother2" alt="" coords="459,385,541,412"/>
-<area shape="rect" id="node18" href="$nekmerge_8f.html#ace8216e6e1ef191f5a08d1c019855fac" title="set_ee_bcs" alt="" coords="289,385,379,412"/>
-<area shape="rect" id="node19" href="$nekmerge_8f.html#ac5b8a256442025ae7a35ae8e8dfb28a9" title="nekmerge" alt="" coords="461,436,539,463"/>
-<area shape="rect" id="node21" href="$zipper2_8f.html#a925a5d9be31dc8196fa320f3de9f6240" title="el_swap_ip" alt="" coords="291,436,377,463"/>
-<area shape="rect" id="node22" href="$zipper2_8f.html#a2643cecd7739476badc8b59cd69c442a" title="renum_special" alt="" coords="447,487,553,513"/>
-<area shape="rect" id="node24" href="$group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="297,487,371,513"/>
+<area shape="rect" id="node5" href="$group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="130,56,238,83"/>
+<area shape="rect" id="node7" href="$avg__spt_8f.html#aaf88745b5387f32cd7b6cbd5d3aea46c" title="stat_init_global" alt="" coords="129,107,239,133"/>
+<area shape="rect" id="node3" href="$gfdm__par_8f.html#a14456faa0a226d1d5463675d56fcd06f" title="gfdm_init" alt="" coords="289,5,364,32"/>
+<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="412,5,479,32"/>
+<area shape="rect" id="node6" href="$group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="289,56,364,83"/>
 </map>

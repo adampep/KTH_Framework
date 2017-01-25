@@ -16,13 +16,8 @@ var searchData=
   ['dim',['dim',['../structfindpts__local__data.html#a3291d2fa4cf23595c7744f68d82fbe15',1,'findpts_local_data']]],
   ['dist2',['dist2',['../structfindpts__el__pt__2.html#a616e260c2f9e589d8725a96dcd4fa733',1,'findpts_el_pt_2::dist2()'],['../structfindpts__el__pt__3.html#a63346354ee6bf6f17652e16cbda84c8a',1,'findpts_el_pt_3::dist2()'],['../structout__pt.html#a8d4c1d9d6311c561a6ae794eb0516a95',1,'out_pt::dist2()'],['../structpt__data.html#aae1bea3300467952460885fed2cdaf01',1,'pt_data::dist2()']]],
   ['dist2p',['dist2p',['../structfindpts__el__pt__2.html#ace6e04e50033beb6aeb8d39da6e5e20a',1,'findpts_el_pt_2::dist2p()'],['../structfindpts__el__pt__3.html#a6c97c51eee0b98d581266b39ed503420',1,'findpts_el_pt_3::dist2p()']]],
-  ['dmax',['dmax',['../lanczos_8c.html#a08620ea9609ea3b4ae678c4a2949777f',1,'lanczos.c']]],
-  ['dmin',['dmin',['../lanczos_8c.html#a1d1b7013ad572682c2451b010d7bef9f',1,'lanczos.c']]],
   ['do',['do',['../gen__poly__imp_8c.html#a721c6ff80a6d3e4ad4ffa52a04c60085',1,'gen_poly_imp.c']]],
   ['dom',['dom',['../gs__test_8c.html#a5210b4ce2e1322626aaaf8d7eeb32cdc',1,'gs_test.c']]],
-  ['dpy',['dpy',['../prenek_2xdriver_8c.html#a7d43b3edf58f8d85a89852ab95b740f6',1,'xdriver.c']]],
-  ['dv',['dv',['../lanczos_8c.html#a3450d7b13252360b4ae3dcc6d4b9c6da',1,'lanczos.c']]],
-  ['dv_5fw',['dv_w',['../lanczos_8c.html#a314ac03b42e68150923c91200ac1659d',1,'lanczos.c']]],
   ['dxdn',['dxdn',['../structfindpts__el__gedge__2.html#ac2590ce0bc151ebd364d04fc19fe3ecf',1,'findpts_el_gedge_2::dxdn()'],['../structfindpts__el__gface__3.html#a22661805f7743183f8a17e023b02d360',1,'findpts_el_gface_3::dxdn()']]],
   ['dxdn1',['dxdn1',['../structfindpts__el__gedge__3.html#acecfd057c7c46da9c06f135ce9cbcf1a',1,'findpts_el_gedge_3']]],
   ['dxdn2',['dxdn2',['../structfindpts__el__gedge__3.html#ad49efd58e3a0c1961429e1e2390c533e',1,'findpts_el_gedge_3']]]

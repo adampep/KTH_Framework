@@ -1,5 +1,5 @@
 <map id="dpotf2" name="dpotf2">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#add421a107a488d524859b4a64c1901a9" title="dgemv" alt="" coords="112,5,173,32"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="221,31,279,57"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="116,107,169,133"/>
+<area shape="rect" id="node2" href="$blas_8f.html#add421a107a488d524859b4a64c1901a9" title="dgemv" alt="" coords="112,5,173,32"/>
+<area shape="rect" id="node3" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="221,31,279,57"/>
+<area shape="rect" id="node4" href="$blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="116,107,169,133"/>
 </map>

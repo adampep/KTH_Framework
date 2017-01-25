@@ -120,7 +120,7 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:ab1d6679a645453d7a30a47d158f76f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3737d0f38b1a9847edf53beaabc8c5f4"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="avg__spt__usr_8f.html#a3737d0f38b1a9847edf53beaabc8c5f4">user_stat_trnsv</a> (lvel, dudx, dvdx, dwdx, vort)</td></tr>
 <tr class="separator:a3737d0f38b1a9847edf53beaabc8c5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d99ab486dfdd2573f2e91a828ae90e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="avg__spt__usr_8f.html#a76d99ab486dfdd2573f2e91a828ae90e">user_stat_compute</a> (slvel, slp, tmpvel, tmppr, dudx, dvdx, dwdx, lnvar, npos, <a class="el" href="lanczos_8c.html#a20f4c4490bc8ecbdd1ffcb79acce6035">alpha</a>, <a class="el" href="lanczos_8c.html#ab146b9cbab6e73e7588b240dc709fe01">beta</a>)</td></tr>
+<tr class="memitem:a76d99ab486dfdd2573f2e91a828ae90e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="avg__spt__usr_8f.html#a76d99ab486dfdd2573f2e91a828ae90e">user_stat_compute</a> (slvel, slp, tmpvel, tmppr, dudx, dvdx, dwdx, lnvar, npos, alpha, beta)</td></tr>
 <tr class="separator:a76d99ab486dfdd2573f2e91a828ae90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
@@ -271,12 +271,25 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph.png" border="0" usemap="#avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph" alt=""/></div>
 <map name="avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph" id="avg__spt__usr_8f_ab1d6679a645453d7a30a47d158f76f92_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="157,5,208,32"/>
-<area shape="rect" id="node3" href="core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="159,56,206,83"/>
-<area shape="rect" id="node4" href="dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title="ftovec" alt="" coords="153,107,212,133"/>
-<area shape="rect" id="node6" href="math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="163,157,202,184"/>
-<area shape="rect" id="node7" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="157,208,208,235"/>
-<area shape="rect" id="node5" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="260,107,317,133"/>
+<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="157,107,208,133"/>
+<area shape="rect" id="node3" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="159,157,206,184"/>
+<area shape="rect" id="node17" href="dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title="ftovec" alt="" coords="153,208,212,235"/>
+<area shape="rect" id="node19" href="math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="163,259,202,285"/>
+<area shape="rect" id="node20" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="157,309,208,336"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="267,5,351,32"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="269,56,350,83"/>
+<area shape="rect" id="node7" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="276,107,343,133"/>
+<area shape="rect" id="node8" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="260,157,359,184"/>
+<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="264,208,355,235"/>
+<area shape="rect" id="node13" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="270,259,349,285"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="270,309,349,336"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="421,56,507,83"/>
+<area shape="rect" id="node9" href="math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="436,107,492,133"/>
+<area shape="rect" id="node10" href="multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="413,157,515,184"/>
+<area shape="rect" id="node11" href="multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="407,208,521,235"/>
+<area shape="rect" id="node14" href="papi_8f.html#a838be3d39e287e29002d5a68c6ad2dd8" title="getflops_papi" alt="" coords="415,259,513,285"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="421,309,507,336"/>
+<area shape="rect" id="node18" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="281,360,338,387"/>
 </map>
 </div>
 </p>
@@ -327,7 +340,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="avg__spt__usr_8f_source.html#l00171">171</a> of file <a class="el" href="avg__spt__usr_8f_source.html">avg_spt_usr.f</a>.</p>
 
-<p>References <a class="el" href="lanczos_8c_source.html#l00014">alpha</a>, <a class="el" href="lanczos_8c_source.html#l00014">beta</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="navier5_8f_source.html#l00733">gradm1()</a>, and <a class="el" href="math_8f_source.html#l00298">sub3()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="navier5_8f_source.html#l00733">gradm1()</a>, and <a class="el" href="math_8f_source.html#l00298">sub3()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -367,7 +380,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_90a01da27c815ec0f52ae9e4dc4ab23c.html">Toolbox</a></li><li class="navelem"><a class="el" href="dir_dd3dfcc4d15c653c39b56b77027fb104.html">driver</a></li><li class="navelem"><a class="el" href="dir_762c4435fd05f794ccef0153fe961702.html">avg_spt</a></li><li class="navelem"><a class="el" href="avg__spt__usr_8f.html">avg_spt_usr.f</a></li>
-    <li class="footer">Generated on Tue Jan 24 2017 16:27:17 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

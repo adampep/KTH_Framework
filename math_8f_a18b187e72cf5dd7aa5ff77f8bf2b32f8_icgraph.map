@@ -1,10 +1,6 @@
 <map id="add3s12" name="add3s12">
-<area shape="rect" id="node2" href="$convect_8f.html#a462db3d75569eb808bc6e5d8cda2c542" title="char_conv1" alt="" coords="149,43,238,69"/>
-<area shape="rect" id="node6" href="$postnek2_8f.html#a75e993531c9ac2edaefa9851a08a08c5" title="streamline_draw" alt="" coords="135,93,252,120"/>
-<area shape="rect" id="node9" href="$postnek2_8f.html#a3aa43f0b54b812cc9e5c4d0b2c54df64" title="streamline_draw_2d\l_close" alt="" coords="124,145,263,186"/>
-<area shape="rect" id="node3" href="$convect_8f.html#ae4ae44dd6c99361a823026cc794c68a0" title="char_conv" alt="" coords="311,43,393,69"/>
-<area shape="rect" id="node4" href="$convect_8f.html#afc0b2ce765c4ad0f0ec6f2a62536bf57" title="advchar" alt="" coords="441,5,509,32"/>
-<area shape="rect" id="node5" href="$convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="443,56,507,83"/>
-<area shape="rect" id="node7" href="$postnek2_8f.html#acaf25a292e2b2fd1f2450480fa3c3303" title="stream" alt="" coords="321,119,383,145"/>
-<area shape="rect" id="node8" href="$postnek_8f.html#abe0759e9d8aa9c96d9f951c2fd0134d6" title="plotit" alt="" coords="450,119,501,145"/>
+<area shape="rect" id="node2" href="$convect_8f.html#a462db3d75569eb808bc6e5d8cda2c542" title="char_conv1" alt="" coords="124,31,213,57"/>
+<area shape="rect" id="node3" href="$convect_8f.html#ae4ae44dd6c99361a823026cc794c68a0" title="char_conv" alt="" coords="261,31,344,57"/>
+<area shape="rect" id="node4" href="$convect_8f.html#afc0b2ce765c4ad0f0ec6f2a62536bf57" title="advchar" alt="" coords="392,5,460,32"/>
+<area shape="rect" id="node5" href="$convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="394,56,458,83"/>
 </map>

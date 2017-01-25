@@ -5,7 +5,7 @@
 <area shape="rect" id="node4" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="435,5,495,32"/>
 <area shape="rect" id="node8" href="$navier8_8f.html#ad95667f017072090d261e5eaef823395" title="gbtuple_rank" alt="" coords="263,107,359,133"/>
 <area shape="rect" id="node5" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="589,107,635,133"/>
-<area shape="rect" id="node6" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="705,81,751,108"/>
+<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="705,81,751,108"/>
 <area shape="rect" id="node7" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="701,183,755,209"/>
 <area shape="rect" id="node9" href="$comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="407,157,523,184"/>
 <area shape="rect" id="node10" href="$navier8_8f.html#ab45afa33532528c978fbfcf44355bb28" title="irank_vecn" alt="" coords="422,107,507,133"/>

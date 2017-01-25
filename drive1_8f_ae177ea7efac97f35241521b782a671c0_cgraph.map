@@ -46,6 +46,6 @@
 <area shape="rect" id="node30" href="$perturb_8f.html#a4b77d7db844b723bd5ed857e918bc83f" title="perturbv" alt="" coords="365,1373,434,1400"/>
 <area shape="rect" id="node32" href="$eigsolv_8f.html#a91ddf7cb5ca6b19d1c736da5bf7386b3" title="eigenv" alt="" coords="369,1500,429,1527"/>
 <area shape="rect" id="node33" href="$eigsolv_8f.html#a1db10d40f8df1de37de90fbff50443f6" title="esteig" alt="" coords="371,1551,428,1577"/>
-<area shape="rect" id="node35" href="$core_2coef_8f.html#aa53bfbed9c7ef23c34fdb627b832c0f3" title="lagmass" alt="" coords="563,727,634,753"/>
-<area shape="rect" id="node36" href="$core_2genxyz_8f.html#a6861908edfdc393cd40b5fd8ec8b242d" title="gencoor" alt="" coords="365,816,433,843"/>
+<area shape="rect" id="node35" href="$coef_8f.html#aa53bfbed9c7ef23c34fdb627b832c0f3" title="lagmass" alt="" coords="563,727,634,753"/>
+<area shape="rect" id="node36" href="$genxyz_8f.html#a6861908edfdc393cd40b5fd8ec8b242d" title="gencoor" alt="" coords="365,816,433,843"/>
 </map>
