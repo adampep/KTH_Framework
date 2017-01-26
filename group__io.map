@@ -1,5 +1,5 @@
 <map id="Input/output module for KTH nek5000 platform" name="Input/output module for KTH nek5000 platform">
-<area shape="rect" id="node1" href="$group__chkpoint.html" title="Multi&#45;file checkopinting for KTH submodules. " alt="" coords="345,5,500,32"/>
+<area shape="rect" id="node1" href="$group__chkpoint.html" title="Checkopinting routines for toolbox. " alt="" coords="345,5,500,32"/>
 <area shape="rect" id="node2" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
 <area shape="rect" id="node4" href="$group__io__tools.html" title="Input/Output simple tools. " alt="" coords="387,56,459,83"/>
 </map>

@@ -356,7 +356,7 @@ var searchData=
   ['surface_5ffluxes_2ef',['surface_fluxes.f',['../surface__fluxes_8f.html',1,'']]],
   ['surface_5fint',['surface_int',['../navier5_8f.html#aed0969e0efe7becc4ac41b6b8b46b7b8',1,'navier5.f']]],
   ['surface_5fintegral_5ffull',['surface_integral_full',['../surface__fluxes_8f.html#a799332814e9d69e56ae5cc53dd448ebc',1,'surface_fluxes.f']]],
-  ['swap',['swap',['../structfile.html#a07811816ba9d2e97fe7e0c48c92f7c16',1,'file::swap()'],['../byte_8c.html#aac9153aee4bdb92701df902e06a74eb3',1,'SWAP():&#160;byte.c'],['../navier7_8f.html#ae5853d8199b3ec1ff454795153efde35',1,'swap(b, ind, n, temp):&#160;navier7.f']]],
+  ['swap',['swap',['../structfile.html#a07811816ba9d2e97fe7e0c48c92f7c16',1,'file::swap()'],['../navier7_8f.html#ae5853d8199b3ec1ff454795153efde35',1,'swap(b, ind, n, temp):&#160;navier7.f'],['../byte_8c.html#aac9153aee4bdb92701df902e06a74eb3',1,'SWAP():&#160;byte.c']]],
   ['swap1',['SWAP1',['../amg_8c.html#a6bd1e915283a7459d1115758ad8237bb',1,'amg.c']]],
   ['swap2',['SWAP2',['../amg_8c.html#a90c0b91a33225047a8747e6075dd5af1',1,'amg.c']]],
   ['swap3',['SWAP3',['../amg_8c.html#adbaaba880937c182b7066baf9f56d36e',1,'amg.c']]],

@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('group__toolbox.html','');});
   <div class="summary">
 <a href="#groups">Modules</a>  </div>
   <div class="headertitle">
-<div class="title">Toolbox</div>  </div>
+<div class="title">Toolbox<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,9 +115,10 @@ $(document).ready(function(){initNavTree('group__toolbox.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__toolbox.png" border="0" alt="" usemap="#group____toolbox"/>
 <map name="group____toolbox" id="group____toolbox">
-<area shape="rect" id="node1" href="group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="131,5,288,47"/>
-<area shape="rect" id="node3" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="121,71,297,112"/>
-<area shape="rect" id="node4" href="group__tools.html" title="Set of tools for KHT framework. " alt="" coords="131,136,288,177"/>
+<area shape="rect" id="node1" href="group__framework.html" title="Framework for KHT toolboxes. " alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="341,5,499,47"/>
+<area shape="rect" id="node4" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="332,71,508,112"/>
+<area shape="rect" id="node5" href="group__tools.html" title="Set of tools for KHT framework. " alt="" coords="341,136,499,177"/>
 </map>
 </td></tr></table></center>
 </div>
@@ -141,21 +142,36 @@ Modules</h2></td></tr>
 <img src="framework.png" alt="framework.png"/>
 <div class="caption">
 Examplary framework structure.</div></div>
-<p>Dependences between modules are described in FRAMEWORK.txt (present in every directory) including:</p><ul>
-<li>documentation section witten in a form of doxygen C comment</li>
+<p>Modules can provide tools, <a class="el" href="parameter_list_page.html">runtime parameters</a>, memory structures (common blocks), define interfaces and perform some tasks. The main goal is to simplify development of toolboxes by defining simple tasks that could be used by number of tools. At the same time clear difinition of the inteface alows to keep number of different implementation of the same task.</p>
+<p>Each module has to contain:</p><ul>
+<li>FRAMEWORK.txt -module description</li>
+<li>makefile_usr.inc - compilation rules</li>
+<li>Fortran code</li>
+</ul>
+<p>Dependences between modules are described in FRAMEWORK.txt (present in almost every directory) including:</p><ul>
+<li>documentation section witten in a form of doxygen C comment<ul>
+<li>definition of group</li>
+<li>description of module purpose</li>
+<li>definition of interface provided by module</li>
+<li>list of required interfaces from submodules (module dependency)</li>
+<li>example of module call</li>
+<li>list of provided runtime parameters</li>
+<li>list of requred runtime parameters (module dependency)</li>
+<li>example of section in <em>setup.par</em> file</li>
+</ul>
+</li>
 <li>list of existing submodules (subdirectories)</li>
 <li>list of conflicting submodules</li>
 <li>default submodule</li>
 <li>list of required modules (from other tree branches)</li>
-<li>list of required conflicting submodules (from local subdirectories)</li>
+<li>list of required conflicting submodules (from local subdirectories) </li>
 </ul>
-<p>Modules can provide tools, <a class="el" href="parameter_list_page.html">runtime parameters</a>, memory structures (common blocks), define interfaces and perform some tasks. The main goal is to simplify development of toolboxes by defining simple tasks that could be used by number of tools. At the same time clear difinition of the inteface alows to keep number of different implementation of the same task. </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

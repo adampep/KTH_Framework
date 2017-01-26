@@ -1,7 +1,7 @@
 <map id="avgs_init_local" name="avgs_init_local">
 <area shape="rect" id="node2" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="306,157,353,184"/>
 <area shape="rect" id="node16" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="189,132,228,159"/>
-<area shape="rect" id="node17" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="161,183,256,209"/>
+<area shape="rect" id="node17" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="161,183,256,209"/>
 <area shape="rect" id="node18" href="$math_8f.html#a738abeedcb1c393dd45b76c72b18939f" title="iswap_ip" alt="" coords="172,233,245,260"/>
 <area shape="rect" id="node19" href="$navier8_8f.html#a4cafaee987ad8b38959680fe057b14a9" title="tuple_sort" alt="" coords="169,284,248,311"/>
 <area shape="rect" id="node3" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="410,5,494,32"/>

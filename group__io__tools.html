@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__io__tools.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">I/O tools<div class="ingroups"><a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></div></div>  </div>
+<div class="title">I/O tools<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -133,13 +133,13 @@ Files</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga53baee4631318962388cf17fe0ceccc5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5">io_file_freeid</a> (iunit, ierr)</td></tr>
-<tr class="memdesc:ga53baee4631318962388cf17fe0ceccc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get free unit number.  <a href="#ga53baee4631318962388cf17fe0ceccc5">More...</a><br /></td></tr>
+<tr class="memdesc:ga53baee4631318962388cf17fe0ceccc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get free file unit number and store max unit value.  <a href="#ga53baee4631318962388cf17fe0ceccc5">More...</a><br /></td></tr>
 <tr class="separator:ga53baee4631318962388cf17fe0ceccc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2a41a23b2dba58690027db31c2b353b3"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io__tools.html#ga2a41a23b2dba58690027db31c2b353b3">io_file_close</a> ()</td></tr>
-<tr class="memdesc:ga2a41a23b2dba58690027db31c2b353b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close opened files.  <a href="#ga2a41a23b2dba58690027db31c2b353b3">More...</a><br /></td></tr>
+<tr class="memdesc:ga2a41a23b2dba58690027db31c2b353b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all opened files up to sotred max unit numer.  <a href="#ga2a41a23b2dba58690027db31c2b353b3">More...</a><br /></td></tr>
 <tr class="separator:ga2a41a23b2dba58690027db31c2b353b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7397583188d542970171dd7f560c9427"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427">io_mfo_fname</a> (fname, bname, prefix, ierr)</td></tr>
-<tr class="memdesc:ga7397583188d542970171dd7f560c9427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate name according to nek rulles.  <a href="#ga7397583188d542970171dd7f560c9427">More...</a><br /></td></tr>
+<tr class="memdesc:ga7397583188d542970171dd7f560c9427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate name according to nek rulles without opening the file.  <a href="#ga7397583188d542970171dd7f560c9427">More...</a><br /></td></tr>
 <tr class="separator:ga7397583188d542970171dd7f560c9427"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e841a3e3e5c9644c74414046c1b12d6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6">io_mbyte_open_srl</a> (hname, fid, ierr)</td></tr>
 <tr class="memdesc:ga8e841a3e3e5c9644c74414046c1b12d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open file at a given process only.  <a href="#ga8e841a3e3e5c9644c74414046c1b12d6">More...</a><br /></td></tr>
@@ -147,7 +147,14 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Input/Output simple tools. </p>
-<p>Detatiled description of I/O speciffic routines </p>
+<p>Set of I/O speciffic routines for toolbox</p>
+<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface:<ol type="1">
+<li><a class="el" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5">io_file_freeid</a></li>
+<li><a class="el" href="group__io__tools.html#ga2a41a23b2dba58690027db31c2b353b3">io_file_close</a></li>
+<li><a class="el" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427">io_mfo_fname</a></li>
+<li><a class="el" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6">io_mbyte_open_srl</a> </li>
+</ol>
+</dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga2a41a23b2dba58690027db31c2b353b3"></a>
 <div class="memitem">
@@ -162,8 +169,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Close opened files. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. ">io_file_freeid</a> </dd></dl>
+<p>Close all opened files up to sotred max unit numer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. ">io_file_freeid</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="io__tools_8f_source.html#l00048">48</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
 
@@ -193,7 +200,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get free unit number. </p>
+<p>Get free file unit number and store max unit value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">iunit</td><td>file unit </td></tr>
@@ -201,7 +208,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__io__tools.html#ga2a41a23b2dba58690027db31c2b353b3" title="Close opened files. ">io_file_close</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__io__tools.html#ga2a41a23b2dba58690027db31c2b353b3" title="Close all opened files up to sotred max unit numer. ">io_file_close</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="io__tools_8f_source.html#l00013">13</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
 
@@ -215,15 +222,13 @@ Functions</h2></td></tr>
 <area shape="rect" id="node2" href="group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="151,5,259,32"/>
 <area shape="rect" id="node4" href="group__avg__spt.html#gab77646316ccfb62e71942e6835231f27" title="Reshuffle coordinate arrays. " alt="" coords="148,56,261,83"/>
 <area shape="rect" id="node5" href="group__runparam.html#ga3a89d10dd1612ab9d1a62204590593a9" title="Main interface of runtime parameter module. " alt="" coords="156,107,253,133"/>
-<area shape="rect" id="node6" href="group__chkpoint__dns__lin.html#ga33b867c374d795e500c69afb551570dd" title="Initialise multi&#45;file checkpoint routines. " alt="" coords="165,157,244,184"/>
-<area shape="rect" id="node8" href="group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="485,259,581,285"/>
-<area shape="rect" id="node10" href="group__chkpoint__dns__lin.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="160,208,249,235"/>
-<area shape="rect" id="node11" href="group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="162,309,247,336"/>
-<area shape="rect" id="node3" href="group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="332,31,407,57"/>
-<area shape="rect" id="node7" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e" title="Main checkpoint interface. " alt="" coords="309,208,429,235"/>
-<area shape="rect" id="node9" href="group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="477,208,588,235"/>
-<area shape="rect" id="node12" href="group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="314,309,425,336"/>
-<area shape="rect" id="node13" href="group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="489,309,576,336"/>
+<area shape="rect" id="node6" href="group__chkpoint__mstep.html#ga33b867c374d795e500c69afb551570dd" title="Initialise multi&#45;file checkpoint routines. " alt="" coords="165,157,244,184"/>
+<area shape="rect" id="node7" href="group__chkpoint__mstep.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="160,208,249,235"/>
+<area shape="rect" id="node8" href="group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="162,259,247,285"/>
+<area shape="rect" id="node11" href="group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="157,309,253,336"/>
+<area shape="rect" id="node3" href="group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="327,31,402,57"/>
+<area shape="rect" id="node9" href="group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="309,259,420,285"/>
+<area shape="rect" id="node10" href="group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="468,259,555,285"/>
 </map>
 </div>
 </p>
@@ -271,7 +276,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="io__tools_8f_source.html#l00154">154</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
+<p>Definition at line <a class="el" href="io__tools_8f_source.html#l00151">151</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
 
 <p>References <a class="el" href="byte_8c_source.html#l00035">byte_open</a>.</p>
 
@@ -330,7 +335,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Generate name according to nek rulles. </p>
+<p>Generate name according to nek rulles without opening the file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">fname</td><td>file name </td></tr>
@@ -350,17 +355,16 @@ Functions</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__io__tools_ga7397583188d542970171dd7f560c9427_icgraph.png" border="0" usemap="#group__io__tools_ga7397583188d542970171dd7f560c9427_icgraph" alt=""/></div>
 <map name="group__io__tools_ga7397583188d542970171dd7f560c9427_icgraph" id="group__io__tools_ga7397583188d542970171dd7f560c9427_icgraph">
-<area shape="rect" id="node2" href="group__chkpoint__dns__lin.html#ga1363a35613e8de8c797911d9eb4784a4" title="Generate restart file names. " alt="" coords="159,5,256,32"/>
-<area shape="rect" id="node5" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="157,56,257,83"/>
-<area shape="rect" id="node8" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="159,157,256,184"/>
-<area shape="rect" id="node11" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="169,107,245,133"/>
-<area shape="rect" id="node12" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="171,208,243,235"/>
-<area shape="rect" id="node3" href="group__chkpoint__dns__lin.html#ga33b867c374d795e500c69afb551570dd" title="Initialise multi&#45;file checkpoint routines. " alt="" coords="315,5,393,32"/>
-<area shape="rect" id="node4" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e" title="Main checkpoint interface. " alt="" coords="451,5,571,32"/>
-<area shape="rect" id="node6" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="305,81,403,108"/>
-<area shape="rect" id="node7" href="group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="455,81,566,108"/>
-<area shape="rect" id="node9" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="307,183,401,209"/>
-<area shape="rect" id="node10" href="group__arnoldi__arpack.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise arnoldi_arpack. " alt="" coords="463,183,559,209"/>
+<area shape="rect" id="node2" href="group__chkpoint__mstep.html#ga1363a35613e8de8c797911d9eb4784a4" title="Generate restart file names. " alt="" coords="159,5,256,32"/>
+<area shape="rect" id="node4" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="157,56,257,83"/>
+<area shape="rect" id="node7" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="159,157,256,184"/>
+<area shape="rect" id="node10" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="169,107,245,133"/>
+<area shape="rect" id="node11" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="171,208,243,235"/>
+<area shape="rect" id="node3" href="group__chkpoint__mstep.html#ga33b867c374d795e500c69afb551570dd" title="Initialise multi&#45;file checkpoint routines. " alt="" coords="315,5,393,32"/>
+<area shape="rect" id="node5" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="305,81,403,108"/>
+<area shape="rect" id="node6" href="group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="451,81,561,108"/>
+<area shape="rect" id="node8" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="307,183,401,209"/>
+<area shape="rect" id="node9" href="group__arnoldi__arpack.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise arnoldi_arpack. " alt="" coords="458,183,554,209"/>
 </map>
 </div>
 </p>
@@ -372,7 +376,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

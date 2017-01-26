@@ -7,7 +7,7 @@
 <area shape="rect" id="node17" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="660,284,707,311"/>
 <area shape="rect" id="node22" href="$group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="164,816,261,843"/>
 <area shape="rect" id="node5" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="651,816,716,843"/>
-<area shape="rect" id="node12" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="312,436,407,463"/>
+<area shape="rect" id="node12" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="312,436,407,463"/>
 <area shape="rect" id="node13" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="323,487,395,513"/>
 <area shape="rect" id="node6" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="789,943,843,969"/>
 <area shape="rect" id="node7" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="784,740,848,767"/>
@@ -23,7 +23,7 @@
 <area shape="rect" id="node23" href="$group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,1019,409,1045"/>
 <area shape="rect" id="node27" href="$group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,816,397,843"/>
 <area shape="rect" id="node24" href="$group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="457,1095,588,1121"/>
-<area shape="rect" id="node25" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="471,993,575,1020"/>
+<area shape="rect" id="node25" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="471,993,575,1020"/>
 <area shape="rect" id="node26" href="$group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="485,1044,561,1071"/>
 <area shape="rect" id="node28" href="$byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="466,791,579,817"/>
 <area shape="rect" id="node29" href="$ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="637,740,730,767"/>

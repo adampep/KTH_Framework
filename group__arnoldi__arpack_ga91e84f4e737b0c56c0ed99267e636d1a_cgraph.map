@@ -3,7 +3,7 @@
 <area shape="rect" id="node4" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="183,183,249,209"/>
 <area shape="rect" id="node14" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="659,404,738,431"/>
 <area shape="rect" id="node18" href="$group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="151,309,281,336"/>
-<area shape="rect" id="node19" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="164,360,268,387"/>
+<area shape="rect" id="node19" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="164,360,268,387"/>
 <area shape="rect" id="node20" href="$group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="180,259,252,285"/>
 <area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="329,5,412,32"/>
 <area shape="rect" id="node5" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="344,259,397,285"/>

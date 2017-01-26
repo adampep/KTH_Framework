@@ -37,6 +37,7 @@ var searchData=
   ['define_5freduce',['DEFINE_REDUCE',['../comm_8c.html#aabbd5dfd2751219039a4d2a3183fd32c',1,'comm.c']]],
   ['define_5fscatter',['DEFINE_SCATTER',['../gs__local_8c.html#afbedc08ba319fe7fa380ccdbde23d12f',1,'gs_local.c']]],
   ['defsrf',['defsrf',['../genxyz_8f.html#a2398f2f2ef0cccaf3a4061e8474e3b39',1,'genxyz.f']]],
+  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
   ['der',['der',['../gen__poly__imp_8c.html#a72c43b81cd2820ccae8b6896133cfeab',1,'der():&#160;gen_poly_imp.c'],['../gen__poly__imp_8c.html#a8ca07299709ff87b1a5a05492f01b7e6',1,'der(df, n, x):&#160;gen_poly_imp.c']]],
   ['dface_5fadd1sa',['dface_add1sa',['../navier6_8f.html#a9492a86ebeba52b82a15bd7ee4ec763a',1,'navier6.f']]],
   ['dface_5fadd1si',['dface_add1si',['../fasts_8f.html#aa8fc56b441461ca7120172e9d0607497',1,'fasts.f']]],

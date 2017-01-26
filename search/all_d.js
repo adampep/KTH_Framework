@@ -84,5 +84,5 @@ var searchData=
   ['lz1',['lz1',['../cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e',1,'cvode_aux.h']]],
   ['list_20of_20runtime_20parameters_20provided_20by_20all_20the_20modules_2e',['List of runtime parameters provided by all the modules.',['../parameter_list_page.html',1,'runtime_parameters_page']]],
   ['list_20of_20runtime_20parameters_20required_20by_20the_20modules_2e',['List of runtime parameters required by the modules.',['../parameter_required_page.html',1,'runtime_parameters_page']]],
-  ['list_20of_20routines_20reading_2fwriting_20runtime_20parameters_2e',['List of routines reading/writing runtime parameters.',['../readers_writers_page.html',1,'runtime_parameters_page']]]
+  ['list_20of_20routines_20reading_20runtime_20parameters_2e',['List of routines reading runtime parameters.',['../readers_writers_page.html',1,'runtime_parameters_page']]]
 ];

@@ -2,12 +2,14 @@ var NAVTREE =
 [
   [ "KTH framework for Nek5000 toolboxes; testing version", "index.html", [
     [ "Framework for toolboxes developed for Nek5000", "index.html", [
+      [ "Introduction", "index.html#intro", null ],
       [ "Framework structure", "index.html#structure", null ],
       [ "Download", "index.html#download", null ],
       [ "Documentation", "index.html#documentation", null ]
     ] ],
     [ "Runtime parameters for KTH framework.", "runtime_parameters_page.html", "runtime_parameters_page" ],
     [ "Todo List", "todo.html", null ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Bibliography", "citelist.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Types List", "annotated.html", [
@@ -38,21 +40,21 @@ var NAVTREEINDEX =
 "MixtPerf_8f.html",
 "blas_8f.html#ad7c297c05b482699b6d60a29c8d4a165",
 "connect2_8f.html#a0389b78855ac1cdc670417a95d7bdf0e",
-"drive2_8f.html#aa4f676fe0a57e3cbdce8c8fe353edeb0",
-"findpts_8c.html#a9f66ccba020b9a9799a741e2aa26c232",
-"findpts__local__test_8c.html",
-"gfdm__op_8f.html#abcb7a1e984fdf87426a864f76d69a9eb",
+"drive2_8f.html#a8b4ddabff3b53fb3933f378c4faeb8f2",
+"findpts_8c.html#a817d4f248a165086d5e72c7914a5bbb4",
+"findpts__local__imp_8h_source.html",
+"gfdm__op_8f.html#abb0c108511eba6c4f6453a2bb4019e6d",
 "group__tstepper.html#ga26b1525e7cec6e9781e11b3ebd7d5fa1",
 "hmholtz_8f.html#a269e13c2def6630c6150b5913abb829a",
-"iniparser_8h.html#a97f70bc64c6e32b8f4df50f884400fd8",
-"mpi__dummy_8f.html#a4e773f38b6cbae045bd4d222c0e51c1f",
-"name_8h.html#a99ca55083e44d749bcbe766e804638f6",
-"navier6_8f.html#a73e8b4a9725605faefa0d2a82b599986",
-"poly_8h.html#a76d891b518d4e1dad9975ce21c0292b2",
-"sort__imp_8h.html#aad9ae913bdfab20dd94ad04ee2d5b045",
-"structeval__out__pt.html#ad5321c408393fc8d20d96b3e60532ce8",
-"structshared__id.html#a340a3d6301871216e8b30e16bc973889",
-"types_8h.html#a6fcafe7f84d4c52e75984340b07e714e"
+"iniparser_8h.html#a90549ee518523921886b74454ff872eb",
+"mpi__dummy_8f.html#a4c6ff99fbf164179b98c120547561b30",
+"name_8h.html#a8eb1e1aeea94944f315c041722b7af2f",
+"navier6_8f.html#a601fb0d002c670e311b781b709fa42f2",
+"poly_8h.html#a611c7678bd42dca80c61471eab79e4d5",
+"sort__imp_8h.html#aaa1baec2e21092bc22189e9c0f4aff8f",
+"structdof.html#af80930b70c51a921c690be717d945ea0",
+"structrnz.html#ac707a27edc0e9e966e9cea6a1ab77437",
+"types_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

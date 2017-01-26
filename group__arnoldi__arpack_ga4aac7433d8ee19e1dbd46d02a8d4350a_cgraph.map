@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="125,436,239,463"/>
 <area shape="rect" id="node3" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="451,487,516,513"/>
 <area shape="rect" id="node13" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="1005,715,1083,741"/>
-<area shape="rect" id="node17" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="130,816,234,843"/>
+<area shape="rect" id="node17" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="130,816,234,843"/>
 <area shape="rect" id="node18" href="$ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="287,487,377,513"/>
 <area shape="rect" id="node34" href="$group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="138,765,226,792"/>
 <area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="618,436,671,463"/>

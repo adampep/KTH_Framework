@@ -6,7 +6,7 @@
 <area shape="rect" id="node4" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="337,338,375,364"/>
 <area shape="rect" id="node5" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="597,135,648,162"/>
 <area shape="rect" id="node6" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="323,236,389,263"/>
-<area shape="rect" id="node12" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="309,135,403,162"/>
+<area shape="rect" id="node12" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="309,135,403,162"/>
 <area shape="rect" id="node7" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="480,287,533,314"/>
 <area shape="rect" id="node8" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="475,338,539,364"/>
 <area shape="rect" id="node9" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="483,84,530,111"/>

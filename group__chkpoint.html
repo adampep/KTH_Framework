@@ -104,11 +104,11 @@ $(document).ready(function(){initNavTree('group__chkpoint.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Checkpointing routines<div class="ingroups"><a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></div></div>  </div>
+<div class="title">Checkpointing routines<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Multi-file checkopinting for KTH submodules.  
+<p>Checkopinting routines for toolbox.  
 <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Checkpointing routines:</div>
@@ -118,19 +118,19 @@ $(document).ready(function(){initNavTree('group__chkpoint.html','');});
 <center><table><tr><td><img src="group__chkpoint.png" border="0" alt="" usemap="#group____chkpoint"/>
 <map name="group____chkpoint" id="group____chkpoint">
 <area shape="rect" id="node1" href="group__chkptdummy.html" title="Dummy routines for checkpointing. " alt="" coords="435,5,587,32"/>
-<area shape="rect" id="node4" href="group__chkpoint__dns__lin.html" title="Multi&#45;file checkopinting for DNS and linear simulations. " alt="" coords="432,57,589,98"/>
-<area shape="rect" id="node3" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="5,27,181,69"/>
+<area shape="rect" id="node2" href="group__chkpoint__mstep.html" title="Multistep checkpointing for DNS and linear simulations. " alt="" coords="432,56,591,83"/>
+<area shape="rect" id="node4" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="5,23,181,65"/>
 </map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group__chkpoint__dns__lin"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint__dns__lin.html">Checkpointing for DNS and linear simulations</a></td></tr>
-<tr class="memdesc:group__chkpoint__dns__lin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-file checkopinting for DNS and linear simulations. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__chkptdummy"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkptdummy.html">Dummy checkpointing</a></td></tr>
 <tr class="memdesc:group__chkptdummy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dummy routines for checkpointing. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__chkpoint__mstep"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint__mstep.html">Multistep checkpointing</a></td></tr>
+<tr class="memdesc:group__chkpoint__mstep"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multistep checkpointing for DNS and linear simulations. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
@@ -141,19 +141,17 @@ Files</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae8f09399aa4363a379f4a78be71f2d3b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#gae8f09399aa4363a379f4a78be71f2d3b">chkpt_param_in</a> (fid)</td></tr>
-<tr class="memdesc:gae8f09399aa4363a379f4a78be71f2d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read checkpoint parameters.  <a href="#gae8f09399aa4363a379f4a78be71f2d3b">More...</a><br /></td></tr>
-<tr class="separator:gae8f09399aa4363a379f4a78be71f2d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e58e65fbb5a7092aaca62913e8e72c0"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga7e58e65fbb5a7092aaca62913e8e72c0">chkpt_param_out</a> (fid)</td></tr>
-<tr class="memdesc:ga7e58e65fbb5a7092aaca62913e8e72c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write checkpoint parameters.  <a href="#ga7e58e65fbb5a7092aaca62913e8e72c0">More...</a><br /></td></tr>
-<tr class="separator:ga7e58e65fbb5a7092aaca62913e8e72c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga295cd675834c01792013599f86bbc29c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a> ()</td></tr>
+<tr class="memdesc:ga295cd675834c01792013599f86bbc29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read checkpoint parameters.  <a href="#ga295cd675834c01792013599f86bbc29c">More...</a><br /></td></tr>
+<tr class="separator:ga295cd675834c01792013599f86bbc29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88fcb2f36a4d52f6abaaae62e4ad228e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></td></tr>
 <tr class="memdesc:ga88fcb2f36a4d52f6abaaae62e4ad228e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main checkpoint interface.  <a href="#ga88fcb2f36a4d52f6abaaae62e4ad228e">More...</a><br /></td></tr>
 <tr class="separator:ga88fcb2f36a4d52f6abaaae62e4ad228e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Multi-file checkopinting for KTH submodules. </p>
+<p>Checkopinting routines for toolbox. </p>
 <dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface:<ol type="1">
+<li><a class="el" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a></li>
 <li><a class="el" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></li>
 </ol>
 </dd></dl>
@@ -163,14 +161,14 @@ Functions</h2></td></tr>
 <li>chkpt_write</li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line"></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a></div><div class="line">      <span class="keywordflow">else</span></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
 <dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000002">Global parameter list:</a></b></dt><dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>):<ul>
 <li>IFCHKPTRST - (logical) if restart</li>
 <li>CHKPTSTEP - (integer) checkpiont dump frequency (number of time steps)</li>
 </ul>
 </dd></dl>
-<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">&amp;chkpoint</div><div class="line"> chkptstep=         10,</div><div class="line"> ifchkptrst=f,</div><div class="line"> /</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkptstep = 10</div><div class="line">ifchkptrst = no</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga88fcb2f36a4d52f6abaaae62e4ad228e"></a>
 <div class="memitem">
@@ -188,9 +186,9 @@ Functions</h2></td></tr>
 <p>Main checkpoint interface. </p>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00083">83</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00049">49</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__dns__lin_8f_source.html#l00016">chkpt_init()</a>, <a class="el" href="chkpt__dns__lin_8f_source.html#l00223">chkpt_read()</a>, and <a class="el" href="chkpt__dns__lin_8f_source.html#l00286">chkpt_write()</a>.</p>
+<p>References <a class="el" href="chkptd_8f_source.html#l00010">chkpt_init()</a>, <a class="el" href="chkptd_8f_source.html#l00018">chkpt_read()</a>, and <a class="el" href="chkptd_8f_source.html#l00026">chkpt_write()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -199,38 +197,9 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint_ga88fcb2f36a4d52f6abaaae62e4ad228e_cgraph.png" border="0" usemap="#group__chkpoint_ga88fcb2f36a4d52f6abaaae62e4ad228e_cgraph" alt=""/></div>
 <map name="group__chkpoint_ga88fcb2f36a4d52f6abaaae62e4ad228e_cgraph" id="group__chkpoint_ga88fcb2f36a4d52f6abaaae62e4ad228e_cgraph">
-<area shape="rect" id="node2" href="group__chkpoint__dns__lin.html#ga33b867c374d795e500c69afb551570dd" title="Initialise multi&#45;file checkpoint routines. " alt="" coords="467,107,546,133"/>
-<area shape="rect" id="node14" href="group__chkpoint__dns__lin.html#ga685f03e71ebca8d39a1472a92bb83284" title="Read full file restart set. " alt="" coords="173,740,260,767"/>
-<area shape="rect" id="node31" href="group__chkpoint__dns__lin.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="308,56,397,83"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="646,1120,701,1147"/>
-<area shape="rect" id="node5" href="group__chkpoint__dns__lin.html#ga1363a35613e8de8c797911d9eb4784a4" title="Generate restart file names. " alt="" coords="625,107,722,133"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="641,411,706,437"/>
-<area shape="rect" id="node10" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="807,208,854,235"/>
-<area shape="rect" id="node13" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free unit number. " alt="" coords="626,56,721,83"/>
-<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="789,1120,872,1147"/>
-<area shape="rect" id="node6" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles. " alt="" coords="779,107,883,133"/>
-<area shape="rect" id="node8" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="804,461,857,488"/>
-<area shape="rect" id="node9" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="799,639,863,665"/>
-<area shape="rect" id="node11" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="801,411,861,437"/>
-<area shape="rect" id="node12" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="804,512,857,539"/>
-<area shape="rect" id="node15" href="ic_8f.html#a32489501c226ee8536f0fca3ac1b1b48" title="restart" alt="" coords="323,740,382,767"/>
-<area shape="rect" id="node28" href="group__chkpoint__dns__lin.html#ga10eb9bc9a027b431e602d4dacdb75adb" title="Load checpoint variables from single set of files. " alt="" coords="309,309,397,336"/>
-<area shape="rect" id="node16" href="ic_8f.html#abfc96747c4f79836b70a09ac160175c2" title="axis_interp_ic" alt="" coords="622,917,725,944"/>
-<area shape="rect" id="node17" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="931,867,981,893"/>
-<area shape="rect" id="node18" href="math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="478,867,535,893"/>
-<area shape="rect" id="node19" href="ic_8f.html#a2e466e2afc420ec99d03d57cc7f5de8d" title="i1_from_char" alt="" coords="458,563,555,589"/>
-<area shape="rect" id="node20" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="481,613,532,640"/>
-<area shape="rect" id="node21" href="comm__mpi_8f.html#aaa2c579a3b72b7a20446818d166bc7cc" title="lbcast" alt="" coords="478,1120,535,1147"/>
-<area shape="rect" id="node22" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="646,652,701,679"/>
-<area shape="rect" id="node23" href="coef_8f.html#ad6bb05a6f870732734bb41b977f865f9" title="map12" alt="" coords="800,816,861,843"/>
-<area shape="rect" id="node24" href="ic_8f.html#af499850e0bb56314ceea0c8db0c56784" title="map_pm1_to_pr" alt="" coords="616,867,731,893"/>
-<area shape="rect" id="node25" href="ic_8f.html#a46a0ff5dd0a6f10aa39215385ba21288" title="mapdmp" alt="" coords="471,461,543,488"/>
-<area shape="rect" id="node26" href="ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a" title="mfi" alt="" coords="487,816,527,843"/>
-<area shape="rect" id="node27" href="ic_8f.html#a8947b3794015310a5f2962f2c8f1c4cb" title="sioflag" alt="" coords="477,512,537,539"/>
-<area shape="rect" id="node29" href="group__chkpoint__dns__lin.html#gacf9552fc34701138f4e91b0e7042c78c" title="Load checkpoint variables from single file. " alt="" coords="472,309,541,336"/>
-<area shape="rect" id="node30" href="convect_8f.html#a9b58d62988f53102b490531b844a1891" title="setup_convect" alt="" coords="453,259,560,285"/>
-<area shape="rect" id="node32" href="group__chkpoint__dns__lin.html#ga51e97a641b801dc9c5e5f9aa80866282" title="Save checkpoint variables in a single set of files. " alt="" coords="445,5,568,32"/>
-<area shape="rect" id="node33" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="637,5,709,32"/>
+<area shape="rect" id="node2" href="group__chkptdummy.html#ga33b867c374d795e500c69afb551570dd" title="Dummy replacement for checkpoint initialisation. " alt="" coords="179,5,257,32"/>
+<area shape="rect" id="node3" href="group__chkptdummy.html#ga9f88246cb6529ff88cd348b02c82d117" title="Dummy replacement for checkpoint reader. " alt="" coords="175,56,261,83"/>
+<area shape="rect" id="node4" href="group__chkptdummy.html#gad7c7056df188476c007a133155c1f82b" title="Dummy replacement for checkpoint writer. " alt="" coords="173,107,263,133"/>
 </map>
 </div>
 </p>
@@ -250,113 +219,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gae8f09399aa4363a379f4a78be71f2d3b"></a>
+<a class="anchor" id="ga295cd675834c01792013599f86bbc29c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine chkpt_param_in </td>
+          <td class="memname">subroutine chkpt_param_get </td>
           <td>(</td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>fid</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Read checkpoint parameters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fid</td><td>file unit </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This routine should be called in <a class="el" href="group__runparam.html#ga43bf29050a742c99b7f9b8b107aaa5a1">runprm_in</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="readers_writers_page.html">List of routines reading/writing runtime parameters.</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00014">14</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00010">10</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__chkpoint_gae8f09399aa4363a379f4a78be71f2d3b_cgraph.png" border="0" usemap="#group__chkpoint_gae8f09399aa4363a379f4a78be71f2d3b_cgraph" alt=""/></div>
-<map name="group__chkpoint_gae8f09399aa4363a379f4a78be71f2d3b_cgraph" id="group__chkpoint_gae8f09399aa4363a379f4a78be71f2d3b_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="173,31,228,57"/>
-<area shape="rect" id="node4" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="168,132,233,159"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="281,5,364,32"/>
-<area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="296,56,349,83"/>
-<area shape="rect" id="node6" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="291,107,355,133"/>
-<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="507,183,553,209"/>
-<area shape="rect" id="node15" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="293,208,353,235"/>
-<area shape="rect" id="node17" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="296,259,349,285"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="609,31,693,57"/>
-<area shape="rect" id="node9" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="610,81,691,108"/>
-<area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="617,132,684,159"/>
-<area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="601,183,700,209"/>
-<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="605,233,696,260"/>
-<area shape="rect" id="node13" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="611,284,690,311"/>
-<area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="611,335,690,361"/>
-<area shape="rect" id="node16" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="412,208,459,235"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ga7e58e65fbb5a7092aaca62913e8e72c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine chkpt_param_out </td>
-          <td>(</td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>fid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write checkpoint parameters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fid</td><td>file unit </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This routine should be called in <a class="el" href="group__runparam.html#ga88722e512cf52805894597a86bafda11">runprm_out</a> </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="readers_writers_page.html">List of routines reading/writing runtime parameters.</a> </dd></dl>
-
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00055">55</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
-
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>.</p>
-
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__chkpoint_ga7e58e65fbb5a7092aaca62913e8e72c0_cgraph.png" border="0" usemap="#group__chkpoint_ga7e58e65fbb5a7092aaca62913e8e72c0_cgraph" alt=""/></div>
-<map name="group__chkpoint_ga7e58e65fbb5a7092aaca62913e8e72c0_cgraph" id="group__chkpoint_ga7e58e65fbb5a7092aaca62913e8e72c0_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="176,132,241,159"/>
-<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="295,31,348,57"/>
-<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="289,81,353,108"/>
-<area shape="rect" id="node5" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="496,157,543,184"/>
-<area shape="rect" id="node13" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="291,183,351,209"/>
-<area shape="rect" id="node15" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="295,233,348,260"/>
-<area shape="rect" id="node6" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="598,5,682,32"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="599,56,681,83"/>
-<area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="607,107,673,133"/>
-<area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="591,157,689,184"/>
-<area shape="rect" id="node10" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="595,208,685,235"/>
-<area shape="rect" id="node11" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="601,259,679,285"/>
-<area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="601,309,679,336"/>
-<area shape="rect" id="node14" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="401,183,448,209"/>
+<div class="center"><img src="group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph.png" border="0" usemap="#group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph" alt=""/></div>
+<map name="group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph" id="group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="176,5,231,32"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="279,5,361,32"/>
 </map>
 </div>
 </p>
@@ -368,7 +258,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 25 2017 13:04:16 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
