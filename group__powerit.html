@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__powerit.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Power itertion routines<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__tools.html">Tools for KTH nek5000 platform</a> &raquo; <a class="el" href="group__tstepper.html">Time stepper routines</a></div></div>  </div>
+<div class="title">Power itertion routines<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__tools.html">Tools module</a> &raquo; <a class="el" href="group__tstepper.html">Time stepper routines</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -144,7 +144,9 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Power iteration submodule. </p>
-<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interfaces to tstepper:<ul>
+<dl class="section warning"><dt>Warning</dt><dd>This module is not upgraded to stable Nek5000 relese yet</dd></dl>
+<dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000008">Global interface list:</a></b></dt><dd>Interface provided to tstepper:<ul>
 <li>stepper_param_in</li>
 <li>stepper_param_out</li>
 <li>stepper_vinit</li>
@@ -152,12 +154,12 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000006">Global parameter list:</a></b></dt><dd>Parameters provided by power iteration submodule (include file - <em>POWERITD</em>):<ul>
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000005">Global parameter list:</a></b></dt><dd>Parameters provided by power iteration submodule (include file - <em>POWERITD</em>):<ul>
 <li>PWIL2NORM : (real) initial L2 norm of the evolved vector for every cycle</li>
 </ul>
 </dd></dl>
 <dl class="section user"><dt></dt><dd></dd></dl>
-<dl class="parameter_required_page"><dt><b><a class="el" href="parameter_required_page.html#_parameter_required_page000005">Global module dependency:</a></b></dt><dd>Parameters required by power iteration submodule:<ol type="1">
+<dl class="parameter_required_page"><dt><b><a class="el" href="parameter_required_page.html#_parameter_required_page000004">Global parameter dependency:</a></b></dt><dd>Parameters required by power iteration submodule:<ol type="1">
 <li><a class="el" href="group__chkpoint.html">CHKPOINTD</a>:<ul>
 <li>IFCHKPTRST : if restart</li>
 <li>CHKPTSTEP - checkpiont dump frequency (number of time steps)</li>
@@ -195,8 +197,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This interface is defined in <a class="el" href="group__tstepper.html#ga566f70e7afca09a930084f9488423305">tstpr_param_in</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="readers_writers_page.html">List of routines reading runtime parameters.</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>readers_writers_page </dd></dl>
 
 <p>Definition at line <a class="el" href="powerit_8f_source.html#l00015">15</a> of file <a class="el" href="powerit_8f_source.html">powerit.f</a>.</p>
 
@@ -253,7 +255,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This interface is defined in <a class="el" href="group__tstepper.html#gab6c850779a3f7bbdc4b39845bf25de8c">tstpr_param_out</a> </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="readers_writers_page.html">List of routines reading runtime parameters.</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>readers_writers_page </dd></dl>
 
 <p>Definition at line <a class="el" href="powerit_8f_source.html#l00055">55</a> of file <a class="el" href="powerit_8f_source.html">powerit.f</a>.</p>
 
@@ -409,7 +411,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

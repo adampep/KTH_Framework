@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['spatial_20average_20routines_2e',['Spatial average routines.',['../group__avg__spt.html',1,'']]]
+  ['toolbox',['Toolbox',['../group__toolbox.html',1,'']]],
+  ['tools_20module',['Tools module',['../group__tools.html',1,'']]],
+  ['time_20stepper_20routines',['Time stepper routines',['../group__tstepper.html',1,'']]]
 ];

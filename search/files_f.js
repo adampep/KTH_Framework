@@ -16,6 +16,7 @@ var searchData=
   ['sparse_5fcholesky_2eh',['sparse_cholesky.h',['../sparse__cholesky_8h.html',1,'']]],
   ['spchol_5ftest_2ec',['spchol_test.c',['../spchol__test_8c.html',1,'']]],
   ['speclib_2ef',['speclib.f',['../speclib_8f.html',1,'']]],
+  ['spongeb_2ef',['spongeb.f',['../spongeb_8f.html',1,'']]],
   ['ssolv_2ef',['ssolv.f',['../ssolv_8f.html',1,'']]],
   ['ssygv_2ef',['ssygv.f',['../ssygv_8f.html',1,'']]],
   ['step_2ef',['step.f',['../step_8f.html',1,'']]],

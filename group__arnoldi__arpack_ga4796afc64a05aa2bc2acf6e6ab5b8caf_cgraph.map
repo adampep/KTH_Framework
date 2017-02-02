@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="281,791,381,817"/>
 <area shape="rect" id="node15" href="$group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="151,512,227,539"/>
 <area shape="rect" id="node3" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="932,563,1011,589"/>
-<area shape="rect" id="node5" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="449,765,553,792"/>
+<area shape="rect" id="node5" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="449,765,553,792"/>
 <area shape="rect" id="node6" href="$group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="436,816,567,843"/>
 <area shape="rect" id="node7" href="$group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="463,867,539,893"/>
 <area shape="rect" id="node10" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="637,309,703,336"/>

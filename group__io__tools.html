@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__io__tools.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">I/O tools<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></div></div>  </div>
+<div class="title">I/O tools<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('group__io__tools.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__io__tools.png" border="0" alt="" usemap="#group____io____tools"/>
 <map name="group____io____tools" id="group____io____tools">
-<area shape="rect" id="node1" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node1" href="group__io.html" title="I/O routines for toolboxes. " alt="" coords="5,5,143,32"/>
 </map>
 </td></tr></table></center>
 </div>
@@ -139,7 +139,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga2a41a23b2dba58690027db31c2b353b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close all opened files up to sotred max unit numer.  <a href="#ga2a41a23b2dba58690027db31c2b353b3">More...</a><br /></td></tr>
 <tr class="separator:ga2a41a23b2dba58690027db31c2b353b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7397583188d542970171dd7f560c9427"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427">io_mfo_fname</a> (fname, bname, prefix, ierr)</td></tr>
-<tr class="memdesc:ga7397583188d542970171dd7f560c9427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate name according to nek rulles without opening the file.  <a href="#ga7397583188d542970171dd7f560c9427">More...</a><br /></td></tr>
+<tr class="memdesc:ga7397583188d542970171dd7f560c9427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate file name according to nek rulles without opening the file.  <a href="#ga7397583188d542970171dd7f560c9427">More...</a><br /></td></tr>
 <tr class="separator:ga7397583188d542970171dd7f560c9427"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e841a3e3e5c9644c74414046c1b12d6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6">io_mbyte_open_srl</a> (hname, fid, ierr)</td></tr>
 <tr class="memdesc:ga8e841a3e3e5c9644c74414046c1b12d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open file at a given process only.  <a href="#ga8e841a3e3e5c9644c74414046c1b12d6">More...</a><br /></td></tr>
@@ -148,11 +148,12 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Input/Output simple tools. </p>
 <p>Set of I/O speciffic routines for toolbox</p>
-<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface:<ol type="1">
+<dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000005">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5">io_file_freeid</a></li>
 <li><a class="el" href="group__io__tools.html#ga2a41a23b2dba58690027db31c2b353b3">io_file_close</a></li>
 <li><a class="el" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427">io_mfo_fname</a></li>
-<li><a class="el" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6">io_mbyte_open_srl</a> </li>
+<li><a class="el" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6">io_mbyte_open_srl</a></li>
 </ol>
 </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
@@ -266,7 +267,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Open file at a given process only. </p>
-<p>It is a modified version of mbyte_open from <a class="el" href="ic_8f.html">ic.f</a> but without equivalence and MPIIO part; I need it for some tools because processor independent part is saved only by master.</p>
+<p>It is a modified version of <a class="el" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b">mbyte_open</a> from <a class="el" href="ic_8f.html">ic.f</a> but without equivalence and MPIIO part; I need it for some tools because processor independent part is saved only by master.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">hname</td><td>file name </td></tr>
@@ -276,7 +277,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="io__tools_8f_source.html#l00151">151</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
+<p>Definition at line <a class="el" href="io__tools_8f_source.html#l00149">149</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
 
 <p>References <a class="el" href="byte_8c_source.html#l00035">byte_open</a>.</p>
 
@@ -335,7 +336,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Generate name according to nek rulles without opening the file. </p>
+<p>Generate file name according to nek rulles without opening the file. </p>
+<p>It is a modified version of <a class="el" href="prepost_8f.html#a3faa39946b56ca71cbb123811e58160d">mfo_open_files</a> from <a class="el" href="prepost_8f.html">prepost.f</a> but without equivalence and file opening part. I split file name generation and file opening as different tools can require this.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">fname</td><td>file name </td></tr>
@@ -346,7 +348,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="io__tools_8f_source.html#l00079">79</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
+<p>Definition at line <a class="el" href="io__tools_8f_source.html#l00077">77</a> of file <a class="el" href="io__tools_8f_source.html">io_tools.f</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -376,7 +378,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

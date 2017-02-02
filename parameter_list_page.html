@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>KTH framework for Nek5000 toolboxes; testing version: List of runtime parameters provided by all the modules.</title>
+<title>KTH framework for Nek5000 toolboxes; testing version: List of runtime parameters provided by modules.</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -100,11 +100,11 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">List of runtime parameters provided by all the modules. </div>  </div>
+<div class="title">List of runtime parameters provided by modules. </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_parameter_list_page000004"></a>Module <a class="el" href="group__arnoldi__arpack.html">arnoldi_arpack</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000003"></a>Module <a class="el" href="group__arnoldi__arpack.html">arnoldi_arpack</a>  </dt>
 <dd>Parameters provided by arnoldi_arpack submodule (include file - <em>ARNOLDI_ARPACKD</em>):<ul>
 <li>ARNKRYLOV : (integer) size of Krylov space</li>
 <li>ARNEGV : (integer) number of calculated eigenvalues</li>
@@ -113,32 +113,47 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 </ul>
 </dd>
 <dt><a class="anchor" id="_parameter_list_page000002"></a>Module <a class="el" href="group__chkpoint.html">chkpoint</a>  </dt>
-<dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>):<ul>
-<li>IFCHKPTRST - (logical) if restart</li>
-<li>CHKPTSTEP - (integer) checkpiont dump frequency (number of time steps) </li>
-</ul>
+<dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<tr>
+<td>ifchkptrst </td><td>logical </td><td>_chkpoint:ifchkptrst </td><td>if restart </td></tr>
+<tr>
+<td>chkptstep </td><td>integer </td><td>_chkpoint:chkptstep </td><td>checkpiont dump frequency (number of time steps) </td></tr>
+</table>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__powerit.html">powerit</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000005"></a>Module <a class="el" href="group__powerit.html">powerit</a>  </dt>
 <dd>Parameters provided by power iteration submodule (include file - <em>POWERITD</em>):<ul>
 <li>PWIL2NORM : (real) initial L2 norm of the evolved vector for every cycle </li>
 </ul>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000003"></a>Module <a class="el" href="group__statistics2D.html">statistics2D</a>  </dt>
-<dd>Parameters provided by time stepper module (include file - <em>TIME_STEPPERD</em>):<ul>
-<li>TSTMODE: (integer)<ul>
-<li>0 : no time stepper</li>
-<li>1 : direct mode</li>
-<li>2 : adjoint mode</li>
-<li>3 : direct+adjoint mode (initial optimal condition)</li>
-</ul>
-</li>
-<li>TSTSTEP : (integer) frequency of calling stepper_vsolve (number of time steps)</li>
-<li>TSTCMAX : (integer) maximal number of stepper cycles (meaning of this parameter depends on the applied package; arnoldi vs power iterations)</li>
-<li>TSTTOL : (real) convergence tolerance (e.g. PARPACK tolerance for Ritz values)</li>
-<li>TSTIFUZAWA : (logical) first step run with UZAWA </li>
-</ul>
+<dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__sponge__box.html">sponge_box</a>  </dt>
+<dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<tr>
+<td>spng_str </td><td>real </td><td>_spongeb:strenght </td><td>sponge strength </td></tr>
+<tr>
+<td>spng_w(1) </td><td>real </td><td>_spongeb:widthx </td><td>sponge total width; dimension X </td></tr>
+<tr>
+<td>spng_w(2) </td><td>real </td><td>_spongeb:widthy </td><td>sponge total width; dimension Y </td></tr>
+<tr>
+<td>spng_w(3) </td><td>real </td><td>_spongeb:widthz </td><td>sponge total width; dimension Z </td></tr>
+<tr>
+<td>spng_wl(1) </td><td>real </td><td>_spongeb:widthlx </td><td>sponge left section width (drop); dimension X </td></tr>
+<tr>
+<td>spng_wl(2) </td><td>real </td><td>_spongeb:widthly </td><td>sponge left section width (drop); dimension Y </td></tr>
+<tr>
+<td>spng_wl(3) </td><td>real </td><td>_spongeb:widthlz </td><td>sponge left section width (drop); dimension Z </td></tr>
+<tr>
+<td>spng_wr(1) </td><td>real </td><td>_spongeb:widthrx </td><td>sponge right section width (rise); dimension X </td></tr>
+<tr>
+<td>spng_wr(2) </td><td>real </td><td>_spongeb:widthry </td><td>sponge right section width (rise); dimension Y </td></tr>
+<tr>
+<td>spng_wr(3) </td><td>real </td><td>_spongeb:widthrz </td><td>sponge right section width (rise); dimension Z </td></tr>
+</table>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000005"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000004"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
 <dd>Parameters provided by time stepper module (include file - <em>TIME_STEPPERD</em>):<ul>
 <li>TSTMODE: (integer)<ul>
 <li>0 : no time stepper</li>
@@ -165,7 +180,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="runtime_parameters_page.html">Runtime parameters for KTH framework.</a></li>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

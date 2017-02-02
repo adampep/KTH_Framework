@@ -1,24 +1,12 @@
 var searchData=
 [
-  ['x',['X',['../structxxt.html#a51cf2b3faf77dca80906a577fa629bd9',1,'xxt::X()'],['../structcrs__data.html#a9a49a8fbb306687e3957c1d5f9c6f29c',1,'crs_data::x()'],['../structfindpts__el__pt__2.html#a66978e7ae6f368b44cebaeae96d948be',1,'findpts_el_pt_2::x()'],['../structfindpts__el__gedge__2.html#a3f699f93965f61b2c9173b3320290f38',1,'findpts_el_gedge_2::x()'],['../structfindpts__el__gpt__2.html#ac279af36bcccffd368dca2998f775454',1,'findpts_el_gpt_2::x()'],['../structfindpts__el__data__2.html#ab1ec361b74d0d2728565301af71893f6',1,'findpts_el_data_2::x()'],['../structfindpts__el__pt__3.html#ae50ed50528ff1133b78dab17640cbd12',1,'findpts_el_pt_3::x()'],['../structfindpts__el__gface__3.html#add53cd53c60c8f9a4d5d4199a8d6d705',1,'findpts_el_gface_3::x()'],['../structfindpts__el__gedge__3.html#a85475a3c6a3e8bf60a44f6533d4e6058',1,'findpts_el_gedge_3::x()'],['../structfindpts__el__gpt__3.html#a622934458db36fba531af3be68493175',1,'findpts_el_gpt_3::x()'],['../structfindpts__el__data__3.html#aac988592fd538082868c1ed8aa51556e',1,'findpts_el_data_3::x()'],['../structsrc__pt.html#ad056cb3b03c93d15b8cc2e7ab0e91259',1,'src_pt::x()'],['../structpt__data.html#af3360e66fc65316317bbfa13f113408b',1,'pt_data::x()'],['../structobbox__2.html#ae40032a2f16c97b598de5ebe2ca1e162',1,'obbox_2::x()'],['../structobbox__3.html#aeaac8d77d7909195c325a13ef591732b',1,'obbox_3::x()'],['../spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b',1,'x():&#160;spchol_test.c']]],
-  ['x_5faverage',['x_average',['../navier5_8f.html#a4647cffe207d727f2b38ede7340b2247',1,'navier5.f']]],
-  ['x_5faverage_5ftranspose',['x_average_transpose',['../navier5_8f.html#a259c1310849d991f76dc0d59aa6d4e9c',1,'navier5.f']]],
-  ['x_5fdistribute',['x_distribute',['../navier5_8f.html#a3324d25535e13902b0d9603165cfaade',1,'navier5.f']]],
-  ['x_5fdistribute2',['x_distribute2',['../navier5_8f.html#afa99d1d01578fb71b6926eb1ec51fe54',1,'navier5.f']]],
-  ['x_5fid',['x_id',['../xxt__test_8c.html#a53aff7b88998831fea78230a13656567',1,'xxt_test.c']]],
-  ['xaddcol3',['xaddcol3',['../math_8f.html#a5a66d972a88384a4e1211427df641526',1,'math.f']]],
-  ['xerbla',['xerbla',['../blas_8f.html#a377ee61015baf8dea7770b3a404b1c07',1,'blas.f']]],
-  ['xlsame',['xlsame',['../dsygv_8f.html#a10e7da3274f46dc1dd9ce51c9fbfd65d',1,'dsygv.f']]],
-  ['xml2xc',['xml2xc',['../moab_8f.html#a4c76af150c4d1d72fe36fb3b15a9e15c',1,'moab.f']]],
-  ['xn',['xn',['../structxxt.html#aee43f7721bfcaccad4d99e8b5685ac6b',1,'xxt']]],
-  ['xor',['xor',['../comm__mpi_8f.html#aa58338baef9abc506b23bd96e3c54d44',1,'comm_mpi.f']]],
-  ['xp',['Xp',['../structxxt.html#ad12c98342ed17b7d81258cc2f8b86c11',1,'xxt']]],
-  ['xxerbla',['xxerbla',['../dsygv_8f.html#a3ee03a6eae046b923f82dd7619748d84',1,'dsygv.f']]],
-  ['xxt',['xxt',['../structxxt.html',1,'']]],
-  ['xxt_2ec',['xxt.c',['../xxt_8c.html',1,'']]],
-  ['xxt_5ftest_2ec',['xxt_test.c',['../xxt__test_8c.html',1,'']]],
-  ['xxt_5ftest2_2ec',['xxt_test2.c',['../xxt__test2_8c.html',1,'']]],
-  ['xyzlin',['xyzlin',['../genxyz_8f.html#a16eca2a8f6bca6167dcfa98ff3eac09c',1,'genxyz.f']]],
-  ['xyzquad',['xyzquad',['../genxyz_8f.html#a7c0d9ad72ade85a885511477626382a9',1,'genxyz.f']]],
-  ['xyzrst',['xyzrst',['../coef_8f.html#a82cf1663c9a821049d0aad836343591a',1,'coef.f']]]
+  ['y',['y',['../cvode__aux_8h.html#ab3d07486a1406ff62366012ecc98a900',1,'cvode_aux.h']]],
+  ['y2d',['y2d',['../navier5_8f.html#a79c7741078370b5362787c8a7c2d487b',1,'navier5.f']]],
+  ['y_5faverage',['y_average',['../navier5_8f.html#afc981db1d6064ff910b880956013dd10',1,'navier5.f']]],
+  ['y_5favg_5fbuff',['y_avg_buff',['../navier5_8f.html#a0fb915eb80cdf237d63af9217f8f6cdc',1,'navier5.f']]],
+  ['y_5fins_5fbuff',['y_ins_buff',['../navier5_8f.html#a5d2c2d9a6721caeae301dd86d646cd8e',1,'navier5.f']]],
+  ['y_5fprofile',['y_profile',['../navier5_8f.html#a73059f9a84290572897ffd04dbe7ce42',1,'navier5.f']]],
+  ['y_5fprofile_5ftranspose',['y_profile_transpose',['../navier5_8f.html#a6ac7bd372ce817473539df6461af9f86',1,'navier5.f']]],
+  ['y_5fslice',['y_slice',['../navier5_8f.html#a899c084c8ac33491d596ac84e98d7d8a',1,'navier5.f']]],
+  ['yale_5fmat',['yale_mat',['../structyale__mat.html',1,'']]]
 ];

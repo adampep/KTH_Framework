@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__comm__mpi.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Comunication routines.<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__driver.html">Driver modules for KTH nek5000 platform</a></div></div>  </div>
+<div class="title">Comunication routines.<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__driver.html">Driver module</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('group__comm__mpi.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__comm__mpi.png" border="0" alt="" usemap="#group____comm____mpi"/>
 <map name="group____comm____mpi" id="group____comm____mpi">
-<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for toolboxes. " alt="" coords="5,5,108,32"/>
 </map>
 </td></tr></table></center>
 </div>
@@ -139,9 +139,10 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>MPI communication wrappers. </p>
 <p>Set of subroutines to wrap MPI communication missing in Nek5000.</p>
-<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface:<ol type="1">
+<dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000002">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__comm__mpi.html#gaa874f854a835ed70cff06e0bf8cf26d2">ivgl_running_sum</a></li>
-<li><a class="el" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2">ibcastn</a> </li>
+<li><a class="el" href="group__comm__mpi.html#gaa226e6a129355dea6b72895424241dc2">ibcastn</a></li>
 </ol>
 </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
@@ -176,6 +177,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Broadcast integer array from specified process. </p>
+<p>This routine is simillar to <a class="el" href="comm__mpi_8f.html#aaa2c579a3b72b7a20446818d166bc7cc">lbcast</a> and <a class="el" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8">bcast</a> from <a class="el" href="comm__mpi_8f.html">comm_mpi.f</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">buf</td><td>array to be broadcased </td></tr>
@@ -184,10 +186,9 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>This routine is simillar to lbicast and bicast from <a class="el" href="comm__mpi_8f.html">comm_mpi.f</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Error mark should be exported </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>Error mark should be exported </dd></dl>
 
-<p>Definition at line <a class="el" href="comm__mpi__wrp_8f_source.html#l00044">44</a> of file <a class="el" href="comm__mpi__wrp_8f_source.html">comm_mpi_wrp.f</a>.</p>
+<p>Definition at line <a class="el" href="comm__mpi__wrp_8f_source.html#l00045">45</a> of file <a class="el" href="comm__mpi__wrp_8f_source.html">comm_mpi_wrp.f</a>.</p>
 
 <p>References <a class="el" href="mpi__dummy_8f_source.html#l00213">mpi_bcast()</a>.</p>
 
@@ -252,6 +253,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Global MPI scan for integer array. </p>
+<p>This routine is simillar to <a class="el" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be">igl_running_sum</a> and <a class="el" href="comm__mpi_8f.html#a65df2d896c5eec58920b0c6894fe8bad">i8gl_running_sum</a> from <a class="el" href="comm__mpi_8f.html">comm_mpi.f</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">out</td><td>output array </td></tr>
@@ -260,8 +262,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>This routine is simillar to igl_running_sum, i8gl_running_sum from <a class="el" href="comm__mpi_8f.html">comm_mpi.f</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Error mark should be exported </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Error mark should be exported </dd></dl>
 
 <p>Definition at line <a class="el" href="comm__mpi__wrp_8f_source.html#l00017">17</a> of file <a class="el" href="comm__mpi__wrp_8f_source.html">comm_mpi_wrp.f</a>.</p>
 
@@ -306,7 +307,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

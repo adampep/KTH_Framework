@@ -23,7 +23,7 @@
 <area shape="rect" id="node23" href="$group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,1019,409,1045"/>
 <area shape="rect" id="node27" href="$group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,816,397,843"/>
 <area shape="rect" id="node24" href="$group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="457,1095,588,1121"/>
-<area shape="rect" id="node25" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="471,993,575,1020"/>
+<area shape="rect" id="node25" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="471,993,575,1020"/>
 <area shape="rect" id="node26" href="$group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="485,1044,561,1071"/>
 <area shape="rect" id="node28" href="$byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="466,791,579,817"/>
 <area shape="rect" id="node29" href="$ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="637,740,730,767"/>

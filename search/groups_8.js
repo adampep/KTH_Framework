@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multistep_20checkpointing',['Multistep checkpointing',['../group__chkpoint__mstep.html',1,'']]]
+  ['power_20itertion_20routines',['Power itertion routines',['../group__powerit.html',1,'']]]
 ];

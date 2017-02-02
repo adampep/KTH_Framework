@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__chkpoint__mstep.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Multistep checkpointing<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a> &raquo; <a class="el" href="group__chkpoint.html">Checkpointing routines</a></div></div>  </div>
+<div class="title">Multistep checkpointing<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module</a> &raquo; <a class="el" href="group__chkpoint.html">Checkpointing routines</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -159,7 +159,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Multistep checkpointing for DNS and linear simulations. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>This module is deprecated, but it is here for backward consistency.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>This module is deprecated, but it is here for backward consistency.</dd></dl>
 <p>In the case of multistep time-integration method one needs data from NBDINP timestep. I use standard full_restart and <em>full_restart_save</em> subroutines. There are four 'rs8...' reatart files saved in double precission. Only .f format is supported. In any case two sets of restart files (1-4;5-8) are created.</p>
 <dl class="section attention"><dt>Attention</dt><dd>To make this varsion to work correctly <em>mod(total_number_of_steps,CHKPTSTEP)</em>.ge.NBDINP Otherwise last checkpoint will not be complete.</dd></dl>
 <dl class="section user"><dt>Module interface:</dt><dd>This module provides following interfaces to checkpoint:<ol type="1">
@@ -169,7 +169,7 @@ Functions</h2></td></tr>
 </ol>
 </dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_required_page"><dt><b><a class="el" href="parameter_required_page.html#_parameter_required_page000001">Global module dependency:</a></b></dt><dd>Parameters required by multistep module:<ol type="1">
+<dl class="parameter_required_page"><dt><b><a class="el" href="parameter_required_page.html#_parameter_required_page000001">Global parameter dependency:</a></b></dt><dd>Parameters required by multistep module:<ol type="1">
 <li><a class="el" href="group__chkpoint.html">CHKPOINTD</a>:<ul>
 <li>IFCHKPTRST - if restart</li>
 <li>CHKPTSTEP - checkpiont dump frequency (number of time steps)</li>
@@ -328,7 +328,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00166">166</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>.</p>
+<p>References <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint__mstep_ga1363a35613e8de8c797911d9eb4784a4_cgraph.png" border="0" usemap="#group__chkpoint__mstep_ga1363a35613e8de8c797911d9eb4784a4_cgraph" alt=""/></div>
 <map name="group__chkpoint__mstep_ga1363a35613e8de8c797911d9eb4784a4_cgraph" id="group__chkpoint__mstep_ga1363a35613e8de8c797911d9eb4784a4_cgraph">
-<area shape="rect" id="node2" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="151,5,255,32"/>
+<area shape="rect" id="node2" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="151,5,255,32"/>
 </map>
 </div>
 </p>
@@ -389,7 +389,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node9" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="524,259,571,285"/>
 <area shape="rect" id="node20" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="133,411,228,437"/>
 <area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="288,5,371,32"/>
-<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="277,56,381,83"/>
+<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="277,56,381,83"/>
 <area shape="rect" id="node7" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="303,107,356,133"/>
 <area shape="rect" id="node8" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="297,157,361,184"/>
 <area shape="rect" id="node17" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="299,259,359,285"/>
@@ -935,7 +935,7 @@ This is version of full_restart_save routine. In additional file it saves the fi
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

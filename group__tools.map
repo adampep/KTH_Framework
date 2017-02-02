@@ -1,5 +1,4 @@
-<map id="Tools for KTH nek5000 platform" name="Tools for KTH nek5000 platform">
-<area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000. " alt="" coords="327,5,475,32"/>
-<area shape="rect" id="node2" href="$group__statistics2D.html" title="2D time averaged flow statistics for Nek5000 " alt="" coords="353,56,449,83"/>
-<area shape="rect" id="node3" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
+<map id="Tools module" name="Tools module">
+<area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000. " alt="" coords="269,5,417,32"/>
+<area shape="rect" id="node2" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,5,73,32"/>
 </map>

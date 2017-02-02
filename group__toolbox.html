@@ -115,24 +115,28 @@ $(document).ready(function(){initNavTree('group__toolbox.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__toolbox.png" border="0" alt="" usemap="#group____toolbox"/>
 <map name="group____toolbox" id="group____toolbox">
-<area shape="rect" id="node1" href="group__framework.html" title="Framework for KHT toolboxes. " alt="" coords="5,71,168,112"/>
-<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="341,5,499,47"/>
-<area shape="rect" id="node4" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="332,71,508,112"/>
-<area shape="rect" id="node5" href="group__tools.html" title="Set of tools for KHT framework. " alt="" coords="341,136,499,177"/>
+<area shape="rect" id="node1" href="group__framework.html" title="Framework for KHT toolboxes. " alt="" coords="5,74,168,115"/>
+<area shape="rect" id="node2" href="group__utility.html" title="Diverse utilities for toolboxes. " alt="" coords="349,5,452,32"/>
+<area shape="rect" id="node3" href="group__driver.html" title="Driver routines for toolboxes. " alt="" coords="349,56,452,83"/>
+<area shape="rect" id="node5" href="group__io.html" title="I/O routines for toolboxes. " alt="" coords="332,107,469,133"/>
+<area shape="rect" id="node6" href="group__tools.html" title="Set of tools for Nek5000 framework. " alt="" coords="351,157,451,184"/>
 </map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group__driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__driver.html">Driver modules for KTH nek5000 platform</a></td></tr>
-<tr class="memdesc:group__driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver routines for KHT toolboxes. <br /></td></tr>
+<tr class="memitem:group__driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__driver.html">Driver module</a></td></tr>
+<tr class="memdesc:group__driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver routines for toolboxes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__io"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></td></tr>
-<tr class="memdesc:group__io"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O routines for KHT toolboxes. <br /></td></tr>
+<tr class="memitem:group__io"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__io.html">Input/output module</a></td></tr>
+<tr class="memdesc:group__io"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O routines for toolboxes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__tools"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tools.html">Tools for KTH nek5000 platform</a></td></tr>
-<tr class="memdesc:group__tools"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of tools for KHT framework. <br /></td></tr>
+<tr class="memitem:group__tools"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tools.html">Tools module</a></td></tr>
+<tr class="memdesc:group__tools"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of tools for Nek5000 framework. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__utility"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__utility.html">Utility module</a></td></tr>
+<tr class="memdesc:group__utility"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diverse utilities for toolboxes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -142,11 +146,12 @@ Modules</h2></td></tr>
 <img src="framework.png" alt="framework.png"/>
 <div class="caption">
 Examplary framework structure.</div></div>
-<p>Modules can provide tools, <a class="el" href="parameter_list_page.html">runtime parameters</a>, memory structures (common blocks), define interfaces and perform some tasks. The main goal is to simplify development of toolboxes by defining simple tasks that could be used by number of tools. At the same time clear difinition of the inteface alows to keep number of different implementation of the same task.</p>
+<p>Modules can provide tools, <a class="el" href="parameter_list_page.html">runtime parameters</a>, memory structures (common blocks), define interfaces and perform some tasks. The main goal is to simplify development of toolboxes by defining simple tasks that could be used by number of tools. At the same time clear definition of the inteface alows to keep number of different implementation of the same task.</p>
 <p>Each module has to contain:</p><ul>
 <li>FRAMEWORK.txt -module description</li>
 <li>makefile_usr.inc - compilation rules</li>
-<li>Fortran code</li>
+<li>source code</li>
+<li>optionally example of <em>setup.par</em> including corresponding runtime parameter section</li>
 </ul>
 <p>Dependences between modules are described in FRAMEWORK.txt (present in almost every directory) including:</p><ul>
 <li>documentation section witten in a form of doxygen C comment<ul>
@@ -160,18 +165,20 @@ Examplary framework structure.</div></div>
 <li>example of section in <em>setup.par</em> file</li>
 </ul>
 </li>
-<li>list of existing submodules (subdirectories)</li>
-<li>list of conflicting submodules</li>
-<li>default submodule</li>
-<li>list of required modules (from other tree branches)</li>
-<li>list of required conflicting submodules (from local subdirectories) </li>
+<li>SUBMODULES - list of existing local submodules (different task implementations)</li>
+<li>EXCLUSIVE - list of local submodules that cannot be used simultaneously</li>
+<li>DEFAULT - default submodules</li>
+<li>CONFLICTS - list of modules in conflict with current module (from other tree branches)</li>
+<li>REQUIRED - list of required modules (from other tree branches)</li>
+<li>OBJECT - list of object files for USR variable in makenek</li>
+<li>INCLUDE - list of include files </li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

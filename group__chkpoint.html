@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('group__chkpoint.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Checkpointing routines<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module for KTH nek5000 platform</a></div></div>  </div>
+<div class="title">Checkpointing routines<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__io.html">Input/output module</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,9 +117,9 @@ $(document).ready(function(){initNavTree('group__chkpoint.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__chkpoint.png" border="0" alt="" usemap="#group____chkpoint"/>
 <map name="group____chkpoint" id="group____chkpoint">
-<area shape="rect" id="node1" href="group__chkptdummy.html" title="Dummy routines for checkpointing. " alt="" coords="435,5,587,32"/>
-<area shape="rect" id="node2" href="group__chkpoint__mstep.html" title="Multistep checkpointing for DNS and linear simulations. " alt="" coords="432,56,591,83"/>
-<area shape="rect" id="node4" href="group__io.html" title="I/O routines for KHT toolboxes. " alt="" coords="5,23,181,65"/>
+<area shape="rect" id="node1" href="group__chkptdummy.html" title="Dummy routines for checkpointing. " alt="" coords="397,5,549,32"/>
+<area shape="rect" id="node2" href="group__chkpoint__mstep.html" title="Multistep checkpointing for DNS and linear simulations. " alt="" coords="393,56,552,83"/>
+<area shape="rect" id="node4" href="group__io.html" title="I/O routines for toolboxes. " alt="" coords="5,31,143,57"/>
 </map>
 </td></tr></table></center>
 </div>
@@ -142,7 +142,7 @@ Files</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga295cd675834c01792013599f86bbc29c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a> ()</td></tr>
-<tr class="memdesc:ga295cd675834c01792013599f86bbc29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read checkpoint parameters.  <a href="#ga295cd675834c01792013599f86bbc29c">More...</a><br /></td></tr>
+<tr class="memdesc:ga295cd675834c01792013599f86bbc29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set checkpoint parameters.  <a href="#ga295cd675834c01792013599f86bbc29c">More...</a><br /></td></tr>
 <tr class="separator:ga295cd675834c01792013599f86bbc29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88fcb2f36a4d52f6abaaae62e4ad228e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></td></tr>
 <tr class="memdesc:ga88fcb2f36a4d52f6abaaae62e4ad228e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main checkpoint interface.  <a href="#ga88fcb2f36a4d52f6abaaae62e4ad228e">More...</a><br /></td></tr>
@@ -150,23 +150,29 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Checkopinting routines for toolbox. </p>
-<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface:<ol type="1">
+<dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000004">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a></li>
 <li><a class="el" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt></dt><dd>This module requires following interfaces:<ol type="1">
+<dl class="section user"><dt></dt><dd></dd></dl>
+<dl class="interface_required_page"><dt><b><a class="el" href="interface_required_page.html#_interface_required_page000001">Global interface dependency:</a></b></dt><dd>Interface required:<ol type="1">
 <li>chkpt_init</li>
 <li>chkpt_read</li>
 <li>chkpt_write</li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a></div><div class="line">      <span class="keywordflow">else</span></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000002">Global parameter list:</a></b></dt><dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>):<ul>
-<li>IFCHKPTRST - (logical) if restart</li>
-<li>CHKPTSTEP - (integer) checkpiont dump frequency (number of time steps)</li>
-</ul>
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000002">Global parameter list:</a></b></dt><dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<tr>
+<td>ifchkptrst </td><td>logical </td><td>_chkpoint:ifchkptrst </td><td>if restart </td></tr>
+<tr>
+<td>chkptstep </td><td>integer </td><td>_chkpoint:chkptstep </td><td>checkpiont dump frequency (number of time steps) </td></tr>
+</table>
 </dd></dl>
 <dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkptstep = 10</div><div class="line">ifchkptrst = no</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
@@ -232,7 +238,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read checkpoint parameters. </p>
+<p>Set checkpoint parameters. </p>
 
 <p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00010">10</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
@@ -258,7 +264,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

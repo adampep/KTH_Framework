@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__pts.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">History points driver for toolboxes.<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__driver.html">Driver modules for KTH nek5000 platform</a></div></div>  </div>
+<div class="title">History points driver for toolboxes.<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__driver.html">Driver module</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('group__pts.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__pts.png" border="0" alt="" usemap="#group____pts"/>
 <map name="group____pts" id="group____pts">
-<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for KHT toolboxes. " alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for toolboxes. " alt="" coords="5,13,108,39"/>
 </map>
 </td></tr></table></center>
 </div>
@@ -147,10 +147,12 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>History points/particles driver. </p>
+<dl class="section warning"><dt>Warning</dt><dd>This module is not upgraded to stable Nek5000 relese yet</dd></dl>
 <p>Set of subroutines to work with hpts interpolation routines from Nek5000. Using defined (relatively big) set of points in the domain it allows to redistribute them among processors according to point-to-element mapping and retrive set of variables using spectral interpolation (hpts routines).</p>
-<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface:<ol type="1">
-<li>pts_timing</li>
-<li>pts_rdst</li>
+<dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000003">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<li><a class="el" href="group__pts.html#ga2cf3ce0242552490651de969fdd5a550">pts_timing</a></li>
+<li><a class="el" href="group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d">pts_rdst</a></li>
 </ol>
 </dd></dl>
 <dl class="section user"><dt>Module memory structures:</dt><dd>This module provides following variables:<ol type="1">
@@ -166,7 +168,7 @@ Functions</h2></td></tr>
 Check PTSD include file for definition of memeory structures provided by this module.</dd>
 <dd>
 This module requres findpts_setup to be executed before any of the module routines would be called.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>This vesion of the code does not take into account error code rcode. This shuld be added later.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>This vesion of the code does not take into account error code rcode. This shuld be added later.</dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gadbb3793e4432fc05d7d79fd238031e43"></a>
 <div class="memitem">
@@ -352,7 +354,7 @@ This module requres findpts_setup to be executed before any of the module routin
 
 <p>Definition at line <a class="el" href="pts__redistribute_8f_source.html#l00599">599</a> of file <a class="el" href="pts__redistribute_8f_source.html">pts_redistribute.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="comm__mpi__wrp_8f_source.html#l00044">ibcastn()</a>, <a class="el" href="math_8f_source.html#l00444">icopy()</a>, <a class="el" href="comm__mpi__wrp_8f_source.html#l00017">ivgl_running_sum()</a>, <a class="el" href="math_8f_source.html#l00377">izero()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="comm__mpi__wrp_8f_source.html#l00045">ibcastn()</a>, <a class="el" href="math_8f_source.html#l00444">icopy()</a>, <a class="el" href="comm__mpi__wrp_8f_source.html#l00017">ivgl_running_sum()</a>, <a class="el" href="math_8f_source.html#l00377">izero()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -676,7 +678,7 @@ This module requres findpts_setup to be executed before any of the module routin
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__arnoldi__arpack.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Arnoldi algorithm using parpack<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__tools.html">Tools for KTH nek5000 platform</a> &raquo; <a class="el" href="group__tstepper.html">Time stepper routines</a></div></div>  </div>
+<div class="title">Arnoldi algorithm using parpack<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__tools.html">Tools module</a> &raquo; <a class="el" href="group__tstepper.html">Time stepper routines</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -186,8 +186,10 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Arnoldi algorithm with PARPACK. </p>
+<dl class="section warning"><dt>Warning</dt><dd>This module is not upgraded to stable Nek5000 relese yet</dd></dl>
 <p>Description of the method can be found in <a class="el" href="citelist.html#CITEREF_Peplinski2014">[1]</a> <a class="el" href="citelist.html#CITEREF_Peplinski2015">[2]</a></p>
-<dl class="section user"><dt>Module interface:</dt><dd>This module provides following interface to tstepper:<ul>
+<dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000006">Global interface list:</a></b></dt><dd>Interface provided to tstepper:<ul>
 <li>stepper_param_in</li>
 <li>stepper_param_out</li>
 <li>stepper_vinit</li>
@@ -195,7 +197,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000004">Global parameter list:</a></b></dt><dd>Parameters provided by arnoldi_arpack submodule (include file - <em>ARNOLDI_ARPACKD</em>):<ul>
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000003">Global parameter list:</a></b></dt><dd>Parameters provided by arnoldi_arpack submodule (include file - <em>ARNOLDI_ARPACKD</em>):<ul>
 <li>ARNKRYLOV : (integer) size of Krylov space</li>
 <li>ARNEGV : (integer) number of calculated eigenvalues</li>
 <li>ARNISTART : (integer) checkpoint file number for restart (reading)</li>
@@ -203,7 +205,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 <dl class="section user"><dt></dt><dd></dd></dl>
-<dl class="parameter_required_page"><dt><b><a class="el" href="parameter_required_page.html#_parameter_required_page000003">Global module dependency:</a></b></dt><dd>Parameters required by arnoldi_arpack submodule:<ol type="1">
+<dl class="parameter_required_page"><dt><b><a class="el" href="parameter_required_page.html#_parameter_required_page000002">Global parameter dependency:</a></b></dt><dd>Parameters required by arnoldi_arpack submodule:<ol type="1">
 <li><a class="el" href="group__chkpoint.html">CHKPOINTD</a>:<ul>
 <li>IFCHKPTRST : if restart</li>
 <li>CHKPTSTEP - checkpiont dump frequency (number of time steps)</li>
@@ -243,7 +245,7 @@ Functions</h2></td></tr>
 <p>Inverse mode is preferred as it takes into account inner product Simulation with temperature or passive scalars has to be performed in inverse mode due to speciffic inner product.</p>
 <p><em>ARPACK_DIRECT</em> preprocessing switch between direct and inverse mode.</p>
 <dl class="section attention"><dt>Attention</dt><dd>This submodule has its own checkpointing routines.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>This submodule contains binary tar file with modified (restart added) version of PARPACK. This binary file in git is not good idea. Repalce with separate repository for Parpack added by sub.module.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>This submodule contains binary tar file with modified (restart added) version of PARPACK. This binary file in git is not good idea. Repalce with separate repository for Parpack added by sub.module.</dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga6e2500fe6c297e1616d83a0601eaaffe"></a>
 <div class="memitem">
@@ -441,7 +443,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00217">217</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00151">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">mfi_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00149">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">mfi_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -454,7 +456,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node4" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="183,183,249,209"/>
 <area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="659,404,738,431"/>
 <area shape="rect" id="node18" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="151,309,281,336"/>
-<area shape="rect" id="node19" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="164,360,268,387"/>
+<area shape="rect" id="node19" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="164,360,268,387"/>
 <area shape="rect" id="node20" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="180,259,252,285"/>
 <area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="329,5,412,32"/>
 <area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="344,259,397,285"/>
@@ -522,7 +524,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="633,499,699,525"/>
 <area shape="rect" id="node9" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="903,245,981,272"/>
 <area shape="rect" id="node12" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="429,93,560,120"/>
-<area shape="rect" id="node13" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="443,245,547,272"/>
+<area shape="rect" id="node13" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="443,245,547,272"/>
 <area shape="rect" id="node14" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="459,144,531,171"/>
 <area shape="rect" id="node4" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="772,296,855,323"/>
 <area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="787,549,840,576"/>
@@ -591,7 +593,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="281,791,381,817"/>
 <area shape="rect" id="node15" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="151,512,227,539"/>
 <area shape="rect" id="node3" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="932,563,1011,589"/>
-<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="449,765,553,792"/>
+<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="449,765,553,792"/>
 <area shape="rect" id="node6" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="436,816,567,843"/>
 <area shape="rect" id="node7" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="463,867,539,893"/>
 <area shape="rect" id="node10" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="637,309,703,336"/>
@@ -660,7 +662,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00071">71</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00151">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">mfo_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
+<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00149">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">mfo_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
 
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -672,7 +674,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="186,183,251,209"/>
 <area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="643,309,722,336"/>
 <area shape="rect" id="node16" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="153,360,284,387"/>
-<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="167,411,271,437"/>
+<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="167,411,271,437"/>
 <area shape="rect" id="node18" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="181,56,257,83"/>
 <area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="337,56,391,83"/>
 <area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="332,107,396,133"/>
@@ -794,7 +796,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00683">683</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02651">mfi_prepare()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">mfi_singlev()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
+<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02651">mfi_prepare()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">mfi_singlev()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
 
 <p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -806,7 +808,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="125,436,239,463"/>
 <area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="451,487,516,513"/>
 <area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="1005,715,1083,741"/>
-<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="130,816,234,843"/>
+<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="130,816,234,843"/>
 <area shape="rect" id="node18" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="287,487,377,513"/>
 <area shape="rect" id="node34" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="138,765,226,792"/>
 <area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="618,436,671,463"/>
@@ -1081,7 +1083,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00537">537</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="ic_8f_source.html#l02601">mbyte_open()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">mfo_singlev()</a>, and <a class="el" href="prepost_8f_source.html#l02385">mfo_write_hdr()</a>.</p>
+<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="ic_8f_source.html#l02601">mbyte_open()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">mfo_singlev()</a>, and <a class="el" href="prepost_8f_source.html#l02385">mfo_write_hdr()</a>.</p>
 
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1092,7 +1094,7 @@ Functions</h2></td></tr>
 <map name="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph" id="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph">
 <area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="129,233,243,260"/>
 <area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="465,233,531,260"/>
-<area shape="rect" id="node18" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="134,588,238,615"/>
+<area shape="rect" id="node18" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="134,588,238,615"/>
 <area shape="rect" id="node19" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="451,740,545,767"/>
 <area shape="rect" id="node23" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="140,385,232,412"/>
 <area shape="rect" id="node32" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="291,233,395,260"/>
@@ -1297,8 +1299,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This interface is defined in <a class="el" href="group__tstepper.html#ga566f70e7afca09a930084f9488423305">tstpr_param_in</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="readers_writers_page.html">List of routines reading runtime parameters.</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>readers_writers_page </dd></dl>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00022">22</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
@@ -1367,7 +1369,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This interface is defined in <a class="el" href="group__tstepper.html#gab6c850779a3f7bbdc4b39845bf25de8c">tstpr_param_out</a> </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="readers_writers_page.html">List of routines reading runtime parameters.</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>readers_writers_page </dd></dl>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00078">78</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
@@ -1463,7 +1465,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node20" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="636,50,691,77"/>
 <area shape="rect" id="node21" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="631,152,696,178"/>
 <area shape="rect" id="node22" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="437,253,568,280"/>
-<area shape="rect" id="node23" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="451,354,555,381"/>
+<area shape="rect" id="node23" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="451,354,555,381"/>
 <area shape="rect" id="node24" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="467,202,539,229"/>
 <area shape="rect" id="node26" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="446,456,559,482"/>
 <area shape="rect" id="node27" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="457,101,548,128"/>
@@ -1538,7 +1540,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node23" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,1019,409,1045"/>
 <area shape="rect" id="node27" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,816,397,843"/>
 <area shape="rect" id="node24" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="457,1095,588,1121"/>
-<area shape="rect" id="node25" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="471,993,575,1020"/>
+<area shape="rect" id="node25" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="471,993,575,1020"/>
 <area shape="rect" id="node26" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="485,1044,561,1071"/>
 <area shape="rect" id="node28" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="466,791,579,817"/>
 <area shape="rect" id="node29" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="637,740,730,767"/>
@@ -1568,7 +1570,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="intro"></a>
 Introduction</h1>
-<p>This framework provides platform for development and shearing the tools based on <a href="https://nek5000.mcs.anl.gov/">Nek5000</a> code. It contains number of utilities that allow Nek5000 to perform additional tasks or to simplfy its usage. The main objective is to allow different Nek5000 users to exchange their code that is not part of Nek5000 core but operates through standard user interface (mainly through <em>userchk</em>).</p>
+<p>This framework provides platform for development and shearing the tools based on <a href="https://nek5000.mcs.anl.gov/">Nek5000</a> code. It contains number of utilities that allow Nek5000 users to perform additional tasks. The main objective is to allow different users to exchange their code that is not part of Nek5000 core but operates through standard user interface (mainly through <em>userchk</em>).</p>
 <h1><a class="anchor" id="structure"></a>
 Framework structure</h1>
 <p>To make this platform easy to expand and reuse existing code we introduce specific directory structure representing different tasks. All files are grouped by taks and placed in a tree structure, where the parent directories (modules in Doxygen nomenclature) perform some operations and can define tasks and interfaces that have to be provided by their subdirectories (submodules). This structure can be repeated recursively with submodules becoming parent modules for next level structures. For more information check <a class="el" href="group__toolbox.html">Toolbox page</a>.</p>
@@ -122,16 +122,17 @@ git clone https://github.com/adampep/KTH_Examples -b master
 </pre><p> or as a single framework by </p><pre class="fragment">git clone --recursive https://github.com/adampep/KTH_Framework
 </pre><h1><a class="anchor" id="documentation"></a>
 Documentation</h1>
-<p>To make this platform easy to use we pay attention to <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> based documentation of every tolls. It has to provide detailed description of the tool itsef, the routine interfaces, runtime parameters and possible dependencies between tools. The general description of every tool is given in <a class="el" href="group__toolbox.html">FRAMEWORK.txt</a>, which is present in almost every directory. This documentation is available online as GitHub Pages (gh-pages bfranch) and can be generated locally by executing at the top level of the local copy of KTH_Framework repository: </p><pre class="fragment">mkdir html
+<p>To make this platform easy to use we pay attention to <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> based documentation of every toll. It has to provide detailed description of the tool itsef, the routine interfaces, runtime parameters and possible dependencies between modules. The general description of every tool is given in <a class="el" href="group__toolbox.html">FRAMEWORK.txt</a>, which is present in almost every directory. This documentation is available online as GitHub Pages (gh-pages bfranch) and can be generated locally by executing at the top level of the local copy of KTH_Framework repository: </p><pre class="fragment">mkdir html
 doxygen ./docs/Doxyfile
 rm doxygen.warning
-</pre><p> It requires doxygen 1.8.11 or newer and the dot tool from <a href="http://www.graphviz.org/">Graphviz</a>. All files required by doxygen are located under ./docs/. It includes configuration file (Doxyfile), bibliography (doxy.bib) and web pages contents (<a class="el" href="mainpage_8dox.html" title="Documentation file to be used in Doxygen pages. ">mainpage.dox</a>). </p>
+</pre><p> It requires doxygen 1.8.11 or newer and the dot tool from <a href="http://www.graphviz.org/">Graphviz</a>. All files required by doxygen are located under ./docs/. It includes configuration file (Doxyfile), bibliography (doxy.bib) and web pages contents (<a class="el" href="mainpage_8dox.html" title="Documentation file to be used in Doxygen pages. ">mainpage.dox</a>).</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Add possibility to generate documentation in KTH_Tooljbox separately.</dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 26 2017 16:37:25 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Thu Feb 2 2017 13:26:40 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

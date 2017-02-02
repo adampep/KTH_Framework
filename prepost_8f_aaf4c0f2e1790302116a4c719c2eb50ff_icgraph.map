@@ -1,6 +1,6 @@
 <map id="outpost2" name="outpost2">
-<area shape="rect" id="node2" href="$diagnostics_8f.html#a41287a3fb4667ad58c73f669249d0d3b" title="out_fld_nek" alt="" coords="142,56,231,83"/>
-<area shape="rect" id="node5" href="$diagnostics_8f.html#a47db19c2d0c13f441673dcfdaac4a5b0" title="out_pvar_nek" alt="" coords="137,5,237,32"/>
+<area shape="rect" id="node2" href="$diagnostics_8f.html#a41287a3fb4667ad58c73f669249d0d3b" title="out_fld_nek" alt="" coords="142,5,231,32"/>
+<area shape="rect" id="node5" href="$diagnostics_8f.html#a47db19c2d0c13f441673dcfdaac4a5b0" title="out_pvar_nek" alt="" coords="137,56,237,83"/>
 <area shape="rect" id="node6" href="$navier5_8f.html#a709e553d5ae6d0ef58b983805f0be486" title="avg_all" alt="" coords="329,157,391,184"/>
 <area shape="rect" id="node7" href="$pertsupport_8f.html#a8325df4c483202a62731cd2388f82b42" title="out_pert" alt="" coords="152,157,221,184"/>
 <area shape="rect" id="node8" href="$prepost_8f.html#a5e4867ba9cebf8065a2043171d3ae2f0" title="restart_save" alt="" coords="139,107,234,133"/>
@@ -8,6 +8,7 @@
 <area shape="rect" id="node16" href="$group__chkpoint__mstep.html#ga51e97a641b801dc9c5e5f9aa80866282" title="Save checkpoint variables in a single set of files. " alt="" coords="125,309,248,336"/>
 <area shape="rect" id="node18" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="144,360,229,387"/>
 <area shape="rect" id="node21" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="131,411,242,437"/>
+<area shape="rect" id="node22" href="$group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950" title="Init sponge variables in the box domain. " alt="" coords="135,461,238,488"/>
 <area shape="rect" id="node3" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="296,31,424,57"/>
 <area shape="rect" id="node4" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="476,31,575,57"/>
 <area shape="rect" id="node9" href="$prepost_8f.html#a541660bcda49100a7473a4e84093338c" title="full_restart_save" alt="" coords="301,107,419,133"/>

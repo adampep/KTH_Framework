@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['2d_20statistics',['2D statistics',['../group__statistics2D.html',1,'']]]
+  ['arnoldi_20algorithm_20using_20parpack',['Arnoldi algorithm using parpack',['../group__arnoldi__arpack.html',1,'']]]
 ];

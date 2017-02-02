@@ -5,7 +5,7 @@
 <area shape="rect" id="node9" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="524,259,571,285"/>
 <area shape="rect" id="node20" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="133,411,228,437"/>
 <area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="288,5,371,32"/>
-<area shape="rect" id="node5" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate name according to nek rulles without opening the file. " alt="" coords="277,56,381,83"/>
+<area shape="rect" id="node5" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="277,56,381,83"/>
 <area shape="rect" id="node7" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="303,107,356,133"/>
 <area shape="rect" id="node8" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="297,157,361,184"/>
 <area shape="rect" id="node17" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="299,259,359,285"/>
