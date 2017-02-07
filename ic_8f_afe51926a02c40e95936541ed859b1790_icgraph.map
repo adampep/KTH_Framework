@@ -1,7 +1,8 @@
 <map id="mfi_prepare" name="mfi_prepare">
 <area shape="rect" id="node2" href="$ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a" title="mfi" alt="" coords="160,81,200,108"/>
 <area shape="rect" id="node10" href="$group__chkpoint__mstep.html#gacf9552fc34701138f4e91b0e7042c78c" title="Load checkpoint variables from single file. " alt="" coords="145,208,215,235"/>
-<area shape="rect" id="node12" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="144,259,216,285"/>
+<area shape="rect" id="node12" href="$group__sfd.html#gaa7972e8fa5dd468e1c85f33b5e93c35e" title="Load SFD restart file. " alt="" coords="147,259,213,285"/>
+<area shape="rect" id="node15" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="144,309,216,336"/>
 <area shape="rect" id="node3" href="$ic_8f.html#a32489501c226ee8536f0fca3ac1b1b48" title="restart" alt="" coords="282,107,341,133"/>
 <area shape="rect" id="node8" href="$navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="276,5,347,32"/>
 <area shape="rect" id="node9" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="427,5,491,32"/>
@@ -9,7 +10,9 @@
 <area shape="rect" id="node5" href="$ic_8f.html#aa396cce2dda2db300d986bbbce515d6a" title="full_restart" alt="" coords="417,56,500,83"/>
 <area shape="rect" id="node6" href="$navier5_8f.html#a78b917d37cf85f367e5decac2f8155cd" title="auto_averager" alt="" coords="407,107,511,133"/>
 <area shape="rect" id="node7" href="$group__chkpoint__mstep.html#ga685f03e71ebca8d39a1472a92bb83284" title="Read full file restart set. " alt="" coords="415,208,502,235"/>
-<area shape="rect" id="node11" href="$group__chkpoint__mstep.html#ga10eb9bc9a027b431e602d4dacdb75adb" title="Load checpoint variables from single set of files. " alt="" coords="267,208,355,235"/>
-<area shape="rect" id="node13" href="$group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="264,259,359,285"/>
-<area shape="rect" id="node14" href="$group__arnoldi__arpack.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise arnoldi_arpack. " alt="" coords="411,259,507,285"/>
+<area shape="rect" id="node11" href="$group__chkpoint__mstep.html#ga89c9df664bad5974e84cf88e81ec5ab2" title="Load checpoint variables from single set of files. " alt="" coords="267,208,355,235"/>
+<area shape="rect" id="node13" href="$group__sfd.html#ga661b879094c4984defe82100decd8cdb" title="Read from checkpoint. " alt="" coords="264,259,359,285"/>
+<area shape="rect" id="node14" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="427,259,491,285"/>
+<area shape="rect" id="node16" href="$group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="264,309,359,336"/>
+<area shape="rect" id="node17" href="$group__arnoldi__arpack.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise arnoldi_arpack. " alt="" coords="411,309,507,336"/>
 </map>

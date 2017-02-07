@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['dummy_20checkpointing',['Dummy checkpointing',['../group__chkptdummy.html',1,'']]],
-  ['driver_20module',['Driver module',['../group__driver.html',1,'']]],
-  ['dummy_20user_20parameters',['Dummy user parameters',['../group__upardummy.html',1,'']]]
+  ['checkpointing_20routines',['Checkpointing routines',['../group__chkpoint.html',1,'']]],
+  ['comunication_20routines_2e',['Comunication routines.',['../group__comm__mpi.html',1,'']]]
 ];

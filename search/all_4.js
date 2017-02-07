@@ -202,6 +202,5 @@ var searchData=
   ['dxdn1',['dxdn1',['../structfindpts__el__gedge__3.html#acecfd057c7c46da9c06f135ce9cbcf1a',1,'findpts_el_gedge_3::dxdn1()'],['../findpts__el__3_8c.html#a9dcd4cc28f57f8ebdb1c3b9bd4683276',1,'DXDN1():&#160;findpts_el_3.c']]],
   ['dxdn2',['dxdn2',['../structfindpts__el__gedge__3.html#ad49efd58e3a0c1961429e1e2390c533e',1,'findpts_el_gedge_3']]],
   ['dzasum',['dzasum',['../blas_8f.html#af23444d1c822b34db864558d7afc76dd',1,'blas.f']]],
-  ['dznrm2',['dznrm2',['../blas_8f.html#a969fee86423deeced6013320c9b35b28',1,'blas.f']]],
-  ['dummy_20user_20parameters',['Dummy user parameters',['../group__upardummy.html',1,'']]]
+  ['dznrm2',['dznrm2',['../blas_8f.html#a969fee86423deeced6013320c9b35b28',1,'blas.f']]]
 ];

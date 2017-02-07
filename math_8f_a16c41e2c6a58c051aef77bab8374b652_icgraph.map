@@ -1,14 +1,8 @@
 <map id="ifill" name="ifill">
-<area shape="rect" id="node2" href="$moab_8f.html#a84e6157bdf8346a2fade84046cb33998" title="nekmoab_bc" alt="" coords="103,5,199,32"/>
-<area shape="rect" id="node5" href="$genbox_8f.html#a1a9c010d43332076b4f9846c51a67af3" title="getiv" alt="" coords="126,56,177,83"/>
-<area shape="rect" id="node8" href="$group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="97,107,205,133"/>
-<area shape="rect" id="node10" href="$group__avg__spt.html#gab77646316ccfb62e71942e6835231f27" title="Reshuffle coordinate arrays. " alt="" coords="95,157,208,184"/>
-<area shape="rect" id="node11" href="$avg__spt_8f.html#aaf88745b5387f32cd7b6cbd5d3aea46c" title="stat_init_global" alt="" coords="97,208,206,235"/>
-<area shape="rect" id="node12" href="$avg__spt_8f.html#abec34cddc2b84d45096f4e75f0a4d927" title="stat_comm_map" alt="" coords="92,259,211,285"/>
-<area shape="rect" id="node13" href="$avg__spt__usr_8f.html#ab1d6679a645453d7a30a47d158f76f92" title="user_stat_init" alt="" coords="101,309,201,336"/>
-<area shape="rect" id="node3" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="259,5,377,32"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="427,5,485,32"/>
-<area shape="rect" id="node6" href="$genbox_8f.html#a6636cac3ff8c7e3e715157574e8f1843" title="get_multi_seg" alt="" coords="267,56,369,83"/>
-<area shape="rect" id="node7" href="$genbox_8f.html#a9f998f04f0ef96bc4e45e2f132a66dd7" title="getbox" alt="" coords="425,56,487,83"/>
-<area shape="rect" id="node9" href="$group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="281,157,355,184"/>
+<area shape="rect" id="node2" href="$moab_8f.html#a84e6157bdf8346a2fade84046cb33998" title="nekmoab_bc" alt="" coords="92,5,188,32"/>
+<area shape="rect" id="node5" href="$genbox_8f.html#a1a9c010d43332076b4f9846c51a67af3" title="getiv" alt="" coords="115,56,165,83"/>
+<area shape="rect" id="node3" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="236,5,355,32"/>
+<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="404,5,463,32"/>
+<area shape="rect" id="node6" href="$genbox_8f.html#a6636cac3ff8c7e3e715157574e8f1843" title="get_multi_seg" alt="" coords="244,56,347,83"/>
+<area shape="rect" id="node7" href="$genbox_8f.html#a9f998f04f0ef96bc4e45e2f132a66dd7" title="getbox" alt="" coords="403,56,464,83"/>
 </map>

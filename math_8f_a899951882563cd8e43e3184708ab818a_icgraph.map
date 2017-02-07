@@ -3,7 +3,6 @@
 <area shape="rect" id="node6" href="$postpro_8f.html#af9d2aff92c48c37b10261e543b5f18fb" title="mag_tensor_e" alt="" coords="131,93,235,120"/>
 <area shape="rect" id="node7" href="$subs1_8f.html#ac5a99c27d3ffe24a47e4b8dc21e2502a" title="cumax" alt="" coords="152,144,213,171"/>
 <area shape="rect" id="node11" href="$turb_8f.html#a6e4ed070ff5b0337fb961f3e098c0c37" title="tvisca" alt="" coords="154,195,211,221"/>
-<area shape="rect" id="node12" href="$avg__spt_8f.html#a978f4265e37388765d18773f660633ba" title="stat_init_int1d" alt="" coords="131,245,234,272"/>
 <area shape="rect" id="node3" href="$hmholtz_8f.html#ac60fe35dd9bdf67147fe5cc0898a49bb" title="set_fdm_prec_h1a" alt="" coords="309,43,439,69"/>
 <area shape="rect" id="node4" href="$hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d" title="hmholtz" alt="" coords="524,5,592,32"/>
 <area shape="rect" id="node5" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="527,56,589,83"/>

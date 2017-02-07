@@ -143,7 +143,6 @@ var searchData=
   ['col_5fdistr',['col_distr',['../amg_8c.html#ab46352e7ad9b3b6de3b470c9bb57e266a6b59ad2e059dbf4d09c37276fa853609',1,'amg.c']]],
   ['col_5fmajor',['col_major',['../amg_8c.html#a69d1da20eba88fc822d3a41a3df70054ac7ee512fc01e9980f8f0f2774559cefc',1,'amg.c']]],
   ['col_5fmu_5fsij',['col_mu_sij',['../plan4_8f.html#ae69deb230f08be3fd7f4b30adced56de',1,'plan4.f']]],
-  ['colldata',['colldata',['../avg__spt_8f.html#a9b903cfbbdd2a206dc092e2ea206705e',1,'avg_spt.f']]],
   ['comavn2',['comavn2',['../subs2_8f.html#a1dbe7b0bdde5acd34f9628da7b0bb3b8',1,'subs2.f']]],
   ['comavn3',['comavn3',['../subs2_8f.html#a1e79703717b90d067439461628ea0b4c',1,'subs2.f']]],
   ['combin2',['combin2',['../connect1_8f.html#a896c0eb2573814d7c91c49bae818ac3b',1,'connect1.f']]],

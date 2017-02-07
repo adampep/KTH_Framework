@@ -112,14 +112,38 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <li>ARNISTOP : (integer) checkpoint file number for saving data </li>
 </ul>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000002"></a>Module <a class="el" href="group__chkpoint.html">chkpoint</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000001"></a>Module <a class="el" href="group__chkpoint.html">chkpoint</a>  </dt>
 <dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
 <tr>
-<td>ifchkptrst </td><td>logical </td><td>_chkpoint:ifchkptrst </td><td>if restart </td></tr>
+<td>chpt_step </td><td>integer </td><td>_chkpoint:chkpInterval </td><td>checkpiont dump frequency (number of time steps) </td></tr>
 <tr>
-<td>chkptstep </td><td>integer </td><td>_chkpoint:chkptstep </td><td>checkpiont dump frequency (number of time steps) </td></tr>
+<td>chpt_ifrst </td><td>logical </td><td>_chkpoint:readchkpt </td><td>if restart </td></tr>
+<tr>
+<td>chpt_fnum </td><td>integer </td><td>_chkpoint:chkpFnumber </td><td>restart file number </td></tr>
+</table>
+</dd>
+<dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__noise__box.html">noise_box</a>  </dt>
+<dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<tr>
+<td>nseb_tim </td><td>real </td><td>_noisebx:time </td><td>time to add noise </td></tr>
+<tr>
+<td>nseb_amp </td><td>real </td><td>_noisebx:amplitude </td><td>noise amplitude </td></tr>
+<tr>
+<td>nseb_bmin(1) </td><td>real </td><td>_noisebx:boxminx </td><td>position of lower left box corner; dimension X </td></tr>
+<tr>
+<td>nseb_bmin(2) </td><td>real </td><td>_noisebx:boxminy </td><td>position of lower left box corner; dimension Y </td></tr>
+<tr>
+<td>nseb_bmin(3) </td><td>real </td><td>_noisebx:boxminz </td><td>position of lower left box corner; dimension Z </td></tr>
+<tr>
+<td>nseb_bmax(1) </td><td>real </td><td>_noisebx:boxmaxx </td><td>position of upper right box corner; dimension X </td></tr>
+<tr>
+<td>nseb_bmax(2) </td><td>real </td><td>_noisebx:boxmaxy </td><td>position of upper right box corner; dimension Z </td></tr>
+<tr>
+<td>nseb_bmax(3) </td><td>real </td><td>_noisebx:boxmaxz </td><td>position of upper right box corner; dimension Y </td></tr>
 </table>
 </dd>
 <dt><a class="anchor" id="_parameter_list_page000005"></a>Module <a class="el" href="group__powerit.html">powerit</a>  </dt>
@@ -127,30 +151,52 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <li>PWIL2NORM : (real) initial L2 norm of the evolved vector for every cycle </li>
 </ul>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__sponge__box.html">sponge_box</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000002"></a>Module <a class="el" href="group__sfd.html">sfd</a>  </dt>
+<dd>Parameters provided by sfd module (include file - <em>SFD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<tr>
+<td>ifsfd </td><td>logical </td><td>_sfd:runsfd </td><td>do we prform SFD </td></tr>
+<tr>
+<td>sfdd </td><td>real </td><td>_sfd:filtwdth </td><td>filter width </td></tr>
+<tr>
+<td>sfdchi </td><td>real </td><td>_sfd:controlcff </td><td>control coefficient </td></tr>
+<tr>
+<td>sfdtol </td><td>real </td><td>_sfd:residualtol </td><td>tolerance for residual </td></tr>
+<tr>
+<td>sfdfconv </td><td>integer </td><td>_sfd:loginterval </td><td>frequency for saving convegence data </td></tr>
+</table>
+</dd>
+<dt><a class="anchor" id="_parameter_list_page000007"></a>Module <a class="el" href="group__sponge__box.html">sponge_box</a>  </dt>
 <dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
 <tr>
-<td>spng_str </td><td>real </td><td>_spongeb:strenght </td><td>sponge strength </td></tr>
+<td>spng_str </td><td>real </td><td>_spongebx:strenght </td><td>sponge strength </td></tr>
 <tr>
-<td>spng_w(1) </td><td>real </td><td>_spongeb:widthx </td><td>sponge total width; dimension X </td></tr>
+<td>spng_wl(1) </td><td>real </td><td>_spongebx:widthlx </td><td>sponge left section width; dimension X </td></tr>
 <tr>
-<td>spng_w(2) </td><td>real </td><td>_spongeb:widthy </td><td>sponge total width; dimension Y </td></tr>
+<td>spng_wl(2) </td><td>real </td><td>_spongebx:widthly </td><td>sponge left section width; dimension Y </td></tr>
 <tr>
-<td>spng_w(3) </td><td>real </td><td>_spongeb:widthz </td><td>sponge total width; dimension Z </td></tr>
+<td>spng_wl(3) </td><td>real </td><td>_spongebx:widthlz </td><td>sponge left section width; dimension Z </td></tr>
 <tr>
-<td>spng_wl(1) </td><td>real </td><td>_spongeb:widthlx </td><td>sponge left section width (drop); dimension X </td></tr>
+<td>spng_wr(1) </td><td>real </td><td>_spongebx:widthrx </td><td>sponge right section width; dimension X </td></tr>
 <tr>
-<td>spng_wl(2) </td><td>real </td><td>_spongeb:widthly </td><td>sponge left section width (drop); dimension Y </td></tr>
+<td>spng_wr(2) </td><td>real </td><td>_spongebx:widthry </td><td>sponge right section width; dimension Y </td></tr>
 <tr>
-<td>spng_wl(3) </td><td>real </td><td>_spongeb:widthlz </td><td>sponge left section width (drop); dimension Z </td></tr>
+<td>spng_wr(3) </td><td>real </td><td>_spongebx:widthrz </td><td>sponge right section width; dimension Z </td></tr>
 <tr>
-<td>spng_wr(1) </td><td>real </td><td>_spongeb:widthrx </td><td>sponge right section width (rise); dimension X </td></tr>
+<td>spng_dl(1) </td><td>real </td><td>_spongebx:droplx </td><td>sponge left drop/rise section width; dimension X </td></tr>
 <tr>
-<td>spng_wr(2) </td><td>real </td><td>_spongeb:widthry </td><td>sponge right section width (rise); dimension Y </td></tr>
+<td>spng_dl(2) </td><td>real </td><td>_spongebx:droply </td><td>sponge left drop/rise section width; dimension Y </td></tr>
 <tr>
-<td>spng_wr(3) </td><td>real </td><td>_spongeb:widthrz </td><td>sponge right section width (rise); dimension Z </td></tr>
+<td>spng_dl(3) </td><td>real </td><td>_spongebx:droplz </td><td>sponge left drop/rise section width; dimension Z </td></tr>
+<tr>
+<td>spng_dr(1) </td><td>real </td><td>_spongebx:droprx </td><td>sponge right drop/rise section width; dimension X </td></tr>
+<tr>
+<td>spng_dr(2) </td><td>real </td><td>_spongebx:dropry </td><td>sponge right drop/rise section width; dimension Y </td></tr>
+<tr>
+<td>spng_dr(3) </td><td>real </td><td>_spongebx:droprz </td><td>sponge right drop/rise section width; dimension Z </td></tr>
 </table>
 </dd>
 <dt><a class="anchor" id="_parameter_list_page000004"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
@@ -165,12 +211,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <li>TSTSTEP : (integer) frequency of calling stepper_vsolve (number of time steps)</li>
 <li>TSTCMAX : (integer) maximal number of stepper cycles (meaning of this parameter depends on the applied package; arnoldi vs power iterations)</li>
 <li>TSTTOL : (real) convergence tolerance (e.g. PARPACK tolerance for Ritz values)</li>
-<li>TSTIFUZAWA : (logical) first step run with UZAWA </li>
-</ul>
-</dd>
-<dt><a class="anchor" id="_parameter_list_page000001"></a>Module <a class="el" href="group__uparam.html">uparam</a>  </dt>
-<dd>Parameters provided by uparam module (include file - <em>USERPAR</em>):<ul>
-<li>UPRM_PRB - (integer) frequency for probe reading</li>
+<li>TSTIFUZAWA : (logical) first step run with UZAWA</li>
 </ul>
 </dd>
 </dl>
@@ -180,7 +221,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="runtime_parameters_page.html">Runtime parameters for KTH framework.</a></li>
-    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

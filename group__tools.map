@@ -1,4 +1,5 @@
 <map id="Tools module" name="Tools module">
 <area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000. " alt="" coords="269,5,417,32"/>
-<area shape="rect" id="node2" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,5,73,32"/>
+<area shape="rect" id="node2" href="$group__baseflow.html" title="Set of tools for base flow calculation. " alt="" coords="270,56,417,83"/>
+<area shape="rect" id="node3" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
 </map>

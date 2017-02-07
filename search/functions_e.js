@@ -61,10 +61,5 @@ var searchData=
   ['prsolvt',['prsolvt',['../ic_8f.html#a0cc013924d0d5a37e36e63bc7c692fc3',1,'ic.f']]],
   ['prsolvv',['prsolvv',['../ic_8f.html#ade71f6cf65c87da7fabee5c1fcfc4a36',1,'ic.f']]],
   ['ptbgeom',['ptbgeom',['../mvmesh_8f.html#a1c924aee9d9ada8ef173bf0f8a3168b9',1,'mvmesh.f']]],
-  ['pts_5fmap_5fall',['pts_map_all',['../group__pts.html#gadbb3793e4432fc05d7d79fd238031e43',1,'pts_redistribute.f']]],
-  ['pts_5fmap_5fset',['pts_map_set',['../group__pts.html#ga49ab7666f657f9bf235511a423cd74fd',1,'pts_redistribute.f']]],
-  ['pts_5frdst',['pts_rdst',['../group__pts.html#ga5d6b98a61acebdfeef2a1f23bc11286d',1,'pts_redistribute.f']]],
-  ['pts_5ftiming',['pts_timing',['../group__pts.html#ga2cf3ce0242552490651de969fdd5a550',1,'pts_redistribute.f']]],
-  ['pts_5ftransfer',['pts_transfer',['../group__pts.html#gaee86e081cba918c5dad92c606f63ce3d',1,'pts_redistribute.f']]],
   ['pythag',['pythag',['../calcz_8f.html#a8d38bf0bea74bfe517883d27e4271132',1,'calcz.f']]]
 ];

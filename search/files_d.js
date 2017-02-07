@@ -12,6 +12,5 @@ var searchData=
   ['poly_5ftest2_2ec',['poly_test2.c',['../poly__test2_8c.html',1,'']]],
   ['postpro_2ef',['postpro.f',['../postpro_8f.html',1,'']]],
   ['powerit_2ef',['powerit.f',['../powerit_8f.html',1,'']]],
-  ['prepost_2ef',['prepost.f',['../prepost_8f.html',1,'']]],
-  ['pts_5fredistribute_2ef',['pts_redistribute.f',['../pts__redistribute_8f.html',1,'']]]
+  ['prepost_2ef',['prepost.f',['../prepost_8f.html',1,'']]]
 ];

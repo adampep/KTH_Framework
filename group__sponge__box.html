@@ -123,8 +123,8 @@ $(document).ready(function(){initNavTree('group__sponge__box.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:spongeb_8f"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spongeb_8f.html">spongeb.f</a></td></tr>
-<tr class="memdesc:spongeb_8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sponge/fringe for simple box mesh. <br /></td></tr>
+<tr class="memitem:spongebx_8f"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spongebx_8f.html">spongebx.f</a></td></tr>
+<tr class="memdesc:spongebx_8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sponge/fringe for simple box mesh. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -141,9 +141,22 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Sponge/fringe for simple box mesh. </p>
-<p>Set of routines to apply sponge (fringe in periodic domains) for simple box mesh.</p>
+<p>Set of routines to apply sponge (fringe in periodic domains) for simple box mesh. It calculates a volume forcing </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \vec F = \lambda(x) \left( \vec U - \vec u\right),\]" src="form_3.png"/>
+</p>
+<p> with <img class="formulaInl" alt="$ \lambda(x), \vec U$" src="form_4.png"/> and <img class="formulaInl" alt="$ \vec u$" src="form_5.png"/> beeing non-negative sponge/fringe function, constant in time reference velocity field and current velocity field respectively. 1-dimensional sponge funcion is definde as </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \lambda(x) = \lambda_{max} *\left[S\left((x_{min} + \Delta_{wl} - x)/\Delta_{dl} \right) + S\left((x - x_{max} + \Delta_{wr})/\Delta_{dr} \right) \right],\]" src="form_6.png"/>
+</p>
+<p> where:</p><ul>
+<li><img class="formulaInl" alt="$ \lambda_{max} $" src="form_7.png"/> - sponge strenght,</li>
+<li><img class="formulaInl" alt="$ S(x) $" src="form_8.png"/> - step function <a class="el" href="group__math.html#ga0737e3a36b64e8cc52f74a0e8d934b5c">mth_stepf</a>,</li>
+<li><img class="formulaInl" alt="$ x_{min}, x_{max} $" src="form_9.png"/> - left and right box boundaries,</li>
+<li><img class="formulaInl" alt="$ \Delta_{wl}, \Delta_{wr} $" src="form_10.png"/> - left and right sponge section width,</li>
+<li><img class="formulaInl" alt="$ \Delta_{dl}, \Delta_{dr} $" src="form_11.png"/> - left and right sponge section drop/rise width.</li>
+</ul>
+<p>In our implementation each dimension is treated separately and the final 3-dimensional function takes a maximum value of its 1-dimensional components. <img class="formulaInl" alt="$ \Delta_{wl}$" src="form_12.png"/> and <img class="formulaInl" alt="$ \Delta_{wr} $" src="form_13.png"/> can be set to zero.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
-<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000009">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000012">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></li>
 <li><a class="el" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a></li>
 <li><a class="el" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a></li>
@@ -151,32 +164,38 @@ Functions</h2></td></tr>
 </dd></dl>
 <dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userf  (ix,iy,iz,ieg)</div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      include <span class="stringliteral">&#39;NEKUSE&#39;</span>          <span class="comment">! FF[XYZ]</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line"></div><div class="line">      ffx = 0.0</div><div class="line">      ffy = 0.0</div><div class="line">      ffz = 0.0</div><div class="line"></div><div class="line"><span class="comment">!     add sponge</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a>(ffx,ffy,ffz,ix,iy,iz,ieg)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div><div class="line"><span class="comment">!-----------------------------------------------------------------------</span></div><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span>           <span class="comment">! ISTEP</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></div><div class="line"><span class="comment">!     initialise module</span></div><div class="line"><span class="comment">!     provide initial velocity condition as reference field for sponge</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a>(vx,vy,vz)</div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000006">Global parameter list:</a></b></dt><dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000007">Global parameter list:</a></b></dt><dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
 <tr>
-<td>spng_str </td><td>real </td><td>_spongeb:strenght </td><td>sponge strength </td></tr>
+<td>spng_str </td><td>real </td><td>_spongebx:strenght </td><td>sponge strength </td></tr>
 <tr>
-<td>spng_w(1) </td><td>real </td><td>_spongeb:widthx </td><td>sponge total width; dimension X </td></tr>
+<td>spng_wl(1) </td><td>real </td><td>_spongebx:widthlx </td><td>sponge left section width; dimension X </td></tr>
 <tr>
-<td>spng_w(2) </td><td>real </td><td>_spongeb:widthy </td><td>sponge total width; dimension Y </td></tr>
+<td>spng_wl(2) </td><td>real </td><td>_spongebx:widthly </td><td>sponge left section width; dimension Y </td></tr>
 <tr>
-<td>spng_w(3) </td><td>real </td><td>_spongeb:widthz </td><td>sponge total width; dimension Z </td></tr>
+<td>spng_wl(3) </td><td>real </td><td>_spongebx:widthlz </td><td>sponge left section width; dimension Z </td></tr>
 <tr>
-<td>spng_wl(1) </td><td>real </td><td>_spongeb:widthlx </td><td>sponge left section width (drop); dimension X </td></tr>
+<td>spng_wr(1) </td><td>real </td><td>_spongebx:widthrx </td><td>sponge right section width; dimension X </td></tr>
 <tr>
-<td>spng_wl(2) </td><td>real </td><td>_spongeb:widthly </td><td>sponge left section width (drop); dimension Y </td></tr>
+<td>spng_wr(2) </td><td>real </td><td>_spongebx:widthry </td><td>sponge right section width; dimension Y </td></tr>
 <tr>
-<td>spng_wl(3) </td><td>real </td><td>_spongeb:widthlz </td><td>sponge left section width (drop); dimension Z </td></tr>
+<td>spng_wr(3) </td><td>real </td><td>_spongebx:widthrz </td><td>sponge right section width; dimension Z </td></tr>
 <tr>
-<td>spng_wr(1) </td><td>real </td><td>_spongeb:widthrx </td><td>sponge right section width (rise); dimension X </td></tr>
+<td>spng_dl(1) </td><td>real </td><td>_spongebx:droplx </td><td>sponge left drop/rise section width; dimension X </td></tr>
 <tr>
-<td>spng_wr(2) </td><td>real </td><td>_spongeb:widthry </td><td>sponge right section width (rise); dimension Y </td></tr>
+<td>spng_dl(2) </td><td>real </td><td>_spongebx:droply </td><td>sponge left drop/rise section width; dimension Y </td></tr>
 <tr>
-<td>spng_wr(3) </td><td>real </td><td>_spongeb:widthrz </td><td>sponge right section width (rise); dimension Z </td></tr>
+<td>spng_dl(3) </td><td>real </td><td>_spongebx:droplz </td><td>sponge left drop/rise section width; dimension Z </td></tr>
+<tr>
+<td>spng_dr(1) </td><td>real </td><td>_spongebx:droprx </td><td>sponge right drop/rise section width; dimension X </td></tr>
+<tr>
+<td>spng_dr(2) </td><td>real </td><td>_spongebx:dropry </td><td>sponge right drop/rise section width; dimension Y </td></tr>
+<tr>
+<td>spng_dr(3) </td><td>real </td><td>_spongebx:droprz </td><td>sponge right drop/rise section width; dimension Z </td></tr>
 </table>
 </dd></dl>
-<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_SPONGEB]</div><div class="line">strength = 1.0</div><div class="line">widthx = 5.0</div><div class="line">widthy = 0.0</div><div class="line">widthz = 0.0</div><div class="line">widthlx = 2.0</div><div class="line">widthly = 0.0</div><div class="line">widthlz = 0.0</div><div class="line">widthrx = 2.0</div><div class="line">widthry = 0.0</div><div class="line">widthrz = 0.0</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_SPONGEBX]</div><div class="line">strength = 1.0</div><div class="line">widthlx = 4.0</div><div class="line">widthly = 0.0</div><div class="line">widthlz = 0.0</div><div class="line">widthrx = 4.0</div><div class="line">widthry = 0.0</div><div class="line">widthrz = 0.0</div><div class="line">droplx = 2.0</div><div class="line">droply = 0.0</div><div class="line">droplz = 0.0</div><div class="line">droprx = 2.0</div><div class="line">dropry = 0.0</div><div class="line">droprz = 0.0</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaecf5e525edf516a6b4671a50768dffd5"></a>
 <div class="memitem">
@@ -242,7 +261,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="spongeb_8f_source.html#l00279">279</a> of file <a class="el" href="spongeb_8f_source.html">spongeb.f</a>.</p>
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00301">301</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
 </div>
 </div>
@@ -279,12 +298,12 @@ Functions</h2></td></tr>
 <p>Init sponge variables in the box domain. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">lvx,lvy,lvz</td><td>initial </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lvx,lvy,lvz</td><td>velocity field to be stored as reference field </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="spongeb_8f_source.html#l00145">145</a> of file <a class="el" href="spongeb_8f_source.html">spongeb.f</a>.</p>
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00163">163</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="prepost_8f_source.html#l01943">outpost2()</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
 
@@ -339,9 +358,9 @@ Functions</h2></td></tr>
 
 <p>Set sponbge_box parameters. </p>
 
-<p>Definition at line <a class="el" href="spongeb_8f_source.html#l00010">10</a> of file <a class="el" href="spongeb_8f_source.html">spongeb.f</a>.</p>
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00010">10</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, and <a class="el" href="runparam_8f_source.html#l00021">rprm_check()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -350,8 +369,10 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph.png" border="0" usemap="#group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph" alt=""/></div>
 <map name="group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph" id="group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="200,5,255,32"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="303,5,385,32"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="218,5,273,32"/>
+<area shape="rect" id="node4" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105" title="Check consistency of module&#39;s runtime parameters. " alt="" coords="200,56,291,83"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="339,5,421,32"/>
+<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="355,56,405,83"/>
 </map>
 </div>
 </p>
@@ -363,7 +384,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

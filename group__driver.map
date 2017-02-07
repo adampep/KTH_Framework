@@ -1,7 +1,5 @@
 <map id="Driver module" name="Driver module">
-<area shape="rect" id="node1" href="$group__runparam.html" title="User/module runtime parameters. " alt="" coords="285,5,425,32"/>
-<area shape="rect" id="node2" href="$group__comm__mpi.html" title="MPI communication wrappers. " alt="" coords="277,56,433,83"/>
-<area shape="rect" id="node3" href="$group__pts.html" title="History points/particles driver. " alt="" coords="286,107,425,149"/>
-<area shape="rect" id="node4" href="$group__avg__spt.html" title="Set of routines for global spatial average of elements. " alt="" coords="272,173,439,200"/>
-<area shape="rect" id="node6" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,85,73,112"/>
+<area shape="rect" id="node1" href="$group__runparam.html" title="Routines related to module&#39;s runtime parameters. " alt="" coords="280,5,420,32"/>
+<area shape="rect" id="node2" href="$group__comm__mpi.html" title="MPI communication wrappers. " alt="" coords="272,56,428,83"/>
+<area shape="rect" id="node4" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
 </map>

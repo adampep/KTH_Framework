@@ -132,16 +132,84 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0737e3a36b64e8cc52f74a0e8d934b5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a> function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#ga0737e3a36b64e8cc52f74a0e8d934b5c">mth_stepf</a> (<a class="el" href="spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b">x</a>)</td></tr>
 <tr class="memdesc:ga0737e3a36b64e8cc52f74a0e8d934b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step function.  <a href="#ga0737e3a36b64e8cc52f74a0e8d934b5c">More...</a><br /></td></tr>
 <tr class="separator:ga0737e3a36b64e8cc52f74a0e8d934b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ab32466c4851ffc4d8f0de44ee360c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a> function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#ga2ab32466c4851ffc4d8f0de44ee360c4">mth_rand</a> (ix, iy, iz, ieg, xl, fcoeff)</td></tr>
+<tr class="memdesc:ga2ab32466c4851ffc4d8f0de44ee360c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Give random distribution depending on position.  <a href="#ga2ab32466c4851ffc4d8f0de44ee360c4">More...</a><br /></td></tr>
+<tr class="separator:ga2ab32466c4851ffc4d8f0de44ee360c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Diverse mathematical tools. </p>
 <p>Set of math related routines for toolbox</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
-<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000010">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000013">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__math.html#ga0737e3a36b64e8cc52f74a0e8d934b5c">mth_stepf</a></li>
+<li><a class="el" href="group__math.html#ga2ab32466c4851ffc4d8f0de44ee360c4">mth_rand</a></li>
 </ol>
 </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga2ab32466c4851ffc4d8f0de44ee360c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a> function mth_rand </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>iy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>iz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ieg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ldim)&#160;</td>
+          <td class="paramname"><em>xl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(3)&#160;</td>
+          <td class="paramname"><em>fcoeff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Give random distribution depending on position. </p>
+<p>The original Nek5000 rundom number generator is implementted in <a class="el" href="navier5_8f.html#ad748dfe473aa1c135863bd7d04faf536">ran1</a>. This totally ad-hoc random number generator below could be preferable to the origina one for the simple reason that it gives the same initial cindition independent of the number of processors, which is important for code verification. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ix,iy,iz</td><td>GLL point index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ieg</td><td>global element number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">xl</td><td>physical point coordinates </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fcoeff</td><td>function coefficients </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>random distribution </dd></dl>
+
+<p>Definition at line <a class="el" href="math__tools_8f_source.html#l00054">54</a> of file <a class="el" href="math__tools_8f_source.html">math_tools.f</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga0737e3a36b64e8cc52f74a0e8d934b5c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +245,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

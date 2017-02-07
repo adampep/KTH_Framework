@@ -1,10 +1,8 @@
 <map id="gradm1" name="gradm1">
-<area shape="rect" id="node2" href="$convect_8f.html#a544a80baafa78a1ae340305d8b2da8e0" title="set_bdivw" alt="" coords="134,81,215,108"/>
-<area shape="rect" id="node8" href="$avg__spt__usr_8f.html#a3737d0f38b1a9847edf53beaabc8c5f4" title="user_stat_trnsv" alt="" coords="119,132,231,159"/>
-<area shape="rect" id="node3" href="$convect_8f.html#a9b58d62988f53102b490531b844a1891" title="setup_convect" alt="" coords="279,81,385,108"/>
-<area shape="rect" id="node4" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title="cdscal_cvode" alt="" coords="433,5,536,32"/>
-<area shape="rect" id="node5" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="435,56,534,83"/>
-<area shape="rect" id="node6" href="$ic_8f.html#acaefa33e86633e4a7a4b28347d4620d1" title="setics" alt="" coords="456,107,513,133"/>
-<area shape="rect" id="node7" href="$group__chkpoint__mstep.html#ga10eb9bc9a027b431e602d4dacdb75adb" title="Load checpoint variables from single set of files. " alt="" coords="441,157,529,184"/>
-<area shape="rect" id="node9" href="$avg__spt_8f.html#a3d70b3469bf98d487ba751bf9cf338e5" title="stat_compute" alt="" coords="281,132,383,159"/>
+<area shape="rect" id="node2" href="$convect_8f.html#a544a80baafa78a1ae340305d8b2da8e0" title="set_bdivw" alt="" coords="119,81,200,108"/>
+<area shape="rect" id="node3" href="$convect_8f.html#a9b58d62988f53102b490531b844a1891" title="setup_convect" alt="" coords="248,81,355,108"/>
+<area shape="rect" id="node4" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title="cdscal_cvode" alt="" coords="403,5,505,32"/>
+<area shape="rect" id="node5" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="405,56,503,83"/>
+<area shape="rect" id="node6" href="$ic_8f.html#acaefa33e86633e4a7a4b28347d4620d1" title="setics" alt="" coords="425,107,483,133"/>
+<area shape="rect" id="node7" href="$group__chkpoint__mstep.html#ga89c9df664bad5974e84cf88e81ec5ab2" title="Load checpoint variables from single set of files. " alt="" coords="410,157,498,184"/>
 </map>

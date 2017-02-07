@@ -18,7 +18,6 @@ var searchData=
   ['verify',['verify',['../connect1_8f.html#ad2fa64ec84d1358545061390d925ff77',1,'connect1.f']]],
   ['verrhe',['verrhe',['../connect1_8f.html#ab641b774823d34f2ffdc9965944d1c38',1,'connect1.f']]],
   ['vfail',['vfail',['../fail_8c.html#a016d8836ade99456457a913955d1dc3b',1,'fail.c']]],
-  ['vis_5fownership',['vis_ownership',['../avg__spt__debug_8f.html#a786dca8c6e013d086e051fef84242ea1',1,'avg_spt_debug.f']]],
   ['viscous_5fcmt',['viscous_cmt',['../eqnsolver__cmt_8f.html#a6d611a250fb98acf77e8a3880c0e608d',1,'eqnsolver_cmt.f']]],
   ['visit_5fcheck',['visit_check',['../visit_8f.html#a16c8f91a6006506964171a70d3a1f08e',1,'visit.f']]],
   ['visit_5fend',['visit_end',['../visit_8f.html#ae2186a9af7509f8ad21626ca1fa46795',1,'visit.f']]],

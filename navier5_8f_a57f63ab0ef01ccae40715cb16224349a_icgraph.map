@@ -3,7 +3,6 @@
 <area shape="rect" id="node7" href="$navier5_8f.html#a1617481f04d4da6797e8f78a3a32dff5" title="drag_calc" alt="" coords="131,107,210,133"/>
 <area shape="rect" id="node8" href="$navier5_8f.html#ae07d390b2886c4cf09b559441f55dd3f" title="torque_calc" alt="" coords="126,157,215,184"/>
 <area shape="rect" id="node9" href="$navier5_8f.html#a452fc6ce45aa3c40dbc48fa0353cb965" title="shear_calc_max" alt="" coords="112,208,229,235"/>
-<area shape="rect" id="node10" href="$avg__spt_8f.html#a3d70b3469bf98d487ba751bf9cf338e5" title="stat_compute" alt="" coords="120,259,221,285"/>
 <area shape="rect" id="node3" href="$multimesh_8f.html#a0960e928ef8c9884daa9faa261b9ebb8" title="userchk_set_xfer" alt="" coords="277,56,400,83"/>
 <area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="464,5,531,32"/>
 <area shape="rect" id="node5" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="448,56,547,83"/>

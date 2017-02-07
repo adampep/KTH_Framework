@@ -104,7 +104,6 @@ var searchData=
   ['col3',['col3',['../math_8f.html#a0d9af374781723c272547a185cb3da5e',1,'math.f']]],
   ['col4',['col4',['../math_8f.html#a73c11da474d84d5c1ae59109d7ffbaa7',1,'math.f']]],
   ['col_5fmu_5fsij',['col_mu_sij',['../plan4_8f.html#ae69deb230f08be3fd7f4b30adced56de',1,'plan4.f']]],
-  ['colldata',['colldata',['../avg__spt_8f.html#a9b903cfbbdd2a206dc092e2ea206705e',1,'avg_spt.f']]],
   ['comavn2',['comavn2',['../subs2_8f.html#a1dbe7b0bdde5acd34f9628da7b0bb3b8',1,'subs2.f']]],
   ['comavn3',['comavn3',['../subs2_8f.html#a1e79703717b90d067439461628ea0b4c',1,'subs2.f']]],
   ['combin2',['combin2',['../connect1_8f.html#a896c0eb2573814d7c91c49bae818ac3b',1,'connect1.f']]],

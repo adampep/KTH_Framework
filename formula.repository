@@ -1,3 +1,14 @@
 \form#0:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
 \form#1:$ x_{min} = 0.02$
 \form#2:$ x_{max}=0.98$
+\form#3:\[ \vec F = \lambda(x) \left( \vec U - \vec u\right),\]
+\form#4:$ \lambda(x), \vec U$
+\form#5:$ \vec u$
+\form#6:\[ \lambda(x) = \lambda_{max} *\left[S\left((x_{min} + \Delta_{wl} - x)/\Delta_{dl} \right) + S\left((x - x_{max} + \Delta_{wr})/\Delta_{dr} \right) \right],\]
+\form#7:$ \lambda_{max} $
+\form#8:$ S(x) $
+\form#9:$ x_{min}, x_{max} $
+\form#10:$ \Delta_{wl}, \Delta_{wr} $
+\form#11:$ \Delta_{dl}, \Delta_{dr} $
+\form#12:$ \Delta_{wl}$
+\form#13:$ \Delta_{wr} $

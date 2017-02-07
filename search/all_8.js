@@ -110,6 +110,5 @@ var searchData=
   ['hsolve',['hsolve',['../navier4_8f.html#a2c8eef885087bb1ef49c29a936b96918',1,'navier4.f']]],
   ['hxdg',['hxdg',['../hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f',1,'hmholtz.f']]],
   ['hypmsk3',['hypmsk3',['../navier1_8f.html#ad3dcbbad0824cbca34368e71fbf93b47',1,'navier1.f']]],
-  ['hypmsk3v',['hypmsk3v',['../navier1_8f.html#ad655747e7751be3584f491e5caf7423d',1,'navier1.f']]],
-  ['history_20points_20driver_20for_20toolboxes_2e',['History points driver for toolboxes.',['../group__pts.html',1,'']]]
+  ['hypmsk3v',['hypmsk3v',['../navier1_8f.html#ad655747e7751be3584f491e5caf7423d',1,'navier1.f']]]
 ];

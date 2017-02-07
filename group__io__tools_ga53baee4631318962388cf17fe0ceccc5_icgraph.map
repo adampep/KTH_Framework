@@ -1,12 +1,8 @@
 <map id="io_file_freeid" name="io_file_freeid">
-<area shape="rect" id="node2" href="$group__avg__spt.html#ga329a5eefb3e9ead0a3f5aef0f18684c2" title="Generate local element mapping. " alt="" coords="151,5,259,32"/>
-<area shape="rect" id="node4" href="$group__avg__spt.html#gab77646316ccfb62e71942e6835231f27" title="Reshuffle coordinate arrays. " alt="" coords="148,56,261,83"/>
-<area shape="rect" id="node5" href="$group__runparam.html#ga3a89d10dd1612ab9d1a62204590593a9" title="Main interface of runtime parameter module. " alt="" coords="156,107,253,133"/>
-<area shape="rect" id="node6" href="$group__chkpoint__mstep.html#ga33b867c374d795e500c69afb551570dd" title="Initialise multi&#45;file checkpoint routines. " alt="" coords="165,157,244,184"/>
-<area shape="rect" id="node7" href="$group__chkpoint__mstep.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="160,208,249,235"/>
-<area shape="rect" id="node8" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="162,259,247,285"/>
-<area shape="rect" id="node11" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="157,309,253,336"/>
-<area shape="rect" id="node3" href="$group__avg__spt.html#ga51df9283482cf291dc77902eede0a990" title="Initialise spatial averaging of elements. " alt="" coords="327,31,402,57"/>
-<area shape="rect" id="node9" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="309,259,420,285"/>
-<area shape="rect" id="node10" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="468,259,555,285"/>
+<area shape="rect" id="node2" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="164,5,228,32"/>
+<area shape="rect" id="node4" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="153,56,239,83"/>
+<area shape="rect" id="node7" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="148,107,244,133"/>
+<area shape="rect" id="node3" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFd interface. " alt="" coords="310,5,385,32"/>
+<area shape="rect" id="node5" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="292,56,403,83"/>
+<area shape="rect" id="node6" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="451,56,537,83"/>
 </map>

@@ -80,7 +80,6 @@ var searchData=
   ['get_5fmsg_5fvol',['get_msg_vol',['../comm__mpi_8f.html#a4ae0ceb703bba6170a61c696ee3871d3',1,'comm_mpi.f']]],
   ['get_5fmulti_5fseg',['get_multi_seg',['../genbox_8f.html#a6636cac3ff8c7e3e715157574e8f1843',1,'genbox.f']]],
   ['get_5fp',['GET_P',['../sarray__transfer_8c.html#a4c73a25eab3d96e12007c498f418fbdb',1,'GET_P():&#160;sarray_transfer.c'],['../sarray__transfer_8c.html#a4c73a25eab3d96e12007c498f418fbdb',1,'GET_P():&#160;sarray_transfer.c']]],
-  ['get_5fsend_5fno',['get_send_no',['../avg__spt_8f.html#a73c520ff5e72230300454f50a62b3ae3',1,'avg_spt.f']]],
   ['get_5fsession_5finfo',['get_session_info',['../multimesh_8f.html#a0b340eaa9352e5b5d12ff7d525b30c0a',1,'get_session_info(intracomm):&#160;multimesh.f'],['../singlmesh_8f.html#a0b340eaa9352e5b5d12ff7d525b30c0a',1,'get_session_info(intracomm):&#160;singlmesh.f']]],
   ['get_5fstrs_5fmask',['get_strs_mask',['../subs1_8f.html#a5a4db467f17ead3eeec063f2fe25d429',1,'subs1.f']]],
   ['get_5fstrsmax',['get_strsmax',['../navier5_8f.html#afb16a7fb22648b36691ad66f6c896925',1,'navier5.f']]],

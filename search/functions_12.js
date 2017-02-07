@@ -17,7 +17,6 @@ var searchData=
   ['transpose',['transpose',['../math_8f.html#a17c0ecae12cc5c6096939885da90ad2b',1,'math.f']]],
   ['transpose1',['transpose1',['../math_8f.html#ac0df1246e338fceadae915d638305bcb',1,'math.f']]],
   ['trcon',['trcon',['../bdry_8f.html#ac02c122f072e8502e001a3c10fe5a213',1,'bdry.f']]],
-  ['trnsfm_5frecmap',['trnsfm_recmap',['../avg__spt_8f.html#a326cbad0835af0eeeddafe0a5eab4d96',1,'avg_spt.f']]],
   ['trst2d',['trst2d',['../bdry_8f.html#abf8b3a0effc8dcade4e143c2ab0639a7',1,'bdry.f']]],
   ['trst3d',['trst3d',['../bdry_8f.html#aeec3df8d8fe062354f021cd1e5138ed6',1,'bdry.f']]],
   ['trstax',['trstax',['../bdry_8f.html#a8b009706deed46a310eca5d54756983a',1,'bdry.f']]],

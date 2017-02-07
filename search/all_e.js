@@ -74,6 +74,8 @@ var searchData=
   ['no_5fc99',['NO_C99',['../c99_8h.html#a70e1e0caf1554a6f7cf28fbd5f913c49',1,'c99.h']]],
   ['no_5fy_5fprofile',['no_y_profile',['../navier5_8f.html#a3428d99aee58cfb886a3f5b4763bb9d9',1,'navier5.f']]],
   ['no_5fz_5fprofile',['no_z_profile',['../navier5_8f.html#a2fe8483b732503d9d518a08545c38302',1,'navier5.f']]],
+  ['noise_5fbox_20module',['Noise_box module',['../group__noise__box.html',1,'']]],
+  ['noisebx_2ef',['noisebx.f',['../noisebx_8f.html',1,'']]],
   ['nonzero_5fid',['nonzero_id',['../structnonzero__id.html',1,'']]],
   ['norcmp',['norcmp',['../mvmesh_8f.html#aa4c3b871defdf348d9d320c89bbec7c5',1,'mvmesh.f']]],
   ['norcmp2',['norcmp2',['../mvmesh_8f.html#a8a038068b4aa4ccc815c6254d0ffc38b',1,'mvmesh.f']]],
@@ -87,6 +89,8 @@ var searchData=
   ['nr',['NR',['../findpts__el__2__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_2_test.c'],['../findpts__el__2__test2_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_2_test2.c'],['../findpts__el__3__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_3_test.c'],['../findpts__el__3__test2_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_3_test2.c'],['../findpts__local__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_local_test.c'],['../findpts__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_test.c'],['../obbox__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;obbox_test.c']]],
   ['nrecvn',['nrecvn',['../structcr__stage.html#acd84ef37b3bbdff8c8d73bfbc49a36f4',1,'cr_stage']]],
   ['ns',['NS',['../findpts__el__2__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_2_test.c'],['../findpts__el__2__test2_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_2_test2.c'],['../findpts__el__3__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_3_test.c'],['../findpts__el__3__test2_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_3_test2.c'],['../findpts__local__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_local_test.c'],['../findpts__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_test.c'],['../obbox__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;obbox_test.c']]],
+  ['nse_5fbox_5fadd',['nse_box_add',['../group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3',1,'noisebx.f']]],
+  ['nse_5fbox_5fparam_5fget',['nse_box_param_get',['../group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45',1,'noisebx.f']]],
   ['nsep',['nsep',['../structxxt.html#a307f55491c337cf659732608a4b88951',1,'xxt']]],
   ['nstages',['nstages',['../structcr__data.html#affd378744e4522a40256f652efa42b60',1,'cr_data']]],
   ['nt',['NT',['../findpts__el__3__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_el_3_test.c'],['../findpts__el__3__test2_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_el_3_test2.c'],['../findpts__local__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_local_test.c'],['../findpts__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_test.c'],['../obbox__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;obbox_test.c']]],
@@ -101,6 +105,6 @@ var searchData=
   ['nvec_5fdssum',['nvec_dssum',['../dssum_8f.html#a5d299460ab2c55d270c39383591bb415',1,'dssum.f']]],
   ['nx',['nx',['../xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d',1,'xxt_test.c']]],
   ['ny',['NY',['../lob__bnd__test_8c.html#a652e87ecc9140879666ae9d6bf4ca893',1,'lob_bnd_test.c']]],
-  ['nz',['nz',['../structgs__topology.html#a80df98c8bd468570acd4c4b8a43af046',1,'gs_topology::nz()'],['../xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357',1,'nz():&#160;xxt_test.c'],['../lob__bnd__test_8c.html#a693aee47b2103d0a7fcd3a0a0dd4fb57',1,'NZ():&#160;lob_bnd_test.c']]],
+  ['nz',['nz',['../structgs__topology.html#a80df98c8bd468570acd4c4b8a43af046',1,'gs_topology::nz()'],['../lob__bnd__test_8c.html#a693aee47b2103d0a7fcd3a0a0dd4fb57',1,'NZ():&#160;lob_bnd_test.c'],['../xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357',1,'nz():&#160;xxt_test.c']]],
   ['nz_5fpos_5fequal',['nz_pos_equal',['../amg_8c.html#aeebb74cc79e62af79c23f14de34364a3',1,'amg.c']]]
 ];

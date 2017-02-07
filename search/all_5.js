@@ -48,7 +48,6 @@ var searchData=
   ['exitt0',['exitt0',['../comm__mpi_8f.html#a7c71e890279f4933a841a2d97c7de4bd',1,'comm_mpi.f']]],
   ['exitti',['exitti',['../comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197',1,'comm_mpi.f']]],
   ['exittr',['exittr',['../comm__mpi_8f.html#ae13d3e643c50b46581915bab6042a604',1,'comm_mpi.f']]],
-  ['examples',['Examples',['../group__exmaples.html',1,'']]],
   ['expl_5fstrs',['expl_strs',['../navier1_8f.html#a789faa9c06d9b594a8e0fbf544fe56f6',1,'navier1.f']]],
   ['expl_5fstrs_5fe',['expl_strs_e',['../navier1_8f.html#a4a8bc3b0fab2bbadf9a1099eb148c74d',1,'navier1.f']]],
   ['expl_5fstrs_5fe_5f2d',['expl_strs_e_2d',['../navier1_8f.html#aacfe29cc810b300b4d17287893d32bdd',1,'navier1.f']]],

@@ -165,16 +165,18 @@ Functions</h2></td></tr>
 </dd></dl>
 <dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpt_param_get</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e">checkpoint_main</a></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000002">Global parameter list:</a></b></dt><dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000001">Global parameter list:</a></b></dt><dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
 <tr>
-<td>ifchkptrst </td><td>logical </td><td>_chkpoint:ifchkptrst </td><td>if restart </td></tr>
+<td>chpt_step </td><td>integer </td><td>_chkpoint:chkpInterval </td><td>checkpiont dump frequency (number of time steps) </td></tr>
 <tr>
-<td>chkptstep </td><td>integer </td><td>_chkpoint:chkptstep </td><td>checkpiont dump frequency (number of time steps) </td></tr>
+<td>chpt_ifrst </td><td>logical </td><td>_chkpoint:readchkpt </td><td>if restart </td></tr>
+<tr>
+<td>chpt_fnum </td><td>integer </td><td>_chkpoint:chkpFnumber </td><td>restart file number </td></tr>
 </table>
 </dd></dl>
-<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkptstep = 10</div><div class="line">ifchkptrst = no</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkpInterval = 10</div><div class="line">readchkpt = no</div><div class="line">chkpFnumber = 1</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga88fcb2f36a4d52f6abaaae62e4ad228e"></a>
 <div class="memitem">
@@ -192,7 +194,7 @@ Functions</h2></td></tr>
 <p>Main checkpoint interface. </p>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00049">49</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00081">81</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
 <p>References <a class="el" href="chkptd_8f_source.html#l00010">chkpt_init()</a>, <a class="el" href="chkptd_8f_source.html#l00018">chkpt_read()</a>, and <a class="el" href="chkptd_8f_source.html#l00026">chkpt_write()</a>.</p>
 
@@ -242,7 +244,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00010">10</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, and <a class="el" href="runparam_8f_source.html#l00021">rprm_check()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -251,8 +253,10 @@ Functions</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph.png" border="0" usemap="#group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph" alt=""/></div>
 <map name="group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph" id="group__chkpoint_ga295cd675834c01792013599f86bbc29c_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="176,5,231,32"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="279,5,361,32"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="194,5,249,32"/>
+<area shape="rect" id="node4" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105" title="Check consistency of module&#39;s runtime parameters. " alt="" coords="176,56,267,83"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="315,5,397,32"/>
+<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="331,56,381,83"/>
 </map>
 </div>
 </p>
@@ -264,7 +268,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 2 2017 13:26:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
