@@ -112,75 +112,86 @@ $(document).ready(function(){initNavTree('diffusive__cmt_8f.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>routines for diffusive fluxes. Some surface. Some volume. All pain. Jacobians and other factorizations.  
+<a href="#details">More...</a></p>
+
 <p><a href="diffusive__cmt_8f_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a57cdf5eb9ed721fdf3cd454454b47122"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a57cdf5eb9ed721fdf3cd454454b47122">imqqtu</a> (ummcu, uminus, uplus)</td></tr>
-<tr class="separator:a57cdf5eb9ed721fdf3cd454454b47122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91926b5318e6fa4f134cf4de38b70e41"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a91926b5318e6fa4f134cf4de38b70e41">fluxj_ns_vol</a> (flux, gradu, e, eq)</td></tr>
-<tr class="separator:a91926b5318e6fa4f134cf4de38b70e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae91c57065b4d456dc3af7d32a532efcb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#ae91c57065b4d456dc3af7d32a532efcb">fluxj_vol</a> (flux, gradu, e, eq)</td></tr>
-<tr class="separator:ae91c57065b4d456dc3af7d32a532efcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6be95fc029154e9e1ad071e0ec7bdf53"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a6be95fc029154e9e1ad071e0ec7bdf53">agradu_sfc</a> (gijklu, gvar, du, eq)</td></tr>
-<tr class="separator:a6be95fc029154e9e1ad071e0ec7bdf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41c964dc4e828ea61244b4721cf821ac"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a41c964dc4e828ea61244b4721cf821ac">agradu_vol</a> (gijklu, dut, e, eq, jflux)</td></tr>
-<tr class="separator:a41c964dc4e828ea61244b4721cf821ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eabf6b7a9ac89946844ab77cb31a496"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a2eabf6b7a9ac89946844ab77cb31a496">agradu_ns_sfc</a> (gijklu, gvar, du, visco, eq, jflux, kdir)</td></tr>
-<tr class="separator:a2eabf6b7a9ac89946844ab77cb31a496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6464bb2594bbe03bf87c1fa004d7416f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a6464bb2594bbe03bf87c1fa004d7416f">agradu_ns_vol</a> (gijklu, dut, visco, e, eq, jflux, kdir)</td></tr>
-<tr class="separator:a6464bb2594bbe03bf87c1fa004d7416f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0d85531a9af69b9d464571ca530e5d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d">fluxj_ns</a> (flux, gradu, e, eq)</td></tr>
+<tr class="memdesc:a2c0d85531a9af69b9d464571ca530e5d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ \tau_{ij}=2 \mu\sigma_{ij} + \lambda \Delta \delta_{ij}$" src="form_34.png"/> Navier-Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima-generated code  <a href="#a2c0d85531a9af69b9d464571ca530e5d">More...</a><br /></td></tr>
+<tr class="separator:a2c0d85531a9af69b9d464571ca530e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3683ff121ed541c445d78e7d86e85b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a1c3683ff121ed541c445d78e7d86e85b">fluxj_evm</a> (flux, du, e, eq)</td></tr>
+<tr class="memdesc:a1c3683ff121ed541c445d78e7d86e85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">viscous flux jacobian for entropy viscosity Euler regularization of Guermond and Popov (2014) SIAM JAM 74(2) that do NOT overlap with the compressible Navier-Stokes equations (NS).  <a href="#a1c3683ff121ed541c445d78e7d86e85b">More...</a><br /></td></tr>
+<tr class="separator:a1c3683ff121ed541c445d78e7d86e85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90ef567419c8aa503af50a7e747c884e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a90ef567419c8aa503af50a7e747c884e">half_iku_cmt</a> (res, diffh, e)</td></tr>
 <tr class="separator:a90ef567419c8aa503af50a7e747c884e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15f8f8f0e3d305dc065f004aa09de57c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a15f8f8f0e3d305dc065f004aa09de57c">compute_transport_props</a></td></tr>
 <tr class="separator:a15f8f8f0e3d305dc065f004aa09de57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34cccfbb67ddce8c68e7f2742a94af96"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a34cccfbb67ddce8c68e7f2742a94af96">a51klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a34cccfbb67ddce8c68e7f2742a94af96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d6f5b90772f9f1082fba425cece421"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#ad8d6f5b90772f9f1082fba425cece421">a52klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:ad8d6f5b90772f9f1082fba425cece421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68680b2ed51dce76ed38535fee8c7f63"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a68680b2ed51dce76ed38535fee8c7f63">a53klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a68680b2ed51dce76ed38535fee8c7f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7818a3a1981f80b10cfc4f1d93d5babc"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a7818a3a1981f80b10cfc4f1d93d5babc">a21klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a7818a3a1981f80b10cfc4f1d93d5babc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608f83273074946557a9015117c11670"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a608f83273074946557a9015117c11670">a22klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a608f83273074946557a9015117c11670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9271a9b027c374b2b2fba0f7f0e00a1e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a9271a9b027c374b2b2fba0f7f0e00a1e">a23klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a9271a9b027c374b2b2fba0f7f0e00a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3485906a061442ec51929856cc8f4d4a"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a3485906a061442ec51929856cc8f4d4a">a31klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a3485906a061442ec51929856cc8f4d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a280e4b1d5fbba00356ca9120709fa0"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a2a280e4b1d5fbba00356ca9120709fa0">a32klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a2a280e4b1d5fbba00356ca9120709fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b542714fa89c4288fa5846a11cc28b1"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a4b542714fa89c4288fa5846a11cc28b1">a33klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a4b542714fa89c4288fa5846a11cc28b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5ee49aa820086e3596a1a91e9dc799"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a8b5ee49aa820086e3596a1a91e9dc799">a41klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a8b5ee49aa820086e3596a1a91e9dc799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf0c00202b223c51bed9c61c7937bc6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a7cf0c00202b223c51bed9c61c7937bc6">a42klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a7cf0c00202b223c51bed9c61c7937bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d4c71aaaae94de9cd5f41a93836699a"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="diffusive__cmt_8f.html#a7d4c71aaaae94de9cd5f41a93836699a">a43klduldxk</a> (flux, dU, ie)</td></tr>
+<tr class="separator:a7d4c71aaaae94de9cd5f41a93836699a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga57cdf5eb9ed721fdf3cd454454b47122"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vsurf.html#ga57cdf5eb9ed721fdf3cd454454b47122">imqqtu</a> (ummcu, uminus, uplus)</td></tr>
+<tr class="memdesc:ga57cdf5eb9ed721fdf3cd454454b47122"><td class="mdescLeft">&#160;</td><td class="mdescRight">ummcu = <img class="formulaInl" alt="$\mathbf{U}^--\{\{\mathbf{U}\}\}$" src="form_22.png"/>  <a href="group__vsurf.html#ga57cdf5eb9ed721fdf3cd454454b47122">More...</a><br /></td></tr>
+<tr class="separator:ga57cdf5eb9ed721fdf3cd454454b47122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga01708cdee955465babb7a371d4e5effa"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bcond.html#ga01708cdee955465babb7a371d4e5effa">imqqtu_dirichlet</a> (umubc, wminus, wplus)</td></tr>
+<tr class="memdesc:ga01708cdee955465babb7a371d4e5effa"><td class="mdescLeft">&#160;</td><td class="mdescRight">umubc = <img class="formulaInl" alt="$\mathbf{U}^--\mathbf{U}^D$" src="form_23.png"/>  <a href="group__bcond.html#ga01708cdee955465babb7a371d4e5effa">More...</a><br /></td></tr>
+<tr class="separator:ga01708cdee955465babb7a371d4e5effa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga9087d56c6c467d3ffeb9aa6be3f43e82"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82">agradu</a> (flux, du, e, eq)</td></tr>
+<tr class="memdesc:ga9087d56c6c467d3ffeb9aa6be3f43e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">flux = <img class="formulaInl" alt="$\mathscr{A}$" src="form_24.png"/> dU = <img class="formulaInl" alt="$\left(\mathscr{A}^{\mbox{NS}}+\mathscr{A}^{\mbox{EVM}}\right) $" src="form_25.png"/>dU  <a href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82">More...</a><br /></td></tr>
+<tr class="separator:ga9087d56c6c467d3ffeb9aa6be3f43e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a2eabf6b7a9ac89946844ab77cb31a496"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>routines for diffusive fluxes. Some surface. Some volume. All pain. Jacobians and other factorizations. </p>
+
+<p>Definition in file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a class="anchor" id="a7818a3a1981f80b10cfc4f1d93d5babc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine agradu_ns_sfc </td>
+          <td class="memname">subroutine a21klduldxk </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz*nelt)&#160;</td>
-          <td class="paramname"><em>gijklu</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz*nelt,*)&#160;</td>
-          <td class="paramname"><em>gvar</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz*nelt,toteq)&#160;</td>
-          <td class="paramname"><em>du</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz*nelt)&#160;</td>
-          <td class="paramname"><em>visco</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>eq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>jflux</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>kdir</em>&#160;</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -190,82 +201,48 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00177">177</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00497">497</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l01863">add2col2()</a>, <a class="el" href="math_8f_source.html#l00927">add2s2()</a>, <a class="el" href="math_8f_source.html#l00854">add3()</a>, <a class="el" href="math_8f_source.html#l00878">addcol3()</a>, <a class="el" href="math_8f_source.html#l00226">addcol4()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="math_8f_source.html#l00109">invcol2()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, <a class="el" href="math_8f_source.html#l00298">sub3()</a>, <a class="el" href="math_8f_source.html#l00346">subcol4()</a>, and <a class="el" href="math_8f_source.html#l00669">vdot3()</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a2eabf6b7a9ac89946844ab77cb31a496_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a2eabf6b7a9ac89946844ab77cb31a496_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a2eabf6b7a9ac89946844ab77cb31a496_cgraph" id="diffusive__cmt_8f_a2eabf6b7a9ac89946844ab77cb31a496_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a1c8c804ea900711911c4c33fe1f5b184" title="add2col2" alt="" coords="160,5,235,32"/>
-<area shape="rect" id="node3" href="math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="165,56,229,83"/>
-<area shape="rect" id="node4" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="172,107,223,133"/>
-<area shape="rect" id="node5" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="164,157,231,184"/>
-<area shape="rect" id="node6" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="164,208,231,235"/>
-<area shape="rect" id="node7" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="172,259,223,285"/>
-<area shape="rect" id="node8" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="166,309,229,336"/>
-<area shape="rect" id="node11" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="172,360,223,387"/>
-<area shape="rect" id="node12" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="172,411,223,437"/>
-<area shape="rect" id="node13" href="math_8f.html#ac9219dc2eaa5e911fe7227ac36effd1a" title="subcol4" alt="" coords="164,461,231,488"/>
-<area shape="rect" id="node14" href="math_8f.html#af1b95db3cc8ee10635deec9d7c241e82" title="vdot3" alt="" coords="170,512,225,539"/>
-<area shape="rect" id="node9" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="283,309,364,336"/>
-<area shape="rect" id="node10" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="412,309,497,336"/>
-<area shape="rect" id="node15" href="genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="303,512,343,539"/>
+<div class="center"><img src="diffusive__cmt_8f_a7818a3a1981f80b10cfc4f1d93d5babc_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a7818a3a1981f80b10cfc4f1d93d5babc_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a7818a3a1981f80b10cfc4f1d93d5babc_icgraph" id="diffusive__cmt_8f_a7818a3a1981f80b10cfc4f1d93d5babc_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a6464bb2594bbe03bf87c1fa004d7416f"></a>
+<a class="anchor" id="a608f83273074946557a9015117c11670"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine agradu_ns_vol </td>
+          <td class="memname">subroutine a22klduldxk </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz)&#160;</td>
-          <td class="paramname"><em>gijklu</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz,toteq)&#160;</td>
-          <td class="paramname"><em>dut</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz)&#160;</td>
-          <td class="paramname"><em>visco</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>eq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>jflux</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>kdir</em>&#160;</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -275,76 +252,99 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00328">328</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00524">524</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00927">add2s2()</a>, <a class="el" href="math_8f_source.html#l00854">add3()</a>, <a class="el" href="math_8f_source.html#l00878">addcol3()</a>, <a class="el" href="math_8f_source.html#l00226">addcol4()</a>, <a class="el" href="math_8f_source.html#l00470">cmult()</a>, <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="math_8f_source.html#l00109">invcol2()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, <a class="el" href="math_8f_source.html#l00298">sub3()</a>, <a class="el" href="math_8f_source.html#l00346">subcol4()</a>, and <a class="el" href="math_8f_source.html#l00015">vsq()</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_cgraph" id="diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="161,5,225,32"/>
-<area shape="rect" id="node3" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="168,56,219,83"/>
-<area shape="rect" id="node4" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="160,107,227,133"/>
-<area shape="rect" id="node5" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="160,157,227,184"/>
-<area shape="rect" id="node6" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="166,208,221,235"/>
-<area shape="rect" id="node7" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="170,259,217,285"/>
-<area shape="rect" id="node8" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="168,309,219,336"/>
-<area shape="rect" id="node9" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="162,360,225,387"/>
-<area shape="rect" id="node12" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="168,411,219,437"/>
-<area shape="rect" id="node13" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="168,461,219,488"/>
-<area shape="rect" id="node14" href="math_8f.html#ac9219dc2eaa5e911fe7227ac36effd1a" title="subcol4" alt="" coords="160,512,227,539"/>
-<area shape="rect" id="node15" href="math_8f.html#ad9302b7348ff4cd0ee27dc4f688533b5" title="vsq" alt="" coords="172,563,215,589"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="275,360,356,387"/>
-<area shape="rect" id="node11" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="404,360,489,387"/>
+<div class="center"><img src="diffusive__cmt_8f_a608f83273074946557a9015117c11670_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a608f83273074946557a9015117c11670_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a608f83273074946557a9015117c11670_icgraph" id="diffusive__cmt_8f_a608f83273074946557a9015117c11670_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a9271a9b027c374b2b2fba0f7f0e00a1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a23klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00545">545</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_icgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_icgraph" id="diffusive__cmt_8f_a6464bb2594bbe03bf87c1fa004d7416f_icgraph">
-<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a91926b5318e6fa4f134cf4de38b70e41" title="fluxj_ns_vol" alt="" coords="160,5,251,32"/>
+<div class="center"><img src="diffusive__cmt_8f_a9271a9b027c374b2b2fba0f7f0e00a1e_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a9271a9b027c374b2b2fba0f7f0e00a1e_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a9271a9b027c374b2b2fba0f7f0e00a1e_icgraph" id="diffusive__cmt_8f_a9271a9b027c374b2b2fba0f7f0e00a1e_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a6be95fc029154e9e1ad071e0ec7bdf53"></a>
+<a class="anchor" id="a3485906a061442ec51929856cc8f4d4a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine agradu_sfc </td>
+          <td class="memname">subroutine a31klduldxk </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1*2*ndim*nelt)&#160;</td>
-          <td class="paramname"><em>gijklu</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1*2*ndim*nelt,*)&#160;</td>
-          <td class="paramname"><em>gvar</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1*2*ndim*nelt,toteq)&#160;</td>
-          <td class="paramname"><em>du</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>eq</em>&#160;</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -354,71 +354,99 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00106">106</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00567">567</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00806">col3()</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_cgraph" id="diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="140,5,187,32"/>
+<div class="center"><img src="diffusive__cmt_8f_a3485906a061442ec51929856cc8f4d4a_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a3485906a061442ec51929856cc8f4d4a_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a3485906a061442ec51929856cc8f4d4a_icgraph" id="diffusive__cmt_8f_a3485906a061442ec51929856cc8f4d4a_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a2a280e4b1d5fbba00356ca9120709fa0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a32klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00588">588</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_icgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_icgraph" id="diffusive__cmt_8f_a6be95fc029154e9e1ad071e0ec7bdf53_icgraph">
-<area shape="rect" id="node2" href="eqnsolver__cmt_8f.html#a98d826061a0ffb225d37cb73b86a9475" title="igtu_cmt" alt="" coords="140,5,212,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="260,5,403,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="451,5,579,32"/>
+<div class="center"><img src="diffusive__cmt_8f_a2a280e4b1d5fbba00356ca9120709fa0_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a2a280e4b1d5fbba00356ca9120709fa0_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a2a280e4b1d5fbba00356ca9120709fa0_icgraph" id="diffusive__cmt_8f_a2a280e4b1d5fbba00356ca9120709fa0_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a41c964dc4e828ea61244b4721cf821ac"></a>
+<a class="anchor" id="a4b542714fa89c4288fa5846a11cc28b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine agradu_vol </td>
+          <td class="memname">subroutine a33klduldxk </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz)&#160;</td>
-          <td class="paramname"><em>gijklu</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lxyz,toteq)&#160;</td>
-          <td class="paramname"><em>dut</em>, </td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>eq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>jflux</em>&#160;</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -428,32 +456,327 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00151">151</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00615">615</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_cgraph" id="diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="139,5,185,32"/>
+<div class="center"><img src="diffusive__cmt_8f_a4b542714fa89c4288fa5846a11cc28b1_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a4b542714fa89c4288fa5846a11cc28b1_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a4b542714fa89c4288fa5846a11cc28b1_icgraph" id="diffusive__cmt_8f_a4b542714fa89c4288fa5846a11cc28b1_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b5ee49aa820086e3596a1a91e9dc799"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a41klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00637">637</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_icgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_icgraph" id="diffusive__cmt_8f_a41c964dc4e828ea61244b4721cf821ac_icgraph">
-<area shape="rect" id="node2" href="diffusive__cmt_8f.html#ae91c57065b4d456dc3af7d32a532efcb" title="fluxj_vol" alt="" coords="139,5,209,32"/>
-<area shape="rect" id="node3" href="eqnsolver__cmt_8f.html#a6d611a250fb98acf77e8a3880c0e608d" title="viscous_cmt" alt="" coords="257,5,353,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="401,5,544,32"/>
+<div class="center"><img src="diffusive__cmt_8f_a8b5ee49aa820086e3596a1a91e9dc799_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a8b5ee49aa820086e3596a1a91e9dc799_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a8b5ee49aa820086e3596a1a91e9dc799_icgraph" id="diffusive__cmt_8f_a8b5ee49aa820086e3596a1a91e9dc799_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7cf0c00202b223c51bed9c61c7937bc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a42klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00658">658</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a7cf0c00202b223c51bed9c61c7937bc6_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a7cf0c00202b223c51bed9c61c7937bc6_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a7cf0c00202b223c51bed9c61c7937bc6_icgraph" id="diffusive__cmt_8f_a7cf0c00202b223c51bed9c61c7937bc6_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d4c71aaaae94de9cd5f41a93836699a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a43klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00679">679</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a7d4c71aaaae94de9cd5f41a93836699a_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a7d4c71aaaae94de9cd5f41a93836699a_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a7d4c71aaaae94de9cd5f41a93836699a_icgraph" id="diffusive__cmt_8f_a7d4c71aaaae94de9cd5f41a93836699a_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a34cccfbb67ddce8c68e7f2742a94af96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a51klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00363">363</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a34cccfbb67ddce8c68e7f2742a94af96_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a34cccfbb67ddce8c68e7f2742a94af96_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a34cccfbb67ddce8c68e7f2742a94af96_icgraph" id="diffusive__cmt_8f_a34cccfbb67ddce8c68e7f2742a94af96_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad8d6f5b90772f9f1082fba425cece421"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a52klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00408">408</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_ad8d6f5b90772f9f1082fba425cece421_icgraph.png" border="0" usemap="#diffusive__cmt_8f_ad8d6f5b90772f9f1082fba425cece421_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_ad8d6f5b90772f9f1082fba425cece421_icgraph" id="diffusive__cmt_8f_ad8d6f5b90772f9f1082fba425cece421_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a68680b2ed51dce76ed38535fee8c7f63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a53klduldxk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00452">452</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a68680b2ed51dce76ed38535fee8c7f63_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a68680b2ed51dce76ed38535fee8c7f63_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a68680b2ed51dce76ed38535fee8c7f63_icgraph" id="diffusive__cmt_8f_a68680b2ed51dce76ed38535fee8c7f63_icgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
+<area shape="rect" id="node3" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
+<area shape="rect" id="node4" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
 </map>
 </div>
 </p>
@@ -473,15 +796,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00523">523</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00323">323</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p>References <a class="el" href="driver3__cmt_8f_source.html#l00099">cmtasgn()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, and <a class="el" href="bdry_8f_source.html#l01155">nekasgn()</a>.</p>
+<p>References <a class="el" href="driver3__cmt_8f_source.html#l00106">cmtasgn()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, and <a class="el" href="bdry_8f_source.html#l01155">nekasgn()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_cgraph" alt=""/></div>
 <map name="diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_cgraph" id="diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_cgraph">
 <area shape="rect" id="node2" href="driver3__cmt_8f.html#a0427858fb7b0c582bcd5ff776de86a09" title="cmtasgn" alt="" coords="223,5,295,32"/>
@@ -490,28 +813,110 @@ Functions/Subroutines</h2></td></tr>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_icgraph" alt=""/></div>
 <map name="diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_icgraph" id="diffusive__cmt_8f_a15f8f8f0e3d305dc065f004aa09de57c_icgraph">
-<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="223,5,365,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="413,5,541,32"/>
-<area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="589,5,688,32"/>
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="413,5,541,32"/>
+<area shape="rect" id="node5" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="223,31,365,57"/>
+<area shape="rect" id="node3" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="589,5,688,32"/>
+<area shape="rect" id="node4" href="drive1_8f.html#a18d3e839786263fc4cf91f7eeb714371" title="nek__multi_advance" alt="" coords="736,5,877,32"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a91926b5318e6fa4f134cf4de38b70e41"></a>
+<a class="anchor" id="a1c3683ff121ed541c445d78e7d86e85b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine fluxj_ns_vol </td>
+          <td class="memname">subroutine fluxj_evm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,ndim)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,ndim)&#160;</td>
+          <td class="paramname"><em>du</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>eq</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>viscous flux jacobian for entropy viscosity Euler regularization of Guermond and Popov (2014) SIAM JAM 74(2) that do NOT overlap with the compressible Navier-Stokes equations (NS). </p>
+
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00235">235</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+
+<p>References <a class="el" href="math_8f_source.html#l00878">addcol3()</a>, <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="math_8f_source.html#l00178">col4()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="math_8f_source.html#l00109">invcol2()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="math_8f_source.html#l00274">sub2()</a>, <a class="el" href="math_8f_source.html#l00654">vdot2()</a>, and <a class="el" href="math_8f_source.html#l00669">vdot3()</a>.</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_cgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_cgraph" id="diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="132,5,199,32"/>
+<area shape="rect" id="node3" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="142,56,189,83"/>
+<area shape="rect" id="node4" href="math_8f.html#a73c11da474d84d5c1ae59109d7ffbaa7" title="col4" alt="" coords="142,107,189,133"/>
+<area shape="rect" id="node5" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="140,157,191,184"/>
+<area shape="rect" id="node6" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="134,208,197,235"/>
+<area shape="rect" id="node9" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="140,259,191,285"/>
+<area shape="rect" id="node10" href="math_8f.html#a64ef70b7a7c5c88813f82b60527b7485" title="vdot2" alt="" coords="138,309,193,336"/>
+<area shape="rect" id="node12" href="math_8f.html#af1b95db3cc8ee10635deec9d7c241e82" title="vdot3" alt="" coords="138,360,193,387"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="247,208,328,235"/>
+<area shape="rect" id="node8" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="376,208,461,235"/>
+<area shape="rect" id="node11" href="genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="267,335,307,361"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_icgraph" id="diffusive__cmt_8f_a1c3683ff121ed541c445d78e7d86e85b_icgraph">
+<area shape="rect" id="node2" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="132,31,193,57"/>
+<area shape="rect" id="node3" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="241,5,337,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="253,56,325,83"/>
+<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="385,31,528,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c0d85531a9af69b9d464571ca530e5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine fluxj_ns </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,ndim)&#160;</td>
           <td class="paramname"><em>flux</em>, </td>
@@ -542,100 +947,47 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00029">29</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p><img class="formulaInl" alt="$ \tau_{ij}=2 \mu\sigma_{ij} + \lambda \Delta \delta_{ij}$" src="form_34.png"/> Navier-Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima-generated code </p>
 
-<p>References <a class="el" href="diffusive__cmt_8f_source.html#l00328">agradu_ns_vol()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00158">158</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="diffusive__cmt_8f_source.html#l00497">a21klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00524">a22klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00545">a23klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00567">a31klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00588">a32klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00615">a33klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00637">a41klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00658">a42klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00679">a43klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00363">a51klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00408">a52klduldxk()</a>, <a class="el" href="diffusive__cmt_8f_source.html#l00452">a53klduldxk()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a91926b5318e6fa4f134cf4de38b70e41_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a91926b5318e6fa4f134cf4de38b70e41_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a91926b5318e6fa4f134cf4de38b70e41_cgraph" id="diffusive__cmt_8f_a91926b5318e6fa4f134cf4de38b70e41_cgraph">
-<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a6464bb2594bbe03bf87c1fa004d7416f" title="agradu_ns_vol" alt="" coords="144,309,251,336"/>
-<area shape="rect" id="node12" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="307,563,357,589"/>
-<area shape="rect" id="node3" href="math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="300,5,364,32"/>
-<area shape="rect" id="node4" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="307,56,357,83"/>
-<area shape="rect" id="node5" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="299,107,365,133"/>
-<area shape="rect" id="node6" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="299,157,365,184"/>
-<area shape="rect" id="node7" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="305,208,359,235"/>
-<area shape="rect" id="node8" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="309,259,355,285"/>
-<area shape="rect" id="node9" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="307,309,357,336"/>
-<area shape="rect" id="node10" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="301,360,363,387"/>
-<area shape="rect" id="node13" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="307,411,357,437"/>
-<area shape="rect" id="node14" href="math_8f.html#ac9219dc2eaa5e911fe7227ac36effd1a" title="subcol4" alt="" coords="299,461,365,488"/>
-<area shape="rect" id="node15" href="math_8f.html#ad9302b7348ff4cd0ee27dc4f688533b5" title="vsq" alt="" coords="311,512,353,539"/>
-<area shape="rect" id="node11" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="413,360,495,387"/>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_cgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_cgraph" id="diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_cgraph">
+<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a7818a3a1981f80b10cfc4f1d93d5babc" title="a21klduldxk" alt="" coords="120,5,211,32"/>
+<area shape="rect" id="node3" href="diffusive__cmt_8f.html#a608f83273074946557a9015117c11670" title="a22klduldxk" alt="" coords="120,56,211,83"/>
+<area shape="rect" id="node4" href="diffusive__cmt_8f.html#a9271a9b027c374b2b2fba0f7f0e00a1e" title="a23klduldxk" alt="" coords="120,107,211,133"/>
+<area shape="rect" id="node5" href="diffusive__cmt_8f.html#a3485906a061442ec51929856cc8f4d4a" title="a31klduldxk" alt="" coords="120,157,211,184"/>
+<area shape="rect" id="node6" href="diffusive__cmt_8f.html#a2a280e4b1d5fbba00356ca9120709fa0" title="a32klduldxk" alt="" coords="120,208,211,235"/>
+<area shape="rect" id="node7" href="diffusive__cmt_8f.html#a4b542714fa89c4288fa5846a11cc28b1" title="a33klduldxk" alt="" coords="120,259,211,285"/>
+<area shape="rect" id="node8" href="diffusive__cmt_8f.html#a8b5ee49aa820086e3596a1a91e9dc799" title="a41klduldxk" alt="" coords="120,309,211,336"/>
+<area shape="rect" id="node9" href="diffusive__cmt_8f.html#a7cf0c00202b223c51bed9c61c7937bc6" title="a42klduldxk" alt="" coords="120,360,211,387"/>
+<area shape="rect" id="node10" href="diffusive__cmt_8f.html#a7d4c71aaaae94de9cd5f41a93836699a" title="a43klduldxk" alt="" coords="120,411,211,437"/>
+<area shape="rect" id="node11" href="diffusive__cmt_8f.html#a34cccfbb67ddce8c68e7f2742a94af96" title="a51klduldxk" alt="" coords="120,461,211,488"/>
+<area shape="rect" id="node12" href="diffusive__cmt_8f.html#ad8d6f5b90772f9f1082fba425cece421" title="a52klduldxk" alt="" coords="120,512,211,539"/>
+<area shape="rect" id="node13" href="diffusive__cmt_8f.html#a68680b2ed51dce76ed38535fee8c7f63" title="a53klduldxk" alt="" coords="120,563,211,589"/>
+<area shape="rect" id="node14" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="140,613,191,640"/>
 </map>
 </div>
 </p>
 
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-</div>
-<a class="anchor" id="ae91c57065b4d456dc3af7d32a532efcb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine fluxj_vol </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,ndim)&#160;</td>
-          <td class="paramname"><em>flux</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*ny1*nz1,toteq,ndim)&#160;</td>
-          <td class="paramname"><em>gradu</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>eq</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00089">89</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
-
-<p>References <a class="el" href="diffusive__cmt_8f_source.html#l00151">agradu_vol()</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
-
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_cgraph.png" border="0" usemap="#diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_cgraph" id="diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_cgraph">
-<area shape="rect" id="node2" href="diffusive__cmt_8f.html#a41c964dc4e828ea61244b4721cf821ac" title="agradu_vol" alt="" coords="124,5,209,32"/>
-<area shape="rect" id="node3" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="257,5,304,32"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_icgraph.png" border="0" usemap="#diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_icgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_icgraph" id="diffusive__cmt_8f_ae91c57065b4d456dc3af7d32a532efcb_icgraph">
-<area shape="rect" id="node2" href="eqnsolver__cmt_8f.html#a6d611a250fb98acf77e8a3880c0e608d" title="viscous_cmt" alt="" coords="124,5,220,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="268,5,411,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="459,5,587,32"/>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_icgraph" alt=""/></div>
+<map name="diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_icgraph" id="diffusive__cmt_8f_a2c0d85531a9af69b9d464571ca530e5d_icgraph">
+<area shape="rect" id="node2" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="120,31,181,57"/>
+<area shape="rect" id="node3" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="229,5,325,32"/>
+<area shape="rect" id="node5" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="241,56,313,83"/>
+<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="373,31,516,57"/>
 </map>
 </div>
 </p>
@@ -672,15 +1024,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00500">500</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
+<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00300">300</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="intpdiff_8f_source.html#l00192">gradm11_t()</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="intpdiff_8f_source.html#l00194">gradm11_t()</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_cgraph" alt=""/></div>
 <map name="diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_cgraph" id="diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_cgraph">
 <area shape="rect" id="node2" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="167,56,214,83"/>
@@ -695,80 +1047,16 @@ Functions/Subroutines</h2></td></tr>
 </div>
 </p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_icgraph" alt=""/></div>
 <map name="diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_icgraph" id="diffusive__cmt_8f_a90ef567419c8aa503af50a7e747c884e_icgraph">
-<area shape="rect" id="node2" href="eqnsolver__cmt_8f.html#a6d611a250fb98acf77e8a3880c0e608d" title="viscous_cmt" alt="" coords="149,5,245,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="293,5,436,32"/>
+<area shape="rect" id="node2" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="149,5,245,32"/>
+<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="293,5,436,32"/>
 <area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="484,5,612,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a57cdf5eb9ed721fdf3cd454454b47122"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine imqqtu </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension (nx1*nz1*2*ndim*nelt,toteq)&#160;</td>
-          <td class="paramname"><em>ummcu</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1*2*ndim*nelt,toteq)&#160;</td>
-          <td class="paramname"><em>uminus</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension (nx1*nz1*2*ndim*nelt,toteq)&#160;</td>
-          <td class="paramname"><em>uplus</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="diffusive__cmt_8f_source.html#l00002">2</a> of file <a class="el" href="diffusive__cmt_8f_source.html">diffusive_cmt.f</a>.</p>
-
-<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="math_8f_source.html#l00854">add3()</a>, and <a class="el" href="math_8f_source.html#l00470">cmult()</a>.</p>
-
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_cgraph.png" border="0" usemap="#diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_cgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_cgraph" id="diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="117,5,167,32"/>
-<area shape="rect" id="node3" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="117,56,167,83"/>
-<area shape="rect" id="node4" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="115,107,169,133"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_icgraph.png" border="0" usemap="#diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_icgraph" alt=""/></div>
-<map name="diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_icgraph" id="diffusive__cmt_8f_a57cdf5eb9ed721fdf3cd454454b47122_icgraph">
-<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="115,5,257,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="305,5,433,32"/>
-<area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="481,5,580,32"/>
 </map>
 </div>
 </p>
@@ -781,7 +1069,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="diffusive__cmt_8f.html">diffusive_cmt.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

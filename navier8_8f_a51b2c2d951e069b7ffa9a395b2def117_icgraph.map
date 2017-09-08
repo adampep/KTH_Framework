@@ -8,7 +8,7 @@
 <area shape="rect" id="node3" href="$face_8f.html#a7030c76781d497bc17d369a40670ef59" title="setup_cmt_commo" alt="" coords="288,17,421,44"/>
 <area shape="rect" id="node4" href="$drive2__cmt_8f.html#a61e619e5f36fba502299223ac6513879" title="nek_cmt_init" alt="" coords="637,5,733,32"/>
 <area shape="rect" id="node5" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="803,107,869,133"/>
-<area shape="rect" id="node7" href="$convect_8f.html#a3b764ba6cf35187ac351c3072456c805" title="dg_setup" alt="" coords="648,56,723,83"/>
+<area shape="rect" id="node7" href="$conduct_8f.html#a3b764ba6cf35187ac351c3072456c805" title="dg_setup" alt="" coords="648,56,723,83"/>
 <area shape="rect" id="node9" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="311,157,398,184"/>
 <area shape="rect" id="node11" href="$connect1_8f.html#a39e70815f3e1b27b219e8d1ec15d2c76" title="setup_mesh_dssum" alt="" coords="616,183,755,209"/>
 <area shape="rect" id="node12" href="$hsmg_8f.html#ae0fd4b116048f3b3c3efe9116ae63a58" title="hsmg_setup_dssum" alt="" coords="285,259,424,285"/>

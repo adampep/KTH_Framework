@@ -96,8 +96,6 @@ var navier1_8f =
     [ "setordbd", "navier1_8f.html#a89c75c05d50853b69faee420ccfa6c71", null ],
     [ "setproj", "navier1_8f.html#ab739e9434270ea19385f64504a29adf8", null ],
     [ "settbar", "navier1_8f.html#aab1c2fc0c0d13d9db49c68319abf43c4", null ],
-    [ "spbfapf", "navier1_8f.html#a93ec596e6a3e62e02d7fd6ceb81b4019", null ],
-    [ "spbslpf", "navier1_8f.html#a6aae7a2fbfc04e8bb4ad90b0d7c2d880", null ],
     [ "specmp", "navier1_8f.html#a20934009ab8a550857444068a025ba28", null ],
     [ "tauinit", "navier1_8f.html#a1d7e53e8c5b7ff3bc926908031769ea3", null ],
     [ "uzawa", "navier1_8f.html#a159801e9971330a0281ce3a6f984b7de", null ],

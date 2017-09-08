@@ -120,6 +120,10 @@ Download</h1>
 git clone https://github.com/adampep/KTH_Toolbox -b master
 git clone https://github.com/adampep/KTH_Examples -b master
 </pre><p> or as a single framework by </p><pre class="fragment">git clone --recursive https://github.com/adampep/KTH_Framework
+</pre><p>The second method is preferred as Nek5000 repository has no development no stable branches and all the development goes directly to master branch. As stable releases are marked by tags the user has to be carful to clone Nek5000 version compatible with current tool version. On the other hand the submodule within KTH_Framework points to the speciffic commit in Nek5000 repository forcing consistency between tools and Nek5000 versions. For the same reason user has to be careful using </p><pre class="fragment">git submodule update --remote Nek5000
+</pre><p> as it would load all the new commits. The proper way of upgrading KTH_Fremwork is running from the main framwork directory </p><pre class="fragment">git fetch
+git merge origin/master
+git submodule update --recursive
 </pre><h1><a class="anchor" id="documentation"></a>
 Documentation</h1>
 <p>To make this platform easy to use we pay attention to <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> based documentation of every toll. It has to provide detailed description of the tool itsef, the routine interfaces, runtime parameters and possible dependencies between modules. The general description of every tool is given in <a class="el" href="group__toolbox.html">FRAMEWORK.txt</a>, which is present in almost every directory. This documentation is available online as GitHub Pages (gh-pages bfranch) and can be generated locally by executing at the top level of the local copy of KTH_Framework repository: </p><pre class="fragment">mkdir html
@@ -132,7 +136,7 @@ rm doxygen.warning
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:22 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

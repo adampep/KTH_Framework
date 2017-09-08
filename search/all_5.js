@@ -38,10 +38,10 @@ var searchData=
   ['evalr',['EVALR',['../findpts__local__test_8c.html#afbf1aa9c3df19666278cfc37e5027d5b',1,'EVALR():&#160;findpts_local_test.c'],['../findpts__test_8c.html#afbf1aa9c3df19666278cfc37e5027d5b',1,'EVALR():&#160;findpts_test.c']]],
   ['evals',['EVALS',['../findpts__local__test_8c.html#ac80e8c170b68e378b3dc828800d1971c',1,'EVALS():&#160;findpts_local_test.c'],['../findpts__test_8c.html#ac80e8c170b68e378b3dc828800d1971c',1,'EVALS():&#160;findpts_test.c']]],
   ['evalt',['EVALT',['../findpts__local__test_8c.html#ab583977facbc4bf2ebfdca4cf1e004e3',1,'EVALT():&#160;findpts_local_test.c'],['../findpts__test_8c.html#ab583977facbc4bf2ebfdca4cf1e004e3',1,'EVALT():&#160;findpts_test.c']]],
-  ['evaluate_5faliased_5fconv_5fh',['evaluate_aliased_conv_h',['../eqnsolver__cmt_8f.html#a31a0cc12d4267e68f636aaaf36218e10',1,'eqnsolver_cmt.f']]],
-  ['evaluate_5fdealiased_5fconv_5fh',['evaluate_dealiased_conv_h',['../eqnsolver__cmt_8f.html#a9d617d82935810e4d82dc4a78a21227e',1,'eqnsolver_cmt.f']]],
+  ['evaluate_5faliased_5fconv_5fh',['evaluate_aliased_conv_h',['../group__convhvol.html#ga31a0cc12d4267e68f636aaaf36218e10',1,'eqnsolver_cmt.f']]],
+  ['evaluate_5fdealiased_5fconv_5fh',['evaluate_dealiased_conv_h',['../group__convhvol.html#ga9d617d82935810e4d82dc4a78a21227e',1,'eqnsolver_cmt.f']]],
   ['ex',['ex',['../structpt__data.html#ab4ef0d196d6fdcaf5c2520ee8bd8e6c4',1,'pt_data']]],
-  ['exchange_5fpoints',['exchange_points',['../multimesh_8f.html#a3ba15c6cf501033c1f4344746f78ddae',1,'multimesh.f']]],
+  ['exchange_5fpoints2',['exchange_points2',['../multimesh_8f.html#a36121e3cb5285cd894af163ca9c6ae8e',1,'multimesh.f']]],
   ['exec',['exec',['../structgs__remote.html#aafd2bfe4b7b3035c5fe98aaea3300b90',1,'gs_remote']]],
   ['exec_5ffun',['exec_fun',['../gs_8c.html#a0c1c7576b516793ca0147c71b74ce1f9',1,'gs.c']]],
   ['exitt',['exitt',['../byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4',1,'exitt():&#160;comm_mpi.f'],['../comm__mpi_8f.html#a95f7432d962a41c5fe0063d0ef3da3d6',1,'exitt:&#160;comm_mpi.f']]],
@@ -54,6 +54,5 @@ var searchData=
   ['expl_5fstrs_5fe_5f3d',['expl_strs_e_3d',['../navier1_8f.html#aac43166944d00ed18c90907aec3422b4',1,'navier1.f']]],
   ['explstrs',['explstrs',['../navier1_8f.html#adb8531903f5120c809b929843e6eac16',1,'navier1.f']]],
   ['extrapp',['extrapp',['../induct_8f.html#a764e3ffe319c666d0c5ffebad5d6f2c0',1,'induct.f']]],
-  ['extrapp_5fold',['extrapp_old',['../planx_8f.html#a1a52d445e2e1482e07990411213f2bc4',1,'planx.f']]],
   ['extrapprp',['extrapprp',['../perturb_8f.html#a3b6bce9438ef2740a20cfb1121284358',1,'perturb.f']]]
 ];

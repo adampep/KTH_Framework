@@ -6,6 +6,6 @@
 <area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="304,107,371,133"/>
 <area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="288,157,387,184"/>
 <area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="292,208,383,235"/>
-<area shape="rect" id="node9" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="298,259,377,285"/>
+<area shape="rect" id="node9" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="293,259,382,285"/>
 <area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="298,309,377,336"/>
 </map>

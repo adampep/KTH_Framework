@@ -1,5 +1,5 @@
 <map id="vec_dssum" name="vec_dssum">
-<area shape="rect" id="node2" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="143,689,217,716"/>
+<area shape="rect" id="node2" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="143,664,217,691"/>
 <area shape="rect" id="node3" href="$bdry_8f.html#a5e0903491e201a238899a0151cffe273" title="check_cyclic" alt="" coords="265,5,364,32"/>
 <area shape="rect" id="node4" href="$connect1_8f.html#a39e70815f3e1b27b219e8d1ec15d2c76" title="setup_mesh_dssum" alt="" coords="571,56,709,83"/>
 <area shape="rect" id="node6" href="$ic_8f.html#acaefa33e86633e4a7a4b28347d4620d1" title="setics" alt="" coords="611,107,669,133"/>
@@ -12,18 +12,17 @@
 <area shape="rect" id="node22" href="$navier1_8f.html#ae6ed8f0409f034c9d0dff152a3445d90" title="makevis" alt="" coords="279,563,350,589"/>
 <area shape="rect" id="node25" href="$plan4_8f.html#a0afe6a03f628b5d52eeb491f7baff5b6" title="crespsp" alt="" coords="433,613,501,640"/>
 <area shape="rect" id="node26" href="$plan4_8f.html#a133b5c2a8f266ecb811b8baf380f0b76" title="op_curl" alt="" coords="283,664,347,691"/>
-<area shape="rect" id="node27" href="$plan4_8f.html#a68de6875b6cda8e2bea83f4adf2929d6" title="qthermal_ig" alt="" coords="270,715,359,741"/>
-<area shape="rect" id="node28" href="$prepost_8f.html#a18e056d10b6434b700a8f67a0b14c621" title="bdforce" alt="" coords="282,765,347,792"/>
-<area shape="rect" id="node30" href="$ssolv_8f.html#a8b37c01e0bc4d591edd93e01f68f6ba9" title="chkssv" alt="" coords="283,816,347,843"/>
-<area shape="rect" id="node32" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="284,867,345,893"/>
-<area shape="rect" id="node33" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="435,892,500,919"/>
-<area shape="rect" id="node34" href="$subs1_8f.html#ae35573fd308e18ae23972c1b804f5b2d" title="setdtc" alt="" coords="285,968,344,995"/>
-<area shape="rect" id="node36" href="$subs1_8f.html#a93fcd12aed7544b1e1515e46699248a5" title="axstrs" alt="" coords="285,1019,344,1045"/>
-<area shape="rect" id="node37" href="$subs1_8f.html#aa4e9d6b048f4130c133f86568f4f8c40" title="strs_orthok" alt="" coords="271,1069,358,1096"/>
-<area shape="rect" id="node39" href="$subs2_8f.html#ad8a6bc8a1f656abf763a97453f623f0f" title="gammasf" alt="" coords="429,1120,505,1147"/>
-<area shape="rect" id="node40" href="$subs2_8f.html#a480f85c1a268e85676ad19ea2d5b3e0c" title="stx1sf" alt="" coords="285,1171,344,1197"/>
-<area shape="rect" id="node41" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="267,1221,362,1248"/>
-<area shape="rect" id="node45" href="$group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3" title="Add noise to velocity field in a box. " alt="" coords="265,1272,364,1299"/>
+<area shape="rect" id="node27" href="$plan4_8f.html#a2a58ef58c4513d56903b075defcf0314" title="userqtl_scig" alt="" coords="269,715,361,741"/>
+<area shape="rect" id="node28" href="$ssolv_8f.html#a8b37c01e0bc4d591edd93e01f68f6ba9" title="chkssv" alt="" coords="283,765,347,792"/>
+<area shape="rect" id="node30" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="284,816,345,843"/>
+<area shape="rect" id="node31" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="435,841,500,868"/>
+<area shape="rect" id="node32" href="$subs1_8f.html#ae35573fd308e18ae23972c1b804f5b2d" title="setdtc" alt="" coords="285,917,344,944"/>
+<area shape="rect" id="node34" href="$subs1_8f.html#a93fcd12aed7544b1e1515e46699248a5" title="axstrs" alt="" coords="285,968,344,995"/>
+<area shape="rect" id="node35" href="$subs1_8f.html#aa4e9d6b048f4130c133f86568f4f8c40" title="strs_orthok" alt="" coords="271,1019,358,1045"/>
+<area shape="rect" id="node37" href="$subs2_8f.html#ad8a6bc8a1f656abf763a97453f623f0f" title="gammasf" alt="" coords="429,1069,505,1096"/>
+<area shape="rect" id="node39" href="$subs2_8f.html#a480f85c1a268e85676ad19ea2d5b3e0c" title="stx1sf" alt="" coords="285,1120,344,1147"/>
+<area shape="rect" id="node40" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="267,1171,362,1197"/>
+<area shape="rect" id="node44" href="$group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3" title="Add noise to velocity field in a box. " alt="" coords="265,1221,364,1248"/>
 <area shape="rect" id="node5" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="757,56,824,83"/>
 <area shape="rect" id="node7" href="$postpro_8f.html#ac11e1909dcf07a738bcba7e6cbb4295f" title="load_fld" alt="" coords="757,107,824,133"/>
 <area shape="rect" id="node9" href="$drive2_8f.html#aa4f676fe0a57e3cbdce8c8fe353edeb0" title="meshv" alt="" coords="437,157,498,184"/>
@@ -36,11 +35,11 @@
 <area shape="rect" id="node14" href="$navier1_8f.html#a23e6343990072aa1a6b17109ccc7ba2b" title="plan1" alt="" coords="613,512,667,539"/>
 <area shape="rect" id="node23" href="$navier1_8f.html#a83189b3d1938d87f00ace2e7e05d9e4c" title="makef" alt="" coords="438,563,497,589"/>
 <area shape="rect" id="node24" href="$plan4_8f.html#a247fc105464de543a464773054eb509e" title="plan4" alt="" coords="613,588,667,615"/>
-<area shape="rect" id="node29" href="$prepost_8f.html#a34073dd0a0a3e63b978c7b4aaaf4fc0d" title="intglq" alt="" coords="441,765,494,792"/>
-<area shape="rect" id="node31" href="$ssolv_8f.html#a74bc64398b67796fee9c14b71bb435f3" title="chkssvt" alt="" coords="433,816,501,843"/>
-<area shape="rect" id="node35" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="442,968,493,995"/>
-<area shape="rect" id="node38" href="$subs1_8f.html#ad1b90e9ceb8e0b264ad10cd00d17462a" title="strs_ortho_all" alt="" coords="417,1069,517,1096"/>
-<area shape="rect" id="node42" href="$group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="426,1171,509,1197"/>
-<area shape="rect" id="node43" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="419,1221,515,1248"/>
-<area shape="rect" id="node44" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="412,1272,523,1299"/>
+<area shape="rect" id="node29" href="$ssolv_8f.html#a74bc64398b67796fee9c14b71bb435f3" title="chkssvt" alt="" coords="433,765,501,792"/>
+<area shape="rect" id="node33" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="442,917,493,944"/>
+<area shape="rect" id="node36" href="$subs1_8f.html#ad1b90e9ceb8e0b264ad10cd00d17462a" title="strs_ortho_all" alt="" coords="417,1019,517,1045"/>
+<area shape="rect" id="node38" href="$eigsolv_8f.html#a91ddf7cb5ca6b19d1c736da5bf7386b3" title="eigenv" alt="" coords="610,1069,670,1096"/>
+<area shape="rect" id="node41" href="$group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="426,1120,509,1147"/>
+<area shape="rect" id="node42" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="419,1171,515,1197"/>
+<area shape="rect" id="node43" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="412,1221,523,1248"/>
 </map>

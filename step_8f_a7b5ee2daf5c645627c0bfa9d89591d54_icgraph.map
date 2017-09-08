@@ -1,7 +1,5 @@
 <map id="dist2" name="dist2">
-<area shape="rect" id="node2" href="$step_8f.html#ac6c3e476ccf64918db5879cc3078847d" title="mindr" alt="" coords="124,5,179,32"/>
-<area shape="rect" id="node5" href="$findpts__imp_8h.html#a987ae970d6aa9d32e9332c68c45bab52" title="findpts" alt="" coords="121,56,182,83"/>
-<area shape="rect" id="node6" href="$findpts__local__imp_8h.html#ae2d97b0294a813016fca2df95e2258b3" title="findpts_local" alt="" coords="104,107,199,133"/>
-<area shape="rect" id="node3" href="$step_8f.html#aef8ae89f8ba871aeeec3e23341ffb99d" title="setdtcmt" alt="" coords="247,5,320,32"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="368,5,511,32"/>
+<area shape="rect" id="node2" href="$findpts__imp_8h.html#a987ae970d6aa9d32e9332c68c45bab52" title="findpts" alt="" coords="121,5,182,32"/>
+<area shape="rect" id="node3" href="$findpts__local__imp_8h.html#ae2d97b0294a813016fca2df95e2258b3" title="findpts_local" alt="" coords="104,56,199,83"/>
+<area shape="rect" id="node4" href="$step_8f.html#ac6c3e476ccf64918db5879cc3078847d" title="mindr" alt="" coords="124,107,179,133"/>
 </map>

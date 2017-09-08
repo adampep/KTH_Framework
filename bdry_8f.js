@@ -16,7 +16,7 @@ var bdry_8f =
     [ "facec2", "bdry_8f.html#af39ea679e445d1c8854f016f4840c9e8", null ],
     [ "faceis", "bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846", null ],
     [ "faceiv", "bdry_8f.html#aeecf5a0a2a472b7cdf04485b5c07b6a8", null ],
-    [ "glcflux", "bdry_8f.html#a0b352150db81e68eff474d83d0361aea", null ],
+    [ "glcflux", "bdry_8f.html#abb9bd446a55eb6eabc03d0bf7ce591ac", null ],
     [ "globrot", "bdry_8f.html#a740f0655d2fe4ba9856e4e54ff8b160d", null ],
     [ "lfalse", "bdry_8f.html#ad2ad7f3772cc902cf477679abc217dac", null ],
     [ "local_bflux", "bdry_8f.html#a802e7467ee80617d6c0bd925462eedb0", null ],

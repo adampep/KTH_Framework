@@ -1,39 +1,40 @@
 <map id="vdot3" name="vdot3">
-<area shape="rect" id="node2" href="$diffusive__cmt_8f.html#a2eabf6b7a9ac89946844ab77cb31a496" title="agradu_ns_sfc" alt="" coords="108,5,215,32"/>
-<area shape="rect" id="node3" href="$driver3__cmt_8f.html#ac47c38b6395c2b92e6457892e329b04e" title="compute_primitive_vars" alt="" coords="263,5,423,32"/>
-<area shape="rect" id="node7" href="$coef_8f.html#aea7fbfba708ba55609135adf3064f1c3" title="geodat1" alt="" coords="508,183,576,209"/>
-<area shape="rect" id="node16" href="$coef_8f.html#a5ec9c11456c9b424c589644a80609d69" title="area3" alt="" coords="134,208,189,235"/>
-<area shape="rect" id="node18" href="$plan4_8f.html#ae69deb230f08be3fd7f4b30adced56de" title="col_mu_sij" alt="" coords="119,512,203,539"/>
-<area shape="rect" id="node21" href="$subs1_8f.html#ac5a99c27d3ffe24a47e4b8dc21e2502a" title="cumax" alt="" coords="131,107,192,133"/>
-<area shape="rect" id="node25" href="$subs2_8f.html#a75759e2c31e86fa99b44c9dc00071102" title="opdot" alt="" coords="134,385,189,412"/>
-<area shape="rect" id="node35" href="$subs2_8f.html#a1e79703717b90d067439461628ea0b4c" title="comavn3" alt="" coords="124,259,199,285"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="661,56,789,83"/>
-<area shape="rect" id="node6" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="471,56,613,83"/>
-<area shape="rect" id="node5" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="988,132,1087,159"/>
-<area shape="rect" id="node8" href="$coef_8f.html#a8cbb48eee5edaf128d65bb31ac49c3ff" title="geom1" alt="" coords="695,208,756,235"/>
-<area shape="rect" id="node13" href="$cvode__driver_8f.html#a365f4a5b0accedd6fda56ba6be129643" title="cv_eval_geom" alt="" coords="672,157,779,184"/>
-<area shape="rect" id="node9" href="$drive2_8f.html#aefc07385d7e7539fb57662470f694136" title="gengeom" alt="" coords="851,208,926,235"/>
-<area shape="rect" id="node10" href="$drive2_8f.html#aaa91478158228b1376b0b1e50a7de89c" title="rstartc" alt="" coords="859,259,918,285"/>
-<area shape="rect" id="node11" href="$ic_8f.html#aaf47b255d1cfac3451a8473ee6876b4f" title="geom_reset" alt="" coords="843,309,934,336"/>
-<area shape="rect" id="node12" href="$mvmesh_8f.html#a1c924aee9d9ada8ef173bf0f8a3168b9" title="ptbgeom" alt="" coords="853,360,925,387"/>
-<area shape="rect" id="node14" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title="cdscal_cvode" alt="" coords="837,107,940,133"/>
-<area shape="rect" id="node15" href="$cvode__driver_8f.html#a3cf183edc142d3e93dc90e21bdadbc4e" title="fcvfun" alt="" coords="859,157,918,184"/>
-<area shape="rect" id="node17" href="$coef_8f.html#a1c4499ad278bab596a1b4c978fa79ea8" title="setarea" alt="" coords="310,208,375,235"/>
-<area shape="rect" id="node19" href="$plan4_8f.html#a0afe6a03f628b5d52eeb491f7baff5b6" title="crespsp" alt="" coords="309,563,377,589"/>
-<area shape="rect" id="node20" href="$plan4_8f.html#a247fc105464de543a464773054eb509e" title="plan4" alt="" coords="515,563,569,589"/>
-<area shape="rect" id="node22" href="$step_8f.html#aef8ae89f8ba871aeeec3e23341ffb99d" title="setdtcmt" alt="" coords="306,56,379,83"/>
-<area shape="rect" id="node23" href="$subs1_8f.html#ae35573fd308e18ae23972c1b804f5b2d" title="setdtc" alt="" coords="313,107,372,133"/>
-<area shape="rect" id="node24" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="517,107,567,133"/>
-<area shape="rect" id="node26" href="$bdry_8f.html#a867a61463ab7340d3adbb2129a996e65" title="setshl" alt="" coords="314,309,371,336"/>
-<area shape="rect" id="node28" href="$mvmesh_8f.html#a7171f79e9411104dc2f71f9555954b82" title="meshtol" alt="" coords="508,512,576,539"/>
-<area shape="rect" id="node30" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="312,411,373,437"/>
-<area shape="rect" id="node32" href="$subs1_8f.html#a29d1fc90e6cddfc6443f71e8bb7c44ff" title="chktcgs" alt="" coords="309,360,377,387"/>
-<area shape="rect" id="node33" href="$turb_8f.html#af7aa0a5c287e498a25b24a8d4378635c" title="iniphi" alt="" coords="317,461,369,488"/>
-<area shape="rect" id="node27" href="$bdry_8f.html#afaaf1e03c74a44316381ae723d0be830" title="setlog" alt="" coords="513,309,571,336"/>
-<area shape="rect" id="node29" href="$mvmesh_8f.html#afe758b960e97c23351436f63eb9d4eff" title="elasolv" alt="" coords="694,385,757,412"/>
-<area shape="rect" id="node31" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="509,385,575,412"/>
-<area shape="rect" id="node34" href="$turb_8f.html#a6e4ed070ff5b0337fb961f3e098c0c37" title="tvisca" alt="" coords="513,461,571,488"/>
-<area shape="rect" id="node36" href="$subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="508,259,576,285"/>
-<area shape="rect" id="node37" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="689,259,761,285"/>
-<area shape="rect" id="node38" href="$subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title="updmsys" alt="" coords="688,309,763,336"/>
+<area shape="rect" id="node2" href="$diffusive__cmt_8f.html#a1c3683ff121ed541c445d78e7d86e85b" title="viscous flux jacobian for entropy viscosity Euler regularization of Guermond and Popov (2014) SIAM JA..." alt="" coords="111,62,189,89"/>
+<area shape="rect" id="node8" href="$driver3__cmt_8f.html#ac47c38b6395c2b92e6457892e329b04e" title="Compute primitive variables (velocity, thermodynamic state) from conserved unknowns U..." alt="" coords="356,11,516,38"/>
+<area shape="rect" id="node9" href="$coef_8f.html#aea7fbfba708ba55609135adf3064f1c3" title="geodat1" alt="" coords="402,163,470,190"/>
+<area shape="rect" id="node18" href="$coef_8f.html#a5ec9c11456c9b424c589644a80609d69" title="area3" alt="" coords="123,113,177,139"/>
+<area shape="rect" id="node20" href="$plan4_8f.html#ae69deb230f08be3fd7f4b30adced56de" title="col_mu_sij" alt="" coords="108,461,192,487"/>
+<area shape="rect" id="node23" href="$subs1_8f.html#ac5a99c27d3ffe24a47e4b8dc21e2502a" title="cumax" alt="" coords="119,549,181,575"/>
+<area shape="rect" id="node26" href="$subs2_8f.html#a75759e2c31e86fa99b44c9dc00071102" title="opdot" alt="" coords="123,334,177,361"/>
+<area shape="rect" id="node36" href="$subs2_8f.html#a1e79703717b90d067439461628ea0b4c" title="comavn3" alt="" coords="113,214,187,241"/>
+<area shape="rect" id="node3" href="$group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="243,62,305,89"/>
+<area shape="rect" id="node4" href="$group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="388,62,484,89"/>
+<area shape="rect" id="node7" href="$group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="400,113,472,139"/>
+<area shape="rect" id="node5" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="564,62,707,89"/>
+<area shape="rect" id="node6" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="755,11,883,38"/>
+<area shape="rect" id="node10" href="$coef_8f.html#a8cbb48eee5edaf128d65bb31ac49c3ff" title="geom1" alt="" coords="605,163,666,190"/>
+<area shape="rect" id="node15" href="$cvode__driver_8f.html#a365f4a5b0accedd6fda56ba6be129643" title="cv_eval_geom" alt="" coords="582,113,689,139"/>
+<area shape="rect" id="node11" href="$drive2_8f.html#aefc07385d7e7539fb57662470f694136" title="gengeom" alt="" coords="781,214,856,241"/>
+<area shape="rect" id="node12" href="$drive2_8f.html#aaa91478158228b1376b0b1e50a7de89c" title="rstartc" alt="" coords="789,265,848,291"/>
+<area shape="rect" id="node13" href="$ic_8f.html#aaf47b255d1cfac3451a8473ee6876b4f" title="geom_reset" alt="" coords="773,163,864,190"/>
+<area shape="rect" id="node14" href="$mvmesh_8f.html#a1c924aee9d9ada8ef173bf0f8a3168b9" title="ptbgeom" alt="" coords="783,315,855,342"/>
+<area shape="rect" id="node16" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title="cdscal_cvode" alt="" coords="767,62,870,89"/>
+<area shape="rect" id="node17" href="$cvode__driver_8f.html#a3cf183edc142d3e93dc90e21bdadbc4e" title="fcvfun" alt="" coords="789,113,848,139"/>
+<area shape="rect" id="node19" href="$coef_8f.html#a1c4499ad278bab596a1b4c978fa79ea8" title="setarea" alt="" coords="241,113,307,139"/>
+<area shape="rect" id="node21" href="$plan4_8f.html#a0afe6a03f628b5d52eeb491f7baff5b6" title="crespsp" alt="" coords="240,518,308,545"/>
+<area shape="rect" id="node22" href="$plan4_8f.html#a247fc105464de543a464773054eb509e" title="plan4" alt="" coords="409,518,463,545"/>
+<area shape="rect" id="node24" href="$subs1_8f.html#ae35573fd308e18ae23972c1b804f5b2d" title="setdtc" alt="" coords="245,569,303,595"/>
+<area shape="rect" id="node25" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="411,569,461,595"/>
+<area shape="rect" id="node27" href="$bdry_8f.html#a867a61463ab7340d3adbb2129a996e65" title="setshl" alt="" coords="245,467,303,494"/>
+<area shape="rect" id="node29" href="$mvmesh_8f.html#a7171f79e9411104dc2f71f9555954b82" title="meshtol" alt="" coords="240,417,308,443"/>
+<area shape="rect" id="node31" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="243,315,305,342"/>
+<area shape="rect" id="node33" href="$subs1_8f.html#a29d1fc90e6cddfc6443f71e8bb7c44ff" title="chktcgs" alt="" coords="240,265,308,291"/>
+<area shape="rect" id="node34" href="$turb_8f.html#af7aa0a5c287e498a25b24a8d4378635c" title="iniphi" alt="" coords="248,366,300,393"/>
+<area shape="rect" id="node28" href="$bdry_8f.html#afaaf1e03c74a44316381ae723d0be830" title="setlog" alt="" coords="407,467,465,494"/>
+<area shape="rect" id="node30" href="$mvmesh_8f.html#afe758b960e97c23351436f63eb9d4eff" title="elasolv" alt="" coords="604,315,667,342"/>
+<area shape="rect" id="node32" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="403,315,469,342"/>
+<area shape="rect" id="node35" href="$turb_8f.html#a6e4ed070ff5b0337fb961f3e098c0c37" title="tvisca" alt="" coords="407,366,465,393"/>
+<area shape="rect" id="node37" href="$subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="402,214,470,241"/>
+<area shape="rect" id="node38" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="599,214,671,241"/>
+<area shape="rect" id="node39" href="$subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title="updmsys" alt="" coords="598,265,673,291"/>
 </map>

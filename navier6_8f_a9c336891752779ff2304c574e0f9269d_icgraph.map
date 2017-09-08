@@ -1,8 +1,5 @@
 <map id="faces" name="faces">
-<area shape="rect" id="node2" href="$moab_8f.html#ab29e8aa0ab168a4437c1c0da8d7cbd35" title="nekmoab_intbc" alt="" coords="112,5,223,32"/>
-<area shape="rect" id="node5" href="$navier6_8f.html#a601fb0d002c670e311b781b709fa42f2" title="set_fem_data_l2" alt="" coords="108,56,227,83"/>
-<area shape="rect" id="node3" href="$moab_8f.html#a84e6157bdf8346a2fade84046cb33998" title="nekmoab_bc" alt="" coords="275,5,371,32"/>
-<area shape="rect" id="node4" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="419,5,537,32"/>
-<area shape="rect" id="node6" href="$navier6_8f.html#a45317b1def173b8f1db2e5083595d095" title="set_overlap" alt="" coords="278,56,367,83"/>
-<area shape="rect" id="node7" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="445,56,511,83"/>
+<area shape="rect" id="node2" href="$navier6_8f.html#a601fb0d002c670e311b781b709fa42f2" title="set_fem_data_l2" alt="" coords="108,5,227,32"/>
+<area shape="rect" id="node3" href="$navier6_8f.html#a45317b1def173b8f1db2e5083595d095" title="set_overlap" alt="" coords="275,5,364,32"/>
+<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="412,5,479,32"/>
 </map>

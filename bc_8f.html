@@ -112,54 +112,293 @@ $(document).ready(function(){initNavTree('bc_8f.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>Boundary condition routines.  
+<a href="#details">More...</a></p>
+
 <p><a href="bc_8f_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a981047865c4ac76fdaaa5906f7cd612f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bc_8f.html#a981047865c4ac76fdaaa5906f7cd612f">bcflux</a> (flux)</td></tr>
-<tr class="separator:a981047865c4ac76fdaaa5906f7cd612f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5825c588243a1c261d107376f5a873"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bc_8f.html#a9a5825c588243a1c261d107376f5a873">a5adiabatic_wall</a> (eflx, f, e, dU, wstate)</td></tr>
+<tr class="separator:a9a5825c588243a1c261d107376f5a873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224b6cf6476419f057df67c7a0d05504"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bc_8f.html#a224b6cf6476419f057df67c7a0d05504">a51duadia</a> (flux, f, ie, dU, wstate)</td></tr>
+<tr class="separator:a224b6cf6476419f057df67c7a0d05504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaddd14c010da1bce6192846a45b63f2"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bc_8f.html#aaaddd14c010da1bce6192846a45b63f2">a52duadia</a> (flux, f, ie, dU, wstate)</td></tr>
+<tr class="separator:aaaddd14c010da1bce6192846a45b63f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4311cb4d64847bc8b17c653ca9185866"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bc_8f.html#a4311cb4d64847bc8b17c653ca9185866">a53duadia</a> (flux, f, ie, dU, wstate)</td></tr>
+<tr class="separator:a4311cb4d64847bc8b17c653ca9185866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga5a4c471f518794eea847f35f96fe1f2b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bcond.html#ga5a4c471f518794eea847f35f96fe1f2b">inviscidbc</a> (wminus, wbc, nstate)</td></tr>
+<tr class="memdesc:ga5a4c471f518794eea847f35f96fe1f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determining rind state for Dirichlet boundary conditions.  <a href="group__bcond.html#ga5a4c471f518794eea847f35f96fe1f2b">More...</a><br /></td></tr>
+<tr class="separator:ga5a4c471f518794eea847f35f96fe1f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga73b8f242bb8ea95b0c7baf512eeac825"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825">bcflux</a> (flux, <a class="el" href="group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82">agradu</a>, qminus)</td></tr>
+<tr class="memdesc:ga73b8f242bb8ea95b0c7baf512eeac825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determining IGU contribution to boundary flux. 0 for artificial viscosity, and strictly interior for physical viscosity.  <a href="group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825">More...</a><br /></td></tr>
+<tr class="separator:ga73b8f242bb8ea95b0c7baf512eeac825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a981047865c4ac76fdaaa5906f7cd612f"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Boundary condition routines. </p>
+
+<p>Definition in file <a class="el" href="bc_8f_source.html">bc.f</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a class="anchor" id="a224b6cf6476419f057df67c7a0d05504"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine bcflux </td>
+          <td class="memname">subroutine a51duadia </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1,2*ndim,nelt,toteq)&#160;</td>
-          <td class="paramname"><em>flux</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension  (nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension    (nx1*nz1,2*ndim,nelt,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1,2*ndim,nelt,nqq)&#160;</td>
+          <td class="paramname"><em>wstate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="bc_8f_source.html#l00002">2</a> of file <a class="el" href="bc_8f_source.html">bc.f</a>.</p>
+<p>Definition at line <a class="el" href="bc_8f_source.html#l00218">218</a> of file <a class="el" href="bc_8f_source.html">bc.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00470">cmult()</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="bc_8f_a981047865c4ac76fdaaa5906f7cd612f_cgraph.png" border="0" usemap="#bc_8f_a981047865c4ac76fdaaa5906f7cd612f_cgraph" alt=""/></div>
-<map name="bc_8f_a981047865c4ac76fdaaa5906f7cd612f_cgraph" id="bc_8f_a981047865c4ac76fdaaa5906f7cd612f_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="111,5,165,32"/>
+<div class="center"><img src="bc_8f_a224b6cf6476419f057df67c7a0d05504_icgraph.png" border="0" usemap="#bc_8f_a224b6cf6476419f057df67c7a0d05504_icgraph" alt=""/></div>
+<map name="bc_8f_a224b6cf6476419f057df67c7a0d05504_icgraph" id="bc_8f_a224b6cf6476419f057df67c7a0d05504_icgraph">
+<area shape="rect" id="node2" href="bc_8f.html#a9a5825c588243a1c261d107376f5a873" title="a5adiabatic_wall" alt="" coords="135,5,253,32"/>
+<area shape="rect" id="node3" href="group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825" title="Determining IGU contribution to boundary flux. 0 for artificial viscosity, and strictly interior for ..." alt="" coords="301,5,359,32"/>
+<area shape="rect" id="node4" href="surface__fluxes_8f.html#a28b5864db9a8cc5516dff0524e5281dd" title="igu_cmt" alt="" coords="407,5,475,32"/>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="aaaddd14c010da1bce6192846a45b63f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a52duadia </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension  (nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension    (nx1*nz1,2*ndim,nelt,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1,2*ndim,nelt,nqq)&#160;</td>
+          <td class="paramname"><em>wstate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="bc_8f_source.html#l00268">268</a> of file <a class="el" href="bc_8f_source.html">bc.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="bc_8f_a981047865c4ac76fdaaa5906f7cd612f_icgraph.png" border="0" usemap="#bc_8f_a981047865c4ac76fdaaa5906f7cd612f_icgraph" alt=""/></div>
-<map name="bc_8f_a981047865c4ac76fdaaa5906f7cd612f_icgraph" id="bc_8f_a981047865c4ac76fdaaa5906f7cd612f_icgraph">
-<area shape="rect" id="node2" href="surface__fluxes_8f.html#a30213c2ad8f51c9088930d51f946bccd" title="igu_cmt" alt="" coords="111,5,179,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="227,5,369,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="417,5,545,32"/>
+<div class="center"><img src="bc_8f_aaaddd14c010da1bce6192846a45b63f2_icgraph.png" border="0" usemap="#bc_8f_aaaddd14c010da1bce6192846a45b63f2_icgraph" alt=""/></div>
+<map name="bc_8f_aaaddd14c010da1bce6192846a45b63f2_icgraph" id="bc_8f_aaaddd14c010da1bce6192846a45b63f2_icgraph">
+<area shape="rect" id="node2" href="bc_8f.html#a9a5825c588243a1c261d107376f5a873" title="a5adiabatic_wall" alt="" coords="135,5,253,32"/>
+<area shape="rect" id="node3" href="group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825" title="Determining IGU contribution to boundary flux. 0 for artificial viscosity, and strictly interior for ..." alt="" coords="301,5,359,32"/>
+<area shape="rect" id="node4" href="surface__fluxes_8f.html#a28b5864db9a8cc5516dff0524e5281dd" title="igu_cmt" alt="" coords="407,5,475,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4311cb4d64847bc8b17c653ca9185866"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a53duadia </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension  (nx1*ny1*nz1)&#160;</td>
+          <td class="paramname"><em>flux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ie</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension    (nx1*nz1,2*ndim,nelt,toteq,3)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1,2*ndim,nelt,nqq)&#160;</td>
+          <td class="paramname"><em>wstate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="bc_8f_source.html#l00318">318</a> of file <a class="el" href="bc_8f_source.html">bc.f</a>.</p>
+
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="bc_8f_a4311cb4d64847bc8b17c653ca9185866_icgraph.png" border="0" usemap="#bc_8f_a4311cb4d64847bc8b17c653ca9185866_icgraph" alt=""/></div>
+<map name="bc_8f_a4311cb4d64847bc8b17c653ca9185866_icgraph" id="bc_8f_a4311cb4d64847bc8b17c653ca9185866_icgraph">
+<area shape="rect" id="node2" href="bc_8f.html#a9a5825c588243a1c261d107376f5a873" title="a5adiabatic_wall" alt="" coords="135,5,253,32"/>
+<area shape="rect" id="node3" href="group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825" title="Determining IGU contribution to boundary flux. 0 for artificial viscosity, and strictly interior for ..." alt="" coords="301,5,359,32"/>
+<area shape="rect" id="node4" href="surface__fluxes_8f.html#a28b5864db9a8cc5516dff0524e5281dd" title="igu_cmt" alt="" coords="407,5,475,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a5825c588243a1c261d107376f5a873"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine a5adiabatic_wall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension  (nx1*nz1,2*ndim,nelt)&#160;</td>
+          <td class="paramname"><em>eflx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension    (nx1*nz1,2*ndim,nelt,toteq)&#160;</td>
+          <td class="paramname"><em>dU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1*nz1,2*ndim,nelt,nqq)&#160;</td>
+          <td class="paramname"><em>wstate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="bc_8f_source.html#l00190">190</a> of file <a class="el" href="bc_8f_source.html">bc.f</a>.</p>
+
+<p>References <a class="el" href="bc_8f_source.html#l00218">a51duadia()</a>, <a class="el" href="bc_8f_source.html#l00268">a52duadia()</a>, <a class="el" href="bc_8f_source.html#l00318">a53duadia()</a>, <a class="el" href="math_8f_source.html#l01863">add2col2()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="bc_8f_a9a5825c588243a1c261d107376f5a873_cgraph.png" border="0" usemap="#bc_8f_a9a5825c588243a1c261d107376f5a873_cgraph" alt=""/></div>
+<map name="bc_8f_a9a5825c588243a1c261d107376f5a873_cgraph" id="bc_8f_a9a5825c588243a1c261d107376f5a873_cgraph">
+<area shape="rect" id="node2" href="bc_8f.html#a224b6cf6476419f057df67c7a0d05504" title="a51duadia" alt="" coords="172,5,253,32"/>
+<area shape="rect" id="node3" href="bc_8f.html#aaaddd14c010da1bce6192846a45b63f2" title="a52duadia" alt="" coords="172,56,253,83"/>
+<area shape="rect" id="node4" href="bc_8f.html#a4311cb4d64847bc8b17c653ca9185866" title="a53duadia" alt="" coords="172,107,253,133"/>
+<area shape="rect" id="node5" href="math_8f.html#a1c8c804ea900711911c4c33fe1f5b184" title="add2col2" alt="" coords="175,157,250,184"/>
+<area shape="rect" id="node6" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="187,208,238,235"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="bc_8f_a9a5825c588243a1c261d107376f5a873_icgraph.png" border="0" usemap="#bc_8f_a9a5825c588243a1c261d107376f5a873_icgraph" alt=""/></div>
+<map name="bc_8f_a9a5825c588243a1c261d107376f5a873_icgraph" id="bc_8f_a9a5825c588243a1c261d107376f5a873_icgraph">
+<area shape="rect" id="node2" href="group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825" title="Determining IGU contribution to boundary flux. 0 for artificial viscosity, and strictly interior for ..." alt="" coords="172,5,229,32"/>
+<area shape="rect" id="node3" href="surface__fluxes_8f.html#a28b5864db9a8cc5516dff0524e5281dd" title="igu_cmt" alt="" coords="277,5,345,32"/>
+<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="393,5,536,32"/>
 </map>
 </div>
 </p>
@@ -172,7 +411,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="bc_8f.html">bc.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

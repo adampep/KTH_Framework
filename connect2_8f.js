@@ -1,14 +1,5 @@
 var connect2_8f =
 [
-    [ "bin_rd1", "connect2_8f.html#ad09b243239aba53c94a7c1d3d906e7d0", null ],
-    [ "bin_rd1_bc", "connect2_8f.html#ae148b6a074a40d9a6959f82d066d1927", null ],
-    [ "bin_rd1_curve", "connect2_8f.html#a02a2663bd073292a0684da670c1bb250", null ],
-    [ "bin_rd1_mesh", "connect2_8f.html#a14cdc9443ed9567e04fab4f74b6f8494", null ],
-    [ "buf_close_out", "connect2_8f.html#a4e0c7c71551475d8cdd6a140744e536b", null ],
-    [ "buf_close_outv", "connect2_8f.html#a0389b78855ac1cdc670417a95d7bdf0e", null ],
-    [ "buf_to_bc", "connect2_8f.html#a189e9cbe1eb8f139fb4274fc08ee13ee", null ],
-    [ "buf_to_curve", "connect2_8f.html#a637876278ed588a2f4d0c595ec4ea32c", null ],
-    [ "buf_to_xyz", "connect2_8f.html#a328e6df4b7c218ce4b3b46b72ac3711f", null ],
     [ "bufchk", "connect2_8f.html#a4fc15fc65eca894f7b298d9ba0f697dd", null ],
     [ "chk_nel", "connect2_8f.html#a3fe101a1324bc40fe6b997d526f6aadf", null ],
     [ "chk_xyz", "connect2_8f.html#a468ece8f8f557e6a792c42287ff70e6e", null ],
@@ -16,7 +7,6 @@ var connect2_8f =
     [ "divide", "connect2_8f.html#aa4a951c38a44d4dc5c5ff3338fe31076", null ],
     [ "findcg", "connect2_8f.html#ae1ecd0cb9365ec633ac2e38d6b19dc3c", null ],
     [ "inrtia", "connect2_8f.html#a15434c453b53c83ba2cb2a768d35085e", null ],
-    [ "open_bin_file", "connect2_8f.html#a5458efb058e3cbc2bc5db49cdb70f735", null ],
     [ "rdbdry", "connect2_8f.html#a7d2c5b148e4df32ac60d6de7e4b8610c", null ],
     [ "rdcurve", "connect2_8f.html#a571704ba9f81fe474eb283783dc1e298", null ],
     [ "rdhist", "connect2_8f.html#add840513f6cd7e4b9bb1f669fa3a2fa5", null ],

@@ -1,13 +1,6 @@
 <map id="mfi_parse_hdr" name="mfi_parse_hdr">
-<area shape="rect" id="node2" href="$ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="183,107,236,133"/>
-<area shape="rect" id="node3" href="$ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="157,157,261,184"/>
-<area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="496,157,543,184"/>
-<area shape="rect" id="node12" href="$ic_8f.html#a5784c4f0036a7484628c467ffd0c7d26" title="parse_std_hdr_2006" alt="" coords="309,183,448,209"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="598,5,682,32"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="599,56,681,83"/>
-<area shape="rect" id="node7" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="607,107,673,133"/>
-<area shape="rect" id="node8" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="591,157,689,184"/>
-<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="595,208,685,235"/>
-<area shape="rect" id="node10" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="601,259,679,285"/>
-<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="601,309,679,336"/>
+<area shape="rect" id="node2" href="$ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="183,5,236,32"/>
+<area shape="rect" id="node3" href="$ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="157,56,261,83"/>
+<area shape="rect" id="node4" href="$ic_8f.html#a5784c4f0036a7484628c467ffd0c7d26" title="parse_std_hdr_2006" alt="" coords="309,56,448,83"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="496,56,543,83"/>
 </map>

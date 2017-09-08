@@ -1,8 +1,7 @@
 <map id="set_up_h1_crs_strs" name="set_up_h1_crs_strs">
-<area shape="rect" id="node2" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="189,48,251,75"/>
-<area shape="rect" id="node3" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="299,48,364,75"/>
-<area shape="rect" id="node4" href="$induct_8f.html#aa0804a1aad3b9e0820df2c055d97942d" title="ophinv_pr" alt="" coords="523,48,601,75"/>
-<area shape="rect" id="node5" href="$mvmesh_8f.html#afe758b960e97c23351436f63eb9d4eff" title="elasolv" alt="" coords="412,23,475,50"/>
-<area shape="rect" id="node6" href="$navier1_8f.html#abc5cd1542bbd239734ba41882d091e03" title="ophinv" alt="" coords="413,74,473,100"/>
-<area shape="rect" id="node7" href="$planx_8f.html#afede8673d5a96add1563b2012bb0afb3" title="ophinvpr" alt="" coords="527,111,597,138"/>
+<area shape="rect" id="node2" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="189,20,251,47"/>
+<area shape="rect" id="node3" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="299,20,364,47"/>
+<area shape="rect" id="node4" href="$induct_8f.html#aa0804a1aad3b9e0820df2c055d97942d" title="ophinv_pr" alt="" coords="523,20,601,47"/>
+<area shape="rect" id="node5" href="$mvmesh_8f.html#afe758b960e97c23351436f63eb9d4eff" title="elasolv" alt="" coords="412,20,475,47"/>
+<area shape="rect" id="node6" href="$navier1_8f.html#abc5cd1542bbd239734ba41882d091e03" title="ophinv" alt="" coords="413,71,473,98"/>
 </map>

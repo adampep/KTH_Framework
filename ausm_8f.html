@@ -112,200 +112,25 @@ $(document).ready(function(){initNavTree('ausm_8f.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>Riemann solvers and other rocflu miscellany.  
+<a href="#details">More...</a></p>
+
 <p><a href="ausm_8f_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:af6c8229a9390146354e5f643b0b24063"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ausm_8f.html#af6c8229a9390146354e5f643b0b24063">ausm_fluxfunction</a> (ntot, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, nm, fs, rl, ul, vl, wl, pl, al, tl, rr, ur, vr, wr, pr, ar, tr, flx, cpl, cpr)</td></tr>
-<tr class="separator:af6c8229a9390146354e5f643b0b24063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a083fcb64cd04500931d07c3c271a3d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ausm_8f.html#a3a083fcb64cd04500931d07c3c271a3d">centralinviscid_fluxfunction</a> (ntot, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, fs, ul, pl, ur, pr, flx)</td></tr>
 <tr class="separator:a3a083fcb64cd04500931d07c3c271a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:gaf6c8229a9390146354e5f643b0b24063"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__isurf.html#gaf6c8229a9390146354e5f643b0b24063">ausm_fluxfunction</a> (ntot, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, nm, fs, rl, ul, vl, wl, pl, al, tl, rr, ur, vr, wr, pr, ar, tr, flx, cpl, cpr)</td></tr>
+<tr class="memdesc:gaf6c8229a9390146354e5f643b0b24063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes inviscid numerical surface flux from AUSM+ Riemann solver.  <a href="group__isurf.html#gaf6c8229a9390146354e5f643b0b24063">More...</a><br /></td></tr>
+<tr class="separator:gaf6c8229a9390146354e5f643b0b24063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="af6c8229a9390146354e5f643b0b24063"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine ausm_fluxfunction </td>
-          <td>(</td>
-          <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>ntot</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>nx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>ny</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>nz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>nm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>fs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>rl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>ul</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>vl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>wl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>pl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>al</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>tl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>rr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>ur</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>vr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>wr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>pr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>ar</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>tr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot,5)&#160;</td>
-          <td class="paramname"><em>flx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>cpl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(ntot)&#160;</td>
-          <td class="paramname"><em>cpr</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Riemann solvers and other rocflu miscellany. </p>
 
-<p>Definition at line <a class="el" href="ausm_8f_source.html#l00044">44</a> of file <a class="el" href="ausm_8f_source.html">ausm.f</a>.</p>
-
-<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="math_8f_source.html#l00109">invcol2()</a>, and <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>.</p>
-
-<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="ausm_8f_af6c8229a9390146354e5f643b0b24063_cgraph.png" border="0" usemap="#ausm_8f_af6c8229a9390146354e5f643b0b24063_cgraph" alt=""/></div>
-<map name="ausm_8f_af6c8229a9390146354e5f643b0b24063_cgraph" id="ausm_8f_af6c8229a9390146354e5f643b0b24063_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="181,5,244,32"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="292,5,373,32"/>
-<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="421,5,507,32"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="ausm_8f_af6c8229a9390146354e5f643b0b24063_icgraph.png" border="0" usemap="#ausm_8f_af6c8229a9390146354e5f643b0b24063_icgraph" alt=""/></div>
-<map name="ausm_8f_af6c8229a9390146354e5f643b0b24063_icgraph" id="ausm_8f_af6c8229a9390146354e5f643b0b24063_icgraph">
-<area shape="rect" id="node2" href="surface__fluxes_8f.html#a0c7f45ae75e5a08dc4393b8b68594d79" title="inviscidflux" alt="" coords="181,5,268,32"/>
-<area shape="rect" id="node3" href="surface__fluxes_8f.html#a01b6fc0aa838a74ba798fd1c1e9600da" title="fluxes_full_field" alt="" coords="316,5,428,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="476,5,619,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
+<p>Definition in file <a class="el" href="ausm_8f_source.html">ausm.f</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a class="anchor" id="a3a083fcb64cd04500931d07c3c271a3d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -378,24 +203,18 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ausm_8f_source.html#l00140">140</a> of file <a class="el" href="ausm_8f_source.html">ausm.f</a>.</p>
+<p>Definition at line <a class="el" href="ausm_8f_source.html#l00145">145</a> of file <a class="el" href="ausm_8f_source.html">ausm.f</a>.</p>
 
 <p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph.png" border="0" usemap="#ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph" alt=""/></div>
 <map name="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph" id="ausm_8f_a3a083fcb64cd04500931d07c3c271a3d_icgraph">
-<area shape="rect" id="node2" href="inflow__bc_8f.html#afc144e6c03098b855983465787888ae9" title="inflow_rflu" alt="" coords="237,5,318,32"/>
-<area shape="rect" id="node5" href="outflow__bc_8f.html#a5cd60209078677665983be9203978140" title="outflow_rflu" alt="" coords="233,56,322,83"/>
-<area shape="rect" id="node7" href="wall__bc_8f.html#a35d05746a590f5692773bf23511755d9" title="slipwall_rflu" alt="" coords="232,107,323,133"/>
-<area shape="rect" id="node3" href="inflow__bc_8f.html#a4c35f8c9bfa750662ee53320b3d6c2ec" title="inflow" alt="" coords="375,5,431,32"/>
-<area shape="rect" id="node4" href="surface__fluxes_8f.html#a0c7f45ae75e5a08dc4393b8b68594d79" title="inviscidflux" alt="" coords="483,56,569,83"/>
-<area shape="rect" id="node6" href="outflow__bc_8f.html#a612ede8af5852659206ba91602c93b8c" title="outflow" alt="" coords="371,56,435,83"/>
-<area shape="rect" id="node8" href="wall__bc_8f.html#a1ee141c5e11aa2d70f239d00b31b616c" title="wallbc" alt="" coords="373,107,432,133"/>
+<area shape="rect" id="node2" href="wall__bc_8f.html#a373e8f41852bba041b8e2401e0fed740" title="slipwall_rflu" alt="" coords="232,5,323,32"/>
 </map>
 </div>
 </p>
@@ -408,7 +227,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="ausm_8f.html">ausm.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

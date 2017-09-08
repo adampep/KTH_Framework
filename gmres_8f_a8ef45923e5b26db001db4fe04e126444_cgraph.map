@@ -8,7 +8,7 @@
 <area shape="rect" id="node7" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="358,107,425,133"/>
 <area shape="rect" id="node8" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="342,157,441,184"/>
 <area shape="rect" id="node9" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="346,208,437,235"/>
-<area shape="rect" id="node10" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="352,259,431,285"/>
+<area shape="rect" id="node10" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="347,259,436,285"/>
 <area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="352,309,431,336"/>
 <area shape="rect" id="node13" href="$mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title="mxm_bgq_8" alt="" coords="345,360,438,387"/>
 <area shape="rect" id="node14" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title="mxm_bgq_16" alt="" coords="341,411,441,437"/>

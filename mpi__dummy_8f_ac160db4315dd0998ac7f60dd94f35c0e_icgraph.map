@@ -1,12 +1,9 @@
 <map id="mpi_comm_size" name="mpi_comm_size">
-<area shape="rect" id="node2" href="$moab_8f.html#a1f6c7bc927c4b8e8f5bf84d11fd09d7b" title="nekmoab_init" alt="" coords="171,5,269,32"/>
-<area shape="rect" id="node6" href="$visit_8f.html#af13f954f4053cd7d857a77b8bb2a360f" title="visit_init" alt="" coords="341,56,412,83"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1" title="numnodes" alt="" coords="179,107,261,133"/>
-<area shape="rect" id="node11" href="$multimesh_8f.html#a0b340eaa9352e5b5d12ff7d525b30c0a" title="get_session_info" alt="" coords="616,107,736,133"/>
-<area shape="rect" id="node3" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="317,5,436,32"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="647,5,705,32"/>
-<area shape="rect" id="node5" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="784,56,851,83"/>
-<area shape="rect" id="node7" href="$nek__in__situ_8f.html#a1bfbb75319b6952099ff32091bb42499" title="in_situ_init" alt="" coords="484,56,568,83"/>
-<area shape="rect" id="node9" href="$comm__mpi_8f.html#a1b39639f2e521752c8545744cb0ac2f6" title="init_nek_comm" alt="" coords="321,107,432,133"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#ad144041d3b33dd06035861d134cd9c35" title="iniproc" alt="" coords="496,107,556,133"/>
+<area shape="rect" id="node2" href="$visit_8f.html#af13f954f4053cd7d857a77b8bb2a360f" title="visit_init" alt="" coords="177,5,247,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1" title="numnodes" alt="" coords="171,56,253,83"/>
+<area shape="rect" id="node8" href="$multimesh_8f.html#a0b340eaa9352e5b5d12ff7d525b30c0a" title="get_session_info" alt="" coords="592,56,712,83"/>
+<area shape="rect" id="node3" href="$nek__in__situ_8f.html#a1bfbb75319b6952099ff32091bb42499" title="in_situ_init" alt="" coords="460,5,544,32"/>
+<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="760,31,827,57"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a1b39639f2e521752c8545744cb0ac2f6" title="init_nek_comm" alt="" coords="301,56,412,83"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#ad144041d3b33dd06035861d134cd9c35" title="iniproc" alt="" coords="472,56,532,83"/>
 </map>

@@ -112,6 +112,9 @@ $(document).ready(function(){initNavTree('intpdiff_8f.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>interpolation and differentiation routines not already provided by nek5000  
+<a href="#details">More...</a></p>
+
 <p><a href="intpdiff_8f_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -127,7 +130,11 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a0d378518f250568824942e9d861a008e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intpdiff_8f.html#a0d378518f250568824942e9d861a008e">gradm1_t</a> (u, ux, uy, uz)</td></tr>
 <tr class="separator:a0d378518f250568824942e9d861a008e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>interpolation and differentiation routines not already provided by nek5000 </p>
+
+<p>Definition in file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a class="anchor" id="a5320a5bf1c50695504168747afc66c93"></a>
 <div class="memitem">
 <div class="memproto">
@@ -142,7 +149,7 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00009">9</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
+<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00011">11</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
 
 <p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="navier5_8f_source.html#l00718">local_grad2()</a>, and <a class="el" href="navier5_8f_source.html#l00699">local_grad3()</a>.</p>
 
@@ -173,7 +180,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="intpdiff_8f_a5320a5bf1c50695504168747afc66c93_icgraph.png" border="0" usemap="#intpdiff_8f_a5320a5bf1c50695504168747afc66c93_icgraph" alt=""/></div>
 <map name="intpdiff_8f_a5320a5bf1c50695504168747afc66c93_icgraph" id="intpdiff_8f_a5320a5bf1c50695504168747afc66c93_icgraph">
-<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="185,5,328,32"/>
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="185,5,328,32"/>
 <area shape="rect" id="node3" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="376,5,504,32"/>
 <area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="552,5,651,32"/>
 </map>
@@ -218,9 +225,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00192">192</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
+<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00194">194</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="math_8f_source.html#l00470">cmult()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="navier1_8f_source.html#l04983">local_grad2_t()</a>, <a class="el" href="navier1_8f_source.html#l04958">local_grad3_t()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="math_8f_source.html#l00470">cmult()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="navier1_8f_source.html#l04845">local_grad2_t()</a>, <a class="el" href="navier1_8f_source.html#l04820">local_grad3_t()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -253,8 +260,8 @@ Functions/Subroutines</h2></td></tr>
 <div class="center"><img src="intpdiff_8f_a8f6017ff4e0e2f0d51ed4e1ab69b4f4d_icgraph.png" border="0" usemap="#intpdiff_8f_a8f6017ff4e0e2f0d51ed4e1ab69b4f4d_icgraph" alt=""/></div>
 <map name="intpdiff_8f_a8f6017ff4e0e2f0d51ed4e1ab69b4f4d_icgraph" id="intpdiff_8f_a8f6017ff4e0e2f0d51ed4e1ab69b4f4d_icgraph">
 <area shape="rect" id="node2" href="diffusive__cmt_8f.html#a90ef567419c8aa503af50a7e747c884e" title="half_iku_cmt" alt="" coords="136,5,232,32"/>
-<area shape="rect" id="node3" href="eqnsolver__cmt_8f.html#a6d611a250fb98acf77e8a3880c0e608d" title="viscous_cmt" alt="" coords="280,5,376,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="424,5,567,32"/>
+<area shape="rect" id="node3" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="280,5,376,32"/>
+<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="424,5,567,32"/>
 </map>
 </div>
 </p>
@@ -297,9 +304,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00246">246</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
+<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00248">248</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
 
-<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="navier1_8f_source.html#l04983">local_grad2_t()</a>, <a class="el" href="navier1_8f_source.html#l04958">local_grad3_t()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="navier1_8f_source.html#l04845">local_grad2_t()</a>, <a class="el" href="navier1_8f_source.html#l04820">local_grad3_t()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -329,8 +336,8 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="intpdiff_8f_a0d378518f250568824942e9d861a008e_icgraph.png" border="0" usemap="#intpdiff_8f_a0d378518f250568824942e9d861a008e_icgraph" alt=""/></div>
 <map name="intpdiff_8f_a0d378518f250568824942e9d861a008e_icgraph" id="intpdiff_8f_a0d378518f250568824942e9d861a008e_icgraph">
-<area shape="rect" id="node2" href="eqnsolver__cmt_8f.html#a98d826061a0ffb225d37cb73b86a9475" title="igtu_cmt" alt="" coords="129,5,201,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="249,5,392,32"/>
+<area shape="rect" id="node2" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="129,5,201,32"/>
+<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="249,5,392,32"/>
 <area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="440,5,568,32"/>
 </map>
 </div>
@@ -352,7 +359,7 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00116">116</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
+<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00118">118</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, and <a class="el" href="speclib_8f_source.html#l00108">zwgll()</a>.</p>
 
@@ -379,7 +386,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="intpdiff_8f_a850ca013bfbf88b2bf9d588ebbc7d1d9_icgraph.png" border="0" usemap="#intpdiff_8f_a850ca013bfbf88b2bf9d588ebbc7d1d9_icgraph" alt=""/></div>
 <map name="intpdiff_8f_a850ca013bfbf88b2bf9d588ebbc7d1d9_icgraph" id="intpdiff_8f_a850ca013bfbf88b2bf9d588ebbc7d1d9_icgraph">
-<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="145,5,288,32"/>
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="145,5,288,32"/>
 <area shape="rect" id="node3" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="336,5,464,32"/>
 <area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="512,5,611,32"/>
 </map>
@@ -401,7 +408,7 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00069">69</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
+<p>Definition at line <a class="el" href="intpdiff_8f_source.html#l00071">71</a> of file <a class="el" href="intpdiff_8f_source.html">intpdiff.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, and <a class="el" href="speclib_8f_source.html#l00091">zwgl()</a>.</p>
 
@@ -428,7 +435,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="intpdiff_8f_a65689efbb78eee023a3a9a7d4b9caff7_icgraph.png" border="0" usemap="#intpdiff_8f_a65689efbb78eee023a3a9a7d4b9caff7_icgraph" alt=""/></div>
 <map name="intpdiff_8f_a65689efbb78eee023a3a9a7d4b9caff7_icgraph" id="intpdiff_8f_a65689efbb78eee023a3a9a7d4b9caff7_icgraph">
-<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="173,5,316,32"/>
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="173,5,316,32"/>
 <area shape="rect" id="node3" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="364,5,492,32"/>
 <area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="540,5,639,32"/>
 </map>
@@ -443,7 +450,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="intpdiff_8f.html">intpdiff.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

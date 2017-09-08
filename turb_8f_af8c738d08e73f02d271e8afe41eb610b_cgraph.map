@@ -1,20 +1,18 @@
 <map id="comufr" name="comufr">
-<area shape="rect" id="node2" href="$subs2_8f.html#a3f343515acf6d98ae16eb940d9b9f70b" title="emerxit" alt="" coords="116,298,181,325"/>
-<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="614,323,661,350"/>
-<area shape="rect" id="node11" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="229,222,295,249"/>
-<area shape="rect" id="node18" href="$drive2_8f.html#a6637d27bdf1984d5964bd31465cd304a" title="runstat" alt="" coords="360,70,423,97"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="719,222,803,249"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="721,70,802,97"/>
-<area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="728,273,795,299"/>
-<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="712,323,811,350"/>
-<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="716,374,807,401"/>
-<area shape="rect" id="node9" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="722,425,801,451"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="722,171,801,198"/>
-<area shape="rect" id="node12" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="493,323,558,350"/>
-<area shape="rect" id="node14" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="504,121,547,147"/>
-<area shape="rect" id="node15" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="364,273,419,299"/>
-<area shape="rect" id="node16" href="$prepost_8f.html#aa744b6bf02ba449c6084ad4d0f878af7" title="outhis" alt="" coords="363,121,420,147"/>
-<area shape="rect" id="node17" href="$prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="343,171,440,198"/>
-<area shape="rect" id="node13" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="611,222,664,249"/>
-<area shape="rect" id="node19" href="$drive2_8f.html#a584c9fb49aa78285ef4b39ab8bb9014c" title="pprint_all" alt="" coords="488,70,563,97"/>
+<area shape="rect" id="node2" href="$subs2_8f.html#a3f343515acf6d98ae16eb940d9b9f70b" title="emerxit" alt="" coords="116,385,181,412"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="491,411,538,437"/>
+<area shape="rect" id="node11" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="229,335,295,361"/>
+<area shape="rect" id="node15" href="$drive2_8f.html#a6637d27bdf1984d5964bd31465cd304a" title="runstat" alt="" coords="231,157,293,184"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="597,309,681,336"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="598,259,679,285"/>
+<area shape="rect" id="node6" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="605,360,672,387"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="589,411,688,437"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="593,461,684,488"/>
+<area shape="rect" id="node9" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="594,512,683,539"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="599,157,678,184"/>
+<area shape="rect" id="node12" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="364,107,419,133"/>
+<area shape="rect" id="node14" href="$prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="343,360,440,387"/>
+<area shape="rect" id="node13" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="488,56,541,83"/>
+<area shape="rect" id="node16" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="370,233,413,260"/>
+<area shape="rect" id="node17" href="$drive2_8f.html#a584c9fb49aa78285ef4b39ab8bb9014c" title="pprint_all" alt="" coords="354,5,429,32"/>
 </map>

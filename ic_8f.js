@@ -1,5 +1,6 @@
 var ic_8f =
 [
+    [ "addfid", "ic_8f.html#a6c038aadb593728de8050e552ea4acc6", null ],
     [ "axis_interp_ic", "ic_8f.html#abfc96747c4f79836b70a09ac160175c2", null ],
     [ "capit", "ic_8f.html#a65a25147f7d5423171da71200182a19b", null ],
     [ "chknorm", "ic_8f.html#ac8820d49d1c765e44bf5bb9b055c8f8b", null ],
@@ -21,7 +22,6 @@ var ic_8f =
     [ "mapab", "ic_8f.html#a42cd68be013922e3ab848bdf2663832a", null ],
     [ "mapab4r", "ic_8f.html#a170de261200bce1070ca719caaf56df0", null ],
     [ "mapdmp", "ic_8f.html#a46a0ff5dd0a6f10aa39215385ba21288", null ],
-    [ "mbyte_open", "ic_8f.html#a68d933fc6454561483fc9fa2bbac444b", null ],
     [ "mfi", "ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a", null ],
     [ "mfi_gets", "ic_8f.html#af9f00a786901a7600e636f294a42bd09", null ],
     [ "mfi_getv", "ic_8f.html#af68df198916be2ecb6058327311ac3b6", null ],

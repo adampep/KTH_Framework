@@ -1,6 +1,6 @@
 <map id="tdstate" name="tdstate">
-<area shape="rect" id="node2" href="$driver3__cmt_8f.html#ac47c38b6395c2b92e6457892e329b04e" title="compute_primitive_vars" alt="" coords="116,5,276,32"/>
+<area shape="rect" id="node2" href="$driver3__cmt_8f.html#ac47c38b6395c2b92e6457892e329b04e" title="Compute primitive variables (velocity, thermodynamic state) from conserved unknowns U..." alt="" coords="116,5,276,32"/>
 <area shape="rect" id="node3" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="515,5,643,32"/>
-<area shape="rect" id="node5" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="324,31,467,57"/>
+<area shape="rect" id="node5" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="324,31,467,57"/>
 <area shape="rect" id="node4" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="691,5,789,32"/>
 </map>

@@ -7,7 +7,6 @@ var searchData=
   ['nek_5fcomm_5fstartstat',['nek_comm_startstat',['../nek__comm_8c.html#aa77c34c11519d275caed180e4d3745a1',1,'nek_comm.c']]],
   ['nek_5fexitt',['nek_exitt',['../fail_8c.html#a8b68809a04b77c3312fbb1a613a7a439',1,'fail.c']]],
   ['nek_5fmxm',['nek_mxm',['../tensor_8h.html#a18043e64aa8746c318dc5caf1f4f37bc',1,'tensor.h']]],
-  ['nek_5fprefixed_5fname',['NEK_PREFIXED_NAME',['../ext_2findpts__local_8h.html#af80edee3f80aca7fba3f72e8cacb8e2e',1,'findpts_local.h']]],
   ['nel',['NEL',['../findpts__local__test_8c.html#a73cf64f48a81cdcc434300fae68cb9ec',1,'NEL():&#160;findpts_local_test.c'],['../findpts__test_8c.html#a73cf64f48a81cdcc434300fae68cb9ec',1,'NEL():&#160;findpts_test.c']]],
   ['newt_5ftol',['NEWT_TOL',['../findpts__local__test_8c.html#abf6ee8463e89259d039a8db9f83596c9',1,'NEWT_TOL():&#160;findpts_local_test.c'],['../findpts__test_8c.html#abf6ee8463e89259d039a8db9f83596c9',1,'NEWT_TOL():&#160;findpts_test.c']]],
   ['no_5fc99',['NO_C99',['../c99_8h.html#a70e1e0caf1554a6f7cf28fbd5f913c49',1,'c99.h']]],

@@ -1,7 +1,6 @@
 <map id="convop_cons_3d" name="convop_cons_3d">
-<area shape="rect" id="node2" href="$convect_8f.html#a036e0748e08b74d166f83b1a6dab88a4" title="conv_rhs" alt="" coords="365,24,440,51"/>
-<area shape="rect" id="node5" href="$convect_8f.html#ace970aac277cdecdce1ee7e820473310" title="conv_rhs_dg_aliased" alt="" coords="173,24,317,51"/>
-<area shape="rect" id="node6" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title="conv_rhs_dg" alt="" coords="197,75,293,101"/>
-<area shape="rect" id="node3" href="$convect_8f.html#a462db3d75569eb808bc6e5d8cda2c542" title="char_conv1" alt="" coords="488,24,577,51"/>
-<area shape="rect" id="node4" href="$convect_8f.html#ae4ae44dd6c99361a823026cc794c68a0" title="char_conv" alt="" coords="625,24,708,51"/>
+<area shape="rect" id="node2" href="$convect_8f.html#a036e0748e08b74d166f83b1a6dab88a4" title="conv_rhs" alt="" coords="365,5,440,32"/>
+<area shape="rect" id="node5" href="$convect_8f.html#ace970aac277cdecdce1ee7e820473310" title="conv_rhs_dg_aliased" alt="" coords="173,31,317,57"/>
+<area shape="rect" id="node3" href="$convect_8f.html#a462db3d75569eb808bc6e5d8cda2c542" title="char_conv1" alt="" coords="488,5,577,32"/>
+<area shape="rect" id="node4" href="$convect_8f.html#ae4ae44dd6c99361a823026cc794c68a0" title="char_conv" alt="" coords="625,5,708,32"/>
 </map>

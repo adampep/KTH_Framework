@@ -8,7 +8,6 @@ var searchData=
   ['flag',['flag',['../structnonzero__id.html#a8e9293a8a813c4254a757523c98f58af',1,'nonzero_id::flag()'],['../structprimary__shared__id.html#a3c635cc85349bdbc3fdd9d9b564d40cf',1,'primary_shared_id::flag()']]],
   ['flagged_5fprimaries',['flagged_primaries',['../structgs__data.html#a155d09c9fb32964a9b051628e15b147f',1,'gs_data']]],
   ['flags',['flags',['../structfindpts__el__pt__2.html#a3a7cec5d00d82f66ce2d68ca19d51159',1,'findpts_el_pt_2::flags()'],['../structfindpts__el__pt__3.html#a49e7b2d28c6aab031d2c232fd407f83f',1,'findpts_el_pt_3::flags()'],['../structshared__id.html#a340a3d6301871216e8b30e16bc973889',1,'shared_id::flags()']]],
-  ['fld',['fld',['../structfindpts__local__data.html#a7c7e1a7934493632d37510ddaaf81605',1,'findpts_local_data']]],
   ['fptr',['fptr',['../structfile.html#aff27bbfc66d18244b2206826020f58b1',1,'file']]],
   ['fun',['fun',['../gen__poly__imp_8c.html#a743fa290dbc0a67a3843d5ab0426e9b4',1,'gen_poly_imp.c']]]
 ];

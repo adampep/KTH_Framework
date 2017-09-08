@@ -17,6 +17,5 @@ var pertsupport_8f =
     [ "pert_ortho_norm", "pertsupport_8f.html#ae34fb509f2c51abd7107f056adeb93be", null ],
     [ "pert_ortho_norm1", "pertsupport_8f.html#a20a5d268d2532526bd62be50a952184d", null ],
     [ "rescalepert", "pertsupport_8f.html#a7470089203075392ac82b6451c42dc0b", null ],
-    [ "tnorm", "pertsupport_8f.html#a23c6c0cf2ef16ff67462fc62077f92cd", null ],
-    [ "writehist", "pertsupport_8f.html#a2ddbb952fe16214543f0c4efe5bef1e3", null ]
+    [ "tnorm", "pertsupport_8f.html#a23c6c0cf2ef16ff67462fc62077f92cd", null ]
 ];

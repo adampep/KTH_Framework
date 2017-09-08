@@ -1,10 +1,8 @@
 <map id="restart" name="restart">
 <area shape="rect" id="node2" href="$ic_8f.html#acaefa33e86633e4a7a4b28347d4620d1" title="setics" alt="" coords="135,31,193,57"/>
-<area shape="rect" id="node7" href="$ic_8f.html#aa396cce2dda2db300d986bbbce515d6a" title="full_restart" alt="" coords="123,81,205,108"/>
-<area shape="rect" id="node8" href="$navier5_8f.html#a78b917d37cf85f367e5decac2f8155cd" title="auto_averager" alt="" coords="112,132,216,159"/>
-<area shape="rect" id="node9" href="$group__chkpoint__mstep.html#ga685f03e71ebca8d39a1472a92bb83284" title="Read full file restart set. " alt="" coords="121,183,207,209"/>
+<area shape="rect" id="node6" href="$ic_8f.html#aa396cce2dda2db300d986bbbce515d6a" title="full_restart" alt="" coords="123,81,205,108"/>
+<area shape="rect" id="node7" href="$navier5_8f.html#a78b917d37cf85f367e5decac2f8155cd" title="auto_averager" alt="" coords="112,132,216,159"/>
 <area shape="rect" id="node3" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="264,5,331,32"/>
 <area shape="rect" id="node5" href="$postpro_8f.html#ac11e1909dcf07a738bcba7e6cbb4295f" title="load_fld" alt="" coords="264,56,331,83"/>
 <area shape="rect" id="node4" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="379,5,440,32"/>
-<area shape="rect" id="node6" href="$postpro_8f.html#af73e7e691771fb06aa93074ea7c2068a" title="g2gi" alt="" coords="386,56,433,83"/>
 </map>

@@ -7,7 +7,7 @@
 <area shape="rect" id="node6" href="$intpdiff_8f.html#a65689efbb78eee023a3a9a7d4b9caff7" title="set_dealias_face" alt="" coords="417,5,537,32"/>
 <area shape="rect" id="node7" href="$convect_8f.html#a58f02ae257240ef90f8a1c9e5b092d1c" title="gen_int" alt="" coords="445,309,509,336"/>
 <area shape="rect" id="node8" href="$convect_8f.html#aa262674ee97d23a029b59e09a9a985a6" title="gen_dgl" alt="" coords="443,56,510,83"/>
-<area shape="rect" id="node9" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title="conv_rhs_dg" alt="" coords="429,107,525,133"/>
+<area shape="rect" id="node9" href="$convect_8f.html#a1ea9345e199e3ab349e0616a5aaa0bf0" title="set_dg_wgts" alt="" coords="429,107,525,133"/>
 <area shape="rect" id="node10" href="$fast3d_8f.html#a99894224741a84f40eaffab59f606087" title="semhat" alt="" coords="444,360,509,387"/>
 <area shape="rect" id="node11" href="$gfdm__op_8f.html#a69bd2fc3d23c237ff13d702c0f893c86" title="gfdm_set_genwz" alt="" coords="416,411,537,437"/>
 <area shape="rect" id="node12" href="$induct_8f.html#adcae8f87adfb3b7c619cd72c46ccd4ac" title="set_dealias_rx" alt="" coords="423,157,530,184"/>

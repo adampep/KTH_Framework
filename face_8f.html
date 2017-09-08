@@ -112,6 +112,9 @@ $(document).ready(function(){initNavTree('face_8f.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>low-level initialization drivers. Eventually to be superceded by nek5000 core DG handles and operators.  
+<a href="#details">More...</a></p>
+
 <p><a href="face_8f_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -129,7 +132,11 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a8837dacbadf0fe4f899f2768bb606deb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="face_8f.html#a8837dacbadf0fe4f899f2768bb606deb">add_face2full_cmt</a> (nel, <a class="el" href="xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d">nx</a>, ny, <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, iface, vols, <a class="el" href="navier6_8f.html#a9c336891752779ff2304c574e0f9269d">faces</a>)</td></tr>
 <tr class="separator:a8837dacbadf0fe4f899f2768bb606deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>low-level initialization drivers. Eventually to be superceded by nek5000 core DG handles and operators. </p>
+
+<p>Definition in file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a class="anchor" id="a8837dacbadf0fe4f899f2768bb606deb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +191,7 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="face_8f_source.html#l00188">188</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+<p>Definition at line <a class="el" href="face_8f_source.html#l00190">190</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
 
 <p>References <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
@@ -195,9 +202,9 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="face_8f_a8837dacbadf0fe4f899f2768bb606deb_icgraph.png" border="0" usemap="#face_8f_a8837dacbadf0fe4f899f2768bb606deb_icgraph" alt=""/></div>
 <map name="face_8f_a8837dacbadf0fe4f899f2768bb606deb_icgraph" id="face_8f_a8837dacbadf0fe4f899f2768bb606deb_icgraph">
-<area shape="rect" id="node2" href="eqnsolver__cmt_8f.html#a98d826061a0ffb225d37cb73b86a9475" title="igtu_cmt" alt="" coords="215,5,287,32"/>
+<area shape="rect" id="node2" href="group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="215,5,287,32"/>
 <area shape="rect" id="node5" href="surface__fluxes_8f.html#a799332814e9d69e56ae5cc53dd448ebc" title="surface_integral_full" alt="" coords="181,56,320,83"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="368,31,511,57"/>
+<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="368,31,511,57"/>
 <area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="559,31,687,57"/>
 </map>
 </div>
@@ -253,9 +260,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="face_8f_source.html#l00108">108</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+<p>Definition at line <a class="el" href="face_8f_source.html#l00110">110</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
 
-<p>References <a class="el" href="connect1_8f_source.html#l00550">dsset()</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
+<p>References <a class="el" href="connect1_8f_source.html#l00559">dsset()</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -339,7 +346,7 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="face_8f_source.html#l00159">159</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+<p>Definition at line <a class="el" href="face_8f_source.html#l00161">161</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
 
 <p>References <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
@@ -352,11 +359,11 @@ Functions/Subroutines</h2></td></tr>
 <map name="face_8f_a250af663ab54c8e8777f671b93c6c4ac_icgraph" id="face_8f_a250af663ab54c8e8777f671b93c6c4ac_icgraph">
 <area shape="rect" id="node2" href="diagnostics_8f.html#af7a99b8ff40beaeada2983c3a1253515" title="printalot" alt="" coords="165,5,233,32"/>
 <area shape="rect" id="node3" href="surface__fluxes_8f.html#a272adf58402c1bfb170c8667bf6be790" title="faceu" alt="" coords="171,56,226,83"/>
-<area shape="rect" id="node6" href="surface__fluxes_8f.html#acf0e0ef10bdfeef6ee539ac1d2bfbe9e" title="fillq" alt="" coords="177,107,220,133"/>
+<area shape="rect" id="node6" href="surface__fluxes_8f.html#add9e67c242e6961b5672f0e92b354403" title="fillq" alt="" coords="177,107,220,133"/>
 <area shape="rect" id="node7" href="surface__fluxes_8f.html#a88fa0428bc395bf4e785ac7c484fc587" title="diffh2graduf" alt="" coords="153,157,244,184"/>
-<area shape="rect" id="node4" href="surface__fluxes_8f.html#a01b6fc0aa838a74ba798fd1c1e9600da" title="fluxes_full_field" alt="" coords="292,107,404,133"/>
-<area shape="rect" id="node5" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="452,132,595,159"/>
-<area shape="rect" id="node8" href="eqnsolver__cmt_8f.html#a6d611a250fb98acf77e8a3880c0e608d" title="viscous_cmt" alt="" coords="300,157,396,184"/>
+<area shape="rect" id="node4" href="group__isurf.html#ga01b6fc0aa838a74ba798fd1c1e9600da" title="Restrict and copy face data and compute inviscid numerical flux &#160;on face points. " alt="" coords="292,107,404,133"/>
+<area shape="rect" id="node5" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="452,132,595,159"/>
+<area shape="rect" id="node8" href="group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="300,157,396,184"/>
 </map>
 </div>
 </p>
@@ -423,9 +430,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="face_8f_source.html#l00003">3</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+<p>Definition at line <a class="el" href="face_8f_source.html#l00005">5</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
 
-<p>References <a class="el" href="connect1_8f_source.html#l01025">facind()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="drive2__cmt_8f_source.html#l00025">izero8()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="xxt__test_8c_source.html#l00041">nx</a>, and <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>.</p>
+<p>References <a class="el" href="connect1_8f_source.html#l01034">facind()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="drive2__cmt_8f_source.html#l00026">izero8()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="xxt__test_8c_source.html#l00041">nx</a>, and <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -469,9 +476,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="face_8f_source.html#l00089">89</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+<p>Definition at line <a class="el" href="face_8f_source.html#l00091">91</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
 
-<p>References <a class="el" href="face_8f_source.html#l00108">cmt_set_fc_ptr()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="face_8f_source.html#l00058">setup_cmt_gs()</a>.</p>
+<p>References <a class="el" href="face_8f_source.html#l00110">cmt_set_fc_ptr()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="face_8f_source.html#l00060">setup_cmt_gs()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -576,9 +583,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="face_8f_source.html#l00058">58</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
+<p>Definition at line <a class="el" href="face_8f_source.html#l00060">60</a> of file <a class="el" href="face_8f_source.html">face.f</a>.</p>
 
-<p>References <a class="el" href="gs_8c_source.html#l00025">gs_setup</a>, <a class="el" href="face_8f_source.html#l00003">iface_vert_int8cmt()</a>, <a class="el" href="xxt__test_8c_source.html#l00041">nx</a>, <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>, and <a class="el" href="navier8_8f_source.html#l00004">set_vert()</a>.</p>
+<p>References <a class="el" href="gs_8c_source.html#l00025">gs_setup</a>, <a class="el" href="face_8f_source.html#l00005">iface_vert_int8cmt()</a>, <a class="el" href="xxt__test_8c_source.html#l00041">nx</a>, <a class="el" href="xxt__test_8c_source.html#l00078">nz</a>, and <a class="el" href="navier8_8f_source.html#l00004">set_vert()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -626,7 +633,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="face_8f.html">face.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

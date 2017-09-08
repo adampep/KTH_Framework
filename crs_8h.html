@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>KTH framework for Nek5000 toolboxes; testing version: Nek5000/jl/crs.h File Reference</title>
+<title>KTH framework for Nek5000 toolboxes; testing version: Nek5000/3rd_party/gslib/src/crs.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -117,12 +117,12 @@ $(document).ready(function(){initNavTree('crs_8h.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="crs_8h__dep__incl.png" border="0" usemap="#Nek5000_2jl_2crs_8hdep" alt=""/></div>
-<map name="Nek5000_2jl_2crs_8hdep" id="Nek5000_2jl_2crs_8hdep">
-<area shape="rect" id="node2" href="crs__test_8c.html" title="Nek5000/jl/crs_test.c" alt="" coords="5,80,152,107"/>
-<area shape="rect" id="node3" href="fcrs_8c.html" title="Nek5000/jl/fcrs.c" alt="" coords="177,80,298,107"/>
-<area shape="rect" id="node4" href="xxt__test_8c.html" title="Nek5000/jl/xxt_test.c" alt="" coords="323,80,469,107"/>
-<area shape="rect" id="node5" href="xxt__test2_8c.html" title="Nek5000/jl/xxt_test2.c" alt="" coords="494,80,647,107"/>
+<div class="center"><img src="crs_8h__dep__incl.png" border="0" usemap="#Nek5000_23rd__party_2gslib_2src_2crs_8hdep" alt=""/></div>
+<map name="Nek5000_23rd__party_2gslib_2src_2crs_8hdep" id="Nek5000_23rd__party_2gslib_2src_2crs_8hdep">
+<area shape="rect" id="node2" href="crs__test_8c.html" title="Nek5000/3rd_party/gslib\l/src/crs_test.c" alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="fcrs_8c.html" title="Nek5000/3rd_party/gslib\l/src/fcrs.c" alt="" coords="192,95,355,136"/>
+<area shape="rect" id="node4" href="xxt__test_8c.html" title="Nek5000/3rd_party/gslib\l/src/xxt_test.c" alt="" coords="379,95,541,136"/>
+<area shape="rect" id="node5" href="xxt__test2_8c.html" title="Nek5000/3rd_party/gslib\l/src/xxt_test2.c" alt="" coords="565,95,728,136"/>
 </map>
 </div>
 </div>
@@ -130,33 +130,105 @@ $(document).ready(function(){initNavTree('crs_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a75666e74c2395e76351148739489653c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a75666e74c2395e76351148739489653c">crs_setup</a>&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_setup)</td></tr>
-<tr class="separator:a75666e74c2395e76351148739489653c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33be7f10e1b82e96868686be6278cd8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a33be7f10e1b82e96868686be6278cd8e">crs_solve</a>&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_solve)</td></tr>
-<tr class="separator:a33be7f10e1b82e96868686be6278cd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d7eb4d14189e0e5864abf2dbedfcf14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a3d7eb4d14189e0e5864abf2dbedfcf14">crs_stats</a>&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_stats)</td></tr>
-<tr class="separator:a3d7eb4d14189e0e5864abf2dbedfcf14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2c0d2865385d5c66c85acf6672d7851"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#ab2c0d2865385d5c66c85acf6672d7851">crs_free</a>&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_free )</td></tr>
-<tr class="separator:ab2c0d2865385d5c66c85acf6672d7851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf69813019c47545d23b0160c3851859"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#acf69813019c47545d23b0160c3851859">crs_xxt_setup</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_setup)</td></tr>
+<tr class="separator:acf69813019c47545d23b0160c3851859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7573d49490047e5c6b94b827cbe91a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#adb7573d49490047e5c6b94b827cbe91a">crs_xxt_solve</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_solve)</td></tr>
+<tr class="separator:adb7573d49490047e5c6b94b827cbe91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced028569498d091fafc74a3cbe42bfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#aced028569498d091fafc74a3cbe42bfc">crs_xxt_stats</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_stats)</td></tr>
+<tr class="separator:aced028569498d091fafc74a3cbe42bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8692e095d13ea686a2aed88f22f6a5ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a8692e095d13ea686a2aed88f22f6a5ab">crs_xxt_free</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_free )</td></tr>
+<tr class="separator:a8692e095d13ea686a2aed88f22f6a5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a806d6e448d21327332f0776926400ef4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a806d6e448d21327332f0776926400ef4">crs_amg_setup</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_setup)</td></tr>
+<tr class="separator:a806d6e448d21327332f0776926400ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c456c746a8e8fefabfabfe76ce77ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#ad0c456c746a8e8fefabfabfe76ce77ed">crs_amg_solve</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_solve)</td></tr>
+<tr class="separator:ad0c456c746a8e8fefabfabfe76ce77ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf6c3aef752fa10b1a4c2ac08bf7a610"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#abf6c3aef752fa10b1a4c2ac08bf7a610">crs_amg_stats</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_stats)</td></tr>
+<tr class="separator:abf6c3aef752fa10b1a4c2ac08bf7a610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eecc75ff04d9a8e6f12c4b0dd594926"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a5eecc75ff04d9a8e6f12c4b0dd594926">crs_amg_free</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_free )</td></tr>
+<tr class="separator:a5eecc75ff04d9a8e6f12c4b0dd594926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2f774436927099a90b42fcf74d96f671"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a2f774436927099a90b42fcf74d96f671">crs_setup</a> (<a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> <a class="el" href="gen__poly__imp_8c.html#a8cb3559d5998b7434038599d3656b02c">n</a>, const <a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> *id, <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *<a class="el" href="xxt__test_8c.html#a5527f7c58848274b42cb3bf3c60c3f1b">Ai</a>, const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *<a class="el" href="xxt__test_8c.html#af4dd8cf566bdcfc4471ec433f215abb6">Aj</a>, const double *<a class="el" href="sort__test2_8c.html#a2e8035c9e8ce16ae7da2ca7071eb1515">A</a>, <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> null_space, const struct <a class="el" href="structcomm.html">comm</a> *<a class="el" href="structcomm.html">comm</a>)</td></tr>
-<tr class="separator:a2f774436927099a90b42fcf74d96f671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a611e0d89d150a2537326eb781d913788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a611e0d89d150a2537326eb781d913788">crs_solve</a> (double *<a class="el" href="spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b">x</a>, struct <a class="el" href="structcrs__data.html">crs_data</a> *data, double *b)</td></tr>
-<tr class="separator:a611e0d89d150a2537326eb781d913788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c592af2540bdd0687e60b4e66293442"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a0c592af2540bdd0687e60b4e66293442">crs_stats</a> (struct <a class="el" href="structcrs__data.html">crs_data</a> *data)</td></tr>
-<tr class="separator:a0c592af2540bdd0687e60b4e66293442"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a770f2fae31753012fa19f34fb4b48836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a770f2fae31753012fa19f34fb4b48836">crs_free</a> (struct <a class="el" href="structcrs__data.html">crs_data</a> *data)</td></tr>
-<tr class="separator:a770f2fae31753012fa19f34fb4b48836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aba4bf341f42c0315fb9bda5ce1cdf7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a9aba4bf341f42c0315fb9bda5ce1cdf7">crs_xxt_setup</a> (<a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> <a class="el" href="gen__poly__imp_8c.html#a8cb3559d5998b7434038599d3656b02c">n</a>, const <a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> *id, <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *<a class="el" href="xxt__test_8c.html#a5527f7c58848274b42cb3bf3c60c3f1b">Ai</a>, const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *<a class="el" href="xxt__test_8c.html#af4dd8cf566bdcfc4471ec433f215abb6">Aj</a>, const double *<a class="el" href="sort__test2_8c.html#a2e8035c9e8ce16ae7da2ca7071eb1515">A</a>, <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> null_space, const struct <a class="el" href="structcomm.html">comm</a> *<a class="el" href="structcomm.html">comm</a>)</td></tr>
+<tr class="separator:a9aba4bf341f42c0315fb9bda5ce1cdf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222b0ab58ad55c0c0d0f9c004232d701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a222b0ab58ad55c0c0d0f9c004232d701">crs_xxt_solve</a> (double *<a class="el" href="spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b">x</a>, struct <a class="el" href="structcrs__data.html">crs_data</a> *data, double *b)</td></tr>
+<tr class="separator:a222b0ab58ad55c0c0d0f9c004232d701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531e25c2ebd01d07f3ff72b00e7e43b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a531e25c2ebd01d07f3ff72b00e7e43b0">crs_xxt_stats</a> (struct <a class="el" href="structcrs__data.html">crs_data</a> *data)</td></tr>
+<tr class="separator:a531e25c2ebd01d07f3ff72b00e7e43b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61fa5a187d07fe7ab6a7f8578c222b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#ad61fa5a187d07fe7ab6a7f8578c222b1">crs_xxt_free</a> (struct <a class="el" href="structcrs__data.html">crs_data</a> *data)</td></tr>
+<tr class="separator:ad61fa5a187d07fe7ab6a7f8578c222b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263838f44c4496f64d4edb93709be4b7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a263838f44c4496f64d4edb93709be4b7">crs_amg_setup</a> (<a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> <a class="el" href="gen__poly__imp_8c.html#a8cb3559d5998b7434038599d3656b02c">n</a>, const <a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> *id, <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> <a class="el" href="xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357">nz</a>, const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *<a class="el" href="xxt__test_8c.html#a5527f7c58848274b42cb3bf3c60c3f1b">Ai</a>, const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *<a class="el" href="xxt__test_8c.html#af4dd8cf566bdcfc4471ec433f215abb6">Aj</a>, const double *<a class="el" href="sort__test2_8c.html#a2e8035c9e8ce16ae7da2ca7071eb1515">A</a>, <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> null_space, const struct <a class="el" href="structcomm.html">comm</a> *<a class="el" href="structcomm.html">comm</a>)</td></tr>
+<tr class="separator:a263838f44c4496f64d4edb93709be4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2741549f1031f7e1be36b0681f77f87b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a2741549f1031f7e1be36b0681f77f87b">crs_amg_solve</a> (double *<a class="el" href="spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b">x</a>, struct <a class="el" href="structcrs__data.html">crs_data</a> *data, double *b)</td></tr>
+<tr class="separator:a2741549f1031f7e1be36b0681f77f87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec846cfb72a6fb08b910ec6aa3693fd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#aec846cfb72a6fb08b910ec6aa3693fd9">crs_amg_stats</a> (struct <a class="el" href="structcrs__data.html">crs_data</a> *data)</td></tr>
+<tr class="separator:aec846cfb72a6fb08b910ec6aa3693fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a626dde5d53d414bf21debd27ba131027"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crs_8h.html#a626dde5d53d414bf21debd27ba131027">crs_amg_free</a> (struct <a class="el" href="structcrs__data.html">crs_data</a> *data)</td></tr>
+<tr class="separator:a626dde5d53d414bf21debd27ba131027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ab2c0d2865385d5c66c85acf6672d7851"></a>
+<a class="anchor" id="a5eecc75ff04d9a8e6f12c4b0dd594926"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define crs_free&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_free )</td>
+          <td class="memname">#define crs_amg_free&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_free )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="crs_8h_source.html#l00016">16</a> of file <a class="el" href="crs_8h_source.html">crs.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a806d6e448d21327332f0776926400ef4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define crs_amg_setup&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_setup)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="crs_8h_source.html#l00013">13</a> of file <a class="el" href="crs_8h_source.html">crs.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0c456c746a8e8fefabfabfe76ce77ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define crs_amg_solve&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_solve)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="crs_8h_source.html#l00014">14</a> of file <a class="el" href="crs_8h_source.html">crs.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abf6c3aef752fa10b1a4c2ac08bf7a610"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define crs_amg_stats&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_amg_stats)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="crs_8h_source.html#l00015">15</a> of file <a class="el" href="crs_8h_source.html">crs.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8692e095d13ea686a2aed88f22f6a5ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define crs_xxt_free&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_free )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -165,12 +237,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a75666e74c2395e76351148739489653c"></a>
+<a class="anchor" id="acf69813019c47545d23b0160c3851859"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define crs_setup&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_setup)</td>
+          <td class="memname">#define crs_xxt_setup&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_setup)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -179,12 +251,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a33be7f10e1b82e96868686be6278cd8e"></a>
+<a class="anchor" id="adb7573d49490047e5c6b94b827cbe91a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define crs_solve&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_solve)</td>
+          <td class="memname">#define crs_xxt_solve&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_solve)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -193,12 +265,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3d7eb4d14189e0e5864abf2dbedfcf14"></a>
+<a class="anchor" id="aced028569498d091fafc74a3cbe42bfc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define crs_stats&#160;&#160;&#160;<a class="el" href="name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_stats)</td>
+          <td class="memname">#define crs_xxt_stats&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#ab8020897668b18bc30aa3b0b09f6b723">PREFIXED_NAME</a>(crs_xxt_stats)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,12 +280,12 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a770f2fae31753012fa19f34fb4b48836"></a>
+<a class="anchor" id="a626dde5d53d414bf21debd27ba131027"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void crs_free </td>
+          <td class="memname">void crs_amg_free </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
@@ -222,18 +294,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="amg_8c_source.html#l00557">557</a> of file <a class="el" href="amg_8c_source.html">amg.c</a>.</p>
-
-<p>References <a class="el" href="amg_8c_source.html#l00047">csr_mat::a</a>, <a class="el" href="amg_8c_source.html#l00121">crs_data::cheb_m</a>, <a class="el" href="amg_8c_source.html#l00122">crs_data::cheb_rho</a>, <a class="el" href="amg_8c_source.html#l00115">crs_data::comm</a>, <a class="el" href="amg_8c_source.html#l00124">crs_data::Dff</a>, <a class="el" href="gs_8c_source.html#l00026">gs_free</a>, <a class="el" href="amg_8c_source.html#l00116">crs_data::gs_top</a>, <a class="el" href="amg_8c_source.html#l00083">Q::gsh</a>, <a class="el" href="amg_8c_source.html#l00120">crs_data::levels</a>, <a class="el" href="amg_8c_source.html#l00123">crs_data::lvl_offset</a>, <a class="el" href="amg_8c_source.html#l00125">crs_data::Q_Aff</a>, <a class="el" href="amg_8c_source.html#l00125">crs_data::Q_AfP</a>, <a class="el" href="amg_8c_source.html#l00125">crs_data::Q_W</a>, <a class="el" href="amg_8c_source.html#l00046">csr_mat::row_off</a>, <a class="el" href="amg_8c_source.html#l00117">crs_data::umap</a>, and <a class="el" href="amg_8c_source.html#l00126">crs_data::W</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a2f774436927099a90b42fcf74d96f671"></a>
+<a class="anchor" id="a263838f44c4496f64d4edb93709be4b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="structcrs__data.html">crs_data</a>* crs_setup </td>
+          <td class="memname">struct <a class="el" href="structcrs__data.html">crs_data</a>* crs_amg_setup </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td>
           <td class="paramname"><em>n</em>, </td>
@@ -288,30 +356,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="amg_8c_source.html#l00523">523</a> of file <a class="el" href="amg_8c_source.html">amg.c</a>.</p>
-
-<p>References <a class="el" href="xxt_8c_source.html#l00055">csr_mat::A</a>, <a class="el" href="xxt_8c_source.html#l00104">xxt::A_sl</a>, <a class="el" href="xxt_8c_source.html#l00055">csr_mat::Aj</a>, <a class="el" href="xxt_8c_source.html#l00055">csr_mat::Arp</a>, <a class="el" href="mem_8h_source.html#l00135">array_free</a>, <a class="el" href="mem_8h_source.html#l00158">buffer_free</a>, <a class="el" href="mem_8h_source.html#l00155">buffer_init</a>, <a class="el" href="xxt_8c_source.html#l00093">xxt::cn</a>, <a class="el" href="xxt_8c_source.html#l00108">xxt::combuf</a>, <a class="el" href="xxt_8c_source.html#l00062">xxt::comm</a>, <a class="el" href="amg_8c_source.html#l00115">crs_data::comm</a>, <a class="el" href="comm_8h_source.html#l00174">comm_dup</a>, <a class="el" href="xxt_8c_source.html#l00179">dof::count</a>, <a class="el" href="fail_8c_source.html#l00013">die()</a>, <a class="el" href="xxt_8c_source.html#l00103">xxt::fac_A_ll</a>, <a class="el" href="gs_8c_source.html#l01082">gs_auto</a>, <a class="el" href="gs_8c_source.html#l01082">gs_crystal_router</a>, <a class="el" href="gs_8c_source.html#l00026">gs_free</a>, <a class="el" href="gs_8c_source.html#l00025">gs_setup</a>, <a class="el" href="amg_8c_source.html#l00116">crs_data::gs_top</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="comm_8h_source.html#l00086">comm::id</a>, <a class="el" href="xxt_8c_source.html#l00096">xxt::ln</a>, <a class="el" href="xxt_8c_source.html#l00055">csr_mat::n</a>, <a class="el" href="xxt_8c_source.html#l00081">xxt::null_space</a>, <a class="el" href="amg_8c_source.html#l00119">crs_data::null_space</a>, <a class="el" href="xxt_8c_source.html#l00094">xxt::perm_u2c</a>, <a class="el" href="mem_8h_source.html#l00111">array::ptr</a>, <a class="el" href="xxt_8c_source.html#l00082">xxt::share_weight</a>, <a class="el" href="types_8h_source.html#l00069">sint</a>, <a class="el" href="types_8h_source.html#l00074">slong</a>, <a class="el" href="xxt_8c_source.html#l00096">xxt::sn</a>, <a class="el" href="sparse__cholesky_8c_source.html#l00012">sparse_cholesky_factor</a>, <a class="el" href="mem_8h_source.html#l00091">tmalloc</a>, <a class="el" href="types_8h_source.html#l00070">uint</a>, <a class="el" href="xxt_8c_source.html#l00108">xxt::vc</a>, <a class="el" href="xxt_8c_source.html#l00108">xxt::vl</a>, <a class="el" href="xxt_8c_source.html#l00108">xxt::vx</a>, and <a class="el" href="xxt_8c_source.html#l00100">xxt::xn</a>.</p>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="crs_8h_a2f774436927099a90b42fcf74d96f671_cgraph.png" border="0" usemap="#crs_8h_a2f774436927099a90b42fcf74d96f671_cgraph" alt=""/></div>
-<map name="crs_8h_a2f774436927099a90b42fcf74d96f671_cgraph" id="crs_8h_a2f774436927099a90b42fcf74d96f671_cgraph">
-<area shape="rect" id="node2" href="fail_8c.html#a6a96bcb04cc5efcd64cbeed06a292419" title="die" alt="" coords="132,5,171,32"/>
-</map>
-</div>
-</p>
-
 </div>
 </div>
-<a class="anchor" id="a611e0d89d150a2537326eb781d913788"></a>
+<a class="anchor" id="a2741549f1031f7e1be36b0681f77f87b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void crs_solve </td>
+          <td class="memname">void crs_amg_solve </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -336,18 +388,140 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="amg_8c_source.html#l00188">188</a> of file <a class="el" href="amg_8c_source.html">amg.c</a>.</p>
-
-<p>References <a class="el" href="amg_8c_source.html#l00127">crs_data::b</a>, <a class="el" href="amg_8c_source.html#l00115">crs_data::comm</a>, <a class="el" href="gs_8c_source.html#l00022">gs</a>, <a class="el" href="amg_8c_source.html#l00116">crs_data::gs_top</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="amg_8c_source.html#l00119">crs_data::null_space</a>, <a class="el" href="amg_8c_source.html#l00118">crs_data::tni</a>, <a class="el" href="types_8h_source.html#l00070">uint</a>, <a class="el" href="amg_8c_source.html#l00117">crs_data::umap</a>, <a class="el" href="amg_8c_source.html#l00117">crs_data::un</a>, and <a class="el" href="amg_8c_source.html#l00127">crs_data::x</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a0c592af2540bdd0687e60b4e66293442"></a>
+<a class="anchor" id="aec846cfb72a6fb08b910ec6aa3693fd9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void crs_stats </td>
+          <td class="memname">void crs_amg_stats </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad61fa5a187d07fe7ab6a7f8578c222b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void crs_xxt_free </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9aba4bf341f42c0315fb9bda5ce1cdf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structcrs__data.html">crs_data</a>* crs_xxt_setup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a6fcafe7f84d4c52e75984340b07e714e">ulong</a> *&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td>
+          <td class="paramname"><em>nz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *&#160;</td>
+          <td class="paramname"><em>Ai</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> *&#160;</td>
+          <td class="paramname"><em>Aj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td>
+          <td class="paramname"><em>null_space</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="structcomm.html">comm</a> *&#160;</td>
+          <td class="paramname"><em>comm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a222b0ab58ad55c0c0d0f9c004232d701"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void crs_xxt_solve </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a531e25c2ebd01d07f3ff72b00e7e43b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void crs_xxt_stats </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structcrs__data.html">crs_data</a> *&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
@@ -363,8 +537,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_6de6dc92cfde8dbe681aaf1971089863.html">jl</a></li><li class="navelem"><a class="el" href="crs_8h.html">crs.h</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_65d1f655fdb36893ac3ebb8a7fe8f589.html">3rd_party</a></li><li class="navelem"><a class="el" href="dir_603bed410430db50cb1603f5b9be138e.html">gslib</a></li><li class="navelem"><a class="el" href="dir_706005dcc9f343ec58bb899638bb4c9c.html">src</a></li><li class="navelem"><a class="el" href="crs_8h.html">crs.h</a></li>
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

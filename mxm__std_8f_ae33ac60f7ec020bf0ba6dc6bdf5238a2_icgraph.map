@@ -1,5 +1,9 @@
 <map id="mxma" name="mxma">
-<area shape="rect" id="node2" href="$hmholtz_8f.html#a7cdf3a9c9b3186632e8be8fd77756113" title="gradrta" alt="" coords="112,5,175,32"/>
-<area shape="rect" id="node3" href="$hmholtz_8f.html#aa946bce9042be0161a8a46240ba386ed" title="compute_gradrta" alt="" coords="223,5,341,32"/>
-<area shape="rect" id="node4" href="$hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="389,5,440,32"/>
+<area shape="rect" id="node2" href="$hmholtz_8f.html#a7cdf3a9c9b3186632e8be8fd77756113" title="gradrta" alt="" coords="112,56,175,83"/>
+<area shape="rect" id="node3" href="$convect_8f.html#ae6d180b7227de36418c704fc1f7a3206" title="grad_rstd_ta" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node5" href="$hmholtz_8f.html#a71481bfcbacc047e17326d32a19300ac" title="hxdg_surfa" alt="" coords="227,56,313,83"/>
+<area shape="rect" id="node7" href="$hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="245,107,295,133"/>
+<area shape="rect" id="node4" href="$convect_8f.html#ae77a896f076c052786cd0dbdbc7b7e95" title="convop_weak" alt="" coords="365,5,468,32"/>
+<area shape="rect" id="node6" href="$conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="376,56,457,83"/>
+<area shape="rect" id="node8" href="$hmholtz_8f.html#aac309b94595d1abf629fb77f234557fc" title="cggo_dg" alt="" coords="381,107,452,133"/>
 </map>

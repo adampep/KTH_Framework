@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['name_2eh',['name.h',['../name_8h.html',1,'']]],
+  ['name_2eh',['name.h',['../3rd__party_2gslib_2src_2name_8h.html',1,'']]],
+  ['name_2eh',['name.h',['../core_2name_8h.html',1,'']]],
   ['navier0_2ef',['navier0.f',['../navier0_8f.html',1,'']]],
   ['navier1_2ef',['navier1.f',['../navier1_8f.html',1,'']]],
   ['navier2_2ef',['navier2.f',['../navier2_8f.html',1,'']]],

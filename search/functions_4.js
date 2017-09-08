@@ -24,9 +24,9 @@ var searchData=
   ['esolver',['esolver',['../navier0_8f.html#aaba079db7e38db9800deef09526370ec',1,'navier0.f']]],
   ['esteig',['esteig',['../eigsolv_8f.html#a1db10d40f8df1de37de90fbff50443f6',1,'eigsolv.f']]],
   ['estrat',['estrat',['../navier0_8f.html#a316eee2e742b806a39e481d5f5c3e8b2',1,'navier0.f']]],
-  ['evaluate_5faliased_5fconv_5fh',['evaluate_aliased_conv_h',['../eqnsolver__cmt_8f.html#a31a0cc12d4267e68f636aaaf36218e10',1,'eqnsolver_cmt.f']]],
-  ['evaluate_5fdealiased_5fconv_5fh',['evaluate_dealiased_conv_h',['../eqnsolver__cmt_8f.html#a9d617d82935810e4d82dc4a78a21227e',1,'eqnsolver_cmt.f']]],
-  ['exchange_5fpoints',['exchange_points',['../multimesh_8f.html#a3ba15c6cf501033c1f4344746f78ddae',1,'multimesh.f']]],
+  ['evaluate_5faliased_5fconv_5fh',['evaluate_aliased_conv_h',['../group__convhvol.html#ga31a0cc12d4267e68f636aaaf36218e10',1,'eqnsolver_cmt.f']]],
+  ['evaluate_5fdealiased_5fconv_5fh',['evaluate_dealiased_conv_h',['../group__convhvol.html#ga9d617d82935810e4d82dc4a78a21227e',1,'eqnsolver_cmt.f']]],
+  ['exchange_5fpoints2',['exchange_points2',['../multimesh_8f.html#a36121e3cb5285cd894af163ca9c6ae8e',1,'multimesh.f']]],
   ['exitt',['exitt',['../byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4',1,'exitt():&#160;comm_mpi.f'],['../comm__mpi_8f.html#a95f7432d962a41c5fe0063d0ef3da3d6',1,'exitt:&#160;comm_mpi.f']]],
   ['exitt0',['exitt0',['../comm__mpi_8f.html#a7c71e890279f4933a841a2d97c7de4bd',1,'comm_mpi.f']]],
   ['exitti',['exitti',['../comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197',1,'comm_mpi.f']]],
@@ -37,6 +37,5 @@ var searchData=
   ['expl_5fstrs_5fe_5f3d',['expl_strs_e_3d',['../navier1_8f.html#aac43166944d00ed18c90907aec3422b4',1,'navier1.f']]],
   ['explstrs',['explstrs',['../navier1_8f.html#adb8531903f5120c809b929843e6eac16',1,'navier1.f']]],
   ['extrapp',['extrapp',['../induct_8f.html#a764e3ffe319c666d0c5ffebad5d6f2c0',1,'induct.f']]],
-  ['extrapp_5fold',['extrapp_old',['../planx_8f.html#a1a52d445e2e1482e07990411213f2bc4',1,'planx.f']]],
   ['extrapprp',['extrapprp',['../perturb_8f.html#a3b6bce9438ef2740a20cfb1121284358',1,'perturb.f']]]
 ];

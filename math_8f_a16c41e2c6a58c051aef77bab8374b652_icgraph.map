@@ -1,8 +1,5 @@
 <map id="ifill" name="ifill">
-<area shape="rect" id="node2" href="$moab_8f.html#a84e6157bdf8346a2fade84046cb33998" title="nekmoab_bc" alt="" coords="92,5,188,32"/>
-<area shape="rect" id="node5" href="$genbox_8f.html#a1a9c010d43332076b4f9846c51a67af3" title="getiv" alt="" coords="115,56,165,83"/>
-<area shape="rect" id="node3" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="236,5,355,32"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="404,5,463,32"/>
-<area shape="rect" id="node6" href="$genbox_8f.html#a6636cac3ff8c7e3e715157574e8f1843" title="get_multi_seg" alt="" coords="244,56,347,83"/>
-<area shape="rect" id="node7" href="$genbox_8f.html#a9f998f04f0ef96bc4e45e2f132a66dd7" title="getbox" alt="" coords="403,56,464,83"/>
+<area shape="rect" id="node2" href="$genbox_8f.html#a1a9c010d43332076b4f9846c51a67af3" title="getiv" alt="" coords="92,5,143,32"/>
+<area shape="rect" id="node3" href="$genbox_8f.html#a6636cac3ff8c7e3e715157574e8f1843" title="get_multi_seg" alt="" coords="191,5,293,32"/>
+<area shape="rect" id="node4" href="$genbox_8f.html#a9f998f04f0ef96bc4e45e2f132a66dd7" title="getbox" alt="" coords="341,5,403,32"/>
 </map>

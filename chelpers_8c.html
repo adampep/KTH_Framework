@@ -114,7 +114,8 @@ $(document).ready(function(){initNavTree('chelpers_8c.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="name_8h_source.html">name.h</a>&quot;</code><br />
+<code>#include &lt;sys/resource.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="core_2name_8h_source.html">name.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for chelpers.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -122,7 +123,7 @@ $(document).ready(function(){initNavTree('chelpers_8c.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="chelpers_8c__incl.png" border="0" usemap="#Nek5000_2core_2chelpers_8c" alt=""/></div>
 <map name="Nek5000_2core_2chelpers_8c" id="Nek5000_2core_2chelpers_8c">
-<area shape="rect" id="node4" href="name_8h.html" title="name.h" alt="" coords="179,80,245,107"/>
+<area shape="rect" id="node5" href="core_2name_8h.html" title="name.h" alt="" coords="311,80,377,107"/>
 </map>
 </div>
 </div>
@@ -130,39 +131,43 @@ $(document).ready(function(){initNavTree('chelpers_8c.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a63ed6c9455ff01e4376cdd9fec66d801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#a63ed6c9455ff01e4376cdd9fec66d801">print_stack</a>&#160;&#160;&#160;<a class="el" href="name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(print_stack, PRINT_STACK)</td></tr>
+<tr class="memitem:a63ed6c9455ff01e4376cdd9fec66d801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#a63ed6c9455ff01e4376cdd9fec66d801">print_stack</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(print_stack, PRINT_STACK)</td></tr>
 <tr class="separator:a63ed6c9455ff01e4376cdd9fec66d801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af20bdf2bbae93a5294564264d347272d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#af20bdf2bbae93a5294564264d347272d">sizeOfLongInt</a>&#160;&#160;&#160;<a class="el" href="name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(sizeoflongint, SIZEOFLONGINT)</td></tr>
+<tr class="memitem:af20bdf2bbae93a5294564264d347272d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#af20bdf2bbae93a5294564264d347272d">sizeOfLongInt</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(sizeoflongint, SIZEOFLONGINT)</td></tr>
 <tr class="separator:af20bdf2bbae93a5294564264d347272d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af052d2c637d232a64a2d8c22ec4ac7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#a3af052d2c637d232a64a2d8c22ec4ac7">getmaxrss</a>&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(getmaxrss, GETMAXRSS)</td></tr>
+<tr class="separator:a3af052d2c637d232a64a2d8c22ec4ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a4bb1325b53dcb653e95a7935165c3b0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#a4bb1325b53dcb653e95a7935165c3b0e">print_stack</a> ()</td></tr>
 <tr class="separator:a4bb1325b53dcb653e95a7935165c3b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6d04498c8054a37e8c1987d1ba3c22"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#aef6d04498c8054a37e8c1987d1ba3c22">getmaxrss</a> ()</td></tr>
+<tr class="separator:aef6d04498c8054a37e8c1987d1ba3c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8de50714e1ffb3cbb380ffd7b4f47ece"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chelpers_8c.html#a8de50714e1ffb3cbb380ffd7b4f47ece">sizeOfLongInt</a> ()</td></tr>
 <tr class="separator:a8de50714e1ffb3cbb380ffd7b4f47ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a3af052d2c637d232a64a2d8c22ec4ac7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getmaxrss&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(getmaxrss, GETMAXRSS)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00008">8</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a63ed6c9455ff01e4376cdd9fec66d801"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define print_stack&#160;&#160;&#160;<a class="el" href="name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(print_stack, PRINT_STACK)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00005">5</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af20bdf2bbae93a5294564264d347272d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sizeOfLongInt&#160;&#160;&#160;<a class="el" href="name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(sizeoflongint, SIZEOFLONGINT)</td>
+          <td class="memname">#define print_stack&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(print_stack, PRINT_STACK)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -171,7 +176,38 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af20bdf2bbae93a5294564264d347272d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sizeOfLongInt&#160;&#160;&#160;<a class="el" href="core_2name_8h.html#a75025732379ebf18c68411397544b213">FORTRAN_UNPREFIXED</a>(sizeoflongint, SIZEOFLONGINT)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00007">7</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aef6d04498c8054a37e8c1987d1ba3c22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double getmaxrss </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00029">29</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a4bb1325b53dcb653e95a7935165c3b0e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +221,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00024">24</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
+<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00026">26</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
 
 </div>
 </div>
@@ -202,7 +238,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00027">27</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
+<p>Definition at line <a class="el" href="chelpers_8c_source.html#l00041">41</a> of file <a class="el" href="chelpers_8c_source.html">chelpers.c</a>.</p>
 
 </div>
 </div>
@@ -212,7 +248,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="chelpers_8c.html">chelpers.c</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

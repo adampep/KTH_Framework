@@ -13,7 +13,6 @@ var NAVTREE =
     [ "List of interfaces provided by modules.", "interface_list_page.html", null ],
     [ "List of interfaces required by modules.", "interface_required_page.html", null ],
     [ "Todo List", "todo.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Bibliography", "citelist.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Types List", "annotated.html", [
@@ -41,24 +40,24 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"MixtPerf_8f.html",
-"blas_8f.html#afc29c83942509cba5f3764115f0471d5",
-"connect2_8f.html#ad09b243239aba53c94a7c1d3d906e7d0",
-"drive2__cmt_8f.html",
-"findpts_8h.html#a783e0a636e1ebb5b56ec16299023ea24",
-"findpts__local__test_8c.html#aefc0e962e792e438e7ad4c503c8bffbd",
-"globals.html",
-"group__tstepper.html#gaa47323e7b1b4f77263e8a912d58c2427",
-"hmholtz_8f.html#a91da8bdd2598d467b7be0c0f451bea28",
-"interface_required_page.html",
-"mpi__dummy_8f.html#a7bca770c4297369fe69dae7f244ece04",
-"navier0_8f.html#a9f2ddfb400f94b74a190d7e1a667a464",
-"navier7_8f.html#a1d0a876ad5984314199b7666ebabf891",
-"poly_8h.html#ac91bedd08202fc75fc24325fc71776b5",
-"sort__imp_8h.html#ac10af5b68e4ce4cd01d1f2f2cfdfdebb",
-"structeval__src__pt.html",
-"structshared__id.html#a7e805296965b2e43d8371b89ef3fc31a",
-"types_8h.html#ac74a44f3804af10a957d4a76add85af4"
+"3rd__party_2gslib_2src_2name_8h.html",
+"blas_8f.html#af23444d1c822b34db864558d7afc76dd",
+"connect2_8f.html#a87e4cf77e2fcb243172fa8da88d5dfae",
+"drive2_8f.html",
+"findpts_8c.html#af18cd3e93f837a3a5a720acd557b7921",
+"findpts__local__test_8c.html#abf6ee8463e89259d039a8db9f83596c9",
+"gfdm__par_8f.html#ae16829306a17bdd60409ff21823cddad",
+"group__noise__box.html",
+"gs__local_8h.html#a5fad5df7c236fc43ec96460342d703ca",
+"iniparser_8c.html#a18d3a09e99a0ac212010edc3f0365379",
+"mem_8h.html#aba8da3f9aa8e7860f0d86a33d4b1396f",
+"mxm__std_8f.html#af2733ba4212929a05f502dd02c01760a",
+"navier5_8f.html#af9922b7bd66d435606fc0791bda58bf9",
+"poly_8h.html#a119f924ce3e3b5307b74c84c8e0a7705",
+"sort__imp_8h.html#a847e79c64e9ff5cb311d0bbf0a4d4810",
+"structfindpts__data.html#a0190653b280b7f32bcfdc43593a3667d",
+"structuint__range.html#a481073c6227c19eedded3dc028320677",
+"vprops_8f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

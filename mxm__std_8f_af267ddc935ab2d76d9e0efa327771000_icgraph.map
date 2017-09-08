@@ -1,5 +1,7 @@
 <map id="mxma2" name="mxma2">
-<area shape="rect" id="node2" href="$mxm__std_8f.html#ae33ac60f7ec020bf0ba6dc6bdf5238a2" title="mxma" alt="" coords="119,5,177,32"/>
-<area shape="rect" id="node3" href="$hmholtz_8f.html#a7cdf3a9c9b3186632e8be8fd77756113" title="gradrta" alt="" coords="225,5,288,32"/>
-<area shape="rect" id="node4" href="$hmholtz_8f.html#aa946bce9042be0161a8a46240ba386ed" title="compute_gradrta" alt="" coords="336,5,455,32"/>
+<area shape="rect" id="node2" href="$mxm__std_8f.html#ae33ac60f7ec020bf0ba6dc6bdf5238a2" title="mxma" alt="" coords="119,56,177,83"/>
+<area shape="rect" id="node3" href="$hmholtz_8f.html#a7cdf3a9c9b3186632e8be8fd77756113" title="gradrta" alt="" coords="225,56,288,83"/>
+<area shape="rect" id="node4" href="$convect_8f.html#ae6d180b7227de36418c704fc1f7a3206" title="grad_rstd_ta" alt="" coords="336,5,431,32"/>
+<area shape="rect" id="node5" href="$hmholtz_8f.html#a71481bfcbacc047e17326d32a19300ac" title="hxdg_surfa" alt="" coords="340,56,427,83"/>
+<area shape="rect" id="node6" href="$hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="358,107,409,133"/>
 </map>

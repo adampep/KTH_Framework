@@ -1,40 +1,17 @@
 <map id="col4" name="col4">
-<area shape="rect" id="node2" href="$hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="105,993,156,1020"/>
-<area shape="rect" id="node34" href="$navier1_8f.html#afac29822c946dfa3ce2a87194f9259e1" title="conv2" alt="" coords="102,1044,159,1071"/>
-<area shape="rect" id="node37" href="$subs1_8f.html#a29d541493de8064a64fb626112546c85" title="axitzz" alt="" coords="102,627,159,653"/>
-<area shape="rect" id="node39" href="$subs2_8f.html#a49d6eb4872b96c188a73d2a2fb7af340" title="stnrinv" alt="" coords="100,1095,161,1121"/>
-<area shape="rect" id="node3" href="$hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="213,664,277,691"/>
-<area shape="rect" id="node31" href="$hmholtz_8f.html#aac309b94595d1abf629fb77f234557fc" title="cggo_dg" alt="" coords="209,1323,280,1349"/>
-<area shape="rect" id="node33" href="$hmholtz_8f.html#aebb506414db31c29f445820f961231a2" title="outhmat" alt="" coords="210,993,279,1020"/>
-<area shape="rect" id="node4" href="$conduct_8f.html#a74a7f053381975ed36df8ea959f3aa01" title="cdscal" alt="" coords="529,436,589,463"/>
-<area shape="rect" id="node5" href="$conduct_8f.html#ae7d05710dc1d24352d099c3246b733b8" title="diffab" alt="" coords="376,613,431,640"/>
-<area shape="rect" id="node6" href="$conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="363,411,444,437"/>
-<area shape="rect" id="node7" href="$drive2_8f.html#afc5b69dac59659be9b32a5650649c3d2" title="a_dmp" alt="" coords="373,664,434,691"/>
-<area shape="rect" id="node8" href="$eigsolv_8f.html#a285ca4aa2354ca8584af31946d6761c2" title="alpham1" alt="" coords="368,715,439,741"/>
-<area shape="rect" id="node9" href="$eigsolv_8f.html#a40aa959fb07551b7b3fe2e5bd7ed6fda" title="gammam1" alt="" coords="362,765,445,792"/>
-<area shape="rect" id="node10" href="$gmres_8f.html#abb09784e907975584f1a8f4dbf282a79" title="ax" alt="" coords="384,816,423,843"/>
-<area shape="rect" id="node11" href="$hmholtz_8f.html#a1d25ae22b38fb86936fcd9c68dab702f" title="chktcg1" alt="" coords="369,1272,437,1299"/>
-<area shape="rect" id="node13" href="$navier4_8f.html#a33e8c6704782f68ea31e02c93acbe495" title="laplacep" alt="" coords="640,993,711,1020"/>
-<area shape="rect" id="node14" href="$hmholtz_8f.html#a8734f3cc2d37d6a2ccd1daa8db57513d" title="cggo" alt="" coords="378,968,429,995"/>
-<area shape="rect" id="node15" href="$mvmesh_8f.html#a2948cce47cf83395e74e6a3aa2e96217" title="cqnet" alt="" coords="376,917,431,944"/>
-<area shape="rect" id="node16" href="$navier1_8f.html#aaf82c7bf142ad5f9c363e3dc3c39fa3c" title="ophx" alt="" coords="534,44,585,71"/>
-<area shape="rect" id="node17" href="$navier1_8f.html#af8f288bd13e9077cfadcd76c95c59dc5" title="normsc" alt="" coords="371,208,436,235"/>
-<area shape="rect" id="node18" href="$ssolv_8f.html#ad0da41cf84ce854624c4281915a0caa1" title="chksst" alt="" coords="529,171,590,197"/>
-<area shape="rect" id="node19" href="$navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="362,1019,445,1045"/>
-<area shape="rect" id="node20" href="$navier4_8f.html#a14c00293add6996200c89d85550285ef" title="projh" alt="" coords="378,1069,429,1096"/>
-<area shape="rect" id="node21" href="$navier4_8f.html#a81cee80858376aeb94e52e8e7bed5a8d" title="hconj" alt="" coords="377,1120,430,1147"/>
-<area shape="rect" id="node22" href="$navier4_8f.html#af4b23fbc45dccb01483f8c2910388e3f" title="proj_matvec" alt="" coords="357,1171,450,1197"/>
-<area shape="rect" id="node23" href="$navier8_8f.html#aaeec4769efda346366e7e561aa844c88" title="get_local_crs_galerkin" alt="" coords="328,1221,479,1248"/>
-<area shape="rect" id="node24" href="$perturb_8f.html#af07508f1eb200c9ae22de3620ae45d70" title="cdscalp" alt="" coords="370,107,437,133"/>
-<area shape="rect" id="node25" href="$plan4_8f.html#a0afe6a03f628b5d52eeb491f7baff5b6" title="crespsp" alt="" coords="369,259,437,285"/>
-<area shape="rect" id="node26" href="$planx_8f.html#a73a75cb1421b409ec8212be4b4f57ebb" title="projh2" alt="" coords="375,309,432,336"/>
-<area shape="rect" id="node27" href="$planx_8f.html#a63bd80a7cf53e3b25f446d2996ef4ce7" title="hconj2" alt="" coords="373,360,433,387"/>
-<area shape="rect" id="node28" href="$prepost_8f.html#a2808c6cf690e819c0552191127426770" title="bdheat" alt="" coords="373,512,434,539"/>
-<area shape="rect" id="node29" href="$subs1_8f.html#a47a832cdc015115f79e23f5f6d33324c" title="axhmsf" alt="" coords="371,5,436,32"/>
-<area shape="rect" id="node30" href="$turb_8f.html#a251019520e0ab7c1240ba5b4ae8ffb80" title="lscale" alt="" coords="375,563,431,589"/>
-<area shape="rect" id="node12" href="$navier4_8f.html#abff3f3a3a3b301fbd3e883cb30d2d967" title="hmhzpf" alt="" coords="527,1120,592,1147"/>
-<area shape="rect" id="node32" href="$hmholtz_8f.html#ab52baffba790c148592c7b40c62861ca" title="hmholtz_dg" alt="" coords="359,1323,448,1349"/>
-<area shape="rect" id="node35" href="$navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="209,1399,280,1425"/>
-<area shape="rect" id="node36" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="371,1424,435,1451"/>
-<area shape="rect" id="node38" href="$subs1_8f.html#acf906df7b860737774978539260db467" title="aijuj" alt="" coords="222,309,267,336"/>
+<area shape="rect" id="node2" href="$diffusive__cmt_8f.html#a1c3683ff121ed541c445d78e7d86e85b" title="viscous flux jacobian for entropy viscosity Euler regularization of Guermond and Popov (2014) SIAM JA..." alt="" coords="100,81,179,108"/>
+<area shape="rect" id="node6" href="$hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="114,157,165,184"/>
+<area shape="rect" id="node10" href="$navier1_8f.html#afac29822c946dfa3ce2a87194f9259e1" title="conv2" alt="" coords="111,208,168,235"/>
+<area shape="rect" id="node13" href="$subs1_8f.html#a29d541493de8064a64fb626112546c85" title="axitzz" alt="" coords="111,259,168,285"/>
+<area shape="rect" id="node16" href="$subs2_8f.html#a49d6eb4872b96c188a73d2a2fb7af340" title="stnrinv" alt="" coords="109,309,170,336"/>
+<area shape="rect" id="node3" href="$group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="231,56,293,83"/>
+<area shape="rect" id="node4" href="$group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="345,5,441,32"/>
+<area shape="rect" id="node5" href="$group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="357,56,429,83"/>
+<area shape="rect" id="node7" href="$hmholtz_8f.html#aac309b94595d1abf629fb77f234557fc" title="cggo_dg" alt="" coords="227,157,297,184"/>
+<area shape="rect" id="node8" href="$hmholtz_8f.html#ab52baffba790c148592c7b40c62861ca" title="hmholtz_dg" alt="" coords="349,107,438,133"/>
+<area shape="rect" id="node9" href="$navier4_8f.html#abff3f3a3a3b301fbd3e883cb30d2d967" title="hmhzpf" alt="" coords="361,157,426,184"/>
+<area shape="rect" id="node11" href="$navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="227,208,297,235"/>
+<area shape="rect" id="node12" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="361,208,425,235"/>
+<area shape="rect" id="node14" href="$subs1_8f.html#acf906df7b860737774978539260db467" title="aijuj" alt="" coords="239,259,285,285"/>
+<area shape="rect" id="node15" href="$subs1_8f.html#a47a832cdc015115f79e23f5f6d33324c" title="axhmsf" alt="" coords="361,259,426,285"/>
 </map>

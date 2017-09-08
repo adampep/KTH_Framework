@@ -1,9 +1,6 @@
 <map id="gh_face_extend" name="gh_face_extend">
-<area shape="rect" id="node2" href="$moab_8f.html#afae3c3f8e43bd4f333568e60da557945" title="permute_and_map" alt="" coords="168,5,297,32"/>
-<area shape="rect" id="node5" href="$genxyz_8f.html#a7c0d9ad72ade85a885511477626382a9" title="xyzquad" alt="" coords="197,56,268,83"/>
-<area shape="rect" id="node8" href="$navier5_8f.html#ac7bf11bb142c7d01c82cc8b64e88bff2" title="fix_geom" alt="" coords="195,107,270,133"/>
-<area shape="rect" id="node3" href="$moab_8f.html#a5961f768b5aee28f5749e8390ef8b2e1" title="moab_geometry" alt="" coords="345,5,460,32"/>
-<area shape="rect" id="node4" href="$moab_8f.html#ae8b5dab16ad34fa9e8b94f7ec7f8f1c4" title="nekmoab_import" alt="" coords="508,5,627,32"/>
-<area shape="rect" id="node6" href="$genxyz_8f.html#a68c86aab3d5439b8cdc8368eed562f9c" title="linquad" alt="" coords="371,56,434,83"/>
-<area shape="rect" id="node7" href="$genxyz_8f.html#a10f2e4b6c10053ac6abb2cd014cb8d44" title="genxyz" alt="" coords="535,56,599,83"/>
+<area shape="rect" id="node2" href="$genxyz_8f.html#a7c0d9ad72ade85a885511477626382a9" title="xyzquad" alt="" coords="170,5,241,32"/>
+<area shape="rect" id="node5" href="$navier5_8f.html#ac7bf11bb142c7d01c82cc8b64e88bff2" title="fix_geom" alt="" coords="168,56,243,83"/>
+<area shape="rect" id="node3" href="$genxyz_8f.html#a68c86aab3d5439b8cdc8368eed562f9c" title="linquad" alt="" coords="291,5,353,32"/>
+<area shape="rect" id="node4" href="$genxyz_8f.html#a10f2e4b6c10053ac6abb2cd014cb8d44" title="genxyz" alt="" coords="401,5,465,32"/>
 </map>

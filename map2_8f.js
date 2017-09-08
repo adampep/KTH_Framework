@@ -1,6 +1,9 @@
 var map2_8f =
 [
+    [ "assign_gllnid", "map2_8f.html#a8beadce5e829399452ec13a7ac6b4633", null ],
     [ "get_map", "map2_8f.html#a13d7dde54ee02508285dda66f7def6bf", null ],
+    [ "get_vert", "map2_8f.html#a3126acd6d2b7a3e63f6f0329d5bae424", null ],
+    [ "get_vert_map", "map2_8f.html#a6888b8a47bbcadddb362abc5bf0be43d", null ],
     [ "gfdm_build_global_el_map", "map2_8f.html#aa0ae20bb9217f45c5ccbe798422ac259", null ],
     [ "gfdm_elm_to_proc", "map2_8f.html#af7454a15adde56fbeac7cacb8f2b9282", null ],
     [ "gfdm_map_2d", "map2_8f.html#a53c187a914025181a5406b0461977308", null ],

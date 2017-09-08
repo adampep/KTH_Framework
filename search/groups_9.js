@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['runtime_20parameters',['Runtime parameters',['../group__runparam.html',1,'']]]
+  ['power_20itertion_20routines',['Power itertion routines',['../group__powerit.html',1,'']]]
 ];

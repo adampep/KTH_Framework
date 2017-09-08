@@ -1,0 +1,27 @@
+<map id="agradu" name="agradu">
+<area shape="rect" id="node2" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="263,5,310,32"/>
+<area shape="rect" id="node3" href="$diffusive__cmt_8f.html#a1c3683ff121ed541c445d78e7d86e85b" title="viscous flux jacobian for entropy viscosity Euler regularization of Guermond and Popov (2014) SIAM JA..." alt="" coords="115,183,193,209"/>
+<area shape="rect" id="node13" href="$diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="121,689,187,716"/>
+<area shape="rect" id="node4" href="$math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="253,56,320,83"/>
+<area shape="rect" id="node5" href="$math_8f.html#a73c11da474d84d5c1ae59109d7ffbaa7" title="col4" alt="" coords="263,107,310,133"/>
+<area shape="rect" id="node6" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="261,157,312,184"/>
+<area shape="rect" id="node7" href="$math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="255,208,318,235"/>
+<area shape="rect" id="node9" href="$math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="261,259,312,285"/>
+<area shape="rect" id="node10" href="$math_8f.html#a64ef70b7a7c5c88813f82b60527b7485" title="vdot2" alt="" coords="259,309,314,336"/>
+<area shape="rect" id="node12" href="$math_8f.html#af1b95db3cc8ee10635deec9d7c241e82" title="vdot3" alt="" coords="259,360,314,387"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="380,208,461,235"/>
+<area shape="rect" id="node11" href="$genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="401,335,441,361"/>
+<area shape="rect" id="node14" href="$diffusive__cmt_8f.html#a7818a3a1981f80b10cfc4f1d93d5babc" title="a21klduldxk" alt="" coords="241,411,332,437"/>
+<area shape="rect" id="node15" href="$diffusive__cmt_8f.html#a608f83273074946557a9015117c11670" title="a22klduldxk" alt="" coords="241,461,332,488"/>
+<area shape="rect" id="node16" href="$diffusive__cmt_8f.html#a9271a9b027c374b2b2fba0f7f0e00a1e" title="a23klduldxk" alt="" coords="241,512,332,539"/>
+<area shape="rect" id="node17" href="$diffusive__cmt_8f.html#a3485906a061442ec51929856cc8f4d4a" title="a31klduldxk" alt="" coords="241,563,332,589"/>
+<area shape="rect" id="node18" href="$diffusive__cmt_8f.html#a2a280e4b1d5fbba00356ca9120709fa0" title="a32klduldxk" alt="" coords="241,613,332,640"/>
+<area shape="rect" id="node19" href="$diffusive__cmt_8f.html#a4b542714fa89c4288fa5846a11cc28b1" title="a33klduldxk" alt="" coords="241,664,332,691"/>
+<area shape="rect" id="node20" href="$diffusive__cmt_8f.html#a8b5ee49aa820086e3596a1a91e9dc799" title="a41klduldxk" alt="" coords="241,715,332,741"/>
+<area shape="rect" id="node21" href="$diffusive__cmt_8f.html#a7cf0c00202b223c51bed9c61c7937bc6" title="a42klduldxk" alt="" coords="241,765,332,792"/>
+<area shape="rect" id="node22" href="$diffusive__cmt_8f.html#a7d4c71aaaae94de9cd5f41a93836699a" title="a43klduldxk" alt="" coords="241,816,332,843"/>
+<area shape="rect" id="node23" href="$diffusive__cmt_8f.html#a34cccfbb67ddce8c68e7f2742a94af96" title="a51klduldxk" alt="" coords="241,867,332,893"/>
+<area shape="rect" id="node24" href="$diffusive__cmt_8f.html#ad8d6f5b90772f9f1082fba425cece421" title="a52klduldxk" alt="" coords="241,917,332,944"/>
+<area shape="rect" id="node25" href="$diffusive__cmt_8f.html#a68680b2ed51dce76ed38535fee8c7f63" title="a53klduldxk" alt="" coords="241,968,332,995"/>
+<area shape="rect" id="node26" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="261,1019,312,1045"/>
+</map>

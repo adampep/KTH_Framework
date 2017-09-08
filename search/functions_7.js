@@ -24,7 +24,6 @@ var searchData=
   ['half_5fiku_5fcmt',['half_iku_cmt',['../diffusive__cmt_8f.html#a90ef567419c8aa503af50a7e747c884e',1,'diffusive_cmt.f']]],
   ['happy_5fcheck',['happy_check',['../multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f',1,'happy_check(ihappy):&#160;multimesh.f'],['../singlmesh_8f.html#aef78ff219741b83c1ca784b869e9cacf',1,'happy_check(iflag):&#160;singlmesh.f']]],
   ['hconj',['hconj',['../navier4_8f.html#a81cee80858376aeb94e52e8e7bed5a8d',1,'navier4.f']]],
-  ['hconj2',['hconj2',['../planx_8f.html#a63bd80a7cf53e3b25f446d2996ef4ce7',1,'planx.f']]],
   ['heat',['heat',['../drive2_8f.html#acce80cd37f20e9b52729eb52d86a9c86',1,'drive2.f']]],
   ['heat_5fcvode',['heat_cvode',['../drive2_8f.html#aee60b6a659972e6dbd4c16aad7b6f855',1,'drive2.f']]],
   ['heatp',['heatp',['../perturb_8f.html#ac353eeb6dfd3fec540b933d9c701b0e7',1,'perturb.f']]],
@@ -39,7 +38,6 @@ var searchData=
   ['hmholtz_5fdg',['hmholtz_dg',['../hmholtz_8f.html#ab52baffba790c148592c7b40c62861ca',1,'hmholtz.f']]],
   ['hmhzpf',['hmhzpf',['../navier4_8f.html#abff3f3a3a3b301fbd3e883cb30d2d967',1,'navier4.f']]],
   ['hmhzsf',['hmhzsf',['../subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad',1,'subs1.f']]],
-  ['hmzpf2',['hmzpf2',['../planx_8f.html#a6ab59793eaa66dbb2d9543e1abc3355d',1,'planx.f']]],
   ['hpts',['hpts',['../postpro_8f.html#a0b3f5bf61d6858b1006e51de47d6e2bf',1,'postpro.f']]],
   ['hpts_5fin',['hpts_in',['../postpro_8f.html#a1ae2f280ca541c30569f011b346ddcac',1,'postpro.f']]],
   ['hpts_5fout',['hpts_out',['../postpro_8f.html#a9f5c4b6cfde40552c2367f9279a95746',1,'postpro.f']]],
@@ -91,6 +89,7 @@ var searchData=
   ['hsmg_5ftnsr3d_5fel',['hsmg_tnsr3d_el',['../hsmg_8f.html#a34a2e5f476d9b703beeb143e1b71c9fa',1,'hsmg.f']]],
   ['hsolve',['hsolve',['../navier4_8f.html#a2c8eef885087bb1ef49c29a936b96918',1,'navier4.f']]],
   ['hxdg',['hxdg',['../hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f',1,'hmholtz.f']]],
+  ['hxdg_5fsurfa',['hxdg_surfa',['../hmholtz_8f.html#a71481bfcbacc047e17326d32a19300ac',1,'hmholtz.f']]],
   ['hypmsk3',['hypmsk3',['../navier1_8f.html#ad3dcbbad0824cbca34368e71fbf93b47',1,'navier1.f']]],
   ['hypmsk3v',['hypmsk3v',['../navier1_8f.html#ad655747e7751be3584f491e5caf7423d',1,'navier1.f']]]
 ];

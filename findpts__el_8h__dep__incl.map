@@ -1,10 +1,9 @@
-<map id="Nek5000/jl/findpts_el.h" name="Nek5000/jl/findpts_el.h">
-<area shape="rect" id="node2" href="$findpts__local__ext_8c.html" title="Nek5000/jl/ext/findpts\l_local_ext.c" alt="" coords="5,80,155,121"/>
-<area shape="rect" id="node3" href="$findpts_8c.html" title="Nek5000/jl/findpts.c" alt="" coords="179,87,317,114"/>
-<area shape="rect" id="node4" href="$findpts__el__2__test_8c.html" title="Nek5000/jl/findpts\l_el_2_test.c" alt="" coords="342,80,469,121"/>
-<area shape="rect" id="node5" href="$findpts__el__2__test2_8c.html" title="Nek5000/jl/findpts\l_el_2_test2.c" alt="" coords="493,80,619,121"/>
-<area shape="rect" id="node6" href="$findpts__el__3__test_8c.html" title="Nek5000/jl/findpts\l_el_3_test.c" alt="" coords="643,80,770,121"/>
-<area shape="rect" id="node7" href="$findpts__el__3__test2_8c.html" title="Nek5000/jl/findpts\l_el_3_test2.c" alt="" coords="794,80,921,121"/>
-<area shape="rect" id="node8" href="$findpts__local_8c.html" title="Nek5000/jl/findpts\l_local.c" alt="" coords="945,80,1071,121"/>
-<area shape="rect" id="node9" href="$findpts__local__test_8c.html" title="Nek5000/jl/findpts\l_local_test.c" alt="" coords="1095,80,1222,121"/>
+<map id="Nek5000/3rd_party/gslib/src/findpts_el.h" name="Nek5000/3rd_party/gslib/src/findpts_el.h">
+<area shape="rect" id="node2" href="$findpts_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts.c" alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="$findpts__el__2__test_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts_el_2_test.c" alt="" coords="192,95,355,136"/>
+<area shape="rect" id="node4" href="$findpts__el__2__test2_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts_el_2_test2.c" alt="" coords="379,95,544,136"/>
+<area shape="rect" id="node5" href="$findpts__el__3__test_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts_el_3_test.c" alt="" coords="568,95,731,136"/>
+<area shape="rect" id="node6" href="$findpts__el__3__test2_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts_el_3_test2.c" alt="" coords="755,95,920,136"/>
+<area shape="rect" id="node7" href="$findpts__local_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts_local.c" alt="" coords="944,95,1107,136"/>
+<area shape="rect" id="node8" href="$findpts__local__test_8c.html" title="Nek5000/3rd_party/gslib\l/src/findpts_local_test.c" alt="" coords="1131,95,1293,136"/>
 </map>

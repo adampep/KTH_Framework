@@ -9,7 +9,7 @@
 <area shape="rect" id="node8" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="235,157,301,184"/>
 <area shape="rect" id="node9" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="219,208,317,235"/>
 <area shape="rect" id="node13" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="223,259,313,285"/>
-<area shape="rect" id="node14" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="229,309,307,336"/>
+<area shape="rect" id="node14" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="223,309,313,336"/>
 <area shape="rect" id="node16" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="229,360,307,387"/>
 <area shape="rect" id="node7" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="380,107,465,133"/>
 <area shape="rect" id="node10" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="372,157,473,184"/>

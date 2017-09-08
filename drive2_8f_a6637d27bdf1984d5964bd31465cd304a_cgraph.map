@@ -12,7 +12,7 @@
 <area shape="rect" id="node9" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="511,330,577,357"/>
 <area shape="rect" id="node10" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="495,381,593,407"/>
 <area shape="rect" id="node11" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="499,431,589,458"/>
-<area shape="rect" id="node12" href="$papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="505,229,583,255"/>
+<area shape="rect" id="node12" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="499,229,589,255"/>
 <area shape="rect" id="node16" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="240,279,295,306"/>
 <area shape="rect" id="node18" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="239,355,296,382"/>
 <area shape="rect" id="node20" href="$math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="240,178,295,205"/>

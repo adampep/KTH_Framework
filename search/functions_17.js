@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['y',['y',['../cvode__aux_8h.html#ab3d07486a1406ff62366012ecc98a900',1,'cvode_aux.h']]],
   ['y2d',['y2d',['../navier5_8f.html#a79c7741078370b5362787c8a7c2d487b',1,'navier5.f']]],
   ['y_5faverage',['y_average',['../navier5_8f.html#afc981db1d6064ff910b880956013dd10',1,'navier5.f']]],
   ['y_5favg_5fbuff',['y_avg_buff',['../navier5_8f.html#a0fb915eb80cdf237d63af9217f8f6cdc',1,'navier5.f']]],

@@ -138,6 +138,14 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:a91ac8efaecaf54411722081213fe3113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7d05710dc1d24352d099c3246b733b8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conduct_8f.html#ae7d05710dc1d24352d099c3246b733b8">diffab</a></td></tr>
 <tr class="separator:ae7d05710dc1d24352d099c3246b733b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe110c38303924ea31c2bbeb4ff9955"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conduct_8f.html#aebe110c38303924ea31c2bbeb4ff9955">set_eta_alpha2</a></td></tr>
+<tr class="separator:aebe110c38303924ea31c2bbeb4ff9955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad8d8e00be8051bcb77d74b30ec73d7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conduct_8f.html#a2ad8d8e00be8051bcb77d74b30ec73d7">fwght</a> (msk1, mult)</td></tr>
+<tr class="separator:a2ad8d8e00be8051bcb77d74b30ec73d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b764ba6cf35187ac351c3072456c805"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conduct_8f.html#a3b764ba6cf35187ac351c3072456c805">dg_setup</a></td></tr>
+<tr class="separator:a3b764ba6cf35187ac351c3072456c805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486b5e058b61fd9efa731f698201a9fd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conduct_8f.html#a486b5e058b61fd9efa731f698201a9fd">dg_setup2</a> (mask)</td></tr>
+<tr class="separator:a486b5e058b61fd9efa731f698201a9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc0953779481a8cff2666b1d0878c50c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conduct_8f.html#abc0953779481a8cff2666b1d0878c50c">cdscal_dg</a> (igeom)</td></tr>
 <tr class="separator:abc0953779481a8cff2666b1d0878c50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -158,7 +166,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="conduct_8f_source.html#l00003">3</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="hmholtz_8f_source.html#l00080">axhelm()</a>, <a class="el" href="bdry_8f_source.html#l00741">bcdirsc()</a>, <a class="el" href="bdry_8f_source.html#l00820">bcneusc()</a>, <a class="el" href="conduct_8f_source.html#l00484">cdscal_dg()</a>, <a class="el" href="math_8f_source.html#l00470">cmult()</a>, <a class="el" href="subs1_8f_source.html#l00319">cvgnlps()</a>, <a class="el" href="navier4_8f_source.html#l00805">hsolve()</a>, <a class="el" href="conduct_8f_source.html#l00306">lagscal()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="makeq_8f_source.html#l00003">makeq()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="subs1_8f_source.html#l01125">sethlm()</a>, <a class="el" href="math_8f_source.html#l00274">sub2()</a>, and <a class="el" href="math_8f_source.html#l00298">sub3()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="hmholtz_8f_source.html#l00072">axhelm()</a>, <a class="el" href="bdry_8f_source.html#l00741">bcdirsc()</a>, <a class="el" href="bdry_8f_source.html#l00820">bcneusc()</a>, <a class="el" href="conduct_8f_source.html#l00608">cdscal_dg()</a>, <a class="el" href="math_8f_source.html#l00470">cmult()</a>, <a class="el" href="subs1_8f_source.html#l00319">cvgnlps()</a>, <a class="el" href="navier4_8f_source.html#l00805">hsolve()</a>, <a class="el" href="conduct_8f_source.html#l00302">lagscal()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="makeq_8f_source.html#l00003">makeq()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="subs1_8f_source.html#l01125">sethlm()</a>, <a class="el" href="math_8f_source.html#l00274">sub2()</a>, and <a class="el" href="math_8f_source.html#l00298">sub3()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -167,55 +175,55 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_a74a7f053381975ed36df8ea959f3aa01_cgraph.png" border="0" usemap="#conduct_8f_a74a7f053381975ed36df8ea959f3aa01_cgraph" alt=""/></div>
 <map name="conduct_8f_a74a7f053381975ed36df8ea959f3aa01_cgraph" id="conduct_8f_a74a7f053381975ed36df8ea959f3aa01_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="623,597,674,624"/>
-<area shape="rect" id="node3" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="496,243,560,269"/>
-<area shape="rect" id="node14" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="621,40,676,67"/>
-<area shape="rect" id="node18" href="bdry_8f.html#a3dd38c124c25cb2d3f603ecfe2c1b3df" title="bcdirsc" alt="" coords="366,749,430,776"/>
-<area shape="rect" id="node26" href="bdry_8f.html#a8988b35c52124e8bd28cae74f255e98d" title="bcneusc" alt="" coords="493,1155,563,1181"/>
-<area shape="rect" id="node27" href="conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="113,800,195,827"/>
-<area shape="rect" id="node28" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="243,547,305,573"/>
-<area shape="rect" id="node30" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="503,344,553,371"/>
-<area shape="rect" id="node37" href="conduct_8f.html#acb622305abc4fe92c813db8b4f298459" title="lagscal" alt="" coords="243,1104,305,1131"/>
-<area shape="rect" id="node38" href="subs1_8f.html#ae2376b70f309c6118b4e43df9cbe66b1" title="sethlm" alt="" coords="243,1053,305,1080"/>
-<area shape="rect" id="node40" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="249,901,299,928"/>
-<area shape="rect" id="node41" href="navier4_8f.html#a2c8eef885087bb1ef49c29a936b96918" title="hsolve" alt="" coords="368,1281,428,1308"/>
-<area shape="rect" id="node49" href="subs1_8f.html#a4a7a49f2b10c08dee56798c23dbfbe5a" title="cvgnlps" alt="" coords="121,1155,187,1181"/>
-<area shape="rect" id="node4" href="hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="623,141,674,168"/>
-<area shape="rect" id="node6" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="749,560,796,587"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="732,1155,813,1181"/>
-<area shape="rect" id="node8" href="hmholtz_8f.html#a0f322d39d4bdffa3f9ba901f72d4a1d0" title="setfast" alt="" coords="617,192,680,219"/>
-<area shape="rect" id="node9" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="623,901,674,928"/>
-<area shape="rect" id="node10" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="615,547,683,573"/>
-<area shape="rect" id="node12" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="623,243,674,269"/>
-<area shape="rect" id="node13" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="623,344,674,371"/>
-<area shape="rect" id="node15" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="625,91,672,117"/>
-<area shape="rect" id="node16" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="615,293,682,320"/>
-<area shape="rect" id="node17" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="615,395,682,421"/>
-<area shape="rect" id="node5" href="math_8f.html#a73c11da474d84d5c1ae59109d7ffbaa7" title="col4" alt="" coords="749,141,796,168"/>
-<area shape="rect" id="node11" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="747,1636,798,1663"/>
-<area shape="rect" id="node19" href="dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="503,800,553,827"/>
-<area shape="rect" id="node20" href="bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846" title="faceis" alt="" coords="499,1104,557,1131"/>
-<area shape="rect" id="node23" href="connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="501,952,555,979"/>
-<area shape="rect" id="node24" href="turb_8f.html#a816c0f39b51e2f259f1b3a133c7d2265" title="turbwbc" alt="" coords="494,1053,562,1080"/>
-<area shape="rect" id="node21" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="620,1053,677,1080"/>
-<area shape="rect" id="node22" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="613,1104,684,1131"/>
-<area shape="rect" id="node25" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="618,1307,679,1333"/>
-<area shape="rect" id="node29" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="353,547,443,573"/>
-<area shape="rect" id="node31" href="conduct_8f.html#a7510fbfdadf0b575693f3a78f424f63f" title="convab" alt="" coords="366,141,430,168"/>
-<area shape="rect" id="node32" href="navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="357,445,439,472"/>
-<area shape="rect" id="node33" href="mvmesh_8f.html#afb5f7cc336f8e3f419e6aaecbf0a4627" title="admesht" alt="" coords="492,445,564,472"/>
-<area shape="rect" id="node34" href="conduct_8f.html#af506b06fb9a4d5ca07bf3dfc1d162a7b" title="makeabq" alt="" coords="361,1332,435,1359"/>
-<area shape="rect" id="node35" href="convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="366,699,430,725"/>
-<area shape="rect" id="node36" href="conduct_8f.html#a8c6cf1fcd7bccf5a42ee4c29c218a303" title="makebdq" alt="" coords="491,192,565,219"/>
-<area shape="rect" id="node39" href="subs2_8f.html#a3c61e9653d5734accc15712a2f1b9c11" title="cmult2" alt="" coords="367,1383,429,1409"/>
-<area shape="rect" id="node42" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="617,1484,681,1511"/>
-<area shape="rect" id="node43" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="503,1408,553,1435"/>
-<area shape="rect" id="node44" href="hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d" title="hmholtz" alt="" coords="494,1357,562,1384"/>
-<area shape="rect" id="node45" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="501,1459,555,1485"/>
-<area shape="rect" id="node46" href="navier4_8f.html#a142a136172575274b25ce7f923c429fc" title="project1" alt="" coords="494,1205,562,1232"/>
-<area shape="rect" id="node47" href="navier4_8f.html#abff3f3a3a3b301fbd3e883cb30d2d967" title="hmhzpf" alt="" coords="495,1307,561,1333"/>
-<area shape="rect" id="node48" href="navier4_8f.html#ac1700cca28238294c52879cb29424911" title="project2" alt="" coords="494,1256,562,1283"/>
-<area shape="rect" id="node50" href="subs1_8f.html#a8f2e17fa9df4e1df865aa17b294f867c" title="unorm" alt="" coords="245,1155,303,1181"/>
+<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="699,742,750,768"/>
+<area shape="rect" id="node3" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="573,260,637,287"/>
+<area shape="rect" id="node12" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="697,83,752,110"/>
+<area shape="rect" id="node16" href="bdry_8f.html#a3dd38c124c25cb2d3f603ecfe2c1b3df" title="bcdirsc" alt="" coords="445,1172,509,1199"/>
+<area shape="rect" id="node24" href="bdry_8f.html#a8988b35c52124e8bd28cae74f255e98d" title="bcneusc" alt="" coords="570,1096,641,1123"/>
+<area shape="rect" id="node25" href="conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="113,792,195,819"/>
+<area shape="rect" id="node27" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="283,564,344,591"/>
+<area shape="rect" id="node29" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="580,412,631,439"/>
+<area shape="rect" id="node35" href="conduct_8f.html#acb622305abc4fe92c813db8b4f298459" title="lagscal" alt="" coords="282,83,345,110"/>
+<area shape="rect" id="node36" href="subs1_8f.html#ae2376b70f309c6118b4e43df9cbe66b1" title="sethlm" alt="" coords="283,235,344,262"/>
+<area shape="rect" id="node40" href="subs1_8f.html#a4a7a49f2b10c08dee56798c23dbfbe5a" title="cvgnlps" alt="" coords="121,1248,187,1275"/>
+<area shape="rect" id="node42" href="navier4_8f.html#a2c8eef885087bb1ef49c29a936b96918" title="hsolve" alt="" coords="447,1628,507,1655"/>
+<area shape="rect" id="node50" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="129,1299,179,1326"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="808,1426,889,1452"/>
+<area shape="rect" id="node5" href="hmholtz_8f.html#a0f322d39d4bdffa3f9ba901f72d4a1d0" title="setfast" alt="" coords="693,235,756,262"/>
+<area shape="rect" id="node6" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="699,843,750,870"/>
+<area shape="rect" id="node7" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="691,438,759,464"/>
+<area shape="rect" id="node9" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="699,286,750,312"/>
+<area shape="rect" id="node10" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="701,1400,748,1427"/>
+<area shape="rect" id="node11" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="699,336,750,363"/>
+<area shape="rect" id="node13" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="701,134,748,160"/>
+<area shape="rect" id="node14" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="691,514,758,540"/>
+<area shape="rect" id="node15" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="691,184,758,211"/>
+<area shape="rect" id="node8" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="823,32,874,59"/>
+<area shape="rect" id="node17" href="dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="580,1147,631,1174"/>
+<area shape="rect" id="node18" href="bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846" title="faceis" alt="" coords="577,1198,634,1224"/>
+<area shape="rect" id="node21" href="connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="578,1299,633,1326"/>
+<area shape="rect" id="node22" href="turb_8f.html#a816c0f39b51e2f259f1b3a133c7d2265" title="turbwbc" alt="" coords="571,1248,639,1275"/>
+<area shape="rect" id="node19" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="696,1248,753,1275"/>
+<area shape="rect" id="node20" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="689,1186,760,1212"/>
+<area shape="rect" id="node23" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="694,1527,755,1554"/>
+<area shape="rect" id="node26" href="conduct_8f.html#a486b5e058b61fd9efa731f698201a9fd" title="dg_setup2" alt="" coords="272,944,355,971"/>
+<area shape="rect" id="node37" href="convect_8f.html#afeef10dae9b9e61e439b05a116b0ab4c" title="conv_bdry_dg_weak" alt="" coords="243,843,384,870"/>
+<area shape="rect" id="node38" href="hmholtz_8f.html#a71481bfcbacc047e17326d32a19300ac" title="hxdg_surfa" alt="" coords="433,184,520,211"/>
+<area shape="rect" id="node39" href="hmholtz_8f.html#ab52baffba790c148592c7b40c62861ca" title="hmholtz_dg" alt="" coords="269,995,358,1022"/>
+<area shape="rect" id="node28" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="432,590,521,616"/>
+<area shape="rect" id="node30" href="conduct_8f.html#a7510fbfdadf0b575693f3a78f424f63f" title="convab" alt="" coords="445,387,509,414"/>
+<area shape="rect" id="node31" href="navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="435,488,518,515"/>
+<area shape="rect" id="node32" href="mvmesh_8f.html#afb5f7cc336f8e3f419e6aaecbf0a4627" title="admesht" alt="" coords="569,539,641,566"/>
+<area shape="rect" id="node33" href="conduct_8f.html#af506b06fb9a4d5ca07bf3dfc1d162a7b" title="makeabq" alt="" coords="439,438,514,464"/>
+<area shape="rect" id="node34" href="convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="445,640,509,667"/>
+<area shape="rect" id="node41" href="subs1_8f.html#a8f2e17fa9df4e1df865aa17b294f867c" title="unorm" alt="" coords="284,1248,343,1275"/>
+<area shape="rect" id="node43" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="693,1628,757,1655"/>
+<area shape="rect" id="node44" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="580,1704,631,1731"/>
+<area shape="rect" id="node45" href="hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d" title="hmholtz" alt="" coords="571,1603,639,1630"/>
+<area shape="rect" id="node46" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="579,1806,632,1832"/>
+<area shape="rect" id="node47" href="navier4_8f.html#a142a136172575274b25ce7f923c429fc" title="project1" alt="" coords="571,1755,639,1782"/>
+<area shape="rect" id="node48" href="navier4_8f.html#abff3f3a3a3b301fbd3e883cb30d2d967" title="hmhzpf" alt="" coords="573,1856,638,1883"/>
+<area shape="rect" id="node49" href="navier4_8f.html#ac1700cca28238294c52879cb29424911" title="project2" alt="" coords="571,1502,639,1528"/>
 </map>
 </div>
 </p>
@@ -255,9 +263,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00484">484</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00608">608</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="hmholtz_8f_source.html#l00080">axhelm()</a>, <a class="el" href="bdry_8f_source.html#l00741">bcdirsc()</a>, <a class="el" href="bdry_8f_source.html#l00820">bcneusc()</a>, <a class="el" href="navier4_8f_source.html#l00805">hsolve()</a>, <a class="el" href="conduct_8f_source.html#l00306">lagscal()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="makeq_8f_source.html#l00003">makeq()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="subs1_8f_source.html#l01125">sethlm()</a>, and <a class="el" href="math_8f_source.html#l00298">sub3()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="bdry_8f_source.html#l00741">bcdirsc()</a>, <a class="el" href="convect_8f_source.html#l01861">conv_bdry_dg_weak()</a>, <a class="el" href="conduct_8f_source.html#l00588">dg_setup2()</a>, <a class="el" href="hmholtz_8f_source.html#l01468">hmholtz_dg()</a>, <a class="el" href="hmholtz_8f_source.html#l01986">hxdg_surfa()</a>, <a class="el" href="conduct_8f_source.html#l00302">lagscal()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="makeq_8f_source.html#l00003">makeq()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, and <a class="el" href="subs1_8f_source.html#l01125">sethlm()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -266,55 +274,55 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_abc0953779481a8cff2666b1d0878c50c_cgraph.png" border="0" usemap="#conduct_8f_abc0953779481a8cff2666b1d0878c50c_cgraph" alt=""/></div>
 <map name="conduct_8f_abc0953779481a8cff2666b1d0878c50c_cgraph" id="conduct_8f_abc0953779481a8cff2666b1d0878c50c_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="515,1069,566,1096"/>
-<area shape="rect" id="node3" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="388,1323,452,1349"/>
-<area shape="rect" id="node21" href="bdry_8f.html#a3dd38c124c25cb2d3f603ecfe2c1b3df" title="bcdirsc" alt="" coords="258,259,322,285"/>
-<area shape="rect" id="node29" href="bdry_8f.html#a8988b35c52124e8bd28cae74f255e98d" title="bcneusc" alt="" coords="385,208,455,235"/>
-<area shape="rect" id="node30" href="navier4_8f.html#a2c8eef885087bb1ef49c29a936b96918" title="hsolve" alt="" coords="260,689,320,716"/>
-<area shape="rect" id="node38" href="conduct_8f.html#acb622305abc4fe92c813db8b4f298459" title="lagscal" alt="" coords="135,1551,197,1577"/>
-<area shape="rect" id="node39" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="135,1095,197,1121"/>
-<area shape="rect" id="node48" href="subs1_8f.html#ae2376b70f309c6118b4e43df9cbe66b1" title="sethlm" alt="" coords="389,1779,451,1805"/>
-<area shape="rect" id="node50" href="math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="141,1829,191,1856"/>
-<area shape="rect" id="node4" href="hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="515,1424,566,1451"/>
-<area shape="rect" id="node9" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="672,943,719,969"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="655,348,736,375"/>
-<area shape="rect" id="node11" href="hmholtz_8f.html#a0f322d39d4bdffa3f9ba901f72d4a1d0" title="setfast" alt="" coords="509,1475,572,1501"/>
-<area shape="rect" id="node12" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="515,968,566,995"/>
-<area shape="rect" id="node13" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="507,1525,575,1552"/>
-<area shape="rect" id="node15" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="515,1272,566,1299"/>
-<area shape="rect" id="node16" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="515,1323,566,1349"/>
-<area shape="rect" id="node17" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="513,1576,568,1603"/>
-<area shape="rect" id="node18" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="517,1627,564,1653"/>
-<area shape="rect" id="node19" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="507,1171,574,1197"/>
-<area shape="rect" id="node20" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="507,1373,574,1400"/>
-<area shape="rect" id="node5" href="math_8f.html#a73c11da474d84d5c1ae59109d7ffbaa7" title="col4" alt="" coords="672,1500,719,1527"/>
-<area shape="rect" id="node6" href="hmholtz_8f.html#a7e0c785e74ddc5d1eef4dd74730a3b8f" title="compute_gradr" alt="" coords="641,1348,749,1375"/>
-<area shape="rect" id="node7" href="hmholtz_8f.html#a9b9d0ac766709510dd4b4831052351fc" title="compute_ugrdu_nhat" alt="" coords="624,1399,767,1425"/>
-<area shape="rect" id="node8" href="hmholtz_8f.html#ab5309bbcc1ce0de05622ff25a5586e77" title="face_diff" alt="" coords="659,1449,731,1476"/>
-<area shape="rect" id="node14" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="670,1703,721,1729"/>
-<area shape="rect" id="node22" href="dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="395,5,445,32"/>
-<area shape="rect" id="node23" href="bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846" title="faceis" alt="" coords="391,107,449,133"/>
-<area shape="rect" id="node26" href="connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="393,157,447,184"/>
-<area shape="rect" id="node27" href="turb_8f.html#a816c0f39b51e2f259f1b3a133c7d2265" title="turbwbc" alt="" coords="386,259,454,285"/>
-<area shape="rect" id="node24" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="512,164,569,191"/>
-<area shape="rect" id="node25" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="505,107,576,133"/>
-<area shape="rect" id="node28" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="510,297,571,324"/>
-<area shape="rect" id="node31" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="509,449,573,476"/>
-<area shape="rect" id="node32" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="395,664,445,691"/>
-<area shape="rect" id="node33" href="hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d" title="hmholtz" alt="" coords="386,360,454,387"/>
-<area shape="rect" id="node34" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="393,715,447,741"/>
-<area shape="rect" id="node35" href="navier4_8f.html#a142a136172575274b25ce7f923c429fc" title="project1" alt="" coords="386,765,454,792"/>
-<area shape="rect" id="node36" href="navier4_8f.html#abff3f3a3a3b301fbd3e883cb30d2d967" title="hmhzpf" alt="" coords="387,613,453,640"/>
-<area shape="rect" id="node37" href="navier4_8f.html#ac1700cca28238294c52879cb29424911" title="project2" alt="" coords="386,816,454,843"/>
-<area shape="rect" id="node40" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="245,917,335,944"/>
-<area shape="rect" id="node41" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="395,1019,445,1045"/>
-<area shape="rect" id="node42" href="conduct_8f.html#a7510fbfdadf0b575693f3a78f424f63f" title="convab" alt="" coords="258,1069,322,1096"/>
-<area shape="rect" id="node43" href="navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="249,968,331,995"/>
-<area shape="rect" id="node44" href="mvmesh_8f.html#afb5f7cc336f8e3f419e6aaecbf0a4627" title="admesht" alt="" coords="384,1171,456,1197"/>
-<area shape="rect" id="node45" href="conduct_8f.html#af506b06fb9a4d5ca07bf3dfc1d162a7b" title="makeabq" alt="" coords="253,1525,327,1552"/>
-<area shape="rect" id="node46" href="convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="258,867,322,893"/>
-<area shape="rect" id="node47" href="conduct_8f.html#a8c6cf1fcd7bccf5a42ee4c29c218a303" title="makebdq" alt="" coords="383,1373,457,1400"/>
-<area shape="rect" id="node49" href="subs2_8f.html#a3c61e9653d5734accc15712a2f1b9c11" title="cmult2" alt="" coords="510,1829,571,1856"/>
+<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="317,867,368,893"/>
+<area shape="rect" id="node3" href="bdry_8f.html#a3dd38c124c25cb2d3f603ecfe2c1b3df" title="bcdirsc" alt="" coords="147,259,211,285"/>
+<area shape="rect" id="node13" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="612,968,663,995"/>
+<area shape="rect" id="node19" href="convect_8f.html#afeef10dae9b9e61e439b05a116b0ab4c" title="conv_bdry_dg_weak" alt="" coords="272,968,413,995"/>
+<area shape="rect" id="node25" href="conduct_8f.html#a486b5e058b61fd9efa731f698201a9fd" title="dg_setup2" alt="" coords="138,1475,221,1501"/>
+<area shape="rect" id="node29" href="hmholtz_8f.html#ab52baffba790c148592c7b40c62861ca" title="hmholtz_dg" alt="" coords="135,689,224,716"/>
+<area shape="rect" id="node37" href="hmholtz_8f.html#a71481bfcbacc047e17326d32a19300ac" title="hxdg_surfa" alt="" coords="461,1417,548,1444"/>
+<area shape="rect" id="node39" href="conduct_8f.html#acb622305abc4fe92c813db8b4f298459" title="lagscal" alt="" coords="148,816,211,843"/>
+<area shape="rect" id="node40" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="149,1095,210,1121"/>
+<area shape="rect" id="node49" href="subs1_8f.html#ae2376b70f309c6118b4e43df9cbe66b1" title="sethlm" alt="" coords="474,1171,535,1197"/>
+<area shape="rect" id="node4" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="319,107,366,133"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="597,385,678,412"/>
+<area shape="rect" id="node7" href="dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="479,107,530,133"/>
+<area shape="rect" id="node9" href="bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846" title="faceis" alt="" coords="314,56,371,83"/>
+<area shape="rect" id="node12" href="connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="315,157,370,184"/>
+<area shape="rect" id="node14" href="turb_8f.html#a816c0f39b51e2f259f1b3a133c7d2265" title="turbwbc" alt="" coords="309,259,377,285"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="727,385,812,412"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="598,132,677,159"/>
+<area shape="rect" id="node10" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="476,56,533,83"/>
+<area shape="rect" id="node11" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="469,5,540,32"/>
+<area shape="rect" id="node15" href="turb_8f.html#a9d4fdadc58def9eca61b759b325557a2" title="facewsk" alt="" coords="469,208,540,235"/>
+<area shape="rect" id="node16" href="turb_8f.html#a8c96c7f068f162bef0b788ed3c3e051f" title="facewse" alt="" coords="469,259,540,285"/>
+<area shape="rect" id="node17" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="474,157,535,184"/>
+<area shape="rect" id="node18" href="turb_8f.html#abfb5202adb785ad5a0c029ce3bb22f33" title="invchk2" alt="" coords="471,309,538,336"/>
+<area shape="rect" id="node20" href="convect_8f.html#a81ad5024730ce16b71458235d4565f3c" title="full2face" alt="" coords="469,1019,540,1045"/>
+<area shape="rect" id="node21" href="convect_8f.html#ae2e3f3b9edb0976a0d8ab264e9902f59" title="map_faced" alt="" coords="461,1272,548,1299"/>
+<area shape="rect" id="node22" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="736,1304,803,1331"/>
+<area shape="rect" id="node23" href="convect_8f.html#a92eec6b22d330a307e543facfa634daa" title="get_int_ptr" alt="" coords="596,1279,679,1305"/>
+<area shape="rect" id="node24" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="612,1177,663,1204"/>
+<area shape="rect" id="node26" href="conduct_8f.html#a2ad8d8e00be8051bcb77d74b30ec73d7" title="fwght" alt="" coords="315,1525,370,1552"/>
+<area shape="rect" id="node27" href="conduct_8f.html#aebe110c38303924ea31c2bbeb4ff9955" title="set_eta_alpha2" alt="" coords="287,1475,398,1501"/>
+<area shape="rect" id="node28" href="connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="610,1456,665,1483"/>
+<area shape="rect" id="node30" href="hmholtz_8f.html#aac309b94595d1abf629fb77f234557fc" title="cggo_dg" alt="" coords="307,689,378,716"/>
+<area shape="rect" id="node31" href="hmholtz_8f.html#ad13c0bfece3bc9fea93fb8163a7b811d" title="setprec_dg" alt="" coords="461,1221,548,1248"/>
+<area shape="rect" id="node33" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="744,933,795,960"/>
+<area shape="rect" id="node34" href="math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="476,664,533,691"/>
+<area shape="rect" id="node35" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="478,715,531,741"/>
+<area shape="rect" id="node36" href="math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="476,613,533,640"/>
+<area shape="rect" id="node32" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="603,1228,671,1255"/>
+<area shape="rect" id="node38" href="hmholtz_8f.html#a7cdf3a9c9b3186632e8be8fd77756113" title="gradrta" alt="" coords="606,1405,669,1432"/>
+<area shape="rect" id="node41" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="298,1221,387,1248"/>
+<area shape="rect" id="node42" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="479,1323,530,1349"/>
+<area shape="rect" id="node43" href="conduct_8f.html#a7510fbfdadf0b575693f3a78f424f63f" title="convab" alt="" coords="311,1272,375,1299"/>
+<area shape="rect" id="node44" href="navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="301,1120,384,1147"/>
+<area shape="rect" id="node45" href="mvmesh_8f.html#afb5f7cc336f8e3f419e6aaecbf0a4627" title="admesht" alt="" coords="307,1019,379,1045"/>
+<area shape="rect" id="node46" href="conduct_8f.html#af506b06fb9a4d5ca07bf3dfc1d162a7b" title="makeabq" alt="" coords="305,1069,380,1096"/>
+<area shape="rect" id="node47" href="convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="311,563,375,589"/>
+<area shape="rect" id="node48" href="conduct_8f.html#a8c6cf1fcd7bccf5a42ee4c29c218a303" title="makebdq" alt="" coords="305,1171,380,1197"/>
+<area shape="rect" id="node50" href="subs2_8f.html#a3c61e9653d5734accc15712a2f1b9c11" title="cmult2" alt="" coords="607,1127,668,1153"/>
 </map>
 </div>
 </p>
@@ -352,9 +360,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00384">384</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00380">380</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="bdry_8f_source.html#l00741">bcdirsc()</a>, <a class="el" href="bdry_8f_source.html#l00820">bcneusc()</a>, <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="dssum_8f_source.html#l00034">dssum()</a>, <a class="el" href="math_8f_source.html#l00144">invcol3()</a>, <a class="el" href="conduct_8f_source.html#l00306">lagscal()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="makeq_8f_source.html#l00003">makeq()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="subs1_8f_source.html#l01125">sethlm()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="bdry_8f_source.html#l00741">bcdirsc()</a>, <a class="el" href="bdry_8f_source.html#l00820">bcneusc()</a>, <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="dssum_8f_source.html#l00034">dssum()</a>, <a class="el" href="math_8f_source.html#l00144">invcol3()</a>, <a class="el" href="conduct_8f_source.html#l00302">lagscal()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="makeq_8f_source.html#l00003">makeq()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="subs1_8f_source.html#l01125">sethlm()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -363,51 +371,46 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_a91ac8efaecaf54411722081213fe3113_cgraph.png" border="0" usemap="#conduct_8f_a91ac8efaecaf54411722081213fe3113_cgraph" alt=""/></div>
 <map name="conduct_8f_a91ac8efaecaf54411722081213fe3113_cgraph" id="conduct_8f_a91ac8efaecaf54411722081213fe3113_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="539,791,590,818"/>
-<area shape="rect" id="node3" href="bdry_8f.html#a3dd38c124c25cb2d3f603ecfe2c1b3df" title="bcdirsc" alt="" coords="144,386,208,412"/>
-<area shape="rect" id="node4" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="541,1475,588,1502"/>
-<area shape="rect" id="node17" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="404,31,465,58"/>
-<area shape="rect" id="node19" href="bdry_8f.html#a8988b35c52124e8bd28cae74f255e98d" title="bcneusc" alt="" coords="399,436,470,463"/>
-<area shape="rect" id="node20" href="math_8f.html#ae862caef2bdf5a2cb039a725f5450db0" title="invcol3" alt="" coords="145,538,207,564"/>
-<area shape="rect" id="node21" href="conduct_8f.html#acb622305abc4fe92c813db8b4f298459" title="lagscal" alt="" coords="145,1412,207,1439"/>
-<area shape="rect" id="node23" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="145,1070,207,1096"/>
-<area shape="rect" id="node45" href="subs1_8f.html#ae2376b70f309c6118b4e43df9cbe66b1" title="sethlm" alt="" coords="270,1754,331,1780"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="524,487,605,514"/>
-<area shape="rect" id="node7" href="dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="275,98,326,124"/>
-<area shape="rect" id="node9" href="bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846" title="faceis" alt="" coords="406,183,463,210"/>
-<area shape="rect" id="node12" href="connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="273,174,328,200"/>
-<area shape="rect" id="node13" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="539,943,590,970"/>
-<area shape="rect" id="node14" href="turb_8f.html#a816c0f39b51e2f259f1b3a133c7d2265" title="turbwbc" alt="" coords="267,284,335,311"/>
-<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="653,487,739,514"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="525,6,604,32"/>
-<area shape="rect" id="node10" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="536,158,593,184"/>
-<area shape="rect" id="node11" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="529,310,600,336"/>
-<area shape="rect" id="node15" href="turb_8f.html#a9d4fdadc58def9eca61b759b325557a2" title="facewsk" alt="" coords="399,284,470,311"/>
-<area shape="rect" id="node16" href="turb_8f.html#a8c96c7f068f162bef0b788ed3c3e051f" title="facewse" alt="" coords="399,335,470,362"/>
-<area shape="rect" id="node18" href="turb_8f.html#abfb5202adb785ad5a0c029ce3bb22f33" title="invchk2" alt="" coords="401,234,468,260"/>
-<area shape="rect" id="node22" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="409,1754,460,1780"/>
-<area shape="rect" id="node24" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="256,1171,345,1198"/>
-<area shape="rect" id="node28" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="409,1044,460,1071"/>
-<area shape="rect" id="node29" href="conduct_8f.html#a7510fbfdadf0b575693f3a78f424f63f" title="convab" alt="" coords="269,1551,333,1578"/>
-<area shape="rect" id="node32" href="navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="259,994,342,1020"/>
-<area shape="rect" id="node37" href="mvmesh_8f.html#afb5f7cc336f8e3f419e6aaecbf0a4627" title="admesht" alt="" coords="265,1298,337,1324"/>
-<area shape="rect" id="node39" href="conduct_8f.html#af506b06fb9a4d5ca07bf3dfc1d162a7b" title="makeabq" alt="" coords="263,1652,338,1679"/>
-<area shape="rect" id="node42" href="convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="269,740,333,767"/>
-<area shape="rect" id="node44" href="conduct_8f.html#a8c6cf1fcd7bccf5a42ee4c29c218a303" title="makebdq" alt="" coords="397,1095,472,1122"/>
-<area shape="rect" id="node25" href="turb_8f.html#a45430c9104dd0d66557704f2c3319472" title="whatfld" alt="" coords="403,1146,467,1172"/>
-<area shape="rect" id="node26" href="turb_8f.html#a937f57e48ca7493f437b08697b55ab51" title="maketq" alt="" coords="402,1196,467,1223"/>
-<area shape="rect" id="node27" href="conduct_8f.html#aa167d71e770cd729d61c955a42f4a2bd" title="makeuq" alt="" coords="401,1298,469,1324"/>
-<area shape="rect" id="node30" href="navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="403,943,467,970"/>
-<area shape="rect" id="node31" href="math_8f.html#ab775b4418a8ea415b19f2a0861af2636" title="subcol3" alt="" coords="401,1551,468,1578"/>
-<area shape="rect" id="node33" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="403,994,467,1020"/>
-<area shape="rect" id="node34" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="537,1019,592,1046"/>
-<area shape="rect" id="node35" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="541,1095,588,1122"/>
-<area shape="rect" id="node36" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="531,1247,598,1274"/>
-<area shape="rect" id="node38" href="mvmesh_8f.html#a7633bdf322411dfbab8b8dbfd4cd5075" title="divws" alt="" coords="407,1450,463,1476"/>
-<area shape="rect" id="node40" href="math_8f.html#ac62ce88420771d0183fa4e9182f250dc" title="add3s2" alt="" coords="403,1652,467,1679"/>
-<area shape="rect" id="node41" href="math_8f.html#aeeb6d3ca3e70266452bcf92e16cb317d" title="add2s1" alt="" coords="403,1703,467,1730"/>
-<area shape="rect" id="node43" href="convect_8f.html#ae4ae44dd6c99361a823026cc794c68a0" title="char_conv" alt="" coords="393,740,476,767"/>
-<area shape="rect" id="node46" href="subs2_8f.html#a3c61e9653d5734accc15712a2f1b9c11" title="cmult2" alt="" coords="404,1804,465,1831"/>
+<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="533,588,583,615"/>
+<area shape="rect" id="node3" href="bdry_8f.html#a3dd38c124c25cb2d3f603ecfe2c1b3df" title="bcdirsc" alt="" coords="267,309,331,336"/>
+<area shape="rect" id="node4" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="535,715,581,741"/>
+<area shape="rect" id="node17" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="527,56,589,83"/>
+<area shape="rect" id="node19" href="bdry_8f.html#a8988b35c52124e8bd28cae74f255e98d" title="bcneusc" alt="" coords="398,461,469,488"/>
+<area shape="rect" id="node20" href="math_8f.html#ae862caef2bdf5a2cb039a725f5450db0" title="invcol3" alt="" coords="144,385,207,412"/>
+<area shape="rect" id="node21" href="conduct_8f.html#acb622305abc4fe92c813db8b4f298459" title="lagscal" alt="" coords="144,1399,207,1425"/>
+<area shape="rect" id="node23" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="145,993,206,1020"/>
+<area shape="rect" id="node40" href="subs1_8f.html#ae2376b70f309c6118b4e43df9cbe66b1" title="sethlm" alt="" coords="145,1297,206,1324"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="641,461,723,488"/>
+<area shape="rect" id="node7" href="dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="533,5,583,32"/>
+<area shape="rect" id="node9" href="bdry_8f.html#a936f1ad8fbe7e03d7283a33188c8c846" title="faceis" alt="" coords="405,309,462,336"/>
+<area shape="rect" id="node12" href="connect1_8f.html#a1c96db1fac78d436aaab41482ed01aca" title="facev" alt="" coords="406,259,461,285"/>
+<area shape="rect" id="node13" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="533,892,583,919"/>
+<area shape="rect" id="node14" href="turb_8f.html#a816c0f39b51e2f259f1b3a133c7d2265" title="turbwbc" alt="" coords="399,157,467,184"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="771,461,856,488"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="643,31,721,57"/>
+<area shape="rect" id="node10" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="529,309,587,336"/>
+<area shape="rect" id="node11" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="523,411,593,437"/>
+<area shape="rect" id="node15" href="turb_8f.html#a9d4fdadc58def9eca61b759b325557a2" title="facewsk" alt="" coords="523,208,593,235"/>
+<area shape="rect" id="node16" href="turb_8f.html#a8c96c7f068f162bef0b788ed3c3e051f" title="facewse" alt="" coords="523,107,593,133"/>
+<area shape="rect" id="node18" href="turb_8f.html#abfb5202adb785ad5a0c029ce3bb22f33" title="invchk2" alt="" coords="525,157,591,184"/>
+<area shape="rect" id="node22" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="274,1424,325,1451"/>
+<area shape="rect" id="node24" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="255,867,344,893"/>
+<area shape="rect" id="node28" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="408,1019,459,1045"/>
+<area shape="rect" id="node29" href="conduct_8f.html#a7510fbfdadf0b575693f3a78f424f63f" title="convab" alt="" coords="267,1139,331,1165"/>
+<area shape="rect" id="node31" href="navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c" title="wlaplacian" alt="" coords="258,968,341,995"/>
+<area shape="rect" id="node34" href="mvmesh_8f.html#afb5f7cc336f8e3f419e6aaecbf0a4627" title="admesht" alt="" coords="263,1076,335,1103"/>
+<area shape="rect" id="node36" href="conduct_8f.html#af506b06fb9a4d5ca07bf3dfc1d162a7b" title="makeabq" alt="" coords="262,917,337,944"/>
+<area shape="rect" id="node37" href="convect_8f.html#a3b2c8621bcdfb80fd4be220ddd337aa1" title="convch" alt="" coords="267,1323,331,1349"/>
+<area shape="rect" id="node39" href="conduct_8f.html#a8c6cf1fcd7bccf5a42ee4c29c218a303" title="makebdq" alt="" coords="262,1215,337,1241"/>
+<area shape="rect" id="node25" href="turb_8f.html#a45430c9104dd0d66557704f2c3319472" title="whatfld" alt="" coords="401,867,465,893"/>
+<area shape="rect" id="node26" href="turb_8f.html#a937f57e48ca7493f437b08697b55ab51" title="maketq" alt="" coords="401,917,466,944"/>
+<area shape="rect" id="node27" href="conduct_8f.html#aa167d71e770cd729d61c955a42f4a2bd" title="makeuq" alt="" coords="399,715,467,741"/>
+<area shape="rect" id="node30" href="navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="401,1221,465,1248"/>
+<area shape="rect" id="node32" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="401,765,465,792"/>
+<area shape="rect" id="node33" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="525,1095,591,1121"/>
+<area shape="rect" id="node35" href="mvmesh_8f.html#a7633bdf322411dfbab8b8dbfd4cd5075" title="divws" alt="" coords="405,1069,461,1096"/>
+<area shape="rect" id="node38" href="convect_8f.html#ae4ae44dd6c99361a823026cc794c68a0" title="char_conv" alt="" coords="392,1373,475,1400"/>
+<area shape="rect" id="node41" href="subs2_8f.html#a3c61e9653d5734accc15712a2f1b9c11" title="cmult2" alt="" coords="269,1373,330,1400"/>
 </map>
 </div>
 </p>
@@ -427,9 +430,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00213">213</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00212">212</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="navier1_8f_source.html#l03430">convop()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="math_8f_source.html#l00322">subcol3()</a>.</p>
+<p>References <a class="el" href="navier1_8f_source.html#l03286">convop()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -438,41 +441,42 @@ Functions/Subroutines</h2></td></tr>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_a7510fbfdadf0b575693f3a78f424f63f_cgraph.png" border="0" usemap="#conduct_8f_a7510fbfdadf0b575693f3a78f424f63f_cgraph" alt=""/></div>
 <map name="conduct_8f_a7510fbfdadf0b575693f3a78f424f63f_cgraph" id="conduct_8f_a7510fbfdadf0b575693f3a78f424f63f_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="535,803,582,829"/>
-<area shape="rect" id="node3" href="navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="119,625,183,652"/>
-<area shape="rect" id="node36" href="math_8f.html#ab775b4418a8ea415b19f2a0861af2636" title="subcol3" alt="" coords="117,676,184,703"/>
-<area shape="rect" id="node4" href="ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a" title="mfi" alt="" coords="382,321,422,348"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="913,93,995,120"/>
-<area shape="rect" id="node11" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="692,575,743,601"/>
-<area shape="rect" id="node18" href="navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="232,651,303,677"/>
-<area shape="rect" id="node19" href="navier1_8f.html#a864b5c84d724970ce769577d3a7d19c3" title="conv1" alt="" coords="373,549,431,576"/>
-<area shape="rect" id="node25" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="527,1005,590,1032"/>
-<area shape="rect" id="node26" href="navier1_8f.html#a1b70ccf853606db85f73ee320f561274" title="conv1d" alt="" coords="235,955,299,981"/>
-<area shape="rect" id="node31" href="convect_8f.html#aef829efeef773567be893471f50529b1" title="convect_new" alt="" coords="353,1208,451,1235"/>
-<area shape="rect" id="node35" href="convect_8f.html#ac5955ce05d0725ed90a8fd09bb96ac81" title="convect_cons" alt="" coords="351,955,453,981"/>
-<area shape="rect" id="node6" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="513,144,604,171"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="685,195,750,221"/>
-<area shape="rect" id="node9" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="664,93,771,120"/>
-<area shape="rect" id="node10" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="523,296,595,323"/>
-<area shape="rect" id="node13" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="523,245,595,272"/>
-<area shape="rect" id="node14" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="502,347,615,373"/>
-<area shape="rect" id="node15" href="math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="530,397,587,424"/>
-<area shape="rect" id="node16" href="ic_8f.html#abfc96747c4f79836b70a09ac160175c2" title="axis_interp_ic" alt="" coords="507,448,610,475"/>
-<area shape="rect" id="node17" href="ic_8f.html#af499850e0bb56314ceea0c8db0c56784" title="map_pm1_to_pr" alt="" coords="501,499,616,525"/>
-<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="819,144,865,171"/>
-<area shape="rect" id="node12" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="692,473,743,500"/>
-<area shape="rect" id="node20" href="navier1_8f.html#a864f1ea701ea1cf4adc4bb861826f9f8" title="cmask" alt="" coords="371,752,433,779"/>
-<area shape="rect" id="node21" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="379,853,425,880"/>
-<area shape="rect" id="node22" href="math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="370,803,434,829"/>
-<area shape="rect" id="node23" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="533,651,584,677"/>
-<area shape="rect" id="node24" href="navier1_8f.html#afac29822c946dfa3ce2a87194f9259e1" title="conv2" alt="" coords="373,701,431,728"/>
-<area shape="rect" id="node27" href="navier1_8f.html#aee3ef7096c2b505346f996daf6cf6cd3" title="dudxyz" alt="" coords="370,904,434,931"/>
-<area shape="rect" id="node28" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="525,853,592,880"/>
-<area shape="rect" id="node29" href="navier1_8f.html#aa1359ec8216b3e1a34ae938d074e8a1b" title="mapw" alt="" coords="373,1107,431,1133"/>
-<area shape="rect" id="node30" href="navier1_8f.html#af66b0da5eb394cfc625e8099738e70a7" title="mapwp" alt="" coords="370,1005,434,1032"/>
-<area shape="rect" id="node32" href="induct_8f.html#adcae8f87adfb3b7c619cd72c46ccd4ac" title="set_dealias_rx" alt="" coords="505,1157,612,1184"/>
-<area shape="rect" id="node33" href="convect_8f.html#a9560f353879de6e4a86926a9831842a3" title="intp_rstd" alt="" coords="681,1157,753,1184"/>
-<area shape="rect" id="node34" href="convect_8f.html#af2ed8cbbeeddc66bc8705dbf318b126d" title="grad_rst" alt="" coords="524,1107,593,1133"/>
+<area shape="rect" id="node2" href="navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="117,664,181,691"/>
+<area shape="rect" id="node3" href="ic_8f.html#a0b32036a6e65b4909fa355349b9afe1a" title="mfi" alt="" coords="398,321,438,348"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="949,157,1031,184"/>
+<area shape="rect" id="node10" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="728,600,779,627"/>
+<area shape="rect" id="node17" href="convect_8f.html#ac116aa7e82985c8c7851da63aef07c6c" title="convect_dg" alt="" coords="229,499,319,525"/>
+<area shape="rect" id="node19" href="navier1_8f.html#a89c10bd50bd97a18d935319a486720c1" title="convopo" alt="" coords="239,701,309,728"/>
+<area shape="rect" id="node20" href="navier1_8f.html#a864b5c84d724970ce769577d3a7d19c3" title="conv1" alt="" coords="389,600,447,627"/>
+<area shape="rect" id="node27" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="553,904,616,931"/>
+<area shape="rect" id="node28" href="navier1_8f.html#a1b70ccf853606db85f73ee320f561274" title="conv1d" alt="" coords="242,980,306,1007"/>
+<area shape="rect" id="node33" href="convect_8f.html#aef829efeef773567be893471f50529b1" title="convect_new" alt="" coords="369,1259,467,1285"/>
+<area shape="rect" id="node37" href="convect_8f.html#ac5955ce05d0725ed90a8fd09bb96ac81" title="convect_cons" alt="" coords="367,1208,469,1235"/>
+<area shape="rect" id="node5" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="539,245,630,272"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="721,296,786,323"/>
+<area shape="rect" id="node8" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="700,144,807,171"/>
+<area shape="rect" id="node9" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="549,499,621,525"/>
+<area shape="rect" id="node12" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="549,347,621,373"/>
+<area shape="rect" id="node13" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="528,144,641,171"/>
+<area shape="rect" id="node14" href="math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="556,195,613,221"/>
+<area shape="rect" id="node15" href="ic_8f.html#abfc96747c4f79836b70a09ac160175c2" title="axis_interp_ic" alt="" coords="533,397,636,424"/>
+<area shape="rect" id="node16" href="ic_8f.html#af499850e0bb56314ceea0c8db0c56784" title="map_pm1_to_pr" alt="" coords="527,448,642,475"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="855,271,901,297"/>
+<area shape="rect" id="node11" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="728,499,779,525"/>
+<area shape="rect" id="node18" href="convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title="conv_rhs_dg_weak" alt="" coords="517,549,652,576"/>
+<area shape="rect" id="node21" href="navier1_8f.html#a864f1ea701ea1cf4adc4bb861826f9f8" title="cmask" alt="" coords="387,853,449,880"/>
+<area shape="rect" id="node22" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="395,904,441,931"/>
+<area shape="rect" id="node23" href="math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="386,701,450,728"/>
+<area shape="rect" id="node24" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="559,651,610,677"/>
+<area shape="rect" id="node25" href="navier1_8f.html#afac29822c946dfa3ce2a87194f9259e1" title="conv2" alt="" coords="389,752,447,779"/>
+<area shape="rect" id="node26" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="561,955,608,981"/>
+<area shape="rect" id="node29" href="navier1_8f.html#aee3ef7096c2b505346f996daf6cf6cd3" title="dudxyz" alt="" coords="386,955,450,981"/>
+<area shape="rect" id="node30" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="551,1005,618,1032"/>
+<area shape="rect" id="node31" href="navier1_8f.html#aa1359ec8216b3e1a34ae938d074e8a1b" title="mapw" alt="" coords="389,1005,447,1032"/>
+<area shape="rect" id="node32" href="navier1_8f.html#af66b0da5eb394cfc625e8099738e70a7" title="mapwp" alt="" coords="386,1056,450,1083"/>
+<area shape="rect" id="node34" href="induct_8f.html#adcae8f87adfb3b7c619cd72c46ccd4ac" title="set_dealias_rx" alt="" coords="531,1208,638,1235"/>
+<area shape="rect" id="node35" href="convect_8f.html#a9560f353879de6e4a86926a9831842a3" title="intp_rstd" alt="" coords="717,1208,789,1235"/>
+<area shape="rect" id="node36" href="convect_8f.html#af2ed8cbbeeddc66bc8705dbf318b126d" title="grad_rst" alt="" coords="550,1259,619,1285"/>
 </map>
 </div>
 </p>
@@ -497,6 +501,138 @@ Functions/Subroutines</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3b764ba6cf35187ac351c3072456c805"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine dg_setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00553">553</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+
+<p>References <a class="el" href="convect_8f_source.html#l01407">dg_set_fc_ptr()</a>, <a class="el" href="ic_8f_source.html#l01920">geom_reset()</a>, <a class="el" href="math_8f_source.html#l00061">invers2()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="convect_8f_source.html#l01672">set_dg_wgts()</a>, <a class="el" href="coef_8f_source.html#l01811">set_unr()</a>, and <a class="el" href="convect_8f_source.html#l01376">setup_dg_gs()</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_a3b764ba6cf35187ac351c3072456c805_cgraph.png" border="0" usemap="#conduct_8f_a3b764ba6cf35187ac351c3072456c805_cgraph" alt=""/></div>
+<map name="conduct_8f_a3b764ba6cf35187ac351c3072456c805_cgraph" id="conduct_8f_a3b764ba6cf35187ac351c3072456c805_cgraph">
+<area shape="rect" id="node2" href="convect_8f.html#a4d424efe4c0c3008f4ee65baea30b4f2" title="dg_set_fc_ptr" alt="" coords="128,275,229,302"/>
+<area shape="rect" id="node4" href="ic_8f.html#aaf47b255d1cfac3451a8473ee6876b4f" title="geom_reset" alt="" coords="133,996,224,1023"/>
+<area shape="rect" id="node12" href="math_8f.html#a0fcb0ff151fe3548d0d07961e8365efe" title="invers2" alt="" coords="572,528,636,555"/>
+<area shape="rect" id="node31" href="convect_8f.html#a1ea9345e199e3ab349e0616a5aaa0bf0" title="set_dg_wgts" alt="" coords="131,1491,227,1518"/>
+<area shape="rect" id="node34" href="coef_8f.html#aa90c057ed2e36fef8ea6a54e5bc6c952" title="set_unr" alt="" coords="146,60,211,87"/>
+<area shape="rect" id="node35" href="convect_8f.html#ae036baf441f94f93768933971b22ca5e" title="setup_dg_gs" alt="" coords="131,199,227,226"/>
+<area shape="rect" id="node3" href="connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="577,22,631,48"/>
+<area shape="rect" id="node5" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="579,984,629,1011"/>
+<area shape="rect" id="node6" href="ic_8f.html#a43c44d63d3f7f32d6e526ba4baab2f33" title="map13_all" alt="" coords="290,1415,371,1442"/>
+<area shape="rect" id="node8" href="coef_8f.html#a8cbb48eee5edaf128d65bb31ac49c3ff" title="geom1" alt="" coords="300,630,361,656"/>
+<area shape="rect" id="node17" href="coef_8f.html#aa1888ed007f00d368349e09888f324ca" title="geom2" alt="" coords="300,731,361,758"/>
+<area shape="rect" id="node20" href="subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title="updmsys" alt="" coords="293,1238,368,1264"/>
+<area shape="rect" id="node23" href="coef_8f.html#a9f5bcc9bbca02379fdf1aa0aa77845cf" title="volume" alt="" coords="299,1339,363,1366"/>
+<area shape="rect" id="node26" href="coef_8f.html#a23e88cda66e9644ca7e005629785b0f2" title="setinvm" alt="" coords="297,1111,365,1138"/>
+<area shape="rect" id="node29" href="genxyz_8f.html#a320d8270cd92517272b9ea39555aafee" title="setdef" alt="" coords="301,959,360,986"/>
+<area shape="rect" id="node30" href="hmholtz_8f.html#a2810cb17f431100b674ac6d746d45ad9" title="sfastax" alt="" coords="298,883,363,910"/>
+<area shape="rect" id="node7" href="coef_8f.html#af554088b00c51bbe388de00238463319" title="map13" alt="" coords="447,1440,509,1467"/>
+<area shape="rect" id="node9" href="coef_8f.html#aea7fbfba708ba55609135adf3064f1c3" title="geodat1" alt="" coords="444,478,512,504"/>
+<area shape="rect" id="node14" href="coef_8f.html#a4fc3ef4a22d50b8bccc5554aeb64007e" title="glmapm1" alt="" coords="441,579,515,606"/>
+<area shape="rect" id="node16" href="coef_8f.html#a804b631f33dccd942344eec1069ad5ce" title="glmapm3" alt="" coords="441,680,515,707"/>
+<area shape="rect" id="node10" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="581,402,627,428"/>
+<area shape="rect" id="node11" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="581,464,627,491"/>
+<area shape="rect" id="node13" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="579,706,629,732"/>
+<area shape="rect" id="node15" href="math_8f.html#ae1294c8ac3b5b3c38bbcc250d252b9cb" title="rone" alt="" coords="581,630,627,656"/>
+<area shape="rect" id="node18" href="coef_8f.html#ad6bb05a6f870732734bb41b977f865f9" title="map12" alt="" coords="447,934,509,960"/>
+<area shape="rect" id="node19" href="subs2_8f.html#a2793d33648010ed776e5c83d6d9bdd65" title="setaxw2" alt="" coords="443,984,513,1011"/>
+<area shape="rect" id="node21" href="subs2_8f.html#ae32eb44d6949d87bc0335f0af4861b82" title="sethmsk" alt="" coords="442,1238,514,1264"/>
+<area shape="rect" id="node22" href="subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="444,1288,512,1315"/>
+<area shape="rect" id="node24" href="math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="449,1339,507,1366"/>
+<area shape="rect" id="node25" href="math_8f.html#a77c801497edba9cfca69fc6f8fe6f5b1" title="vlsum" alt="" coords="449,1390,507,1416"/>
+<area shape="rect" id="node27" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="447,1086,509,1112"/>
+<area shape="rect" id="node28" href="math_8f.html#ae73fec4554ac4d498b4de4e092fb32fa" title="invcol1" alt="" coords="447,1136,509,1163"/>
+<area shape="rect" id="node32" href="speclib_8f.html#a1aea25f2ddfcdcb1f50e66bbd4282fe2" title="zwgl" alt="" coords="306,1491,355,1518"/>
+<area shape="rect" id="node33" href="speclib_8f.html#ae296dfc5588151cd6cc7e2045e2c0330" title="zwgj" alt="" coords="453,1491,503,1518"/>
+<area shape="rect" id="node36" href="navier8_8f.html#a51b2c2d951e069b7ffa9a395b2def117" title="set_vert" alt="" coords="296,98,365,124"/>
+<area shape="rect" id="node40" href="convect_8f.html#a1d8a59863f266d28d004d705e5034093" title="iface_vert_int8" alt="" coords="277,199,384,226"/>
+<area shape="rect" id="node37" href="navier8_8f.html#a928aff746415692c89ffdfbaf08fd98d" title="setvert3d" alt="" coords="440,22,516,48"/>
+<area shape="rect" id="node38" href="navier8_8f.html#aacefc924fd8555d5a3b58b36c7eda2ad" title="setvert2d" alt="" coords="440,72,516,99"/>
+<area shape="rect" id="node39" href="navier8_8f.html#a0233bb24c5654d0cfdce5b4a72f6c61b" title="check_p_bc" alt="" coords="432,123,524,150"/>
+<area shape="rect" id="node41" href="math_8f.html#a1b43063a28b6cf21d36618121c8b0d10" title="i8zero" alt="" coords="449,174,507,200"/>
+<area shape="rect" id="node42" href="connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="449,224,507,251"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_a3b764ba6cf35187ac351c3072456c805_icgraph.png" border="0" usemap="#conduct_8f_a3b764ba6cf35187ac351c3072456c805_icgraph" alt=""/></div>
+<map name="conduct_8f_a3b764ba6cf35187ac351c3072456c805_icgraph" id="conduct_8f_a3b764ba6cf35187ac351c3072456c805_icgraph">
+<area shape="rect" id="node2" href="drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="128,5,195,32"/>
+<area shape="rect" id="node3" href="drive_8f.html#a13048bf28dd0734640412d69349e3857" title="nekton" alt="" coords="243,5,304,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a486b5e058b61fd9efa731f698201a9fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine dg_setup2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(1)&#160;</td>
+          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00588">588</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+
+<p>References <a class="el" href="conduct_8f_source.html#l00525">fwght()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="conduct_8f_source.html#l00479">set_eta_alpha2()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_a486b5e058b61fd9efa731f698201a9fd_cgraph.png" border="0" usemap="#conduct_8f_a486b5e058b61fd9efa731f698201a9fd_cgraph" alt=""/></div>
+<map name="conduct_8f_a486b5e058b61fd9efa731f698201a9fd_cgraph" id="conduct_8f_a486b5e058b61fd9efa731f698201a9fd_cgraph">
+<area shape="rect" id="node2" href="conduct_8f.html#a2ad8d8e00be8051bcb77d74b30ec73d7" title="fwght" alt="" coords="164,5,219,32"/>
+<area shape="rect" id="node3" href="conduct_8f.html#aebe110c38303924ea31c2bbeb4ff9955" title="set_eta_alpha2" alt="" coords="136,56,247,83"/>
+<area shape="rect" id="node4" href="connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="295,56,349,83"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_a486b5e058b61fd9efa731f698201a9fd_icgraph.png" border="0" usemap="#conduct_8f_a486b5e058b61fd9efa731f698201a9fd_icgraph" alt=""/></div>
+<map name="conduct_8f_a486b5e058b61fd9efa731f698201a9fd_icgraph" id="conduct_8f_a486b5e058b61fd9efa731f698201a9fd_icgraph">
+<area shape="rect" id="node2" href="conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="136,5,217,32"/>
+<area shape="rect" id="node3" href="conduct_8f.html#a74a7f053381975ed36df8ea959f3aa01" title="cdscal" alt="" coords="265,5,325,32"/>
+<area shape="rect" id="node4" href="drive2_8f.html#acce80cd37f20e9b52729eb52d86a9c86" title="heat" alt="" coords="373,5,420,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="ae7d05710dc1d24352d099c3246b733b8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -510,44 +646,86 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00449">449</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00444">444</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="hmholtz_8f_source.html#l00080">axhelm()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, and <a class="el" href="math_8f_source.html#l00274">sub2()</a>.</p>
+<p>References <a class="el" href="hmholtz_8f_source.html#l00072">axhelm()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, and <a class="el" href="math_8f_source.html#l00274">sub2()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_ae7d05710dc1d24352d099c3246b733b8_cgraph.png" border="0" usemap="#conduct_8f_ae7d05710dc1d24352d099c3246b733b8_cgraph" alt=""/></div>
 <map name="conduct_8f_ae7d05710dc1d24352d099c3246b733b8_cgraph" id="conduct_8f_ae7d05710dc1d24352d099c3246b733b8_cgraph">
-<area shape="rect" id="node2" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="108,537,172,564"/>
-<area shape="rect" id="node18" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="235,208,286,235"/>
-<area shape="rect" id="node28" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="115,588,165,615"/>
-<area shape="rect" id="node3" href="hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f" title="hxdg" alt="" coords="235,259,286,285"/>
-<area shape="rect" id="node11" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="397,360,444,387"/>
-<area shape="rect" id="node12" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="220,411,301,437"/>
-<area shape="rect" id="node14" href="hmholtz_8f.html#a0f322d39d4bdffa3f9ba901f72d4a1d0" title="setfast" alt="" coords="229,461,292,488"/>
-<area shape="rect" id="node19" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="227,512,295,539"/>
-<area shape="rect" id="node21" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="235,563,286,589"/>
-<area shape="rect" id="node22" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="235,613,286,640"/>
-<area shape="rect" id="node23" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="233,664,288,691"/>
-<area shape="rect" id="node24" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="237,715,284,741"/>
-<area shape="rect" id="node25" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="227,765,294,792"/>
-<area shape="rect" id="node26" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="235,816,286,843"/>
-<area shape="rect" id="node27" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="227,867,294,893"/>
-<area shape="rect" id="node4" href="math_8f.html#a73c11da474d84d5c1ae59109d7ffbaa7" title="col4" alt="" coords="397,5,444,32"/>
-<area shape="rect" id="node5" href="hmholtz_8f.html#a7e0c785e74ddc5d1eef4dd74730a3b8f" title="compute_gradr" alt="" coords="367,56,475,83"/>
-<area shape="rect" id="node6" href="hmholtz_8f.html#a9b9d0ac766709510dd4b4831052351fc" title="compute_ugrdu_nhat" alt="" coords="349,107,492,133"/>
-<area shape="rect" id="node7" href="hmholtz_8f.html#ab5309bbcc1ce0de05622ff25a5586e77" title="face_diff" alt="" coords="385,157,457,184"/>
-<area shape="rect" id="node8" href="hmholtz_8f.html#a8b92e04cefdcb8fc5f80cad7c07df3aa" title="gmult" alt="" coords="393,208,448,235"/>
-<area shape="rect" id="node9" href="hmholtz_8f.html#a269e13c2def6630c6150b5913abb829a" title="rtna" alt="" coords="399,259,443,285"/>
-<area shape="rect" id="node10" href="hmholtz_8f.html#aa946bce9042be0161a8a46240ba386ed" title="compute_gradrta" alt="" coords="361,309,480,336"/>
-<area shape="rect" id="node13" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="378,411,463,437"/>
-<area shape="rect" id="node15" href="math_8f.html#aefe89276b8a8ae8a9f1ea1ede71b142f" title="vlmin" alt="" coords="394,461,447,488"/>
-<area shape="rect" id="node16" href="math_8f.html#a3a4077924e14ce175a0d9991f9006d16" title="vlmax" alt="" coords="392,512,449,539"/>
-<area shape="rect" id="node17" href="math_8f.html#a2f379ce24032eb8832203bac8ef9f702" title="vlamax" alt="" coords="389,563,453,589"/>
-<area shape="rect" id="node20" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="395,613,446,640"/>
+<area shape="rect" id="node2" href="hmholtz_8f.html#aa576b5bd623cce50fd6323db12ba5376" title="axhelm" alt="" coords="108,309,172,336"/>
+<area shape="rect" id="node9" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="235,56,286,83"/>
+<area shape="rect" id="node26" href="math_8f.html#a0f22065d62634acdc3883ba95bfcc18a" title="sub2" alt="" coords="115,360,165,387"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="220,107,301,133"/>
+<area shape="rect" id="node5" href="hmholtz_8f.html#a0f322d39d4bdffa3f9ba901f72d4a1d0" title="setfast" alt="" coords="229,157,292,184"/>
+<area shape="rect" id="node10" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="227,208,295,235"/>
+<area shape="rect" id="node12" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="235,259,286,285"/>
+<area shape="rect" id="node19" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="237,309,284,336"/>
+<area shape="rect" id="node20" href="math_8f.html#a6d333c9b7537e63344c7162824904329" title="add3" alt="" coords="235,360,286,387"/>
+<area shape="rect" id="node21" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="233,411,288,437"/>
+<area shape="rect" id="node22" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="237,461,284,488"/>
+<area shape="rect" id="node23" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="227,512,294,539"/>
+<area shape="rect" id="node24" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="235,563,286,589"/>
+<area shape="rect" id="node25" href="math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="227,613,294,640"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="357,5,442,32"/>
+<area shape="rect" id="node6" href="math_8f.html#aefe89276b8a8ae8a9f1ea1ede71b142f" title="vlmin" alt="" coords="373,56,426,83"/>
+<area shape="rect" id="node7" href="math_8f.html#a3a4077924e14ce175a0d9991f9006d16" title="vlmax" alt="" coords="371,107,428,133"/>
+<area shape="rect" id="node8" href="math_8f.html#a2f379ce24032eb8832203bac8ef9f702" title="vlamax" alt="" coords="367,157,431,184"/>
+<area shape="rect" id="node11" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="374,208,425,235"/>
+<area shape="rect" id="node13" href="mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title="mxm_bgq_8" alt="" coords="353,259,446,285"/>
+<area shape="rect" id="node14" href="mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title="mxm_bgq_16" alt="" coords="349,309,449,336"/>
+<area shape="rect" id="node15" href="mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title="mxm_bgq_10" alt="" coords="349,360,449,387"/>
+<area shape="rect" id="node16" href="mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title="mxm_bgq_6" alt="" coords="353,411,446,437"/>
+<area shape="rect" id="node17" href="blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="367,461,432,488"/>
+<area shape="rect" id="node18" href="mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title="mxmf2" alt="" coords="368,512,431,539"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2ad8d8e00be8051bcb77d74b30ec73d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine fwght </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>)&#160;</td>
+          <td class="paramname"><em>msk1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1,<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>,<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>,1)&#160;</td>
+          <td class="paramname"><em>mult</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00525">525</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+
+<p>References <a class="el" href="gs_8c_source.html#l00011">gs_op</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_a2ad8d8e00be8051bcb77d74b30ec73d7_icgraph.png" border="0" usemap="#conduct_8f_a2ad8d8e00be8051bcb77d74b30ec73d7_icgraph" alt=""/></div>
+<map name="conduct_8f_a2ad8d8e00be8051bcb77d74b30ec73d7_icgraph" id="conduct_8f_a2ad8d8e00be8051bcb77d74b30ec73d7_icgraph">
+<area shape="rect" id="node2" href="conduct_8f.html#a486b5e058b61fd9efa731f698201a9fd" title="dg_setup2" alt="" coords="108,5,191,32"/>
+<area shape="rect" id="node3" href="conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="239,5,320,32"/>
+<area shape="rect" id="node4" href="conduct_8f.html#a74a7f053381975ed36df8ea959f3aa01" title="cdscal" alt="" coords="368,5,428,32"/>
 </map>
 </div>
 </p>
@@ -567,15 +745,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00306">306</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00302">302</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_acb622305abc4fe92c813db8b4f298459_cgraph.png" border="0" usemap="#conduct_8f_acb622305abc4fe92c813db8b4f298459_cgraph" alt=""/></div>
 <map name="conduct_8f_acb622305abc4fe92c813db8b4f298459_cgraph" id="conduct_8f_acb622305abc4fe92c813db8b4f298459_cgraph">
 <area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="116,5,167,32"/>
@@ -583,11 +761,11 @@ Functions/Subroutines</h2></td></tr>
 </div>
 </p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_acb622305abc4fe92c813db8b4f298459_icgraph.png" border="0" usemap="#conduct_8f_acb622305abc4fe92c813db8b4f298459_icgraph" alt=""/></div>
 <map name="conduct_8f_acb622305abc4fe92c813db8b4f298459_icgraph" id="conduct_8f_acb622305abc4fe92c813db8b4f298459_icgraph">
 <area shape="rect" id="node2" href="conduct_8f.html#a74a7f053381975ed36df8ea959f3aa01" title="cdscal" alt="" coords="255,81,315,108"/>
@@ -619,29 +797,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00236">236</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00238">238</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00902">add2s1()</a>, <a class="el" href="math_8f_source.html#l00952">add3s2()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
+<p>References <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_cgraph.png" border="0" usemap="#conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_cgraph" alt=""/></div>
-<map name="conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_cgraph" id="conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#aeeb6d3ca3e70266452bcf92e16cb317d" title="add2s1" alt="" coords="128,5,192,32"/>
-<area shape="rect" id="node3" href="math_8f.html#ac62ce88420771d0183fa4e9182f250dc" title="add3s2" alt="" coords="128,56,192,83"/>
-<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="135,107,185,133"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_icgraph.png" border="0" usemap="#conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_icgraph" alt=""/></div>
 <map name="conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_icgraph" id="conduct_8f_af506b06fb9a4d5ca07bf3dfc1d162a7b_icgraph">
 <area shape="rect" id="node2" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="128,49,189,76"/>
@@ -670,30 +834,27 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00263">263</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00262">262</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00830">add2()</a>, <a class="el" href="math_8f_source.html#l00878">addcol3()</a>, <a class="el" href="math_8f_source.html#l00470">cmult()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00878">addcol3()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_cgraph.png" border="0" usemap="#conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_cgraph" alt=""/></div>
 <map name="conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_cgraph" id="conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="136,5,187,32"/>
-<area shape="rect" id="node3" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="128,56,195,83"/>
-<area shape="rect" id="node4" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="134,107,189,133"/>
-<area shape="rect" id="node5" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="138,157,185,184"/>
+<area shape="rect" id="node2" href="math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="128,5,195,32"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_icgraph.png" border="0" usemap="#conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_icgraph" alt=""/></div>
 <map name="conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_icgraph" id="conduct_8f_a8c6cf1fcd7bccf5a42ee4c29c218a303_icgraph">
 <area shape="rect" id="node2" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="128,49,189,76"/>
@@ -724,34 +885,33 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Definition at line <a class="el" href="conduct_8f_source.html#l00119">119</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, and <a class="el" href="conduct_8f_source.html#l00143">setqvol()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="conduct_8f_source.html#l00142">setqvol()</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_cgraph.png" border="0" usemap="#conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_cgraph" alt=""/></div>
 <map name="conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_cgraph" id="conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_cgraph">
 <area shape="rect" id="node2" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="130,5,177,32"/>
-<area shape="rect" id="node3" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="128,56,179,83"/>
-<area shape="rect" id="node4" href="conduct_8f.html#af0e288fad495f966ca997a13837ba9f0" title="setqvol" alt="" coords="121,107,185,133"/>
-<area shape="rect" id="node5" href="conduct_8f.html#acb64f74e02714984eec1179c3293fbcc" title="nekuq" alt="" coords="233,107,291,133"/>
-<area shape="rect" id="node6" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="339,107,409,133"/>
+<area shape="rect" id="node3" href="conduct_8f.html#af0e288fad495f966ca997a13837ba9f0" title="setqvol" alt="" coords="121,56,185,83"/>
+<area shape="rect" id="node4" href="conduct_8f.html#acb64f74e02714984eec1179c3293fbcc" title="nekuq" alt="" coords="233,56,291,83"/>
+<area shape="rect" id="node5" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="339,56,409,83"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_icgraph.png" border="0" usemap="#conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_icgraph" alt=""/></div>
 <map name="conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_icgraph" id="conduct_8f_aa167d71e770cd729d61c955a42f4a2bd_icgraph">
 <area shape="rect" id="node2" href="induct_8f.html#a0f0eb9c29e64571293f094020bee8033" title="makebsource_mhd" alt="" coords="121,37,253,64"/>
 <area shape="rect" id="node5" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="143,100,232,127"/>
-<area shape="rect" id="node11" href="plan4_8f.html#a68de6875b6cda8e2bea83f4adf2929d6" title="qthermal_ig" alt="" coords="143,151,232,177"/>
+<area shape="rect" id="node11" href="plan4_8f.html#a2a58ef58c4513d56903b075defcf0314" title="userqtl_scig" alt="" coords="141,151,233,177"/>
 <area shape="rect" id="node3" href="induct_8f.html#aa44a44eb5a5e3f510211f8fd8e6b12b7" title="induct" alt="" coords="303,12,361,39"/>
 <area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="411,5,509,32"/>
 <area shape="rect" id="node6" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="301,107,363,133"/>
@@ -789,15 +949,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00184">184</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00183">183</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
 <p>References <a class="el" href="bdry_8f_source.html#l01155">nekasgn()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_acb64f74e02714984eec1179c3293fbcc_cgraph.png" border="0" usemap="#conduct_8f_acb64f74e02714984eec1179c3293fbcc_cgraph" alt=""/></div>
 <map name="conduct_8f_acb64f74e02714984eec1179c3293fbcc_cgraph" id="conduct_8f_acb64f74e02714984eec1179c3293fbcc_cgraph">
 <area shape="rect" id="node2" href="bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="111,5,181,32"/>
@@ -805,11 +965,11 @@ Functions/Subroutines</h2></td></tr>
 </div>
 </p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_acb64f74e02714984eec1179c3293fbcc_icgraph.png" border="0" usemap="#conduct_8f_acb64f74e02714984eec1179c3293fbcc_icgraph" alt=""/></div>
 <map name="conduct_8f_acb64f74e02714984eec1179c3293fbcc_icgraph" id="conduct_8f_acb64f74e02714984eec1179c3293fbcc_icgraph">
 <area shape="rect" id="node2" href="conduct_8f.html#af0e288fad495f966ca997a13837ba9f0" title="setqvol" alt="" coords="111,101,175,128"/>
@@ -817,7 +977,7 @@ Functions/Subroutines</h2></td></tr>
 <area shape="rect" id="node7" href="perturb_8f.html#ad879a2175a055817a256c88f2be2534d" title="makeuqp" alt="" coords="223,132,297,159"/>
 <area shape="rect" id="node4" href="induct_8f.html#a0f0eb9c29e64571293f094020bee8033" title="makebsource_mhd" alt="" coords="345,5,477,32"/>
 <area shape="rect" id="node5" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="367,56,456,83"/>
-<area shape="rect" id="node6" href="plan4_8f.html#a68de6875b6cda8e2bea83f4adf2929d6" title="qthermal_ig" alt="" coords="367,107,456,133"/>
+<area shape="rect" id="node6" href="plan4_8f.html#a2a58ef58c4513d56903b075defcf0314" title="userqtl_scig" alt="" coords="365,107,457,133"/>
 <area shape="rect" id="node8" href="perturb_8f.html#a634404bcd696013d358ddbe24423001f" title="makeqp" alt="" coords="377,157,445,184"/>
 </map>
 </div>
@@ -855,15 +1015,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00323">323</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00319">319</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="connect1_8f_source.html#l01260">checkit()</a>, <a class="el" href="math_8f_source.html#l01258">glmax()</a>, and <a class="el" href="math_8f_source.html#l01271">glmin()</a>.</p>
+<p>References <a class="el" href="connect1_8f_source.html#l01269">checkit()</a>, <a class="el" href="math_8f_source.html#l01258">glmax()</a>, and <a class="el" href="math_8f_source.html#l01271">glmin()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_a86927a08800066b42515b5114670e70e_cgraph.png" border="0" usemap="#conduct_8f_a86927a08800066b42515b5114670e70e_cgraph" alt=""/></div>
 <map name="conduct_8f_a86927a08800066b42515b5114670e70e_cgraph" id="conduct_8f_a86927a08800066b42515b5114670e70e_cgraph">
 <area shape="rect" id="node2" href="connect1_8f.html#a8a4dcc3f7565abe5cef25a25ec136bbd" title="checkit" alt="" coords="119,31,183,57"/>
@@ -875,6 +1035,51 @@ Functions/Subroutines</h2></td></tr>
 <area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="349,107,396,133"/>
 <area shape="rect" id="node8" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="473,145,552,172"/>
 <area shape="rect" id="node9" href="mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="321,208,424,235"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aebe110c38303924ea31c2bbeb4ff9955"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine set_eta_alpha2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00479">479</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+
+<p>References <a class="el" href="connect1_8f_source.html#l00559">dsset()</a>, and <a class="el" href="gs_8c_source.html#l00011">gs_op</a>.</p>
+
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_cgraph.png" border="0" usemap="#conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_cgraph" alt=""/></div>
+<map name="conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_cgraph" id="conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_cgraph">
+<area shape="rect" id="node2" href="connect1_8f.html#aa6d2ebf2dfdfeae458d41ef4cb6d9fae" title="dsset" alt="" coords="164,5,219,32"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_icgraph.png" border="0" usemap="#conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_icgraph" alt=""/></div>
+<map name="conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_icgraph" id="conduct_8f_aebe110c38303924ea31c2bbeb4ff9955_icgraph">
+<area shape="rect" id="node2" href="conduct_8f.html#a486b5e058b61fd9efa731f698201a9fd" title="dg_setup2" alt="" coords="164,5,247,32"/>
+<area shape="rect" id="node3" href="conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="295,5,376,32"/>
+<area shape="rect" id="node4" href="conduct_8f.html#a74a7f053381975ed36df8ea959f3aa01" title="cdscal" alt="" coords="424,5,484,32"/>
 </map>
 </div>
 </p>
@@ -895,15 +1100,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="conduct_8f_source.html#l00143">143</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
+<p>Definition at line <a class="el" href="conduct_8f_source.html#l00142">142</a> of file <a class="el" href="conduct_8f_source.html">conduct.f</a>.</p>
 
-<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="conduct_8f_source.html#l00184">nekuq()</a>.</p>
+<p>References <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>, and <a class="el" href="conduct_8f_source.html#l00183">nekuq()</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_af0e288fad495f966ca997a13837ba9f0_cgraph.png" border="0" usemap="#conduct_8f_af0e288fad495f966ca997a13837ba9f0_cgraph" alt=""/></div>
 <map name="conduct_8f_af0e288fad495f966ca997a13837ba9f0_cgraph" id="conduct_8f_af0e288fad495f966ca997a13837ba9f0_cgraph">
 <area shape="rect" id="node2" href="conduct_8f.html#acb64f74e02714984eec1179c3293fbcc" title="nekuq" alt="" coords="117,5,175,32"/>
@@ -912,18 +1117,18 @@ Functions/Subroutines</h2></td></tr>
 </div>
 </p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="conduct_8f_af0e288fad495f966ca997a13837ba9f0_icgraph.png" border="0" usemap="#conduct_8f_af0e288fad495f966ca997a13837ba9f0_icgraph" alt=""/></div>
 <map name="conduct_8f_af0e288fad495f966ca997a13837ba9f0_icgraph" id="conduct_8f_af0e288fad495f966ca997a13837ba9f0_icgraph">
 <area shape="rect" id="node2" href="conduct_8f.html#aa167d71e770cd729d61c955a42f4a2bd" title="makeuq" alt="" coords="121,69,189,96"/>
 <area shape="rect" id="node8" href="perturb_8f.html#ad879a2175a055817a256c88f2be2534d" title="makeuqp" alt="" coords="117,145,192,172"/>
 <area shape="rect" id="node3" href="induct_8f.html#a0f0eb9c29e64571293f094020bee8033" title="makebsource_mhd" alt="" coords="240,5,372,32"/>
 <area shape="rect" id="node5" href="makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="261,56,351,83"/>
-<area shape="rect" id="node7" href="plan4_8f.html#a68de6875b6cda8e2bea83f4adf2929d6" title="qthermal_ig" alt="" coords="261,107,351,133"/>
+<area shape="rect" id="node7" href="plan4_8f.html#a2a58ef58c4513d56903b075defcf0314" title="userqtl_scig" alt="" coords="260,107,352,133"/>
 <area shape="rect" id="node4" href="induct_8f.html#aa44a44eb5a5e3f510211f8fd8e6b12b7" title="induct" alt="" coords="425,5,482,32"/>
 <area shape="rect" id="node6" href="makeq_8f.html#aad7ee07cd8b6df77d80fd1f50bfb5322" title="makeq" alt="" coords="423,56,484,83"/>
 <area shape="rect" id="node9" href="perturb_8f.html#a634404bcd696013d358ddbe24423001f" title="makeqp" alt="" coords="272,157,340,184"/>
@@ -940,7 +1145,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="conduct_8f.html">conduct.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

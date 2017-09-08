@@ -211,7 +211,7 @@ Functions</h2></td></tr>
 <li>Nek5000 number of include files;</li>
 </ol>
 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Finish parameter dependency</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Finish parameter dependency</dd></dl>
 <dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">&amp;tstepper</div><div class="line"> tstmode=          1,</div><div class="line"> tststep=         40,</div><div class="line"> tstcmax=        200,</div><div class="line"> tsttol=  1.0000000000000000e-06 ,</div><div class="line"> tstifuzawa=t,</div><div class="line"> /</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga807771faae88aaf61d75b90d639b4ba6"></a>
@@ -251,7 +251,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node6" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="711,298,777,324"/>
 <area shape="rect" id="node7" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="695,348,793,375"/>
 <area shape="rect" id="node8" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="699,399,789,426"/>
-<area shape="rect" id="node9" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="705,450,783,476"/>
+<area shape="rect" id="node9" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="699,450,789,476"/>
 <area shape="rect" id="node10" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="705,500,783,527"/>
 <area shape="rect" id="node12" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="458,348,541,375"/>
 <area shape="rect" id="node13" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="598,298,645,324"/>
@@ -379,7 +379,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="time__stepper_8f_source.html#l00136">136</a> of file <a class="el" href="time__stepper_8f_source.html">time_stepper.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, and <a class="el" href="arnoldi__arpack_8f_source.html#l00106">stepper_vinit()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="math_8f_source.html#l00370">rzero()</a>, and <a class="el" href="arnoldi__arpack_8f_source.html#l00106">stepper_vinit()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -396,7 +396,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node6" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="573,107,640,133"/>
 <area shape="rect" id="node7" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="557,157,656,184"/>
 <area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="561,208,652,235"/>
-<area shape="rect" id="node12" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="567,259,646,285"/>
+<area shape="rect" id="node12" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="562,259,651,285"/>
 <area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="567,5,646,32"/>
 <area shape="rect" id="node5" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="719,56,804,83"/>
 <area shape="rect" id="node8" href="math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="733,107,789,133"/>
@@ -453,12 +453,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in runprm_in </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>readers_writers_page </dd></dl>
 
 <p>Definition at line <a class="el" href="time__stepper_8f_source.html#l00017">17</a> of file <a class="el" href="time__stepper_8f_source.html">time_stepper.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, and <a class="el" href="arnoldi__arpack_8f_source.html#l00022">stepper_param_in()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, and <a class="el" href="arnoldi__arpack_8f_source.html#l00022">stepper_param_in()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -481,7 +481,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="784,132,851,159"/>
 <area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="768,183,867,209"/>
 <area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="772,233,863,260"/>
-<area shape="rect" id="node13" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="778,284,857,311"/>
+<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="773,284,862,311"/>
 <area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="778,335,857,361"/>
 <area shape="rect" id="node16" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="579,208,625,235"/>
 </map>
@@ -516,7 +516,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="time__stepper_8f_source.html#l00080">80</a> of file <a class="el" href="time__stepper_8f_source.html">time_stepper.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, and <a class="el" href="arnoldi__arpack_8f_source.html#l00078">stepper_param_out()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, and <a class="el" href="arnoldi__arpack_8f_source.html#l00078">stepper_param_out()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -537,7 +537,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="781,107,848,133"/>
 <area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="765,157,864,184"/>
 <area shape="rect" id="node10" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="769,208,860,235"/>
-<area shape="rect" id="node11" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="775,259,854,285"/>
+<area shape="rect" id="node11" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="770,259,859,285"/>
 <area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="775,309,854,336"/>
 <area shape="rect" id="node14" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="576,183,623,209"/>
 </map>
@@ -612,7 +612,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:22 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -112,6 +112,9 @@ $(document).ready(function(){initNavTree('step_8f.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>time stepping and mesh spacing routines  
+<a href="#details">More...</a></p>
+
 <p><a href="step_8f_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -122,8 +125,159 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:ac6c3e476ccf64918db5879cc3078847d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b5ee2daf5c645627c0bfa9d89591d54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a> function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="step_8f.html#a7b5ee2daf5c645627c0bfa9d89591d54">dist2</a> (x1, y1, x2, y2)</td></tr>
 <tr class="separator:a7b5ee2daf5c645627c0bfa9d89591d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b53ec0abcf4891f6ed2580c004e1260"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="step_8f.html#a8b53ec0abcf4891f6ed2580c004e1260">compute_grid_h</a> (h, <a class="el" href="spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b">x</a>, y, z)</td></tr>
+<tr class="separator:a8b53ec0abcf4891f6ed2580c004e1260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf204694af344054555925065ba3e7e5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="step_8f.html#acf204694af344054555925065ba3e7e5">glinvcol2max</a> (col2m, a, b, <a class="el" href="gen__poly__imp_8c.html#a8cb3559d5998b7434038599d3656b02c">n</a>, s)</td></tr>
+<tr class="separator:acf204694af344054555925065ba3e7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1036e181fb73dc698c2bebd20e1d205b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="step_8f.html#a1036e181fb73dc698c2bebd20e1d205b">glsqinvcolmin</a> (col2m, a, b, <a class="el" href="gen__poly__imp_8c.html#a8cb3559d5998b7434038599d3656b02c">n</a>, s)</td></tr>
+<tr class="separator:a1036e181fb73dc698c2bebd20e1d205b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6f5326ef92206ed5db09f28221eec1"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="step_8f.html#a1c6f5326ef92206ed5db09f28221eec1">compute_mesh_h</a> (h, <a class="el" href="spchol__test_8c.html#a6c4b361d72eb3767ba424ac9a6ecf52b">x</a>, y, z)</td></tr>
+<tr class="separator:a1c6f5326ef92206ed5db09f28221eec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>time stepping and mesh spacing routines </p>
+
+<p>Definition in file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a class="anchor" id="a8b53ec0abcf4891f6ed2580c004e1260"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine compute_grid_h </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="step_8f_source.html#l00159">159</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+
+<p>References <a class="el" href="genxyz_8f_source.html#l00899">cross()</a>, and <a class="el" href="genxyz_8f_source.html#l00885">dot()</a>.</p>
+
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_a8b53ec0abcf4891f6ed2580c004e1260_cgraph.png" border="0" usemap="#step_8f_a8b53ec0abcf4891f6ed2580c004e1260_cgraph" alt=""/></div>
+<map name="step_8f_a8b53ec0abcf4891f6ed2580c004e1260_cgraph" id="step_8f_a8b53ec0abcf4891f6ed2580c004e1260_cgraph">
+<area shape="rect" id="node2" href="genxyz_8f.html#abaf230ec04e873e9768e7ea62dc6b1a0" title="cross" alt="" coords="168,5,223,32"/>
+<area shape="rect" id="node3" href="genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="175,56,215,83"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_a8b53ec0abcf4891f6ed2580c004e1260_icgraph.png" border="0" usemap="#step_8f_a8b53ec0abcf4891f6ed2580c004e1260_icgraph" alt=""/></div>
+<map name="step_8f_a8b53ec0abcf4891f6ed2580c004e1260_icgraph" id="step_8f_a8b53ec0abcf4891f6ed2580c004e1260_icgraph">
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="359,5,487,32"/>
+<area shape="rect" id="node5" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="168,31,311,57"/>
+<area shape="rect" id="node3" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="535,5,633,32"/>
+<area shape="rect" id="node4" href="drive1_8f.html#a18d3e839786263fc4cf91f7eeb714371" title="nek__multi_advance" alt="" coords="681,5,823,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c6f5326ef92206ed5db09f28221eec1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine compute_mesh_h </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nelt)&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(nx1,ny1,nz1,nelt)&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="step_8f_source.html#l00286">286</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+
+<p>References <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_a1c6f5326ef92206ed5db09f28221eec1_cgraph.png" border="0" usemap="#step_8f_a1c6f5326ef92206ed5db09f28221eec1_cgraph" alt=""/></div>
+<map name="step_8f_a1c6f5326ef92206ed5db09f28221eec1_cgraph" id="step_8f_a1c6f5326ef92206ed5db09f28221eec1_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="179,5,229,32"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_a1c6f5326ef92206ed5db09f28221eec1_icgraph.png" border="0" usemap="#step_8f_a1c6f5326ef92206ed5db09f28221eec1_icgraph" alt=""/></div>
+<map name="step_8f_a1c6f5326ef92206ed5db09f28221eec1_icgraph" id="step_8f_a1c6f5326ef92206ed5db09f28221eec1_icgraph">
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="369,5,497,32"/>
+<area shape="rect" id="node5" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="179,31,321,57"/>
+<area shape="rect" id="node3" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="545,5,644,32"/>
+<area shape="rect" id="node4" href="drive1_8f.html#a18d3e839786263fc4cf91f7eeb714371" title="nek__multi_advance" alt="" coords="692,5,833,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a7b5ee2daf5c645627c0bfa9d89591d54"></a>
 <div class="memitem">
 <div class="memproto">
@@ -160,20 +314,178 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="step_8f_source.html#l00126">126</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+<p>Definition at line <a class="el" href="step_8f_source.html#l00147">147</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
 
-<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="step_8f_a7b5ee2daf5c645627c0bfa9d89591d54_icgraph.png" border="0" usemap="#step_8f_a7b5ee2daf5c645627c0bfa9d89591d54_icgraph" alt=""/></div>
 <map name="step_8f_a7b5ee2daf5c645627c0bfa9d89591d54_icgraph" id="step_8f_a7b5ee2daf5c645627c0bfa9d89591d54_icgraph">
-<area shape="rect" id="node2" href="step_8f.html#ac6c3e476ccf64918db5879cc3078847d" title="mindr" alt="" coords="124,5,179,32"/>
-<area shape="rect" id="node5" href="findpts__imp_8h.html#a987ae970d6aa9d32e9332c68c45bab52" title="findpts" alt="" coords="121,56,182,83"/>
-<area shape="rect" id="node6" href="findpts__local__imp_8h.html#ae2d97b0294a813016fca2df95e2258b3" title="findpts_local" alt="" coords="104,107,199,133"/>
-<area shape="rect" id="node3" href="step_8f.html#aef8ae89f8ba871aeeec3e23341ffb99d" title="setdtcmt" alt="" coords="247,5,320,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="368,5,511,32"/>
+<area shape="rect" id="node2" href="findpts__imp_8h.html#a987ae970d6aa9d32e9332c68c45bab52" title="findpts" alt="" coords="121,5,182,32"/>
+<area shape="rect" id="node3" href="findpts__local__imp_8h.html#ae2d97b0294a813016fca2df95e2258b3" title="findpts_local" alt="" coords="104,56,199,83"/>
+<area shape="rect" id="node4" href="step_8f.html#ac6c3e476ccf64918db5879cc3078847d" title="mindr" alt="" coords="124,107,179,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acf204694af344054555925065ba3e7e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine glinvcol2max </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>col2m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(*)&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(*)&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="step_8f_source.html#l00258">258</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+
+<p>References <a class="el" href="math_8f_source.html#l01172">glamax()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_acf204694af344054555925065ba3e7e5_cgraph.png" border="0" usemap="#step_8f_acf204694af344054555925065ba3e7e5_cgraph" alt=""/></div>
+<map name="step_8f_acf204694af344054555925065ba3e7e5_cgraph" id="step_8f_acf204694af344054555925065ba3e7e5_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#ad52d460588be4ef01891806b14c0ecda" title="glamax" alt="" coords="152,84,216,111"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="264,84,307,111"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="507,8,585,35"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="505,84,587,111"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="355,84,457,111"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="383,33,429,60"/>
+<area shape="rect" id="node8" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="381,185,431,212"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_acf204694af344054555925065ba3e7e5_icgraph.png" border="0" usemap="#step_8f_acf204694af344054555925065ba3e7e5_icgraph" alt=""/></div>
+<map name="step_8f_acf204694af344054555925065ba3e7e5_icgraph" id="step_8f_acf204694af344054555925065ba3e7e5_icgraph">
+<area shape="rect" id="node2" href="step_8f.html#aef8ae89f8ba871aeeec3e23341ffb99d" title="setdtcmt" alt="" coords="152,5,225,32"/>
+<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="273,5,416,32"/>
+<area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="464,5,592,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1036e181fb73dc698c2bebd20e1d205b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine glsqinvcolmin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>col2m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(*)&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(*)&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="step_8f_source.html#l00272">272</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+
+<p>References <a class="el" href="math_8f_source.html#l01185">glamin()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, and <a class="el" href="gen__poly__imp_8c_source.html#l00066">n</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_a1036e181fb73dc698c2bebd20e1d205b_cgraph.png" border="0" usemap="#step_8f_a1036e181fb73dc698c2bebd20e1d205b_cgraph" alt=""/></div>
+<map name="step_8f_a1036e181fb73dc698c2bebd20e1d205b_cgraph" id="step_8f_a1036e181fb73dc698c2bebd20e1d205b_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a43f9a02e3703b5b2858f5b1b9c602566" title="glamin" alt="" coords="155,84,215,111"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="263,84,305,111"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="505,8,584,35"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="504,84,585,111"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="353,84,456,111"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="381,33,428,60"/>
+<area shape="rect" id="node8" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="379,185,430,212"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="step_8f_a1036e181fb73dc698c2bebd20e1d205b_icgraph.png" border="0" usemap="#step_8f_a1036e181fb73dc698c2bebd20e1d205b_icgraph" alt=""/></div>
+<map name="step_8f_a1036e181fb73dc698c2bebd20e1d205b_icgraph" id="step_8f_a1036e181fb73dc698c2bebd20e1d205b_icgraph">
+<area shape="rect" id="node2" href="step_8f.html#aef8ae89f8ba871aeeec3e23341ffb99d" title="setdtcmt" alt="" coords="155,5,228,32"/>
+<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="276,5,419,32"/>
+<area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="467,5,595,32"/>
 </map>
 </div>
 </p>
@@ -204,15 +516,15 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="step_8f_source.html#l00068">68</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+<p>Definition at line <a class="el" href="step_8f_source.html#l00089">89</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
 
-<p>References <a class="el" href="step_8f_source.html#l00126">dist2()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="math_8f_source.html#l01258">glmax()</a>, and <a class="el" href="math_8f_source.html#l01271">glmin()</a>.</p>
+<p>References <a class="el" href="step_8f_source.html#l00147">dist2()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="math_8f_source.html#l01258">glmax()</a>, and <a class="el" href="math_8f_source.html#l01271">glmin()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="step_8f_ac6c3e476ccf64918db5879cc3078847d_cgraph.png" border="0" usemap="#step_8f_ac6c3e476ccf64918db5879cc3078847d_cgraph" alt=""/></div>
 <map name="step_8f_ac6c3e476ccf64918db5879cc3078847d_cgraph" id="step_8f_ac6c3e476ccf64918db5879cc3078847d_cgraph">
 <area shape="rect" id="node2" href="step_8f.html#a7b5ee2daf5c645627c0bfa9d89591d54" title="dist2" alt="" coords="111,107,162,133"/>
@@ -224,7 +536,7 @@ Functions/Subroutines</h2></td></tr>
 <area shape="rect" id="node7" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="471,107,537,133"/>
 <area shape="rect" id="node8" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="455,157,553,184"/>
 <area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="459,208,549,235"/>
-<area shape="rect" id="node13" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="465,5,543,32"/>
+<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="459,5,549,32"/>
 <area shape="rect" id="node15" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="465,259,543,285"/>
 <area shape="rect" id="node6" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="616,309,701,336"/>
 <area shape="rect" id="node9" href="multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="608,157,709,184"/>
@@ -235,20 +547,6 @@ Functions/Subroutines</h2></td></tr>
 <area shape="rect" id="node18" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="213,259,256,285"/>
 <area shape="rect" id="node19" href="mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="304,259,407,285"/>
 <area shape="rect" id="node20" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="330,360,381,387"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="step_8f_ac6c3e476ccf64918db5879cc3078847d_icgraph.png" border="0" usemap="#step_8f_ac6c3e476ccf64918db5879cc3078847d_icgraph" alt=""/></div>
-<map name="step_8f_ac6c3e476ccf64918db5879cc3078847d_icgraph" id="step_8f_ac6c3e476ccf64918db5879cc3078847d_icgraph">
-<area shape="rect" id="node2" href="step_8f.html#aef8ae89f8ba871aeeec3e23341ffb99d" title="setdtcmt" alt="" coords="108,5,181,32"/>
-<area shape="rect" id="node3" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="229,5,372,32"/>
-<area shape="rect" id="node4" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="420,5,548,32"/>
 </map>
 </div>
 </p>
@@ -268,50 +566,39 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="step_8f_source.html#l00002">2</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
+<p>Definition at line <a class="el" href="step_8f_source.html#l00003">3</a> of file <a class="el" href="step_8f_source.html">step.f</a>.</p>
 
-<p>References <a class="el" href="subs1_8f_source.html#l00675">cumax()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, and <a class="el" href="step_8f_source.html#l00068">mindr()</a>.</p>
+<p>References <a class="el" href="induct_8f_source.html#l00919">compute_cfl()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="step_8f_source.html#l00258">glinvcol2max()</a>, <a class="el" href="step_8f_source.html#l00272">glsqinvcolmin()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, and <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_cgraph.png" border="0" usemap="#step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_cgraph" alt=""/></div>
 <map name="step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_cgraph" id="step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_cgraph">
-<area shape="rect" id="node2" href="subs1_8f.html#ac5a99c27d3ffe24a47e4b8dc21e2502a" title="cumax" alt="" coords="127,309,188,336"/>
-<area shape="rect" id="node20" href="step_8f.html#ac6c3e476ccf64918db5879cc3078847d" title="mindr" alt="" coords="130,537,185,564"/>
-<area shape="rect" id="node3" href="coef_8f.html#a82cf1663c9a821049d0aad836343591a" title="xyzrst" alt="" coords="236,81,295,108"/>
-<area shape="rect" id="node8" href="bdry_8f.html#ad5ba3cc7aa2e469bf6fefd0deaf3517a" title="rzero3" alt="" coords="236,132,295,159"/>
-<area shape="rect" id="node9" href="math_8f.html#a64ef70b7a7c5c88813f82b60527b7485" title="vdot2" alt="" coords="238,183,293,209"/>
-<area shape="rect" id="node11" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="242,284,289,311"/>
-<area shape="rect" id="node12" href="math_8f.html#a899951882563cd8e43e3184708ab818a" title="vsqrt" alt="" coords="240,335,291,361"/>
-<area shape="rect" id="node13" href="math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="459,405,521,432"/>
-<area shape="rect" id="node15" href="math_8f.html#af1b95db3cc8ee10635deec9d7c241e82" title="vdot3" alt="" coords="238,233,293,260"/>
-<area shape="rect" id="node16" href="math_8f.html#a3a4077924e14ce175a0d9991f9006d16" title="vlmax" alt="" coords="237,436,294,463"/>
-<area shape="rect" id="node17" href="math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="237,487,294,513"/>
-<area shape="rect" id="node4" href="subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="343,5,411,32"/>
-<area shape="rect" id="node5" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="351,56,402,83"/>
-<area shape="rect" id="node6" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="351,107,402,133"/>
-<area shape="rect" id="node7" href="math_8f.html#ae1294c8ac3b5b3c38bbcc250d252b9cb" title="rone" alt="" coords="353,157,400,184"/>
-<area shape="rect" id="node10" href="genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="357,221,397,248"/>
-<area shape="rect" id="node14" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="569,493,651,520"/>
-<area shape="rect" id="node18" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="355,512,398,539"/>
-<area shape="rect" id="node19" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="467,544,513,571"/>
-<area shape="rect" id="node21" href="step_8f.html#a7b5ee2daf5c645627c0bfa9d89591d54" title="dist2" alt="" coords="240,639,291,665"/>
-<area shape="rect" id="node22" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="239,537,292,564"/>
+<area shape="rect" id="node2" href="induct_8f.html#ad9f4f0bccae8f16bc99748c359b489db" title="compute_cfl" alt="" coords="131,56,224,83"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="499,171,545,197"/>
+<area shape="rect" id="node8" href="step_8f.html#acf204694af344054555925065ba3e7e5" title="glinvcol2max" alt="" coords="128,107,227,133"/>
+<area shape="rect" id="node10" href="step_8f.html#a1036e181fb73dc698c2bebd20e1d205b" title="glsqinvcolmin" alt="" coords="127,157,228,184"/>
+<area shape="rect" id="node3" href="induct_8f.html#a4a4dfee71db47c3a19014e78f9a3b4b1" title="getdr" alt="" coords="283,5,333,32"/>
+<area shape="rect" id="node5" href="math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="279,56,337,83"/>
+<area shape="rect" id="node4" href="math_8f.html#ae73fec4554ac4d498b4de4e092fb32fa" title="invcol1" alt="" coords="388,5,451,32"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="398,132,441,159"/>
+<area shape="rect" id="node9" href="math_8f.html#ad52d460588be4ef01891806b14c0ecda" title="glamax" alt="" coords="276,107,340,133"/>
+<area shape="rect" id="node11" href="math_8f.html#a43f9a02e3703b5b2858f5b1b9c602566" title="glamin" alt="" coords="278,157,338,184"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_icgraph.png" border="0" usemap="#step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_icgraph" alt=""/></div>
 <map name="step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_icgraph" id="step_8f_aef8ae89f8ba871aeeec3e23341ffb99d_icgraph">
-<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="127,5,269,32"/>
+<area shape="rect" id="node2" href="drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="127,5,269,32"/>
 <area shape="rect" id="node3" href="drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="317,5,445,32"/>
 <area shape="rect" id="node4" href="drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="493,5,592,32"/>
 </map>
@@ -326,7 +613,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_890cbfca5a2c984a656da990ef30c73b.html">Nek5000</a></li><li class="navelem"><a class="el" href="dir_1999eedc5e1ce7f33acf9efaf621aabd.html">core</a></li><li class="navelem"><a class="el" href="dir_25fa35c9496d3fdc97d9c02590187c2e.html">cmt</a></li><li class="navelem"><a class="el" href="step_8f.html">step.f</a></li>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:34 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:20 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

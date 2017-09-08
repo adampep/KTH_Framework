@@ -187,7 +187,7 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Arnoldi algorithm with PARPACK. </p>
 <dl class="section warning"><dt>Warning</dt><dd>This module is not upgraded to stable Nek5000 relese yet</dd></dl>
-<p>Description of the method can be found in <a class="el" href="citelist.html#CITEREF_Peplinski2014">[1]</a> <a class="el" href="citelist.html#CITEREF_Peplinski2015">[2]</a></p>
+<p>Description of the method can be found in <a class="el" href="citelist.html#CITEREF_Peplinski2014">[2]</a> <a class="el" href="citelist.html#CITEREF_Peplinski2015">[3]</a></p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
 <dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000008">Global interface list:</a></b></dt><dd>Interface provided to tstepper:<ul>
 <li>stepper_param_in</li>
@@ -245,7 +245,7 @@ Functions</h2></td></tr>
 <p>Inverse mode is preferred as it takes into account inner product Simulation with temperature or passive scalars has to be performed in inverse mode due to speciffic inner product.</p>
 <p><em>ARPACK_DIRECT</em> preprocessing switch between direct and inverse mode.</p>
 <dl class="section attention"><dt>Attention</dt><dd>This submodule has its own checkpointing routines.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>This submodule contains binary tar file with modified (restart added) version of PARPACK. This binary file in git is not good idea. Repalce with separate repository for Parpack added by sub.module.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>This submodule contains binary tar file with modified (restart added) version of PARPACK. This binary file in git is not good idea. Repalce with separate repository for Parpack added by sub.module.</dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga6e2500fe6c297e1616d83a0601eaaffe"></a>
 <div class="memitem">
@@ -297,7 +297,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00387">387</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>, and <a class="el" href="prepost_8f_source.html#l01943">outpost2()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>, and <a class="el" href="prepost_8f_source.html#l01399">outpost2()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -306,28 +306,26 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph" id="group__arnoldi__arpack_ga2b3b1486ed5812db2dd8f7a8e78642aa_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="547,625,598,652"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="540,195,605,221"/>
-<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="860,144,907,171"/>
-<area shape="rect" id="node17" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="139,347,233,373"/>
-<area shape="rect" id="node18" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="150,296,222,323"/>
-<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="659,296,712,323"/>
-<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="653,245,717,272"/>
-<area shape="rect" id="node14" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="655,144,715,171"/>
-<area shape="rect" id="node16" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="659,195,712,221"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="962,119,1046,145"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="963,499,1045,525"/>
-<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="971,169,1037,196"/>
-<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="955,220,1053,247"/>
-<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="959,17,1049,44"/>
-<area shape="rect" id="node12" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="965,68,1043,95"/>
-<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="965,347,1043,373"/>
-<area shape="rect" id="node15" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="765,144,812,171"/>
-<area shape="rect" id="node19" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="281,423,347,449"/>
-<area shape="rect" id="node20" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="422,423,465,449"/>
-<area shape="rect" id="node21" href="prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="416,296,471,323"/>
-<area shape="rect" id="node22" href="prepost_8f.html#aa744b6bf02ba449c6084ad4d0f878af7" title="outhis" alt="" coords="415,473,472,500"/>
-<area shape="rect" id="node23" href="prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="395,575,492,601"/>
+<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="547,5,598,32"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="540,284,605,311"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="860,376,907,403"/>
+<area shape="rect" id="node17" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="139,537,233,564"/>
+<area shape="rect" id="node18" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="150,259,222,285"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="659,183,712,209"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="653,233,717,260"/>
+<area shape="rect" id="node14" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="655,385,715,412"/>
+<area shape="rect" id="node16" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="659,284,712,311"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="962,300,1046,327"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="963,92,1045,119"/>
+<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="971,351,1037,377"/>
+<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="955,401,1053,428"/>
+<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="959,452,1049,479"/>
+<area shape="rect" id="node12" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="959,249,1049,276"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="965,161,1043,188"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="765,385,812,412"/>
+<area shape="rect" id="node19" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="281,132,347,159"/>
+<area shape="rect" id="node20" href="prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="416,171,471,197"/>
+<area shape="rect" id="node21" href="prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="395,56,492,83"/>
 </map>
 </div>
 </p>
@@ -365,7 +363,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00571">571</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, and <a class="el" href="time__stepper_8f_source.html#l00485">tstpr_dssum()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00771">col2()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, and <a class="el" href="time__stepper_8f_source.html#l00485">tstpr_dssum()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -384,7 +382,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="555,183,621,209"/>
 <area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="539,233,637,260"/>
 <area shape="rect" id="node14" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="543,284,633,311"/>
-<area shape="rect" id="node15" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="549,335,627,361"/>
+<area shape="rect" id="node15" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="543,335,633,361"/>
 <area shape="rect" id="node17" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="549,31,627,57"/>
 <area shape="rect" id="node8" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="700,81,785,108"/>
 <area shape="rect" id="node11" href="math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="715,233,771,260"/>
@@ -443,7 +441,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00217">217</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00149">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">mfi_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">mfi_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00410">nekgsync()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -452,26 +450,25 @@ Functions</h2></td></tr>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph" id="group__arnoldi__arpack_ga91e84f4e737b0c56c0ed99267e636d1a_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="189,56,243,83"/>
-<area shape="rect" id="node4" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="183,183,249,209"/>
-<area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="659,404,738,431"/>
-<area shape="rect" id="node18" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="151,309,281,336"/>
-<area shape="rect" id="node19" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="164,360,268,387"/>
-<area shape="rect" id="node20" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="180,259,252,285"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="329,5,412,32"/>
-<area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="344,259,397,285"/>
-<area shape="rect" id="node6" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="339,107,403,133"/>
-<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="555,240,601,267"/>
-<area shape="rect" id="node15" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="341,208,401,235"/>
-<area shape="rect" id="node17" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="344,56,397,83"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="657,139,741,165"/>
-<area shape="rect" id="node9" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="658,189,739,216"/>
-<area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="665,240,732,267"/>
-<area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="649,291,748,317"/>
-<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="653,341,744,368"/>
-<area shape="rect" id="node13" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="659,88,738,115"/>
-<area shape="rect" id="node16" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="460,215,507,241"/>
-<area shape="rect" id="node21" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="345,360,396,387"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="175,56,230,83"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="170,183,235,209"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="633,404,711,431"/>
+<area shape="rect" id="node18" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="151,335,255,361"/>
+<area shape="rect" id="node19" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="167,284,239,311"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="303,5,385,32"/>
+<area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="317,259,371,285"/>
+<area shape="rect" id="node6" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="312,107,376,133"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="528,240,575,267"/>
+<area shape="rect" id="node15" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="314,208,374,235"/>
+<area shape="rect" id="node17" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="317,56,371,83"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="630,139,714,165"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="631,189,713,216"/>
+<area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="639,240,705,267"/>
+<area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="623,291,721,317"/>
+<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="627,341,717,368"/>
+<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="627,88,717,115"/>
+<area shape="rect" id="node16" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="433,215,480,241"/>
+<area shape="rect" id="node20" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="319,360,369,387"/>
 </map>
 </div>
 </p>
@@ -518,32 +515,32 @@ Functions</h2></td></tr>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph" id="group__arnoldi__arpack_ga95c6aaff799d6143f108a4455ff1ad36_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="276,195,373,221"/>
-<area shape="rect" id="node16" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="148,296,220,323"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="639,296,693,323"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="633,499,699,525"/>
-<area shape="rect" id="node9" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="903,245,981,272"/>
-<area shape="rect" id="node12" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="429,93,560,120"/>
-<area shape="rect" id="node13" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="443,245,547,272"/>
-<area shape="rect" id="node14" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="459,144,531,171"/>
-<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="772,296,855,323"/>
-<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="787,549,840,576"/>
-<area shape="rect" id="node7" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="781,676,845,703"/>
-<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="790,600,837,627"/>
-<area shape="rect" id="node10" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="783,499,843,525"/>
-<area shape="rect" id="node11" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="787,777,840,804"/>
-<area shape="rect" id="node15" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="641,195,691,221"/>
-<area shape="rect" id="node17" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="449,549,540,576"/>
-<area shape="rect" id="node24" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="281,347,369,373"/>
-<area shape="rect" id="node27" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="268,245,381,272"/>
-<area shape="rect" id="node18" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="613,347,719,373"/>
-<area shape="rect" id="node19" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="613,752,719,779"/>
-<area shape="rect" id="node20" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="608,651,724,677"/>
-<area shape="rect" id="node21" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="636,397,696,424"/>
-<area shape="rect" id="node22" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="619,803,713,829"/>
-<area shape="rect" id="node23" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="614,701,718,728"/>
-<area shape="rect" id="node25" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="459,347,531,373"/>
-<area shape="rect" id="node26" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="459,397,531,424"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="276,686,373,712"/>
+<area shape="rect" id="node15" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="148,531,220,558"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="612,556,667,583"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="607,455,672,482"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="988,658,1067,684"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="429,658,533,684"/>
+<area shape="rect" id="node13" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="445,759,517,786"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="745,607,828,634"/>
+<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="881,303,935,330"/>
+<area shape="rect" id="node7" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="876,100,940,127"/>
+<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="885,506,931,532"/>
+<area shape="rect" id="node10" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="757,455,817,482"/>
+<area shape="rect" id="node11" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="881,151,935,178"/>
+<area shape="rect" id="node14" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="614,658,665,684"/>
+<area shape="rect" id="node16" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="436,278,527,304"/>
+<area shape="rect" id="node24" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="281,531,369,558"/>
+<area shape="rect" id="node27" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="268,132,381,159"/>
+<area shape="rect" id="node17" href="ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title="addfid" alt="" coords="758,50,815,76"/>
+<area shape="rect" id="node18" href="byte__mpi_8f.html#a0e8afd7bb43c632b4f370196cb302c65" title="byte_open_mpi" alt="" coords="584,100,695,127"/>
+<area shape="rect" id="node20" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="586,404,693,431"/>
+<area shape="rect" id="node21" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="586,252,693,279"/>
+<area shape="rect" id="node22" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="581,151,697,178"/>
+<area shape="rect" id="node23" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="587,202,691,228"/>
+<area shape="rect" id="node19" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="761,151,812,178"/>
+<area shape="rect" id="node25" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="445,506,517,532"/>
+<area shape="rect" id="node26" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="445,556,517,583"/>
 </map>
 </div>
 </p>
@@ -590,34 +587,30 @@ Functions</h2></td></tr>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph" id="group__arnoldi__arpack_ga4796afc64a05aa2bc2acf6e6ab5b8caf_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="281,791,381,817"/>
-<area shape="rect" id="node15" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="151,512,227,539"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="932,563,1011,589"/>
-<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="449,765,553,792"/>
-<area shape="rect" id="node6" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="436,816,567,843"/>
-<area shape="rect" id="node7" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="463,867,539,893"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="637,309,703,336"/>
-<area shape="rect" id="node4" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="1059,563,1145,589"/>
-<area shape="rect" id="node8" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="802,411,855,437"/>
-<area shape="rect" id="node9" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="645,917,695,944"/>
-<area shape="rect" id="node11" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="797,208,861,235"/>
-<area shape="rect" id="node12" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="805,563,852,589"/>
-<area shape="rect" id="node13" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="799,309,859,336"/>
-<area shape="rect" id="node14" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="802,157,855,184"/>
-<area shape="rect" id="node16" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="623,132,717,159"/>
-<area shape="rect" id="node20" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="449,461,553,488"/>
-<area shape="rect" id="node26" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="285,613,377,640"/>
-<area shape="rect" id="node29" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="275,461,388,488"/>
-<area shape="rect" id="node17" href="byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="773,5,884,32"/>
-<area shape="rect" id="node18" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="803,56,854,83"/>
-<area shape="rect" id="node19" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="801,107,856,133"/>
-<area shape="rect" id="node21" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="617,461,723,488"/>
-<area shape="rect" id="node22" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="615,664,725,691"/>
-<area shape="rect" id="node23" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="643,613,697,640"/>
-<area shape="rect" id="node24" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="641,715,699,741"/>
-<area shape="rect" id="node25" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="643,360,697,387"/>
-<area shape="rect" id="node27" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="463,613,539,640"/>
-<area shape="rect" id="node28" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="463,664,539,691"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="281,195,381,221"/>
+<area shape="rect" id="node14" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="151,397,227,424"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="967,296,1045,323"/>
+<area shape="rect" id="node5" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="436,195,540,221"/>
+<area shape="rect" id="node6" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="450,93,526,120"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="611,448,676,475"/>
+<area shape="rect" id="node4" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="1093,296,1180,323"/>
+<area shape="rect" id="node7" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="860,549,913,576"/>
+<area shape="rect" id="node8" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="618,93,669,120"/>
+<area shape="rect" id="node10" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="855,689,919,716"/>
+<area shape="rect" id="node11" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="863,296,910,323"/>
+<area shape="rect" id="node12" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="747,448,807,475"/>
+<area shape="rect" id="node13" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="860,625,913,652"/>
+<area shape="rect" id="node15" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="436,499,540,525"/>
+<area shape="rect" id="node22" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="285,347,377,373"/>
+<area shape="rect" id="node25" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="275,663,388,689"/>
+<area shape="rect" id="node16" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="590,727,697,753"/>
+<area shape="rect" id="node18" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="588,499,699,525"/>
+<area shape="rect" id="node19" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="616,245,671,272"/>
+<area shape="rect" id="node20" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="615,347,672,373"/>
+<area shape="rect" id="node21" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="617,625,670,652"/>
+<area shape="rect" id="node17" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="751,651,802,677"/>
+<area shape="rect" id="node23" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="450,296,526,323"/>
+<area shape="rect" id="node24" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="450,347,526,373"/>
 </map>
 </div>
 </p>
@@ -662,7 +655,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00071">71</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00149">io_mbyte_open_srl()</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">mfo_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
+<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00139">mfo_arnp()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00410">nekgsync()</a>.</p>
 
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -671,24 +664,23 @@ Functions</h2></td></tr>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph" id="group__arnoldi__arpack_ga9a45d355698b986d39b4cdfdc8144fe6_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="186,183,251,209"/>
-<area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="643,309,722,336"/>
-<area shape="rect" id="node16" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="153,360,284,387"/>
-<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="167,411,271,437"/>
-<area shape="rect" id="node18" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="181,56,257,83"/>
-<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="337,56,391,83"/>
-<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="332,107,396,133"/>
-<area shape="rect" id="node5" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="539,157,585,184"/>
-<area shape="rect" id="node13" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="334,208,394,235"/>
-<area shape="rect" id="node15" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="337,259,391,285"/>
-<area shape="rect" id="node6" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="641,5,725,32"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="642,56,723,83"/>
-<area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="649,107,716,133"/>
-<area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="633,157,732,184"/>
-<area shape="rect" id="node10" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="637,208,728,235"/>
-<area shape="rect" id="node11" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="643,259,722,285"/>
-<area shape="rect" id="node14" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="444,208,491,235"/>
-<area shape="rect" id="node19" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="339,5,389,32"/>
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="173,183,238,209"/>
+<area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="617,309,695,336"/>
+<area shape="rect" id="node16" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="153,360,257,387"/>
+<area shape="rect" id="node17" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="167,56,243,83"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="311,56,364,83"/>
+<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="305,107,369,133"/>
+<area shape="rect" id="node5" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="512,157,559,184"/>
+<area shape="rect" id="node13" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="307,208,367,235"/>
+<area shape="rect" id="node15" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="311,259,364,285"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="614,5,698,32"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="615,56,697,83"/>
+<area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="623,107,689,133"/>
+<area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="607,157,705,184"/>
+<area shape="rect" id="node10" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="611,208,701,235"/>
+<area shape="rect" id="node11" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="611,259,701,285"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="417,208,464,235"/>
+<area shape="rect" id="node18" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="312,5,363,32"/>
 </map>
 </div>
 </p>
@@ -726,7 +718,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00431">431</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="byte_8c_source.html#l00038">byte_read</a>, <a class="el" href="byte_8c_source.html#l00033">byte_reverse</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="byte_8c_source.html#l00038">byte_read</a>, <a class="el" href="byte_8c_source.html#l00033">byte_reverse</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
 
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -743,7 +735,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="243,107,309,133"/>
 <area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="227,157,325,184"/>
 <area shape="rect" id="node13" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="231,208,321,235"/>
-<area shape="rect" id="node14" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="237,259,315,285"/>
+<area shape="rect" id="node14" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="231,259,321,285"/>
 <area shape="rect" id="node16" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="237,309,315,336"/>
 <area shape="rect" id="node7" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="388,56,473,83"/>
 <area shape="rect" id="node10" href="math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="403,107,459,133"/>
@@ -796,7 +788,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00683">683</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02651">mfi_prepare()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">mfi_singlev()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00412">nekgsync()</a>.</p>
+<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00084">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02630">mfi_prepare()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">mfi_singlev()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00410">nekgsync()</a>.</p>
 
 <p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -805,49 +797,43 @@ Functions</h2></td></tr>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph" id="group__arnoldi__arpack_ga4aac7433d8ee19e1dbd46d02a8d4350a_cgraph">
-<area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="125,436,239,463"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="451,487,516,513"/>
-<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="1005,715,1083,741"/>
-<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="130,816,234,843"/>
-<area shape="rect" id="node18" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="287,487,377,513"/>
-<area shape="rect" id="node34" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="138,765,226,792"/>
-<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="618,436,671,463"/>
-<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="613,385,677,412"/>
-<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="900,411,947,437"/>
-<area shape="rect" id="node14" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="615,537,675,564"/>
-<area shape="rect" id="node16" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="618,284,671,311"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="1002,461,1086,488"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="1003,512,1085,539"/>
-<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="1011,563,1077,589"/>
-<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="995,309,1093,336"/>
-<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="999,360,1089,387"/>
-<area shape="rect" id="node12" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="1005,411,1083,437"/>
-<area shape="rect" id="node15" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="777,537,823,564"/>
-<area shape="rect" id="node19" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="456,791,511,817"/>
-<area shape="rect" id="node21" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="430,689,537,716"/>
-<area shape="rect" id="node22" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="430,233,537,260"/>
-<area shape="rect" id="node23" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="425,537,541,564"/>
-<area shape="rect" id="node26" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="453,639,513,665"/>
-<area shape="rect" id="node27" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="437,284,530,311"/>
-<area shape="rect" id="node31" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="431,31,535,57"/>
-<area shape="rect" id="node20" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="603,791,686,817"/>
-<area shape="rect" id="node24" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="605,639,684,665"/>
-<area shape="rect" id="node25" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="775,943,825,969"/>
-<area shape="rect" id="node28" href="byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="589,183,700,209"/>
-<area shape="rect" id="node29" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="619,233,670,260"/>
-<area shape="rect" id="node30" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="617,132,672,159"/>
-<area shape="rect" id="node32" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="618,31,671,57"/>
-<area shape="rect" id="node33" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="748,5,852,32"/>
-<area shape="rect" id="node35" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="296,1044,368,1071"/>
-<area shape="rect" id="node44" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="296,892,368,919"/>
-<area shape="rect" id="node36" href="prepost_8f.html#a5802584ce57124068d1ee183348e3275" title="copy4r" alt="" coords="614,943,675,969"/>
-<area shape="rect" id="node37" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="455,1145,512,1172"/>
-<area shape="rect" id="node38" href="comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="458,1247,509,1273"/>
-<area shape="rect" id="node39" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="450,1196,517,1223"/>
-<area shape="rect" id="node40" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a" title="mapab" alt="" coords="453,993,514,1020"/>
-<area shape="rect" id="node41" href="ic_8f.html#a170de261200bce1070ca719caaf56df0" title="mapab4r" alt="" coords="447,892,519,919"/>
-<area shape="rect" id="node42" href="comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="448,1044,519,1071"/>
-<area shape="rect" id="node43" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="458,1095,509,1121"/>
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="125,347,239,373"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="948,777,1027,804"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="451,600,516,627"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="130,499,234,525"/>
+<area shape="rect" id="node13" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="287,448,377,475"/>
+<area shape="rect" id="node27" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="138,929,226,956"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="616,448,667,475"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="747,524,800,551"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="741,347,805,373"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="853,651,900,677"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="747,423,800,449"/>
+<area shape="rect" id="node10" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="611,701,671,728"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="750,701,797,728"/>
+<area shape="rect" id="node14" href="ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title="addfid" alt="" coords="613,347,670,373"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="456,701,511,728"/>
+<area shape="rect" id="node17" href="byte__mpi_8f.html#a0e8afd7bb43c632b4f370196cb302c65" title="byte_open_mpi" alt="" coords="428,245,539,272"/>
+<area shape="rect" id="node19" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="430,549,537,576"/>
+<area shape="rect" id="node20" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="430,499,537,525"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="425,651,541,677"/>
+<area shape="rect" id="node24" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="431,93,535,120"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="600,803,683,829"/>
+<area shape="rect" id="node18" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="614,195,669,221"/>
+<area shape="rect" id="node22" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="602,752,681,779"/>
+<area shape="rect" id="node23" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="748,1056,799,1083"/>
+<area shape="rect" id="node25" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="615,43,668,69"/>
+<area shape="rect" id="node26" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="589,93,693,120"/>
+<area shape="rect" id="node28" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="296,1056,368,1083"/>
+<area shape="rect" id="node38" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="296,929,368,956"/>
+<area shape="rect" id="node29" href="prepost_8f.html#a5802584ce57124068d1ee183348e3275" title="copy4r" alt="" coords="611,1056,672,1083"/>
+<area shape="rect" id="node30" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="455,1259,512,1285"/>
+<area shape="rect" id="node31" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="453,955,513,981"/>
+<area shape="rect" id="node32" href="comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="458,1157,509,1184"/>
+<area shape="rect" id="node33" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="450,803,517,829"/>
+<area shape="rect" id="node34" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a" title="mapab" alt="" coords="453,1107,514,1133"/>
+<area shape="rect" id="node35" href="ic_8f.html#a170de261200bce1070ca719caaf56df0" title="mapab4r" alt="" coords="447,1056,519,1083"/>
+<area shape="rect" id="node36" href="comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="448,1005,519,1032"/>
+<area shape="rect" id="node37" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="458,1208,509,1235"/>
 </map>
 </div>
 </p>
@@ -944,7 +930,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00855">855</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte__mpi_8f_source.html#l00136">byte_set_view()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02004">mfi_gets()</a>, and <a class="el" href="ic_8f_source.html#l02149">mfi_getv()</a>.</p>
+<p>References <a class="el" href="byte__mpi_8f_source.html#l00097">byte_set_view()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="ic_8f_source.html#l02011">mfi_gets()</a>, and <a class="el" href="ic_8f_source.html#l02156">mfi_getv()</a>.</p>
 
 <p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -953,43 +939,37 @@ Functions</h2></td></tr>
 <div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph" id="group__arnoldi__arpack_ga6a53ee7306b988b21822a12e2c59f139_cgraph">
-<area shape="rect" id="node2" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="141,5,248,32"/>
-<area shape="rect" id="node11" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="467,107,517,133"/>
-<area shape="rect" id="node12" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="159,487,231,513"/>
-<area shape="rect" id="node38" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="159,537,231,564"/>
-<area shape="rect" id="node3" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="693,563,740,589"/>
-<area shape="rect" id="node4" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="795,411,879,437"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="797,461,878,488"/>
-<area shape="rect" id="node6" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="804,512,871,539"/>
-<area shape="rect" id="node7" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="788,563,887,589"/>
-<area shape="rect" id="node8" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="792,613,883,640"/>
-<area shape="rect" id="node9" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="798,664,877,691"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="798,715,877,741"/>
-<area shape="rect" id="node13" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="322,867,377,893"/>
-<area shape="rect" id="node15" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="296,208,403,235"/>
-<area shape="rect" id="node16" href="prepost_8f.html#a5802584ce57124068d1ee183348e3275" title="copy4r" alt="" coords="461,157,523,184"/>
-<area shape="rect" id="node17" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="321,765,378,792"/>
-<area shape="rect" id="node19" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="317,563,382,589"/>
-<area shape="rect" id="node25" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="319,613,379,640"/>
-<area shape="rect" id="node26" href="comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="324,816,375,843"/>
-<area shape="rect" id="node28" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="316,512,383,539"/>
-<area shape="rect" id="node30" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a" title="mapab" alt="" coords="319,461,380,488"/>
-<area shape="rect" id="node34" href="ic_8f.html#a170de261200bce1070ca719caaf56df0" title="mapab4r" alt="" coords="313,411,385,437"/>
-<area shape="rect" id="node35" href="comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="314,715,385,741"/>
-<area shape="rect" id="node37" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="324,259,375,285"/>
-<area shape="rect" id="node14" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="451,917,533,944"/>
-<area shape="rect" id="node18" href="mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="453,816,531,843"/>
-<area shape="rect" id="node20" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="587,360,640,387"/>
-<area shape="rect" id="node21" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="581,461,645,488"/>
-<area shape="rect" id="node22" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="462,613,522,640"/>
-<area shape="rect" id="node24" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="587,512,640,539"/>
-<area shape="rect" id="node23" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="590,613,637,640"/>
-<area shape="rect" id="node27" href="mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="453,867,531,893"/>
-<area shape="rect" id="node29" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="467,411,517,437"/>
-<area shape="rect" id="node31" href="speclib_8f.html#a8263325d9c535ec58c5ced807370cd22" title="igllm" alt="" coords="467,309,517,336"/>
-<area shape="rect" id="node32" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="467,208,517,235"/>
-<area shape="rect" id="node33" href="speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="466,259,518,285"/>
-<area shape="rect" id="node36" href="mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="455,765,529,792"/>
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="141,245,248,272"/>
+<area shape="rect" id="node9" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="467,701,517,728"/>
+<area shape="rect" id="node10" href="ic_8f.html#af9f00a786901a7600e636f294a42bd09" title="mfi_gets" alt="" coords="159,473,231,500"/>
+<area shape="rect" id="node32" href="ic_8f.html#af68df198916be2ecb6058327311ac3b6" title="mfi_getv" alt="" coords="159,524,231,551"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="467,43,517,69"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="587,93,640,120"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="581,144,645,171"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="693,245,740,272"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="587,195,640,221"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="788,245,867,272"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="322,803,377,829"/>
+<area shape="rect" id="node13" href="byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title="byte_read_mpi" alt="" coords="296,245,403,272"/>
+<area shape="rect" id="node14" href="prepost_8f.html#a5802584ce57124068d1ee183348e3275" title="copy4r" alt="" coords="461,651,523,677"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="321,397,378,424"/>
+<area shape="rect" id="node17" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="317,296,382,323"/>
+<area shape="rect" id="node20" href="math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="319,347,379,373"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="324,448,375,475"/>
+<area shape="rect" id="node23" href="convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="316,195,383,221"/>
+<area shape="rect" id="node24" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a" title="mapab" alt="" coords="319,499,380,525"/>
+<area shape="rect" id="node28" href="ic_8f.html#a170de261200bce1070ca719caaf56df0" title="mapab4r" alt="" coords="313,549,385,576"/>
+<area shape="rect" id="node29" href="comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="314,701,385,728"/>
+<area shape="rect" id="node31" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="324,752,375,779"/>
+<area shape="rect" id="node12" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="451,803,533,829"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="453,397,531,424"/>
+<area shape="rect" id="node18" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="462,296,522,323"/>
+<area shape="rect" id="node19" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="590,296,637,323"/>
+<area shape="rect" id="node22" href="mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="453,448,531,475"/>
+<area shape="rect" id="node25" href="speclib_8f.html#a8263325d9c535ec58c5ced807370cd22" title="igllm" alt="" coords="467,499,517,525"/>
+<area shape="rect" id="node26" href="mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="467,549,517,576"/>
+<area shape="rect" id="node27" href="speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title="zwgll" alt="" coords="466,600,518,627"/>
+<area shape="rect" id="node30" href="mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="455,752,529,779"/>
 </map>
 </div>
 </p>
@@ -1083,7 +1063,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00537">537</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00113">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="io__tools_8f_source.html#l00077">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="ic_8f_source.html#l02601">mbyte_open()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">mfo_singlev()</a>, and <a class="el" href="prepost_8f_source.html#l02385">mfo_write_hdr()</a>.</p>
+<p>References <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte__mpi_8f_source.html#l00084">byte_close_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="gen__poly__imp_8c_source.html#l00060">i</a>, <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">mfo_singlev()</a>, and <a class="el" href="prepost_8f_source.html#l01849">mfo_write_hdr()</a>.</p>
 
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1092,37 +1072,28 @@ Functions</h2></td></tr>
 <div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph.png" border="0" usemap="#group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph" id="group__arnoldi__arpack_gac66224645ce6b6b4a54a11b5ad1c363c_cgraph">
-<area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="129,233,243,260"/>
-<area shape="rect" id="node3" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="465,233,531,260"/>
-<area shape="rect" id="node18" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="134,588,238,615"/>
-<area shape="rect" id="node19" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="451,740,545,767"/>
-<area shape="rect" id="node23" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="140,385,232,412"/>
-<area shape="rect" id="node32" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="291,233,395,260"/>
-<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="630,183,683,209"/>
-<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="625,385,689,412"/>
-<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="858,335,905,361"/>
-<area shape="rect" id="node14" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="627,233,687,260"/>
-<area shape="rect" id="node17" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="630,436,683,463"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="963,487,1047,513"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="965,233,1046,260"/>
-<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="972,284,1039,311"/>
-<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="956,335,1055,361"/>
-<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="960,385,1051,412"/>
-<area shape="rect" id="node12" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="966,436,1045,463"/>
-<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="966,537,1045,564"/>
-<area shape="rect" id="node15" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="760,233,807,260"/>
-<area shape="rect" id="node16" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="855,132,908,159"/>
-<area shape="rect" id="node20" href="byte__mpi_8f.html#a709c5eb7eaa2afa254a0e8bd62915bfb" title="byte_open_mpi" alt="" coords="601,689,712,716"/>
-<area shape="rect" id="node21" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="631,740,682,767"/>
-<area shape="rect" id="node22" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="629,791,684,817"/>
-<area shape="rect" id="node24" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="445,5,551,32"/>
-<area shape="rect" id="node25" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="473,689,523,716"/>
-<area shape="rect" id="node26" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="305,436,381,463"/>
-<area shape="rect" id="node31" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="305,385,381,412"/>
-<area shape="rect" id="node27" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="443,284,553,311"/>
-<area shape="rect" id="node28" href="prepost_8f.html#a91be720c5e5090ee2c5641ca594c2a92" title="copyx4" alt="" coords="466,537,530,564"/>
-<area shape="rect" id="node29" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="471,335,525,361"/>
-<area shape="rect" id="node30" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="469,436,527,463"/>
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="129,56,243,83"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="465,296,531,323"/>
+<area shape="rect" id="node13" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="134,423,238,449"/>
+<area shape="rect" id="node14" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="140,372,232,399"/>
+<area shape="rect" id="node23" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="291,220,395,247"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="606,144,657,171"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="715,144,768,171"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="709,296,773,323"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="825,448,871,475"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="715,245,768,272"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="923,499,1001,525"/>
+<area shape="rect" id="node10" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="601,347,661,373"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="718,347,765,373"/>
+<area shape="rect" id="node12" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="821,195,875,221"/>
+<area shape="rect" id="node15" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="445,195,551,221"/>
+<area shape="rect" id="node16" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="473,701,523,728"/>
+<area shape="rect" id="node17" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="305,397,381,424"/>
+<area shape="rect" id="node22" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="305,448,381,475"/>
+<area shape="rect" id="node18" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="443,245,553,272"/>
+<area shape="rect" id="node19" href="prepost_8f.html#a91be720c5e5090ee2c5641ca594c2a92" title="copyx4" alt="" coords="466,549,530,576"/>
+<area shape="rect" id="node20" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="471,448,525,475"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="469,397,527,424"/>
 </map>
 </div>
 </p>
@@ -1225,7 +1196,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack__io_8f_source.html#l00801">801</a> of file <a class="el" href="arnoldi__arpack__io_8f_source.html">arnoldi_arpack_io.f</a>.</p>
 
-<p>References <a class="el" href="byte__mpi_8f_source.html#l00136">byte_set_view()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="prepost_8f_source.html#l02177">mfo_outs()</a>, and <a class="el" href="prepost_8f_source.html#l02265">mfo_outv()</a>.</p>
+<p>References <a class="el" href="byte__mpi_8f_source.html#l00097">byte_set_view()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="prepost_8f_source.html#l01638">mfo_outs()</a>, and <a class="el" href="prepost_8f_source.html#l01727">mfo_outv()</a>.</p>
 
 <p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1234,29 +1205,24 @@ Functions</h2></td></tr>
 <div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph" id="group__arnoldi__arpack_ga0fb61884e52cfe4c81bc34ccc7765c0c_cgraph">
-<area shape="rect" id="node2" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="145,411,252,437"/>
-<area shape="rect" id="node11" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="330,5,381,32"/>
-<area shape="rect" id="node12" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="161,259,237,285"/>
-<area shape="rect" id="node24" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="161,208,237,235"/>
-<area shape="rect" id="node3" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="475,461,521,488"/>
-<area shape="rect" id="node4" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="593,335,677,361"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="594,385,675,412"/>
-<area shape="rect" id="node6" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="601,436,668,463"/>
-<area shape="rect" id="node7" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="585,487,684,513"/>
-<area shape="rect" id="node8" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="589,537,680,564"/>
-<area shape="rect" id="node9" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="595,588,674,615"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="595,284,674,311"/>
-<area shape="rect" id="node13" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="300,360,411,387"/>
-<area shape="rect" id="node14" href="prepost_8f.html#a91be720c5e5090ee2c5641ca594c2a92" title="copyx4" alt="" coords="323,309,387,336"/>
-<area shape="rect" id="node15" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="328,259,383,285"/>
-<area shape="rect" id="node17" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="327,157,384,184"/>
-<area shape="rect" id="node19" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="323,107,388,133"/>
-<area shape="rect" id="node16" href="mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="461,360,535,387"/>
-<area shape="rect" id="node18" href="mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="459,309,537,336"/>
-<area shape="rect" id="node20" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="471,157,525,184"/>
-<area shape="rect" id="node21" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="466,208,530,235"/>
-<area shape="rect" id="node22" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="468,259,528,285"/>
-<area shape="rect" id="node23" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="471,107,525,133"/>
+<area shape="rect" id="node2" href="byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title="byte_set_view" alt="" coords="145,14,252,40"/>
+<area shape="rect" id="node9" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="330,76,381,103"/>
+<area shape="rect" id="node10" href="prepost_8f.html#a719f53cbe469f5bf99a53892de48af29" title="mfo_outs" alt="" coords="161,330,237,356"/>
+<area shape="rect" id="node19" href="prepost_8f.html#a3f8a4c9fa971a0386d313d4c79e111f7" title="mfo_outv" alt="" coords="161,178,237,204"/>
+<area shape="rect" id="node3" href="comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="473,127,523,154"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="591,76,644,103"/>
+<area shape="rect" id="node5" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="585,127,649,154"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="594,279,641,306"/>
+<area shape="rect" id="node8" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="591,178,644,204"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="697,279,776,306"/>
+<area shape="rect" id="node11" href="byte__mpi_8f.html#a7243a5d153454c75d56636681519a0bb" title="byte_write_mpi" alt="" coords="300,178,411,204"/>
+<area shape="rect" id="node12" href="prepost_8f.html#a91be720c5e5090ee2c5641ca594c2a92" title="copyx4" alt="" coords="323,279,387,306"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="328,431,383,458"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="327,330,384,356"/>
+<area shape="rect" id="node17" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="465,178,531,204"/>
+<area shape="rect" id="node14" href="mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="461,380,535,407"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="459,330,537,356"/>
+<area shape="rect" id="node18" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="587,228,647,255"/>
 </map>
 </div>
 </p>
@@ -1299,12 +1265,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This interface is defined in <a class="el" href="group__tstepper.html#ga566f70e7afca09a930084f9488423305">tstpr_param_in</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check iostat value for missing namelist in the file </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>readers_writers_page </dd></dl>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00022">22</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00341">bcast()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>.</p>
 
 <p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1326,7 +1292,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="628,132,695,159"/>
 <area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="612,183,711,209"/>
 <area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="616,233,707,260"/>
-<area shape="rect" id="node13" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="622,284,701,311"/>
+<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="617,284,706,311"/>
 <area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="622,335,701,361"/>
 <area shape="rect" id="node16" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="423,208,469,235"/>
 </map>
@@ -1373,7 +1339,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00078">78</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00468">err_chk()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>.</p>
 
 <p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1393,7 +1359,7 @@ Functions</h2></td></tr>
 <area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="617,107,684,133"/>
 <area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="601,157,700,184"/>
 <area shape="rect" id="node10" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="605,208,696,235"/>
-<area shape="rect" id="node11" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="611,259,690,285"/>
+<area shape="rect" id="node11" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="606,259,695,285"/>
 <area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="611,309,690,336"/>
 <area shape="rect" id="node14" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="412,183,459,209"/>
 </map>
@@ -1432,7 +1398,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00106">106</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00045">arn_rst_read()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>, <a class="el" href="math_8f_source.html#l00377">izero()</a>, <a class="el" href="debug_8h_source.html#l00008">logfil</a>, <a class="el" href="debug_8h_source.html#l00008">mnaitr</a>, <a class="el" href="debug_8h_source.html#l00008">mnapps</a>, <a class="el" href="debug_8h_source.html#l00008">mnaup2</a>, <a class="el" href="debug_8h_source.html#l00008">mnaupd</a>, <a class="el" href="debug_8h_source.html#l00008">mneupd</a>, <a class="el" href="debug_8h_source.html#l00008">mngets</a>, <a class="el" href="debug_8h_source.html#l00008">ndigit</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00045">arn_rst_read()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="math_8f_source.html#l00377">izero()</a>, <a class="el" href="debug_8h_source.html#l00008">logfil</a>, <a class="el" href="debug_8h_source.html#l00008">mnaitr</a>, <a class="el" href="debug_8h_source.html#l00008">mnapps</a>, <a class="el" href="debug_8h_source.html#l00008">mnaup2</a>, <a class="el" href="debug_8h_source.html#l00008">mnaupd</a>, <a class="el" href="debug_8h_source.html#l00008">mneupd</a>, <a class="el" href="debug_8h_source.html#l00008">mngets</a>, <a class="el" href="debug_8h_source.html#l00008">ndigit</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
 
 <p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1441,35 +1407,34 @@ Functions</h2></td></tr>
 <div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph" id="group__arnoldi__arpack_ga63239a803652b1366b764ebb4d83192c_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="461,658,544,685"/>
-<area shape="rect" id="node4" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="640,760,687,786"/>
-<area shape="rect" id="node5" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="638,557,689,584"/>
-<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="773,202,819,229"/>
-<area shape="rect" id="node18" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="149,430,244,457"/>
-<area shape="rect" id="node29" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="171,760,222,786"/>
-<area shape="rect" id="node30" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="171,810,222,837"/>
-<area shape="rect" id="node3" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="773,608,819,634"/>
-<area shape="rect" id="node14" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="616,709,711,736"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="889,329,973,356"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="890,608,971,634"/>
-<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="897,126,964,153"/>
-<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="881,177,980,204"/>
-<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="885,228,976,254"/>
-<area shape="rect" id="node12" href="papi_8f.html#a3a75ccdfbe05912fda48c3b134d114c0" title="nek_flops" alt="" coords="891,278,970,305"/>
-<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="891,456,970,482"/>
-<area shape="rect" id="node15" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="759,709,833,736"/>
-<area shape="rect" id="node16" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="766,760,826,786"/>
-<area shape="rect" id="node17" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="765,658,827,685"/>
-<area shape="rect" id="node19" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="292,253,389,280"/>
-<area shape="rect" id="node25" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="305,430,377,457"/>
-<area shape="rect" id="node20" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="636,50,691,77"/>
-<area shape="rect" id="node21" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="631,152,696,178"/>
-<area shape="rect" id="node22" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="437,253,568,280"/>
-<area shape="rect" id="node23" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="451,354,555,381"/>
-<area shape="rect" id="node24" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="467,202,539,229"/>
-<area shape="rect" id="node26" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="446,456,559,482"/>
-<area shape="rect" id="node27" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="457,101,548,128"/>
-<area shape="rect" id="node28" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="459,557,547,584"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="453,119,535,145"/>
+<area shape="rect" id="node4" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="623,5,669,32"/>
+<area shape="rect" id="node5" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="621,259,671,285"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="755,309,802,336"/>
+<area shape="rect" id="node18" href="group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="149,309,244,336"/>
+<area shape="rect" id="node28" href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="171,360,222,387"/>
+<area shape="rect" id="node29" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="171,411,222,437"/>
+<area shape="rect" id="node3" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="755,56,802,83"/>
+<area shape="rect" id="node14" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="599,107,693,133"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="871,385,955,412"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="873,183,954,209"/>
+<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="880,436,947,463"/>
+<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="864,233,963,260"/>
+<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="868,284,959,311"/>
+<area shape="rect" id="node12" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="869,335,958,361"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="874,487,953,513"/>
+<area shape="rect" id="node15" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="741,107,816,133"/>
+<area shape="rect" id="node16" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="749,157,809,184"/>
+<area shape="rect" id="node17" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="748,208,809,235"/>
+<area shape="rect" id="node19" href="group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="292,385,389,412"/>
+<area shape="rect" id="node24" href="group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="305,613,377,640"/>
+<area shape="rect" id="node20" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="619,448,673,475"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="613,645,679,672"/>
+<area shape="rect" id="node22" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="442,512,546,539"/>
+<area shape="rect" id="node23" href="group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="458,309,530,336"/>
+<area shape="rect" id="node25" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="437,563,551,589"/>
+<area shape="rect" id="node26" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="449,664,539,691"/>
+<area shape="rect" id="node27" href="group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="450,613,538,640"/>
 </map>
 </div>
 </p>
@@ -1507,7 +1472,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="arnoldi__arpack_8f_source.html#l00319">319</a> of file <a class="el" href="arnoldi__arpack_8f_source.html">arnoldi_arpack.f</a>.</p>
 
-<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00549">arn_end()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00387">arn_esolve()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00009">arn_rst_save()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00521">exitt()</a>.</p>
+<p>References <a class="el" href="arnoldi__arpack_8f_source.html#l00549">arn_end()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00387">arn_esolve()</a>, <a class="el" href="arnoldi__arpack_8f_source.html#l00571">arn_naupd()</a>, <a class="el" href="arnoldi__arpack__io_8f_source.html#l00009">arn_rst_save()</a>, <a class="el" href="math_8f_source.html#l00806">col3()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
 
 <p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1516,36 +1481,34 @@ Functions</h2></td></tr>
 <div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph.png" border="0" usemap="#group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph" alt=""/></div>
 <map name="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph" id="group__arnoldi__arpack_ga61cd8777c90822cd29525e306f16879a_cgraph">
-<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga6e2500fe6c297e1616d83a0601eaaffe" title="Finalise arnoldi. " alt="" coords="179,132,247,159"/>
-<area shape="rect" id="node3" href="group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="170,461,255,488"/>
-<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="658,512,709,539"/>
-<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="793,385,839,412"/>
-<area shape="rect" id="node15" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="481,233,564,260"/>
-<area shape="rect" id="node17" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="660,284,707,311"/>
-<area shape="rect" id="node22" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="164,816,261,843"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="651,816,716,843"/>
-<area shape="rect" id="node12" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="312,436,407,463"/>
-<area shape="rect" id="node13" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="323,487,395,513"/>
-<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="789,943,843,969"/>
-<area shape="rect" id="node7" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="784,740,848,767"/>
-<area shape="rect" id="node10" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="786,841,846,868"/>
-<area shape="rect" id="node11" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="789,791,843,817"/>
-<area shape="rect" id="node9" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="901,639,980,665"/>
-<area shape="rect" id="node14" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="490,588,555,615"/>
-<area shape="rect" id="node16" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="793,157,839,184"/>
-<area shape="rect" id="node18" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="636,81,731,108"/>
-<area shape="rect" id="node19" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="779,5,853,32"/>
-<area shape="rect" id="node20" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="786,56,846,83"/>
-<area shape="rect" id="node21" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="785,107,847,133"/>
-<area shape="rect" id="node23" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,1019,409,1045"/>
-<area shape="rect" id="node27" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,816,397,843"/>
-<area shape="rect" id="node24" href="group__io__tools.html#ga8e841a3e3e5c9644c74414046c1b12d6" title="Open file at a given process only. " alt="" coords="457,1095,588,1121"/>
-<area shape="rect" id="node25" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="471,993,575,1020"/>
-<area shape="rect" id="node26" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="485,1044,561,1071"/>
-<area shape="rect" id="node28" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="466,791,579,817"/>
-<area shape="rect" id="node29" href="ic_8f.html#a68d933fc6454561483fc9fa2bbac444b" title="mbyte_open" alt="" coords="637,740,730,767"/>
-<area shape="rect" id="node30" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="477,689,569,716"/>
-<area shape="rect" id="node31" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="471,943,575,969"/>
+<area shape="rect" id="node2" href="group__arnoldi__arpack.html#ga6e2500fe6c297e1616d83a0601eaaffe" title="Finalise arnoldi. " alt="" coords="179,81,247,108"/>
+<area shape="rect" id="node3" href="group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="317,436,402,463"/>
+<area shape="rect" id="node4" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="641,436,691,463"/>
+<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="775,309,822,336"/>
+<area shape="rect" id="node15" href="group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="473,183,555,209"/>
+<area shape="rect" id="node17" href="math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="643,31,689,57"/>
+<area shape="rect" id="node22" href="group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="164,689,261,716"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="633,689,699,716"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="467,487,561,513"/>
+<area shape="rect" id="node13" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="478,335,550,361"/>
+<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="772,804,825,831"/>
+<area shape="rect" id="node7" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="767,652,831,679"/>
+<area shape="rect" id="node10" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="769,703,829,729"/>
+<area shape="rect" id="node11" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="772,601,825,628"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="884,532,963,559"/>
+<area shape="rect" id="node14" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="633,385,699,412"/>
+<area shape="rect" id="node16" href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="775,157,822,184"/>
+<area shape="rect" id="node18" href="group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="619,81,713,108"/>
+<area shape="rect" id="node19" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="761,5,836,32"/>
+<area shape="rect" id="node20" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="769,56,829,83"/>
+<area shape="rect" id="node21" href="dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="768,107,829,133"/>
+<area shape="rect" id="node23" href="group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="309,841,409,868"/>
+<area shape="rect" id="node26" href="group__arnoldi__arpack.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors) " alt="" coords="321,689,397,716"/>
+<area shape="rect" id="node24" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="462,841,566,868"/>
+<area shape="rect" id="node25" href="group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="476,892,552,919"/>
+<area shape="rect" id="node27" href="byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="457,639,571,665"/>
+<area shape="rect" id="node28" href="group__arnoldi__arpack.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file. " alt="" coords="468,537,560,564"/>
+<area shape="rect" id="node29" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688" title="mfo_write_hdr" alt="" coords="462,791,566,817"/>
 </map>
 </div>
 </p>
@@ -1570,7 +1533,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 7 2017 13:08:36 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Fri Sep 8 2017 11:27:22 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

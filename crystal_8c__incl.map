@@ -1,8 +1,8 @@
-<map id="Nek5000/jl/crystal.c" name="Nek5000/jl/crystal.c">
-<area shape="rect" id="node5" href="$c99_8h.html" title="c99.h" alt="" coords="277,80,331,107"/>
-<area shape="rect" id="node6" href="$name_8h.html" title="name.h" alt="" coords="355,80,421,107"/>
-<area shape="rect" id="node7" href="$fail_8h.html" title="fail.h" alt="" coords="445,80,496,107"/>
-<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="521,80,586,107"/>
-<area shape="rect" id="node9" href="$comm_8h.html" title="comm.h" alt="" coords="611,80,680,107"/>
-<area shape="rect" id="node10" href="$mem_8h.html" title="mem.h" alt="" coords="705,80,767,107"/>
+<map id="Nek5000/3rd_party/gslib/src/crystal.c" name="Nek5000/3rd_party/gslib/src/crystal.c">
+<area shape="rect" id="node5" href="$c99_8h.html" title="c99.h" alt="" coords="277,95,331,121"/>
+<area shape="rect" id="node6" href="$3rd__party_2gslib_2src_2name_8h.html" title="name.h" alt="" coords="355,95,421,121"/>
+<area shape="rect" id="node7" href="$fail_8h.html" title="fail.h" alt="" coords="445,95,496,121"/>
+<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="521,95,586,121"/>
+<area shape="rect" id="node9" href="$comm_8h.html" title="comm.h" alt="" coords="611,95,680,121"/>
+<area shape="rect" id="node10" href="$mem_8h.html" title="mem.h" alt="" coords="705,95,767,121"/>
 </map>

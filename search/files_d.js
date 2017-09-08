@@ -4,6 +4,7 @@ var searchData=
   ['pertsupport_2ef',['pertsupport.f',['../pertsupport_8f.html',1,'']]],
   ['perturb_2ef',['perturb.f',['../perturb_8f.html',1,'']]],
   ['plan4_2ef',['plan4.f',['../plan4_8f.html',1,'']]],
+  ['plan5_2ef',['plan5.f',['../plan5_8f.html',1,'']]],
   ['planx_2ef',['planx.f',['../planx_8f.html',1,'']]],
   ['poly_2ec',['poly.c',['../poly_8c.html',1,'']]],
   ['poly_2eh',['poly.h',['../poly_8h.html',1,'']]],

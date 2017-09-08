@@ -18,7 +18,7 @@ var byte_8c =
     [ "SWAP", "byte_8c.html#aac9153aee4bdb92701df902e06a74eb3", null ],
     [ "WRITE", "byte_8c.html#aa10f470e996d0f51210d24f442d25e1e", null ],
     [ "byte_close", "byte_8c.html#a89c24f05ad7fc91eb2b38361a1168460", null ],
-    [ "byte_open", "byte_8c.html#a0c6a6d0dc4cc0d43e4cc322aecb163a1", null ],
+    [ "byte_open", "byte_8c.html#a04c719457e94d50201598615a69fe01e", null ],
     [ "byte_read", "byte_8c.html#af1bae61615e1c13f98e0b73fd39b2464", null ],
     [ "byte_reverse", "byte_8c.html#aac60a38853ccb163d3b2939a86aa6d35", null ],
     [ "byte_reverse8", "byte_8c.html#a09e58ef1fd7d047b7431afbdcaa67137", null ],

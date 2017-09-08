@@ -9,7 +9,7 @@ var searchData=
   ['si',['si',['../structcrl__id.html#a5d334aa03bb6aca37a7e8115bbe873e5',1,'crl_id']]],
   ['side_5finit',['side_init',['../structfindpts__el__data__2.html#a23d50ef9f8badce1afd1a4f89320d138',1,'findpts_el_data_2::side_init()'],['../structfindpts__el__data__3.html#a8c8968798a3079f176ea92451d620915',1,'findpts_el_data_3::side_init()']]],
   ['sides',['sides',['../structfindpts__el__data__2.html#aedda61348bba006aabcb079eb40da88e',1,'findpts_el_data_2::sides()'],['../structfindpts__el__data__3.html#a0dda4462989c92db3120db6e4d51d802',1,'findpts_el_data_3::sides()']]],
-  ['size',['size',['../struct__dictionary__.html#a8be0f96d0b5a75d61775306d5e908867',1,'_dictionary_::size()'],['../structpw__comm__data.html#a3cd67a07441cc678beacca626774c1b0',1,'pw_comm_data::size()']]],
+  ['size',['size',['../structpw__comm__data.html#a3cd67a07441cc678beacca626774c1b0',1,'pw_comm_data::size()'],['../struct__dictionary__.html#a8be0f96d0b5a75d61775306d5e908867',1,'_dictionary_::size()']]],
   ['size_5fr',['size_r',['../structcr__stage.html#a028f1d4de96e63bdc332aad2fe19e0b1',1,'cr_stage']]],
   ['size_5fr1',['size_r1',['../structcr__stage.html#a710c8c5a5af8b66f1fbb7348967ba7a4',1,'cr_stage']]],
   ['size_5fr2',['size_r2',['../structcr__stage.html#a4767e4009d5e1a677d43d97372eab574',1,'cr_stage']]],
