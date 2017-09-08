@@ -1,7 +1,6 @@
 var searchData=
 [
   ['tauinit',['tauinit',['../navier1_8f.html#a1d7e53e8c5b7ff3bc926908031769ea3',1,'navier1.f']]],
-  ['tdstate',['tdstate',['../driver3__cmt_8f.html#a91fd597ad604e7412e8d78a79beefe34',1,'driver3_cmt.f']]],
   ['tens3d1',['tens3d1',['../postpro_8f.html#a2b64593a113feea75ebb2c0820824729',1,'postpro.f']]],
   ['tensor_5fdot',['tensor_dot',['../tensor_8c.html#a926755185742d00ccd5c271ee2c6770d',1,'tensor_dot(const double *a, const double *b, uint n):&#160;tensor.c'],['../tensor_8h.html#a926755185742d00ccd5c271ee2c6770d',1,'tensor_dot(const double *a, const double *b, uint n):&#160;tensor.c']]],
   ['tensor_5fmtxm',['tensor_mtxm',['../tensor_8c.html#af9d35754709e45f7ef224056d4cfbf84',1,'tensor_mtxm(double *restrict C, uint nc, const double *restrict A, uint na, const double *restrict B, uint nb):&#160;tensor.c'],['../tensor_8h.html#ad642198f8ab4216ddd4f7ee4beab57d1',1,'tensor_mtxm(double *C, uint nc, const double *A, uint na, const double *B, uint nb):&#160;tensor.h']]],
@@ -11,7 +10,6 @@ var searchData=
   ['tlmask',['tlmask',['../turb_8f.html#a8b2942e50973cdb0feaa7159db2ef9d6',1,'turb.f']]],
   ['tnorm',['tnorm',['../pertsupport_8f.html#a23c6c0cf2ef16ff67462fc62077f92cd',1,'tnorm(temp):&#160;pertsupport.f'],['../perturb_8f.html#a23c6c0cf2ef16ff67462fc62077f92cd',1,'tnorm(temp):&#160;perturb.f']]],
   ['torque_5fcalc',['torque_calc',['../navier5_8f.html#ae07d390b2886c4cf09b559441f55dd3f',1,'navier5.f']]],
-  ['torque_5fcalc_5fcmt',['torque_calc_cmt',['../diagnostics_8f.html#add54a8b13236025301a6a9e94a8a4f36',1,'diagnostics.f']]],
   ['tprope',['tprope',['../turb_8f.html#ac1a62a27226025c0f42f9843807d633a',1,'turb.f']]],
   ['tpropk',['tpropk',['../turb_8f.html#ad8f62bef5e8d62dd0df80491dacc0250',1,'turb.f']]],
   ['transpose',['transpose',['../math_8f.html#a17c0ecae12cc5c6096939885da90ad2b',1,'math.f']]],

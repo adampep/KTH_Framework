@@ -19,8 +19,6 @@ var searchData=
   ['speclib_2ef',['speclib.f',['../speclib_8f.html',1,'']]],
   ['spongebx_2ef',['spongebx.f',['../spongebx_8f.html',1,'']]],
   ['ssolv_2ef',['ssolv.f',['../ssolv_8f.html',1,'']]],
-  ['step_2ef',['step.f',['../step_8f.html',1,'']]],
   ['subs1_2ef',['subs1.f',['../subs1_8f.html',1,'']]],
-  ['subs2_2ef',['subs2.f',['../subs2_8f.html',1,'']]],
-  ['surface_5ffluxes_2ef',['surface_fluxes.f',['../surface__fluxes_8f.html',1,'']]]
+  ['subs2_2ef',['subs2.f',['../subs2_8f.html',1,'']]]
 ];

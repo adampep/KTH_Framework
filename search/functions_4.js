@@ -24,8 +24,6 @@ var searchData=
   ['esolver',['esolver',['../navier0_8f.html#aaba079db7e38db9800deef09526370ec',1,'navier0.f']]],
   ['esteig',['esteig',['../eigsolv_8f.html#a1db10d40f8df1de37de90fbff50443f6',1,'eigsolv.f']]],
   ['estrat',['estrat',['../navier0_8f.html#a316eee2e742b806a39e481d5f5c3e8b2',1,'navier0.f']]],
-  ['evaluate_5faliased_5fconv_5fh',['evaluate_aliased_conv_h',['../group__convhvol.html#ga31a0cc12d4267e68f636aaaf36218e10',1,'eqnsolver_cmt.f']]],
-  ['evaluate_5fdealiased_5fconv_5fh',['evaluate_dealiased_conv_h',['../group__convhvol.html#ga9d617d82935810e4d82dc4a78a21227e',1,'eqnsolver_cmt.f']]],
   ['exchange_5fpoints2',['exchange_points2',['../multimesh_8f.html#a36121e3cb5285cd894af163ca9c6ae8e',1,'multimesh.f']]],
   ['exitt',['exitt',['../byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4',1,'exitt():&#160;comm_mpi.f'],['../comm__mpi_8f.html#a95f7432d962a41c5fe0063d0ef3da3d6',1,'exitt:&#160;comm_mpi.f']]],
   ['exitt0',['exitt0',['../comm__mpi_8f.html#a7c71e890279f4933a841a2d97c7de4bd',1,'comm_mpi.f']]],

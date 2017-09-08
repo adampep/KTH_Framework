@@ -6,6 +6,5 @@ var searchData=
   ['jac',['jac',['../structfindpts__el__gpt__2.html#a226cc637db3aa35417f6bc030b3263cc',1,'findpts_el_gpt_2::jac()'],['../structfindpts__el__gpt__3.html#a1724622dbef25cee5e6dd1ec4ad77c07',1,'findpts_el_gpt_3::jac()']]],
   ['jacg',['jacg',['../speclib_8f.html#ac094a28a65ff1a54fc5ad2755d4d3667',1,'speclib.f']]],
   ['jacobf',['jacobf',['../speclib_8f.html#a7b43921b3c1feee969a92fb929834312',1,'speclib.f']]],
-  ['jjnt',['jjnt',['../genbox_8f.html#ab06738df426c0752bc70d5323f5b2b99',1,'genbox.f']]],
-  ['jacobians_20for_20viscous_20fluxes',['Jacobians for viscous fluxes',['../group__vfjac.html',1,'']]]
+  ['jjnt',['jjnt',['../genbox_8f.html#ab06738df426c0752bc70d5323f5b2b99',1,'genbox.f']]]
 ];

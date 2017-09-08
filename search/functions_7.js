@@ -21,7 +21,6 @@ var searchData=
   ['h1mg_5fsetup_5fsemhat',['h1mg_setup_semhat',['../hsmg_8f.html#ade23926d6980364d3d420e16afaccb2c',1,'hsmg.f']]],
   ['h1mg_5fsetup_5fwtmask',['h1mg_setup_wtmask',['../hsmg_8f.html#a16cbabb71921894f52a234087561e257',1,'hsmg.f']]],
   ['h1mg_5fsolve',['h1mg_solve',['../hsmg_8f.html#a80c3292949e823718ac035e38b894494',1,'hsmg.f']]],
-  ['half_5fiku_5fcmt',['half_iku_cmt',['../diffusive__cmt_8f.html#a90ef567419c8aa503af50a7e747c884e',1,'diffusive_cmt.f']]],
   ['happy_5fcheck',['happy_check',['../multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f',1,'happy_check(ihappy):&#160;multimesh.f'],['../singlmesh_8f.html#aef78ff219741b83c1ca784b869e9cacf',1,'happy_check(iflag):&#160;singlmesh.f']]],
   ['hconj',['hconj',['../navier4_8f.html#a81cee80858376aeb94e52e8e7bed5a8d',1,'navier4.f']]],
   ['heat',['heat',['../drive2_8f.html#acce80cd37f20e9b52729eb52d86a9c86',1,'drive2.f']]],

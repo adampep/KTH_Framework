@@ -1,5 +1,0 @@
-<map id="evaluate_dealiased_conv_h" name="evaluate_dealiased_conv_h">
-<area shape="rect" id="node2" href="$group__convhvol.html#ga93e21f64634fe4aecbfb7241b6e22e7d" title="Convective volume terms formed and differentiated^T here. " alt="" coords="187,13,301,39"/>
-<area shape="rect" id="node3" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="349,13,492,39"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="540,13,668,39"/>
-</map>

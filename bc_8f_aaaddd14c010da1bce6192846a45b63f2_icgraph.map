@@ -1,5 +1,0 @@
-<map id="a52duadia" name="a52duadia">
-<area shape="rect" id="node2" href="$bc_8f.html#a9a5825c588243a1c261d107376f5a873" title="a5adiabatic_wall" alt="" coords="135,5,253,32"/>
-<area shape="rect" id="node3" href="$group__bcond.html#ga73b8f242bb8ea95b0c7baf512eeac825" title="Determining IGU contribution to boundary flux. 0 for artificial viscosity, and strictly interior for ..." alt="" coords="301,5,359,32"/>
-<area shape="rect" id="node4" href="$surface__fluxes_8f.html#a28b5864db9a8cc5516dff0524e5281dd" title="igu_cmt" alt="" coords="407,5,475,32"/>
-</map>

@@ -14,8 +14,6 @@ var searchData=
   ['updxyz',['updxyz',['../mvmesh_8f.html#a64c830aa6af830e543b8592f1a35eb29',1,'mvmesh.f']]],
   ['urst',['urst',['../subs1_8f.html#afc60c4d0a0e2a2a65de26a48a2bdb5f1',1,'subs1.f']]],
   ['userchk_5fset_5fxfer',['userchk_set_xfer',['../multimesh_8f.html#a0960e928ef8c9884daa9faa261b9ebb8',1,'userchk_set_xfer:&#160;multimesh.f'],['../singlmesh_8f.html#a0960e928ef8c9884daa9faa261b9ebb8',1,'userchk_set_xfer:&#160;singlmesh.f']]],
-  ['userfilt',['userfilt',['../filters__cmt_8f.html#a8624d1039df152edb6bd5527674123f5',1,'filters_cmt.f']]],
-  ['userfilt_5fbubble',['userfilt_bubble',['../filters__cmt_8f.html#a9a115372e76c03bc25efbf431a2669d3',1,'filters_cmt.f']]],
   ['userqtl_5fscig',['userqtl_scig',['../plan4_8f.html#a2a58ef58c4513d56903b075defcf0314',1,'plan4.f']]],
   ['uxyz',['uxyz',['../subs1_8f.html#ad07dd16f55bb8bcb730413f4dab5425d',1,'subs1.f']]],
   ['uzawa',['uzawa',['../navier1_8f.html#a159801e9971330a0281ce3a6f984b7de',1,'navier1.f']]],

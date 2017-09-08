@@ -44,8 +44,6 @@ var searchData=
   ['dictionary_5funset',['dictionary_unset',['../dictionary_8c.html#a27f0752948d52ccd2568dae22f5db2bc',1,'dictionary_unset(dictionary *d, const char *key):&#160;dictionary.c'],['../dictionary_8h.html#a27f0752948d52ccd2568dae22f5db2bc',1,'dictionary_unset(dictionary *d, const char *key):&#160;dictionary.c']]],
   ['die',['die',['../fail_8c.html#a6a96bcb04cc5efcd64cbeed06a292419',1,'fail.c']]],
   ['diffab',['diffab',['../conduct_8f.html#ae7d05710dc1d24352d099c3246b733b8',1,'conduct.f']]],
-  ['diffh2graduf',['diffh2graduf',['../surface__fluxes_8f.html#a88fa0428bc395bf4e785ac7c484fc587',1,'surface_fluxes.f']]],
-  ['dist2',['dist2',['../step_8f.html#a7b5ee2daf5c645627c0bfa9d89591d54',1,'step.f']]],
   ['dist2d',['dist2d',['../navier5_8f.html#ab51e12895080c3167757b275472ecff1',1,'navier5.f']]],
   ['dist3d',['dist3d',['../navier5_8f.html#adcaf081ec967b5b587729875b8e8a94a',1,'navier5.f']]],
   ['distf',['distf',['../navier5_8f.html#ae48a76075d2717a6c7fbb8d46d688fd5',1,'navier5.f']]],
@@ -136,7 +134,6 @@ var searchData=
   ['dudxyz',['dudxyz',['../navier1_8f.html#aee3ef7096c2b505346f996daf6cf6cd3',1,'navier1.f']]],
   ['dump_5fheader',['dump_header',['../prepost_8f.html#a2248dcc5ad30c39dba879bc859028936',1,'prepost.f']]],
   ['dump_5fheader2d',['dump_header2d',['../navier5_8f.html#a65fc009edc773fa18c30b07586e8b366',1,'navier5.f']]],
-  ['dumpresidue',['dumpresidue',['../diagnostics_8f.html#a10e4bc48f5605c3d680cd2a1acb2862e',1,'diagnostics.f']]],
   ['dzasum',['dzasum',['../blas_8f.html#af23444d1c822b34db864558d7afc76dd',1,'blas.f']]],
   ['dznrm2',['dznrm2',['../blas_8f.html#a969fee86423deeced6013320c9b35b28',1,'blas.f']]]
 ];

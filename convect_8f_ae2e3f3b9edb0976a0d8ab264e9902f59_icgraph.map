@@ -1,14 +1,10 @@
 <map id="map_faced" name="map_faced">
-<area shape="rect" id="node2" href="$surface__fluxes_8f.html#a07b6f239f6de61d489a639234c55dac3" title="inviscidflux" alt="" coords="167,5,254,32"/>
-<area shape="rect" id="node5" href="$wall__bc_8f.html#a373e8f41852bba041b8e2401e0fed740" title="slipwall_rflu" alt="" coords="165,56,256,83"/>
-<area shape="rect" id="node6" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title="conv_rhs_dg" alt="" coords="337,107,433,133"/>
-<area shape="rect" id="node9" href="$convect_8f.html#afeef10dae9b9e61e439b05a116b0ab4c" title="conv_bdry_dg_weak" alt="" coords="140,208,281,235"/>
-<area shape="rect" id="node11" href="$convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title="conv_rhs_dg_weak" alt="" coords="143,157,278,184"/>
-<area shape="rect" id="node3" href="$group__isurf.html#ga01b6fc0aa838a74ba798fd1c1e9600da" title="Restrict and copy face data and compute inviscid numerical flux &#160;on face points. " alt="" coords="329,5,441,32"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="489,5,632,32"/>
-<area shape="rect" id="node7" href="$convect_8f.html#a036e0748e08b74d166f83b1a6dab88a4" title="conv_rhs" alt="" coords="523,107,598,133"/>
-<area shape="rect" id="node8" href="$convect_8f.html#a462db3d75569eb808bc6e5d8cda2c542" title="char_conv1" alt="" coords="680,107,769,133"/>
-<area shape="rect" id="node10" href="$conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="345,208,426,235"/>
-<area shape="rect" id="node12" href="$convect_8f.html#ac116aa7e82985c8c7851da63aef07c6c" title="convect_dg" alt="" coords="341,157,430,184"/>
-<area shape="rect" id="node13" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="529,157,593,184"/>
+<area shape="rect" id="node2" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title="conv_rhs_dg" alt="" coords="329,56,425,83"/>
+<area shape="rect" id="node5" href="$convect_8f.html#afeef10dae9b9e61e439b05a116b0ab4c" title="conv_bdry_dg_weak" alt="" coords="140,5,281,32"/>
+<area shape="rect" id="node7" href="$convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title="conv_rhs_dg_weak" alt="" coords="143,107,278,133"/>
+<area shape="rect" id="node3" href="$convect_8f.html#a036e0748e08b74d166f83b1a6dab88a4" title="conv_rhs" alt="" coords="473,56,548,83"/>
+<area shape="rect" id="node4" href="$convect_8f.html#a462db3d75569eb808bc6e5d8cda2c542" title="char_conv1" alt="" coords="596,56,685,83"/>
+<area shape="rect" id="node6" href="$conduct_8f.html#abc0953779481a8cff2666b1d0878c50c" title="cdscal_dg" alt="" coords="337,5,418,32"/>
+<area shape="rect" id="node8" href="$convect_8f.html#ac116aa7e82985c8c7851da63aef07c6c" title="convect_dg" alt="" coords="333,107,422,133"/>
+<area shape="rect" id="node9" href="$navier1_8f.html#a38ba376801cfa958294fae8c90db7680" title="convop" alt="" coords="479,107,543,133"/>
 </map>

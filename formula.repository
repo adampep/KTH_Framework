@@ -20,27 +20,3 @@
 \form#19:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
 \form#20:$ x_{min} = 0.02$
 \form#21:$ x_{max}=0.98$
-\form#22:$\mathbf{U}^--\{\{\mathbf{U}\}\}$
-\form#23:$\mathbf{U}^--\mathbf{U}^D$
-\form#24:$\mathscr{A}$
-\form#25:$\left(\mathscr{A}^{\mbox{NS}}+\mathscr{A}^{\mbox{EVM}}\right) $
-\form#26:$\tau_{ij}$
-\form#27:$u_j \tau_{ij}$
-\form#28:$\lambda=0$
-\form#29:$\kappa=0$
-\form#30:$\nu_s \nabla \rho$
-\form#31:$\nu_s \left(\nabla \rho \right) \otimes \mathbf{u}$
-\form#32:$\nu_s \nabla \left(\rho e\right)$
-\form#33:$\nu_s=0$
-\form#34:$ \tau_{ij}=2 \mu\sigma_{ij} + \lambda \Delta \delta_{ij}$
-\form#35:$\mathbf{E}$
-\form#36:$\mathbf{U}^-$
-\form#37:$\mathbf{U}^+$
-\form#38:$\oint \mathbf{H}^{c\ast}\cdot\mathbf{n}dA$
-\form#39:$\int_{\Gamma} \{\{\mathbf{A}^{\intercal}\nabla v\}\} \cdot \left[\mathbf{U}\right] dA$
-\form#40:$\int \left(\nabla v\right) \cdot \left(\mathbf{H}^c+\mathbf{H}^d\right)dV$
-\form#41:$\int_{\Gamma} \{\{\mathbf{A}\nabla \mathbf{U}\}\} \cdot \left[v\right] dA$
-\form#42:$\mathbf{H}^d$
-\form#43:$G^T U$
-\form#44:$\mathbf{H}^c$
-\form#45:$(\nabla v)\cdot \mathbf{H}^c=\mathcal{I}^{\intercal}\mathbf{D}^{\intercal}\cdots$

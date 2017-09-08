@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['noise_5fbox_20module',['Noise_box module',['../group__noise__box.html',1,'']]]
+  ['power_20itertion_20routines',['Power itertion routines',['../group__powerit.html',1,'']]]
 ];

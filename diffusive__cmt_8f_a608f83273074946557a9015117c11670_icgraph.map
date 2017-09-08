@@ -1,6 +1,0 @@
-<map id="a22klduldxk" name="a22klduldxk">
-<area shape="rect" id="node2" href="$diffusive__cmt_8f.html#a2c0d85531a9af69b9d464571ca530e5d" title=" Navier&#45;Stokes, so no mass diffusion. uservp provides properties. Implemented via maxima&#45;generated co..." alt="" coords="144,31,211,57"/>
-<area shape="rect" id="node3" href="$group__vfjac.html#ga9087d56c6c467d3ffeb9aa6be3f43e82" title="flux = &#160;dU = dU " alt="" coords="259,31,320,57"/>
-<area shape="rect" id="node4" href="$group__diffhvol.html#ga6d611a250fb98acf77e8a3880c0e608d" title="Volume integral for diffusive terms. Compute &#160;and store it for one element. Store faces of &#160;for IGU..." alt="" coords="368,5,464,32"/>
-<area shape="rect" id="node5" href="$group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="380,56,452,83"/>
-</map>

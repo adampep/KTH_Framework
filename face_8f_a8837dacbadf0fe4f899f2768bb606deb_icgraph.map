@@ -1,6 +1,0 @@
-<map id="add_face2full_cmt" name="add_face2full_cmt">
-<area shape="rect" id="node2" href="$group__vsurf.html#ga98d826061a0ffb225d37cb73b86a9475" title=" " alt="" coords="215,5,287,32"/>
-<area shape="rect" id="node5" href="$surface__fluxes_8f.html#a799332814e9d69e56ae5cc53dd448ebc" title="surface_integral_full" alt="" coords="181,56,320,83"/>
-<area shape="rect" id="node3" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="368,31,511,57"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="559,31,687,57"/>
-</map>

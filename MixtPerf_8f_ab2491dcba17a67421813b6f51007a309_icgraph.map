@@ -1,6 +1,0 @@
-<map id="mixtperf_g_cpr" name="mixtperf_g_cpr">
-<area shape="rect" id="node2" href="$diagnostics_8f.html#afc3dd326e6f337c3de293aadf8bc8ea0" title="out_pvar_nek" alt="" coords="175,5,275,32"/>
-<area shape="rect" id="node3" href="$drive2__cmt_8f.html#a541634afc3f3223f90a44fee7928a7fd" title="setup_cmt_param" alt="" coords="161,56,288,83"/>
-<area shape="rect" id="node4" href="$inflow__bc_8f.html#a1589101c28780064989de9d16330db70" title="bcondinflowperf" alt="" coords="168,107,281,133"/>
-<area shape="rect" id="node5" href="$inflow__bc_8f.html#af28fe263865c6ea82ff0a7f8239cd23b" title="inflow_rflu" alt="" coords="336,107,417,133"/>
-</map>

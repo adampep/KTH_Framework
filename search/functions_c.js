@@ -3,7 +3,6 @@ var searchData=
   ['natconv',['natconv',['../navier1_8f.html#a076baea623d2dfd241ddf4fdcd2f6270',1,'navier1.f']]],
   ['nek_5f_5fmulti_5fadvance',['nek__multi_advance',['../drive1_8f.html#a18d3e839786263fc4cf91f7eeb714371',1,'drive1.f']]],
   ['nek_5fadvance',['nek_advance',['../drive1_8f.html#ae177ea7efac97f35241521b782a671c0',1,'drive1.f']]],
-  ['nek_5fcmt_5finit',['nek_cmt_init',['../drive2__cmt_8f.html#a61e619e5f36fba502299223ac6513879',1,'drive2_cmt.f']]],
   ['nek_5fcomm_5fgetstat',['nek_comm_getstat',['../nek__comm_8c.html#a5da5a458397a7fb01db2a743569e9476',1,'nek_comm.c']]],
   ['nek_5fcomm_5fsettings',['nek_comm_settings',['../nek__comm_8c.html#a6bf9098686d8879b3438fb03f0a5b028',1,'nek_comm.c']]],
   ['nek_5fcomm_5fstartstat',['nek_comm_startstat',['../nek__comm_8c.html#ab30b7d62efd35884717b375fd59e2c3e',1,'nek_comm.c']]],

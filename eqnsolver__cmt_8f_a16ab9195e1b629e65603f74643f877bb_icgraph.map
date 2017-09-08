@@ -1,5 +1,0 @@
-<map id="compute_forcing" name="compute_forcing">
-<area shape="rect" id="node2" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="Compute right&#45;hand&#45;side of the semidiscrete conservation law Store it in res1. " alt="" coords="172,5,315,32"/>
-<area shape="rect" id="node3" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="363,5,491,32"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="539,5,637,32"/>
-</map>

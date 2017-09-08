@@ -1,5 +1,0 @@
-<map id="outflow_rflu" name="outflow_rflu">
-<area shape="rect" id="node2" href="$outflow__bc_8f.html#abd30028ed0448576a96bf7d28f983526" title="outflow" alt="" coords="143,5,207,32"/>
-<area shape="rect" id="node3" href="$group__bcond.html#ga5a4c471f518794eea847f35f96fe1f2b" title="Determining rind state for Dirichlet boundary conditions. " alt="" coords="255,5,335,32"/>
-<area shape="rect" id="node4" href="$group__isurf.html#ga01b6fc0aa838a74ba798fd1c1e9600da" title="Restrict and copy face data and compute inviscid numerical flux &#160;on face points. " alt="" coords="383,5,495,32"/>
-</map>

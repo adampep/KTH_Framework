@@ -1,5 +1,0 @@
-<map id="bcondoutflowperf" name="bcondoutflowperf">
-<area shape="rect" id="node2" href="$outflow__bc_8f.html#a97fe193b365ccda49446db3dab8bf08d" title="outflow_rflu" alt="" coords="175,5,264,32"/>
-<area shape="rect" id="node3" href="$outflow__bc_8f.html#abd30028ed0448576a96bf7d28f983526" title="outflow" alt="" coords="312,5,376,32"/>
-<area shape="rect" id="node4" href="$group__bcond.html#ga5a4c471f518794eea847f35f96fe1f2b" title="Determining rind state for Dirichlet boundary conditions. " alt="" coords="424,5,504,32"/>
-</map>

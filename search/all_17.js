@@ -1,9 +1,6 @@
 var searchData=
 [
   ['w',['W',['../structcrs__data.html#ab2461d15d61230e397e2ad65c3331141',1,'crs_data::W()'],['../structref__lagrange__data.html#a80c98188e7cb1766a329037b3bedab5e',1,'ref_lagrange_data::w()']]],
-  ['wall_5fbc_2ef',['wall_bc.f',['../wall__bc_8f.html',1,'']]],
-  ['wallbc2',['wallbc2',['../wall__bc_8f.html#a00a68892dcc16c26b700fff4458dee8e',1,'wall_bc.f']]],
-  ['wallbc_5finviscid',['wallbc_inviscid',['../wall__bc_8f.html#a6954f635b7c17a3630d9fbc50acb2c17',1,'wall_bc.f']]],
   ['wgradm1',['wgradm1',['../navier1_8f.html#a6d3df5bfd9eeabae524e4da76ac13c51',1,'navier1.f']]],
   ['whatfld',['whatfld',['../turb_8f.html#a45430c9104dd0d66557704f2c3319472',1,'turb.f']]],
   ['when_5f3d',['WHEN_3D',['../findpts_8c.html#af4907b556619dd039c8152cbc6bf2cfc',1,'WHEN_3D():&#160;findpts.c'],['../findpts_8c.html#af4907b556619dd039c8152cbc6bf2cfc',1,'WHEN_3D():&#160;findpts.c'],['../findpts__local_8c.html#af4907b556619dd039c8152cbc6bf2cfc',1,'WHEN_3D():&#160;findpts_local.c'],['../findpts__local_8c.html#af4907b556619dd039c8152cbc6bf2cfc',1,'WHEN_3D():&#160;findpts_local.c']]],

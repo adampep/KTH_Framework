@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['utility_20functions_20for_20manipulating_20face_20data',['utility functions for manipulating face data',['../group__faceops.html',1,'']]],
   ['u0',['u0',['../structref__lagrange__data.html#a71084bad405ba59322ccb71905b9e34c',1,'ref_lagrange_data']]],
   ['u1',['u1',['../structref__lagrange__data.html#a8b35f112e77b1e71143b7327134de5e8',1,'ref_lagrange_data']]],
   ['u2',['u2',['../structref__lagrange__data.html#aed7d986432a16bc49a9c5468e58befed',1,'ref_lagrange_data']]],
@@ -27,8 +26,6 @@ var searchData=
   ['urst',['urst',['../subs1_8f.html#afc60c4d0a0e2a2a65de26a48a2bdb5f1',1,'subs1.f']]],
   ['use_5fhw_5fcounter',['USE_HW_COUNTER',['../findpts__el__2__test2_8c.html#a3d21fc79d3118ba2a70295235a2910d8',1,'USE_HW_COUNTER():&#160;findpts_el_2_test2.c'],['../findpts__el__3__test2_8c.html#a3d21fc79d3118ba2a70295235a2910d8',1,'USE_HW_COUNTER():&#160;findpts_el_3_test2.c'],['../poly__test2_8c.html#a3d21fc79d3118ba2a70295235a2910d8',1,'USE_HW_COUNTER():&#160;poly_test2.c']]],
   ['userchk_5fset_5fxfer',['userchk_set_xfer',['../multimesh_8f.html#a0960e928ef8c9884daa9faa261b9ebb8',1,'userchk_set_xfer:&#160;multimesh.f'],['../singlmesh_8f.html#a0960e928ef8c9884daa9faa261b9ebb8',1,'userchk_set_xfer:&#160;singlmesh.f']]],
-  ['userfilt',['userfilt',['../filters__cmt_8f.html#a8624d1039df152edb6bd5527674123f5',1,'filters_cmt.f']]],
-  ['userfilt_5fbubble',['userfilt_bubble',['../filters__cmt_8f.html#a9a115372e76c03bc25efbf431a2669d3',1,'filters_cmt.f']]],
   ['userqtl_5fscig',['userqtl_scig',['../plan4_8f.html#a2a58ef58c4513d56903b075defcf0314',1,'plan4.f']]],
   ['utility_20module',['Utility module',['../group__utility.html',1,'']]],
   ['uxyz',['uxyz',['../subs1_8f.html#ad07dd16f55bb8bcb730413f4dab5425d',1,'subs1.f']]],

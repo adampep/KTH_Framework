@@ -18,7 +18,6 @@ var searchData=
   ['ndim',['ndim',['../structhandle.html#a7cd5b097ec909a993b8cd4e0c5124b5a',1,'handle']]],
   ['nek_5f_5fmulti_5fadvance',['nek__multi_advance',['../drive1_8f.html#a18d3e839786263fc4cf91f7eeb714371',1,'drive1.f']]],
   ['nek_5fadvance',['nek_advance',['../drive1_8f.html#ae177ea7efac97f35241521b782a671c0',1,'drive1.f']]],
-  ['nek_5fcmt_5finit',['nek_cmt_init',['../drive2__cmt_8f.html#a61e619e5f36fba502299223ac6513879',1,'drive2_cmt.f']]],
   ['nek_5fcomm_2ec',['nek_comm.c',['../nek__comm_8c.html',1,'']]],
   ['nek_5fcomm_5fgetstat',['nek_comm_getstat',['../nek__comm_8c.html#a3dfc59a9f266a56108f849d783074816',1,'nek_comm_getstat():&#160;nek_comm.c'],['../nek__comm_8c.html#a5da5a458397a7fb01db2a743569e9476',1,'nek_comm_getstat(double *timer, int *counter):&#160;nek_comm.c']]],
   ['nek_5fcomm_5fsettings',['nek_comm_settings',['../nek__comm_8c.html#a8eef6edde31174e8ebcf13aeddef1e18',1,'nek_comm_settings():&#160;nek_comm.c'],['../nek__comm_8c.html#a6bf9098686d8879b3438fb03f0a5b028',1,'nek_comm_settings(int *sync, int *timing):&#160;nek_comm.c']]],

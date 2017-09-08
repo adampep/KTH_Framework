@@ -1,7 +1,0 @@
-<map id="outflow" name="outflow">
-<area shape="rect" id="node2" href="$outflow__bc_8f.html#a97fe193b365ccda49446db3dab8bf08d" title="outflow_rflu" alt="" coords="117,56,207,83"/>
-<area shape="rect" id="node3" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="287,5,344,32"/>
-<area shape="rect" id="node4" href="$bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="280,56,351,83"/>
-<area shape="rect" id="node5" href="$outflow__bc_8f.html#a52d692beffa8873b023900968d713a1c" title="bcondoutflowperf" alt="" coords="255,107,376,133"/>
-<area shape="rect" id="node6" href="$MixtPerf_8f.html#a7f1f511e0c269df91fc75b671c5a05dd" title="mixtperf_p_deogvm2" alt="" coords="424,107,567,133"/>
-</map>
