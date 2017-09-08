@@ -1,8 +1,0 @@
-<map id="slatrd" name="slatrd">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#abe0745849954ad2106e633fd2ebfc920" title="saxpy" alt="" coords="110,5,167,32"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#afc92361b74c6d41c7e5afa0aa5d13ec9" title="sgemv" alt="" coords="108,56,169,83"/>
-<area shape="rect" id="node5" href="$ssygv_8f.html#a1c10a1adfa35b2d5ea15e801287a6a38" title="slarfg" alt="" coords="111,157,166,184"/>
-<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="219,171,273,197"/>
-<area shape="rect" id="node7" href="$core_23rd__party_2blas_8f.html#abbe9933ddf6f0137156d4f2491f2afdb" title="ssymv" alt="" coords="108,107,169,133"/>
-<area shape="rect" id="node4" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="217,95,275,121"/>
-</map>

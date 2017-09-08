@@ -1,9 +1,0 @@
-<map id="movec" name="movec">
-<area shape="rect" id="node2" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="115,107,169,133"/>
-<area shape="rect" id="node3" href="$postnek_2xinterface_8f.html#a22eca17c14bd8636f3cae9df2af7bda8" title="movesc" alt="" coords="217,56,285,83"/>
-<area shape="rect" id="node7" href="$postnek_2plot_8f.html#a7c5267c7b190489d891d2251b0661e11" title="xscr" alt="" coords="228,107,275,133"/>
-<area shape="rect" id="node8" href="$postnek_2plot_8f.html#ac1101d6cdf0422a116a79b4da4cb5947" title="yscr" alt="" coords="228,157,275,184"/>
-<area shape="rect" id="node4" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="348,5,387,32"/>
-<area shape="rect" id="node5" href="$postnek_2xinterface_8f.html#aae51c0482b994611d7a882c59204835f" title="scoordx" alt="" coords="333,56,401,83"/>
-<area shape="rect" id="node6" href="$postnek_2xinterface_8f.html#a910f02566c930fd32f763e48d2435501" title="scoordy" alt="" coords="333,107,401,133"/>
-</map>

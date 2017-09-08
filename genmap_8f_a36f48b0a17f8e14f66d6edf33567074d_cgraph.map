@@ -1,6 +1,0 @@
-<map id="out_mapfile" name="out_mapfile">
-<area shape="rect" id="node2" href="$genmap_8f.html#a1b88ad076aa8db95166ff9bdeb33d3c7" title="dmp_mapfile" alt="" coords="143,31,239,57"/>
-<area shape="rect" id="node5" href="$math_8f.html#a73058ab7dcbe8aa40dbbd6ffe547b1c9" title="log2" alt="" coords="167,81,214,108"/>
-<area shape="rect" id="node3" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="287,5,351,32"/>
-<area shape="rect" id="node4" href="$math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="291,56,346,83"/>
-</map>

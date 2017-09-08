@@ -1,7 +1,0 @@
-<map id="ivec_xor" name="ivec_xor">
-<area shape="rect" id="node2" href="$tools_2postnek_2gs_8c.html#a866abcad4c3cad0347354ad08db1e212" title="gs_init" alt="" coords="539,5,599,32"/>
-<area shape="rect" id="node4" href="$ivec_8c.html#a44331a0190933cf03f1ab89f6767608a" title="ivec_non_uniform" alt="" coords="124,31,248,57"/>
-<area shape="rect" id="node5" href="$ivec_8c.html#aa60f2b02003e0d5aff4ec5871d1b5c5c" title="ivec_fct_addr" alt="" coords="296,31,396,57"/>
-<area shape="rect" id="node3" href="$tools_2postnek_2gs_8c.html#aa4cf961de147c1f5f8f41355261eb7af" title="gs_init_" alt="" coords="647,5,713,32"/>
-<area shape="rect" id="node6" href="$tools_2postnek_2comm_8c.html#ac2fdfb38c374046b2e7edf87b2ad7799" title="giop" alt="" coords="444,31,491,57"/>
-</map>

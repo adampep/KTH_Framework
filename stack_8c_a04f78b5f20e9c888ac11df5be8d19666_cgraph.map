@@ -1,8 +1,0 @@
-<map id="push" name="push">
-<area shape="rect" id="node2" href="$bss__malloc_8c.html#a45f274d6d8b94f901565f5bc87faf7ca" title="bss_malloc" alt="" coords="104,56,192,83"/>
-<area shape="rect" id="node3" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="250,5,362,32"/>
-<area shape="rect" id="node6" href="$error_8c.html#acd5ba534263bf658c108027dc25bc010" title="error_msg_warning" alt="" coords="240,56,372,83"/>
-<area shape="rect" id="node7" href="$bss__malloc_8c.html#a7ac38fce3243a7dcf448301ee9ffd392" title="malloc" alt="" coords="276,107,336,133"/>
-<area shape="rect" id="node4" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="420,5,539,32"/>
-<area shape="rect" id="node5" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="454,56,505,83"/>
-</map>

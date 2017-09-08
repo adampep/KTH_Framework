@@ -1,9 +1,0 @@
-<map id="getr3" name="getr3">
-<area shape="rect" id="node2" href="$core_2genbox_8f.html#a9f998f04f0ef96bc4e45e2f132a66dd7" title="getbox" alt="" coords="105,31,167,57"/>
-<area shape="rect" id="node8" href="$tools_2genbox_2genbox_8f.html#a6c373b5c2005c4027a03c6638bdb45e3" title="# #======================================================== comments# This is the set of box data for..." alt="" coords="104,81,168,108"/>
-<area shape="rect" id="node3" href="$core_2genbox_8f.html#a159491ffe042c6ec9e7f1f5de0fcf5cd" title="genbox" alt="" coords="232,5,296,32"/>
-<area shape="rect" id="node5" href="$int__tp__gbox_8f.html#af6b21edf9a594fd75ccf8863d716c314" title="get_gen_box" alt="" coords="216,56,312,83"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="394,5,453,32"/>
-<area shape="rect" id="node6" href="$int__tp_8f.html#a0fb768abe2db92586a091ef64a8cd7c4" title="int_tp" alt="" coords="396,56,451,83"/>
-<area shape="rect" id="node7" href="$int__tp_8f.html#aa0d4a0b9b0ddfb3407b9105c2f9ed9f8" title="get_gen_box_new" alt="" coords="360,107,487,133"/>
-</map>

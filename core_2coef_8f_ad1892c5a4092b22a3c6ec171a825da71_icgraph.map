@@ -1,7 +1,0 @@
-<map id="area2" name="area2">
-<area shape="rect" id="node2" href="$core_2coef_8f.html#a1c4499ad278bab596a1b4c978fa79ea8" title="setarea" alt="" coords="108,56,173,83"/>
-<area shape="rect" id="node3" href="$core_2coef_8f.html#aea7fbfba708ba55609135adf3064f1c3" title="geodat1" alt="" coords="221,31,289,57"/>
-<area shape="rect" id="node6" href="$tools_2postnek_2coef_8f.html#a39520fb9d386da9befb72e1a8d9e655c" title="geom1" alt="" coords="225,81,286,108"/>
-<area shape="rect" id="node4" href="$core_2coef_8f.html#a8cbb48eee5edaf128d65bb31ac49c3ff" title="geom1" alt="" coords="360,5,421,32"/>
-<area shape="rect" id="node5" href="$cvode__driver_8f.html#a365f4a5b0accedd6fda56ba6be129643" title="cv_eval_geom" alt="" coords="337,56,444,83"/>
-</map>

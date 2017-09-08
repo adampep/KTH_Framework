@@ -1,9 +1,0 @@
-<map id="exitt0" name="exitt0">
-<area shape="rect" id="node2" href="$navier8_8f.html#a7b711f52527072521e8670492a58ed16" title="get_vert_map" alt="" coords="108,107,209,133"/>
-<area shape="rect" id="node3" href="$navier8_8f.html#a3126acd6d2b7a3e63f6f0329d5bae424" title="get_vert" alt="" coords="257,107,327,133"/>
-<area shape="rect" id="node4" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="401,5,487,32"/>
-<area shape="rect" id="node5" href="$hsmg_8f.html#ae0fd4b116048f3b3c3efe9116ae63a58" title="hsmg_setup_dssum" alt="" coords="375,56,513,83"/>
-<area shape="rect" id="node6" href="$hsmg_8f.html#af4bdfbdcb8eeccc615c574ca02e629a9" title="h1mg_setup_dssum" alt="" coords="375,107,513,133"/>
-<area shape="rect" id="node7" href="$map2_8f.html#a13d7dde54ee02508285dda66f7def6bf" title="get_map" alt="" coords="408,157,480,184"/>
-<area shape="rect" id="node8" href="$navier8_8f.html#a3c68a6cfc47f9c2602ab5029cae20ac8" title="get_vertex" alt="" coords="403,208,485,235"/>
-</map>

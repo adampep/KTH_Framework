@@ -1,8 +1,0 @@
-<map id="bss_malloc" name="bss_malloc">
-<area shape="rect" id="node2" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="151,56,263,83"/>
-<area shape="rect" id="node6" href="$error_8c.html#acd5ba534263bf658c108027dc25bc010" title="error_msg_warning" alt="" coords="141,5,273,32"/>
-<area shape="rect" id="node7" href="$bss__malloc_8c.html#a7ac38fce3243a7dcf448301ee9ffd392" title="malloc" alt="" coords="177,107,237,133"/>
-<area shape="rect" id="node3" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="355,5,406,32"/>
-<area shape="rect" id="node4" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="321,56,440,83"/>
-<area shape="rect" id="node5" href="$prenek_8f.html#ae44e3fff1eecf95252efbb1abfb76a40" title="exit" alt="" coords="488,56,531,83"/>
-</map>

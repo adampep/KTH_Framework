@@ -1,7 +1,0 @@
-<map id="do_rep_rotate_meshg" name="do_rep_rotate_meshg">
-<area shape="rect" id="node2" href="$build2_8f.html#a5df333cdc73ae8462475cfeb49921540" title="build_corner_mesh" alt="" coords="200,5,331,32"/>
-<area shape="rect" id="node5" href="$build2_8f.html#a267ceb910c4bb60802d9367bf47447e6" title="build_center_mesh" alt="" coords="200,56,331,83"/>
-<area shape="rect" id="node6" href="$build2_8f.html#a6673721e729438ac358f58843dd1e0cd" title="fcc_base" alt="" coords="228,107,303,133"/>
-<area shape="rect" id="node3" href="$build2_8f.html#a136c836722e90b6ae59d63b10b7afb82" title="fcc2" alt="" coords="379,56,425,83"/>
-<area shape="rect" id="node4" href="$build2_8f.html#af5997c6efa25654d63450e7cd200d3dc" title="sphmesh" alt="" coords="473,56,548,83"/>
-</map>

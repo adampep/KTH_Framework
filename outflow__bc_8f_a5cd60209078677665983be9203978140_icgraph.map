@@ -1,5 +1,0 @@
-<map id="outflow_rflu" name="outflow_rflu">
-<area shape="rect" id="node2" href="$outflow__bc_8f.html#a612ede8af5852659206ba91602c93b8c" title="outflow" alt="" coords="143,5,207,32"/>
-<area shape="rect" id="node3" href="$surface__fluxes_8f.html#a0c7f45ae75e5a08dc4393b8b68594d79" title="inviscidflux" alt="" coords="255,5,341,32"/>
-<area shape="rect" id="node4" href="$surface__fluxes_8f.html#a01b6fc0aa838a74ba798fd1c1e9600da" title="fluxes_full_field" alt="" coords="389,5,501,32"/>
-</map>

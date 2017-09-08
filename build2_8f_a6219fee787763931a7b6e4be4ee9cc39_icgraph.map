@@ -1,7 +1,0 @@
-<map id="sc_std_shell" name="sc_std_shell">
-<area shape="rect" id="node2" href="$build2_8f.html#a8a0d3b8a38e5c272613d70e0e15affba" title="skin_fcc_spheres" alt="" coords="148,5,272,32"/>
-<area shape="rect" id="node5" href="$build2_8f.html#a6673721e729438ac358f58843dd1e0cd" title="fcc_base" alt="" coords="173,56,247,83"/>
-<area shape="rect" id="node6" href="$build2_8f.html#a370762ce31a4b35925e3c3ee6e69f41b" title="sc_make_sphere_cap" alt="" coords="320,107,469,133"/>
-<area shape="rect" id="node3" href="$build2_8f.html#a136c836722e90b6ae59d63b10b7afb82" title="fcc2" alt="" coords="371,56,418,83"/>
-<area shape="rect" id="node4" href="$build2_8f.html#af5997c6efa25654d63450e7cd200d3dc" title="sphmesh" alt="" coords="517,81,592,108"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="irank_vecx" name="irank_vecx">
-<area shape="rect" id="node2" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="157,5,203,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="269,107,323,133"/>
-<area shape="rect" id="node4" href="$navier8_8f.html#a05f99aec875f63f8db64d774836f2902" title="irank" alt="" coords="155,107,205,133"/>
-<area shape="rect" id="node5" href="$navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title="ituple_sort" alt="" coords="139,157,221,184"/>
-</map>

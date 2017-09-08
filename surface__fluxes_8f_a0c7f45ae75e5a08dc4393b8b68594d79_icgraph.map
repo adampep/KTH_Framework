@@ -1,5 +1,0 @@
-<map id="inviscidflux" name="inviscidflux">
-<area shape="rect" id="node2" href="$surface__fluxes_8f.html#a01b6fc0aa838a74ba798fd1c1e9600da" title="fluxes_full_field" alt="" coords="140,5,252,32"/>
-<area shape="rect" id="node3" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="300,5,443,32"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="491,5,619,32"/>
-</map>

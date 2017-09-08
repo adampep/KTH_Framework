@@ -1,7 +1,0 @@
-<map id="overlap" name="overlap">
-<area shape="rect" id="node2" href="$bound_8f.html#a39ba9e857a71ba8b30df6225a46af109" title="inflow" alt="" coords="121,5,177,32"/>
-<area shape="rect" id="node3" href="$bound_8f.html#ab464c1db26a4f8f539a1717864537474" title="chkbcs" alt="" coords="117,56,181,83"/>
-<area shape="rect" id="node6" href="$bound_8f.html#aba9a67d56085ab4fbc87a0e009aaf19f" title="set_bc_fld" alt="" coords="240,107,323,133"/>
-<area shape="rect" id="node4" href="$bound_8f.html#a9de4ae73f2b98e5aca13f66a414ea658" title="first_bc_menu" alt="" coords="229,56,333,83"/>
-<area shape="rect" id="node5" href="$bound_8f.html#ab02e25c0a8c1925400b2e11838bd4875" title="bound" alt="" coords="381,81,439,108"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="iglmin" name="iglmin">
-<area shape="rect" id="node2" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="109,56,165,83"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="213,56,260,83"/>
-<area shape="rect" id="node4" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="336,5,383,32"/>
-<area shape="rect" id="node5" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="333,56,386,83"/>
-<area shape="rect" id="node6" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="308,107,411,133"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="checkpoint_main" name="checkpoint_main">
-<area shape="rect" id="node2" href="$group__chkptdummy.html#ga33b867c374d795e500c69afb551570dd" title="Dummy replacement for checkpoint initialisation. " alt="" coords="179,5,257,32"/>
-<area shape="rect" id="node3" href="$group__chkptdummy.html#ga9f88246cb6529ff88cd348b02c82d117" title="Dummy replacement for checkpoint reader. " alt="" coords="175,56,261,83"/>
-<area shape="rect" id="node4" href="$group__chkptdummy.html#gad7c7056df188476c007a133155c1f82b" title="Dummy replacement for checkpoint writer. " alt="" coords="173,107,263,133"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="drwobj_dash" name="drwobj_dash">
-<area shape="rect" id="node2" href="$math_8f.html#a18da186617e323c027aa36f56343e400" title="mod1" alt="" coords="149,31,204,57"/>
-<area shape="rect" id="node3" href="$postnek_2plot_8f.html#a793aa91ed5b51eab3531f2cbf03a6b08" title="vdraw" alt="" coords="148,81,205,108"/>
-<area shape="rect" id="node4" href="$postnek_2screen_8f.html#acdfe213353b4ebf2533017b5b1034acf" title="drawc" alt="" coords="255,56,313,83"/>
-<area shape="rect" id="node8" href="$postnek_2screen_8f.html#a3e45780304d09016ede43bfed04b87ad" title="movec" alt="" coords="253,107,315,133"/>
-<area shape="rect" id="node5" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="370,5,410,32"/>
-<area shape="rect" id="node6" href="$postnek_2xinterface_8f.html#a3a5a1a06a63d2f4da08eacd2ad4e12e2" title="draw" alt="" coords="365,56,415,83"/>
-<area shape="rect" id="node7" href="$postnek_2xinterface_8f.html#af4175a8271d4629a40d42ae159daac36" title="move" alt="" coords="363,107,417,133"/>
-</map>

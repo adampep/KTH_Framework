@@ -1,8 +1,0 @@
-<map id="gs_smooth" name="gs_smooth">
-<area shape="rect" id="node2" href="$connect2_8f.html#a6e862f603b59c81091476a690c5e94ee" title="scale" alt="" coords="140,107,193,133"/>
-<area shape="rect" id="node3" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="248,5,305,32"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="360,56,403,83"/>
-<area shape="rect" id="node5" href="$connect2_8f.html#a15434c453b53c83ba2cb2a768d35085e" title="inrtia" alt="" coords="251,107,302,133"/>
-<area shape="rect" id="node6" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="251,157,302,184"/>
-<area shape="rect" id="node7" href="$connect2_8f.html#a87e4cf77e2fcb243172fa8da88d5dfae" title="volume2" alt="" coords="241,208,312,235"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="parse" name="parse">
-<area shape="rect" id="node2" href="$postnek_2plot_8f.html#a159c5291cde9c380d24fb191f62138d3" title="setenv" alt="" coords="108,107,169,133"/>
-<area shape="rect" id="node3" href="$postnek_8f.html#a1b4c125e76b4beacaacb5d117d9b7e95" title="init" alt="" coords="217,107,256,133"/>
-<area shape="rect" id="node4" href="$fcrystal_8c.html#a59119af37c72c604d33ef4ed59afe43e" title="fcrystal_tuple_sort" alt="" coords="304,5,433,32"/>
-<area shape="rect" id="node5" href="$rand__elt__test_8h.html#a741155f41c0d80b6673bc16bf0cf492b" title="rand_elt_2" alt="" coords="327,56,410,83"/>
-<area shape="rect" id="node6" href="$rand__elt__test_8h.html#a7e0c3234e8e6e5294681b3d77b8e54d3" title="rand_elt_3" alt="" coords="327,107,410,133"/>
-<area shape="rect" id="node7" href="$postnek_8f.html#ad8f315d1ee5a67ef74befe776d30f8b6" title="fprep" alt="" coords="343,157,394,184"/>
-<area shape="rect" id="node8" href="$postnek_2revert_8c.html#af0be2e5dab0ebaa304e0c0aebcc812eb" title="revert_" alt="" coords="337,208,400,235"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="nekmoab_bc" name="nekmoab_bc">
-<area shape="rect" id="node2" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title="ifill" alt="" coords="185,5,224,32"/>
-<area shape="rect" id="node3" href="$moab_8f.html#ab29e8aa0ab168a4437c1c0da8d7cbd35" title="nekmoab_intbc" alt="" coords="149,56,260,83"/>
-<area shape="rect" id="node4" href="$navier6_8f.html#a9c336891752779ff2304c574e0f9269d" title="faces" alt="" coords="343,31,397,57"/>
-<area shape="rect" id="node6" href="$moab_8f.html#a1e1f9e911738a65aac335901667a17c8" title="nekmoab_getelno" alt="" coords="308,81,432,108"/>
-<area shape="rect" id="node5" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="525,31,583,57"/>
-<area shape="rect" id="node7" href="$moab_8f.html#a58b617e3986b4f113ce6fcc09762b508" title="nekmoab_getglobelno" alt="" coords="480,81,628,108"/>
-</map>

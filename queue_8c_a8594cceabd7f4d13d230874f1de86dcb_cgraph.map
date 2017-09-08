@@ -1,8 +1,0 @@
-<map id="free_queue" name="free_queue">
-<area shape="rect" id="node2" href="$bss__malloc_8c.html#a7cdf3d7d573c9b7194c2466aa85e5f9a" title="bss_free" alt="" coords="160,5,232,32"/>
-<area shape="rect" id="node3" href="$error_8c.html#acd5ba534263bf658c108027dc25bc010" title="error_msg_warning" alt="" coords="300,31,432,57"/>
-<area shape="rect" id="node5" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="140,107,252,133"/>
-<area shape="rect" id="node4" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="480,56,531,83"/>
-<area shape="rect" id="node6" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="307,132,425,159"/>
-<area shape="rect" id="node7" href="$prenek_8f.html#ae44e3fff1eecf95252efbb1abfb76a40" title="exit" alt="" coords="484,132,527,159"/>
-</map>

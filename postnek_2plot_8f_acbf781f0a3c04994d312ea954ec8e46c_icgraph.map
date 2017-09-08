@@ -1,9 +1,0 @@
-<map id="data" name="data">
-<area shape="rect" id="node2" href="$crs_8h.html#a2f774436927099a90b42fcf74d96f671" title="crs_setup" alt="" coords="114,5,193,32"/>
-<area shape="rect" id="node3" href="$crystal__test_8c.html#a8be6e60ea81f191308e3638d3b2f6fe0" title="main" alt="" coords="128,56,179,83"/>
-<area shape="rect" id="node4" href="$lob__bnd_8h.html#a95582ae8cc89b45d8772b2b729a3c558" title="lob_bnd_setup" alt="" coords="100,107,207,133"/>
-<area shape="rect" id="node5" href="$obbox_8h.html#a9732d1196730c53ce3686b929df4afeb" title="obbox_calc_2" alt="" coords="102,157,205,184"/>
-<area shape="rect" id="node6" href="$obbox_8h.html#a45242dea7fc1ee231405659e41aebec9" title="obbox_calc_3" alt="" coords="102,208,205,235"/>
-<area shape="rect" id="node7" href="$poly_8h.html#ab0af6a78da859f7b3c1d37a75cbce790" title="gll_lag_setup" alt="" coords="104,259,203,285"/>
-<area shape="rect" id="node8" href="$postnek_8f.html#ad8f315d1ee5a67ef74befe776d30f8b6" title="fprep" alt="" coords="128,309,179,336"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="dia_sdle" name="dia_sdle">
-<area shape="rect" id="node2" href="$build2_8f.html#aa9c08bc8b76115bc0c439e2c35697cc2" title="build_dia_saddle" alt="" coords="124,56,243,83"/>
-<area shape="rect" id="node3" href="$build2_8f.html#a18a78f03a61819022b60f5d5a00c60bb" title="saddle_dia" alt="" coords="291,5,375,32"/>
-<area shape="rect" id="node5" href="$build2_8f.html#a426f5f4a0a6df097ff13891f2596948d" title="saddle_lat" alt="" coords="293,56,374,83"/>
-<area shape="rect" id="node6" href="$build2_8f.html#a7e82cd5faad37ef5ce85bc74a78c259d" title="saddle_fcc" alt="" coords="291,107,376,133"/>
-<area shape="rect" id="node4" href="$build2_8f.html#af5997c6efa25654d63450e7cd200d3dc" title="sphmesh" alt="" coords="424,31,499,57"/>
-</map>

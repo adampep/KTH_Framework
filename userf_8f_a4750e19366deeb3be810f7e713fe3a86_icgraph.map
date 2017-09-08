@@ -1,9 +1,0 @@
-<map id="integrate_uut" name="integrate_uut">
-<area shape="rect" id="node2" href="$userf_8f.html#af77420c7a1b992e779d16fa370a7a808" title="compute_miles" alt="" coords="151,56,261,83"/>
-<area shape="rect" id="node8" href="$userf_8f.html#a98dabf644c2205c87100618397890568" title="compute_miles3" alt="" coords="523,132,640,159"/>
-<area shape="rect" id="node3" href="$postnek_8f.html#ad8f315d1ee5a67ef74befe776d30f8b6" title="fprep" alt="" coords="556,5,607,32"/>
-<area shape="rect" id="node4" href="$userf_8f.html#af906b58a8a6d3347811d144d8c28fb9a" title="userf" alt="" coords="309,81,360,108"/>
-<area shape="rect" id="node5" href="$eqnsolver__cmt_8f.html#aa10e48ce3eda6377da8f35c3287fc72c" title="cmtusrf" alt="" coords="408,183,475,209"/>
-<area shape="rect" id="node6" href="$navier1_8f.html#acfa4c928e27d1e43ed8622586e4ed7e8" title="nekuf" alt="" coords="414,81,469,108"/>
-<area shape="rect" id="node7" href="$postnek3_8f.html#aea8985289cde0d55cc438c3f701a6d6d" title="setwrk" alt="" coords="411,31,472,57"/>
-</map>

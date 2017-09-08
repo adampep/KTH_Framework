@@ -1,8 +1,0 @@
-<map id="octsplite" name="octsplite">
-<area shape="rect" id="node2" href="$build2_8f.html#a525eddf298e121a1f3a0fb186e9f87d9" title="octquad_split_submesh" alt="" coords="124,81,283,108"/>
-<area shape="rect" id="node3" href="$build2_8f.html#a5df333cdc73ae8462475cfeb49921540" title="build_corner_mesh" alt="" coords="331,5,461,32"/>
-<area shape="rect" id="node5" href="$build2_8f.html#a267ceb910c4bb60802d9367bf47447e6" title="build_center_mesh" alt="" coords="331,56,461,83"/>
-<area shape="rect" id="node6" href="$build2_8f.html#a8a0d3b8a38e5c272613d70e0e15affba" title="skin_fcc_spheres" alt="" coords="334,107,458,133"/>
-<area shape="rect" id="node7" href="$build2_8f.html#a6673721e729438ac358f58843dd1e0cd" title="fcc_base" alt="" coords="359,157,433,184"/>
-<area shape="rect" id="node4" href="$build2_8f.html#a136c836722e90b6ae59d63b10b7afb82" title="fcc2" alt="" coords="509,81,556,108"/>
-</map>

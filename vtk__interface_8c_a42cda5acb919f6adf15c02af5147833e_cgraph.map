@@ -1,9 +1,0 @@
-<map id="set_vtk_cells_" name="set_vtk_cells_">
-<area shape="rect" id="node2" href="$bss__malloc_8c.html#a7cdf3d7d573c9b7194c2466aa85e5f9a" title="bss_free" alt="" coords="168,5,240,32"/>
-<area shape="rect" id="node5" href="$bss__malloc_8c.html#a45f274d6d8b94f901565f5bc87faf7ca" title="bss_malloc" alt="" coords="160,56,248,83"/>
-<area shape="rect" id="node3" href="$error_8c.html#acd5ba534263bf658c108027dc25bc010" title="error_msg_warning" alt="" coords="296,5,428,32"/>
-<area shape="rect" id="node4" href="$lanczos_8c.html#a6ae2aa8511ac2b89b9f18965ab4a94ca" title="printf" alt="" coords="510,5,561,32"/>
-<area shape="rect" id="node6" href="$error_8c.html#a3b38cb4dbf12ec46940bb55f3f2f57e4" title="error_msg_fatal" alt="" coords="306,56,418,83"/>
-<area shape="rect" id="node8" href="$bss__malloc_8c.html#a7ac38fce3243a7dcf448301ee9ffd392" title="malloc" alt="" coords="332,107,392,133"/>
-<area shape="rect" id="node7" href="$tools_2postnek_2comm_8c.html#adb88f5d22a7089d3e8a490fbc0148d1f" title="comm_terminate" alt="" coords="476,56,595,83"/>
-</map>

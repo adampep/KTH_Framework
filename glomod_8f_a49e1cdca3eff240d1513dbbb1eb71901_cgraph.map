@@ -1,6 +1,0 @@
-<map id="get_jac2d" name="get_jac2d">
-<area shape="rect" id="node2" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="133,5,188,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="137,56,184,83"/>
-<area shape="rect" id="node4" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="135,107,186,133"/>
-<area shape="rect" id="node5" href="$math_8f.html#a77c801497edba9cfca69fc6f8fe6f5b1" title="vlsum" alt="" coords="132,157,189,184"/>
-</map>

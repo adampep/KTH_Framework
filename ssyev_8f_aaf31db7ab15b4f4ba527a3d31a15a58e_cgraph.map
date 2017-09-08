@@ -1,9 +1,0 @@
-<map id="spotrf" name="spotrf">
-<area shape="rect" id="node2" href="$core_23rd__party_2blas_8f.html#afe51bacb54592ff5de056acabd83c260" title="sgemm" alt="" coords="215,5,280,32"/>
-<area shape="rect" id="node3" href="$core_23rd__party_2blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="328,132,385,159"/>
-<area shape="rect" id="node4" href="$ssygv_8f.html#a7f69d6c757d6063b7827c88ec912d4f0" title="spotf2" alt="" coords="108,157,167,184"/>
-<area shape="rect" id="node7" href="$core_23rd__party_2blas_8f.html#ae953a93420ca237670f5c67bbde9d9ff" title="ssyrk" alt="" coords="110,220,165,247"/>
-<area shape="rect" id="node8" href="$core_23rd__party_2blas_8f.html#a9893cceb3ffc7ce400eee405970191b3" title="strsm" alt="" coords="110,296,165,323"/>
-<area shape="rect" id="node5" href="$core_23rd__party_2blas_8f.html#afc92361b74c6d41c7e5afa0aa5d13ec9" title="sgemv" alt="" coords="217,157,278,184"/>
-<area shape="rect" id="node6" href="$core_23rd__party_2blas_8f.html#a3b80044a9dbfcbdcb06e48352ee8d64e" title="sscal" alt="" coords="221,208,274,235"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="irank_vec" name="irank_vec">
-<area shape="rect" id="node2" href="$locglob_8f.html#a0478fdaaf36bdcbaef124efb329f65b0" title="setvert3d" alt="" coords="132,5,208,32"/>
-<area shape="rect" id="node3" href="$postnek8_8f.html#a986da356519d79de1a001165a0b94149" title="face_id" alt="" coords="138,56,202,83"/>
-<area shape="rect" id="node4" href="$postnek8_8f.html#ae1845e92945819a9bc76a8db16d23994" title="surfchk" alt="" coords="475,31,541,57"/>
-<area shape="rect" id="node6" href="$postnek8_8f.html#a47990a731afce79837ba1131bf9d98f6" title="build_surface_pointers" alt="" coords="256,81,408,108"/>
-<area shape="rect" id="node5" href="$postnek_8f.html#ad8f315d1ee5a67ef74befe776d30f8b6" title="fprep" alt="" coords="608,56,659,83"/>
-<area shape="rect" id="node7" href="$postnek8_8f.html#a149a0d1a3860697e98a0f52b27299f00" title="set_surf_layer" alt="" coords="456,81,560,108"/>
-</map>

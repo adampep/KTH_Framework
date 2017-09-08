@@ -1,25 +1,25 @@
-\form#0:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
-\form#1:$ x_{min} = 0.02$
-\form#2:$ x_{max}=0.98$
-\form#3:\[ \vec F = \lambda(x) \left( \vec U - \vec u\right),\]
-\form#4:$ \lambda(x), \vec U$
-\form#5:$ \vec u$
-\form#6:\[ \lambda(x) = \lambda_{max} *\left[S\left((x_{min} + \Delta_{wl} - x)/\Delta_{dl} \right) + S\left((x - x_{max} + \Delta_{wr})/\Delta_{dr} \right) \right],\]
-\form#7:$ \lambda_{max} $
-\form#8:$ S(x) $
-\form#9:$ x_{min}, x_{max} $
-\form#10:$ \Delta_{wl}, \Delta_{wr} $
-\form#11:$ \Delta_{dl}, \Delta_{dr} $
-\form#12:$ \Delta_{wl}$
-\form#13:$ \Delta_{wr} $
-\form#14:$\vec{f} = - \chi (\vec{u} - \vec{\bar{u}}),$
-\form#15:$\vec{u}$
-\form#16:$\vec{\bar{u}}$
-\form#17:$\dot{\vec{\bar{u}}} = (\vec{u} - \vec{\bar{u}})/\Delta.$
-\form#18:$\chi$
-\form#19:$\Delta$
-\form#20:$\epsilon=\|(\vec{u} - \vec{\bar{u}})\|$
-\form#21:$\Omega$
+\form#0:$\vec{f} = - \chi (\vec{u} - \vec{\bar{u}}),$
+\form#1:$\vec{u}$
+\form#2:$\vec{\bar{u}}$
+\form#3:$\dot{\vec{\bar{u}}} = (\vec{u} - \vec{\bar{u}})/\Delta.$
+\form#4:$\chi$
+\form#5:$\Delta$
+\form#6:$\epsilon=\|(\vec{u} - \vec{\bar{u}})\|$
+\form#7:$\Omega$
+\form#8:\[ \vec F = \lambda(x) \left( \vec U - \vec u\right),\]
+\form#9:$ \lambda(x), \vec U$
+\form#10:$ \vec u$
+\form#11:\[ \lambda(x) = \lambda_{max} *\left[S\left((x_{min} + \Delta_{wl} - x)/\Delta_{dl} \right) + S\left((x - x_{max} + \Delta_{wr})/\Delta_{dr} \right) \right],\]
+\form#12:$ \lambda_{max} $
+\form#13:$ S(x) $
+\form#14:$ x_{min}, x_{max} $
+\form#15:$ \Delta_{wl}, \Delta_{wr} $
+\form#16:$ \Delta_{dl}, \Delta_{dr} $
+\form#17:$ \Delta_{wl}$
+\form#18:$ \Delta_{wr} $
+\form#19:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
+\form#20:$ x_{min} = 0.02$
+\form#21:$ x_{max}=0.98$
 \form#22:$\mathbf{U}^--\{\{\mathbf{U}\}\}$
 \form#23:$\mathbf{U}^--\mathbf{U}^D$
 \form#24:$\mathscr{A}$

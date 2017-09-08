@@ -1,9 +1,0 @@
-<map id="chk_segs" name="chk_segs">
-<area shape="rect" id="node2" href="$core_2genxyz_8f.html#abaf230ec04e873e9768e7ea62dc6b1a0" title="cross" alt="" coords="158,5,213,32"/>
-<area shape="rect" id="node3" href="$postnek_2plot_8f.html#aa7499829dcb167485599d4cd86a1c60d" title="dotprod" alt="" coords="153,56,218,83"/>
-<area shape="rect" id="node4" href="$math_8f.html#a18da186617e323c027aa36f56343e400" title="mod1" alt="" coords="158,107,213,133"/>
-<area shape="rect" id="node5" href="$core_2genxyz_8f.html#ab1ce14609c107357a717ecb7506eb781" title="norm3d" alt="" coords="153,157,218,184"/>
-<area shape="rect" id="node7" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="160,208,211,235"/>
-<area shape="rect" id="node8" href="$userf_8f.html#a44a6660954f5cbc970c7a4a7663a5d12" title="vcross_normal" alt="" coords="132,259,239,285"/>
-<area shape="rect" id="node6" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="287,157,327,184"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="get_data" name="get_data">
-<area shape="rect" id="node2" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="133,5,186,32"/>
-<area shape="rect" id="node3" href="$core_2byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="241,107,288,133"/>
-<area shape="rect" id="node4" href="$int__tp_8f.html#ae2cea7af2154e8e576578a2eed79a282" title="get_nfld" alt="" coords="125,107,193,133"/>
-<area shape="rect" id="node5" href="$int__tp_8f.html#a9d387d3aa1c3fede133c612d18cfb55d" title="read_u" alt="" coords="129,157,190,184"/>
-</map>

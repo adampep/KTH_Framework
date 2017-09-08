@@ -1,9 +1,0 @@
-<map id="rvec_fct_addr" name="rvec_fct_addr">
-<area shape="rect" id="node2" href="$ivec_8c.html#af3d462980fc01fd7b43ab73fbd332d04" title="rvec_add" alt="" coords="171,5,245,32"/>
-<area shape="rect" id="node3" href="$ivec_8c.html#aa8ee509128e010dd898136e2cc06c302" title="rvec_exists" alt="" coords="163,56,253,83"/>
-<area shape="rect" id="node4" href="$ivec_8c.html#ad194015a88a5862cf22cf52e3643215e" title="rvec_max" alt="" coords="169,107,247,133"/>
-<area shape="rect" id="node5" href="$ivec_8c.html#a476f9014e583752fa0be8c608445c463" title="rvec_max_abs" alt="" coords="155,157,261,184"/>
-<area shape="rect" id="node6" href="$ivec_8c.html#aaa511c06e37fe99b3d3977e0bb54b6f8" title="rvec_min" alt="" coords="171,208,245,235"/>
-<area shape="rect" id="node7" href="$ivec_8c.html#a3d009034ffd432b9cd4f828934e6f6cb" title="rvec_min_abs" alt="" coords="157,259,259,285"/>
-<area shape="rect" id="node8" href="$ivec_8c.html#ad2b844ca01b1c26832aa0a115b87155b" title="rvec_mult" alt="" coords="169,309,247,336"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="get_x27max" name="get_x27max">
-<area shape="rect" id="node2" href="$curve_8f.html#a4d83513780412e9fb48e1576ef294531" title="make_arc_circ" alt="" coords="365,25,472,51"/>
-<area shape="rect" id="node5" href="$curve_8f.html#acedaa8354a8b6cddcfa1c8005d471ccc" title="circle_in_arc_transform_0" alt="" coords="147,25,317,51"/>
-<area shape="rect" id="node6" href="$zipper2_8f.html#a65e01b96ead53ff199a2034bc2dba8d2" title="msplit" alt="" coords="203,75,261,102"/>
-<area shape="rect" id="node3" href="$curve_8f.html#afbda46b1e736e65db6f92b6f45be27af" title="curves" alt="" coords="521,25,583,51"/>
-<area shape="rect" id="node4" href="$build_8f.html#a6ee6ba21247a79cb4ce5c140c7d30b7c" title="build1" alt="" coords="632,50,688,77"/>
-<area shape="rect" id="node7" href="$zipper2_8f.html#ae60623a5dce385dad8c8b9476dd9795e" title="octspl" alt="" coords="390,75,447,102"/>
-<area shape="rect" id="node8" href="$glomod_8f.html#ac2a4dd5fade0636f739af802899b28b4" title="glomod" alt="" coords="520,75,584,102"/>
-</map>

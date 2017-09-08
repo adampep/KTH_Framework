@@ -1,7 +1,0 @@
-<map id="vortex_tracking" name="vortex_tracking">
-<area shape="rect" id="node2" href="$userf_8f.html#ae1dcf94b3b9b31287477dd6b5625aedb" title="gkl_userf" alt="" coords="164,56,239,83"/>
-<area shape="rect" id="node3" href="$userf_8f.html#af906b58a8a6d3347811d144d8c28fb9a" title="userf" alt="" coords="287,56,337,83"/>
-<area shape="rect" id="node4" href="$eqnsolver__cmt_8f.html#aa10e48ce3eda6377da8f35c3287fc72c" title="cmtusrf" alt="" coords="385,5,452,32"/>
-<area shape="rect" id="node5" href="$navier1_8f.html#acfa4c928e27d1e43ed8622586e4ed7e8" title="nekuf" alt="" coords="391,56,446,83"/>
-<area shape="rect" id="node6" href="$postnek3_8f.html#aea8985289cde0d55cc438c3f701a6d6d" title="setwrk" alt="" coords="388,107,449,133"/>
-</map>

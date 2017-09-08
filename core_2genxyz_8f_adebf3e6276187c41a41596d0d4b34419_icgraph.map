@@ -1,8 +1,0 @@
-<map id="clean_xyzq" name="clean_xyzq">
-<area shape="rect" id="node2" href="$core_2genxyz_8f.html#a7c0d9ad72ade85a885511477626382a9" title="xyzquad" alt="" coords="141,81,212,108"/>
-<area shape="rect" id="node3" href="$core_2genxyz_8f.html#a68c86aab3d5439b8cdc8368eed562f9c" title="linquad" alt="" coords="260,81,323,108"/>
-<area shape="rect" id="node4" href="$core_2genxyz_8f.html#a10f2e4b6c10053ac6abb2cd014cb8d44" title="genxyz" alt="" coords="392,5,456,32"/>
-<area shape="rect" id="node5" href="$curve_8f.html#ab3e16f6eac0886ce4e452d8ed7383e9f" title="make_core" alt="" coords="381,56,467,83"/>
-<area shape="rect" id="node6" href="$curve_8f.html#a0219e13a426ccb5d992a5c056c5622e3" title="make_core_2d" alt="" coords="371,107,477,133"/>
-<area shape="rect" id="node7" href="$zipper2_8f.html#afefb867064d6ba0363ef5ec1c0eb0964" title="genxyz_e" alt="" coords="385,157,463,184"/>
-</map>

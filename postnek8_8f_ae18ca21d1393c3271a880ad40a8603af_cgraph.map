@@ -1,8 +1,0 @@
-<map id="mean_normal" name="mean_normal">
-<area shape="rect" id="node2" href="$postnek8_8f.html#a9957830594c78697856f2969c5e801aa" title="gen_srf_nrm" alt="" coords="156,5,251,32"/>
-<area shape="rect" id="node4" href="$core_2genxyz_8f.html#ab1ce14609c107357a717ecb7506eb781" title="norm3d" alt="" coords="301,56,367,83"/>
-<area shape="rect" id="node6" href="$postnek8_8f.html#a03df2f53b830c9c9417c19336e1ba5c5" title="vec_vtx_sum" alt="" coords="153,107,253,133"/>
-<area shape="rect" id="node3" href="$core_2genxyz_8f.html#abaf230ec04e873e9768e7ea62dc6b1a0" title="cross" alt="" coords="307,5,361,32"/>
-<area shape="rect" id="node5" href="$core_2genxyz_8f.html#a0a3061a8ab3b46ffa65ada9ddefa78b8" title="dot" alt="" coords="415,56,455,83"/>
-<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="309,107,359,133"/>
-</map>

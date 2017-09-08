@@ -1,5 +1,0 @@
-<map id="flux_div_integral_dealiased" name="flux_div_integral_dealiased">
-<area shape="rect" id="node2" href="$eqnsolver__cmt_8f.html#a93e21f64634fe4aecbfb7241b6e22e7d" title="convective_cmt" alt="" coords="232,5,347,32"/>
-<area shape="rect" id="node3" href="$drive1__cmt_8f.html#a001e854c71bfa7c25b504caaa09b7681" title="compute_rhs_and_dt" alt="" coords="395,5,537,32"/>
-<area shape="rect" id="node4" href="$drive1__cmt_8f.html#af21718debad3a2fefd68afcc5991813a" title="cmt_nek_advance" alt="" coords="585,5,713,32"/>
-</map>

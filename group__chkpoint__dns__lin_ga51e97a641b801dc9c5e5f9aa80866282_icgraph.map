@@ -1,6 +1,0 @@
-<map id="restart_save_pert" name="restart_save_pert">
-<area shape="rect" id="node2" href="$group__chkpoint__dns__lin.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="176,31,265,57"/>
-<area shape="rect" id="node3" href="$group__chkpoint.html#ga88fcb2f36a4d52f6abaaae62e4ad228e" title="Main checkpoint interface. " alt="" coords="313,31,433,57"/>
-<area shape="rect" id="node4" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="489,5,585,32"/>
-<area shape="rect" id="node5" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="481,56,592,83"/>
-</map>

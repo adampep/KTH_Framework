@@ -1,5 +1,0 @@
-<map id="intpts_locate" name="intpts_locate">
-<area shape="rect" id="node2" href="$multimesh_8f.html#aa5ca8c9a0bec7eae623afb4b2a8e582c" title="multimesh_create" alt="" coords="149,5,275,32"/>
-<area shape="rect" id="node3" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="323,5,421,32"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#a18d3e839786263fc4cf91f7eeb714371" title="nek__multi_advance" alt="" coords="469,5,611,32"/>
-</map>

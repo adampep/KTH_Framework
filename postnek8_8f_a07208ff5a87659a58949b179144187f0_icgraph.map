@@ -1,8 +1,0 @@
-<map id="find_bc_crv" name="find_bc_crv">
-<area shape="rect" id="node2" href="$postnek8_8f.html#a66f4da1d14f1876bd0529d8eedc50a5e" title="smoother" alt="" coords="319,5,395,32"/>
-<area shape="rect" id="node5" href="$postnek8_8f.html#a09e1ed489fb1ad7d924eafd6a6084aa0" title="angle_smoother" alt="" coords="143,56,257,83"/>
-<area shape="rect" id="node6" href="$postnek8_8f.html#afa189fcf735d83c02769ec88cf544a68" title="build_graph" alt="" coords="156,107,244,133"/>
-<area shape="rect" id="node3" href="$postnek8_8f.html#a932ccb2732aff6db7443eb0b04ab0d28" title="mesh_smooth" alt="" coords="457,56,561,83"/>
-<area shape="rect" id="node4" href="$postnek_8f.html#ad8f315d1ee5a67ef74befe776d30f8b6" title="fprep" alt="" coords="609,81,660,108"/>
-<area shape="rect" id="node7" href="$postnek8_8f.html#a149a0d1a3860697e98a0f52b27299f00" title="set_surf_layer" alt="" coords="305,107,409,133"/>
-</map>

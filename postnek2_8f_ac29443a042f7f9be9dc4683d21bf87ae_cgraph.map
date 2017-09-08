@@ -1,9 +1,0 @@
-<map id="close_w" name="close_w">
-<area shape="rect" id="node2" href="$postnek2_8f.html#ae854509d75fbfcb0e583c31ae291f8f3" title="rk4" alt="" coords="124,132,164,159"/>
-<area shape="rect" id="node3" href="$postnek2_8f.html#a483c551cc79697589736cc3504c786cb" title="compute_f" alt="" coords="212,56,295,83"/>
-<area shape="rect" id="node6" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="451,81,501,108"/>
-<area shape="rect" id="node7" href="$math_8f.html#ac62ce88420771d0183fa4e9182f250dc" title="add3s2" alt="" coords="221,157,285,184"/>
-<area shape="rect" id="node8" href="$math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="221,208,285,235"/>
-<area shape="rect" id="node4" href="$postnek2_8f.html#a7467e8a00e158f893fff0fc7bf0be5c0" title="findre" alt="" coords="345,5,400,32"/>
-<area shape="rect" id="node5" href="$postnek2_8f.html#a1706b53efe0dcf020441207263ab2e2c" title="evalsc" alt="" coords="343,56,403,83"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="qqtavg" name="qqtavg">
-<area shape="rect" id="node2" href="$glomod_8f.html#ad3316b46debf382b46e3f0e69c146fcb" title="globtoloc" alt="" coords="115,5,189,32"/>
-<area shape="rect" id="node4" href="$math_8f.html#a12a3f9854732798780dfe93ecd4e38bf" title="invcol2" alt="" coords="121,107,183,133"/>
-<area shape="rect" id="node7" href="$glomod_8f.html#a1ac0732270fd99dd0e3822c1eb1950cc" title="loctoglob" alt="" coords="115,56,189,83"/>
-<area shape="rect" id="node3" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="253,31,303,57"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="237,107,319,133"/>
-<area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="367,107,452,133"/>
-</map>
