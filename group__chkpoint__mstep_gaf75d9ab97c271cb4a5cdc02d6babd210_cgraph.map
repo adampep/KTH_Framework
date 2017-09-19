@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file. " alt="" coords="184,448,263,475"/>
 <area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="809,144,856,171"/>
 <area shape="rect" id="node26" href="$ic_8f.html#a8947b3794015310a5f2962f2c8f1c4cb" title="sioflag" alt="" coords="499,955,559,981"/>
-<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc" title="Interpolate variables. " alt="" coords="321,99,414,125"/>
+<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc" title="Interpolate checkpoint variables. " alt="" coords="321,99,414,125"/>
 <area shape="rect" id="node5" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="666,752,717,779"/>
 <area shape="rect" id="node6" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="659,651,724,677"/>
 <area shape="rect" id="node11" href="$group__io__tools.html#gac498ba7888fea8942b2931d6f5f9a2db" title="Close field file. " alt="" coords="311,575,424,601"/>

@@ -1,10 +1,11 @@
 <map id="io_init" name="io_init">
-<area shape="rect" id="node2" href="$prepost_8f.html#a2b0ed536ab0284c398d7f2ac35622d88" title="mfo_outfld" alt="" coords="113,5,195,32"/>
-<area shape="rect" id="node5" href="$group__chkpoint__mstep.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="109,56,199,83"/>
-<area shape="rect" id="node6" href="$group__chkpoint__mstep.html#ga685f03e71ebca8d39a1472a92bb83284" title="Read full file restart set. " alt="" coords="111,107,197,133"/>
-<area shape="rect" id="node7" href="$group__sfd.html#gac9b2a0a484cea6c506fd1179be746db8" title="Store SFD restart file. " alt="" coords="119,157,189,184"/>
-<area shape="rect" id="node3" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="268,5,323,32"/>
-<area shape="rect" id="node4" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="397,5,462,32"/>
-<area shape="rect" id="node8" href="$group__sfd.html#ga890b1cd20ca6c2793b9d24c53fada629" title="Create checkpoint. " alt="" coords="247,157,344,184"/>
-<area shape="rect" id="node9" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFd interface. " alt="" coords="392,157,467,184"/>
+<area shape="rect" id="node2" href="$prepost_8f.html#a2b0ed536ab0284c398d7f2ac35622d88" title="mfo_outfld" alt="" coords="115,5,198,32"/>
+<area shape="rect" id="node5" href="$group__chkpoint__mstep.html#ga5eb9b41d7725d303c1e459af4077453d" title="Write full file restart set. " alt="" coords="112,56,201,83"/>
+<area shape="rect" id="node6" href="$group__chkpoint__mstep.html#ga685f03e71ebca8d39a1472a92bb83284" title="Read full file restart set. " alt="" coords="113,107,200,133"/>
+<area shape="rect" id="node7" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint. " alt="" coords="252,157,349,184"/>
+<area shape="rect" id="node9" href="$group__sfd.html#ga661b879094c4984defe82100decd8cdb" title="Read from checkpoint. " alt="" coords="109,208,204,235"/>
+<area shape="rect" id="node3" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="273,5,328,32"/>
+<area shape="rect" id="node4" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="402,5,467,32"/>
+<area shape="rect" id="node8" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="397,183,472,209"/>
+<area shape="rect" id="node10" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="269,208,333,235"/>
 </map>

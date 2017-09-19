@@ -175,9 +175,11 @@ Functions</h2></td></tr>
 <td>chpt_ifrst </td><td>logical </td><td>_chkpoint:readchkpt </td><td>if restart </td></tr>
 <tr>
 <td>chpt_fnum </td><td>integer </td><td>_chkpoint:chkpFnumber </td><td>restart file number </td></tr>
+<tr>
+<td>chpt_wtime </td><td>real </td><td>_chkpoint:chkpWallTime </td><td>simulation wall time </td></tr>
 </table>
 </dd></dl>
-<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkpInterval = 10</div><div class="line">readchkpt = no</div><div class="line">chkpFnumber = 1</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkpInterval = 10</div><div class="line">readchkpt = no</div><div class="line">chkpFnumber = 1</div><div class="line">chkpWallTime = 02:05</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga2d682999600b8303ea7c4850cb54c9ca"></a>
 <div class="memitem">
@@ -195,7 +197,7 @@ Functions</h2></td></tr>
 <p>Main checkpoint interface. </p>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00082">82</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00112">112</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
 <p>References <a class="el" href="chkptd_8f_source.html#l00010">chkpt_init()</a>, <a class="el" href="chkptd_8f_source.html#l00018">chkpt_read()</a>, and <a class="el" href="chkptd_8f_source.html#l00026">chkpt_write()</a>.</p>
 
@@ -269,7 +271,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 8 2017 12:57:32 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Sep 19 2017 09:23:15 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

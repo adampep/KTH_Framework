@@ -1,5 +1,5 @@
 <map id="Forcing module" name="Forcing module">
-<area shape="rect" id="node1" href="$group__noise__box.html" title="Add white noise to velocity field at given tiven time in a box. " alt="" coords="319,5,450,32"/>
+<area shape="rect" id="node1" href="$group__noise__box.html" title="Add white noise to velocity field at given time in a box. " alt="" coords="319,5,450,32"/>
 <area shape="rect" id="node2" href="$group__sponge__box.html" title="Sponge/fringe for simple box mesh. " alt="" coords="315,56,455,83"/>
 <area shape="rect" id="node3" href="$group__utility.html" title="Diverse utilities for toolboxes. " alt="" coords="5,31,108,57"/>
 </map>

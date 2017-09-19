@@ -1,5 +1,8 @@
 <map id="io_mfi_getv" name="io_mfi_getv">
 <area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file. " alt="" coords="143,5,221,32"/>
+<area shape="rect" id="node5" href="$group__sfd.html#ga4967e30f07ca39651435c5359bb30cb3" title="Load SFD restart file. " alt="" coords="149,56,215,83"/>
 <area shape="rect" id="node3" href="$group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot. " alt="" coords="269,5,400,32"/>
 <area shape="rect" id="node4" href="$group__chkpoint__mstep.html#ga685f03e71ebca8d39a1472a92bb83284" title="Read full file restart set. " alt="" coords="448,5,535,32"/>
+<area shape="rect" id="node6" href="$group__sfd.html#ga661b879094c4984defe82100decd8cdb" title="Read from checkpoint. " alt="" coords="287,56,382,83"/>
+<area shape="rect" id="node7" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="459,56,523,83"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="chkpt_mfi" name="chkpt_mfi">
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc" title="Interpolate variables. " alt="" coords="142,1419,235,1445"/>
+<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc" title="Interpolate checkpoint variables. " alt="" coords="142,1419,235,1445"/>
 <area shape="rect" id="node11" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="777,423,828,449"/>
 <area shape="rect" id="node12" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="480,853,545,880"/>
 <area shape="rect" id="node18" href="$group__io__tools.html#gac498ba7888fea8942b2931d6f5f9a2db" title="Close field file. " alt="" coords="132,1239,245,1265"/>
