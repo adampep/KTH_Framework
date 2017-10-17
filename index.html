@@ -108,7 +108,7 @@ Introduction</h1>
 <p>This framework provides platform for development and shearing the tools based on <a href="https://nek5000.mcs.anl.gov/">Nek5000</a> code. It contains number of utilities that allow Nek5000 users to perform additional tasks. The main objective is to allow different users to exchange their code that is not part of Nek5000 core but operates through standard user interface (mainly through <em>userchk</em>).</p>
 <h1><a class="anchor" id="structure"></a>
 Framework structure</h1>
-<p>To make this platform easy to expand and reuse existing code we introduce specific directory structure representing different tasks. All files are grouped by taks and placed in a tree structure, where the parent directories (modules in Doxygen nomenclature) perform some operations and can define tasks and interfaces that have to be provided by their subdirectories (submodules). This structure can be repeated recursively with submodules becoming parent modules for next level structures. For more information check <a class="el" href="group__toolbox.html">Toolbox page</a>.</p>
+<p>To make this platform easy to expand and reuse existing code we introduce specific directory structure representing different tasks. All files are grouped by taks and placed in a tree structure, where the parent directories (modules in Doxygen nomenclature) perform some operations and can define tasks and interfaces that have to be provided by their subdirectories (submodules). This structure can be repeated recursively with submodules becoming parent modules for next level structures. A backbone of the whole framework is module called <a class="el" href="group__frame.html">frame</a> that provides dynamical databases for all tools (modules), runtimes parameters and timers introduced by framework. This module should be started first and all the remaining tools should be registered with it. For more information check <a class="el" href="group__toolbox.html">Toolbox page</a>.</p>
 <h1><a class="anchor" id="download"></a>
 Download</h1>
 <p>The top level direcotries in the framework point to stable release of three main github repositories (using <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">git submodules</a>):</p><ul>
@@ -120,13 +120,13 @@ Download</h1>
 git clone https://github.com/adampep/KTH_Toolbox -b master
 git clone https://github.com/adampep/KTH_Examples -b master
 </pre><p> or as a single framework by </p><pre class="fragment">git clone --recursive https://github.com/adampep/KTH_Framework
-</pre><p>The second method is preferred as Nek5000 repository has no development no stable branches and all the development goes directly to master branch. As stable releases are marked by tags the user has to be carful to clone Nek5000 version compatible with current tool version. On the other hand the submodule within KTH_Framework points to the speciffic commit in Nek5000 repository forcing consistency between tools and Nek5000 versions. For the same reason user has to be careful using </p><pre class="fragment">git submodule update --remote Nek5000
-</pre><p> as it would load all the new commits. The proper way of upgrading KTH_Fremwork is running from the main framwork directory </p><pre class="fragment">git fetch
+</pre><p>The second method is preferred as Nek5000 repository has neither development nor stable branches and all the development goes directly to master branch. As stable releases are marked by tags the user has to be careful to clone Nek5000 version compatible with current tool version. On the other hand the submodule within KTH_Framework points to the speciffic commit in Nek5000 repository forcing consistency between tools and Nek5000 versions. For the same reason user has to be careful using </p><pre class="fragment">git submodule update --remote Nek5000
+</pre><p> as it would load all the new commits. The proper way of upgrading KTH_Fremwork is running from the main framework directory </p><pre class="fragment">git fetch
 git merge origin/master
 git submodule update --recursive
 </pre><h1><a class="anchor" id="documentation"></a>
 Documentation</h1>
-<p>To make this platform easy to use we pay attention to <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> based documentation of every toll. It has to provide detailed description of the tool itsef, the routine interfaces, runtime parameters and possible dependencies between modules. The general description of every tool is given in <a class="el" href="group__toolbox.html">FRAMEWORK.txt</a>, which is present in almost every directory. This documentation is available online as GitHub Pages (gh-pages bfranch) and can be generated locally by executing at the top level of the local copy of KTH_Framework repository: </p><pre class="fragment">mkdir html
+<p>To make this platform easy to use we pay attention to <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> based documentation of every tool. It has to provide detailed description of the tool itsef, the routine interfaces, runtime parameters and possible dependencies between modules. The general description of every tool is given in <a class="el" href="group__toolbox.html">FRAMEWORK.txt</a>, which is present in almost every directory. This documentation is available online as GitHub Pages (gh-pages bfranch) and can be generated locally by executing at the top level of the local copy of KTH_Framework repository: </p><pre class="fragment">mkdir html
 doxygen ./docs/Doxyfile
 rm doxygen.warning
 </pre><p> It requires doxygen 1.8.11 or newer and the dot tool from <a href="http://www.graphviz.org/">Graphviz</a>. All files required by doxygen are located under ./docs/. It includes configuration file (Doxyfile), bibliography (doxy.bib) and web pages contents (<a class="el" href="mainpage_8dox.html" title="Documentation file to be used in Doxygen pages. ">mainpage.dox</a>).</p>
@@ -136,7 +136,7 @@ rm doxygen.warning
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 19 2017 09:23:21 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 17 2017 13:41:08 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

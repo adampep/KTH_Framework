@@ -3,6 +3,8 @@ var group__chkpoint =
     [ "Dummy checkpointing", "group__chkptdummy.html", "group__chkptdummy" ],
     [ "Multistep checkpointing", "group__chkpoint__mstep.html", "group__chkpoint__mstep" ],
     [ "chkpoint.f", "chkpoint_8f.html", null ],
+    [ "chkpt_init", "group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33", null ],
+    [ "chkpt_is_initialised", "group__chkpoint.html#gafa8dec23c6c85605739cbc4818723219", null ],
     [ "chkpt_main", "group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca", null ],
-    [ "chkpt_param_get", "group__chkpoint.html#ga295cd675834c01792013599f86bbc29c", null ]
+    [ "chkpt_register", "group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8", null ]
 ];

@@ -1,0 +1,41 @@
+<map id="mntr_log" name="mntr_log">
+<area shape="rect" id="node2" href="$group__monitor.html#ga7cdc99904e0996a4704b459d67ee5705" title="Initialise monitor by registering framework and monitor. " alt="" coords="552,281,683,308"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="581,940,653,967"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="365,484,470,511"/>
+<area shape="rect" id="node7" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="568,396,667,423"/>
+<area shape="rect" id="node8" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="565,472,669,499"/>
+<area shape="rect" id="node9" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module. " alt="" coords="562,535,673,561"/>
+<area shape="rect" id="node10" href="$group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="337,535,498,561"/>
+<area shape="rect" id="node11" href="$group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="137,332,271,359"/>
+<area shape="rect" id="node12" href="$group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="367,383,468,409"/>
+<area shape="rect" id="node14" href="$group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="167,129,241,156"/>
+<area shape="rect" id="node15" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="372,332,463,359"/>
+<area shape="rect" id="node16" href="$group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="166,180,242,207"/>
+<area shape="rect" id="node17" href="$group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="167,231,241,257"/>
+<area shape="rect" id="node18" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="163,839,245,865"/>
+<area shape="rect" id="node19" href="$group__runparam.html#ga5178d580d50df0c48d1d938a264a8a0d" title="Set runtime parameter of active section. Master value is broadcasted. " alt="" coords="372,940,463,967"/>
+<area shape="rect" id="node21" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="581,788,653,815"/>
+<area shape="rect" id="node22" href="$group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module. " alt="" coords="578,1092,657,1119"/>
+<area shape="rect" id="node24" href="$group__monitor.html#ga64c9959ca876042af4847a65cd58c3ac" title="Write error message. " alt="" coords="163,1295,245,1321"/>
+<area shape="rect" id="node25" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="162,433,246,460"/>
+<area shape="rect" id="node26" href="$group__monitor.html#gac134912feae8eced2b372763c0c49066" title="Register new timer. " alt="" coords="368,281,467,308"/>
+<area shape="rect" id="node28" href="$group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation. " alt="" coords="141,1345,267,1372"/>
+<area shape="rect" id="node29" href="$group__monitor.html#ga11eb72ddf772cb55dfc112cfc070acc3" title="Print registered modules showing tree structure. " alt="" coords="331,1041,504,1068"/>
+<area shape="rect" id="node30" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing. " alt="" coords="136,991,272,1017"/>
+<area shape="rect" id="node31" href="$group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410" title="Check if timer name is registered and return its id. " alt="" coords="340,585,495,612"/>
+<area shape="rect" id="node32" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="153,1143,255,1169"/>
+<area shape="rect" id="node33" href="$group__monitor.html#ga37fbdcd8470a3cbc5805c6b6a9597e09" title="Print registered timers showing tree structure. " alt="" coords="334,1193,501,1220"/>
+<area shape="rect" id="node35" href="$group__monitor.html#ga65248b3e759c384b828bc4a18773b518" title="Provide ordered list of registered timers for printing. " alt="" coords="139,1244,269,1271"/>
+<area shape="rect" id="node36" href="$group__runparam.html#gab392710d0bba8720e60d190aff199693" title="Check if section name is registered and return its id. Check mid as well. " alt="" coords="125,1396,283,1423"/>
+<area shape="rect" id="node37" href="$group__runparam.html#ga14e67652af5db4f9cd30ad173d743d70" title="Get section info based on its id. This operation is performed locally. " alt="" coords="139,1447,269,1473"/>
+<area shape="rect" id="node38" href="$group__runparam.html#ga2b21fc1b5a753233af599fc4c9746af1" title="Check if parameter name is registered and return its id. Check flags as well. " alt="" coords="131,1497,277,1524"/>
+<area shape="rect" id="node39" href="$group__runparam.html#gac28431cc2d165fb0f906a18453eec7a4" title="Get parameter info based on its id. This operation is performed locally. " alt="" coords="145,1548,263,1575"/>
+<area shape="rect" id="node40" href="$group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a" title="Print out summary of registered runtime parameters (active sections only) " alt="" coords="338,737,497,764"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="738,345,826,372"/>
+<area shape="rect" id="node5" href="$group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="731,839,833,865"/>
+<area shape="rect" id="node13" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="556,345,679,372"/>
+<area shape="rect" id="node20" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="372,889,463,916"/>
+<area shape="rect" id="node23" href="$group__runparam.html#ga8c7d23b2694beb3ae7f710b27cf82bf4" title="Get runtime parameter from nek parser dictionary. " alt="" coords="567,839,668,865"/>
+<area shape="rect" id="node27" href="$group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="354,433,481,460"/>
+<area shape="rect" id="node34" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework. " alt="" coords="576,1193,659,1220"/>
+</map>

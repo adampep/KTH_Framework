@@ -1,8 +1,10 @@
 <map id="io_file_freeid" name="io_file_freeid">
-<area shape="rect" id="node2" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="164,5,228,32"/>
-<area shape="rect" id="node4" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="153,56,239,83"/>
-<area shape="rect" id="node7" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="148,107,244,133"/>
-<area shape="rect" id="node3" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="310,5,385,32"/>
-<area shape="rect" id="node5" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="292,56,403,83"/>
-<area shape="rect" id="node6" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="451,56,537,83"/>
+<area shape="rect" id="node2" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="160,5,232,32"/>
+<area shape="rect" id="node4" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="164,56,228,83"/>
+<area shape="rect" id="node6" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="153,107,239,133"/>
+<area shape="rect" id="node9" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="148,157,244,184"/>
+<area shape="rect" id="node3" href="$group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="296,5,399,32"/>
+<area shape="rect" id="node5" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="310,56,385,83"/>
+<area shape="rect" id="node7" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="292,107,403,133"/>
+<area shape="rect" id="node8" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="451,107,537,133"/>
 </map>

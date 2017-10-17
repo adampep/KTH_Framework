@@ -76,6 +76,6 @@ var searchData=
   ['nvec_5fdssum',['nvec_dssum',['../dssum_8f.html#a5d299460ab2c55d270c39383591bb415',1,'dssum.f']]],
   ['nx',['nx',['../xxt__test_8c.html#a349873e4bddcc12c0b5b1900ae49b30d',1,'xxt_test.c']]],
   ['ny',['NY',['../lob__bnd__test_8c.html#a652e87ecc9140879666ae9d6bf4ca893',1,'lob_bnd_test.c']]],
-  ['nz',['nz',['../structgs__topology.html#a80df98c8bd468570acd4c4b8a43af046',1,'gs_topology::nz()'],['../xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357',1,'nz():&#160;xxt_test.c'],['../lob__bnd__test_8c.html#a693aee47b2103d0a7fcd3a0a0dd4fb57',1,'NZ():&#160;lob_bnd_test.c']]],
+  ['nz',['nz',['../structgs__topology.html#a80df98c8bd468570acd4c4b8a43af046',1,'gs_topology::nz()'],['../lob__bnd__test_8c.html#a693aee47b2103d0a7fcd3a0a0dd4fb57',1,'NZ():&#160;lob_bnd_test.c'],['../xxt__test_8c.html#a5cb63fb5e7f3eec7d5eb50af33aa3357',1,'nz():&#160;xxt_test.c']]],
   ['nz_5fpos_5fequal',['nz_pos_equal',['../amg_8c.html#aeebb74cc79e62af79c23f14de34364a3',1,'amg.c']]]
 ];

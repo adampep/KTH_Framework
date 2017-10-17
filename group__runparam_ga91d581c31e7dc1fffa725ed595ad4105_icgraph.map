@@ -1,6 +1,5 @@
 <map id="rprm_check" name="rprm_check">
-<area shape="rect" id="node2" href="$group__chkpoint.html#ga295cd675834c01792013599f86bbc29c" title="Set checkpoint parameters. " alt="" coords="156,5,279,32"/>
-<area shape="rect" id="node3" href="$group__sfd.html#ga62a620d13565861c3b39940d6b79e1f8" title="Set sfd parameters. " alt="" coords="163,56,271,83"/>
-<area shape="rect" id="node4" href="$group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45" title="Set noise_box parameters. " alt="" coords="148,107,287,133"/>
-<area shape="rect" id="node5" href="$group__sponge__box.html#ga9110009b865cb68d1c14ead937033307" title="Set sponbge_box parameters. " alt="" coords="144,157,291,184"/>
+<area shape="rect" id="node2" href="$group__sfd.html#ga62a620d13565861c3b39940d6b79e1f8" title="Set sfd parameters. " alt="" coords="163,5,271,32"/>
+<area shape="rect" id="node3" href="$group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45" title="Set noise_box parameters. " alt="" coords="148,56,287,83"/>
+<area shape="rect" id="node4" href="$group__sponge__box.html#ga9110009b865cb68d1c14ead937033307" title="Set sponbge_box parameters. " alt="" coords="144,107,291,133"/>
 </map>

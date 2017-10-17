@@ -1,0 +1,6 @@
+<map id="mntr_mod_is_name_reg" name="mntr_mod_is_name_reg">
+<area shape="rect" id="node2" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="221,5,319,32"/>
+<area shape="rect" id="node4" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="218,56,322,83"/>
+<area shape="rect" id="node5" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module. " alt="" coords="215,107,325,133"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="373,5,461,32"/>
+</map>

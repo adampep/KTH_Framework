@@ -1,0 +1,5 @@
+<map id="mntr_tmr_reg" name="mntr_tmr_reg">
+<area shape="rect" id="node2" href="$group__monitor.html#ga7cdc99904e0996a4704b459d67ee5705" title="Initialise monitor by registering framework and monitor. " alt="" coords="152,5,283,32"/>
+<area shape="rect" id="node4" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="165,56,269,83"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="331,5,419,32"/>
+</map>

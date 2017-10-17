@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_parameter_list_page000003"></a>Module <a class="el" href="group__arnoldi__arpack.html">arnoldi_arpack</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000005"></a>Module <a class="el" href="group__arnoldi__arpack.html">arnoldi_arpack</a>  </dt>
 <dd>Parameters provided by arnoldi_arpack submodule (include file - <em>ARNOLDI_ARPACKD</em>):<ul>
 <li>ARNKRYLOV : (integer) size of Krylov space</li>
 <li>ARNEGV : (integer) number of calculated eigenvalues</li>
@@ -112,21 +112,31 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <li>ARNISTOP : (integer) checkpoint file number for saving data </li>
 </ul>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000001"></a>Module <a class="el" href="group__chkpoint.html">chkpoint</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000003"></a>Module <a class="el" href="group__chkpoint.html">chkpoint</a>  </dt>
 <dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
 <tr>
-<td>chpt_step </td><td>integer </td><td>_chkpoint:chkpInterval </td><td>checkpiont dump frequency (number of time steps) </td></tr>
-<tr>
-<td>chpt_ifrst </td><td>logical </td><td>_chkpoint:readchkpt </td><td>if restart </td></tr>
+<td>chpt_ifrst </td><td>logical </td><td>_chkpoint:readchkpt </td><td>start simulation form checkpoint </td></tr>
 <tr>
 <td>chpt_fnum </td><td>integer </td><td>_chkpoint:chkpFnumber </td><td>restart file number </td></tr>
 <tr>
-<td>chpt_wtime </td><td>real </td><td>_chkpoint:chkpWallTime </td><td>simulation wall time </td></tr>
+<td>chpt_step </td><td>integer </td><td>_chkpoint:chkpInterval </td><td>checkpiont dump frequency (number of time steps) </td></tr>
+<tr>
+<td>chpt_wtimes </td><td>string </td><td>_chkpoint:WallTime </td><td>simulation wall time </td></tr>
 </table>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__noise__box.html">noise_box</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000001"></a>Module <a class="el" href="group__monitor.html">monitor</a>  </dt>
+<dd>Parameters provided by monitor module (include file - <em>MNTRLOGD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Default value </th><th>Description  </th></tr>
+<tr>
+<td>mntr_lp_def </td><td>integer </td><td>_monitor:loglevel </td><td>lp_inf </td><td>Logging threshold for toolboxes </td></tr>
+<tr>
+<td>mntr_iftdsc </td><td>logical </td><td>_monitor:iftimdscr </td><td>.false. </td><td>Write timer description in the summary </td></tr>
+</table>
+</dd>
+<dt><a class="anchor" id="_parameter_list_page000008"></a>Module <a class="el" href="group__noise__box.html">noise_box</a>  </dt>
 <dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
@@ -148,12 +158,22 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <td>nseb_bmax(3) </td><td>real </td><td>_noisebx:boxmaxz </td><td>position of upper right box corner; dimension Y </td></tr>
 </table>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000005"></a>Module <a class="el" href="group__powerit.html">powerit</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000007"></a>Module <a class="el" href="group__powerit.html">powerit</a>  </dt>
 <dd>Parameters provided by power iteration submodule (include file - <em>POWERITD</em>):<ul>
 <li>PWIL2NORM : (real) initial L2 norm of the evolved vector for every cycle </li>
 </ul>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000002"></a>Module <a class="el" href="group__sfd.html">sfd</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000002"></a>Module <a class="el" href="group__runparam.html">runparam</a>  </dt>
+<dd>Parameters provided by runtime parameter module (include file - <em>RPRMD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Default value </th><th>Description  </th></tr>
+<tr>
+<td>rprm_ifpar </td><td>logical </td><td>_runpar:parfwrite </td><td>.false. </td><td>Do we write runtime parameter file </td></tr>
+<tr>
+<td>rprm_parfnm </td><td>string </td><td>_runpar:parfname </td><td>outparfile </td><td>Runtime parameter file name for output (without .par) </td></tr>
+</table>
+</dd>
+<dt><a class="anchor" id="_parameter_list_page000004"></a>Module <a class="el" href="group__sfd.html">sfd</a>  </dt>
 <dd>Parameters provided by sfd module (include file - <em>SFD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
@@ -169,7 +189,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <td>sfdfconv </td><td>integer </td><td>_sfd:loginterval </td><td>frequency for saving convegence data </td></tr>
 </table>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000007"></a>Module <a class="el" href="group__sponge__box.html">sponge_box</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000009"></a>Module <a class="el" href="group__sponge__box.html">sponge_box</a>  </dt>
 <dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
@@ -201,7 +221,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <td>spng_dr(3) </td><td>real </td><td>_spongebx:droprz </td><td>sponge right drop/rise section width; dimension Z </td></tr>
 </table>
 </dd>
-<dt><a class="anchor" id="_parameter_list_page000004"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
+<dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
 <dd>Parameters provided by time stepper module (include file - <em>TIME_STEPPERD</em>):<ul>
 <li>TSTMODE: (integer)<ul>
 <li>0 : no time stepper</li>
@@ -223,7 +243,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="runtime_parameters_page.html">Runtime parameters for KTH framework.</a></li>
-    <li class="footer">Generated on Tue Sep 19 2017 09:23:15 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 17 2017 13:41:03 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

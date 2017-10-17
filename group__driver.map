@@ -1,5 +1,5 @@
 <map id="Driver module" name="Driver module">
-<area shape="rect" id="node1" href="$group__runparam.html" title="Routines related to module&#39;s runtime parameters. " alt="" coords="280,5,420,32"/>
-<area shape="rect" id="node2" href="$group__comm__mpi.html" title="MPI communication wrappers. " alt="" coords="272,56,428,83"/>
+<area shape="rect" id="node1" href="$group__comm__mpi.html" title="MPI communication wrappers. " alt="" coords="272,5,428,32"/>
+<area shape="rect" id="node2" href="$group__frame.html" title="Backbone for toolboxes. " alt="" coords="297,56,403,83"/>
 <area shape="rect" id="node4" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
 </map>

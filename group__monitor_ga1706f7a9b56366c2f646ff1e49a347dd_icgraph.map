@@ -1,0 +1,7 @@
+<map id="mntr_logr" name="mntr_logr">
+<area shape="rect" id="node2" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="129,56,220,83"/>
+<area shape="rect" id="node3" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="268,5,391,32"/>
+<area shape="rect" id="node5" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="280,56,379,83"/>
+<area shape="rect" id="node6" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="277,107,381,133"/>
+<area shape="rect" id="node4" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="439,31,527,57"/>
+</map>

@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__runparam.html','');});
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Runtime parameters<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__driver.html">Driver module</a></div></div>  </div>
+<div class="title">Runtime parameters<div class="ingroups"><a class="el" href="group__framework.html">Framework for Nek5000 toolboxes</a> &raquo; <a class="el" href="group__toolbox.html">Toolbox</a> &raquo; <a class="el" href="group__driver.html">Driver module</a> &raquo; <a class="el" href="group__frame.html">Frame module</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,30 +116,113 @@ $(document).ready(function(){initNavTree('group__runparam.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__runparam.png" border="0" alt="" usemap="#group____runparam"/>
 <map name="group____runparam" id="group____runparam">
-<area shape="rect" id="node2" href="group__driver.html" title="Driver routines for toolboxes. " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="group__frame.html" title="Backbone for toolboxes. " alt="" coords="5,5,111,32"/>
 </map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:runparam_8f"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="runparam_8f.html">runparam.f</a></td></tr>
-<tr class="memdesc:runparam_8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of subroutines related to module's runtime parameters. <br /></td></tr>
+<tr class="memitem:rprm_8f"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rprm_8f.html">rprm.f</a></td></tr>
+<tr class="memdesc:rprm_8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of subroutines related to module's runtime parameters. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rprm__block_8f"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rprm__block_8f.html">rprm_block.f</a></td></tr>
+<tr class="memdesc:rprm__block_8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block data to initialise common block for runtime parameter module. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga0a358e8c1cfec90802d0529ace7bcd4e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e">rprm_register</a></td></tr>
+<tr class="memdesc:ga0a358e8c1cfec90802d0529ace7bcd4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register runtime parameters database.  <a href="#ga0a358e8c1cfec90802d0529ace7bcd4e">More...</a><br /></td></tr>
+<tr class="separator:ga0a358e8c1cfec90802d0529ace7bcd4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga813bb2c54ba5379f67f6ab807d7d0bf5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5">rprm_init</a></td></tr>
+<tr class="memdesc:ga813bb2c54ba5379f67f6ab807d7d0bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise modules runtime parameters and write summary.  <a href="#ga813bb2c54ba5379f67f6ab807d7d0bf5">More...</a><br /></td></tr>
+<tr class="separator:ga813bb2c54ba5379f67f6ab807d7d0bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6afac2974269a47ce54315938de1f54"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gad6afac2974269a47ce54315938de1f54">rprm_is_initialised</a> ()</td></tr>
+<tr class="memdesc:gad6afac2974269a47ce54315938de1f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if module was initialised.  <a href="#gad6afac2974269a47ce54315938de1f54">More...</a><br /></td></tr>
+<tr class="separator:gad6afac2974269a47ce54315938de1f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf31b3ce9a658c84a704cd3af30cc2878"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878">rprm_sec_reg</a> (rpid, mid, pname, pdscr)</td></tr>
+<tr class="memdesc:gaf31b3ce9a658c84a704cd3af30cc2878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register new parameter section.  <a href="#gaf31b3ce9a658c84a704cd3af30cc2878">More...</a><br /></td></tr>
+<tr class="separator:gaf31b3ce9a658c84a704cd3af30cc2878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab392710d0bba8720e60d190aff199693"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gab392710d0bba8720e60d190aff199693">rprm_sec_is_name_reg</a> (rpid, mid, pname)</td></tr>
+<tr class="memdesc:gab392710d0bba8720e60d190aff199693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if section name is registered and return its id. Check mid as well.  <a href="#gab392710d0bba8720e60d190aff199693">More...</a><br /></td></tr>
+<tr class="separator:gab392710d0bba8720e60d190aff199693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac419df7554c9904d55aa0e2f9768e715"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gac419df7554c9904d55aa0e2f9768e715">rprm_sec_is_id_reg</a> (rpid)</td></tr>
+<tr class="memdesc:gac419df7554c9904d55aa0e2f9768e715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if section id is registered. This operation is performed locally.  <a href="#gac419df7554c9904d55aa0e2f9768e715">More...</a><br /></td></tr>
+<tr class="separator:gac419df7554c9904d55aa0e2f9768e715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga14e67652af5db4f9cd30ad173d743d70"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga14e67652af5db4f9cd30ad173d743d70">rprm_sec_get_info</a> (pname, mid, ifact, rpid)</td></tr>
+<tr class="memdesc:ga14e67652af5db4f9cd30ad173d743d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get section info based on its id. This operation is performed locally.  <a href="#ga14e67652af5db4f9cd30ad173d743d70">More...</a><br /></td></tr>
+<tr class="separator:ga14e67652af5db4f9cd30ad173d743d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2f06ecda0c6e0973b91d0f00ea27ad7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7">rprm_sec_set_act</a> (ifact, rpid)</td></tr>
+<tr class="memdesc:gad2f06ecda0c6e0973b91d0f00ea27ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set section's activation flag. Master value is broadcasted.  <a href="#gad2f06ecda0c6e0973b91d0f00ea27ad7">More...</a><br /></td></tr>
+<tr class="separator:gad2f06ecda0c6e0973b91d0f00ea27ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91a5a8cbf892cd62026a5a61b3325b5f"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga91a5a8cbf892cd62026a5a61b3325b5f">rprm_sec_is_id_act</a> (rpid)</td></tr>
+<tr class="memdesc:ga91a5a8cbf892cd62026a5a61b3325b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if section id is registered and activated. This operation is performed locally.  <a href="#ga91a5a8cbf892cd62026a5a61b3325b5f">More...</a><br /></td></tr>
+<tr class="separator:ga91a5a8cbf892cd62026a5a61b3325b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4d4e37bd7bfbeb6521d7f3ddae634e9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9">rprm_rp_reg</a> (rpid, mid, pname, pdscr, ptype, ipval, rpval, lpval, cpval)</td></tr>
+<tr class="memdesc:gac4d4e37bd7bfbeb6521d7f3ddae634e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register new runtime parameter.  <a href="#gac4d4e37bd7bfbeb6521d7f3ddae634e9">More...</a><br /></td></tr>
+<tr class="separator:gac4d4e37bd7bfbeb6521d7f3ddae634e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b21fc1b5a753233af599fc4c9746af1"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga2b21fc1b5a753233af599fc4c9746af1">rprm_rp_is_name_reg</a> (rpid, mid, pname, ptype)</td></tr>
+<tr class="memdesc:ga2b21fc1b5a753233af599fc4c9746af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if parameter name is registered and return its id. Check flags as well.  <a href="#ga2b21fc1b5a753233af599fc4c9746af1">More...</a><br /></td></tr>
+<tr class="separator:ga2b21fc1b5a753233af599fc4c9746af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga73c1b7afcf1ea90c2b0a9fcd5b333c2c"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga73c1b7afcf1ea90c2b0a9fcd5b333c2c">rprm_rp_is_id_reg</a> (rpid, ptype)</td></tr>
+<tr class="memdesc:ga73c1b7afcf1ea90c2b0a9fcd5b333c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if parameter id is registered and check type consistency. This operation is performed locally.  <a href="#ga73c1b7afcf1ea90c2b0a9fcd5b333c2c">More...</a><br /></td></tr>
+<tr class="separator:ga73c1b7afcf1ea90c2b0a9fcd5b333c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac28431cc2d165fb0f906a18453eec7a4"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#gac28431cc2d165fb0f906a18453eec7a4">rprm_rp_get_info</a> (pname, mid, ptype, rpid)</td></tr>
+<tr class="memdesc:gac28431cc2d165fb0f906a18453eec7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get parameter info based on its id. This operation is performed locally.  <a href="#gac28431cc2d165fb0f906a18453eec7a4">More...</a><br /></td></tr>
+<tr class="separator:gac28431cc2d165fb0f906a18453eec7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5178d580d50df0c48d1d938a264a8a0d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga5178d580d50df0c48d1d938a264a8a0d">rprm_rp_set</a> (rpid, ptype, ipval, rpval, lpval, cpval)</td></tr>
+<tr class="memdesc:ga5178d580d50df0c48d1d938a264a8a0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set runtime parameter of active section. Master value is broadcasted.  <a href="#ga5178d580d50df0c48d1d938a264a8a0d">More...</a><br /></td></tr>
+<tr class="separator:ga5178d580d50df0c48d1d938a264a8a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8fdb351c474a7a91078f1839b6889a74"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74">rprm_rp_get</a> (ipval, rpval, lpval, cpval, rpid, ptype)</td></tr>
+<tr class="memdesc:ga8fdb351c474a7a91078f1839b6889a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get runtime parameter form active section. This operation is performed locally.  <a href="#ga8fdb351c474a7a91078f1839b6889a74">More...</a><br /></td></tr>
+<tr class="separator:ga8fdb351c474a7a91078f1839b6889a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c7d23b2694beb3ae7f710b27cf82bf4"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga8c7d23b2694beb3ae7f710b27cf82bf4">rprm_dict_get</a> ()</td></tr>
+<tr class="memdesc:ga8c7d23b2694beb3ae7f710b27cf82bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get runtime parameter from nek parser dictionary.  <a href="#ga8c7d23b2694beb3ae7f710b27cf82bf4">More...</a><br /></td></tr>
+<tr class="separator:ga8c7d23b2694beb3ae7f710b27cf82bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5bcfbdb3ef72f8a0922030d531e0022a"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a">rprm_rp_summary_print</a> (unit)</td></tr>
+<tr class="memdesc:ga5bcfbdb3ef72f8a0922030d531e0022a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out summary of registered runtime parameters (active sections only)  <a href="#ga5bcfbdb3ef72f8a0922030d531e0022a">More...</a><br /></td></tr>
+<tr class="separator:ga5bcfbdb3ef72f8a0922030d531e0022a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga91d581c31e7dc1fffa725ed595ad4105"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105">rprm_check</a> (mod_nkeys, mod_dictkey, mod_n3dkeys, mod_l3dkey, ifsec)</td></tr>
 <tr class="memdesc:ga91d581c31e7dc1fffa725ed595ad4105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check consistency of module's runtime parameters.  <a href="#ga91d581c31e7dc1fffa725ed595ad4105">More...</a><br /></td></tr>
 <tr class="separator:ga91d581c31e7dc1fffa725ed595ad4105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Routines related to module's runtime parameters. </p>
+<p>This module builds global parameter database for all registered tools.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
-<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000002">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
-<li><a class="el" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105">rprm_check</a></li>
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000004">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<li><a class="el" href="group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e">rprm_register</a> (to <a class="el" href="group__frame.html">frame</a>)</li>
+<li><a class="el" href="group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5">rprm_init</a> (to <a class="el" href="group__frame.html">frame</a>)</li>
+<li><a class="el" href="group__runparam.html#gad6afac2974269a47ce54315938de1f54">rprm_is_initialised</a></li>
+<li><a class="el" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878">rprm_sec_reg</a></li>
+<li><a class="el" href="group__runparam.html#gab392710d0bba8720e60d190aff199693">rprm_sec_is_name_reg</a></li>
+<li><a class="el" href="group__runparam.html#gac419df7554c9904d55aa0e2f9768e715">rprm_sec_is_id_reg</a></li>
+<li><a class="el" href="group__runparam.html#ga14e67652af5db4f9cd30ad173d743d70">rprm_sec_get_info</a></li>
+<li><a class="el" href="group__runparam.html#ga91a5a8cbf892cd62026a5a61b3325b5f">rprm_sec_is_id_act</a></li>
+<li><a class="el" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7">rprm_sec_set_act</a></li>
+<li><a class="el" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9">rprm_rp_reg</a></li>
+<li><a class="el" href="group__runparam.html#ga2b21fc1b5a753233af599fc4c9746af1">rprm_rp_is_name_reg</a></li>
+<li><a class="el" href="group__runparam.html#ga73c1b7afcf1ea90c2b0a9fcd5b333c2c">rprm_rp_is_id_reg</a></li>
+<li><a class="el" href="group__runparam.html#gac28431cc2d165fb0f906a18453eec7a4">rprm_rp_get_info</a></li>
+<li><a class="el" href="group__runparam.html#ga5178d580d50df0c48d1d938a264a8a0d">rprm_rp_set</a></li>
+<li><a class="el" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74">rprm_rp_get</a></li>
+<li><a class="el" href="group__runparam.html#ga8c7d23b2694beb3ae7f710b27cf82bf4">rprm_dict_get</a></li>
+<li><a class="el" href="group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a">rprm_rp_summary_print</a> (to <a class="el" href="group__frame.html">frame</a>)</li>
+<li><a class="el" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105">rprm_check</a> (deprecated)</li>
 </ol>
 </dd></dl>
+<dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000002">Global parameter list:</a></b></dt><dd>Parameters provided by runtime parameter module (include file - <em>RPRMD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Default value </th><th>Description  </th></tr>
+<tr>
+<td>rprm_ifpar </td><td>logical </td><td>_runpar:parfwrite </td><td>.false. </td><td>Do we write runtime parameter file </td></tr>
+<tr>
+<td>rprm_parfnm </td><td>string </td><td>_runpar:parfname </td><td>outparfile </td><td>Runtime parameter file name for output (without .par) </td></tr>
+</table>
+</dd></dl>
+<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_RUNPAR</div><div class="line">PARFWRITE = no</div><div class="line">PARFNAME = outparfile</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga91d581c31e7dc1fffa725ed595ad4105"></a>
 <div class="memitem">
@@ -194,9 +277,9 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Check if the section name shows up and runtime parameters are spelled correctly. Give warning if section is missing, or the key is unknown. Check possible 2D - 3D parameter mismatch. </p><dl class="section warning"><dt>Warning</dt><dd>This routine should be executed within runtime parameter reader by the master node only </dd></dl>
+<p>Check if the section name shows up and runtime parameters are spelled correctly. Give warning if section is missing, or the key is unknown. Check possible 2D - 3D parameter mismatch. </p><dl class="section warning"><dt>Warning</dt><dd>This routine deprecated. </dd></dl>
 
-<p>Definition at line <a class="el" href="runparam_8f_source.html#l00021">21</a> of file <a class="el" href="runparam_8f_source.html">runparam.f</a>.</p>
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l01155">1155</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
 
 <p>References <a class="el" href="ic_8f_source.html#l01766">capit()</a>.</p>
 
@@ -219,10 +302,1105 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__runparam_ga91d581c31e7dc1fffa725ed595ad4105_icgraph.png" border="0" usemap="#group__runparam_ga91d581c31e7dc1fffa725ed595ad4105_icgraph" alt=""/></div>
 <map name="group__runparam_ga91d581c31e7dc1fffa725ed595ad4105_icgraph" id="group__runparam_ga91d581c31e7dc1fffa725ed595ad4105_icgraph">
-<area shape="rect" id="node2" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c" title="Set checkpoint parameters. " alt="" coords="156,5,279,32"/>
-<area shape="rect" id="node3" href="group__sfd.html#ga62a620d13565861c3b39940d6b79e1f8" title="Set sfd parameters. " alt="" coords="163,56,271,83"/>
-<area shape="rect" id="node4" href="group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45" title="Set noise_box parameters. " alt="" coords="148,107,287,133"/>
-<area shape="rect" id="node5" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307" title="Set sponbge_box parameters. " alt="" coords="144,157,291,184"/>
+<area shape="rect" id="node2" href="group__sfd.html#ga62a620d13565861c3b39940d6b79e1f8" title="Set sfd parameters. " alt="" coords="163,5,271,32"/>
+<area shape="rect" id="node3" href="group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45" title="Set noise_box parameters. " alt="" coords="148,56,287,83"/>
+<area shape="rect" id="node4" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307" title="Set sponbge_box parameters. " alt="" coords="144,107,291,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8c7d23b2694beb3ae7f710b27cf82bf4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_dict_get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get runtime parameter from nek parser dictionary. </p>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00889">889</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="ic_8f_source.html#l01766">capit()</a>, and <a class="el" href="mntrlog_8f_source.html#l00602">mntr_warn()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_cgraph.png" border="0" usemap="#group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_cgraph" alt=""/></div>
+<map name="group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_cgraph" id="group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="169,5,223,32"/>
+<area shape="rect" id="node4" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="171,56,221,83"/>
+<area shape="rect" id="node5" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="155,107,237,133"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="285,5,368,32"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="291,107,363,133"/>
+<area shape="rect" id="node7" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="416,107,469,133"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_icgraph.png" border="0" usemap="#group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_icgraph" alt=""/></div>
+<map name="group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_icgraph" id="group__runparam_ga8c7d23b2694beb3ae7f710b27cf82bf4_icgraph">
+<area shape="rect" id="node2" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="155,5,257,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga813bb2c54ba5379f67f6ab807d7d0bf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise modules runtime parameters and write summary. </p>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00054">54</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="io__tools_8f_source.html#l00013">io_file_freeid()</a>, <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, <a class="el" href="rprm_8f_source.html#l00839">rprm_rp_get()</a>, and <a class="el" href="rprm_8f_source.html#l01008">rprm_rp_summary_print()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_cgraph.png" border="0" usemap="#group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_cgraph" alt=""/></div>
+<map name="group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_cgraph" id="group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_cgraph">
+<area shape="rect" id="node2" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="157,5,252,32"/>
+<area shape="rect" id="node3" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="464,81,536,108"/>
+<area shape="rect" id="node5" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="159,56,250,83"/>
+<area shape="rect" id="node9" href="group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a" title="Print out summary of registered runtime parameters (active sections only) " alt="" coords="125,157,284,184"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="584,81,637,108"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="332,5,416,32"/>
+<area shape="rect" id="node8" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="333,56,415,83"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="477,5,523,32"/>
+<area shape="rect" id="node10" href="navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title="ituple_sort" alt="" coords="333,208,415,235"/>
+<area shape="rect" id="node11" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="473,208,527,235"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_icgraph.png" border="0" usemap="#group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_icgraph" alt=""/></div>
+<map name="group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_icgraph" id="group__runparam_ga813bb2c54ba5379f67f6ab807d7d0bf5_icgraph">
+<area shape="rect" id="node2" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="125,5,228,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gad6afac2974269a47ce54315938de1f54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function rprm_is_initialised </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if module was initialised. </p>
+<dl class="section return"><dt>Returns</dt><dd>rprm_is_initialised </dd></dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00106">106</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga0a358e8c1cfec90802d0529ace7bcd4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_register </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register runtime parameters database. </p>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00010">10</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00287">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00174">mntr_mod_reg()</a>, <a class="el" href="rprm_8f_source.html#l00442">rprm_rp_reg()</a>, <a class="el" href="rprm_8f_source.html#l00123">rprm_sec_reg()</a>, and <a class="el" href="rprm_8f_source.html#l00380">rprm_sec_set_act()</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_cgraph.png" border="0" usemap="#group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_cgraph" alt=""/></div>
+<map name="group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_cgraph" id="group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="548,292,620,319"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="152,546,313,572"/>
+<area shape="rect" id="node8" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="180,495,285,522"/>
+<area shape="rect" id="node11" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="187,191,278,218"/>
+<area shape="rect" id="node15" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="182,394,283,420"/>
+<area shape="rect" id="node17" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="169,444,296,471"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="673,394,727,420"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="401,495,455,522"/>
+<area shape="rect" id="node7" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="403,546,453,572"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="543,495,625,522"/>
+<area shape="rect" id="node9" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="386,444,470,471"/>
+<area shape="rect" id="node10" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="561,444,607,471"/>
+<area shape="rect" id="node12" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="391,191,465,218"/>
+<area shape="rect" id="node13" href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="390,39,466,66"/>
+<area shape="rect" id="node14" href="group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="391,90,465,116"/>
+<area shape="rect" id="node16" href="group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="361,292,495,319"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_icgraph.png" border="0" usemap="#group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_icgraph" alt=""/></div>
+<map name="group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_icgraph" id="group__runparam_ga0a358e8c1cfec90802d0529ace7bcd4e_icgraph">
+<area shape="rect" id="node2" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="152,5,240,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8fdb351c474a7a91078f1839b6889a74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_rp_get </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ipval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>rpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical&#160;</td>
+          <td class="paramname"><em>lpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*20&#160;</td>
+          <td class="paramname"><em>cpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ptype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get runtime parameter form active section. This operation is performed locally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">ipval</td><td>integer value </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">rpval</td><td>real value </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">lpval</td><td>logical value </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">cpval</td><td>string value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpid</td><td>runtime parameter id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ptype</td><td>parameter type </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00839">839</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="mntrlog_8f_source.html#l00636">mntr_abort()</a>, and <a class="el" href="mntrlog_8f_source.html#l00602">mntr_warn()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga8fdb351c474a7a91078f1839b6889a74_cgraph.png" border="0" usemap="#group__runparam_ga8fdb351c474a7a91078f1839b6889a74_cgraph" alt=""/></div>
+<map name="group__runparam_ga8fdb351c474a7a91078f1839b6889a74_cgraph" id="group__runparam_ga8fdb351c474a7a91078f1839b6889a74_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="144,233,228,260"/>
+<area shape="rect" id="node13" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="145,284,227,311"/>
+<area shape="rect" id="node3" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="289,157,335,184"/>
+<area shape="rect" id="node11" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="276,284,348,311"/>
+<area shape="rect" id="node4" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="403,5,487,32"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="405,56,486,83"/>
+<area shape="rect" id="node6" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="412,107,479,133"/>
+<area shape="rect" id="node7" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="396,157,495,184"/>
+<area shape="rect" id="node8" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="400,208,491,235"/>
+<area shape="rect" id="node9" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="401,259,490,285"/>
+<area shape="rect" id="node10" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="406,309,485,336"/>
+<area shape="rect" id="node12" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="419,360,472,387"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga8fdb351c474a7a91078f1839b6889a74_icgraph.png" border="0" usemap="#group__runparam_ga8fdb351c474a7a91078f1839b6889a74_icgraph" alt=""/></div>
+<map name="group__runparam_ga8fdb351c474a7a91078f1839b6889a74_icgraph" id="group__runparam_ga8fdb351c474a7a91078f1839b6889a74_icgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="147,5,219,32"/>
+<area shape="rect" id="node4" href="group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="147,56,219,83"/>
+<area shape="rect" id="node5" href="group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module. " alt="" coords="144,107,223,133"/>
+<area shape="rect" id="node3" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="271,31,373,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gac28431cc2d165fb0f906a18453eec7a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_rp_get_info </td>
+          <td>(</td>
+          <td class="paramtype">character*20&#160;</td>
+          <td class="paramname"><em>pname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ptype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get parameter info based on its id. This operation is performed locally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">pname</td><td>parameter name </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">mid</td><td>section id </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">ptype</td><td>parameter type </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">rpid</td><td>runtime parameter id </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00721">721</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gac28431cc2d165fb0f906a18453eec7a4_cgraph.png" border="0" usemap="#group__runparam_gac28431cc2d165fb0f906a18453eec7a4_cgraph" alt=""/></div>
+<map name="group__runparam_gac28431cc2d165fb0f906a18453eec7a4_cgraph" id="group__runparam_gac28431cc2d165fb0f906a18453eec7a4_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="172,5,244,32"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="292,5,345,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga73c1b7afcf1ea90c2b0a9fcd5b333c2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function rprm_rp_is_id_reg </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ptype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if parameter id is registered and check type consistency. This operation is performed locally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpid</td><td>runtime parameter id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ptype</td><td>parameter type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rprm_rp_is_id_reg </dd></dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00699">699</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga2b21fc1b5a753233af599fc4c9746af1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_rp_is_name_reg </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>pname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ptype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if parameter name is registered and return its id. Check flags as well. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rpid</td><td>runtime parameter id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mid</td><td>section id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pname</td><td>parameter name </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ptype</td><td>parameter type </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00614">614</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="ic_8f_source.html#l01766">capit()</a>, and <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>.</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga2b21fc1b5a753233af599fc4c9746af1_cgraph.png" border="0" usemap="#group__runparam_ga2b21fc1b5a753233af599fc4c9746af1_cgraph" alt=""/></div>
+<map name="group__runparam_ga2b21fc1b5a753233af599fc4c9746af1_cgraph" id="group__runparam_ga2b21fc1b5a753233af599fc4c9746af1_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="209,5,263,32"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="335,107,388,133"/>
+<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="211,107,261,133"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="200,157,272,184"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="320,5,403,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gac4d4e37bd7bfbeb6521d7f3ddae634e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_rp_reg </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>pname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>pdscr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ptype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ipval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>rpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical&#160;</td>
+          <td class="paramname"><em>lpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>cpval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register new runtime parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rpid</td><td>current runtime parameter id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mid</td><td>section id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pname</td><td>parameter name </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pdscr</td><td>paramerer description </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ptype</td><td>parameter type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ipval</td><td>integer default value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpval</td><td>real default value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lpval</td><td>logical default value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cpval</td><td>string default value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00442">442</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="ic_8f_source.html#l01766">capit()</a>, <a class="el" href="mntrlog_8f_source.html#l00636">mntr_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00536">mntr_logi()</a>, <a class="el" href="mntrlog_8f_source.html#l00581">mntr_logl()</a>, and <a class="el" href="mntrlog_8f_source.html#l00558">mntr_logr()</a>.</p>
+
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_cgraph.png" border="0" usemap="#group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_cgraph" alt=""/></div>
+<map name="group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_cgraph" id="group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="159,5,213,32"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="429,107,483,133"/>
+<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="161,107,211,133"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="144,360,228,387"/>
+<area shape="rect" id="node15" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="281,233,353,260"/>
+<area shape="rect" id="node16" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="149,208,223,235"/>
+<area shape="rect" id="node17" href="group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="149,259,223,285"/>
+<area shape="rect" id="node18" href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="148,309,224,336"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="276,5,359,32"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="294,360,341,387"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="414,208,498,235"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="415,259,497,285"/>
+<area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="423,309,489,336"/>
+<area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="407,360,505,387"/>
+<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="411,411,501,437"/>
+<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="411,461,501,488"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="417,512,495,539"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_icgraph.png" border="0" usemap="#group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_icgraph" alt=""/></div>
+<map name="group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_icgraph" id="group__runparam_gac4d4e37bd7bfbeb6521d7f3ddae634e9_icgraph">
+<area shape="rect" id="node2" href="group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="144,5,267,32"/>
+<area shape="rect" id="node4" href="group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="156,56,255,83"/>
+<area shape="rect" id="node5" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="153,107,257,133"/>
+<area shape="rect" id="node3" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="315,31,403,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5178d580d50df0c48d1d938a264a8a0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_rp_set </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ptype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>ipval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
+          <td class="paramname"><em>rpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical&#160;</td>
+          <td class="paramname"><em>lpval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>cpval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set runtime parameter of active section. Master value is broadcasted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpid</td><td>runtime parameter id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ptype</td><td>parameter type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ipval</td><td>integer value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpval</td><td>real value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lpval</td><td>logical value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cpval</td><td>string value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00757">757</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="mntrlog_8f_source.html#l00636">mntr_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, and <a class="el" href="mntrlog_8f_source.html#l00602">mntr_warn()</a>.</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga5178d580d50df0c48d1d938a264a8a0d_cgraph.png" border="0" usemap="#group__runparam_ga5178d580d50df0c48d1d938a264a8a0d_cgraph" alt=""/></div>
+<map name="group__runparam_ga5178d580d50df0c48d1d938a264a8a0d_cgraph" id="group__runparam_ga5178d580d50df0c48d1d938a264a8a0d_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="159,5,213,32"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="429,56,483,83"/>
+<area shape="rect" id="node5" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="144,208,228,235"/>
+<area shape="rect" id="node14" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="281,132,353,159"/>
+<area shape="rect" id="node15" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="145,157,227,184"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="276,5,359,32"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="294,259,341,285"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="414,107,498,133"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="415,157,497,184"/>
+<area shape="rect" id="node9" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="423,208,489,235"/>
+<area shape="rect" id="node10" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="407,259,505,285"/>
+<area shape="rect" id="node11" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="411,309,501,336"/>
+<area shape="rect" id="node12" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="411,360,501,387"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="417,411,495,437"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5bcfbdb3ef72f8a0922030d531e0022a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_rp_summary_print </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>unit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print out summary of registered runtime parameters (active sections only) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">unit</td><td>I/O unit (6 - standard I/O) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l01008">1008</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="navier8_8f_source.html#l00315">ituple_sort()</a>, and <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>.</p>
+
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_cgraph.png" border="0" usemap="#group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_cgraph" alt=""/></div>
+<map name="group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_cgraph" id="group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_cgraph">
+<area shape="rect" id="node2" href="navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title="ituple_sort" alt="" coords="212,5,295,32"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="217,56,289,83"/>
+<area shape="rect" id="node3" href="math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="343,5,396,32"/>
+<area shape="rect" id="node5" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="343,56,396,83"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_icgraph.png" border="0" usemap="#group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_icgraph" alt=""/></div>
+<map name="group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_icgraph" id="group__runparam_ga5bcfbdb3ef72f8a0922030d531e0022a_icgraph">
+<area shape="rect" id="node2" href="group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="212,5,284,32"/>
+<area shape="rect" id="node3" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="332,5,435,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga14e67652af5db4f9cd30ad173d743d70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_sec_get_info </td>
+          <td>(</td>
+          <td class="paramtype">character*20&#160;</td>
+          <td class="paramname"><em>pname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical&#160;</td>
+          <td class="paramname"><em>ifact</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get section info based on its id. This operation is performed locally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">pname</td><td>section name </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">mid</td><td>registering module id </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">ifact</td><td>activation flag </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">rpid</td><td>section id </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00341">341</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>.</p>
+
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_ga14e67652af5db4f9cd30ad173d743d70_cgraph.png" border="0" usemap="#group__runparam_ga14e67652af5db4f9cd30ad173d743d70_cgraph" alt=""/></div>
+<map name="group__runparam_ga14e67652af5db4f9cd30ad173d743d70_cgraph" id="group__runparam_ga14e67652af5db4f9cd30ad173d743d70_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="183,5,255,32"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="303,5,356,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga91a5a8cbf892cd62026a5a61b3325b5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function rprm_sec_is_id_act </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if section id is registered and activated. This operation is performed locally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpid</td><td>section id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rprm_sec_id_id_act </dd></dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00414">414</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac419df7554c9904d55aa0e2f9768e715"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function rprm_sec_is_id_reg </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if section id is registered. This operation is performed locally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpid</td><td>section id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rprm_sec_is_id_reg </dd></dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00320">320</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gab392710d0bba8720e60d190aff199693"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_sec_is_name_reg </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>pname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if section name is registered and return its id. Check mid as well. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rpid</td><td>section id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mid</td><td>registering module id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pname</td><td>section name </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00242">242</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="ic_8f_source.html#l01766">capit()</a>, and <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>.</p>
+
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gab392710d0bba8720e60d190aff199693_cgraph.png" border="0" usemap="#group__runparam_gab392710d0bba8720e60d190aff199693_cgraph" alt=""/></div>
+<map name="group__runparam_gab392710d0bba8720e60d190aff199693_cgraph" id="group__runparam_gab392710d0bba8720e60d190aff199693_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="219,5,274,32"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="345,107,399,133"/>
+<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="221,107,272,133"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="211,157,283,184"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="331,5,413,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf31b3ce9a658c84a704cd3af30cc2878"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_sec_reg </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>pname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character*(*)&#160;</td>
+          <td class="paramname"><em>pdscr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register new parameter section. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rpid</td><td>current section id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mid</td><td>registering module id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pname</td><td>section name </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pdscr</td><td>section description </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00123">123</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="ic_8f_source.html#l01766">capit()</a>, <a class="el" href="mntrlog_8f_source.html#l00636">mntr_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, and <a class="el" href="mntrlog_8f_source.html#l00395">mntr_mod_get_info()</a>.</p>
+
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_cgraph.png" border="0" usemap="#group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_cgraph" alt=""/></div>
+<map name="group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_cgraph" id="group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="194,5,249,32"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="489,56,543,83"/>
+<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="196,107,247,133"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="179,259,263,285"/>
+<area shape="rect" id="node15" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="341,183,413,209"/>
+<area shape="rect" id="node16" href="group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="155,208,288,235"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="336,5,419,32"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="354,259,401,285"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="474,107,558,133"/>
+<area shape="rect" id="node9" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="475,157,557,184"/>
+<area shape="rect" id="node10" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="483,208,549,235"/>
+<area shape="rect" id="node11" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="467,259,565,285"/>
+<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="471,309,561,336"/>
+<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="471,360,561,387"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="477,411,555,437"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_icgraph.png" border="0" usemap="#group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_icgraph" alt=""/></div>
+<map name="group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_icgraph" id="group__runparam_gaf31b3ce9a658c84a704cd3af30cc2878_icgraph">
+<area shape="rect" id="node2" href="group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="155,5,277,32"/>
+<area shape="rect" id="node4" href="group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="167,56,265,83"/>
+<area shape="rect" id="node5" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="164,107,268,133"/>
+<area shape="rect" id="node3" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="325,31,413,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gad2f06ecda0c6e0973b91d0f00ea27ad7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine rprm_sec_set_act </td>
+          <td>(</td>
+          <td class="paramtype">logical&#160;</td>
+          <td class="paramname"><em>ifact</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>rpid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set section's activation flag. Master value is broadcasted. </p>
+<p>This routine is added because Nek5000 uses existence of section in .par file itself as a variable, what introduces problem with their registration as sections should be registered before reading runtime parameter file. That is why I decided to split registration and activation stages. One can register all the possible sections and activate those present in .par</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ifact</td><td>activation flag </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rpid</td><td>runtime parameter id </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rprm_8f_source.html#l00380">380</a> of file <a class="el" href="rprm_8f_source.html">rprm.f</a>.</p>
+
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, and <a class="el" href="mntrlog_8f_source.html#l00636">mntr_abort()</a>.</p>
+
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_cgraph.png" border="0" usemap="#group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_cgraph" alt=""/></div>
+<map name="group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_cgraph" id="group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_cgraph">
+<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="195,107,249,133"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="180,157,264,184"/>
+<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="312,107,395,133"/>
+<area shape="rect" id="node5" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="330,157,377,184"/>
+<area shape="rect" id="node13" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="317,284,389,311"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="450,5,534,32"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="451,56,533,83"/>
+<area shape="rect" id="node8" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="459,107,525,133"/>
+<area shape="rect" id="node9" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="443,157,541,184"/>
+<area shape="rect" id="node10" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="447,208,537,235"/>
+<area shape="rect" id="node11" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="447,259,537,285"/>
+<area shape="rect" id="node12" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="453,309,531,336"/>
+<area shape="rect" id="node14" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="465,360,519,387"/>
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_icgraph.png" border="0" usemap="#group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_icgraph" alt=""/></div>
+<map name="group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_icgraph" id="group__runparam_gad2f06ecda0c6e0973b91d0f00ea27ad7_icgraph">
+<area shape="rect" id="node2" href="group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="180,5,303,32"/>
+<area shape="rect" id="node4" href="group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="192,56,291,83"/>
+<area shape="rect" id="node5" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="189,107,293,133"/>
+<area shape="rect" id="node3" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="351,31,439,57"/>
 </map>
 </div>
 </p>
@@ -234,7 +1412,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 19 2017 09:23:15 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 17 2017 13:41:03 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -399,15 +399,20 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>chkparam()
 : <a class="el" href="readat__new_8f.html#a28f2f8f12e0c3800077ddbc465706a0f">readat_new.f</a>
 </li>
+<li>chkpt_dt_get()
+: <a class="el" href="group__chkpoint__mstep.html#ga3791f965a9cc62350d32b740060417c5">chkpt_mstp.f</a>
+</li>
 <li>chkpt_fname()
 : <a class="el" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195">chkpt_mstp.f</a>
 </li>
 <li>chkpt_init()
-: <a class="el" href="group__chkptdummy.html#ga33b867c374d795e500c69afb551570dd">chkptd.f</a>
-, <a class="el" href="group__chkpoint__mstep.html#ga33b867c374d795e500c69afb551570dd">chkpt_mstp.f</a>
+: <a class="el" href="group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33">chkpoint.f</a>
 </li>
 <li>chkpt_interp()
 : <a class="el" href="group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc">chkpt_mstp.f</a>
+</li>
+<li>chkpt_is_initialised()
+: <a class="el" href="group__chkpoint.html#gafa8dec23c6c85605739cbc4818723219">chkpoint.f</a>
 </li>
 <li>chkpt_main()
 : <a class="el" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpoint.f</a>
@@ -421,12 +426,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>chkpt_mfo_write_hdr()
 : <a class="el" href="group__chkpoint__mstep.html#gaf9ccdfc63d15513df5f9325c364b4d25">chkpt_mstp.f</a>
 </li>
-<li>chkpt_param_get()
-: <a class="el" href="group__chkpoint.html#ga295cd675834c01792013599f86bbc29c">chkpoint.f</a>
-</li>
-<li>chkpt_read()
-: <a class="el" href="group__chkptdummy.html#ga9f88246cb6529ff88cd348b02c82d117">chkptd.f</a>
-, <a class="el" href="group__chkpoint__mstep.html#ga685f03e71ebca8d39a1472a92bb83284">chkpt_mstp.f</a>
+<li>chkpt_register()
+: <a class="el" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8">chkpoint.f</a>
 </li>
 <li>chkpt_restart_read()
 : <a class="el" href="group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210">chkpt_mstp.f</a>
@@ -437,12 +438,27 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>chkpt_set_name()
 : <a class="el" href="group__chkpoint__mstep.html#ga9eef18a87ec81c10173c0d79a389dd36">chkpt_mstp.f</a>
 </li>
-<li>chkpt_write()
-: <a class="el" href="group__chkptdummy.html#gad7c7056df188476c007a133155c1f82b">chkptd.f</a>
-, <a class="el" href="group__chkpoint__mstep.html#ga5eb9b41d7725d303c1e459af4077453d">chkpt_mstp.f</a>
-</li>
 <li>chkptol()
 : <a class="el" href="navier4_8f.html#a43f20a275a318725bfdf9e8eaa0839fa">navier4.f</a>
+</li>
+<li>chkpts_init()
+: <a class="el" href="group__chkptdummy.html#ga6dad40946364ad9c8e85007a02e96b22">chkptd.f</a>
+, <a class="el" href="group__chkpoint__mstep.html#ga6dad40946364ad9c8e85007a02e96b22">chkpt_mstp.f</a>
+</li>
+<li>chkpts_is_initialised()
+: <a class="el" href="group__chkpoint__mstep.html#ga9474ac5c2ffa0845b86060b4cdc23e45">chkpt_mstp.f</a>
+</li>
+<li>chkpts_read()
+: <a class="el" href="group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f">chkptd.f</a>
+, <a class="el" href="group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a">chkpt_mstp.f</a>
+</li>
+<li>chkpts_register()
+: <a class="el" href="group__chkptdummy.html#gab482e4f7370848a1510ecb4887f3b68c">chkptd.f</a>
+, <a class="el" href="group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c">chkpt_mstp.f</a>
+</li>
+<li>chkpts_write()
+: <a class="el" href="group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c">chkptd.f</a>
+, <a class="el" href="group__chkpoint__mstep.html#ga5a1a5e27f3cc18d976b7ca6f0ac4bcba">chkpt_mstp.f</a>
 </li>
 <li>chkr()
 : <a class="el" href="hsmg_8f.html#a797b3269583d0fe5f0d05dbd041effd7">hsmg.f</a>
@@ -634,12 +650,12 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="drive2_8f.html#a578958d7bb6d5bbeaecd91ae64d88dd3">drive2.f</a>
 </li>
 <li>computelyap()
-: <a class="el" href="perturb_8f.html#a65e5beb91e11babfb59ffcd890e29f51">perturb.f</a>
-, <a class="el" href="pertsupport_8f.html#a65e5beb91e11babfb59ffcd890e29f51">pertsupport.f</a>
+: <a class="el" href="pertsupport_8f.html#a65e5beb91e11babfb59ffcd890e29f51">pertsupport.f</a>
+, <a class="el" href="perturb_8f.html#a65e5beb91e11babfb59ffcd890e29f51">perturb.f</a>
 </li>
 <li>computelyap1()
-: <a class="el" href="pertsupport_8f.html#a4a577b852caf72365480e31586613e74">pertsupport.f</a>
-, <a class="el" href="perturb_8f.html#a4a577b852caf72365480e31586613e74">perturb.f</a>
+: <a class="el" href="perturb_8f.html#a4a577b852caf72365480e31586613e74">perturb.f</a>
+, <a class="el" href="pertsupport_8f.html#a4a577b852caf72365480e31586613e74">pertsupport.f</a>
 </li>
 <li>comtdir()
 : <a class="el" href="turb_8f.html#a975268e1a9b37f144f6c49ab3a92cb01">turb.f</a>
@@ -702,8 +718,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="convect_8f.html#aef829efeef773567be893471f50529b1">convect.f</a>
 </li>
 <li>CONVERGED_FLAG
-: <a class="el" href="findpts__el__3_8c.html#afecd367ba1303bbb6be479bb4755e9a6">findpts_el_3.c</a>
-, <a class="el" href="findpts__el__2_8c.html#afecd367ba1303bbb6be479bb4755e9a6">findpts_el_2.c</a>
+: <a class="el" href="findpts__el__2_8c.html#afecd367ba1303bbb6be479bb4755e9a6">findpts_el_2.c</a>
+, <a class="el" href="findpts__el__3_8c.html#afecd367ba1303bbb6be479bb4755e9a6">findpts_el_3.c</a>
 </li>
 <li>convop()
 : <a class="el" href="navier1_8f.html#a38ba376801cfa958294fae8c90db7680">navier1.f</a>
@@ -840,33 +856,29 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>crotg()
 : <a class="el" href="blas_8f.html#aa48bf2cc4fbe5341c2d441b91dd8c7f0">blas.f</a>
 </li>
-<li>crs_amg_free
-: <a class="el" href="crs_8h.html#a5eecc75ff04d9a8e6f12c4b0dd594926">crs.h</a>
+<li>crs_amg_free()
+: <a class="el" href="crs_8h.html#a626dde5d53d414bf21debd27ba131027">crs.h</a>
 </li>
-<li>crs_amg_setup()
-: <a class="el" href="crs_8h.html#a263838f44c4496f64d4edb93709be4b7">crs.h</a>
+<li>crs_amg_setup
+: <a class="el" href="crs_8h.html#a806d6e448d21327332f0776926400ef4">crs.h</a>
 </li>
-<li>crs_amg_solve()
-: <a class="el" href="crs_8h.html#a2741549f1031f7e1be36b0681f77f87b">crs.h</a>
+<li>crs_amg_solve
+: <a class="el" href="crs_8h.html#ad0c456c746a8e8fefabfabfe76ce77ed">crs.h</a>
 </li>
-<li>crs_amg_stats()
-: <a class="el" href="crs_8h.html#aec846cfb72a6fb08b910ec6aa3693fd9">crs.h</a>
+<li>crs_amg_stats
+: <a class="el" href="crs_8h.html#abf6c3aef752fa10b1a4c2ac08bf7a610">crs.h</a>
 </li>
 <li>crs_free()
 : <a class="el" href="amg_8c.html#a770f2fae31753012fa19f34fb4b48836">amg.c</a>
-, <a class="el" href="xxt_8c.html#afd5f2fc3d95402f52361cb67924f723f">xxt.c</a>
-, <a class="el" href="amg_8c.html#ab2c0d2865385d5c66c85acf6672d7851">amg.c</a>
 , <a class="el" href="xxt_8c.html#ab2c0d2865385d5c66c85acf6672d7851">xxt.c</a>
 </li>
 <li>crs_setup
 : <a class="el" href="amg_8c.html#a75666e74c2395e76351148739489653c">amg.c</a>
 , <a class="el" href="xxt_8c.html#a7a6069f7f96ece910fe3320dc8b9ff30">xxt.c</a>
 </li>
-<li>crs_solve()
-: <a class="el" href="amg_8c.html#a611e0d89d150a2537326eb781d913788">amg.c</a>
+<li>crs_solve
+: <a class="el" href="amg_8c.html#a33be7f10e1b82e96868686be6278cd8e">amg.c</a>
 , <a class="el" href="xxt_8c.html#ab5798c7a7da4a9243319c8d90d59b1e0">xxt.c</a>
-, <a class="el" href="amg_8c.html#a33be7f10e1b82e96868686be6278cd8e">amg.c</a>
-, <a class="el" href="xxt_8c.html#a33be7f10e1b82e96868686be6278cd8e">xxt.c</a>
 </li>
 <li>crs_solve_h1()
 : <a class="el" href="navier8_8f.html#a27cfa4bb425c4ed421e59ebc3ec94311">navier8.f</a>
@@ -875,9 +887,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="navier8_8f.html#a79ba12ae05422c181379668b90e41d18">navier8.f</a>
 </li>
 <li>crs_stats
-: <a class="el" href="amg_8c.html#a3d7eb4d14189e0e5864abf2dbedfcf14">amg.c</a>
-, <a class="el" href="xxt_8c.html#a3d7eb4d14189e0e5864abf2dbedfcf14">xxt.c</a>
-, <a class="el" href="amg_8c.html#a6292df772cf141db11e3dcd1e48ed312">amg.c</a>
+: <a class="el" href="xxt_8c.html#a3d7eb4d14189e0e5864abf2dbedfcf14">xxt.c</a>
+, <a class="el" href="amg_8c.html#a3d7eb4d14189e0e5864abf2dbedfcf14">amg.c</a>
 </li>
 <li>crs_strs()
 : <a class="el" href="subs1_8f.html#a67e502b31617d5ff9be230f1ce239133">subs1.f</a>
@@ -888,28 +899,29 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>crs_xxt_setup()
 : <a class="el" href="crs_8h.html#a9aba4bf341f42c0315fb9bda5ce1cdf7">crs.h</a>
 </li>
-<li>crs_xxt_solve
-: <a class="el" href="crs_8h.html#adb7573d49490047e5c6b94b827cbe91a">crs.h</a>
+<li>crs_xxt_solve()
+: <a class="el" href="crs_8h.html#a222b0ab58ad55c0c0d0f9c004232d701">crs.h</a>
 </li>
-<li>crs_xxt_stats()
-: <a class="el" href="crs_8h.html#a531e25c2ebd01d07f3ff72b00e7e43b0">crs.h</a>
+<li>crs_xxt_stats
+: <a class="el" href="crs_8h.html#aced028569498d091fafc74a3cbe42bfc">crs.h</a>
 </li>
 <li>crss2d()
 : <a class="el" href="connect1_8f.html#a8b68679c233b9e662e4db528b0664fab">connect1.f</a>
 </li>
 <li>crystal_free()
 : <a class="el" href="crystal_8h.html#accdfb0942f053f9a6d435aa29aaff960">crystal.h</a>
+, <a class="el" href="crystal_8c.html#a1c8eac9ecb52110325f718f1fc8ebe7e">crystal.c</a>
+, <a class="el" href="crystal_8h.html#a1c8eac9ecb52110325f718f1fc8ebe7e">crystal.h</a>
 , <a class="el" href="crystal_8c.html#ab0de3fa07e4201de4fe8b1d22f06ca94">crystal.c</a>
 </li>
-<li>crystal_init()
-: <a class="el" href="crystal_8c.html#a4479de0cdd63afc07912766c094bae4f">crystal.c</a>
+<li>crystal_init
+: <a class="el" href="crystal_8c.html#a3c3a64ad33499f7200d2cd9a451e099a">crystal.c</a>
 , <a class="el" href="crystal_8h.html#a4721104732215d89071129d7cc1166e9">crystal.h</a>
-, <a class="el" href="crystal_8c.html#a3c3a64ad33499f7200d2cd9a451e099a">crystal.c</a>
-, <a class="el" href="crystal_8h.html#a3c3a64ad33499f7200d2cd9a451e099a">crystal.h</a>
 </li>
-<li>crystal_router()
-: <a class="el" href="crystal_8h.html#ab56884cbfe2cf5623d14c14362231039">crystal.h</a>
-, <a class="el" href="crystal_8c.html#a04f69970287725fbafe7fca27cedbf2a">crystal.c</a>
+<li>crystal_router
+: <a class="el" href="crystal_8c.html#a04f69970287725fbafe7fca27cedbf2a">crystal.c</a>
+, <a class="el" href="crystal_8h.html#a04f69970287725fbafe7fca27cedbf2a">crystal.h</a>
+, <a class="el" href="crystal_8c.html#ae3d378b3eb6fee4572be34e050569c85">crystal.c</a>
 </li>
 <li>cscal()
 : <a class="el" href="blas_8f.html#acce468103c83fa18bae078d5f49fefe2">blas.f</a>
@@ -1028,7 +1040,7 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 19 2017 09:23:21 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 17 2017 13:41:08 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

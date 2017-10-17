@@ -1,0 +1,4 @@
+<map id="mntr_mod_summary_print" name="mntr_mod_summary_print">
+<area shape="rect" id="node2" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="227,5,299,32"/>
+<area shape="rect" id="node3" href="$group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="347,5,449,32"/>
+</map>

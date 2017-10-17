@@ -168,7 +168,7 @@ Functions</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>This module is not upgraded to stable Nek5000 relese yet</dd></dl>
 <p>This module implements time stepper method for linear solver in Nek5000 using userchk interface. It allows to perform number of constant lenght cycles providing the result vector to the submodule. There are two possible submodules: power iteration and spectra calculation using Arnoldi algorithm implemented in <em>PARPACK</em>. The initial condition for the next stepping cycle is provided by submodule. Three stepper modes are supported: direct, adjoint, direct+adjoint.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
-<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000009">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000011">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__tstepper.html#ga807771faae88aaf61d75b90d639b4ba6">tstepper_main</a></li>
 </ol>
 </dd></dl>
@@ -182,7 +182,7 @@ Functions</h2></td></tr>
 </dd></dl>
 <dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span>tstpr_param_get</div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">!     main time stepper interface</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__tstepper.html#ga807771faae88aaf61d75b90d639b4ba6">tstepper_main</a></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000004">Global parameter list:</a></b></dt><dd>Parameters provided by time stepper module (include file - <em>TIME_STEPPERD</em>):<ul>
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000006">Global parameter list:</a></b></dt><dd>Parameters provided by time stepper module (include file - <em>TIME_STEPPERD</em>):<ul>
 <li>TSTMODE: (integer)<ul>
 <li>0 : no time stepper</li>
 <li>1 : direct mode</li>
@@ -612,7 +612,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 19 2017 09:23:15 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 17 2017 13:41:04 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -156,7 +156,7 @@ Functions</h2></td></tr>
 </ul>
 <p>In our implementation each dimension is treated separately and the final 3-dimensional function takes a maximum value of its 1-dimensional components. <img class="formulaInl" alt="$ \Delta_{wl}$" src="form_17.png"/> and <img class="formulaInl" alt="$ \Delta_{wr} $" src="form_18.png"/> can be set to zero.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
-<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000012">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000014">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></li>
 <li><a class="el" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a></li>
 <li><a class="el" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a></li>
@@ -164,7 +164,7 @@ Functions</h2></td></tr>
 </dd></dl>
 <dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userf  (ix,iy,iz,ieg)</div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      include <span class="stringliteral">&#39;NEKUSE&#39;</span>          <span class="comment">! FF[XYZ]</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line"></div><div class="line">      ffx = 0.0</div><div class="line">      ffy = 0.0</div><div class="line">      ffz = 0.0</div><div class="line"></div><div class="line"><span class="comment">!     add sponge</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a>(ffx,ffy,ffz,ix,iy,iz,ieg)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div><div class="line"><span class="comment">!-----------------------------------------------------------------------</span></div><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span>           <span class="comment">! ISTEP</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></div><div class="line"><span class="comment">!     initialise module</span></div><div class="line"><span class="comment">!     provide initial velocity condition as reference field for sponge</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a>(vx,vy,vz)</div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000007">Global parameter list:</a></b></dt><dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000009">Global parameter list:</a></b></dt><dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
 <th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
 <tr>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="spongebx_8f_source.html#l00010">10</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, and <a class="el" href="runparam_8f_source.html#l00021">rprm_check()</a>.</p>
+<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, and <a class="el" href="rprm_8f_source.html#l01155">rprm_check()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -381,7 +381,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 19 2017 09:23:15 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 17 2017 13:41:04 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

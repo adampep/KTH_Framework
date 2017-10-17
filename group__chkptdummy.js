@@ -1,7 +1,8 @@
 var group__chkptdummy =
 [
     [ "chkptd.f", "chkptd_8f.html", null ],
-    [ "chkpt_init", "group__chkptdummy.html#ga33b867c374d795e500c69afb551570dd", null ],
-    [ "chkpt_read", "group__chkptdummy.html#ga9f88246cb6529ff88cd348b02c82d117", null ],
-    [ "chkpt_write", "group__chkptdummy.html#gad7c7056df188476c007a133155c1f82b", null ]
+    [ "chkpts_init", "group__chkptdummy.html#ga6dad40946364ad9c8e85007a02e96b22", null ],
+    [ "chkpts_read", "group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f", null ],
+    [ "chkpts_register", "group__chkptdummy.html#gab482e4f7370848a1510ecb4887f3b68c", null ],
+    [ "chkpts_write", "group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c", null ]
 ];

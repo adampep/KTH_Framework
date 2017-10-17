@@ -1,6 +1,0 @@
-<map id="chkpt_param_get" name="chkpt_param_get">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="194,5,249,32"/>
-<area shape="rect" id="node4" href="$group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105" title="Check consistency of module&#39;s runtime parameters. " alt="" coords="176,56,267,83"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="315,5,397,32"/>
-<area shape="rect" id="node5" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="331,56,381,83"/>
-</map>

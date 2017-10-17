@@ -5,5 +5,6 @@ var searchData=
   ['rdtsc_2eh',['rdtsc.h',['../rdtsc_8h.html',1,'']]],
   ['readat_5fnew_2ef',['readat_new.f',['../readat__new_8f.html',1,'']]],
   ['reader_5fre2_2ef',['reader_re2.f',['../reader__re2_8f.html',1,'']]],
-  ['runparam_2ef',['runparam.f',['../runparam_8f.html',1,'']]]
+  ['rprm_2ef',['rprm.f',['../rprm_8f.html',1,'']]],
+  ['rprm_5fblock_2ef',['rprm_block.f',['../rprm__block_8f.html',1,'']]]
 ];
