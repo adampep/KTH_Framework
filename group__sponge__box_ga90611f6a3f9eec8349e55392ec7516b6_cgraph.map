@@ -1,0 +1,22 @@
+<map id="spng_init" name="spng_init">
+<area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="580,5,631,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="279,335,363,361"/>
+<area shape="rect" id="node12" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="423,449,495,476"/>
+<area shape="rect" id="node14" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="128,429,231,456"/>
+<area shape="rect" id="node15" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="143,240,215,267"/>
+<area shape="rect" id="node19" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="580,56,631,83"/>
+<area shape="rect" id="node20" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="134,367,225,393"/>
+<area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="436,247,483,273"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="563,107,647,133"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="565,360,646,387"/>
+<area shape="rect" id="node7" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="572,157,639,184"/>
+<area shape="rect" id="node8" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="556,208,655,235"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="560,259,651,285"/>
+<area shape="rect" id="node10" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="561,309,650,336"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="566,411,645,437"/>
+<area shape="rect" id="node13" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="579,461,632,488"/>
+<area shape="rect" id="node16" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="288,284,353,311"/>
+<area shape="rect" id="node17" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="432,399,487,425"/>
+<area shape="rect" id="node18" href="$prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="411,157,508,184"/>
+<area shape="rect" id="node21" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="279,385,362,412"/>
+</map>

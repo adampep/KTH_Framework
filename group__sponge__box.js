@@ -1,7 +1,8 @@
 var group__sponge__box =
 [
     [ "spongebx.f", "spongebx_8f.html", null ],
-    [ "spng_box_forcing", "group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5", null ],
-    [ "spng_box_init", "group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950", null ],
-    [ "spng_box_param_get", "group__sponge__box.html#ga9110009b865cb68d1c14ead937033307", null ]
+    [ "spng_forcing", "group__sponge__box.html#gabb75cd233be551432cc87474539f9303", null ],
+    [ "spng_init", "group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6", null ],
+    [ "spng_is_initialised", "group__sponge__box.html#gae2e46206bf4177ab4e42f433199e2347", null ],
+    [ "spng_register", "group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9", null ]
 ];

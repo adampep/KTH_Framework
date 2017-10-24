@@ -1,0 +1,5 @@
+<map id="mntr_log_local" name="mntr_log_local">
+<area shape="rect" id="node2" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing. " alt="" coords="160,5,296,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga11eb72ddf772cb55dfc112cfc070acc3" title="Print registered modules showing tree structure. " alt="" coords="344,5,517,32"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="565,5,637,32"/>
+</map>

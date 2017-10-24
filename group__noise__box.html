@@ -129,53 +129,121 @@ Files</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4f7b43e7ebb21a4d3196e6cc39d83c45"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45">nse_box_param_get</a></td></tr>
-<tr class="memdesc:ga4f7b43e7ebb21a4d3196e6cc39d83c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set noise_box parameters.  <a href="#ga4f7b43e7ebb21a4d3196e6cc39d83c45">More...</a><br /></td></tr>
-<tr class="separator:ga4f7b43e7ebb21a4d3196e6cc39d83c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga214fb909d2eebb092f816dc3a1d23ca3"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3">nse_box_add</a> ()</td></tr>
-<tr class="memdesc:ga214fb909d2eebb092f816dc3a1d23ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add noise to velocity field in a box.  <a href="#ga214fb909d2eebb092f816dc3a1d23ca3">More...</a><br /></td></tr>
-<tr class="separator:ga214fb909d2eebb092f816dc3a1d23ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabff51957fc953dc6a5c13ab63a47db53"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53">nseb_register</a> ()</td></tr>
+<tr class="memdesc:gabff51957fc953dc6a5c13ab63a47db53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register noise_box module.  <a href="#gabff51957fc953dc6a5c13ab63a47db53">More...</a><br /></td></tr>
+<tr class="separator:gabff51957fc953dc6a5c13ab63a47db53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c5a247f8e07ba3280af482559fc72c9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9">nseb_init</a> ()</td></tr>
+<tr class="memdesc:ga8c5a247f8e07ba3280af482559fc72c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initilise noise_box module.  <a href="#ga8c5a247f8e07ba3280af482559fc72c9">More...</a><br /></td></tr>
+<tr class="separator:ga8c5a247f8e07ba3280af482559fc72c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63e609c465d51ecf0abe8b8a181d5ec2"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__noise__box.html#ga63e609c465d51ecf0abe8b8a181d5ec2">nseb_is_initialised</a> ()</td></tr>
+<tr class="memdesc:ga63e609c465d51ecf0abe8b8a181d5ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if module was initialised.  <a href="#ga63e609c465d51ecf0abe8b8a181d5ec2">More...</a><br /></td></tr>
+<tr class="separator:ga63e609c465d51ecf0abe8b8a181d5ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf221ea77818faeae99296da9ef7070a5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5">nseb_noise_add</a> ()</td></tr>
+<tr class="memdesc:gaf221ea77818faeae99296da9ef7070a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add noise to velocity field in a box.  <a href="#gaf221ea77818faeae99296da9ef7070a5">More...</a><br /></td></tr>
+<tr class="separator:gaf221ea77818faeae99296da9ef7070a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Add white noise to velocity field at given time in a box. </p>
-<p>This set of routines adds a white noise in the rectangular box performing global face averaging at the end. To keep the field independent on number of number of processors we use <a class="el" href="group__math.html#ga2ab32466c4851ffc4d8f0de44ee360c4">mth_rand</a> insted or <a class="el" href="navier5_8f.html#ad748dfe473aa1c135863bd7d04faf536">ran1</a> as a random number ganarator. At the end velocity field is smoted at the element faces.</p>
+<p>This set of routines adds a white noise in the rectangular box performing global face averaging at the end. To keep the field independent on number of number of processors we use <a class="el" href="group__math.html#ga2ab32466c4851ffc4d8f0de44ee360c4">mth_rand</a> insted or <a class="el" href="navier5_8f.html#ad748dfe473aa1c135863bd7d04faf536">ran1</a> as a random number ganarator. At the end velocity field is smoothed at the element faces.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
 <dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000013">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
-<li><a class="el" href="group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45">nse_box_param_get</a></li>
-<li><a class="el" href="group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3">nse_box_add</a></li>
+<li><a class="el" href="group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53">nseb_register</a></li>
+<li><a class="el" href="group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9">nseb_init</a></li>
+<li><a class="el" href="group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5">nseb_noise_add</a></li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span>           <span class="comment">! ISTEP</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45">nse_box_param_get</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     add noise</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3">nse_box_add</a></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span>           <span class="comment">! ISTEP</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     start framework</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c">frame_start</a></div><div class="line"><span class="comment">!     register modules</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53">nseb_register</a></div><div class="line"><span class="comment">!     get runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70">frame_rparam</a></div><div class="line"><span class="comment">!     initialise modules</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9">nseb_init</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     monitor simulation</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__frame.html#ga3100879c73f67d2e4449da55049c8eae">frame_monitor</a></div><div class="line"></div><div class="line"><span class="comment">!     add noise</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5">nseb_noise_add</a></div><div class="line"></div><div class="line"><span class="comment">!     finalise framework</span></div><div class="line">      <span class="keywordflow">if</span> (istep.ge.nsteps.or.lastep.eq.1) <span class="keywordflow">then</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce">frame_end</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
 <dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000008">Global parameter list:</a></b></dt><dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
-<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Default value </th><th>Description  </th></tr>
 <tr>
-<td>nseb_tim </td><td>real </td><td>_noisebx:time </td><td>time to add noise </td></tr>
+<td>nseb_tim </td><td>real </td><td>_noisebx:time </td><td>0.0 </td><td>time to add noise </td></tr>
 <tr>
-<td>nseb_amp </td><td>real </td><td>_noisebx:amplitude </td><td>noise amplitude </td></tr>
+<td>nseb_amp </td><td>real </td><td>_noisebx:amplitude </td><td>0.0 </td><td>noise amplitude </td></tr>
 <tr>
-<td>nseb_bmin(1) </td><td>real </td><td>_noisebx:boxminx </td><td>position of lower left box corner; dimension X </td></tr>
+<td>nseb_bmin(1) </td><td>real </td><td>_noisebx:boxminx </td><td>0.0 </td><td>position of lower left box corner; dimension X </td></tr>
 <tr>
-<td>nseb_bmin(2) </td><td>real </td><td>_noisebx:boxminy </td><td>position of lower left box corner; dimension Y </td></tr>
+<td>nseb_bmin(2) </td><td>real </td><td>_noisebx:boxminy </td><td>0.0 </td><td>position of lower left box corner; dimension Y </td></tr>
 <tr>
-<td>nseb_bmin(3) </td><td>real </td><td>_noisebx:boxminz </td><td>position of lower left box corner; dimension Z </td></tr>
+<td>nseb_bmin(3) </td><td>real </td><td>_noisebx:boxminz </td><td>0.0 </td><td>position of lower left box corner; dimension Z </td></tr>
 <tr>
-<td>nseb_bmax(1) </td><td>real </td><td>_noisebx:boxmaxx </td><td>position of upper right box corner; dimension X </td></tr>
+<td>nseb_bmax(1) </td><td>real </td><td>_noisebx:boxmaxx </td><td>0.0 </td><td>position of upper right box corner; dimension X </td></tr>
 <tr>
-<td>nseb_bmax(2) </td><td>real </td><td>_noisebx:boxmaxy </td><td>position of upper right box corner; dimension Z </td></tr>
+<td>nseb_bmax(2) </td><td>real </td><td>_noisebx:boxmaxy </td><td>0.0 </td><td>position of upper right box corner; dimension Z </td></tr>
 <tr>
-<td>nseb_bmax(3) </td><td>real </td><td>_noisebx:boxmaxz </td><td>position of upper right box corner; dimension Y </td></tr>
+<td>nseb_bmax(3) </td><td>real </td><td>_noisebx:boxmaxz </td><td>0.0 </td><td>position of upper right box corner; dimension Y </td></tr>
 </table>
 </dd></dl>
 <dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_NOISEBX]</div><div class="line">time = 0.0</div><div class="line">amplitude = 0.0</div><div class="line">boxminx = 0.0</div><div class="line">boxminy = 0.0</div><div class="line">boxminz = 0.0</div><div class="line">boxmaxx = 0.0</div><div class="line">boxmaxy = 0.0</div><div class="line">boxmaxz = 0.0</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga214fb909d2eebb092f816dc3a1d23ca3"></a>
+<a class="anchor" id="ga8c5a247f8e07ba3280af482559fc72c9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine nse_box_add </td>
+          <td class="memname">subroutine nseb_init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initilise noise_box module. </p>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step after call to frame_rparam </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>SCRUZ</em> </dd></dl>
+
+<p>Definition at line <a class="el" href="noisebx_8f_source.html#l00093">93</a> of file <a class="el" href="noisebx_8f_source.html">noisebx.f</a>.</p>
+
+<p>References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, and <a class="el" href="rprm_8f_source.html#l00841">rprm_rp_get()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__noise__box_ga8c5a247f8e07ba3280af482559fc72c9_cgraph.png" border="0" usemap="#group__noise__box_ga8c5a247f8e07ba3280af482559fc72c9_cgraph" alt=""/></div>
+<map name="group__noise__box_ga8c5a247f8e07ba3280af482559fc72c9_cgraph" id="group__noise__box_ga8c5a247f8e07ba3280af482559fc72c9_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="128,5,231,32"/>
+<area shape="rect" id="node5" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="134,56,225,83"/>
+<area shape="rect" id="node3" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="411,56,483,83"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="531,56,584,83"/>
+<area shape="rect" id="node6" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="279,107,363,133"/>
+<area shape="rect" id="node8" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="279,56,362,83"/>
+<area shape="rect" id="node7" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="423,107,470,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga63e609c465d51ecf0abe8b8a181d5ec2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function nseb_is_initialised </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if module was initialised. </p>
+<dl class="section return"><dt>Returns</dt><dd>nseb_is_initialised </dd></dl>
+
+<p>Definition at line <a class="el" href="noisebx_8f_source.html#l00162">162</a> of file <a class="el" href="noisebx_8f_source.html">noisebx.f</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf221ea77818faeae99296da9ef7070a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine nseb_noise_add </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -185,36 +253,39 @@ Functions</h2></td></tr>
 
 <p>Add noise to velocity field in a box. </p>
 
-<p>Definition at line <a class="el" href="noisebx_8f_source.html#l00132">132</a> of file <a class="el" href="noisebx_8f_source.html">noisebx.f</a>.</p>
+<p>Definition at line <a class="el" href="noisebx_8f_source.html#l00175">175</a> of file <a class="el" href="noisebx_8f_source.html">noisebx.f</a>.</p>
 
-<p>References <a class="el" href="navier1_8f_source.html#l02574">opcolv()</a>, and <a class="el" href="navier1_8f_source.html#l02729">opdssum()</a>.</p>
+<p>References <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="navier1_8f_source.html#l02574">opcolv()</a>, and <a class="el" href="navier1_8f_source.html#l02729">opdssum()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__noise__box_ga214fb909d2eebb092f816dc3a1d23ca3_cgraph.png" border="0" usemap="#group__noise__box_ga214fb909d2eebb092f816dc3a1d23ca3_cgraph" alt=""/></div>
-<map name="group__noise__box_ga214fb909d2eebb092f816dc3a1d23ca3_cgraph" id="group__noise__box_ga214fb909d2eebb092f816dc3a1d23ca3_cgraph">
-<area shape="rect" id="node2" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="159,5,219,32"/>
-<area shape="rect" id="node3" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="152,56,227,83"/>
-<area shape="rect" id="node4" href="navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title="rotate_cyc" alt="" coords="278,31,361,57"/>
-<area shape="rect" id="node6" href="dssum_8f.html#a04a475747f747981907f8e5203c421ed" title="vec_dssum" alt="" coords="275,81,364,108"/>
-<area shape="rect" id="node5" href="turb_8f.html#adaa309873cbbbd3c117145741e3e41b3" title="facind2" alt="" coords="421,31,485,57"/>
-<area shape="rect" id="node7" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="412,81,493,108"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="413,132,492,159"/>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__noise__box_gaf221ea77818faeae99296da9ef7070a5_cgraph.png" border="0" usemap="#group__noise__box_gaf221ea77818faeae99296da9ef7070a5_cgraph" alt=""/></div>
+<map name="group__noise__box_gaf221ea77818faeae99296da9ef7070a5_cgraph" id="group__noise__box_gaf221ea77818faeae99296da9ef7070a5_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="329,5,401,32"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="169,31,272,57"/>
+<area shape="rect" id="node5" href="navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="191,81,251,108"/>
+<area shape="rect" id="node6" href="navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="183,132,258,159"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="471,5,525,32"/>
+<area shape="rect" id="node7" href="navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title="rotate_cyc" alt="" coords="323,81,406,108"/>
+<area shape="rect" id="node9" href="dssum_8f.html#a04a475747f747981907f8e5203c421ed" title="vec_dssum" alt="" coords="320,132,409,159"/>
+<area shape="rect" id="node8" href="turb_8f.html#adaa309873cbbbd3c117145741e3e41b3" title="facind2" alt="" coords="466,81,530,108"/>
+<area shape="rect" id="node10" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="457,132,539,159"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="459,183,537,209"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ga4f7b43e7ebb21a4d3196e6cc39d83c45"></a>
+<a class="anchor" id="gabff51957fc953dc6a5c13ab63a47db53"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine nse_box_param_get </td>
+          <td class="memname">subroutine nseb_register </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -222,23 +293,39 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set noise_box parameters. </p>
+<p>Register noise_box module. </p>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step between calls to frame_start and frame_rparam </dd></dl>
 
-<p>Definition at line <a class="el" href="noisebx_8f_source.html#l00010">10</a> of file <a class="el" href="noisebx_8f_source.html">noisebx.f</a>.</p>
+<p>Definition at line <a class="el" href="noisebx_8f_source.html#l00012">12</a> of file <a class="el" href="noisebx_8f_source.html">noisebx.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, and <a class="el" href="rprm_8f_source.html#l01155">rprm_check()</a>.</p>
+<p>References <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00474">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00361">mntr_mod_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrtmr_8f_source.html#l00146">mntr_tmr_is_name_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00016">mntr_tmr_reg()</a>, <a class="el" href="rprm_8f_source.html#l00443">rprm_rp_reg()</a>, <a class="el" href="rprm_8f_source.html#l00124">rprm_sec_reg()</a>, and <a class="el" href="rprm_8f_source.html#l00381">rprm_sec_set_act()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__noise__box_ga4f7b43e7ebb21a4d3196e6cc39d83c45_cgraph.png" border="0" usemap="#group__noise__box_ga4f7b43e7ebb21a4d3196e6cc39d83c45_cgraph" alt=""/></div>
-<map name="group__noise__box_ga4f7b43e7ebb21a4d3196e6cc39d83c45_cgraph" id="group__noise__box_ga4f7b43e7ebb21a4d3196e6cc39d83c45_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="210,5,265,32"/>
-<area shape="rect" id="node4" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105" title="Check consistency of module&#39;s runtime parameters. " alt="" coords="192,56,283,83"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="331,5,413,32"/>
-<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="347,56,397,83"/>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__noise__box_gabff51957fc953dc6a5c13ab63a47db53_cgraph.png" border="0" usemap="#group__noise__box_gabff51957fc953dc6a5c13ab63a47db53_cgraph" alt=""/></div>
+<map name="group__noise__box_gabff51957fc953dc6a5c13ab63a47db53_cgraph" id="group__noise__box_gabff51957fc953dc6a5c13ab63a47db53_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="549,438,621,464"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="153,108,315,135"/>
+<area shape="rect" id="node8" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="181,159,287,186"/>
+<area shape="rect" id="node11" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="378,818,481,844"/>
+<area shape="rect" id="node12" href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410" title="Check if timer name is registered and return its id. " alt="" coords="157,58,311,84"/>
+<area shape="rect" id="node13" href="group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26" title="Register new timer. " alt="" coords="185,260,283,287"/>
+<area shape="rect" id="node14" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="189,514,279,540"/>
+<area shape="rect" id="node18" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="183,311,285,338"/>
+<area shape="rect" id="node20" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="171,210,297,236"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="675,210,728,236"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="402,159,457,186"/>
+<area shape="rect" id="node7" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="404,108,455,135"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="544,159,627,186"/>
+<area shape="rect" id="node9" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="387,260,471,287"/>
+<area shape="rect" id="node10" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="562,260,609,287"/>
+<area shape="rect" id="node15" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="392,564,467,591"/>
+<area shape="rect" id="node16" href="group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="392,615,467,642"/>
+<area shape="rect" id="node17" href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="391,666,467,692"/>
+<area shape="rect" id="node19" href="group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="363,463,496,490"/>
 </map>
 </div>
 </p>
@@ -250,7 +337,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 17 2017 13:41:04 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 24 2017 14:02:15 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

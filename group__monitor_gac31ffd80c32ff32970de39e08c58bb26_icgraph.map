@@ -1,5 +1,8 @@
 <map id="mntr_tmr_reg" name="mntr_tmr_reg">
 <area shape="rect" id="node2" href="$group__monitor.html#ga7cdc99904e0996a4704b459d67ee5705" title="Initialise monitor by registering framework and monitor. " alt="" coords="152,5,283,32"/>
 <area shape="rect" id="node4" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="165,56,269,83"/>
+<area shape="rect" id="node5" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module. " alt="" coords="162,107,273,133"/>
+<area shape="rect" id="node6" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="167,157,267,184"/>
+<area shape="rect" id="node7" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="167,208,267,235"/>
 <area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="331,5,419,32"/>
 </map>

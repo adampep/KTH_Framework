@@ -1,4 +1,5 @@
 <map id="chkpt_main" name="chkpt_main">
-<area shape="rect" id="node2" href="$group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f" title="Dummy replacement for checkpoint reader. " alt="" coords="144,5,237,32"/>
-<area shape="rect" id="node3" href="$group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c" title="Dummy replacement for checkpoint writer. " alt="" coords="143,56,239,83"/>
+<area shape="rect" id="node2" href="$group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f" title="Dummy replacement for checkpoint reader. " alt="" coords="167,5,261,32"/>
+<area shape="rect" id="node3" href="$group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c" title="Dummy replacement for checkpoint writer. " alt="" coords="166,56,262,83"/>
+<area shape="rect" id="node4" href="$group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2" title="Get step delay. " alt="" coords="143,107,285,133"/>
 </map>

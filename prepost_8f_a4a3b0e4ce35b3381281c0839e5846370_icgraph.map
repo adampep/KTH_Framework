@@ -12,7 +12,7 @@
 <area shape="rect" id="node12" href="$group__sfd.html#ga90a8a31c3b9825e457246fca2ce7153e" title="Finalise SFD. " alt="" coords="269,259,337,285"/>
 <area shape="rect" id="node14" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="261,411,346,437"/>
 <area shape="rect" id="node16" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="248,309,359,336"/>
-<area shape="rect" id="node17" href="$group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950" title="Init sponge variables in the box domain. " alt="" coords="252,360,355,387"/>
+<area shape="rect" id="node17" href="$group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6" title="Initilise sponge_box module. " alt="" coords="266,360,341,387"/>
 <area shape="rect" id="node8" href="$prepost_8f.html#a541660bcda49100a7473a4e84093338c" title="full_restart_save" alt="" coords="407,208,525,235"/>
 <area shape="rect" id="node10" href="$coef_8f.html#a804b631f33dccd942344eec1069ad5ce" title="glmapm3" alt="" coords="429,19,503,45"/>
 <area shape="rect" id="node11" href="$coef_8f.html#a4fc3ef4a22d50b8bccc5554aeb64007e" title="glmapm1" alt="" coords="429,69,503,96"/>

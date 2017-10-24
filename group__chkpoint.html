@@ -153,6 +153,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2d682999600b8303ea7c4850cb54c9ca"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a></td></tr>
 <tr class="memdesc:ga2d682999600b8303ea7c4850cb54c9ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main checkpoint interface.  <a href="#ga2d682999600b8303ea7c4850cb54c9ca">More...</a><br /></td></tr>
 <tr class="separator:ga2d682999600b8303ea7c4850cb54c9ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6771b38c49203209e7798600d21fe0de"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__chkpoint.html#ga6771b38c49203209e7798600d21fe0de">chkpt_get_fset</a> (step_cnt, set_out)</td></tr>
+<tr class="memdesc:ga6771b38c49203209e7798600d21fe0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main checkpoint interface.  <a href="#ga6771b38c49203209e7798600d21fe0de">More...</a><br /></td></tr>
+<tr class="separator:ga6771b38c49203209e7798600d21fe0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Checkopinting routines for toolbox. </p>
@@ -162,6 +165,7 @@ Functions</h2></td></tr>
 <li><a class="el" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8">chkpt_register</a></li>
 <li><a class="el" href="group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33">chkpt_init</a></li>
 <li><a class="el" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a></li>
+<li><a class="el" href="group__chkpoint.html#ga6771b38c49203209e7798600d21fe0de">chkpt_get_fset</a></li>
 </ol>
 </dd></dl>
 <dl class="section user"><dt></dt><dd></dd></dl>
@@ -172,7 +176,7 @@ Functions</h2></td></tr>
 <li>chkpts_write</li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     register modules and parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__monitor.html#ga7cdc99904e0996a4704b459d67ee5705">mntr_register_mod</a></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e">rprm_register</a></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__monitor.html#gad8a160fa3c099342abc581c5073a5744">mntr_register_par</a></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8">chkpt_register</a></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__runparam.html#ga8c7d23b2694beb3ae7f710b27cf82bf4">rprm_dict_get</a></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2">mntr_init</a></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33">chkpt_init</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span></div><div class="line">      </div><div class="line">       <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     start framework</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c">frame_start</a></div><div class="line"><span class="comment">!     register modules</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8">chkpt_register</a></div><div class="line"><span class="comment">!     get runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70">frame_rparam</a></div><div class="line"><span class="comment">!     initialise modules</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33">chkpt_init</a></div><div class="line"></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     monitor simulation</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__frame.html#ga3100879c73f67d2e4449da55049c8eae">frame_monitor</a></div><div class="line"></div><div class="line"><span class="comment">!     save/load files for full-restart</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a></div><div class="line"></div><div class="line"><span class="comment">!     finalise framework</span></div><div class="line">      <span class="keywordflow">if</span> (istep.ge.nsteps.or.lastep.eq.1) <span class="keywordflow">then</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce">frame_end</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"> </div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
 <dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000003">Global parameter list:</a></b></dt><dd>Parameters provided by checkpoint module (include file - <em>CHKPOINTD</em>): <table class="doxtable">
 <tr>
@@ -183,12 +187,47 @@ Functions</h2></td></tr>
 <td>chpt_fnum </td><td>integer </td><td>_chkpoint:chkpFnumber </td><td>restart file number </td></tr>
 <tr>
 <td>chpt_step </td><td>integer </td><td>_chkpoint:chkpInterval </td><td>checkpiont dump frequency (number of time steps) </td></tr>
-<tr>
-<td>chpt_wtimes </td><td>string </td><td>_chkpoint:WallTime </td><td>simulation wall time </td></tr>
 </table>
 </dd></dl>
-<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkpInterval = 10</div><div class="line">readchkpt = no</div><div class="line">chkpFnumber = 1</div><div class="line">WallTime = 02:05</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_CHKPOINT]</div><div class="line">chkpInterval = 10</div><div class="line">readchkpt = no</div><div class="line">chkpFnumber = 1</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga6771b38c49203209e7798600d21fe0de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine chkpt_get_fset </td>
+          <td>(</td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>step_cnt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>set_out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Main checkpoint interface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">step_cnt</td><td>decreasing step count in checkpoint writinh phase (otherwise -1) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">set_out</td><td>set number </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00239">239</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga1523ccf52ac13164ba8fcb08a7d0da33"></a>
 <div class="memitem">
 <div class="memproto">
@@ -203,11 +242,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initilise checkpointing module. </p>
-<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step after call to rprm_dict_get </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step after call to frame_rparam </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00070">70</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00079">79</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
-<p>References <a class="el" href="chkptd_8f_source.html#l00018">chkpts_init()</a>, <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, <a class="el" href="mntrtmr_8f_source.html#l00234">mntr_tmr_add()</a>, and <a class="el" href="rprm_8f_source.html#l00839">rprm_rp_get()</a>.</p>
+<p>References <a class="el" href="chkptd_8f_source.html#l00018">chkpts_init()</a>, <a class="el" href="mntrlog_8f_source.html#l00824">mntr_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00293">mntr_get_step_delay()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrlog_8f_source.html#l00790">mntr_warn()</a>, and <a class="el" href="rprm_8f_source.html#l00841">rprm_rp_get()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -216,14 +255,22 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint_ga1523ccf52ac13164ba8fcb08a7d0da33_cgraph.png" border="0" usemap="#group__chkpoint_ga1523ccf52ac13164ba8fcb08a7d0da33_cgraph" alt=""/></div>
 <map name="group__chkpoint_ga1523ccf52ac13164ba8fcb08a7d0da33_cgraph" id="group__chkpoint_ga1523ccf52ac13164ba8fcb08a7d0da33_cgraph">
-<area shape="rect" id="node2" href="group__chkptdummy.html#ga6dad40946364ad9c8e85007a02e96b22" title="Dummy replacement for checkpoint initialisation. " alt="" coords="135,5,220,32"/>
-<area shape="rect" id="node3" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="421,132,493,159"/>
-<area shape="rect" id="node5" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="271,107,373,133"/>
-<area shape="rect" id="node6" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="132,157,223,184"/>
-<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="541,132,595,159"/>
-<area shape="rect" id="node7" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="280,208,364,235"/>
-<area shape="rect" id="node9" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="281,157,363,184"/>
-<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="434,208,481,235"/>
+<area shape="rect" id="node2" href="group__chkptdummy.html#ga6dad40946364ad9c8e85007a02e96b22" title="Dummy replacement for checkpoint initialisation. " alt="" coords="161,68,246,95"/>
+<area shape="rect" id="node3" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="332,220,416,247"/>
+<area shape="rect" id="node14" href="group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2" title="Get step delay. " alt="" coords="132,169,275,196"/>
+<area shape="rect" id="node15" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="323,321,425,348"/>
+<area shape="rect" id="node16" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="333,271,415,297"/>
+<area shape="rect" id="node17" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="158,220,249,247"/>
+<area shape="rect" id="node4" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="486,208,533,235"/>
+<area shape="rect" id="node12" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="473,284,545,311"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="601,56,685,83"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="602,107,683,133"/>
+<area shape="rect" id="node7" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="609,157,676,184"/>
+<area shape="rect" id="node8" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="593,208,692,235"/>
+<area shape="rect" id="node9" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="597,259,688,285"/>
+<area shape="rect" id="node10" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="598,309,687,336"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="603,5,682,32"/>
+<area shape="rect" id="node13" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="616,360,669,387"/>
 </map>
 </div>
 </p>
@@ -246,7 +293,7 @@ Functions</h2></td></tr>
 <p>Check if module was initialised. </p>
 <dl class="section return"><dt>Returns</dt><dd>chkpt_is_initialised </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00136">136</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00167">167</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
 </div>
 </div>
@@ -264,11 +311,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Main checkpoint interface. </p>
-<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk as a first framework call </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00150">150</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00182">182</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
-<p>References <a class="el" href="chkptd_8f_source.html#l00026">chkpts_read()</a>, and <a class="el" href="chkptd_8f_source.html#l00034">chkpts_write()</a>.</p>
+<p>References <a class="el" href="chkptd_8f_source.html#l00026">chkpts_read()</a>, <a class="el" href="chkptd_8f_source.html#l00034">chkpts_write()</a>, and <a class="el" href="mntrlog_8f_source.html#l00293">mntr_get_step_delay()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -277,8 +324,9 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint_ga2d682999600b8303ea7c4850cb54c9ca_cgraph.png" border="0" usemap="#group__chkpoint_ga2d682999600b8303ea7c4850cb54c9ca_cgraph" alt=""/></div>
 <map name="group__chkpoint_ga2d682999600b8303ea7c4850cb54c9ca_cgraph" id="group__chkpoint_ga2d682999600b8303ea7c4850cb54c9ca_cgraph">
-<area shape="rect" id="node2" href="group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f" title="Dummy replacement for checkpoint reader. " alt="" coords="144,5,237,32"/>
-<area shape="rect" id="node3" href="group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c" title="Dummy replacement for checkpoint writer. " alt="" coords="143,56,239,83"/>
+<area shape="rect" id="node2" href="group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f" title="Dummy replacement for checkpoint reader. " alt="" coords="167,5,261,32"/>
+<area shape="rect" id="node3" href="group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c" title="Dummy replacement for checkpoint writer. " alt="" coords="166,56,262,83"/>
+<area shape="rect" id="node4" href="group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2" title="Get step delay. " alt="" coords="143,107,285,133"/>
 </map>
 </div>
 </p>
@@ -312,11 +360,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Register checkpointing module. </p>
-<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step after call to rprm_dict_get </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step between calls to frame_start and frame_rparam </dd></dl>
 
 <p>Definition at line <a class="el" href="chkpoint_8f_source.html#l00012">12</a> of file <a class="el" href="chkpoint_8f_source.html">chkpoint.f</a>.</p>
 
-<p>References <a class="el" href="chkptd_8f_source.html#l00010">chkpts_register()</a>, <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00287">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00174">mntr_mod_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00143">mntr_tmr_is_name_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00015">mntr_tmr_reg()</a>, <a class="el" href="rprm_8f_source.html#l00442">rprm_rp_reg()</a>, <a class="el" href="rprm_8f_source.html#l00123">rprm_sec_reg()</a>, and <a class="el" href="rprm_8f_source.html#l00380">rprm_sec_set_act()</a>.</p>
+<p>References <a class="el" href="chkptd_8f_source.html#l00010">chkpts_register()</a>, <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00474">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00361">mntr_mod_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00270">mntr_set_step_delay()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrtmr_8f_source.html#l00146">mntr_tmr_is_name_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00016">mntr_tmr_reg()</a>, <a class="el" href="rprm_8f_source.html#l00443">rprm_rp_reg()</a>, <a class="el" href="rprm_8f_source.html#l00124">rprm_sec_reg()</a>, and <a class="el" href="rprm_8f_source.html#l00381">rprm_sec_set_act()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -325,25 +373,27 @@ Functions</h2></td></tr>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint_gab4a17862a5f644ef26e2538240fc3ae8_cgraph.png" border="0" usemap="#group__chkpoint_gab4a17862a5f644ef26e2538240fc3ae8_cgraph" alt=""/></div>
 <map name="group__chkpoint_gab4a17862a5f644ef26e2538240fc3ae8_cgraph" id="group__chkpoint_gab4a17862a5f644ef26e2538240fc3ae8_cgraph">
-<area shape="rect" id="node2" href="group__chkptdummy.html#gab482e4f7370848a1510ecb4887f3b68c" title="Dummy replacement for checkpoint registration. " alt="" coords="183,5,293,32"/>
-<area shape="rect" id="node3" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="553,436,625,463"/>
-<area shape="rect" id="node5" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="157,56,319,83"/>
-<area shape="rect" id="node9" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="185,157,291,184"/>
-<area shape="rect" id="node12" href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410" title="Check if timer name is registered and return its id. " alt="" coords="161,107,315,133"/>
-<area shape="rect" id="node13" href="group__monitor.html#gac134912feae8eced2b372763c0c49066" title="Register new timer. " alt="" coords="189,259,287,285"/>
-<area shape="rect" id="node14" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="193,537,283,564"/>
-<area shape="rect" id="node18" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="187,309,289,336"/>
-<area shape="rect" id="node20" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="175,208,301,235"/>
-<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="679,233,732,260"/>
-<area shape="rect" id="node6" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="406,183,461,209"/>
-<area shape="rect" id="node8" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="408,132,459,159"/>
-<area shape="rect" id="node7" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="548,183,631,209"/>
-<area shape="rect" id="node10" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="391,284,475,311"/>
-<area shape="rect" id="node11" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="566,284,613,311"/>
-<area shape="rect" id="node15" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="396,588,471,615"/>
-<area shape="rect" id="node16" href="group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="396,639,471,665"/>
-<area shape="rect" id="node17" href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="395,689,471,716"/>
-<area shape="rect" id="node19" href="group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="367,487,500,513"/>
+<area shape="rect" id="node2" href="group__chkptdummy.html#gab482e4f7370848a1510ecb4887f3b68c" title="Dummy replacement for checkpoint registration. " alt="" coords="183,20,293,47"/>
+<area shape="rect" id="node3" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="553,451,625,478"/>
+<area shape="rect" id="node5" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="157,71,319,98"/>
+<area shape="rect" id="node9" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="185,172,291,199"/>
+<area shape="rect" id="node12" href="group__monitor.html#gae89fd829cf5cdf8c1e09ab6f82c2611f" title="Set number of steps necessary to write proper checkpointing. " alt="" coords="167,324,309,351"/>
+<area shape="rect" id="node13" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="382,831,485,858"/>
+<area shape="rect" id="node14" href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410" title="Check if timer name is registered and return its id. " alt="" coords="161,122,315,148"/>
+<area shape="rect" id="node15" href="group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26" title="Register new timer. " alt="" coords="189,223,287,250"/>
+<area shape="rect" id="node16" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="193,527,283,554"/>
+<area shape="rect" id="node20" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="187,375,289,402"/>
+<area shape="rect" id="node22" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="175,274,301,300"/>
+<area shape="rect" id="node4" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="679,223,732,250"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="406,172,461,199"/>
+<area shape="rect" id="node8" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="408,122,459,148"/>
+<area shape="rect" id="node7" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="548,172,631,199"/>
+<area shape="rect" id="node10" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="391,324,475,351"/>
+<area shape="rect" id="node11" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="566,324,613,351"/>
+<area shape="rect" id="node17" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="396,578,471,604"/>
+<area shape="rect" id="node18" href="group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="396,628,471,655"/>
+<area shape="rect" id="node19" href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="395,679,471,706"/>
+<area shape="rect" id="node21" href="group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="367,476,500,503"/>
 </map>
 </div>
 </p>
@@ -355,7 +405,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 17 2017 13:41:03 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 24 2017 14:02:15 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

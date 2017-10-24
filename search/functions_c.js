@@ -30,8 +30,10 @@ var searchData=
   ['norm3d',['norm3d',['../genxyz_8f.html#ab1ce14609c107357a717ecb7506eb781',1,'genxyz.f']]],
   ['normsc',['normsc',['../navier1_8f.html#af8f288bd13e9077cfadcd76c95c59dc5',1,'navier1.f']]],
   ['normvc',['normvc',['../navier1_8f.html#a99a692f0ae41114b4725a9cf62458f1f',1,'navier1.f']]],
-  ['nse_5fbox_5fadd',['nse_box_add',['../group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3',1,'noisebx.f']]],
-  ['nse_5fbox_5fparam_5fget',['nse_box_param_get',['../group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45',1,'noisebx.f']]],
+  ['nseb_5finit',['nseb_init',['../group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9',1,'noisebx.f']]],
+  ['nseb_5fis_5finitialised',['nseb_is_initialised',['../group__noise__box.html#ga63e609c465d51ecf0abe8b8a181d5ec2',1,'noisebx.f']]],
+  ['nseb_5fnoise_5fadd',['nseb_noise_add',['../group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5',1,'noisebx.f']]],
+  ['nseb_5fregister',['nseb_register',['../group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53',1,'noisebx.f']]],
   ['numnodes',['numnodes',['../comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1',1,'comm_mpi.f']]],
   ['nvec_5fdssum',['nvec_dssum',['../dssum_8f.html#a5d299460ab2c55d270c39383591bb415',1,'dssum.f']]]
 ];

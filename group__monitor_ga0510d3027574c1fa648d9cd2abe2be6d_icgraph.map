@@ -1,7 +1,9 @@
 <map id="mntr_logi" name="mntr_logi">
-<area shape="rect" id="node2" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="128,56,219,83"/>
+<area shape="rect" id="node2" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="128,107,219,133"/>
 <area shape="rect" id="node3" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="267,5,389,32"/>
 <area shape="rect" id="node5" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="279,56,377,83"/>
 <area shape="rect" id="node6" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="276,107,380,133"/>
+<area shape="rect" id="node7" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="278,157,378,184"/>
+<area shape="rect" id="node8" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="278,208,378,235"/>
 <area shape="rect" id="node4" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="437,31,525,57"/>
 </map>

@@ -116,7 +116,8 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 <dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8">chkpt_register</a></li>
 <li><a class="el" href="group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33">chkpt_init</a></li>
-<li><a class="el" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a> </li>
+<li><a class="el" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a></li>
+<li><a class="el" href="group__chkpoint.html#ga6771b38c49203209e7798600d21fe0de">chkpt_get_fset</a> </li>
 </ol>
 </dd>
 <dt><a class="anchor" id="_interface_list_page000007"></a>Module <a class="el" href="group__chkpoint__mstep.html">chkpoint_mstep</a>  </dt>
@@ -145,6 +146,7 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 <dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c">frame_start</a></li>
 <li><a class="el" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70">frame_rparam</a></li>
+<li><a class="el" href="group__frame.html#ga3100879c73f67d2e4449da55049c8eae">frame_monitor</a></li>
 <li><a class="el" href="group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce">frame_end</a></li>
 <li><a class="el" href="group__frame.html#gaecd5e8090563c2c3695d4a6106d08efb">frame_get_master</a> </li>
 </ol>
@@ -170,6 +172,9 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 </dd>
 <dt><a class="anchor" id="_interface_list_page000003"></a>Module <a class="el" href="group__monitor.html">monitor</a>  </dt>
 <dd>Interface provided:<ol type="1">
+<li><a class="el" href="group__monitor.html#gae89fd829cf5cdf8c1e09ab6f82c2611f">mntr_set_step_delay</a></li>
+<li><a class="el" href="group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2">mntr_get_step_delay</a></li>
+<li><a class="el" href="group__monitor.html#ga50d7a4808cec6fb18f579e7cb7004e2e">mntr_set_conv</a></li>
 <li><a class="el" href="group__monitor.html#gaa87a4c837edde4253ec754105e40b31a">mntr_is_initialised</a></li>
 <li><a class="el" href="group__monitor.html#ga4e46045ba2098e03bbdc324115cc14ee">mntr_lp_def_get</a></li>
 <li><a class="el" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97">mntr_mod_reg</a></li>
@@ -186,7 +191,7 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 <li><a class="el" href="group__monitor.html#ga64c9959ca876042af4847a65cd58c3ac">mntr_error</a></li>
 <li><a class="el" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf">mntr_abort</a></li>
 <li><a class="el" href="group__monitor.html#gace23caf3364c03dfa97a87212382b41a">mntr_check_abort</a></li>
-<li><a class="el" href="group__monitor.html#gac134912feae8eced2b372763c0c49066">mntr_tmr_reg</a></li>
+<li><a class="el" href="group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26">mntr_tmr_reg</a></li>
 <li><a class="el" href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410">mntr_tmr_is_name_reg</a></li>
 <li><a class="el" href="group__monitor.html#gab48fa6ebd671da45201398ac76a09c70">mntr_tmr_is_id_reg</a></li>
 <li><a class="el" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b">mntr_tmr_add</a> </li>
@@ -194,8 +199,9 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 </dd>
 <dt><a class="anchor" id="_interface_list_page000013"></a>Module <a class="el" href="group__noise__box.html">noise_box</a>  </dt>
 <dd>Interface provided:<ol type="1">
-<li><a class="el" href="group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45">nse_box_param_get</a></li>
-<li><a class="el" href="group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3">nse_box_add</a> </li>
+<li><a class="el" href="group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53">nseb_register</a></li>
+<li><a class="el" href="group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9">nseb_init</a></li>
+<li><a class="el" href="group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5">nseb_noise_add</a> </li>
 </ol>
 </dd>
 <dt><a class="anchor" id="_interface_list_page000012"></a>Module <a class="el" href="group__powerit.html">powerit</a>  </dt>
@@ -237,9 +243,10 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 </dd>
 <dt><a class="anchor" id="_interface_list_page000014"></a>Module <a class="el" href="group__sponge__box.html">sponge_box</a>  </dt>
 <dd>Interface provided:<ol type="1">
-<li><a class="el" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></li>
-<li><a class="el" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a></li>
-<li><a class="el" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a> </li>
+<li><a class="el" href="group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9">spng_register</a></li>
+<li><a class="el" href="group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6">spng_init</a></li>
+<li><a class="el" href="group__sponge__box.html#gabb75cd233be551432cc87474539f9303">spng_forcing</a></li>
+<li><a class="el" href="group__sponge__box.html#gae2e46206bf4177ab4e42f433199e2347">spng_is_initialised</a> </li>
 </ol>
 </dd>
 <dt><a class="anchor" id="_interface_list_page000011"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
@@ -253,7 +260,7 @@ $(document).ready(function(){initNavTree('interface_list_page.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 17 2017 13:41:03 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 24 2017 14:02:14 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,5 +1,7 @@
 var noisebx_8f =
 [
-    [ "nse_box_add", "group__noise__box.html#ga214fb909d2eebb092f816dc3a1d23ca3", null ],
-    [ "nse_box_param_get", "group__noise__box.html#ga4f7b43e7ebb21a4d3196e6cc39d83c45", null ]
+    [ "nseb_init", "group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9", null ],
+    [ "nseb_is_initialised", "group__noise__box.html#ga63e609c465d51ecf0abe8b8a181d5ec2", null ],
+    [ "nseb_noise_add", "group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5", null ],
+    [ "nseb_register", "group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53", null ]
 ];

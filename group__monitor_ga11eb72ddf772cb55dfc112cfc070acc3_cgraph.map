@@ -1,8 +1,9 @@
 <map id="mntr_mod_summary_print" name="mntr_mod_summary_print">
-<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="440,5,512,32"/>
-<area shape="rect" id="node4" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing. " alt="" coords="227,56,363,83"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="589,5,643,32"/>
-<area shape="rect" id="node5" href="$navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title="ituple_sort" alt="" coords="435,56,517,83"/>
-<area shape="rect" id="node7" href="$group__monitor.html#ga16b7d4c206b5ac52d95cd54f1e7bc26c" title="Build ordered list reflecting graph structure. " alt="" coords="411,107,541,133"/>
-<area shape="rect" id="node6" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="589,56,643,83"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="259,5,331,32"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing. " alt="" coords="227,81,363,108"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="589,17,643,44"/>
+<area shape="rect" id="node5" href="$navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title="ituple_sort" alt="" coords="435,93,517,120"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga16b7d4c206b5ac52d95cd54f1e7bc26c" title="Build ordered list reflecting graph structure. " alt="" coords="411,144,541,171"/>
+<area shape="rect" id="node8" href="$group__monitor.html#gab81bed6cf61e681559a5b091e58640ac" title="Write log message from given process. " alt="" coords="423,43,529,69"/>
+<area shape="rect" id="node6" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="589,93,643,120"/>
 </map>

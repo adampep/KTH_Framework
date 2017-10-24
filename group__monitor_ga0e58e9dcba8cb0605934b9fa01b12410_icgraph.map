@@ -1,3 +1,6 @@
 <map id="mntr_tmr_is_name_reg" name="mntr_tmr_is_name_reg">
-<area shape="rect" id="node2" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="208,5,312,32"/>
+<area shape="rect" id="node2" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="211,5,315,32"/>
+<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module. " alt="" coords="208,56,319,83"/>
+<area shape="rect" id="node4" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="213,107,313,133"/>
+<area shape="rect" id="node5" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="213,157,313,184"/>
 </map>

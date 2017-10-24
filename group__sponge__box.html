@@ -129,15 +129,18 @@ Files</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9110009b865cb68d1c14ead937033307"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a> ()</td></tr>
-<tr class="memdesc:ga9110009b865cb68d1c14ead937033307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set sponbge_box parameters.  <a href="#ga9110009b865cb68d1c14ead937033307">More...</a><br /></td></tr>
-<tr class="separator:ga9110009b865cb68d1c14ead937033307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4d29390faac5066f800d0bb1c140950"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a> (lvx, lvy, lvz)</td></tr>
-<tr class="memdesc:gaa4d29390faac5066f800d0bb1c140950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init sponge variables in the box domain.  <a href="#gaa4d29390faac5066f800d0bb1c140950">More...</a><br /></td></tr>
-<tr class="separator:gaa4d29390faac5066f800d0bb1c140950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaecf5e525edf516a6b4671a50768dffd5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a> (ffx, ffy, ffz, ix, iy, iz, ieg)</td></tr>
-<tr class="memdesc:gaecf5e525edf516a6b4671a50768dffd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcualte sponge forcing.  <a href="#gaecf5e525edf516a6b4671a50768dffd5">More...</a><br /></td></tr>
-<tr class="separator:gaecf5e525edf516a6b4671a50768dffd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac1845c6016b1482e391ecd591cb114e9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9">spng_register</a> ()</td></tr>
+<tr class="memdesc:gac1845c6016b1482e391ecd591cb114e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register sponge_box module.  <a href="#gac1845c6016b1482e391ecd591cb114e9">More...</a><br /></td></tr>
+<tr class="separator:gac1845c6016b1482e391ecd591cb114e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga90611f6a3f9eec8349e55392ec7516b6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6">spng_init</a> (lvx, lvy, lvz)</td></tr>
+<tr class="memdesc:ga90611f6a3f9eec8349e55392ec7516b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initilise sponge_box module.  <a href="#ga90611f6a3f9eec8349e55392ec7516b6">More...</a><br /></td></tr>
+<tr class="separator:ga90611f6a3f9eec8349e55392ec7516b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2e46206bf4177ab4e42f433199e2347"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#gae2e46206bf4177ab4e42f433199e2347">spng_is_initialised</a> ()</td></tr>
+<tr class="memdesc:gae2e46206bf4177ab4e42f433199e2347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if module was initialised.  <a href="#gae2e46206bf4177ab4e42f433199e2347">More...</a><br /></td></tr>
+<tr class="separator:gae2e46206bf4177ab4e42f433199e2347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb75cd233be551432cc87474539f9303"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sponge__box.html#gabb75cd233be551432cc87474539f9303">spng_forcing</a> (ffx, ffy, ffz, ix, iy, iz, iel)</td></tr>
+<tr class="memdesc:gabb75cd233be551432cc87474539f9303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sponge forcing.  <a href="#gabb75cd233be551432cc87474539f9303">More...</a><br /></td></tr>
+<tr class="separator:gabb75cd233be551432cc87474539f9303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Sponge/fringe for simple box mesh. </p>
@@ -157,52 +160,53 @@ Functions</h2></td></tr>
 <p>In our implementation each dimension is treated separately and the final 3-dimensional function takes a maximum value of its 1-dimensional components. <img class="formulaInl" alt="$ \Delta_{wl}$" src="form_17.png"/> and <img class="formulaInl" alt="$ \Delta_{wr} $" src="form_18.png"/> can be set to zero.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
 <dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000014">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
-<li><a class="el" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></li>
-<li><a class="el" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a></li>
-<li><a class="el" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a></li>
+<li><a class="el" href="group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9">spng_register</a></li>
+<li><a class="el" href="group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6">spng_init</a></li>
+<li><a class="el" href="group__sponge__box.html#gabb75cd233be551432cc87474539f9303">spng_forcing</a></li>
+<li><a class="el" href="group__sponge__box.html#gae2e46206bf4177ab4e42f433199e2347">spng_is_initialised</a></li>
 </ol>
 </dd></dl>
-<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userf  (ix,iy,iz,ieg)</div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      include <span class="stringliteral">&#39;NEKUSE&#39;</span>          <span class="comment">! FF[XYZ]</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line"></div><div class="line">      ffx = 0.0</div><div class="line">      ffy = 0.0</div><div class="line">      ffz = 0.0</div><div class="line"></div><div class="line"><span class="comment">!     add sponge</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gaecf5e525edf516a6b4671a50768dffd5">spng_box_forcing</a>(ffx,ffy,ffz,ix,iy,iz,ieg)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div><div class="line"><span class="comment">!-----------------------------------------------------------------------</span></div><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span>           <span class="comment">! ISTEP</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line">      </div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     initialise runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#ga9110009b865cb68d1c14ead937033307">spng_box_param_get</a></div><div class="line"><span class="comment">!     initialise module</span></div><div class="line"><span class="comment">!     provide initial velocity condition as reference field for sponge</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gaa4d29390faac5066f800d0bb1c140950">spng_box_init</a>(vx,vy,vz)</div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>Module interface usage:</dt><dd><div class="fragment"><div class="line"><span class="keyword">      subroutine </span>userf  (ix,iy,iz,ieg)</div><div class="line">      include <span class="stringliteral">&#39;SIZE&#39;</span></div><div class="line">      include <span class="stringliteral">&#39;NEKUSE&#39;</span>          <span class="comment">! FF[XYZ]</span></div><div class="line">      include <span class="stringliteral">&#39;PARALLEL&#39;</span>        <span class="comment">! GLLEL</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line"></div><div class="line">      <span class="keywordtype">integer</span> iel</div><div class="line"></div><div class="line">      iel=gllel(ieg)</div><div class="line"></div><div class="line">      ffx = 0.0</div><div class="line">      ffy = 0.0</div><div class="line">      ffz = 0.0</div><div class="line"></div><div class="line"><span class="comment">!     add sponge</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gabb75cd233be551432cc87474539f9303">spng_forcing</a>(ffx,ffy,ffz,ix,iy,iz,iel)</div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div><div class="line"><span class="comment">!-----------------------------------------------------------------------</span></div><div class="line"><span class="keyword">      subroutine </span>userchk</div><div class="line">      include <span class="stringliteral">&#39;TSTEP&#39;</span>           <span class="comment">! ISTEP</span></div><div class="line">      include <span class="stringliteral">&#39;SOLN&#39;</span>            <span class="comment">! V[XYZ]</span></div><div class="line">      </div><div class="line"></div><div class="line">      <span class="keywordflow">if</span> (istep.eq.0) <span class="keywordflow">then</span></div><div class="line"><span class="comment">!     start framework</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c">frame_start</a></div><div class="line"><span class="comment">!     register modules</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9">spng_register</a></div><div class="line"><span class="comment">!     get runtime parameters</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#gaee3c3ea1286133a48657b699ae884a70">frame_rparam</a></div><div class="line"><span class="comment">!     initialise modules</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6">spng_init</a>(vx,vy,vz) <span class="comment">! initial field used as a reference one</span></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line"><span class="comment">!     monitor simulation</span></div><div class="line">      <span class="keyword">call </span><a class="code" href="group__frame.html#ga3100879c73f67d2e4449da55049c8eae">frame_monitor</a></div><div class="line"></div><div class="line"><span class="comment">!     finalise framework</span></div><div class="line">      <span class="keywordflow">if</span> (istep.ge.nsteps.or.lastep.eq.1) <span class="keywordflow">then</span></div><div class="line">         <span class="keyword">call </span><a class="code" href="group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce">frame_end</a></div><div class="line"><span class="keywordflow">      endif</span></div><div class="line"></div><div class="line">      <span class="keywordflow">return</span></div><div class="line"><span class="keyword">      end</span></div></div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:</dt><dd></dd></dl>
 <dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000009">Global parameter list:</a></b></dt><dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
 <tr>
-<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Description  </th></tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Default value </th><th>Description  </th></tr>
 <tr>
-<td>spng_str </td><td>real </td><td>_spongebx:strenght </td><td>sponge strength </td></tr>
+<td>spng_str </td><td>real </td><td>_spongebx:strenght </td><td>0.0 </td><td>sponge strength </td></tr>
 <tr>
-<td>spng_wl(1) </td><td>real </td><td>_spongebx:widthlx </td><td>sponge left section width; dimension X </td></tr>
+<td>spng_wl(1) </td><td>real </td><td>_spongebx:widthlx </td><td>0.0 </td><td>sponge left section width; dimension X </td></tr>
 <tr>
-<td>spng_wl(2) </td><td>real </td><td>_spongebx:widthly </td><td>sponge left section width; dimension Y </td></tr>
+<td>spng_wl(2) </td><td>real </td><td>_spongebx:widthly </td><td>0.0 </td><td>sponge left section width; dimension Y </td></tr>
 <tr>
-<td>spng_wl(3) </td><td>real </td><td>_spongebx:widthlz </td><td>sponge left section width; dimension Z </td></tr>
+<td>spng_wl(3) </td><td>real </td><td>_spongebx:widthlz </td><td>0.0 </td><td>sponge left section width; dimension Z </td></tr>
 <tr>
-<td>spng_wr(1) </td><td>real </td><td>_spongebx:widthrx </td><td>sponge right section width; dimension X </td></tr>
+<td>spng_wr(1) </td><td>real </td><td>_spongebx:widthrx </td><td>0.0 </td><td>sponge right section width; dimension X </td></tr>
 <tr>
-<td>spng_wr(2) </td><td>real </td><td>_spongebx:widthry </td><td>sponge right section width; dimension Y </td></tr>
+<td>spng_wr(2) </td><td>real </td><td>_spongebx:widthry </td><td>0.0 </td><td>sponge right section width; dimension Y </td></tr>
 <tr>
-<td>spng_wr(3) </td><td>real </td><td>_spongebx:widthrz </td><td>sponge right section width; dimension Z </td></tr>
+<td>spng_wr(3) </td><td>real </td><td>_spongebx:widthrz </td><td>0.0 </td><td>sponge right section width; dimension Z </td></tr>
 <tr>
-<td>spng_dl(1) </td><td>real </td><td>_spongebx:droplx </td><td>sponge left drop/rise section width; dimension X </td></tr>
+<td>spng_dl(1) </td><td>real </td><td>_spongebx:droplx </td><td>0.0 </td><td>sponge left drop/rise section width; dimension X </td></tr>
 <tr>
-<td>spng_dl(2) </td><td>real </td><td>_spongebx:droply </td><td>sponge left drop/rise section width; dimension Y </td></tr>
+<td>spng_dl(2) </td><td>real </td><td>_spongebx:droply </td><td>0.0 </td><td>sponge left drop/rise section width; dimension Y </td></tr>
 <tr>
-<td>spng_dl(3) </td><td>real </td><td>_spongebx:droplz </td><td>sponge left drop/rise section width; dimension Z </td></tr>
+<td>spng_dl(3) </td><td>real </td><td>_spongebx:droplz </td><td>0.0 </td><td>sponge left drop/rise section width; dimension Z </td></tr>
 <tr>
-<td>spng_dr(1) </td><td>real </td><td>_spongebx:droprx </td><td>sponge right drop/rise section width; dimension X </td></tr>
+<td>spng_dr(1) </td><td>real </td><td>_spongebx:droprx </td><td>0.0 </td><td>sponge right drop/rise section width; dimension X </td></tr>
 <tr>
-<td>spng_dr(2) </td><td>real </td><td>_spongebx:dropry </td><td>sponge right drop/rise section width; dimension Y </td></tr>
+<td>spng_dr(2) </td><td>real </td><td>_spongebx:dropry </td><td>0.0 </td><td>sponge right drop/rise section width; dimension Y </td></tr>
 <tr>
-<td>spng_dr(3) </td><td>real </td><td>_spongebx:droprz </td><td>sponge right drop/rise section width; dimension Z </td></tr>
+<td>spng_dr(3) </td><td>real </td><td>_spongebx:droprz </td><td>0.0 </td><td>sponge right drop/rise section width; dimension Z </td></tr>
 </table>
 </dd></dl>
 <dl class="section user"><dt>Module parameter usage:</dt><dd><div class="fragment"><div class="line">[_SPONGEBX]</div><div class="line">strength = 1.0</div><div class="line">widthlx = 4.0</div><div class="line">widthly = 0.0</div><div class="line">widthlz = 0.0</div><div class="line">widthrx = 4.0</div><div class="line">widthry = 0.0</div><div class="line">widthrz = 0.0</div><div class="line">droplx = 2.0</div><div class="line">droply = 0.0</div><div class="line">droplz = 0.0</div><div class="line">droprx = 2.0</div><div class="line">dropry = 0.0</div><div class="line">droprz = 0.0</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gaecf5e525edf516a6b4671a50768dffd5"></a>
+<a class="anchor" id="gabb75cd233be551432cc87474539f9303"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine spng_box_forcing </td>
+          <td class="memname">subroutine spng_forcing </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>&#160;</td>
           <td class="paramname"><em>ffx</em>, </td>
@@ -241,7 +245,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer&#160;</td>
-          <td class="paramname"><em>ieg</em>&#160;</td>
+          <td class="paramname"><em>iel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -251,26 +255,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Calcualte sponge forcing. </p>
+<p>Get sponge forcing. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">ffx,ffy,ffz</td><td>forcing; x,y,z component </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">ix,iy,iz</td><td>GLL point index </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ieg</td><td>global element number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iel</td><td>local element number </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00303">303</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00320">320</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gaa4d29390faac5066f800d0bb1c140950"></a>
+<a class="anchor" id="ga90611f6a3f9eec8349e55392ec7516b6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine spng_box_init </td>
+          <td class="memname">subroutine spng_init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="gs__test__old_8c.html#aaf408a80c3d053d3373d213af13efbe8">real</a>, dimension(lx1*<a class="el" href="cvode__aux_8h.html#a3132120f434b2d0cf10f38d211dcf0a0">ly1</a>*<a class="el" href="cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e">lz1</a>*lelv)&#160;</td>
           <td class="paramname"><em>lvx</em>, </td>
@@ -295,57 +299,59 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Init sponge variables in the box domain. </p>
+<p>Initilise sponge_box module. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">lvx,lvy,lvz</td><td>velocity field to be stored as reference field </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step after call to frame_rparam </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>SCRUZ</em> </dd></dl>
 
-<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00163">163</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00115">115</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="prepost_8f_source.html#l01399">outpost2()</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="mntrlog_8f_source.html#l00824">mntr_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="prepost_8f_source.html#l01399">outpost2()</a>, <a class="el" href="rprm_8f_source.html#l00841">rprm_rp_get()</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__sponge__box_gaa4d29390faac5066f800d0bb1c140950_cgraph.png" border="0" usemap="#group__sponge__box_gaa4d29390faac5066f800d0bb1c140950_cgraph" alt=""/></div>
-<map name="group__sponge__box_gaa4d29390faac5066f800d0bb1c140950_cgraph" id="group__sponge__box_gaa4d29390faac5066f800d0bb1c140950_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="568,512,619,539"/>
-<area shape="rect" id="node3" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="285,233,332,260"/>
-<area shape="rect" id="node17" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="156,487,228,513"/>
-<area shape="rect" id="node21" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="568,588,619,615"/>
-<area shape="rect" id="node4" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="397,107,481,133"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="398,360,479,387"/>
-<area shape="rect" id="node7" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="405,157,472,184"/>
-<area shape="rect" id="node8" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="389,56,488,83"/>
-<area shape="rect" id="node12" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="393,259,484,285"/>
-<area shape="rect" id="node13" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="394,208,483,235"/>
-<area shape="rect" id="node15" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="554,309,633,336"/>
-<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="551,360,636,387"/>
-<area shape="rect" id="node9" href="math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="565,5,621,32"/>
-<area shape="rect" id="node10" href="multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="543,56,644,83"/>
-<area shape="rect" id="node11" href="multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="536,107,651,133"/>
-<area shape="rect" id="node14" href="papi_8f.html#a838be3d39e287e29002d5a68c6ad2dd8" title="getflops_papi" alt="" coords="544,208,643,235"/>
-<area shape="rect" id="node16" href="mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="699,309,785,336"/>
-<area shape="rect" id="node18" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="276,436,341,463"/>
-<area shape="rect" id="node19" href="prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="411,411,466,437"/>
-<area shape="rect" id="node20" href="prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="390,461,487,488"/>
+<div class="center"><img src="group__sponge__box_ga90611f6a3f9eec8349e55392ec7516b6_cgraph.png" border="0" usemap="#group__sponge__box_ga90611f6a3f9eec8349e55392ec7516b6_cgraph" alt=""/></div>
+<map name="group__sponge__box_ga90611f6a3f9eec8349e55392ec7516b6_cgraph" id="group__sponge__box_ga90611f6a3f9eec8349e55392ec7516b6_cgraph">
+<area shape="rect" id="node2" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="580,5,631,32"/>
+<area shape="rect" id="node3" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="279,335,363,361"/>
+<area shape="rect" id="node12" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="423,449,495,476"/>
+<area shape="rect" id="node14" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="128,429,231,456"/>
+<area shape="rect" id="node15" href="prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="143,240,215,267"/>
+<area shape="rect" id="node19" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="580,56,631,83"/>
+<area shape="rect" id="node20" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="134,367,225,393"/>
+<area shape="rect" id="node4" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="436,247,483,273"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="563,107,647,133"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="565,360,646,387"/>
+<area shape="rect" id="node7" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="572,157,639,184"/>
+<area shape="rect" id="node8" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="556,208,655,235"/>
+<area shape="rect" id="node9" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="560,259,651,285"/>
+<area shape="rect" id="node10" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="561,309,650,336"/>
+<area shape="rect" id="node11" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="566,411,645,437"/>
+<area shape="rect" id="node13" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="579,461,632,488"/>
+<area shape="rect" id="node16" href="prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="288,284,353,311"/>
+<area shape="rect" id="node17" href="prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="432,399,487,425"/>
+<area shape="rect" id="node18" href="prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="411,157,508,184"/>
+<area shape="rect" id="node21" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="279,385,362,412"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ga9110009b865cb68d1c14ead937033307"></a>
+<a class="anchor" id="gae2e46206bf4177ab4e42f433199e2347"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine spng_box_param_get </td>
+          <td class="memname">logical function spng_is_initialised </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -353,23 +359,59 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set sponbge_box parameters. </p>
+<p>Check if module was initialised. </p>
+<dl class="section return"><dt>Returns</dt><dd>spng_is_initialised </dd></dl>
 
-<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00010">10</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00304">304</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, and <a class="el" href="rprm_8f_source.html#l01155">rprm_check()</a>.</p>
+</div>
+</div>
+<a class="anchor" id="gac1845c6016b1482e391ecd591cb114e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine spng_register </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register sponge_box module. </p>
+<dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step between calls to frame_start and frame_rparam </dd></dl>
+
+<p>Definition at line <a class="el" href="spongebx_8f_source.html#l00012">12</a> of file <a class="el" href="spongebx_8f_source.html">spongebx.f</a>.</p>
+
+<p>References <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00474">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00361">mntr_mod_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrtmr_8f_source.html#l00146">mntr_tmr_is_name_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00016">mntr_tmr_reg()</a>, <a class="el" href="rprm_8f_source.html#l00443">rprm_rp_reg()</a>, <a class="el" href="rprm_8f_source.html#l00124">rprm_sec_reg()</a>, and <a class="el" href="rprm_8f_source.html#l00381">rprm_sec_set_act()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph.png" border="0" usemap="#group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph" alt=""/></div>
-<map name="group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph" id="group__sponge__box_ga9110009b865cb68d1c14ead937033307_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="218,5,273,32"/>
-<area shape="rect" id="node4" href="group__runparam.html#ga91d581c31e7dc1fffa725ed595ad4105" title="Check consistency of module&#39;s runtime parameters. " alt="" coords="200,56,291,83"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="339,5,421,32"/>
-<area shape="rect" id="node5" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="355,56,405,83"/>
+<div class="center"><img src="group__sponge__box_gac1845c6016b1482e391ecd591cb114e9_cgraph.png" border="0" usemap="#group__sponge__box_gac1845c6016b1482e391ecd591cb114e9_cgraph" alt=""/></div>
+<map name="group__sponge__box_gac1845c6016b1482e391ecd591cb114e9_cgraph" id="group__sponge__box_gac1845c6016b1482e391ecd591cb114e9_cgraph">
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="549,438,621,464"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="153,108,315,135"/>
+<area shape="rect" id="node8" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="181,159,287,186"/>
+<area shape="rect" id="node11" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="378,818,481,844"/>
+<area shape="rect" id="node12" href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410" title="Check if timer name is registered and return its id. " alt="" coords="157,58,311,84"/>
+<area shape="rect" id="node13" href="group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26" title="Register new timer. " alt="" coords="185,260,283,287"/>
+<area shape="rect" id="node14" href="group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="189,514,279,540"/>
+<area shape="rect" id="node18" href="group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="183,311,285,338"/>
+<area shape="rect" id="node20" href="group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="171,210,297,236"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="675,210,728,236"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="402,159,457,186"/>
+<area shape="rect" id="node7" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="404,108,455,135"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="544,159,627,186"/>
+<area shape="rect" id="node9" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="387,260,471,287"/>
+<area shape="rect" id="node10" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="562,260,609,287"/>
+<area shape="rect" id="node15" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="392,564,467,591"/>
+<area shape="rect" id="node16" href="group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="392,615,467,642"/>
+<area shape="rect" id="node17" href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="391,666,467,692"/>
+<area shape="rect" id="node19" href="group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="363,463,496,490"/>
 </map>
 </div>
 </p>
@@ -381,7 +423,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 17 2017 13:41:04 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 24 2017 14:02:15 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

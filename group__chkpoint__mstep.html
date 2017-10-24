@@ -240,7 +240,7 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This is version of <a class="el" href="ic_8f.html#abfc96747c4f79836b70a09ac160175c2">axis_interp_ic</a> taking into account fact pressure does not have to be written on velocity mesh. </dd></dl>
 <dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>CTMP0</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01268">1268</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01191">1191</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="mxm__wrapper_8f_source.html#l00002">mxm()</a>.</p>
 
@@ -306,9 +306,9 @@ Functions</h2></td></tr>
 
 <p>Get old simulation time steps for consistency check. </p>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00354">354</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00279">279</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="ic_8f_source.html#l02599">addfid()</a>, <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte_8c_source.html#l00035">byte_open</a>, <a class="el" href="byte_8c_source.html#l00038">byte_read</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00529">chkpt_fname()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, <a class="el" href="prepost_8f_source.html#l01021">io_init()</a>, and <a class="el" href="ic_8f_source.html#l02310">mfi_parse_hdr()</a>.</p>
+<p>References <a class="el" href="ic_8f_source.html#l02599">addfid()</a>, <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="byte_8c_source.html#l00036">byte_close</a>, <a class="el" href="byte_8c_source.html#l00035">byte_open</a>, <a class="el" href="byte_8c_source.html#l00038">byte_read</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00449">chkpt_fname()</a>, <a class="el" href="prepost_8f_source.html#l01021">io_init()</a>, <a class="el" href="ic_8f_source.html#l02310">mfi_parse_hdr()</a>, and <a class="el" href="mntrlog_8f_source.html#l00843">mntr_check_abort()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -317,34 +317,33 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint__mstep_ga3791f965a9cc62350d32b740060417c5_cgraph.png" border="0" usemap="#group__chkpoint__mstep_ga3791f965a9cc62350d32b740060417c5_cgraph" alt=""/></div>
 <map name="group__chkpoint__mstep_ga3791f965a9cc62350d32b740060417c5_cgraph" id="group__chkpoint__mstep_ga3791f965a9cc62350d32b740060417c5_cgraph">
-<area shape="rect" id="node2" href="ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title="addfid" alt="" coords="174,208,231,235"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="175,499,230,525"/>
-<area shape="rect" id="node7" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="334,360,387,387"/>
-<area shape="rect" id="node8" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="154,600,251,627"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="170,284,235,311"/>
-<area shape="rect" id="node11" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="653,309,700,336"/>
-<area shape="rect" id="node21" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="175,423,231,449"/>
-<area shape="rect" id="node26" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="151,56,255,83"/>
-<area shape="rect" id="node3" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="329,208,393,235"/>
-<area shape="rect" id="node4" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="334,157,387,184"/>
-<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="319,563,402,589"/>
-<area shape="rect" id="node9" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="309,613,413,640"/>
-<area shape="rect" id="node19" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="331,259,391,285"/>
-<area shape="rect" id="node12" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="755,208,839,235"/>
-<area shape="rect" id="node13" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="757,512,838,539"/>
-<area shape="rect" id="node14" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="764,259,831,285"/>
-<area shape="rect" id="node15" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="748,309,847,336"/>
-<area shape="rect" id="node16" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="752,360,843,387"/>
-<area shape="rect" id="node17" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="753,411,842,437"/>
-<area shape="rect" id="node18" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="758,461,837,488"/>
-<area shape="rect" id="node20" href="comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="513,259,559,285"/>
-<area shape="rect" id="node22" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="334,512,387,539"/>
-<area shape="rect" id="node24" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="303,411,419,437"/>
-<area shape="rect" id="node23" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="515,512,557,539"/>
-<area shape="rect" id="node25" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="497,411,575,437"/>
-<area shape="rect" id="node27" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="334,5,387,32"/>
-<area shape="rect" id="node28" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="309,56,413,83"/>
-<area shape="rect" id="node29" href="ic_8f.html#a5784c4f0036a7484628c467ffd0c7d26" title="parse_std_hdr_2006" alt="" coords="467,56,605,83"/>
+<area shape="rect" id="node2" href="ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title="addfid" alt="" coords="185,56,243,83"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="187,132,241,159"/>
+<area shape="rect" id="node7" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="532,385,585,412"/>
+<area shape="rect" id="node8" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="165,196,263,223"/>
+<area shape="rect" id="node10" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="186,259,242,285"/>
+<area shape="rect" id="node23" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="162,512,266,539"/>
+<area shape="rect" id="node27" href="group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation. " alt="" coords="151,411,277,437"/>
+<area shape="rect" id="node3" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="351,5,415,32"/>
+<area shape="rect" id="node4" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="357,56,410,83"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="342,107,425,133"/>
+<area shape="rect" id="node9" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="331,157,435,184"/>
+<area shape="rect" id="node11" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="676,360,723,387"/>
+<area shape="rect" id="node19" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="357,208,410,235"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="325,309,441,336"/>
+<area shape="rect" id="node12" href="comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="778,284,862,311"/>
+<area shape="rect" id="node13" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="779,233,861,260"/>
+<area shape="rect" id="node14" href="subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="787,335,853,361"/>
+<area shape="rect" id="node15" href="multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="771,385,869,412"/>
+<area shape="rect" id="node16" href="mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="775,436,865,463"/>
+<area shape="rect" id="node17" href="papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="775,487,865,513"/>
+<area shape="rect" id="node18" href="comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="781,183,859,209"/>
+<area shape="rect" id="node20" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="537,208,580,235"/>
+<area shape="rect" id="node22" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="519,309,598,336"/>
+<area shape="rect" id="node24" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="357,512,410,539"/>
+<area shape="rect" id="node25" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="331,563,435,589"/>
+<area shape="rect" id="node26" href="ic_8f.html#a5784c4f0036a7484628c467ffd0c7d26" title="parse_std_hdr_2006" alt="" coords="489,537,628,564"/>
+<area shape="rect" id="node28" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="347,411,419,437"/>
 </map>
 </div>
 </p>
@@ -417,7 +416,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00529">529</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00449">449</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 <p>References <a class="el" href="io__tools_8f_source.html#l00079">io_mfo_fname()</a>.</p>
 
@@ -487,7 +486,7 @@ Functions</h2></td></tr>
 <dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>SCRCG</em>. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Finish interpolation to increase polynomial order </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01226">1226</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01149">1149</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 <p>References <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
 
@@ -574,9 +573,9 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>SCRCG</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01056">1056</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00978">978</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__mstp_8f_source.html#l01226">chkpt_interp()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00200">io_mbyte_close()</a>, <a class="el" href="io__tools_8f_source.html#l00485">io_mfi_gets()</a>, <a class="el" href="io__tools_8f_source.html#l00418">io_mfi_getv()</a>, and <a class="el" href="ic_8f_source.html#l02630">mfi_prepare()</a>.</p>
+<p>References <a class="el" href="chkpt__mstp_8f_source.html#l01149">chkpt_interp()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00200">io_mbyte_close()</a>, <a class="el" href="io__tools_8f_source.html#l00485">io_mfi_gets()</a>, <a class="el" href="io__tools_8f_source.html#l00418">io_mfi_getv()</a>, and <a class="el" href="ic_8f_source.html#l02630">mfi_prepare()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -691,9 +690,9 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>Only one set of data (DNS, MHD or perturbation) can be saved in single file </dd></dl>
 <dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>SCRCG</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00743">743</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00664">664</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00906">chkpt_mfo_write_hdr()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00200">io_mbyte_close()</a>, <a class="el" href="io__tools_8f_source.html#l00151">io_mbyte_open()</a>, <a class="el" href="io__tools_8f_source.html#l00339">io_mfo_outs()</a>, <a class="el" href="io__tools_8f_source.html#l00241">io_mfo_outv()</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
+<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00828">chkpt_mfo_write_hdr()</a>, <a class="el" href="math_8f_source.html#l00415">copy()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="io__tools_8f_source.html#l00200">io_mbyte_close()</a>, <a class="el" href="io__tools_8f_source.html#l00151">io_mbyte_open()</a>, <a class="el" href="io__tools_8f_source.html#l00339">io_mfo_outs()</a>, <a class="el" href="io__tools_8f_source.html#l00241">io_mfo_outv()</a>, and <a class="el" href="math_8f_source.html#l00370">rzero()</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -774,7 +773,7 @@ Functions</h2></td></tr>
 <p>This routine is a copy of <a class="el" href="prepost_8f.html#add41841b0b73cf28554519f93a59c688">mfo_write_hdr</a>. I've made my own version of this routine to remove ambiguity between P_n-P_n and P_n-P_n-2 runs when it comes to the format of the pressure. Right now therer is a flag IF_FULL_PRES in the main nek release that controls pressure write format. Unfortunately it is not saved in the file and at the reding step the size of real indicates the pressure format. In some cases it can be insufficient, so I store values of IFSPLIT and IF_FULL_PRES.</p>
 <dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>CTMP0</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00906">906</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00828">828</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00003">blank()</a>, <a class="el" href="byte__mpi_8f_source.html#l00097">byte_set_view()</a>, <a class="el" href="byte_8c_source.html#l00039">byte_write</a>, <a class="el" href="byte__mpi_8f_source.html#l00065">byte_write_mpi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00221">crecv()</a>, <a class="el" href="comm__mpi_8f_source.html#l00211">csend()</a>, <a class="el" href="comm__mpi_8f_source.html#l00466">err_chk()</a>, <a class="el" href="byte_8c_source.html#l00042">get_bytesw_write</a>, <a class="el" href="math_8f_source.html#l00444">icopy()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="comm__mpi_8f_source.html#l00410">nekgsync()</a>, and <a class="el" href="byte_8c_source.html#l00040">set_bytesw_write</a>.</p>
 
@@ -854,9 +853,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00674">674</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00595">595</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__mstp_8f_source.html#l01056">chkpt_mfi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, and <a class="el" href="ic_8f_source.html#l01059">sioflag()</a>.</p>
+<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00978">chkpt_mfi()</a>, <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>, and <a class="el" href="ic_8f_source.html#l01059">sioflag()</a>.</p>
 
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -953,9 +952,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00579">579</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00500">500</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00743">chkpt_mfo()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
+<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00664">chkpt_mfo()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
 
 <p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1053,9 +1052,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00432">432</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00351">351</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00529">chkpt_fname()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
+<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00449">chkpt_fname()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
 
 <p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1116,9 +1115,9 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This interface is defined in <a class="el" href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a> </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>Add timestep reader to ensure proper restart </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00043">43</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00049">49</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00354">chkpt_dt_get()</a>, and <a class="el" href="comm__mpi_8f_source.html#l00516">exitt()</a>.</p>
+<p>References <a class="el" href="chkpt__mstp_8f_source.html#l00279">chkpt_dt_get()</a>, and <a class="el" href="mntrlog_8f_source.html#l00824">mntr_abort()</a>.</p>
 
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1127,24 +1126,25 @@ Functions</h2></td></tr>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint__mstep_ga6dad40946364ad9c8e85007a02e96b22_cgraph.png" border="0" usemap="#group__chkpoint__mstep_ga6dad40946364ad9c8e85007a02e96b22_cgraph" alt=""/></div>
 <map name="group__chkpoint__mstep_ga6dad40946364ad9c8e85007a02e96b22_cgraph" id="group__chkpoint__mstep_ga6dad40946364ad9c8e85007a02e96b22_cgraph">
-<area shape="rect" id="node2" href="group__chkpoint__mstep.html#ga3791f965a9cc62350d32b740060417c5" title="Get old simulation time steps for consistency check. " alt="" coords="139,305,236,332"/>
-<area shape="rect" id="node12" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="471,413,517,440"/>
-<area shape="rect" id="node3" href="ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title="addfid" alt="" coords="307,204,365,231"/>
-<area shape="rect" id="node6" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="309,128,363,155"/>
-<area shape="rect" id="node8" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="467,309,521,336"/>
-<area shape="rect" id="node9" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="287,356,385,383"/>
-<area shape="rect" id="node11" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="303,255,369,281"/>
-<area shape="rect" id="node14" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="308,508,364,535"/>
-<area shape="rect" id="node17" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="284,56,388,83"/>
-<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="462,208,526,235"/>
-<area shape="rect" id="node5" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="467,157,521,184"/>
-<area shape="rect" id="node7" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="453,107,535,133"/>
-<area shape="rect" id="node10" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="442,360,546,387"/>
-<area shape="rect" id="node13" href="math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="464,259,524,285"/>
-<area shape="rect" id="node15" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="467,520,521,547"/>
-<area shape="rect" id="node16" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="436,469,552,496"/>
-<area shape="rect" id="node18" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="467,56,521,83"/>
-<area shape="rect" id="node19" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="442,5,546,32"/>
+<area shape="rect" id="node2" href="group__chkpoint__mstep.html#ga3791f965a9cc62350d32b740060417c5" title="Get old simulation time steps for consistency check. " alt="" coords="139,260,236,287"/>
+<area shape="rect" id="node20" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="305,463,389,490"/>
+<area shape="rect" id="node3" href="ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title="addfid" alt="" coords="319,235,376,262"/>
+<area shape="rect" id="node6" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="320,286,375,312"/>
+<area shape="rect" id="node8" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="623,235,676,262"/>
+<area shape="rect" id="node9" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="299,58,396,84"/>
+<area shape="rect" id="node11" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="319,336,375,363"/>
+<area shape="rect" id="node15" href="ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="295,134,399,160"/>
+<area shape="rect" id="node18" href="group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation. " alt="" coords="284,412,411,439"/>
+<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="485,235,549,262"/>
+<area shape="rect" id="node5" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="490,184,543,211"/>
+<area shape="rect" id="node7" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="475,286,558,312"/>
+<area shape="rect" id="node10" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="465,32,569,59"/>
+<area shape="rect" id="node12" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="493,438,540,464"/>
+<area shape="rect" id="node13" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="490,336,543,363"/>
+<area shape="rect" id="node14" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="459,387,575,414"/>
+<area shape="rect" id="node16" href="ic_8f.html#a08b174c8e23d42e0d464416772d5e2b3" title="indx2" alt="" coords="490,134,543,160"/>
+<area shape="rect" id="node17" href="ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="465,83,569,110"/>
+<area shape="rect" id="node19" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="481,488,553,515"/>
 </map>
 </div>
 </p>
@@ -1167,7 +1167,7 @@ Functions</h2></td></tr>
 <p>Check if module was initialised. </p>
 <dl class="section return"><dt>Returns</dt><dd>chkpts_is_initialised </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00124">124</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00087">87</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 </div>
 </div>
@@ -1189,9 +1189,9 @@ Functions</h2></td></tr>
 <dd>
 This is version of <a class="el" href="ic_8f.html#aa396cce2dda2db300d986bbbce515d6a">full_restart</a> routine. </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00289">289</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00202">202</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="math_8f_source.html#l00436">chcopy()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00674">chkpt_restart_read()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00432">chkpt_set_name()</a>, and <a class="el" href="prepost_8f_source.html#l01021">io_init()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00436">chcopy()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00595">chkpt_restart_read()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00351">chkpt_set_name()</a>, <a class="el" href="prepost_8f_source.html#l01021">io_init()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, and <a class="el" href="mntrlog_8f_source.html#l00790">mntr_warn()</a>.</p>
 
 <p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1200,32 +1200,35 @@ This is version of <a class="el" href="ic_8f.html#aa396cce2dda2db300d986bbbce515
 <div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint__mstep_gac43d874790794f7a13bdbbd72e6e4f5a_cgraph.png" border="0" usemap="#group__chkpoint__mstep_gac43d874790794f7a13bdbbd72e6e4f5a_cgraph" alt=""/></div>
 <map name="group__chkpoint__mstep_gac43d874790794f7a13bdbbd72e6e4f5a_cgraph" id="group__chkpoint__mstep_gac43d874790794f7a13bdbbd72e6e4f5a_cgraph">
-<area shape="rect" id="node2" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="799,434,863,461"/>
-<area shape="rect" id="node3" href="group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot. " alt="" coords="147,790,277,817"/>
-<area shape="rect" id="node22" href="group__chkpoint__mstep.html#ga9eef18a87ec81c10173c0d79a389dd36" title="Generate set of restart file names in snapshot. " alt="" coords="153,929,271,955"/>
-<area shape="rect" id="node25" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="346,1030,402,1057"/>
-<area shape="rect" id="node4" href="group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file. " alt="" coords="335,701,413,727"/>
-<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="808,777,855,803"/>
-<area shape="rect" id="node16" href="ic_8f.html#a8947b3794015310a5f2962f2c8f1c4cb" title="sioflag" alt="" coords="497,169,557,195"/>
-<area shape="rect" id="node5" href="group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc" title="Interpolate checkpoint variables. " alt="" coords="643,777,737,803"/>
-<area shape="rect" id="node7" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="806,1005,857,1031"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="657,523,723,550"/>
-<area shape="rect" id="node11" href="group__io__tools.html#gac498ba7888fea8942b2931d6f5f9a2db" title="Close field file. " alt="" coords="471,675,584,702"/>
-<area shape="rect" id="node12" href="group__io__tools.html#ga680e8ea32cc7e5f20d38d02fc2a44eb5" title="Read single scalar to the file. " alt="" coords="483,625,572,651"/>
-<area shape="rect" id="node13" href="group__io__tools.html#ga684bb99d2d9663cd8d7fd88b22601b82" title="Read single vector to the file. " alt="" coords="483,726,572,753"/>
-<area shape="rect" id="node14" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="482,574,573,601"/>
-<area shape="rect" id="node9" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="805,295,858,322"/>
-<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="915,42,968,69"/>
-<area shape="rect" id="node15" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="632,675,748,702"/>
-<area shape="rect" id="node17" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="665,118,715,145"/>
-<area shape="rect" id="node18" href="ic_8f.html#a16c69a4db09d6cc8744ebb5df59afe9a" title="csplit" alt="" coords="663,67,717,94"/>
-<area shape="rect" id="node19" href="ic_8f.html#ae922d1ca1cf69fb6d7b0f7435930f552" title="indx_cut" alt="" coords="796,42,867,69"/>
-<area shape="rect" id="node20" href="ic_8f.html#a7bd8aeb056b8f0d6a5fa67966cc611c1" title="ljust" alt="" coords="667,169,713,195"/>
-<area shape="rect" id="node21" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="663,219,717,246"/>
-<area shape="rect" id="node23" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="325,979,423,1006"/>
-<area shape="rect" id="node24" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="475,979,579,1006"/>
-<area shape="rect" id="node26" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="501,1131,554,1158"/>
-<area shape="rect" id="node27" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="669,1131,711,1158"/>
+<area shape="rect" id="node2" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="799,450,863,477"/>
+<area shape="rect" id="node3" href="group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot. " alt="" coords="147,578,277,605"/>
+<area shape="rect" id="node22" href="group__chkpoint__mstep.html#ga9eef18a87ec81c10173c0d79a389dd36" title="Generate set of restart file names in snapshot. " alt="" coords="153,945,271,971"/>
+<area shape="rect" id="node25" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="346,1046,402,1073"/>
+<area shape="rect" id="node28" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="161,387,263,414"/>
+<area shape="rect" id="node30" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="171,337,253,363"/>
+<area shape="rect" id="node4" href="group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file. " alt="" coords="335,615,413,642"/>
+<area shape="rect" id="node6" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="808,742,855,769"/>
+<area shape="rect" id="node16" href="ic_8f.html#a8947b3794015310a5f2962f2c8f1c4cb" title="sioflag" alt="" coords="497,185,557,211"/>
+<area shape="rect" id="node5" href="group__chkpoint__mstep.html#ga9996c01bf45ac90fe6eaf81bd76585fc" title="Interpolate checkpoint variables. " alt="" coords="643,742,737,769"/>
+<area shape="rect" id="node7" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="806,1071,857,1098"/>
+<area shape="rect" id="node8" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="657,539,723,566"/>
+<area shape="rect" id="node11" href="group__io__tools.html#gac498ba7888fea8942b2931d6f5f9a2db" title="Close field file. " alt="" coords="471,641,584,667"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga680e8ea32cc7e5f20d38d02fc2a44eb5" title="Read single scalar to the file. " alt="" coords="483,691,572,718"/>
+<area shape="rect" id="node13" href="group__io__tools.html#ga684bb99d2d9663cd8d7fd88b22601b82" title="Read single vector to the file. " alt="" coords="483,590,572,617"/>
+<area shape="rect" id="node14" href="ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="482,539,573,566"/>
+<area shape="rect" id="node9" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="805,83,858,110"/>
+<area shape="rect" id="node10" href="ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="915,134,968,161"/>
+<area shape="rect" id="node15" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="632,818,748,845"/>
+<area shape="rect" id="node17" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="665,235,715,262"/>
+<area shape="rect" id="node18" href="ic_8f.html#a16c69a4db09d6cc8744ebb5df59afe9a" title="csplit" alt="" coords="663,33,717,59"/>
+<area shape="rect" id="node19" href="ic_8f.html#ae922d1ca1cf69fb6d7b0f7435930f552" title="indx_cut" alt="" coords="796,33,867,59"/>
+<area shape="rect" id="node20" href="ic_8f.html#a7bd8aeb056b8f0d6a5fa67966cc611c1" title="ljust" alt="" coords="667,286,713,313"/>
+<area shape="rect" id="node21" href="math_8f.html#ab9303bf1e4e8317c75da9a352a4276a1" title="ltrunc" alt="" coords="663,185,717,211"/>
+<area shape="rect" id="node23" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="325,995,423,1022"/>
+<area shape="rect" id="node24" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="475,995,579,1022"/>
+<area shape="rect" id="node26" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="501,1097,554,1123"/>
+<area shape="rect" id="node27" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="669,1046,711,1073"/>
+<area shape="rect" id="node29" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="338,337,410,363"/>
 </map>
 </div>
 </p>
@@ -1247,9 +1250,9 @@ This is version of <a class="el" href="ic_8f.html#aa396cce2dda2db300d986bbbce515
 
 <p>Register multi step checkpointing module. </p>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00012">12</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00009">9</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="mntrlog_8f_source.html#l00427">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00287">mntr_mod_is_name_reg()</a>, and <a class="el" href="mntrlog_8f_source.html#l00174">mntr_mod_reg()</a>.</p>
+<p>References <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00474">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00361">mntr_mod_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00270">mntr_set_step_delay()</a>, <a class="el" href="mntrtmr_8f_source.html#l00146">mntr_tmr_is_name_reg()</a>, and <a class="el" href="mntrtmr_8f_source.html#l00016">mntr_tmr_reg()</a>.</p>
 
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1258,15 +1261,18 @@ This is version of <a class="el" href="ic_8f.html#aa396cce2dda2db300d986bbbce515
 <div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint__mstep_ga358b78dddcfafe899999554af7bc032c_cgraph.png" border="0" usemap="#group__chkpoint__mstep_ga358b78dddcfafe899999554af7bc032c_cgraph" alt=""/></div>
 <map name="group__chkpoint__mstep_ga358b78dddcfafe899999554af7bc032c_cgraph" id="group__chkpoint__mstep_ga358b78dddcfafe899999554af7bc032c_cgraph">
-<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="511,176,583,203"/>
-<area shape="rect" id="node4" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="164,49,325,76"/>
-<area shape="rect" id="node8" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="192,201,297,228"/>
-<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="636,176,689,203"/>
-<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="388,100,443,127"/>
-<area shape="rect" id="node7" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="390,49,441,76"/>
-<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="505,100,588,127"/>
-<area shape="rect" id="node9" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="373,252,457,279"/>
-<area shape="rect" id="node10" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="523,252,570,279"/>
+<area shape="rect" id="node2" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="511,257,583,284"/>
+<area shape="rect" id="node4" href="group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="164,308,325,335"/>
+<area shape="rect" id="node8" href="group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="192,245,297,272"/>
+<area shape="rect" id="node11" href="group__monitor.html#gae89fd829cf5cdf8c1e09ab6f82c2611f" title="Set number of steps necessary to write proper checkpointing. " alt="" coords="173,68,316,95"/>
+<area shape="rect" id="node12" href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410" title="Check if timer name is registered and return its id. " alt="" coords="167,359,322,385"/>
+<area shape="rect" id="node13" href="group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26" title="Register new timer. " alt="" coords="195,169,294,196"/>
+<area shape="rect" id="node3" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="636,257,689,284"/>
+<area shape="rect" id="node5" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="388,359,443,385"/>
+<area shape="rect" id="node7" href="ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="390,257,441,284"/>
+<area shape="rect" id="node6" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="505,359,588,385"/>
+<area shape="rect" id="node9" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="373,55,457,81"/>
+<area shape="rect" id="node10" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="523,55,570,81"/>
 </map>
 </div>
 </p>
@@ -1291,9 +1297,9 @@ This is version of <a class="el" href="ic_8f.html#aa396cce2dda2db300d986bbbce515
 <dd>
 This is version of <a class="el" href="prepost_8f.html#a541660bcda49100a7473a4e84093338c">full_restart_save</a> routine. </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00139">139</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00102">102</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p>References <a class="el" href="comm__mpi_8f_source.html#l00339">bcast()</a>, <a class="el" href="math_8f_source.html#l00436">chcopy()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00579">chkpt_restart_write()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00432">chkpt_set_name()</a>, <a class="el" href="comm__mpi_8f_source.html#l00301">dnekclock()</a>, and <a class="el" href="prepost_8f_source.html#l01021">io_init()</a>.</p>
+<p>References <a class="el" href="math_8f_source.html#l00436">chcopy()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00500">chkpt_restart_write()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l00351">chkpt_set_name()</a>, <a class="el" href="prepost_8f_source.html#l01021">io_init()</a>, <a class="el" href="mntrlog_8f_source.html#l00615">mntr_log()</a>, and <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>.</p>
 
 <p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1302,29 +1308,29 @@ This is version of <a class="el" href="prepost_8f.html#a541660bcda49100a7473a4e8
 <div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__chkpoint__mstep_ga5a1a5e27f3cc18d976b7ca6f0ac4bcba_cgraph.png" border="0" usemap="#group__chkpoint__mstep_ga5a1a5e27f3cc18d976b7ca6f0ac4bcba_cgraph" alt=""/></div>
 <map name="group__chkpoint__mstep_ga5a1a5e27f3cc18d976b7ca6f0ac4bcba_cgraph" id="group__chkpoint__mstep_ga5a1a5e27f3cc18d976b7ca6f0ac4bcba_cgraph">
-<area shape="rect" id="node2" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="189,5,243,32"/>
-<area shape="rect" id="node4" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="793,95,857,121"/>
-<area shape="rect" id="node5" href="group__chkpoint__mstep.html#ga6c83e58ee85d86e00437293adfa27a87" title="Write checkpoint snapshot. " alt="" coords="149,512,283,539"/>
-<area shape="rect" id="node10" href="comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="905,613,987,640"/>
-<area shape="rect" id="node17" href="group__chkpoint__mstep.html#ga9eef18a87ec81c10173c0d79a389dd36" title="Generate set of restart file names in snapshot. " alt="" coords="157,715,275,741"/>
-<area shape="rect" id="node20" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="351,563,407,589"/>
-<area shape="rect" id="node3" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="338,5,421,32"/>
-<area shape="rect" id="node6" href="group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file. " alt="" coords="338,309,421,336"/>
-<area shape="rect" id="node9" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="802,613,849,640"/>
-<area shape="rect" id="node7" href="group__chkpoint__mstep.html#gaf9ccdfc63d15513df5f9325c364b4d25" title="Write a header in the checkpoint file. " alt="" coords="476,107,619,133"/>
-<area shape="rect" id="node8" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="673,132,739,159"/>
-<area shape="rect" id="node11" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="800,512,851,539"/>
-<area shape="rect" id="node12" href="group__io__tools.html#gac498ba7888fea8942b2931d6f5f9a2db" title="Close field file. " alt="" coords="491,309,604,336"/>
-<area shape="rect" id="node13" href="group__io__tools.html#ga3032ca1d9ffd8d95bc0bdaa081756236" title="Open field file. " alt="" coords="492,360,603,387"/>
-<area shape="rect" id="node14" href="group__io__tools.html#ga9fec0821a6ec9c6d633316f7804039be" title="Write single scalar to the file. " alt="" coords="501,411,594,437"/>
-<area shape="rect" id="node15" href="group__io__tools.html#gaa575f8f0a65334ea4bab4fb642607112" title="Write single vector to the file. " alt="" coords="501,208,594,235"/>
-<area shape="rect" id="node16" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="522,259,573,285"/>
-<area shape="rect" id="node18" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="331,765,428,792"/>
-<area shape="rect" id="node19" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="495,765,599,792"/>
-<area shape="rect" id="node21" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="521,563,574,589"/>
-<area shape="rect" id="node23" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="489,512,605,539"/>
-<area shape="rect" id="node22" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="685,563,727,589"/>
-<area shape="rect" id="node24" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="667,512,745,539"/>
+<area shape="rect" id="node2" href="math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="799,75,863,101"/>
+<area shape="rect" id="node3" href="group__chkpoint__mstep.html#ga6c83e58ee85d86e00437293adfa27a87" title="Write checkpoint snapshot. " alt="" coords="149,360,283,387"/>
+<area shape="rect" id="node15" href="group__chkpoint__mstep.html#ga9eef18a87ec81c10173c0d79a389dd36" title="Generate set of restart file names in snapshot. " alt="" coords="157,701,275,728"/>
+<area shape="rect" id="node18" href="prepost_8f.html#abb385320698675796ad307a27f4855af" title="io_init" alt="" coords="188,309,244,336"/>
+<area shape="rect" id="node23" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="353,208,425,235"/>
+<area shape="rect" id="node24" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="165,259,267,285"/>
+<area shape="rect" id="node4" href="group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file. " alt="" coords="347,347,430,373"/>
+<area shape="rect" id="node8" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="807,600,854,627"/>
+<area shape="rect" id="node5" href="group__chkpoint__mstep.html#gaf9ccdfc63d15513df5f9325c364b4d25" title="Write a header in the checkpoint file. " alt="" coords="495,296,637,323"/>
+<area shape="rect" id="node7" href="comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="685,208,751,235"/>
+<area shape="rect" id="node9" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="693,144,743,171"/>
+<area shape="rect" id="node10" href="group__io__tools.html#gac498ba7888fea8942b2931d6f5f9a2db" title="Close field file. " alt="" coords="509,347,623,373"/>
+<area shape="rect" id="node11" href="group__io__tools.html#ga3032ca1d9ffd8d95bc0bdaa081756236" title="Open field file. " alt="" coords="511,397,621,424"/>
+<area shape="rect" id="node12" href="group__io__tools.html#ga9fec0821a6ec9c6d633316f7804039be" title="Write single scalar to the file. " alt="" coords="519,448,613,475"/>
+<area shape="rect" id="node13" href="group__io__tools.html#gaa575f8f0a65334ea4bab4fb642607112" title="Write single vector to the file. " alt="" coords="519,499,613,525"/>
+<area shape="rect" id="node14" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="541,245,591,272"/>
+<area shape="rect" id="node6" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="804,208,857,235"/>
+<area shape="rect" id="node16" href="group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name. " alt="" coords="340,752,437,779"/>
+<area shape="rect" id="node17" href="group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="514,752,618,779"/>
+<area shape="rect" id="node19" href="math_8f.html#a102af0dc870819a605ae55d60c59f84a" title="glmin" alt="" coords="362,600,415,627"/>
+<area shape="rect" id="node21" href="comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be" title="igl_running_sum" alt="" coords="331,271,447,297"/>
+<area shape="rect" id="node20" href="comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="545,600,587,627"/>
+<area shape="rect" id="node22" href="mpi__dummy_8f.html#a360ea2d5368e0651d29945de0f055d09" title="mpi_scan" alt="" coords="527,93,605,120"/>
 </map>
 </div>
 </p>
@@ -1365,7 +1371,7 @@ This is version of <a class="el" href="prepost_8f.html#a541660bcda49100a7473a4e8
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This is version of <a class="el" href="ic_8f.html#af499850e0bb56314ceea0c8db0c56784">map_pm1_to_pr</a> including perturbation </dd></dl>
 
-<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01336">1336</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p>Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01259">1259</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 <p>References <a class="el" href="math_8f_source.html#l00415">copy()</a>, and <a class="el" href="coef_8f_source.html#l01530">map12()</a>.</p>
 
@@ -1396,7 +1402,7 @@ This is version of <a class="el" href="prepost_8f.html#a541660bcda49100a7473a4e8
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 17 2017 13:41:04 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Oct 24 2017 14:02:15 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

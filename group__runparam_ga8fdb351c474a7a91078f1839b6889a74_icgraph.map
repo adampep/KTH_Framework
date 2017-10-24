@@ -2,5 +2,7 @@
 <area shape="rect" id="node2" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="147,5,219,32"/>
 <area shape="rect" id="node4" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="147,56,219,83"/>
 <area shape="rect" id="node5" href="$group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module. " alt="" coords="144,107,223,133"/>
+<area shape="rect" id="node6" href="$group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9" title="Initilise noise_box module. " alt="" coords="146,157,221,184"/>
+<area shape="rect" id="node7" href="$group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6" title="Initilise sponge_box module. " alt="" coords="146,208,221,235"/>
 <area shape="rect" id="node3" href="$group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="271,31,373,57"/>
 </map>
