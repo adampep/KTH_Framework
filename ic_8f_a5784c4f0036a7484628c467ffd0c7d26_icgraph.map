@@ -1,7 +1,6 @@
 <map id="parse_std_hdr_2006" name="parse_std_hdr_2006">
-<area shape="rect" id="node2" href="$ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="192,56,296,83"/>
-<area shape="rect" id="node3" href="$ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="344,56,448,83"/>
-<area shape="rect" id="node4" href="$gfldr_8f.html#a8063d81abe16aa8f96b77bea36344fee" title="gfldr" alt="" coords="521,5,568,32"/>
-<area shape="rect" id="node5" href="$ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="499,56,590,83"/>
-<area shape="rect" id="node6" href="$group__chkpoint__mstep.html#ga3791f965a9cc62350d32b740060417c5" title="Get old simulation time steps for consistency check. " alt="" coords="496,107,593,133"/>
+<area shape="rect" id="node2" href="$ic_8f.html#a421efcec6bd92517573af80f75b58877" title="parse_std_hdr" alt="" coords="192,31,296,57"/>
+<area shape="rect" id="node3" href="$ic_8f.html#a3befa4e5dbd2f1b21a1449d031b5ceac" title="mfi_parse_hdr" alt="" coords="344,31,448,57"/>
+<area shape="rect" id="node4" href="$gfldr_8f.html#a8063d81abe16aa8f96b77bea36344fee" title="gfldr" alt="" coords="518,5,565,32"/>
+<area shape="rect" id="node5" href="$ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="496,56,587,83"/>
 </map>

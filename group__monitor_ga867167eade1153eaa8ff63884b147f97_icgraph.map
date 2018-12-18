@@ -2,7 +2,9 @@
 <area shape="rect" id="node2" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="165,5,263,32"/>
 <area shape="rect" id="node4" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="162,56,266,83"/>
 <area shape="rect" id="node5" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module. " alt="" coords="159,107,269,133"/>
-<area shape="rect" id="node6" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="164,157,264,184"/>
-<area shape="rect" id="node7" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="164,208,264,235"/>
+<area shape="rect" id="node6" href="$group__io__tools.html#ga6000a8a35e3c582a70d70b517abaedd0" title="Register io tool module. " alt="" coords="173,157,255,184"/>
+<area shape="rect" id="node7" href="$group__sfd.html#ga43ee3323c9f0a245a97af5985a675042" title="Register SFD module. " alt="" coords="169,208,259,235"/>
+<area shape="rect" id="node8" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="164,259,264,285"/>
+<area shape="rect" id="node9" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="164,309,264,336"/>
 <area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="317,5,405,32"/>
 </map>

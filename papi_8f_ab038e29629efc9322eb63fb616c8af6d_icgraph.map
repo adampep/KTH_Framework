@@ -1,0 +1,8 @@
+<map id="getflops_papi" name="getflops_papi">
+<area shape="rect" id="node2" href="$papi_8f.html#a03e8f6edabb1a9e537e7bd6f62beff24" title="dnekgflpops" alt="" coords="152,5,244,32"/>
+<area shape="rect" id="node3" href="$papi_8f.html#a401adcc008e595bf3caeaf27a675bdb7" title="dnekgflops" alt="" coords="155,56,241,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="292,31,417,57"/>
+<area shape="rect" id="node7" href="$drive1_8f.html#a6ad57e0cf728f343e371ef8c9a02cd8a" title="nek_solve" alt="" coords="314,81,395,108"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a7c71e890279f4933a841a2d97c7de4bd" title="exitt0" alt="" coords="465,5,520,32"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a95f7432d962a41c5fe0063d0ef3da3d6" title="exitt" alt="" coords="469,56,516,83"/>
+</map>

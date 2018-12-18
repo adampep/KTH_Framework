@@ -1,5 +1,0 @@
-<map id="chkpt_mfo_write_hdr" name="chkpt_mfo_write_hdr">
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file. " alt="" coords="196,5,279,32"/>
-<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga6c83e58ee85d86e00437293adfa27a87" title="Write checkpoint snapshot. " alt="" coords="327,5,460,32"/>
-<area shape="rect" id="node4" href="$group__chkpoint__mstep.html#ga5a1a5e27f3cc18d976b7ca6f0ac4bcba" title="Write full file restart set. " alt="" coords="508,5,604,32"/>
-</map>

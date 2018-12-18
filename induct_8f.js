@@ -12,7 +12,7 @@ var induct_8f =
     [ "elsasserh", "induct_8f.html#adef470718d07d8b4c7f6bf32b2a9ecb9", null ],
     [ "extrapp", "induct_8f.html#a764e3ffe319c666d0c5ffebad5d6f2c0", null ],
     [ "gensolnp", "induct_8f.html#a92d19447dae1fa7af20c94dbf1c09992", null ],
-    [ "getdr", "induct_8f.html#a4a4dfee71db47c3a19014e78f9a3b4b1", null ],
+    [ "getdr", "induct_8f.html#ae640c10e27288b1e650b562ce9ecdcdc", null ],
     [ "incomprn", "induct_8f.html#aeb2c6d4ae2c98143118acce2419c034d", null ],
     [ "induct", "induct_8f.html#aa44a44eb5a5e3f510211f8fd8e6b12b7", null ],
     [ "lagbfield", "induct_8f.html#a0eb8620f98f751cdd40938adc7670a46", null ],
@@ -30,7 +30,7 @@ var induct_8f =
     [ "phys_to_elsasser2", "induct_8f.html#a28116d87170c4c9bc0ccea1271360cde", null ],
     [ "set_dealias_rx", "induct_8f.html#adcae8f87adfb3b7c619cd72c46ccd4ac", null ],
     [ "set_ifbcor", "induct_8f.html#a8ab9011a7d77fe8fe5f3d6acc6835aaa", null ],
-    [ "setrhsp", "induct_8f.html#a132558fa841f331232b809ea5c23a3d6", null ],
+    [ "setrhsp", "induct_8f.html#a85f2bbdd91096e0df0353ebd6968b71d", null ],
     [ "spec_curl_e", "induct_8f.html#a3d1ea77fdd5376c43f220345c8c1b20e", null ],
     [ "specx", "induct_8f.html#a372c2ccf950e29b05c012678c2ee9518", null ]
 ];

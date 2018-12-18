@@ -1,10 +1,11 @@
 <map id="convpr" name="convpr">
-<area shape="rect" id="node2" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="118,56,165,83"/>
-<area shape="rect" id="node3" href="$math_8f.html#a255eb2b5e6ee8be11915d2c3b5b5bf74" title="glsc2" alt="" coords="115,107,168,133"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="216,107,259,133"/>
-<area shape="rect" id="node5" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="333,5,383,32"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="457,81,539,108"/>
-<area shape="rect" id="node7" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="335,107,381,133"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="459,144,537,171"/>
-<area shape="rect" id="node9" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="307,208,409,235"/>
+<area shape="rect" id="node2" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="216,9,263,36"/>
+<area shape="rect" id="node5" href="$math_8f.html#a255eb2b5e6ee8be11915d2c3b5b5bf74" title="glsc2" alt="" coords="115,79,168,105"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="321,5,403,32"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="461,5,547,32"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="218,104,261,131"/>
+<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="337,56,387,83"/>
+<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="339,107,385,133"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="311,157,413,184"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="323,208,401,235"/>
 </map>

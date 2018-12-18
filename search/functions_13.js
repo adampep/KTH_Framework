@@ -9,7 +9,6 @@ var searchData=
   ['updcoor',['updcoor',['../mvmesh_8f.html#ab11769475a223b4006d1c1730ad86804',1,'mvmesh.f']]],
   ['updmsys',['updmsys',['../subs2_8f.html#aa57451cc7f331b193194eadc074dbbba',1,'subs2.f']]],
   ['updrhse',['updrhse',['../navier4_8f.html#ac7850f94786af7a09038a0ccaccadd07',1,'navier4.f']]],
-  ['updrhsh',['updrhsh',['../navier4_8f.html#a3242eb16b828fec7fa786dcf0b7846fa',1,'navier4.f']]],
   ['updtset',['updtset',['../navier4_8f.html#a38901e7e2c86bcb5f7ebcbcd0d403e5d',1,'navier4.f']]],
   ['updxyz',['updxyz',['../mvmesh_8f.html#a64c830aa6af830e543b8592f1a35eb29',1,'mvmesh.f']]],
   ['urst',['urst',['../subs1_8f.html#afc60c4d0a0e2a2a65de26a48a2bdb5f1',1,'subs1.f']]],

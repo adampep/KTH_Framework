@@ -1,7 +1,11 @@
 <map id="makeufp" name="makeufp">
-<area shape="rect" id="node2" href="$navier1_8f.html#acfa4c928e27d1e43ed8622586e4ed7e8" title="nekuf" alt="" coords="131,31,186,57"/>
-<area shape="rect" id="node6" href="$navier1_8f.html#a789ea1735fe1204169e466bcb16660d3" title="opcolv2" alt="" coords="125,81,192,108"/>
-<area shape="rect" id="node3" href="$bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="240,5,311,32"/>
-<area shape="rect" id="node4" href="$navier1_8f.html#af6a98f46c53619f885acfdb9ad705de9" title="oprzero" alt="" coords="243,56,308,83"/>
-<area shape="rect" id="node5" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="359,56,409,83"/>
+<area shape="rect" id="node2" href="$navier1_8f.html#acfa4c928e27d1e43ed8622586e4ed7e8" title="nekuf" alt="" coords="131,81,186,108"/>
+<area shape="rect" id="node10" href="$navier1_8f.html#a789ea1735fe1204169e466bcb16660d3" title="opcolv2" alt="" coords="125,132,192,159"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="257,5,339,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af434902df36175d2afdc00fbabc84b2c" title="dnekclock_sync" alt="" coords="240,56,356,83"/>
+<area shape="rect" id="node7" href="$bdry_8f.html#acf4812f4cbef3ae2e11e539feacc97d6" title="nekasgn" alt="" coords="263,107,333,133"/>
+<area shape="rect" id="node8" href="$navier1_8f.html#af6a98f46c53619f885acfdb9ad705de9" title="oprzero" alt="" coords="265,157,331,184"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="404,5,489,32"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="407,56,486,83"/>
+<area shape="rect" id="node9" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="421,157,472,184"/>
 </map>

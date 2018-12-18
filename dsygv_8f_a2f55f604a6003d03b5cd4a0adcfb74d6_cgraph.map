@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="215,5,280,32"/>
 <area shape="rect" id="node3" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="328,132,385,159"/>
 <area shape="rect" id="node4" href="$dsygv_8f.html#a7a5f5e88ba6f8d8d0382cac5c2c18019" title="dpotf2" alt="" coords="108,157,167,184"/>
-<area shape="rect" id="node7" href="$blas_8f.html#ae0ba56279ae3fa27c75fefbc4cc73ddf" title="dsyrk" alt="" coords="110,220,165,247"/>
+<area shape="rect" id="node7" href="$blas_8f.html#ae0ba56279ae3fa27c75fefbc4cc73ddf" title="dsyrk" alt="" coords="110,233,165,260"/>
 <area shape="rect" id="node8" href="$blas_8f.html#a6a0a7704f4a747562c1bd9487e89795c" title="dtrsm" alt="" coords="110,296,165,323"/>
 <area shape="rect" id="node5" href="$blas_8f.html#add421a107a488d524859b4a64c1901a9" title="dgemv" alt="" coords="217,157,278,184"/>
 <area shape="rect" id="node6" href="$blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="221,208,274,235"/>

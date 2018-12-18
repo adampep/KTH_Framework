@@ -1,8 +1,7 @@
 <map id="nekuf" name="nekuf">
-<area shape="rect" id="node2" href="$induct_8f.html#af5c5de95e9599a2310e45c43ccfec084" title="makeufb" alt="" coords="108,132,180,159"/>
-<area shape="rect" id="node5" href="$navier1_8f.html#a04edbb4ba3cfada4513a76a4e65a5561" title="makeuf" alt="" coords="111,208,177,235"/>
-<area shape="rect" id="node14" href="$perturb_8f.html#a3df8d1923cc08a86bdf74e31daea9826" title="makeufp" alt="" coords="108,284,180,311"/>
-<area shape="rect" id="node17" href="$turb_8f.html#af7aa0a5c287e498a25b24a8d4378635c" title="iniphi" alt="" coords="118,335,170,361"/>
+<area shape="rect" id="node2" href="$induct_8f.html#af5c5de95e9599a2310e45c43ccfec084" title="makeufb" alt="" coords="108,120,180,147"/>
+<area shape="rect" id="node5" href="$navier1_8f.html#a04edbb4ba3cfada4513a76a4e65a5561" title="makeuf" alt="" coords="111,183,177,209"/>
+<area shape="rect" id="node14" href="$perturb_8f.html#a3df8d1923cc08a86bdf74e31daea9826" title="makeufp" alt="" coords="108,259,180,285"/>
 <area shape="rect" id="node3" href="$induct_8f.html#a0f0eb9c29e64571293f094020bee8033" title="makebsource_mhd" alt="" coords="228,107,360,133"/>
 <area shape="rect" id="node4" href="$induct_8f.html#aa44a44eb5a5e3f510211f8fd8e6b12b7" title="induct" alt="" coords="414,5,471,32"/>
 <area shape="rect" id="node6" href="$navier1_8f.html#a83189b3d1938d87f00ace2e7e05d9e4c" title="makef" alt="" coords="265,157,323,184"/>
@@ -15,6 +14,4 @@
 <area shape="rect" id="node13" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="417,259,468,285"/>
 <area shape="rect" id="node15" href="$perturb_8f.html#a807bd5cbc891f8c0a4a0bfa3e02375fa" title="makefp" alt="" coords="261,309,327,336"/>
 <area shape="rect" id="node16" href="$perturb_8f.html#a4b77d7db844b723bd5ed857e918bc83f" title="perturbv" alt="" coords="408,309,477,336"/>
-<area shape="rect" id="node18" href="$turb_8f.html#a6e4ed070ff5b0337fb961f3e098c0c37" title="tvisca" alt="" coords="265,360,323,387"/>
-<area shape="rect" id="node19" href="$turb_8f.html#aa87fef12dba577c5e2cedbf0bd105afd" title="tviscos" alt="" coords="411,360,475,387"/>
 </map>

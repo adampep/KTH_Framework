@@ -1,6 +1,4 @@
 <map id="iniparser_load" name="iniparser_load">
 <area shape="rect" id="node2" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object. " alt="" coords="159,5,262,32"/>
 <area shape="rect" id="node3" href="$dictionary_8c.html#afd6e7e396a9b18f8e610b1236261f6dd" title="Create a new dictionary object. " alt="" coords="156,56,265,83"/>
-<area shape="rect" id="node4" href="$dictionary_8c.html#aca582586180a1cd058017e337250848d" title="Set a value in a dictionary. " alt="" coords="159,107,262,133"/>
-<area shape="rect" id="node5" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="313,107,427,133"/>
 </map>

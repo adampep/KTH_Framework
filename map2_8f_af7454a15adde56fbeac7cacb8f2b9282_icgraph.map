@@ -1,7 +1,7 @@
 <map id="gfdm_elm_to_proc" name="gfdm_elm_to_proc">
-<area shape="rect" id="node2" href="$map2_8f.html#a7d36efc1d668447eee63563983385f7a" title="set_proc_map" alt="" coords="183,22,287,49"/>
-<area shape="rect" id="node3" href="$map2_8f.html#a0a8afb6d7507567621f35bbc8ba36e2c" title="mapelpr" alt="" coords="335,22,403,49"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="588,22,647,49"/>
-<area shape="rect" id="node5" href="$genbox_8f.html#ad6648405a534752b4841003ad2742a61" title="mapbox" alt="" coords="461,22,529,49"/>
-<area shape="rect" id="node6" href="$readat__new_8f.html#a18714deec72cebf75c11b3b12bc628a3" title="readat_new" alt="" coords="451,73,540,99"/>
+<area shape="rect" id="node2" href="$map2_8f.html#a7d36efc1d668447eee63563983385f7a" title="set_proc_map" alt="" coords="183,22,287,48"/>
+<area shape="rect" id="node3" href="$map2_8f.html#a0a8afb6d7507567621f35bbc8ba36e2c" title="mapelpr" alt="" coords="335,22,403,48"/>
+<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="581,22,640,48"/>
+<area shape="rect" id="node5" href="$genbox_8f.html#ad6648405a534752b4841003ad2742a61" title="mapbox" alt="" coords="458,22,526,48"/>
+<area shape="rect" id="node6" href="$reader__par_8f.html#a69b75d22fcf18a6c1038825b9f53bdb8" title="readat_par" alt="" coords="451,72,533,99"/>
 </map>

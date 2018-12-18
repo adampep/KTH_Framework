@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['z',['z',['../structfindpts__el__data__2.html#a9bec0f9bbddfce818f36cbefae6c0ef2',1,'findpts_el_data_2::z()'],['../structfindpts__el__data__3.html#a0efd562744b4aca4cd27be3148b90422',1,'findpts_el_data_3::z()'],['../structref__lagrange__data.html#a46f476f203f558d6a4419bc4882e001d',1,'ref_lagrange_data::z()']]],
   ['z2d',['z2d',['../navier5_8f.html#acc4f6e7dc9fb2caaf3e5d8a79da085a1',1,'navier5.f']]],
   ['z_5faverage',['z_average',['../navier5_8f.html#a8dbc211b5d0f0618bc921f19f9f35e58',1,'navier5.f']]],
   ['z_5faverage_5ftranspose',['z_average_transpose',['../navier5_8f.html#ada927f3b6c5729316e244f254d39421d',1,'navier5.f']]],

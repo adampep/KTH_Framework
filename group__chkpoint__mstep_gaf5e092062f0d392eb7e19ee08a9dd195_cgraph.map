@@ -1,3 +1,5 @@
 <map id="chkpt_fname" name="chkpt_fname">
 <area shape="rect" id="node2" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="151,5,255,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga64c9959ca876042af4847a65cd58c3ac" title="Write error message. " alt="" coords="303,31,384,57"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="432,31,504,57"/>
 </map>

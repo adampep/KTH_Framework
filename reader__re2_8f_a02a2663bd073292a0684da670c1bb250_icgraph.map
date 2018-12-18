@@ -1,6 +1,6 @@
 <map id="bin_rd1_curve" name="bin_rd1_curve">
 <area shape="rect" id="node2" href="$reader__re2_8f.html#afebb243824e6845e99b2f86817b84a71" title="read_re2_data" alt="" coords="156,5,260,32"/>
-<area shape="rect" id="node3" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="445,5,504,32"/>
-<area shape="rect" id="node5" href="$readat__new_8f.html#a18714deec72cebf75c11b3b12bc628a3" title="readat_new" alt="" coords="308,31,397,57"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="552,5,619,32"/>
+<area shape="rect" id="node3" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="439,5,497,32"/>
+<area shape="rect" id="node5" href="$reader__par_8f.html#a69b75d22fcf18a6c1038825b9f53bdb8" title="readat_par" alt="" coords="308,31,391,57"/>
+<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="545,5,612,32"/>
 </map>

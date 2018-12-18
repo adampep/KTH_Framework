@@ -1,4 +1,6 @@
 <map id="opadds" name="opadds">
 <area shape="rect" id="node2" href="$math_8f.html#aeeb6d3ca3e70266452bcf92e16cb317d" title="add2s1" alt="" coords="117,5,181,32"/>
 <area shape="rect" id="node3" href="$math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title="add2s2" alt="" coords="117,56,181,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="229,56,311,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="359,56,444,83"/>
 </map>

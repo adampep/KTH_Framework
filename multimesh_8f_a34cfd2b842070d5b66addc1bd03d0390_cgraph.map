@@ -1,7 +1,7 @@
 <map id="neknekmv" name="neknekmv">
 <area shape="rect" id="node2" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="157,195,213,221"/>
-<area shape="rect" id="node6" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="721,68,823,95"/>
-<area shape="rect" id="node7" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="715,271,829,297"/>
+<area shape="rect" id="node6" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="721,107,823,133"/>
+<area shape="rect" id="node7" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="715,233,829,260"/>
 <area shape="rect" id="node10" href="$multimesh_8f.html#a64aa2bd0372ecd39dc24a2eafcaab578" title="neknekgsync" alt="" coords="136,245,235,272"/>
 <area shape="rect" id="node3" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="303,119,349,145"/>
 <area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="445,144,492,171"/>

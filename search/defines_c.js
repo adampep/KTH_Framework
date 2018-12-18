@@ -1,26 +1,4 @@
 var searchData=
 [
-  ['n',['N',['../amg_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;amg.c'],['../lob__bnd__test_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;lob_bnd_test.c'],['../obbox__test_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;obbox_test.c'],['../poly__test2_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;poly_test2.c'],['../sort__test2_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;sort_test2.c']]],
-  ['ncounter',['NCOUNTER',['../nek__comm_8c.html#a1a6f368ac1a7f1490f588d3352edc266',1,'nek_comm.c']]],
-  ['nek_5fcomm_5fgetstat',['nek_comm_getstat',['../nek__comm_8c.html#a3dfc59a9f266a56108f849d783074816',1,'nek_comm.c']]],
-  ['nek_5fcomm_5fsettings',['nek_comm_settings',['../nek__comm_8c.html#a8eef6edde31174e8ebcf13aeddef1e18',1,'nek_comm.c']]],
-  ['nek_5fcomm_5fstartstat',['nek_comm_startstat',['../nek__comm_8c.html#aa77c34c11519d275caed180e4d3745a1',1,'nek_comm.c']]],
-  ['nek_5fexitt',['nek_exitt',['../fail_8c.html#a8b68809a04b77c3312fbb1a613a7a439',1,'fail.c']]],
-  ['nek_5fmxm',['nek_mxm',['../tensor_8h.html#a18043e64aa8746c318dc5caf1f4f37bc',1,'tensor.h']]],
-  ['nel',['NEL',['../findpts__local__test_8c.html#a73cf64f48a81cdcc434300fae68cb9ec',1,'NEL():&#160;findpts_local_test.c'],['../findpts__test_8c.html#a73cf64f48a81cdcc434300fae68cb9ec',1,'NEL():&#160;findpts_test.c']]],
-  ['newt_5ftol',['NEWT_TOL',['../findpts__local__test_8c.html#abf6ee8463e89259d039a8db9f83596c9',1,'NEWT_TOL():&#160;findpts_local_test.c'],['../findpts__test_8c.html#abf6ee8463e89259d039a8db9f83596c9',1,'NEWT_TOL():&#160;findpts_test.c']]],
-  ['no_5fc99',['NO_C99',['../c99_8h.html#a70e1e0caf1554a6f7cf28fbd5f913c49',1,'c99.h']]],
-  ['npt',['NPT',['../findpts__el__2__test2_8c.html#a09199b8b317f25cd9c289db0dc6212bc',1,'NPT():&#160;findpts_el_2_test2.c'],['../findpts__el__3__test2_8c.html#a09199b8b317f25cd9c289db0dc6212bc',1,'NPT():&#160;findpts_el_3_test2.c']]],
-  ['npt_5fmax',['NPT_MAX',['../findpts__local__test_8c.html#aefc0e962e792e438e7ad4c503c8bffbd',1,'NPT_MAX():&#160;findpts_local_test.c'],['../findpts__test_8c.html#aefc0e962e792e438e7ad4c503c8bffbd',1,'NPT_MAX():&#160;findpts_test.c']]],
-  ['nr',['NR',['../findpts__el__2__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_2_test.c'],['../findpts__el__2__test2_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_2_test2.c'],['../findpts__el__3__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_3_test.c'],['../findpts__el__3__test2_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_el_3_test2.c'],['../findpts__local__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_local_test.c'],['../findpts__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;findpts_test.c'],['../obbox__test_8c.html#af146485306ae74a2edf18636300fd107',1,'NR():&#160;obbox_test.c']]],
-  ['ns',['NS',['../findpts__el__2__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_2_test.c'],['../findpts__el__2__test2_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_2_test2.c'],['../findpts__el__3__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_3_test.c'],['../findpts__el__3__test2_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_el_3_test2.c'],['../findpts__local__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_local_test.c'],['../findpts__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;findpts_test.c'],['../obbox__test_8c.html#a06c201f90533d5b49cd039c960327968',1,'NS():&#160;obbox_test.c']]],
-  ['nt',['NT',['../findpts__el__3__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_el_3_test.c'],['../findpts__el__3__test2_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_el_3_test2.c'],['../findpts__local__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_local_test.c'],['../findpts__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;findpts_test.c'],['../obbox__test_8c.html#a7d5ef0de19030d43f98042e1c4a9f605',1,'NT():&#160;obbox_test.c']]],
-  ['ntimer',['NTIMER',['../nek__comm_8c.html#ab14495ae1f9667df5d198613bcc8d092',1,'nek_comm.c']]],
-  ['ntokenmax',['ntokenmax',['../finiparser_8c.html#a828d535b7c78ec70dc79e6692d9b8b74',1,'finiparser.c']]],
-  ['null_5farray',['null_array',['../mem_8h.html#aae4451b74860cd7d1b9338c683856ef2',1,'mem.h']]],
-  ['null_5fbuffer',['null_buffer',['../mem_8h.html#aea4c3757b9e97f460480174db6f6d1f2',1,'mem.h']]],
-  ['num',['NUM',['../sort__test_8c.html#aaf0952059602752258dccaa015d7b54a',1,'sort_test.c']]],
-  ['ny',['NY',['../lob__bnd__test_8c.html#a652e87ecc9140879666ae9d6bf4ca893',1,'lob_bnd_test.c']]],
-  ['nz',['NZ',['../lob__bnd__test_8c.html#a693aee47b2103d0a7fcd3a0a0dd4fb57',1,'lob_bnd_test.c']]],
-  ['nz_5fpos_5fequal',['nz_pos_equal',['../amg_8c.html#aeebb74cc79e62af79c23f14de34364a3',1,'amg.c']]]
+  ['write',['WRITE',['../byte_8c.html#aa10f470e996d0f51210d24f442d25e1e',1,'byte.c']]]
 ];

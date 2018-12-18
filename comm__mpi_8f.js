@@ -1,7 +1,7 @@
 var comm__mpi_8f =
 [
     [ "bcast", "comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8", null ],
-    [ "close_files", "comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2", null ],
+    [ "close_files", "comm__mpi_8f.html#ade616aef91d69eef7f0b310105276890", null ],
     [ "comm_test", "comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144", null ],
     [ "create_comm", "comm__mpi_8f.html#a0d0f535bedd0124e7a09b4f15db6de8e", null ],
     [ "crecv", "comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037", null ],
@@ -15,6 +15,7 @@ var comm__mpi_8f =
     [ "exitt0", "comm__mpi_8f.html#a7c71e890279f4933a841a2d97c7de4bd", null ],
     [ "exitti", "comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197", null ],
     [ "exittr", "comm__mpi_8f.html#ae13d3e643c50b46581915bab6042a604", null ],
+    [ "fgslib_userexithandler", "comm__mpi_8f.html#ac0785065d49536a36695fb3708c5d6cc", null ],
     [ "get_msg_vol", "comm__mpi_8f.html#a4ae0ceb703bba6170a61c696ee3871d3", null ],
     [ "gop", "comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b", null ],
     [ "gop_test", "comm__mpi_8f.html#adfd24553503bf8ac7e0a0be2c517211d", null ],
@@ -31,6 +32,7 @@ var comm__mpi_8f =
     [ "lbcast", "comm__mpi_8f.html#aaa2c579a3b72b7a20446818d166bc7cc", null ],
     [ "msgwait", "comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0", null ],
     [ "mynode", "comm__mpi_8f.html#a2fae0158282f10009f27373acd2a0337", null ],
+    [ "nek_die", "comm__mpi_8f.html#acc8803a3787828530843112e0c48941b", null ],
     [ "nekgsync", "comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3", null ],
     [ "numnodes", "comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1", null ],
     [ "ping_loop", "comm__mpi_8f.html#a8493e0f05af0ea25b69053ada11d808a", null ],
@@ -39,6 +41,7 @@ var comm__mpi_8f =
     [ "pingpong", "comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29", null ],
     [ "pingpongo", "comm__mpi_8f.html#a557724d36fed5680ba696aae60ae5992", null ],
     [ "platform_timer", "comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06", null ],
+    [ "print_runtime_info", "comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed", null ],
     [ "printheader", "comm__mpi_8f.html#a18ca1338ab65ed76e2405bf426a32c96", null ],
     [ "xor", "comm__mpi_8f.html#aa58338baef9abc506b23bd96e3c54d44", null ]
 ];

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['obbox_5fcalc_5f2',['obbox_calc_2',['../obbox_8c.html#a9732d1196730c53ce3686b929df4afeb',1,'obbox_calc_2(struct obbox_2 *out, const double *const elx[2], const unsigned n[2], uint nel, const unsigned m[2], const double tol):&#160;obbox.c'],['../obbox_8h.html#a9732d1196730c53ce3686b929df4afeb',1,'obbox_calc_2(struct obbox_2 *out, const double *const elx[2], const unsigned n[2], uint nel, const unsigned m[2], const double tol):&#160;obbox.c']]],
-  ['obbox_5fcalc_5f3',['obbox_calc_3',['../obbox_8c.html#a45242dea7fc1ee231405659e41aebec9',1,'obbox_calc_3(struct obbox_3 *out, const double *const elx[3], const unsigned n[3], uint nel, const unsigned m[3], const double tol):&#160;obbox.c'],['../obbox_8h.html#a45242dea7fc1ee231405659e41aebec9',1,'obbox_calc_3(struct obbox_3 *out, const double *const elx[3], const unsigned n[3], uint nel, const unsigned m[3], const double tol):&#160;obbox.c']]],
   ['op_5fcurl',['op_curl',['../plan4_8f.html#a133b5c2a8f266ecb811b8baf380f0b76',1,'plan4.f']]],
   ['op_5fglsc2_5fwt',['op_glsc2_wt',['../subs2_8f.html#a468eef66faa2ee9cec709e25128831d7',1,'subs2.f']]],
   ['op_5fvlsc2_5fwt',['op_vlsc2_wt',['../subs2_8f.html#ab24eadfee3bde6607c3a8eefc2ef0e64',1,'subs2.f']]],

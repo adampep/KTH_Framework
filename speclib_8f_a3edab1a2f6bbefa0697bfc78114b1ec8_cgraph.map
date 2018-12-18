@@ -1,0 +1,15 @@
+<map id="dgljd" name="dgljd">
+<area shape="rect" id="node2" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="108,132,155,159"/>
+<area shape="rect" id="node14" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title="jacobf" alt="" coords="103,183,160,209"/>
+<area shape="rect" id="node3" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="221,107,320,133"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="237,157,304,184"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="208,259,333,285"/>
+<area shape="rect" id="node4" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="411,5,467,32"/>
+<area shape="rect" id="node5" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="389,56,490,83"/>
+<area shape="rect" id="node6" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="382,107,497,133"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="394,157,485,184"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#af434902df36175d2afdc00fbabc84b2c" title="dnekclock_sync" alt="" coords="381,208,497,235"/>
+<area shape="rect" id="node11" href="$papi_8f.html#a401adcc008e595bf3caeaf27a675bdb7" title="dnekgflops" alt="" coords="397,259,482,285"/>
+<area shape="rect" id="node12" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="406,309,473,336"/>
+<area shape="rect" id="node13" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="411,360,468,387"/>
+</map>

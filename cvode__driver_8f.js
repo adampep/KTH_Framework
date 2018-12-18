@@ -10,6 +10,5 @@ var cvode__driver_8f =
     [ "cv_upd_coor", "cvode__driver_8f.html#ac877599736fc78e513908616db8045e7", null ],
     [ "cv_upd_v", "cvode__driver_8f.html#a4396b0ccdce052bf3cfc9abbfb8d9edf", null ],
     [ "cv_upd_w", "cvode__driver_8f.html#abbe1d8be3b8d7212aca9040cd1c8fbbe", null ],
-    [ "fcvfun", "cvode__driver_8f.html#a3cf183edc142d3e93dc90e21bdadbc4e", null ],
-    [ "fcvjtimes", "cvode__driver_8f.html#a42330481eb9002bbbdd4017f467a53c6", null ]
+    [ "fcvfun", "cvode__driver_8f.html#a3cf183edc142d3e93dc90e21bdadbc4e", null ]
 ];

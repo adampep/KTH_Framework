@@ -7,8 +7,8 @@
 <area shape="rect" id="node12" href="$reader__re2_8f.html#a189e9cbe1eb8f139fb4274fc08ee13ee" title="buf_to_bc" alt="" coords="123,259,201,285"/>
 <area shape="rect" id="node13" href="$reader__re2_8f.html#ae148b6a074a40d9a6959f82d066d1927" title="bin_rd1_bc" alt="" coords="275,259,361,285"/>
 <area shape="rect" id="node3" href="$reader__re2_8f.html#afebb243824e6845e99b2f86817b84a71" title="read_re2_data" alt="" coords="425,132,529,159"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="715,132,773,159"/>
-<area shape="rect" id="node5" href="$readat__new_8f.html#a18714deec72cebf75c11b3b12bc628a3" title="readat_new" alt="" coords="577,157,667,184"/>
+<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="708,132,767,159"/>
+<area shape="rect" id="node5" href="$reader__par_8f.html#a69b75d22fcf18a6c1038825b9f53bdb8" title="readat_par" alt="" coords="577,157,660,184"/>
 <area shape="rect" id="node8" href="$reader__re2_8f.html#acd496a76c8f2ca3126fdba816830ad86" title="readp_re2_mesh" alt="" coords="259,5,377,32"/>
 <area shape="rect" id="node9" href="$reader__re2_8f.html#a14cdc9443ed9567e04fab4f74b6f8494" title="bin_rd1_mesh" alt="" coords="267,56,369,83"/>
 </map>

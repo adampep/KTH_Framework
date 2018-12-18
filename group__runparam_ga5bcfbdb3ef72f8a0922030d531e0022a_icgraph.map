@@ -1,4 +1,4 @@
 <map id="rprm_rp_summary_print" name="rprm_rp_summary_print">
 <area shape="rect" id="node2" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="212,5,284,32"/>
-<area shape="rect" id="node3" href="$group__frame.html#gaee3c3ea1286133a48657b699ae884a70" title="Read runtime parameters from Nek5000 dictionary. " alt="" coords="332,5,435,32"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="332,5,420,32"/>
 </map>

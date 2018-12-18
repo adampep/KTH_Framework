@@ -1,14 +1,21 @@
 <map id="makeq_aux" name="makeq_aux">
-<area shape="rect" id="node2" href="$turb_8f.html#a937f57e48ca7493f437b08697b55ab51" title="maketq" alt="" coords="144,56,209,83"/>
-<area shape="rect" id="node10" href="$conduct_8f.html#aa167d71e770cd729d61c955a42f4a2bd" title="makeuq" alt="" coords="143,157,211,184"/>
-<area shape="rect" id="node13" href="$turb_8f.html#a45430c9104dd0d66557704f2c3319472" title="whatfld" alt="" coords="145,5,209,32"/>
-<area shape="rect" id="node3" href="$turb_8f.html#ac3869f41a629f2f0c50409080833256a" title="turbfld" alt="" coords="261,5,320,32"/>
-<area shape="rect" id="node4" href="$turb_8f.html#afb5c46736d54a56aeee9795fbb5cb40b" title="setqk" alt="" coords="263,56,318,83"/>
-<area shape="rect" id="node8" href="$turb_8f.html#a1c8f8a2834a6a6c855f9c98ad25507f2" title="setqe" alt="" coords="263,107,318,133"/>
-<area shape="rect" id="node5" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="375,56,425,83"/>
-<area shape="rect" id="node6" href="$turb_8f.html#a00183fa0970383d0a1d6b40c925a6122" title="turbqk" alt="" coords="371,5,429,32"/>
-<area shape="rect" id="node7" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="477,107,524,133"/>
-<area shape="rect" id="node9" href="$turb_8f.html#aa354605e93cf17e46f7edcf464415551" title="turbqe" alt="" coords="371,107,429,133"/>
-<area shape="rect" id="node11" href="$conduct_8f.html#af0e288fad495f966ca997a13837ba9f0" title="setqvol" alt="" coords="259,208,323,235"/>
-<area shape="rect" id="node12" href="$conduct_8f.html#acb64f74e02714984eec1179c3293fbcc" title="nekuq" alt="" coords="371,208,429,235"/>
+<area shape="rect" id="node2" href="$hpf_8f.html#aa74c82c5e339de802f489470b23422a0" title="make_hpf" alt="" coords="143,259,221,285"/>
+<area shape="rect" id="node17" href="$conduct_8f.html#aa167d71e770cd729d61c955a42f4a2bd" title="makeuq" alt="" coords="287,411,355,437"/>
+<area shape="rect" id="node3" href="$math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="287,360,354,387"/>
+<area shape="rect" id="node5" href="$hpf_8f.html#a2ee674be05e81d2fbd9911ce3b2960ed" title="build_hpf_fld" alt="" coords="273,157,368,184"/>
+<area shape="rect" id="node10" href="$hpf_8f.html#aa2c1f548d5b9a2cb69bae6085dda9d95" title="build_hpf_mat" alt="" coords="269,107,372,133"/>
+<area shape="rect" id="node13" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="293,259,348,285"/>
+<area shape="rect" id="node14" href="$hpf_8f.html#a79e59cf16751d7adf8bc162441fcbd87" title="hpf_trns_fcn" alt="" coords="273,309,368,336"/>
+<area shape="rect" id="node16" href="$navier1_8f.html#a4f3a0cef18550f5d31ec6c04915c7522" title="opadd2col" alt="" coords="280,208,361,235"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="579,385,660,412"/>
+<area shape="rect" id="node6" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="450,157,501,184"/>
+<area shape="rect" id="node7" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="450,107,501,133"/>
+<area shape="rect" id="node8" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title="sub3" alt="" coords="450,259,501,285"/>
+<area shape="rect" id="node9" href="$math_8f.html#a17c0ecae12cc5c6096939885da90ad2b" title="transpose" alt="" coords="580,107,659,133"/>
+<area shape="rect" id="node11" href="$navier5_8f.html#a433d25d905b7a824887d47406928b47b" title="gaujordf" alt="" coords="441,56,509,83"/>
+<area shape="rect" id="node12" href="$hpf_8f.html#ae427fdcae61cfa60e92be399a33df470" title="spec_coeff_init" alt="" coords="420,5,531,32"/>
+<area shape="rect" id="node15" href="$calcz_8f.html#a8a2ffe21627ed404094a75d5f5fcf82c" title="ident" alt="" coords="450,309,501,336"/>
+<area shape="rect" id="node18" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="452,411,499,437"/>
+<area shape="rect" id="node19" href="$conduct_8f.html#af0e288fad495f966ca997a13837ba9f0" title="setqvol" alt="" coords="443,461,507,488"/>
+<area shape="rect" id="node20" href="$conduct_8f.html#acb64f74e02714984eec1179c3293fbcc" title="nekuq" alt="" coords="591,461,648,488"/>
 </map>

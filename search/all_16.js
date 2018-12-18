@@ -1,17 +1,9 @@
 var searchData=
 [
-  ['v',['v',['../structrnz.html#af387faec2e018a81d1e9f29c02d4ca42',1,'rnz::v()'],['../structsort__data.html#a729bc96b8d2bb985d49ff7b6bd145a70',1,'sort_data::v()'],['../structyale__mat.html#ab7324228b65634e4e35347abdd57ca9a',1,'yale_mat::v()']]],
-  ['v0',['v0',['../structref__lagrange__data.html#a62614751c9a08b86e36efca84de0f14c',1,'ref_lagrange_data']]],
-  ['v1',['v1',['../structref__lagrange__data.html#a851b28fcf52c1dd56e57d4cd98aa7bf5',1,'ref_lagrange_data']]],
-  ['v2',['v2',['../structref__lagrange__data.html#af643ed7a79a66ad90273da63691ac979',1,'ref_lagrange_data']]],
-  ['val',['val',['../struct__dictionary__.html#a7a89c8fb24cb365745431d881f8f0afd',1,'_dictionary_::val()'],['../sort__imp_8h.html#a46923a585912d254852a1ab14cb051f1',1,'VAL():&#160;sort_imp.h'],['../sort__imp_8h.html#a46923a585912d254852a1ab14cb051f1',1,'VAL():&#160;sort_imp.h'],['../sort__imp_8h.html#a46923a585912d254852a1ab14cb051f1',1,'VAL():&#160;sort_imp.h']]],
-  ['value_5fbits',['VALUE_BITS',['../sort__imp_8h.html#ac99e26409527fd9d96c6da0df4938931',1,'sort_imp.h']]],
+  ['val',['val',['../struct__dictionary__.html#a7a89c8fb24cb365745431d881f8f0afd',1,'_dictionary_']]],
   ['vbyte_5fswap',['vbyte_swap',['../ic_8f.html#ac468581045e53b07bb63e53381bf6cee',1,'ic.f']]],
-  ['vc',['vc',['../structxxt.html#ae0b5508deeba0961516cdb77fc08479a',1,'xxt']]],
   ['vcospf',['vcospf',['../ic_8f.html#a64b77faeb26a4533a301ff67332bf0c5',1,'ic.f']]],
   ['vcross',['vcross',['../math_8f.html#af2f223956e6ec007feaf762d60bbd395',1,'math.f']]],
-  ['vdef_5ffuns',['VDEF_FUNS',['../fail_8h.html#af7fe9a8e6e63d496416ebfcb38150102',1,'fail.h']]],
-  ['vdiagnostic',['vdiagnostic',['../fail_8h.html#a24960452be4551326e5fc8bdd6e01123',1,'vdiagnostic():&#160;fail.h'],['../fail_8c.html#a92d8c60ba2ef526cc6aca428bc8770ce',1,'vdiagnostic(const char *prefix, const char *file, unsigned line, const char *fmt, va_list ap):&#160;fail.c']]],
   ['vdot2',['vdot2',['../math_8f.html#a64ef70b7a7c5c88813f82b60527b7485',1,'math.f']]],
   ['vdot3',['vdot3',['../math_8f.html#af1b95db3cc8ee10635deec9d7c241e82',1,'math.f']]],
   ['vec_5fdsop',['vec_dsop',['../dssum_8f.html#acf6d9ba408768ba9e372123ca673691a',1,'dssum.f']]],
@@ -25,7 +17,6 @@ var searchData=
   ['velinit',['velinit',['../navier1_8f.html#a0a13109a08bcaaf08ebb3b60863ef26c',1,'navier1.f']]],
   ['verify',['verify',['../connect1_8f.html#ad2fa64ec84d1358545061390d925ff77',1,'connect1.f']]],
   ['verrhe',['verrhe',['../connect1_8f.html#ab641b774823d34f2ffdc9965944d1c38',1,'connect1.f']]],
-  ['vfail',['vfail',['../fail_8h.html#ac982f630fa5722a682ec17e90b5b554a',1,'vfail():&#160;fail.h'],['../fail_8c.html#a016d8836ade99456457a913955d1dc3b',1,'vfail(int status, const char *file, unsigned line, const char *fmt, va_list ap):&#160;fail.c']]],
   ['visit_2ef',['visit.f',['../visit_8f.html',1,'']]],
   ['visit_5fcheck',['visit_check',['../visit_8f.html#a16c8f91a6006506964171a70d3a1f08e',1,'visit.f']]],
   ['visit_5fend',['visit_end',['../visit_8f.html#ae2186a9af7509f8ad21626ca1fa46795',1,'visit.f']]],
@@ -41,9 +32,9 @@ var searchData=
   ['visitgetmaterial',['visitgetmaterial',['../visit_8f.html#a414740c3230b6126a3a8d828c5a5b84a',1,'visit.f']]],
   ['visitgetmesh',['visitgetmesh',['../visit_8f.html#a62ad98b2313e73bb7d030a298d6368a2',1,'visit.f']]],
   ['visitgetmetadata',['visitgetmetadata',['../visit_8f.html#a7227591e60eb67bd4efd47ad3a74395b',1,'visit.f']]],
+  ['visitgetmixedvariable',['visitgetmixedvariable',['../visit_8f.html#aad38de1835b9edf419065b57ed32b0ab',1,'visit.f']]],
   ['visitgetvariable',['visitgetvariable',['../visit_8f.html#a142fad3526e833ad517c02fca26dbf2e',1,'visit.f']]],
   ['visitslaveprocesscallback',['visitslaveprocesscallback',['../visit_8f.html#aec9339b38155cc9fe23d5db49baa3521',1,'visit.f']]],
-  ['vl',['vl',['../structxxt.html#a8f157910cf72bccb555487c22cdabd76',1,'xxt']]],
   ['vlamax',['vlamax',['../math_8f.html#a2f379ce24032eb8832203bac8ef9f702',1,'math.f']]],
   ['vlmax',['vlmax',['../math_8f.html#a3a4077924e14ce175a0d9991f9006d16',1,'math.f']]],
   ['vlmin',['vlmin',['../math_8f.html#aefe89276b8a8ae8a9f1ea1ede71b142f',1,'math.f']]],
@@ -62,6 +53,5 @@ var searchData=
   ['vrdsmshx',['vrdsmshx',['../connect2_8f.html#adc43b5f64268c72d289ae1826fd430a1',1,'connect2.f']]],
   ['vsoln',['vsoln',['../subs2_8f.html#a05b00e2d9e549bb39c1e5951c71a1614',1,'subs2.f']]],
   ['vsq',['vsq',['../math_8f.html#ad9302b7348ff4cd0ee27dc4f688533b5',1,'math.f']]],
-  ['vsqrt',['vsqrt',['../math_8f.html#a899951882563cd8e43e3184708ab818a',1,'math.f']]],
-  ['vx',['vx',['../structxxt.html#a6d900eddc364903f19b87b8855801895',1,'xxt']]]
+  ['vsqrt',['vsqrt',['../math_8f.html#a899951882563cd8e43e3184708ab818a',1,'math.f']]]
 ];

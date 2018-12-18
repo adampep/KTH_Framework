@@ -19,8 +19,8 @@ var NAVTREE =
       [ "Data Types List", "annotated.html", "annotated_dup" ],
       [ "Data Types", "classes.html", null ],
       [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
+        [ "All", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -32,7 +32,7 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -40,23 +40,17 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"3rd__party_2gslib_2src_2name_8h.html",
-"byte_8c.html#ada74e7db007a68e763f20c17f2985356",
-"convect_8f.html#ac5955ce05d0725ed90a8fd09bb96ac81",
-"dsygv_8f.html#a7bce4c35ec5a86ee0bfdd15c476d99c8",
-"findpts__el__3__test2_8c.html#a06c201f90533d5b49cd039c960327968",
-"functions_vars_u.html",
-"gmres_8f.html#a9b7b40cc4e87fc2df89628f906a606bf",
-"group__runparam.html#gac28431cc2d165fb0f906a18453eec7a4",
-"gs__local_8h.html#ab4beb9c4686d56baa9548b704045dc78",
-"iniparser_8c.html#a97f70bc64c6e32b8f4df50f884400fd8",
-"mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c",
-"mxm__wrapper_8f_source.html",
-"navier7_8f.html",
-"poly__test2_8c.html",
-"sort__imp_8h.html#ac99e26409527fd9d96c6da0df4938931",
-"structfindpts__el__data__3.html#a8b4f939d377d837a93482f9433cd905b",
-"structxxt.html#aae71a588200addcfe9f77ba7af2c41a1"
+"annotated.html",
+"coef_8f.html#a00a9a742985b553e05d09e5c3bdb3566",
+"dictionary_8c.html#ae8d5fc632d7846a6f9f4c8a3ef79d0ce",
+"genbox_8f.html#aded7cdd7342c89c88593da29a85e8b24",
+"group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c",
+"hpf_8f_source.html",
+"map2_8f.html#aa0ae20bb9217f45c5ccbe798422ac259",
+"mxm__std_8f.html#a2ae9915888d0ac5e9ceb15535c7efeaf",
+"navier2_8f.html#a8e50c9a94f192ab9dc232cb6f90ed0ac",
+"perturb_8f.html#a47c2fd6da3517bac53aeed0845dfa06e",
+"subs1_8f.html#a36c4563e34db1fdc4cb050df0abd21e3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

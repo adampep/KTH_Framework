@@ -6,6 +6,7 @@ var plan4_8f =
     [ "op_curl", "plan4_8f.html#a133b5c2a8f266ecb811b8baf380f0b76", null ],
     [ "opadd2cm", "plan4_8f.html#a8cde16ca4292836a681d1021ada2dc28", null ],
     [ "plan4", "plan4_8f.html#a247fc105464de543a464773054eb509e", null ],
+    [ "printdiverr", "plan4_8f.html#a7dc32896a9c8fafb6bcb0103e7507909", null ],
     [ "qthermal", "plan4_8f.html#a26aff16d60c39fbe34c5ca86c4041824", null ],
     [ "redo_split_vis", "plan4_8f.html#a738b7cf8284f599095a68a9b24c4621c", null ],
     [ "split_vis", "plan4_8f.html#a4d432c4c1b60f78da6eba32f424b701d", null ],

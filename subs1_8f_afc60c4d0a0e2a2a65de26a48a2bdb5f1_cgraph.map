@@ -1,12 +1,13 @@
 <map id="urst" name="urst">
-<area shape="rect" id="node2" href="$subs1_8f.html#a1c24564c4bf687782fa02b817446f8fc" title="ddrst" alt="" coords="106,132,157,159"/>
-<area shape="rect" id="node10" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="97,183,165,209"/>
-<area shape="rect" id="node3" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="213,132,264,159"/>
+<area shape="rect" id="node2" href="$subs1_8f.html#a1c24564c4bf687782fa02b817446f8fc" title="ddrst" alt="" coords="106,157,157,184"/>
+<area shape="rect" id="node11" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="97,208,165,235"/>
+<area shape="rect" id="node3" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="213,157,264,184"/>
 <area shape="rect" id="node4" href="$blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="329,5,395,32"/>
-<area shape="rect" id="node5" href="$mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title="mxm_bgq_10" alt="" coords="312,56,412,83"/>
-<area shape="rect" id="node6" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title="mxm_bgq_16" alt="" coords="312,107,412,133"/>
-<area shape="rect" id="node7" href="$mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title="mxm_bgq_6" alt="" coords="315,157,409,184"/>
-<area shape="rect" id="node8" href="$mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title="mxm_bgq_8" alt="" coords="315,208,409,235"/>
-<area shape="rect" id="node9" href="$mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title="mxmf2" alt="" coords="331,259,393,285"/>
-<area shape="rect" id="node11" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="213,183,264,209"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="321,56,403,83"/>
+<area shape="rect" id="node6" href="$mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title="mxm_bgq_10" alt="" coords="312,107,412,133"/>
+<area shape="rect" id="node7" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title="mxm_bgq_16" alt="" coords="312,157,412,184"/>
+<area shape="rect" id="node8" href="$mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title="mxm_bgq_6" alt="" coords="315,208,409,235"/>
+<area shape="rect" id="node9" href="$mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title="mxm_bgq_8" alt="" coords="315,259,409,285"/>
+<area shape="rect" id="node10" href="$mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title="mxmf2" alt="" coords="331,309,393,336"/>
+<area shape="rect" id="node12" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="213,208,264,235"/>
 </map>

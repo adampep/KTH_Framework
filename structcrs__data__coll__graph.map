@@ -1,7 +1,0 @@
-<map id="crs_data" name="crs_data">
-<area shape="rect" id="node2" href="$structcsr__mat.html" title="csr_mat" alt="" coords="5,184,75,211"/>
-<area shape="rect" id="node3" href="$structcomm.html" title="comm" alt="" coords="93,5,152,32"/>
-<area shape="rect" id="node5" href="$structgs__data.html" title="gs_data" alt="" coords="166,95,234,121"/>
-<area shape="rect" id="node4" href="$structQ.html" title="Q" alt="" coords="242,184,281,211"/>
-<area shape="rect" id="node6" href="$structgs__remote.html" title="gs_remote" alt="" coords="187,5,269,32"/>
-</map>

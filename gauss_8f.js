@@ -1,5 +1,5 @@
 var gauss_8f =
 [
-    [ "lu", "gauss_8f.html#a6e7991707a9db17139b2e8ea84d79ee4", null ],
-    [ "solve", "gauss_8f.html#aeb06a1409214a8741a4645d0110afe8b", null ]
+    [ "lu", "gauss_8f.html#a56096d95369f48aa8e36034ede66f33b", null ],
+    [ "solve", "gauss_8f.html#a47ad19a4031a1ba83c34e96abab9476c", null ]
 ];

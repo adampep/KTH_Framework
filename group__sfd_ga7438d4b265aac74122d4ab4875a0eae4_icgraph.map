@@ -1,5 +1,0 @@
-<map id="sfd_interp" name="sfd_interp">
-<area shape="rect" id="node2" href="$group__sfd.html#ga4967e30f07ca39651435c5359bb30cb3" title="Load SFD restart file. " alt="" coords="132,5,197,32"/>
-<area shape="rect" id="node3" href="$group__sfd.html#ga661b879094c4984defe82100decd8cdb" title="Read from checkpoint. " alt="" coords="245,5,340,32"/>
-<area shape="rect" id="node4" href="$group__sfd.html#gae1fa45e69aa770893ea5545b58a8eae4" title="Initialise all SFD variables. " alt="" coords="388,5,452,32"/>
-</map>

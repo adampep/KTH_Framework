@@ -1,5 +1,6 @@
 var papi_8f =
 [
-    [ "getflops_papi", "papi_8f.html#a838be3d39e287e29002d5a68c6ad2dd8", null ],
-    [ "nek_mflops", "papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4", null ]
+    [ "dnekgflops", "papi_8f.html#a401adcc008e595bf3caeaf27a675bdb7", null ],
+    [ "dnekgflpops", "papi_8f.html#a03e8f6edabb1a9e537e7bd6f62beff24", null ],
+    [ "getflops_papi", "papi_8f.html#ab038e29629efc9322eb63fb616c8af6d", null ]
 ];

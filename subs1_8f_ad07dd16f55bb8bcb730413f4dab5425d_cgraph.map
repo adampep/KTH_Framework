@@ -1,8 +1,10 @@
 <map id="uxyz" name="uxyz">
 <area shape="rect" id="node2" href="$math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="104,5,171,32"/>
-<area shape="rect" id="node3" href="$subs1_8f.html#afc60c4d0a0e2a2a65de26a48a2bdb5f1" title="urst" alt="" coords="115,56,159,83"/>
-<area shape="rect" id="node4" href="$subs1_8f.html#a1c24564c4bf687782fa02b817446f8fc" title="ddrst" alt="" coords="227,31,278,57"/>
-<area shape="rect" id="node6" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="219,81,287,108"/>
-<area shape="rect" id="node5" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="335,31,385,57"/>
-<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="335,81,385,108"/>
+<area shape="rect" id="node5" href="$subs1_8f.html#afc60c4d0a0e2a2a65de26a48a2bdb5f1" title="urst" alt="" coords="115,56,159,83"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="433,31,515,57"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="563,31,648,57"/>
+<area shape="rect" id="node6" href="$subs1_8f.html#a1c24564c4bf687782fa02b817446f8fc" title="ddrst" alt="" coords="227,56,278,83"/>
+<area shape="rect" id="node8" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title="setaxdy" alt="" coords="219,107,287,133"/>
+<area shape="rect" id="node7" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="335,56,385,83"/>
+<area shape="rect" id="node9" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="335,107,385,133"/>
 </map>

@@ -8,7 +8,7 @@ var perturb_8f =
     [ "convabp", "perturb_8f.html#af52a0c97e2b81a66c30b2a249b81d967", null ],
     [ "convop_adj", "perturb_8f.html#ab40957f09440ef41d588a2295d22e96f", null ],
     [ "cresvipp", "perturb_8f.html#a0ff8d84404f82cc6fb34af2de5d68b80", null ],
-    [ "dmnorm", "perturb_8f.html#a4e2c229c1e8c59663b6ec268c17e2a4e", null ],
+    [ "dmnorm1", "perturb_8f.html#aa78f317d5293a3f9e9a0c4e80f5c72f7", null ],
     [ "extrapprp", "perturb_8f.html#a3b6bce9438ef2740a20cfb1121284358", null ],
     [ "fluidp", "perturb_8f.html#ad8d4119d40930d56b2095e9457f93bab", null ],
     [ "heatp", "perturb_8f.html#ac353eeb6dfd3fec540b933d9c701b0e7", null ],

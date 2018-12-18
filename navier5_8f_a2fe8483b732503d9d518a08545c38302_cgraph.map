@@ -7,8 +7,8 @@
 <area shape="rect" id="node7" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="344,120,387,147"/>
 <area shape="rect" id="node6" href="$math_8f.html#a18da186617e323c027aa36f56343e400" title="mod1" alt="" coords="475,259,529,285"/>
 <area shape="rect" id="node8" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="477,56,527,83"/>
-<area shape="rect" id="node9" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="601,132,683,159"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="461,107,543,133"/>
 <area shape="rect" id="node10" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="479,157,525,184"/>
-<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="603,195,681,221"/>
-<area shape="rect" id="node12" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="451,5,553,32"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="451,208,553,235"/>
+<area shape="rect" id="node12" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="463,5,541,32"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="comavn3" name="comavn3">
-<area shape="rect" id="node2" href="$subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="128,81,196,108"/>
-<area shape="rect" id="node3" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="245,31,317,57"/>
+<area shape="rect" id="node2" href="$subs2_8f.html#ac51cb7b1a20b0141c3fbf537d9d112ba" title="setcsys" alt="" coords="128,107,196,133"/>
+<area shape="rect" id="node3" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="245,44,317,71"/>
 <area shape="rect" id="node5" href="$subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title="updmsys" alt="" coords="244,132,319,159"/>
 <area shape="rect" id="node4" href="$bdry_8f.html#aff6088943a1cc02fb036375d9008b4c7" title="bcmask" alt="" coords="378,5,446,32"/>
 <area shape="rect" id="node6" href="$drive2_8f.html#aefc07385d7e7539fb57662470f694136" title="gengeom" alt="" coords="375,56,449,83"/>

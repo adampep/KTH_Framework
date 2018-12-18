@@ -1,5 +1,0 @@
-<map id="chkpt_interp" name="chkpt_interp">
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file. " alt="" coords="147,5,225,32"/>
-<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot. " alt="" coords="273,5,404,32"/>
-<area shape="rect" id="node4" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set. " alt="" coords="452,5,545,32"/>
-</map>

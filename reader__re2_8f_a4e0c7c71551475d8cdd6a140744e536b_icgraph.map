@@ -1,6 +1,6 @@
 <map id="buf_close_out" name="buf_close_out">
 <area shape="rect" id="node2" href="$reader__re2_8f.html#a02a2663bd073292a0684da670c1bb250" title="bin_rd1_curve" alt="" coords="156,5,259,32"/>
 <area shape="rect" id="node3" href="$reader__re2_8f.html#afebb243824e6845e99b2f86817b84a71" title="read_re2_data" alt="" coords="307,5,411,32"/>
-<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="596,5,655,32"/>
-<area shape="rect" id="node5" href="$readat__new_8f.html#a18714deec72cebf75c11b3b12bc628a3" title="readat_new" alt="" coords="459,31,548,57"/>
+<area shape="rect" id="node4" href="$connect2_8f.html#a909eeac6dfc8f61a1c9d637c53cc970d" title="readat" alt="" coords="589,5,648,32"/>
+<area shape="rect" id="node5" href="$reader__par_8f.html#a69b75d22fcf18a6c1038825b9f53bdb8" title="readat_par" alt="" coords="459,31,541,57"/>
 </map>

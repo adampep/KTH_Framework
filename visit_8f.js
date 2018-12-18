@@ -16,6 +16,7 @@ var visit_8f =
     [ "visitgetmaterial", "visit_8f.html#a414740c3230b6126a3a8d828c5a5b84a", null ],
     [ "visitgetmesh", "visit_8f.html#a62ad98b2313e73bb7d030a298d6368a2", null ],
     [ "visitgetmetadata", "visit_8f.html#a7227591e60eb67bd4efd47ad3a74395b", null ],
+    [ "visitgetmixedvariable", "visit_8f.html#aad38de1835b9edf419065b57ed32b0ab", null ],
     [ "visitgetvariable", "visit_8f.html#a142fad3526e833ad517c02fca26dbf2e", null ],
     [ "visitslaveprocesscallback", "visit_8f.html#aec9339b38155cc9fe23d5db49baa3521", null ]
 ];

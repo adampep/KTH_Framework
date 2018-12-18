@@ -1,30 +1,28 @@
 <map id="stepper_vinit" name="stepper_vinit">
-<area shape="rect" id="node2" href="$group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="453,119,535,145"/>
-<area shape="rect" id="node4" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="623,5,669,32"/>
-<area shape="rect" id="node5" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="621,259,671,285"/>
-<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="755,309,802,336"/>
-<area shape="rect" id="node18" href="$group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="149,309,244,336"/>
-<area shape="rect" id="node28" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="171,360,222,387"/>
-<area shape="rect" id="node29" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="171,411,222,437"/>
-<area shape="rect" id="node3" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="755,56,802,83"/>
-<area shape="rect" id="node14" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="599,107,693,133"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#aa4c5a185a9705d92be8ef5bf57a4c5a2" title="close_files" alt="" coords="871,385,955,412"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="873,183,954,209"/>
-<area shape="rect" id="node9" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="880,436,947,463"/>
-<area shape="rect" id="node10" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="864,233,963,260"/>
-<area shape="rect" id="node11" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="868,284,959,311"/>
-<area shape="rect" id="node12" href="$papi_8f.html#a8d6910e45b64b4aaa73ea669a5c99bf4" title="nek_mflops" alt="" coords="869,335,958,361"/>
-<area shape="rect" id="node13" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="874,487,953,513"/>
-<area shape="rect" id="node15" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="741,107,816,133"/>
-<area shape="rect" id="node16" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="749,157,809,184"/>
-<area shape="rect" id="node17" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="748,208,809,235"/>
-<area shape="rect" id="node19" href="$group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="292,385,389,412"/>
-<area shape="rect" id="node24" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="305,613,377,640"/>
-<area shape="rect" id="node20" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="619,448,673,475"/>
-<area shape="rect" id="node21" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="613,645,679,672"/>
-<area shape="rect" id="node22" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="442,512,546,539"/>
-<area shape="rect" id="node23" href="$group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="458,309,530,336"/>
-<area shape="rect" id="node25" href="$byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="437,563,551,589"/>
-<area shape="rect" id="node26" href="$ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="449,664,539,691"/>
-<area shape="rect" id="node27" href="$group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="450,613,538,640"/>
+<area shape="rect" id="node2" href="$group__arnoldi__arpack.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd. " alt="" coords="155,202,238,229"/>
+<area shape="rect" id="node5" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title="col3" alt="" coords="317,50,364,77"/>
+<area shape="rect" id="node6" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="614,759,665,786"/>
+<area shape="rect" id="node7" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="728,481,775,507"/>
+<area shape="rect" id="node16" href="$group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="149,633,244,659"/>
+<area shape="rect" id="node26" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title="izero" alt="" coords="171,937,222,963"/>
+<area shape="rect" id="node27" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="171,987,222,1014"/>
+<area shape="rect" id="node3" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="471,25,517,51"/>
+<area shape="rect" id="node11" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="293,151,388,178"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="599,25,680,51"/>
+<area shape="rect" id="node8" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="836,455,935,482"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="852,506,919,533"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="823,557,948,583"/>
+<area shape="rect" id="node12" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="457,126,531,153"/>
+<area shape="rect" id="node13" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="464,177,524,203"/>
+<area shape="rect" id="node14" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="463,75,525,102"/>
+<area shape="rect" id="node15" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="600,278,679,305"/>
+<area shape="rect" id="node17" href="$group__arnoldi__arpack.html#ga91e84f4e737b0c56c0ed99267e636d1a" title="Read procesor independent data. " alt="" coords="292,633,389,659"/>
+<area shape="rect" id="node22" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="305,481,377,507"/>
+<area shape="rect" id="node18" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="612,594,667,621"/>
+<area shape="rect" id="node19" href="$comm__mpi_8f.html#ae6a06eb6f47a6153825afb25e6cc49c7" title="err_chk" alt="" coords="607,481,672,507"/>
+<area shape="rect" id="node20" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file. " alt="" coords="442,582,546,609"/>
+<area shape="rect" id="node21" href="$group__arnoldi__arpack.html#gae7393736ffebb04c321c9899ef9e592d" title="Read procesor independent variables. " alt="" coords="458,734,530,761"/>
+<area shape="rect" id="node23" href="$byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title="byte_close_mpi" alt="" coords="437,329,551,355"/>
+<area shape="rect" id="node24" href="$ic_8f.html#afe51926a02c40e95936541ed859b1790" title="mfi_prepare" alt="" coords="449,430,539,457"/>
+<area shape="rect" id="node25" href="$group__arnoldi__arpack.html#ga6a53ee7306b988b21822a12e2c59f139" title="Read single Krylov vector from the file. " alt="" coords="450,531,538,558"/>
 </map>

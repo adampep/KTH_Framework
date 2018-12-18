@@ -1,8 +1,6 @@
 <map id="finiparser_load" name="finiparser_load">
 <area shape="rect" id="node2" href="$finiparser_8c.html#a6be15697584eab554b10454d143a44d8" title="addchar0" alt="" coords="174,5,249,32"/>
 <area shape="rect" id="node3" href="$iniparser_8c.html#ab0be559bfb769224b3f1b75e26242a67" title="Parse an ini file and return an allocated dictionary object. " alt="" coords="160,56,263,83"/>
-<area shape="rect" id="node4" href="$dictionary_8c.html#afd6e7e396a9b18f8e610b1236261f6dd" title="Create a new dictionary object. " alt="" coords="311,5,420,32"/>
-<area shape="rect" id="node5" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object. " alt="" coords="314,56,417,83"/>
-<area shape="rect" id="node6" href="$dictionary_8c.html#aca582586180a1cd058017e337250848d" title="Set a value in a dictionary. " alt="" coords="314,107,417,133"/>
-<area shape="rect" id="node7" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="468,107,581,133"/>
+<area shape="rect" id="node4" href="$dictionary_8c.html#afd6e7e396a9b18f8e610b1236261f6dd" title="Create a new dictionary object. " alt="" coords="311,31,420,57"/>
+<area shape="rect" id="node5" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object. " alt="" coords="314,81,417,108"/>
 </map>

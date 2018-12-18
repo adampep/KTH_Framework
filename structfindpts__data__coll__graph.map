@@ -1,8 +1,0 @@
-<map id="findpts_data" name="findpts_data">
-<area shape="rect" id="node2" href="$structhash__data.html" title="hash_data" alt="" coords="32,95,115,121"/>
-<area shape="rect" id="node7" href="$structfindpts__local__data.html" title="findpts_local_data" alt="" coords="57,199,183,225"/>
-<area shape="rect" id="node3" href="$structdbl__range.html" title="dbl_range" alt="" coords="34,5,113,32"/>
-<area shape="rect" id="node4" href="$structcrystal.html" title="crystal" alt="" coords="208,199,269,225"/>
-<area shape="rect" id="node5" href="$structarray.html" title="array" alt="" coords="161,95,212,121"/>
-<area shape="rect" id="node6" href="$structcomm.html" title="comm" alt="" coords="236,95,295,121"/>
-</map>
