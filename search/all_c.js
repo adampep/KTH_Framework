@@ -54,5 +54,6 @@ var searchData=
   ['lyap_5fscale',['lyap_scale',['../perturb_8f.html#aeddb551e1dc2bd5bc0af014571671ff8',1,'perturb.f']]],
   ['lz1',['lz1',['../cvode__aux_8h.html#ac45072b583bd82eef205c6781261f33e',1,'cvode_aux.h']]],
   ['list_20of_20runtime_20parameters_20provided_20by_20modules_2e',['List of runtime parameters provided by modules.',['../parameter_list_page.html',1,'runtime_parameters_page']]],
-  ['list_20of_20runtime_20parameters_20required_20by_20modules_2e',['List of runtime parameters required by modules.',['../parameter_required_page.html',1,'runtime_parameters_page']]]
+  ['list_20of_20runtime_20parameters_20required_20by_20modules_2e',['List of runtime parameters required by modules.',['../parameter_required_page.html',1,'runtime_parameters_page']]],
+  ['line_20tripping_20module',['Line tripping module',['../group__trip__line.html',1,'']]]
 ];

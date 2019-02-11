@@ -210,16 +210,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Map loaded variables from velocity to axisymmetric mesh. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pm1</td><td>pressure loaded form the file </td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section note"><dt>Note</dt><dd>This is version of <a class="el" href="ic_8f.html#abfc96747c4f79836b70a09ac160175c2">axis_interp_ic</a> taking into account fact pressure does not have to be written on velocity mesh. </dd></dl>
 <dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>CTMP0</em>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01331">1331</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l01330">1330</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
 <p class="reference">References <a class="el" href="math_8f_source.html#l00237">copy()</a>, <a class="el" href="coef_8f_source.html#l01696">invmt()</a>, and <a class="el" href="mxm__wrapper_8f_source.html#l00002">mxm()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -481,12 +475,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Interpolate pressure input. </p>
-<p>This is version of mapb modified to work with pressure mesh. It iterpolates fields defined on GL points. Like the orginal routine I assume NXR=NYR=NZR, or NXR=NYR, NZR=1</p>
+<p>This is version of <a class="el" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a">mapab</a> modified to work with pressure mesh. It iterpolates fields defined on GL points. Like the orginal routine I assume NXR=NYR=NZR, or NXR=NYR, NZR=1</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">xf</td><td>output field on pressure mesh </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">yf</td><td>input field on pressure mesh </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nxr</td><td>number of grid points </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nxr,nzr</td><td>array sizes </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">nel</td><td>element number </td></tr>
   </table>
   </dd>
@@ -609,12 +603,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Interpolate input on velocity mesh. </p>
-<p>This is version of mapb with corrected array sizes. It iterpolates fields defined on GLL points. Like the orginal routine I assume NXR=NYR=NZR, or NXR=NYR, NZR=1</p>
+<p>This is version of <a class="el" href="ic_8f.html#a42cd68be013922e3ab848bdf2663832a">mapab</a> with corrected array sizes. It iterpolates fields defined on GLL points. Like the orginal routine I assume NXR=NYR=NZR, or NXR=NYR, NZR=1</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">xf</td><td>output field on velocity mesh </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">yf</td><td>input field on velocity mesh </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nxr</td><td>number of grid points </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nxr,nzr</td><td>array sizes </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">nel</td><td>element number </td></tr>
   </table>
   </dd>
@@ -741,7 +735,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="chkpt__mstp_8f_source.html#l00824">824</a> of file <a class="el" href="chkpt__mstp_8f_source.html">chkpt_mstp.f</a>.</p>
 
-<p class="reference">References <a class="el" href="chkpt__mstp_8f_source.html#l01331">chkpt_axis_interp_ic()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l01266">chkpt_map_gl()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l01197">chkpt_map_gll()</a>, <a class="el" href="math_8f_source.html#l00237">copy()</a>, <a class="el" href="io__tools_8f_source.html#l00232">io_mbyte_close()</a>, <a class="el" href="io__tools_8f_source.html#l00666">io_mfis()</a>, <a class="el" href="io__tools_8f_source.html#l00457">io_mfiv()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="coef_8f_source.html#l01530">map12()</a>, <a class="el" href="coef_8f_source.html#l01568">map21t()</a>, <a class="el" href="ic_8f_source.html#l02579">mfi_prepare()</a>, <a class="el" href="mntrlog_8f_source.html#l00805">mntr_check_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00577">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00686">mntr_logi()</a>, and <a class="el" href="mntrlog_8f_source.html#l00708">mntr_logr()</a>.</p>
+<p class="reference">References <a class="el" href="chkpt__mstp_8f_source.html#l01330">chkpt_axis_interp_ic()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l01266">chkpt_map_gl()</a>, <a class="el" href="chkpt__mstp_8f_source.html#l01197">chkpt_map_gll()</a>, <a class="el" href="math_8f_source.html#l00237">copy()</a>, <a class="el" href="io__tools_8f_source.html#l00232">io_mbyte_close()</a>, <a class="el" href="io__tools_8f_source.html#l00666">io_mfis()</a>, <a class="el" href="io__tools_8f_source.html#l00457">io_mfiv()</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lelt</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">ly1</a>, <a class="el" href="cvode__aux_8h_source.html#l00009">lz1</a>, <a class="el" href="coef_8f_source.html#l01530">map12()</a>, <a class="el" href="coef_8f_source.html#l01568">map21t()</a>, <a class="el" href="ic_8f_source.html#l02579">mfi_prepare()</a>, <a class="el" href="mntrlog_8f_source.html#l00805">mntr_check_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00577">mntr_log()</a>, <a class="el" href="mntrlog_8f_source.html#l00686">mntr_logi()</a>, and <a class="el" href="mntrlog_8f_source.html#l00708">mntr_logr()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -1484,7 +1478,7 @@ This is version of <a class="el" href="prepost_8f.html#a541660bcda49100a7473a4e8
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 18 2018 14:49:26 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Mon Feb 11 2019 14:11:11 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

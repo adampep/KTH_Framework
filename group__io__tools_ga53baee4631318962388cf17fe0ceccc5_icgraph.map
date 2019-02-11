@@ -1,9 +1,14 @@
 <map id="io_file_freeid" name="io_file_freeid">
-<area shape="rect" id="node2" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="160,5,232,32"/>
-<area shape="rect" id="node4" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module. " alt="" coords="164,56,228,83"/>
-<area shape="rect" id="node5" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="153,107,239,133"/>
-<area shape="rect" id="node8" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="148,157,244,184"/>
-<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="303,5,391,32"/>
-<area shape="rect" id="node6" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="292,107,403,133"/>
-<area shape="rect" id="node7" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="451,107,537,133"/>
+<area shape="rect" id="node2" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="161,5,233,32"/>
+<area shape="rect" id="node4" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module. " alt="" coords="165,56,229,83"/>
+<area shape="rect" id="node5" href="$group__arnoldi__arpack.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing. " alt="" coords="154,107,239,133"/>
+<area shape="rect" id="node8" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="149,157,245,184"/>
+<area shape="rect" id="node9" href="$group__trip__line.html#ga1c9efa121ba419b340fc0469c8df50a2" title="Generate set of random phases. " alt="" coords="148,208,245,235"/>
+<area shape="rect" id="node12" href="$group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line. " alt="" coords="149,259,244,285"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="305,5,393,32"/>
+<area shape="rect" id="node6" href="$group__arnoldi__arpack.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase. " alt="" coords="293,107,404,133"/>
+<area shape="rect" id="node7" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="452,107,539,133"/>
+<area shape="rect" id="node10" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module. " alt="" coords="317,259,381,285"/>
+<area shape="rect" id="node11" href="$group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f" title="Update tripping. " alt="" coords="305,208,392,235"/>
+<area shape="rect" id="node13" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping. " alt="" coords="311,309,387,336"/>
 </map>

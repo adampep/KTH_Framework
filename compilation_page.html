@@ -84,7 +84,7 @@ $(document).ready(function(){initNavTree('compilation_page.html','');});
 <div class="title">Setting up the case. </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Update this description adding frame_usr_*** routines</dd></dl>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>This section is outdated. Update it.</dd></dl>
 <p>To set up the case one has to check module dependency of the main tool described in FRAMEWORK.txt. An example shows FRAMEWORK.txt file from <a class="el" href="group__tstepper.html">time stepper</a> module: </p><div class="fragment"><div class="line"><span class="preprocessor">#List of existing submodules</span></div><div class="line">SUBMODULES arnildi_arpack \</div><div class="line">           powerit</div><div class="line"></div><div class="line"><span class="preprocessor">#List of conflicting submodules</span></div><div class="line">EXCLUSIVE arnoldi_arpack \</div><div class="line">          powerit</div><div class="line"></div><div class="line"><span class="preprocessor">#Default submodules</span></div><div class="line">DEFAULT arnoldi_arpack</div><div class="line"></div><div class="line"><span class="preprocessor">#List of conflicting modules</span></div><div class="line">CONFLICTS</div><div class="line"></div><div class="line"><span class="preprocessor">#List of required modules</span></div><div class="line">REQUIRED</div><div class="line">         </div><div class="line"><span class="preprocessor">#List of object files</span></div><div class="line">OBJECT time_stepper.o</div><div class="line"></div><div class="line"><span class="preprocessor">#List of include files</span></div><div class="line"><span class="preprocessor">INCLUDE TIME_STEPPERD</span></div></div><!-- fragment --><p>This module contains two conflicting submodules <a class="el" href="group__arnoldi__arpack.html">Arnoldi algorithm using parpack</a> and <a class="el" href="group__powerit.html">Power itertion routines</a>. To setup specific case one has to check recursively dependency of all specified modules to get a complete list of required modules and exclude possible conflicts. In the case of spectra calulation with <em>PARPACK</em> library one checks FRAMEWORK.txt under <em>tools/tstepper/arnoldi_arpack/</em> and finds that <em>arnoldi_arpack</em> depends on <em>io/checkpoint/dummy</em> and <em>io/io_tools</em>. On the other had <em>io/checkpoint/dummy</em> depends on <em>io/checkpoint</em>, so the final list of equired modules is:</p><ul>
 <li><em>tools/tstepper</em>,</li>
 <li><em>tools/tstepper/arnoldi_arpack/</em>,</li>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('compilation_page.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 18 2018 14:49:26 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Mon Feb 11 2019 14:11:11 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

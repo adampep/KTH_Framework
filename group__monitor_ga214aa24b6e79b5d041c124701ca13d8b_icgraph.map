@@ -14,6 +14,10 @@
 <area shape="rect" id="node16" href="$group__noise__box.html#gaf221ea77818faeae99296da9ef7070a5" title="Add noise to velocity field in a box. " alt="" coords="181,613,297,640"/>
 <area shape="rect" id="node17" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="189,664,289,691"/>
 <area shape="rect" id="node18" href="$group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6" title="Initilise sponge_box module. " alt="" coords="202,715,277,741"/>
+<area shape="rect" id="node19" href="$group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab" title="Register tripping module. " alt="" coords="194,765,285,792"/>
+<area shape="rect" id="node20" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module. " alt="" coords="207,816,271,843"/>
+<area shape="rect" id="node21" href="$group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f" title="Update tripping. " alt="" coords="196,867,283,893"/>
+<area shape="rect" id="node22" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping. " alt="" coords="201,917,277,944"/>
 <area shape="rect" id="node3" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework. " alt="" coords="371,5,453,32"/>
 <area shape="rect" id="node12" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="375,436,449,463"/>
 </map>

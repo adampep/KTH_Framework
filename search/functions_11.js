@@ -156,7 +156,7 @@ var searchData=
   ['specx',['specx',['../induct_8f.html#a372c2ccf950e29b05c012678c2ee9518',1,'induct.f']]],
   ['sphsrf',['sphsrf',['../genxyz_8f.html#a7b652d5ffddd9cc491e9afc0d3fa225d',1,'genxyz.f']]],
   ['split_5fvis',['split_vis',['../plan4_8f.html#a4d432c4c1b60f78da6eba32f424b701d',1,'plan4.f']]],
-  ['spng_5fforcing',['spng_forcing',['../group__sponge__box.html#gabb75cd233be551432cc87474539f9303',1,'spongebx.f']]],
+  ['spng_5fforcing',['spng_forcing',['../group__sponge__box.html#ga70dd3da101773e3f73809e601ffb04c6',1,'spongebx.f']]],
   ['spng_5finit',['spng_init',['../group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6',1,'spongebx.f']]],
   ['spng_5fis_5finitialised',['spng_is_initialised',['../group__sponge__box.html#gae2e46206bf4177ab4e42f433199e2347',1,'spongebx.f']]],
   ['spng_5fregister',['spng_register',['../group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9',1,'spongebx.f']]],

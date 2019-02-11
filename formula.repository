@@ -17,6 +17,17 @@
 \form#16:$ \Delta_{dl}, \Delta_{dr} $
 \form#17:$ \Delta_{wl}$
 \form#18:$ \Delta_{wr} $
-\form#19:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
-\form#20:$ x_{min} = 0.02$
-\form#21:$ x_{max}=0.98$
+\form#19:\begin{eqnarray*} f_{smth}(r) = \left\{ \begin{array}{ll} exp\left(-r^2\right)*\left(1-r^2\right)^2 &\mbox{ if $r \leq 1.0$} \\ 0 &\mbox{ if $x > 1.0$} \end{array} \right. \end{eqnarray*}
+\form#20:\[ r^2 = \left( {x_{rot} \over SMTHX} \right)^2 + \left( {y_{rot} \over SMTHY} \right)^2 \]
+\form#21:\begin{eqnarray*} x_{rot} &=& x_{tr}*cos(ROTA)+y_{tr}*sin(ROTA), \\ y_{rot} &=& -x_{tr}*sin(ROTA)+y_{tr}*cos(ROTA). \end{eqnarray*}
+\form#22:$x_{tr}$
+\form#23:$y_{tr}$
+\form#24:\begin{eqnarray*} f_x &=& -f_{smth}(r)*f(z,t)*sin(ROTA), \\ f_y &=& f_{smth}(r)*f(z,t)cos(ROTA), \end{eqnarray*}
+\form#25:\[ f(z,t) = TIAMP*g(z) + TDAMP*\left[ \left(1-b(t)\right)h^i(z) + b(t)h^{i+1}(z) \right] \]
+\form#26:\begin{eqnarray*} i &=& int(t/TDT), \\ b(t) &=& 3p^2-2p^3, \\ p &=& t/TDT -i. \end{eqnarray*}
+\form#27:$g(z)$
+\form#28:$h(z)$
+\form#29:$2\pi/TDT$
+\form#30:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
+\form#31:$ x_{min} = 0.02$
+\form#32:$ x_{max}=0.98$

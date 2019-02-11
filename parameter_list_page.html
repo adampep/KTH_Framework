@@ -202,6 +202,42 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <td>spng_dr(3) </td><td>real </td><td>_spongebx:droprz </td><td>0.0 </td><td>sponge right drop/rise section width; dimension Z </td></tr>
 </table>
 </dd>
+<dt><a class="anchor" id="_parameter_list_page000010"></a>Module <a class="el" href="group__trip__line.html">trip_line</a>  </dt>
+<dd>Parameters provided by sponge_box module (include file - <em>SPONGRBD</em>): <table class="doxtable">
+<tr>
+<th>Varaible </th><th>Type </th><th>Runtime parameter </th><th>Default value </th><th>Description  </th></tr>
+<tr>
+<td>trip_nline </td><td>integer </td><td>_tripping:nline </td><td>0 </td><td>Number of tripping lines </td></tr>
+<tr>
+<td>trip_tiamp </td><td>real </td><td>_tripping:tiamp </td><td>0.0 </td><td>Time independent amplitude </td></tr>
+<tr>
+<td>trip_tdamp </td><td>real </td><td>_tripping:tdamp </td><td>0.0 </td><td>Time dependent amplitude </td></tr>
+<tr>
+<td>trip_spos(1,il) </td><td>real </td><td>_tripping:sposx'il' </td><td>0.0 </td><td>Starting point X of 'il' line </td></tr>
+<tr>
+<td>trip_spos(2,il) </td><td>real </td><td>_tripping:sposy'il' </td><td>0.0 </td><td>Starting point Y of 'il' line </td></tr>
+<tr>
+<td>trip_spos(3,il) </td><td>real </td><td>_tripping:sposz'il' </td><td>0.0 </td><td>Starting point Z of 'il' line </td></tr>
+<tr>
+<td>trip_epos(1,il) </td><td>real </td><td>_tripping:eposx'il' </td><td>0.0 </td><td>Ending point X of 'il' line </td></tr>
+<tr>
+<td>trip_epos(2,il) </td><td>real </td><td>_tripping:eposy'il' </td><td>0.0 </td><td>Ending point Y of 'il' line </td></tr>
+<tr>
+<td>trip_epos(3,il) </td><td>real </td><td>_tripping:eposz'il' </td><td>0.0 </td><td>Ending point Z of 'il' line </td></tr>
+<tr>
+<td>trip_smth(1,il) </td><td>real </td><td>_tripping:smthx'il' </td><td>0.0 </td><td>Smoothing length X of 'il' line </td></tr>
+<tr>
+<td>trip_smth(2,il) </td><td>real </td><td>_tripping:smthy'il' </td><td>0.0 </td><td>Smoothing length Y of 'il' line </td></tr>
+<tr>
+<td>trip_smth(3,il) </td><td>real </td><td>_tripping:smthz'il' </td><td>0.0 </td><td>Smoothing length Z of 'il' line (not used) </td></tr>
+<tr>
+<td>trip_rota(il) </td><td>real </td><td>_tripping:rota'il' </td><td>0.0 </td><td>Rotation angle of 'il' line </td></tr>
+<tr>
+<td>trip_nmode(il) </td><td>integer </td><td>_tripping:nmode'il' </td><td>0 </td><td>Number of Fourier modes of 'il' line </td></tr>
+<tr>
+<td>trip_tdt(il) </td><td>real </td><td>_tripping:tdt'il' </td><td>0.0 </td><td>Time step for tripping of 'il' line </td></tr>
+</table>
+</dd>
 <dt><a class="anchor" id="_parameter_list_page000006"></a>Module <a class="el" href="group__tstepper.html">tstepper</a>  </dt>
 <dd>Parameters provided by time stepper module (include file - <em>TIME_STEPPERD</em>):<ul>
 <li>TSTMODE: (integer)<ul>
@@ -224,7 +260,7 @@ $(document).ready(function(){initNavTree('parameter_list_page.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="runtime_parameters_page.html">Runtime parameters for KTH framework.</a></li>
-    <li class="footer">Generated on Tue Dec 18 2018 14:49:26 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Mon Feb 11 2019 14:11:11 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

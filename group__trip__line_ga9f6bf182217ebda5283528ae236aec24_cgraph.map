@@ -1,0 +1,19 @@
+<map id="trip_init" name="trip_init">
+<area shape="rect" id="node2" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="117,5,220,32"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="274,56,357,83"/>
+<area shape="rect" id="node6" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="123,107,214,133"/>
+<area shape="rect" id="node9" href="$group__trip__line.html#ga7c4e4f1a8b83ccbf91c4903c19589ce3" title="Get 1D projection, array mapping and forcing smoothing. " alt="" coords="131,360,206,387"/>
+<area shape="rect" id="node12" href="$group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line. " alt="" coords="121,208,216,235"/>
+<area shape="rect" id="node16" href="$group__trip__line.html#ga1c9efa121ba419b340fc0469c8df50a2" title="Generate set of random phases. " alt="" coords="120,284,217,311"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="416,56,488,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="541,56,595,83"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="273,107,357,133"/>
+<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="429,107,475,133"/>
+<area shape="rect" id="node10" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="290,360,341,387"/>
+<area shape="rect" id="node11" href="$math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title="sort" alt="" coords="293,411,337,437"/>
+<area shape="rect" id="node13" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title="cmult" alt="" coords="288,208,343,235"/>
+<area shape="rect" id="node14" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="268,259,363,285"/>
+<area shape="rect" id="node15" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="290,157,341,184"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="288,309,343,336"/>
+<area shape="rect" id="node18" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="411,309,493,336"/>
+</map>

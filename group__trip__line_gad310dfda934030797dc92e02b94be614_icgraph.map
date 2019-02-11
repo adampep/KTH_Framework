@@ -1,0 +1,5 @@
+<map id="trip_frcs_get" name="trip_frcs_get">
+<area shape="rect" id="node2" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module. " alt="" coords="159,5,223,32"/>
+<area shape="rect" id="node3" href="$group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f" title="Update tripping. " alt="" coords="148,56,235,83"/>
+<area shape="rect" id="node4" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping. " alt="" coords="153,107,229,133"/>
+</map>

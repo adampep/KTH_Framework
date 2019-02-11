@@ -94,13 +94,13 @@ Framework structure</h1>
 Download</h1>
 <p>The top level direcotries in the framework point to stable release of three main github repositories (using <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">git submodules</a>):</p><ul>
 <li><a href="https://github.com/Nek5000/Nek5000">Nek5000</a>,</li>
-<li><a href="https://github.com/adampep/KTH_Toolbox">toolbox</a>,</li>
-<li><a href="https://github.com/adampep/KTH_Examples">tool examples</a>.</li>
+<li><a href="https://github.com/KTH-Nek5000/KTH_Toolbox">toolbox</a>,</li>
+<li><a href="https://github.com/KTH-Nek5000/KTH_Examples">tool examples</a>.</li>
 </ul>
 <p>Each ot these repositories can be downloaded separately by executing </p><pre class="fragment">git clone https://github.com/Nek5000/Nek5000.git -b master
-git clone https://github.com/adampep/KTH_Toolbox -b master
-git clone https://github.com/adampep/KTH_Examples -b master
-</pre><p> or as a single framework by </p><pre class="fragment">git clone --recursive https://github.com/adampep/KTH_Framework
+git clone https://github.com/KTH-Nek5000/KTH_Toolbox -b master
+git clone https://github.com/KTH-Nek5000/KTH_Examples -b master
+</pre><p> or as a single framework by </p><pre class="fragment">git clone --recursive https://github.com/KTH-Nek5000/KTH_Framework
 </pre><p>The second method is preferred as Nek5000 repository has neither development nor stable branches and all the development goes directly to master branch. As stable releases are marked by tags the user has to be careful to clone Nek5000 version compatible with current tool version. On the other hand the submodule within KTH_Framework points to the speciffic commit in Nek5000 repository forcing consistency between tools and Nek5000 versions. For the same reason user has to be careful using </p><pre class="fragment">git submodule update --remote Nek5000
 </pre><p> as it would load all the new commits. The proper way of upgrading KTH_Fremwork is running from the main framework directory </p><pre class="fragment">git fetch
 git merge origin/master
@@ -117,7 +117,7 @@ rm doxygen.warning
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 18 2018 14:49:32 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Mon Feb 11 2019 14:11:17 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
