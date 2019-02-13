@@ -162,7 +162,7 @@ Functions</h2></td></tr>
 <img class="formulaDsp" alt="\begin{eqnarray*} i &amp;=&amp; int(t/TDT), \\ b(t) &amp;=&amp; 3p^2-2p^3, \\ p &amp;=&amp; t/TDT -i. \end{eqnarray*}" src="form_26.png"/>
 </p>
 <p> Here <img class="formulaInl" alt="$g(z)$" src="form_27.png"/> and <img class="formulaInl" alt="$h(z)$" src="form_28.png"/> are Fourier series of unit amplitude with NMODE random coefficients. The trip forcing generates noise with a uniform distribution over all frequencies lower than the cutoff frequency corresponding to <img class="formulaInl" alt="$2\pi/TDT$" src="form_29.png"/>, where TDT is a time interval between change of the time dependent part of the trip.</p>
-<p>This forcing has one continuous time derivative and is independent of the time discretisation. It should be independent as well on the simulation details (e.g. number of mpi ranks or restart flag).</p>
+<p>This forcing has one continuous time derivative and is independent of the time discretisation. It should be independent as well on the simulation details (e.g. number of mpi ranks or restart flag). It is based on a similar implementation in the SIMSON code <a class="el" href="citelist.html#CITEREF_Chevalier2007">[2]</a>, and is described in detail in <a class="el" href="citelist.html#CITEREF_Schlatter2012">[5]</a>.</p>
 <p>This tool can simulate number of lines with different set of parameters for each line. The maximal number of lines is given by trip_nline_max in TRIPD include file. In the same way maximal number of Fouries modes per line is given by trip_nmode_max parameter.</p>
 <dl class="section user"><dt>Module interface:</dt><dd></dd></dl>
 <dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000015">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
@@ -231,7 +231,7 @@ Functions</h2></td></tr>
 <p>Get 1D projection, array mapping and forcing smoothing. </p>
 <p>This routine is just a simple version supporting only lines paralles to z axis. In future it can be generalised. </p><dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>CTMP0</em> and <em>CTMP1</em> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00356">356</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00359">359</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="math_8f_source.html#l00237">copy()</a>, and <a class="el" href="math_8f_source.html#l01302">sort()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -325,7 +325,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00292">292</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00295">295</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 </div>
 </div>
@@ -353,7 +353,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00577">577</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00580">580</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="math_8f_source.html#l00292">cmult()</a>, <a class="el" href="math_8f_source.html#l00237">copy()</a>, <a class="el" href="io__tools_8f_source.html#l00047">io_file_freeid()</a>, and <a class="el" href="math_8f_source.html#l00192">rzero()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -402,9 +402,9 @@ Functions</h2></td></tr>
 <p>Initilise tripping module. </p>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step after call to frame_rparam </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00136">136</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00139">139</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrlog_8f_source.html#l00752">mntr_warn()</a>, <a class="el" href="rprm_8f_source.html#l00858">rprm_rp_get()</a>, <a class="el" href="trip_8f_source.html#l00356">trip_1dprj()</a>, <a class="el" href="trip_8f_source.html#l00577">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00457">trip_rphs_get()</a>.</p>
+<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrlog_8f_source.html#l00752">mntr_warn()</a>, <a class="el" href="rprm_8f_source.html#l00858">rprm_rp_get()</a>, <a class="el" href="trip_8f_source.html#l00359">trip_1dprj()</a>, <a class="el" href="trip_8f_source.html#l00580">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00460">trip_rphs_get()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -452,7 +452,7 @@ Functions</h2></td></tr>
 <p>Check if module was initialised. </p>
 <dl class="section return"><dt>Returns</dt><dd>trip_is_initialised </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00246">246</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00249">249</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 </div>
 </div>
@@ -481,7 +481,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ran </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00535">535</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00538">538</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 </div>
 </div>
@@ -503,7 +503,7 @@ Functions</h2></td></tr>
 <p>Register tripping module. </p>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in userchk during first step between calls to frame_start and frame_rparam </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00016">16</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00019">19</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="mntrlog_8f_source.html#l00786">mntr_abort()</a>, <a class="el" href="mntrlog_8f_source.html#l00436">mntr_mod_is_name_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00323">mntr_mod_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrtmr_8f_source.html#l00146">mntr_tmr_is_name_reg()</a>, <a class="el" href="mntrtmr_8f_source.html#l00016">mntr_tmr_reg()</a>, <a class="el" href="mntrlog_8f_source.html#l00752">mntr_warn()</a>, <a class="el" href="rprm_8f_source.html#l00460">rprm_rp_reg()</a>, <a class="el" href="rprm_8f_source.html#l00141">rprm_sec_reg()</a>, and <a class="el" href="rprm_8f_source.html#l00398">rprm_sec_set_act()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -558,9 +558,9 @@ Functions</h2></td></tr>
 
 <p>Reset tripping. </p>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00323">323</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00326">326</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00356">trip_1dprj()</a>, and <a class="el" href="trip_8f_source.html#l00577">trip_frcs_get()</a>.</p>
+<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00359">trip_1dprj()</a>, and <a class="el" href="trip_8f_source.html#l00580">trip_frcs_get()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -600,7 +600,7 @@ Functions</h2></td></tr>
 
 <p>Generate set of random phases. </p>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00457">457</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00460">460</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="comm__mpi_8f_source.html#l00340">bcast()</a>, <a class="el" href="math_8f_source.html#l00237">copy()</a>, and <a class="el" href="io__tools_8f_source.html#l00047">io_file_freeid()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -647,9 +647,9 @@ Functions</h2></td></tr>
 
 <p>Update tripping. </p>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00259">259</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00262">262</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00577">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00457">trip_rphs_get()</a>.</p>
+<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00580">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00460">trip_rphs_get()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -678,7 +678,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Feb 11 2019 14:11:11 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Wed Feb 13 2019 11:22:37 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
