@@ -1,6 +1,7 @@
 <map id="hsmg_schwarz_wt3d" name="hsmg_schwarz_wt3d">
-<area shape="rect" id="node2" href="$hsmg_8f.html#a9da0f409657b8e5ade1afa87174e1c82" title="hsmg_schwarz_wt" alt="" coords="199,31,329,57"/>
-<area shape="rect" id="node3" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title="h1mg_schwarz" alt="" coords="377,5,488,32"/>
-<area shape="rect" id="node5" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="387,56,479,83"/>
-<area shape="rect" id="node4" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="536,5,628,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="511,31,668,57"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#a9da0f409657b8e5ade1afa87174e1c82" title=" " alt="" coords="321,31,463,57"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title=" " alt="" coords="155,5,273,32"/>
+<area shape="rect" id="node5" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title=" " alt="" coords="164,56,264,83"/>
+<area shape="rect" id="node4" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title=" " alt="" coords="5,5,107,32"/>
 </map>

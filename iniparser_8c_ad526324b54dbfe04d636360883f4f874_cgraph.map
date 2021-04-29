@@ -1,5 +1,6 @@
 <map id="iniparser_set" name="iniparser_set">
-<area shape="rect" id="node2" href="$dictionary_8c.html#aca582586180a1cd058017e337250848d" title="Set a value in a dictionary. " alt="" coords="149,5,252,32"/>
-<area shape="rect" id="node4" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase. " alt="" coords="172,56,229,83"/>
-<area shape="rect" id="node3" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="300,5,413,32"/>
+<area shape="rect" id="node1" title="Set an entry in a dictionary." alt="" coords="5,31,112,57"/>
+<area shape="rect" id="node2" href="$dictionary_8c.html#aca582586180a1cd058017e337250848d" title="Set a value in a dictionary." alt="" coords="160,5,275,32"/>
+<area shape="rect" id="node4" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase." alt="" coords="187,56,248,83"/>
+<area shape="rect" id="node3" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string." alt="" coords="323,5,448,32"/>
 </map>

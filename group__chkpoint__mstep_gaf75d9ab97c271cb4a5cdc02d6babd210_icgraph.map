@@ -1,3 +1,6 @@
 <map id="chkpt_restart_read" name="chkpt_restart_read">
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set. " alt="" coords="184,5,277,32"/>
+<area shape="rect" id="node1" title="Read checkpoint snapshot." alt="" coords="307,31,451,57"/>
+<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set." alt="" coords="155,5,256,32"/>
+<area shape="rect" id="node3" href="$group__powerit.html#gadebf99ef8b12430e2fb793802cb08b78" title="Read restart files." alt="" coords="152,56,259,83"/>
+<area shape="rect" id="node4" href="$group__powerit.html#gac56f63bdb958fdc41a3e2feef5013eb6" title="Initilise power iteration module." alt="" coords="5,56,104,83"/>
 </map>

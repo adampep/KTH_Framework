@@ -1,5 +1,9 @@
 <map id="vectof_add" name="vectof_add">
-<area shape="rect" id="node2" href="$dssum_8f.html#a9443c1f36d3059401c55b612e5292096" title="apply_jt" alt="" coords="140,31,207,57"/>
-<area shape="rect" id="node3" href="$dssum_8f.html#a9e3f805b8fe266668c98558691657ebe" title="dssum_msk" alt="" coords="258,5,351,32"/>
-<area shape="rect" id="node4" href="$dssum_8f.html#a3068cc414614f566c649c9eecc2aebd8" title="dssum_msk2" alt="" coords="255,56,355,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="441,81,536,108"/>
+<area shape="rect" id="node2" href="$dssum_8f.html#a9443c1f36d3059401c55b612e5292096" title=" " alt="" coords="314,56,389,83"/>
+<area shape="rect" id="node5" href="$group__gsyn__eddy.html#ga33af223dcdb8733c5ebb056786c9f3b9" title="Fill velocity array with eddies; ISO." alt="" coords="309,107,393,133"/>
+<area shape="rect" id="node3" href="$dssum_8f.html#a9e3f805b8fe266668c98558691657ebe" title=" " alt="" coords="157,5,257,32"/>
+<area shape="rect" id="node4" href="$dssum_8f.html#a3068cc414614f566c649c9eecc2aebd8" title=" " alt="" coords="153,56,261,83"/>
+<area shape="rect" id="node6" href="$group__gsyn__eddy.html#ga053440d8930b5fe6b4bc2cbe8ddfd37b" title="Time evolution of eddies." alt="" coords="152,107,261,133"/>
+<area shape="rect" id="node7" href="$group__gsyn__eddy.html#ga79077bcd4d269738b816281dd8f40193" title="Main gSyEM interface." alt="" coords="5,107,104,133"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="pstat_mfi_interp" name="pstat_mfi_interp">
+<area shape="rect" id="node1" title="Read interpolation points position and redistribute them." alt="" coords="296,5,425,32"/>
+<area shape="rect" id="node2" href="$pstat2d_2pstat_8f.html#a750a6d785e8c0711c55cc38d0f19c77f" title="Interpolate int the set of points." alt="" coords="148,5,248,32"/>
+<area shape="rect" id="node3" href="$pstat2d_2pstat_8f.html#a0d6f97dd0ba526fdc91b7f6d903890e9" title="Main interface of pstat module." alt="" coords="5,5,100,32"/>
+</map>

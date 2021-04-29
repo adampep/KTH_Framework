@@ -1,3 +1,4 @@
 <map id="Line tripping module" name="Line tripping module">
-<area shape="rect" id="node2" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node1" title="Random volume force along the line." alt="" coords="176,5,332,31"/>
+<area shape="rect" id="node2" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications." alt="" coords="5,5,128,31"/>
 </map>

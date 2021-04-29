@@ -1,5 +1,6 @@
 <map id="iface_e" name="iface_e">
-<area shape="rect" id="node2" href="$subs2_8f.html#acd3e0a4f01985313dda9c9a0f74d5224" title="fixmska" alt="" coords="117,5,185,32"/>
-<area shape="rect" id="node3" href="$subs2_8f.html#a85491a75f21053030871913510734987" title="stsmask" alt="" coords="233,5,305,32"/>
-<area shape="rect" id="node4" href="$bdry_8f.html#aff6088943a1cc02fb036375d9008b4c7" title="bcmask" alt="" coords="353,5,421,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="375,5,444,32"/>
+<area shape="rect" id="node2" href="$subs2_8f.html#acd3e0a4f01985313dda9c9a0f74d5224" title=" " alt="" coords="252,5,327,32"/>
+<area shape="rect" id="node3" href="$subs2_8f.html#a85491a75f21053030871913510734987" title=" " alt="" coords="127,5,204,32"/>
+<area shape="rect" id="node4" href="$bdry_8f.html#aff6088943a1cc02fb036375d9008b4c7" title=" " alt="" coords="5,5,79,32"/>
 </map>

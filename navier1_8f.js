@@ -74,7 +74,6 @@ var navier1_8f =
     [ "opdssum", "navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907", null ],
     [ "opgrad", "navier1_8f.html#af9bcf25d01182572549eaca275415fd9", null ],
     [ "opgradt", "navier1_8f.html#a0319e77dcb754cfe343f5e1e0a54f8dd", null ],
-    [ "ophinv", "navier1_8f.html#abc5cd1542bbd239734ba41882d091e03", null ],
     [ "ophx", "navier1_8f.html#aaf82c7bf142ad5f9c363e3dc3c39fa3c", null ],
     [ "ophyprk", "navier1_8f.html#a4d395aa421289d7ccb9d97fa87c63b22", null ],
     [ "opicol2", "navier1_8f.html#ae1ca584e3726c924ff5816053852fdf5", null ],

@@ -1,25 +1,43 @@
 <map id="mntr_logr" name="mntr_logr">
-<area shape="rect" id="node2" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="129,183,220,209"/>
-<area shape="rect" id="node11" href="$group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file. " alt="" coords="133,360,216,387"/>
-<area shape="rect" id="node14" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file. " alt="" coords="135,411,214,437"/>
-<area shape="rect" id="node17" href="$group__sfd.html#ga90a8a31c3b9825e457246fca2ce7153e" title="Finalise SFD. " alt="" coords="141,461,209,488"/>
-<area shape="rect" id="node18" href="$group__sfd.html#ga0104856bc2e901e840cc89dd12263900" title="Update filtered velocity field. " alt="" coords="135,512,214,539"/>
-<area shape="rect" id="node20" href="$group__sfd.html#ga98e882dcaf69a8ff2ccaf8c2a27ebf45" title="Store SFD restart file. " alt="" coords="140,563,209,589"/>
-<area shape="rect" id="node22" href="$group__sfd.html#gab838b3ce1a43844a03dcb6f578d9ff02" title="Load SFD restart file. " alt="" coords="142,613,207,640"/>
-<area shape="rect" id="node3" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="273,5,396,32"/>
-<area shape="rect" id="node5" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="285,56,384,83"/>
-<area shape="rect" id="node6" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="283,107,387,133"/>
-<area shape="rect" id="node7" href="$group__sfd.html#ga43ee3323c9f0a245a97af5985a675042" title="Register SFD module. " alt="" coords="289,157,380,184"/>
-<area shape="rect" id="node8" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="285,208,385,235"/>
-<area shape="rect" id="node9" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="285,259,385,285"/>
-<area shape="rect" id="node10" href="$group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab" title="Register tripping module. " alt="" coords="289,309,380,336"/>
-<area shape="rect" id="node4" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="453,31,541,57"/>
-<area shape="rect" id="node12" href="$group__chkpoint__mstep.html#ga6c83e58ee85d86e00437293adfa27a87" title="Write checkpoint snapshot. " alt="" coords="268,360,401,387"/>
-<area shape="rect" id="node13" href="$group__chkpoint__mstep.html#ga5a1a5e27f3cc18d976b7ca6f0ac4bcba" title="Write full file restart set. " alt="" coords="449,360,545,387"/>
-<area shape="rect" id="node15" href="$group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot. " alt="" coords="269,411,400,437"/>
-<area shape="rect" id="node16" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set. " alt="" coords="451,411,544,437"/>
-<area shape="rect" id="node19" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="460,537,535,564"/>
-<area shape="rect" id="node21" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint. " alt="" coords="286,563,383,589"/>
-<area shape="rect" id="node23" href="$group__sfd.html#ga661b879094c4984defe82100decd8cdb" title="Read from checkpoint. " alt="" coords="287,613,382,640"/>
-<area shape="rect" id="node24" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module. " alt="" coords="465,613,529,640"/>
+<area shape="rect" id="node1" title="Write log message adding single real." alt="" coords="723,385,808,412"/>
+<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file." alt="" coords="564,81,651,108"/>
+<area shape="rect" id="node6" href="$group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file." alt="" coords="562,157,653,184"/>
+<area shape="rect" id="node10" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence." alt="" coords="5,157,127,184"/>
+<area shape="rect" id="node11" href="$group__gsyn__eddy.html#gaa74db90a0d40197077972e97b9fb8c89" title="Generate family information." alt="" coords="540,259,675,285"/>
+<area shape="rect" id="node13" href="$group__arn__arp.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors)" alt="" coords="567,309,647,336"/>
+<area shape="rect" id="node15" href="$group__arn__arp.html#gac56f63bdb958fdc41a3e2feef5013eb6" title="Initilise Arnoldi ARPACK module." alt="" coords="186,335,285,361"/>
+<area shape="rect" id="node16" href="$group__arn__arp.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors)" alt="" coords="565,411,649,437"/>
+<area shape="rect" id="node19" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter." alt="" coords="557,715,658,741"/>
+<area shape="rect" id="node34" href="$group__sfd.html#ga90a8a31c3b9825e457246fca2ce7153e" title="Finalise SFD." alt="" coords="571,765,644,792"/>
+<area shape="rect" id="node35" href="$group__sfd.html#gab838b3ce1a43844a03dcb6f578d9ff02" title="Load SFD restart file." alt="" coords="572,853,643,880"/>
+<area shape="rect" id="node38" href="$group__sfd.html#ga98e882dcaf69a8ff2ccaf8c2a27ebf45" title="Store SFD restart file." alt="" coords="570,1056,645,1083"/>
+<area shape="rect" id="node41" href="$group__sfd.html#ga0104856bc2e901e840cc89dd12263900" title="Update filtered velocity field." alt="" coords="565,1183,649,1209"/>
+<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot." alt="" coords="346,56,490,83"/>
+<area shape="rect" id="node4" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set." alt="" coords="185,56,286,83"/>
+<area shape="rect" id="node5" href="$group__powerit.html#gadebf99ef8b12430e2fb793802cb08b78" title="Read restart files." alt="" coords="182,5,289,32"/>
+<area shape="rect" id="node7" href="$group__chkpoint__mstep.html#ga6c83e58ee85d86e00437293adfa27a87" title="Write checkpoint snapshot." alt="" coords="344,157,492,184"/>
+<area shape="rect" id="node8" href="$group__chkpoint__mstep.html#ga5a1a5e27f3cc18d976b7ca6f0ac4bcba" title="Write full file restart set." alt="" coords="183,157,288,184"/>
+<area shape="rect" id="node9" href="$group__powerit.html#gae25b7393d77e1cd5139cd60f0672b4b5" title="Write restart files." alt="" coords="180,107,291,133"/>
+<area shape="rect" id="node12" href="$group__gsyn__eddy.html#ga7adcada8ea2d614db7b3f3c60ba656a9" title="Initilise gSyEM module." alt="" coords="375,259,461,285"/>
+<area shape="rect" id="node14" href="$group__arn__arp.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints." alt="" coords="367,309,469,336"/>
+<area shape="rect" id="node17" href="$group__arn__arp.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Write restart files." alt="" coords="365,411,471,437"/>
+<area shape="rect" id="node18" href="$group__arn__arp.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase." alt="" coords="175,411,296,437"/>
+<area shape="rect" id="node20" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module." alt="" coords="361,968,475,995"/>
+<area shape="rect" id="node21" href="$conht__tools_8f.html#a9c8b1f2cf1663dacc7871da6a4f3f40c" title="Register conjugated heat transfer tools module." alt="" coords="369,1019,467,1045"/>
+<area shape="rect" id="node22" href="$group__tstepper.html#gab7707ea3b69cf33ac31a7f280bf0068f" title="Register time stepper module." alt="" coords="187,1019,283,1045"/>
+<area shape="rect" id="node23" href="$group__gsyn__eddy.html#ga66528e476e2f156a06fa5b1379bfec81" title="Register gSyEM module." alt="" coords="361,461,475,488"/>
+<area shape="rect" id="node24" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters." alt="" coords="349,512,487,539"/>
+<area shape="rect" id="node26" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module." alt="" coords="363,563,473,589"/>
+<area shape="rect" id="node27" href="$pstat2d_2pstat_8f.html#addf6d8f7b56feaf0e619a2d7c66ecf55" title="Register post processing statistics module." alt="" coords="362,613,474,640"/>
+<area shape="rect" id="node28" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database." alt="" coords="363,664,473,691"/>
+<area shape="rect" id="node29" href="$group__sfd.html#ga43ee3323c9f0a245a97af5985a675042" title="Register SFD module." alt="" coords="369,715,467,741"/>
+<area shape="rect" id="node30" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module." alt="" coords="363,765,473,792"/>
+<area shape="rect" id="node31" href="$stat_8f.html#a5b0d78dee858f1d9efcd6ce57aeb5ec8" title="Register 2D and 3D statistics module." alt="" coords="366,816,470,843"/>
+<area shape="rect" id="node32" href="$group__arn__arp.html#ga0090b5720eddacfd07206629455fee38" title="Register Arnoldi ARPACK module." alt="" coords="354,867,482,893"/>
+<area shape="rect" id="node33" href="$group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab" title="Register tripping module." alt="" coords="367,917,469,944"/>
+<area shape="rect" id="node25" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework." alt="" coords="186,588,285,615"/>
+<area shape="rect" id="node36" href="$group__sfd.html#ga661b879094c4984defe82100decd8cdb" title="Read from checkpoint." alt="" coords="367,1120,469,1147"/>
+<area shape="rect" id="node37" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module." alt="" coords="200,1120,271,1147"/>
+<area shape="rect" id="node39" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint." alt="" coords="365,1171,471,1197"/>
+<area shape="rect" id="node40" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface." alt="" coords="194,1196,277,1223"/>
 </map>

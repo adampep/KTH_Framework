@@ -25,8 +25,7 @@ var comm__mpi_8f =
     [ "i8gop", "comm__mpi_8f.html#af260c1a2fb7cc8a919bbf5d01e83b74c", null ],
     [ "igl_running_sum", "comm__mpi_8f.html#a1dc8c1bc7e3a04d6080d70922c6ad5be", null ],
     [ "igop", "comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761", null ],
-    [ "iniproc", "comm__mpi_8f.html#ad144041d3b33dd06035861d134cd9c35", null ],
-    [ "init_nek_comm", "comm__mpi_8f.html#a1b39639f2e521752c8545744cb0ac2f6", null ],
+    [ "iniproc", "comm__mpi_8f.html#ab90d4741057e2d716d13c2c30ff855de", null ],
     [ "irecv", "comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b", null ],
     [ "isend", "comm__mpi_8f.html#a7148047a95eacae2b80e9f95fd981ce9", null ],
     [ "lbcast", "comm__mpi_8f.html#aaa2c579a3b72b7a20446818d166bc7cc", null ],
@@ -34,6 +33,7 @@ var comm__mpi_8f =
     [ "mynode", "comm__mpi_8f.html#a2fae0158282f10009f27373acd2a0337", null ],
     [ "nek_die", "comm__mpi_8f.html#acc8803a3787828530843112e0c48941b", null ],
     [ "nekgsync", "comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3", null ],
+    [ "neknekgsync", "comm__mpi_8f.html#a64aa2bd0372ecd39dc24a2eafcaab578", null ],
     [ "numnodes", "comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1", null ],
     [ "ping_loop", "comm__mpi_8f.html#a8493e0f05af0ea25b69053ada11d808a", null ],
     [ "ping_loop1", "comm__mpi_8f.html#af348945adab9e6683c509187f6e4e2fc", null ],
@@ -43,5 +43,7 @@ var comm__mpi_8f =
     [ "platform_timer", "comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06", null ],
     [ "print_runtime_info", "comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed", null ],
     [ "printheader", "comm__mpi_8f.html#a18ca1338ab65ed76e2405bf426a32c96", null ],
+    [ "setnekcomm", "comm__mpi_8f.html#a225dcecff33da92ad29468c4e1bab406", null ],
+    [ "setupcomm", "comm__mpi_8f.html#a876278decc78f1f369bcb7548279a015", null ],
     [ "xor", "comm__mpi_8f.html#aa58338baef9abc506b23bd96e3c54d44", null ]
 ];

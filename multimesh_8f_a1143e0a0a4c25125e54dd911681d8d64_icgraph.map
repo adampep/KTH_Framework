@@ -1,9 +1,0 @@
-<map id="uglmin" name="uglmin">
-<area shape="rect" id="node2" href="$multimesh_8f.html#ad814bd0d7b1b5bc7d00ad4cea7fbc81f" title="setup_int_neknek" alt="" coords="113,5,237,32"/>
-<area shape="rect" id="node5" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="150,56,201,83"/>
-<area shape="rect" id="node3" href="$multimesh_8f.html#aa5ca8c9a0bec7eae623afb4b2a8e582c" title="multimesh_create" alt="" coords="285,5,411,32"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="459,5,557,32"/>
-<area shape="rect" id="node6" href="$drive2_8f.html#a6f905c80a0a2b0d5ed7f0449eda3e127" title="settime" alt="" coords="315,56,381,83"/>
-<area shape="rect" id="node7" href="$ssolv_8f.html#a4bb42a5afabbba8c6518d83cbe481c17" title="go1step" alt="" coords="474,56,542,83"/>
-<area shape="rect" id="node8" href="$ssolv_8f.html#a2de8913c214fa083dcb088c57bd45272" title="gostep" alt="" coords="477,107,539,133"/>
-</map>

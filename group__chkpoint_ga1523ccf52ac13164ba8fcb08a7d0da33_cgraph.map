@@ -1,14 +1,13 @@
 <map id="chkpt_init" name="chkpt_init">
-<area shape="rect" id="node2" href="$group__chkptdummy.html#ga6dad40946364ad9c8e85007a02e96b22" title="Dummy replacement for checkpoint initialisation. " alt="" coords="161,5,246,32"/>
-<area shape="rect" id="node3" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="332,151,416,177"/>
-<area shape="rect" id="node10" href="$group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2" title="Get step delay. " alt="" coords="132,107,275,133"/>
-<area shape="rect" id="node11" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="323,259,425,285"/>
-<area shape="rect" id="node12" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="333,208,415,235"/>
-<area shape="rect" id="node13" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="158,157,249,184"/>
-<area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="486,139,533,165"/>
-<area shape="rect" id="node8" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="473,233,545,260"/>
-<area shape="rect" id="node5" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="607,139,705,165"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="623,189,689,216"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="593,88,719,115"/>
-<area shape="rect" id="node9" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="629,240,683,267"/>
+<area shape="rect" id="node1" title="Initilise checkpointing module." alt="" coords="5,132,92,159"/>
+<area shape="rect" id="node2" href="$group__chkptdummy.html#ga6dad40946364ad9c8e85007a02e96b22" title="Dummy replacement for checkpoint initialisation." alt="" coords="173,5,266,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="357,157,451,184"/>
+<area shape="rect" id="node8" href="$group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2" title="Get step delay." alt="" coords="140,107,299,133"/>
+<area shape="rect" id="node9" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="347,259,461,285"/>
+<area shape="rect" id="node10" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="358,208,450,235"/>
+<area shape="rect" id="node11" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally." alt="" coords="169,157,270,184"/>
+<area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="523,157,575,184"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="509,208,589,235"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="637,157,711,184"/>
+<area shape="rect" id="node7" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="645,208,703,235"/>
 </map>

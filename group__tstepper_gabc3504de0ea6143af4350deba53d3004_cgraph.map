@@ -1,0 +1,26 @@
+<map id="tst_solve" name="tst_solve">
+<area shape="rect" id="node1" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule." alt="" coords="5,215,87,241"/>
+<area shape="rect" id="node2" href="$conht__tools_8f.html#a9688fe25a7c719bb6a2667ce80c802f7" title="Set cpfld coefficient for given type of simulation." alt="" coords="141,5,249,32"/>
+<area shape="rect" id="node3" href="$conht__tools_8f.html#aa37ef0c5f85dece9c332c53a67f98216" title="Multiply vector by constant A = c*A (single coeff. for velocity and temperature)" alt="" coords="144,56,247,83"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="823,461,903,488"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer." alt="" coords="663,968,747,995"/>
+<area shape="rect" id="node8" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="304,215,419,241"/>
+<area shape="rect" id="node9" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="168,1120,223,1147"/>
+<area shape="rect" id="node10" href="$group__arn__arp.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase." alt="" coords="135,411,256,437"/>
+<area shape="rect" id="node4" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="332,56,391,83"/>
+<area shape="rect" id="node6" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="951,461,1009,488"/>
+<area shape="rect" id="node11" href="$group__arn__arp.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing." alt="" coords="315,639,408,665"/>
+<area shape="rect" id="node12" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="679,639,732,665"/>
+<area shape="rect" id="node14" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="480,309,575,336"/>
+<area shape="rect" id="node17" href="$group__arn__arp.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd." alt="" coords="316,385,407,412"/>
+<area shape="rect" id="node20" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title=" " alt="" coords="503,512,552,539"/>
+<area shape="rect" id="node22" href="$group__arn__arp.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Write restart files." alt="" coords="309,892,414,919"/>
+<area shape="rect" id="node13" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="474,765,581,792"/>
+<area shape="rect" id="node15" href="$group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation." alt="" coords="636,791,775,817"/>
+<area shape="rect" id="node16" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title=" " alt="" coords="488,613,567,640"/>
+<area shape="rect" id="node18" href="$conht__tools_8f.html#abc2b30c2c8082a054f09ac47cf10bd92" title="Weigth velocity and temperature fields." alt="" coords="467,411,588,437"/>
+<area shape="rect" id="node19" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title=" " alt="" coords="681,233,730,260"/>
+<area shape="rect" id="node21" href="$group__tstepper.html#ga48d2b68042a86a8083bddfc6df3ca47e" title="Average velocity and temperature at element faces." alt="" coords="483,208,572,235"/>
+<area shape="rect" id="node23" href="$group__arn__arp.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data." alt="" coords="472,867,583,893"/>
+<area shape="rect" id="node24" href="$group__arn__arp.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors)" alt="" coords="485,917,569,944"/>
+</map>

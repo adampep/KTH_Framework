@@ -1,5 +1,6 @@
 <map id="Time stepper routines" name="Time stepper routines">
-<area shape="rect" id="node2" href="$group__arnoldi__arpack.html" title="Arnoldi algorithm with PARPACK. " alt="" coords="349,5,504,47"/>
-<area shape="rect" id="node3" href="$group__powerit.html" title="Power iteration submodule. " alt="" coords="351,71,503,98"/>
-<area shape="rect" id="node4" href="$group__tools.html" title="Set of tools for Nek5000 framework. " alt="" coords="5,42,105,69"/>
+<area shape="rect" id="node1" title="Time stepper for Nek5000." alt="" coords="161,35,325,60"/>
+<area shape="rect" id="node2" href="$group__powerit.html" title="Power iteration submodule." alt="" coords="375,5,546,31"/>
+<area shape="rect" id="node3" href="$group__arn__arp.html" title="Arnoldi algorithm with PARPACK." alt="" coords="373,55,548,95"/>
+<area shape="rect" id="node4" href="$group__tools.html" title="Set of tools for Nek5000 framework." alt="" coords="5,35,113,60"/>
 </map>

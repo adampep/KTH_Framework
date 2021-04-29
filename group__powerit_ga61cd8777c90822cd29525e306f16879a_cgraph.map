@@ -1,25 +1,40 @@
 <map id="stepper_vsolve" name="stepper_vsolve">
-<area shape="rect" id="node2" href="$group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca" title="Main checkpoint interface. " alt="" coords="164,81,253,108"/>
-<area shape="rect" id="node6" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="173,259,245,285"/>
-<area shape="rect" id="node17" href="$group__tstepper.html#gacc057288b77ad9b321464ec5347211e3" title="Average velocity and temperature at element faces. " alt="" coords="325,563,420,589"/>
-<area shape="rect" id="node3" href="$group__chkptdummy.html#ga6f70b0dcf0e5a20e531e4de1ef52421f" title="Dummy replacement for checkpoint reader. " alt="" coords="326,5,419,32"/>
-<area shape="rect" id="node4" href="$group__chkptdummy.html#gaf2645c978722f37eb8fa1584a72daf9c" title="Dummy replacement for checkpoint writer. " alt="" coords="325,56,421,83"/>
-<area shape="rect" id="node5" href="$group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2" title="Get step delay. " alt="" coords="301,107,444,133"/>
-<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="698,196,749,223"/>
-<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="349,411,396,437"/>
-<area shape="rect" id="node14" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="340,259,405,285"/>
-<area shape="rect" id="node9" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="505,461,604,488"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="521,411,588,437"/>
-<area shape="rect" id="node11" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="492,360,617,387"/>
-<area shape="rect" id="node12" href="$comm__mpi_8f.html#af434902df36175d2afdc00fbabc84b2c" title="dnekclock_sync" alt="" coords="665,360,781,387"/>
-<area shape="rect" id="node13" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="831,423,909,449"/>
-<area shape="rect" id="node15" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="696,272,751,299"/>
-<area shape="rect" id="node16" href="$prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title="prepost_map" alt="" coords="506,208,603,235"/>
-<area shape="rect" id="node18" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="700,651,747,677"/>
-<area shape="rect" id="node20" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="693,473,754,500"/>
-<area shape="rect" id="node21" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="525,613,585,640"/>
-<area shape="rect" id="node22" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="517,563,592,589"/>
-<area shape="rect" id="node19" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="829,575,911,601"/>
-<area shape="rect" id="node23" href="$navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title="rotate_cyc" alt="" coords="682,524,765,551"/>
-<area shape="rect" id="node24" href="$dssum_8f.html#a04a475747f747981907f8e5203c421ed" title="vec_dssum" alt="" coords="679,575,768,601"/>
+<area shape="rect" id="node1" title="Renormalise vector and check convergence." alt="" coords="5,208,127,235"/>
+<area shape="rect" id="node2" href="$conht__tools_8f.html#aa37ef0c5f85dece9c332c53a67f98216" title="Multiply vector by constant A = c*A (single coeff. for velocity and temperature)" alt="" coords="179,5,281,32"/>
+<area shape="rect" id="node4" href="$conht__tools_8f.html#ae987c8425ea8305dc77c40ca34965c73" title="Copy vectors A=B (velocity and temperature)" alt="" coords="182,461,278,488"/>
+<area shape="rect" id="node6" href="$conht__tools_8f.html#aac928e20a47ce6ddb36fe5162aa91f6d" title="Subtract vectors A = B&#45;C (velocity and temperature)" alt="" coords="182,56,278,83"/>
+<area shape="rect" id="node8" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="889,284,969,311"/>
+<area shape="rect" id="node10" href="$group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real." alt="" coords="729,259,815,285"/>
+<area shape="rect" id="node11" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="715,107,829,133"/>
+<area shape="rect" id="node12" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title=" " alt="" coords="191,588,269,615"/>
+<area shape="rect" id="node20" href="$group__powerit.html#gae25b7393d77e1cd5139cd60f0672b4b5" title="Write restart files." alt="" coords="175,335,285,361"/>
+<area shape="rect" id="node29" href="$group__tstepper.html#ga48d2b68042a86a8083bddfc6df3ca47e" title="Average velocity and temperature at element faces." alt="" coords="185,943,275,969"/>
+<area shape="rect" id="node3" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="378,5,437,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="745,537,799,564"/>
+<area shape="rect" id="node7" href="$math_8f.html#acc66fa3dd9d846331bd95c9c8abe93ae" title=" " alt="" coords="381,56,434,83"/>
+<area shape="rect" id="node9" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="1025,563,1083,589"/>
+<area shape="rect" id="node13" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="903,411,955,437"/>
+<area shape="rect" id="node15" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title=" " alt="" coords="372,689,443,716"/>
+<area shape="rect" id="node14" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="1017,411,1091,437"/>
+<area shape="rect" id="node16" href="$comm__mpi_8f.html#af434902df36175d2afdc00fbabc84b2c" title=" " alt="" coords="529,765,655,792"/>
+<area shape="rect" id="node18" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title=" " alt="" coords="562,715,622,741"/>
+<area shape="rect" id="node19" href="$prepost_8f.html#a68819f71d0d1730a93b44791fc50f171" title=" " alt="" coords="539,664,645,691"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="730,867,814,893"/>
+<area shape="rect" id="node21" href="$group__chkpoint.html#ga6771b38c49203209e7798600d21fe0de" title="Get step count to the checkpoint and a set number." alt="" coords="348,309,467,336"/>
+<area shape="rect" id="node22" href="$group__chkpoint__mstep.html#ga6c83e58ee85d86e00437293adfa27a87" title="Write checkpoint snapshot." alt="" coords="333,360,481,387"/>
+<area shape="rect" id="node26" href="$group__chkpoint__mstep.html#ga9eef18a87ec81c10173c0d79a389dd36" title="Generate set of restart file names in snapshot." alt="" coords="343,461,472,488"/>
+<area shape="rect" id="node28" href="$prepost_8f.html#abb385320698675796ad307a27f4855af" title=" " alt="" coords="376,411,439,437"/>
+<area shape="rect" id="node23" href="$group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file." alt="" coords="547,360,637,387"/>
+<area shape="rect" id="node25" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="725,309,819,336"/>
+<area shape="rect" id="node24" href="$group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation." alt="" coords="703,411,841,437"/>
+<area shape="rect" id="node27" href="$group__chkpoint__mstep.html#gaf5e092062f0d392eb7e19ee08a9dd195" title="Generate single restart file name." alt="" coords="539,411,645,437"/>
+<area shape="rect" id="node30" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title=" " alt="" coords="567,1120,617,1147"/>
+<area shape="rect" id="node32" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title=" " alt="" coords="559,968,625,995"/>
+<area shape="rect" id="node33" href="$dssum_8f.html#a99883f15d413d614f361d5864d3bac55" title=" " alt="" coords="372,1019,443,1045"/>
+<area shape="rect" id="node35" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title=" " alt="" coords="375,917,440,944"/>
+<area shape="rect" id="node36" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title=" " alt="" coords="367,867,448,893"/>
+<area shape="rect" id="node31" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="728,1019,816,1045"/>
+<area shape="rect" id="node34" href="$dssum_8f.html#a31a64067a6274e816e2291149e0fbc26" title=" " alt="" coords="557,1019,627,1045"/>
+<area shape="rect" id="node37" href="$navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title=" " alt="" coords="547,816,637,843"/>
+<area shape="rect" id="node38" href="$dssum_8f.html#a04a475747f747981907f8e5203c421ed" title=" " alt="" coords="545,917,639,944"/>
 </map>

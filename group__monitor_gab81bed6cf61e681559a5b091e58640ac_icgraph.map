@@ -1,5 +1,9 @@
 <map id="mntr_log_local" name="mntr_log_local">
-<area shape="rect" id="node2" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing. " alt="" coords="160,5,296,32"/>
-<area shape="rect" id="node3" href="$group__monitor.html#ga11eb72ddf772cb55dfc112cfc070acc3" title="Print registered modules showing tree structure. " alt="" coords="344,5,517,32"/>
-<area shape="rect" id="node4" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="565,5,637,32"/>
+<area shape="rect" id="node1" title="Write log message from given process." alt="" coords="583,31,701,57"/>
+<area shape="rect" id="node2" href="$group__gsyn__eddy.html#ga588937b445a3c01303443acda7fbcc2b" title="Read profiles for all familes." alt="" coords="395,5,522,32"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing." alt="" coords="383,56,535,83"/>
+<area shape="rect" id="node3" href="$group__gsyn__eddy.html#gaa74db90a0d40197077972e97b9fb8c89" title="Generate family information." alt="" coords="170,5,305,32"/>
+<area shape="rect" id="node4" href="$group__gsyn__eddy.html#ga7adcada8ea2d614db7b3f3c60ba656a9" title="Initilise gSyEM module." alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga11eb72ddf772cb55dfc112cfc070acc3" title="Print registered modules showing tree structure." alt="" coords="140,56,335,83"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module." alt="" coords="8,56,89,83"/>
 </map>

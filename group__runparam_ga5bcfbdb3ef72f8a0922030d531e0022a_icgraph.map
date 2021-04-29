@@ -1,4 +1,5 @@
 <map id="rprm_rp_summary_print" name="rprm_rp_summary_print">
-<area shape="rect" id="node2" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="212,5,284,32"/>
-<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="332,5,420,32"/>
+<area shape="rect" id="node1" title="Print out summary of registered runtime parameters (active sections only)" alt="" coords="281,5,460,32"/>
+<area shape="rect" id="node2" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary." alt="" coords="152,5,233,32"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework." alt="" coords="5,5,104,32"/>
 </map>

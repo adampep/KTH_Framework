@@ -1,7 +1,8 @@
 <map id="iniparser_find_entry" name="iniparser_find_entry">
-<area shape="rect" id="node2" href="$finiparser_8c.html#abd2fb32ad54775a69dfa8c9a1e0d28a6" title="finiparser_find" alt="" coords="223,5,325,32"/>
-<area shape="rect" id="node3" href="$iniparser_8h.html#a790111c03777a5377712b5ea78431637" title="Save a dictionary section to a loadable ini file. " alt="" coords="188,56,360,83"/>
-<area shape="rect" id="node5" href="$iniparser_8h.html#a3e50b16a71a4fbd2183bec0424699932" title="Get the number of keys in a section of a dictionary. " alt="" coords="198,107,350,133"/>
-<area shape="rect" id="node6" href="$iniparser_8h.html#a3779307fb59f57451bab47f6a7240361" title="Get the number of keys in a section of a dictionary. " alt="" coords="201,157,347,184"/>
-<area shape="rect" id="node4" href="$iniparser_8h.html#af3d206ad34f6b9eefe394896d68d140c" title="Save a dictionary to a loadable ini file. " alt="" coords="408,56,539,83"/>
+<area shape="rect" id="node1" title="Finds out if a given entry exists in a dictionary." alt="" coords="441,81,593,108"/>
+<area shape="rect" id="node2" href="$finiparser_8c.html#abd2fb32ad54775a69dfa8c9a1e0d28a6" title=" " alt="" coords="239,5,355,32"/>
+<area shape="rect" id="node3" href="$iniparser_8h.html#a790111c03777a5377712b5ea78431637" title="Save a dictionary section to a loadable ini file." alt="" coords="200,56,393,83"/>
+<area shape="rect" id="node5" href="$iniparser_8h.html#a3779307fb59f57451bab47f6a7240361" title="Get the number of keys in a section of a dictionary." alt="" coords="217,107,376,133"/>
+<area shape="rect" id="node6" href="$iniparser_8h.html#a3e50b16a71a4fbd2183bec0424699932" title="Get the number of keys in a section of a dictionary." alt="" coords="213,157,380,184"/>
+<area shape="rect" id="node4" href="$iniparser_8h.html#af3d206ad34f6b9eefe394896d68d140c" title="Save a dictionary to a loadable ini file." alt="" coords="5,56,152,83"/>
 </map>

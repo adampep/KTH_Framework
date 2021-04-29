@@ -10,6 +10,7 @@ var hmholtz_8f =
     [ "generalev", "hmholtz_8f.html#a5a846560cdbe979f8cf9a71599a7f460", null ],
     [ "gradr", "hmholtz_8f.html#a5abb98b15c36df1f57f10a546dafb961", null ],
     [ "gradrta", "hmholtz_8f.html#a7cdf3a9c9b3186632e8be8fd77756113", null ],
+    [ "hmh_flex_cg", "hmholtz_8f.html#a8a396e973763e576543b4ab90c072b6d", null ],
     [ "hmholtz", "hmholtz_8f.html#a52dcac1fe733719d4987d36aac022e4d", null ],
     [ "hmholtz_dg", "hmholtz_8f.html#ab52baffba790c148592c7b40c62861ca", null ],
     [ "hxdg", "hmholtz_8f.html#a7c09e0f1ba5bd2cb84d8f705152fa43f", null ],

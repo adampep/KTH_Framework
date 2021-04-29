@@ -1,7 +1,0 @@
-<map id="dorg2r" name="dorg2r">
-<area shape="rect" id="node2" href="$dsygv_8f.html#a39a2b39f56ce497b218c5f48339ee712" title="dlarf" alt="" coords="115,56,162,83"/>
-<area shape="rect" id="node4" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="323,56,380,83"/>
-<area shape="rect" id="node6" href="$blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="112,157,165,184"/>
-<area shape="rect" id="node3" href="$blas_8f.html#add421a107a488d524859b4a64c1901a9" title="dgemv" alt="" coords="213,5,275,32"/>
-<area shape="rect" id="node5" href="$blas_8f.html#a458222e01b4d348e9b52b9343d52f828" title="dger" alt="" coords="221,56,267,83"/>
-</map>

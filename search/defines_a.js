@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['set_5fstdout',['set_stdout',['../chelpers_8c.html#ae800c88ca750c1dbbabb6d1b96a40b5d',1,'chelpers.c']]],
-  ['sizeoflongint',['sizeOfLongInt',['../chelpers_8c.html#af20bdf2bbae93a5294564264d347272d',1,'chelpers.c']]],
-  ['swap',['SWAP',['../byte_8c.html#aac9153aee4bdb92701df902e06a74eb3',1,'byte.c']]]
+  ['prefixed_5fname_5267',['PREFIXED_NAME',['../name_8h.html#ab8020897668b18bc30aa3b0b09f6b723',1,'name.h']]],
+  ['print_5fstack_5268',['print_stack',['../chelpers_8c.html#ae61f9cdd0d2a4c4cbc7de05c5434eb9f',1,'chelpers.c']]]
 ];

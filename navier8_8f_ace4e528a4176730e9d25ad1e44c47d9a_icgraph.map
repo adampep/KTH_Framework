@@ -1,9 +1,11 @@
 <map id="set_h1_basis_bilin" name="set_h1_basis_bilin">
-<area shape="rect" id="node2" href="$navier8_8f.html#a2f57fd69e715a39ef0476d0b4a55a35a" title="map_c_to_f_h1_bilin" alt="" coords="183,31,324,57"/>
-<area shape="rect" id="node8" href="$navier8_8f.html#aa85ccf7fab58ee7647cd9f8817eb7d8d" title="map_f_to_c_h1_bilin" alt="" coords="183,81,324,108"/>
-<area shape="rect" id="node3" href="$navier8_8f.html#a27cfa4bb425c4ed421e59ebc3ec94311" title="crs_solve_h1" alt="" coords="372,31,471,57"/>
-<area shape="rect" id="node6" href="$subs1_8f.html#a67e502b31617d5ff9be230f1ce239133" title="crs_strs" alt="" coords="387,81,456,108"/>
-<area shape="rect" id="node4" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title="hmh_gmres" alt="" coords="519,31,609,57"/>
-<area shape="rect" id="node5" href="$hmholtz_8f.html#a8734f3cc2d37d6a2ccd1daa8db57513d" title="cggo" alt="" coords="657,5,708,32"/>
-<area shape="rect" id="node7" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title="cggosf" alt="" coords="533,81,595,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="611,81,752,108"/>
+<area shape="rect" id="node2" href="$navier8_8f.html#a2f57fd69e715a39ef0476d0b4a55a35a" title=" " alt="" coords="408,56,563,83"/>
+<area shape="rect" id="node9" href="$navier8_8f.html#aa85ccf7fab58ee7647cd9f8817eb7d8d" title=" " alt="" coords="408,107,563,133"/>
+<area shape="rect" id="node3" href="$avm_8f.html#a9e1209421d37bc600934cdb4974e3437" title=" " alt="" coords="263,5,351,32"/>
+<area shape="rect" id="node4" href="$navier8_8f.html#a27cfa4bb425c4ed421e59ebc3ec94311" title=" " alt="" coords="253,107,360,133"/>
+<area shape="rect" id="node7" href="$subs1_8f.html#a67e502b31617d5ff9be230f1ce239133" title=" " alt="" coords="271,56,343,83"/>
+<area shape="rect" id="node5" href="$hmholtz_8f.html#a8734f3cc2d37d6a2ccd1daa8db57513d" title=" " alt="" coords="5,132,59,159"/>
+<area shape="rect" id="node6" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title=" " alt="" coords="107,157,205,184"/>
+<area shape="rect" id="node8" href="$subs1_8f.html#afbde33b8466b90206f1fa13b3800b7d5" title=" " alt="" coords="123,56,189,83"/>
 </map>

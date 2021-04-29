@@ -1,5 +1,6 @@
 <map id="mxmur2_6" name="mxmur2_6">
-<area shape="rect" id="node2" href="$mxm__std_8f.html#a0f5f79847f6d3599e697e4fd9a88825f" title="mxmur2" alt="" coords="136,5,205,32"/>
-<area shape="rect" id="node3" href="$mxm__std_8f.html#a2f1607228da266881361a7dbb213d9f4" title="mxm_test_all" alt="" coords="253,5,353,32"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06" title="platform_timer" alt="" coords="401,5,507,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="457,5,549,32"/>
+<area shape="rect" id="node2" href="$mxm__std_8f.html#a0f5f79847f6d3599e697e4fd9a88825f" title=" " alt="" coords="332,5,409,32"/>
+<area shape="rect" id="node3" href="$mxm__std_8f.html#a2f1607228da266881361a7dbb213d9f4" title=" " alt="" coords="173,5,284,32"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06" title=" " alt="" coords="5,5,125,32"/>
 </map>

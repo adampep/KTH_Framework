@@ -1,7 +1,8 @@
 <map id="ssparam" name="ssparam">
-<area shape="rect" id="node2" href="$ssolv_8f.html#a93a1d281bfd79abfe1db3c9522913de1" title="setchar" alt="" coords="227,5,292,32"/>
-<area shape="rect" id="node3" href="$ssolv_8f.html#a308c3946fa13460bde38c5b3328ae1d2" title="ssinit" alt="" coords="125,56,179,83"/>
-<area shape="rect" id="node4" href="$subs1_8f.html#af114fff998975a6e77422a65106222ca" title="setprop" alt="" coords="227,56,292,83"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="340,31,421,57"/>
-<area shape="rect" id="node6" href="$vprops_8f.html#a895c417a4106672b662bf2fb96b26f06" title="vprops" alt="" coords="350,81,411,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,84,57"/>
+<area shape="rect" id="node2" href="$ssolv_8f.html#a93a1d281bfd79abfe1db3c9522913de1" title=" " alt="" coords="237,5,308,32"/>
+<area shape="rect" id="node3" href="$ssolv_8f.html#a308c3946fa13460bde38c5b3328ae1d2" title=" " alt="" coords="132,56,189,83"/>
+<area shape="rect" id="node4" href="$subs1_8f.html#af114fff998975a6e77422a65106222ca" title=" " alt="" coords="237,56,308,83"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="356,31,444,57"/>
+<area shape="rect" id="node6" href="$vprops_8f.html#a895c417a4106672b662bf2fb96b26f06" title=" " alt="" coords="367,81,433,108"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="chkpts_write" name="chkpts_write">
-<area shape="rect" id="node2" href="$group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca" title="Main checkpoint interface. " alt="" coords="149,31,239,57"/>
-<area shape="rect" id="node3" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="294,5,390,32"/>
-<area shape="rect" id="node4" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="287,56,397,83"/>
+<area shape="rect" id="node1" title="Dummy replacement for checkpoint writer." alt="" coords="152,5,257,32"/>
+<area shape="rect" id="node2" href="$group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca" title="Main checkpoint interface." alt="" coords="5,5,104,32"/>
 </map>

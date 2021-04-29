@@ -1,10 +1,11 @@
 <map id="mntr_register_mod" name="mntr_register_mod">
-<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="468,5,540,32"/>
-<area shape="rect" id="node4" href="$group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26" title="Register new timer. " alt="" coords="184,81,283,108"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="593,56,647,83"/>
-<area shape="rect" id="node5" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="347,157,398,184"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="345,208,400,235"/>
-<area shape="rect" id="node8" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="331,56,415,83"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="463,208,545,235"/>
-<area shape="rect" id="node9" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="481,56,527,83"/>
+<area shape="rect" id="node1" title="Initialise monitor by registering framework and monitor." alt="" coords="5,31,152,57"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="506,5,586,32"/>
+<area shape="rect" id="node4" href="$group__monitor.html#gac31ffd80c32ff32970de39e08c58bb26" title="Register new timer." alt="" coords="200,81,311,108"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="639,56,697,83"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="377,157,435,184"/>
+<area shape="rect" id="node7" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title=" " alt="" coords="379,208,433,235"/>
+<area shape="rect" id="node8" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="359,56,453,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="501,157,591,184"/>
+<area shape="rect" id="node9" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="520,56,572,83"/>
 </map>

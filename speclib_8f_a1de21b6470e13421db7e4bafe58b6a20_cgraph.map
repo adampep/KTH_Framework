@@ -1,22 +1,14 @@
 <map id="zwgljd" name="zwgljd">
-<area shape="rect" id="node2" href="$speclib_8f.html#a91eec848c820802e16160a8e3afaefe2" title="endw1" alt="" coords="112,5,172,32"/>
-<area shape="rect" id="node4" href="$speclib_8f.html#adcb1c928c54b6d9a681b89921cf154e3" title="endw2" alt="" coords="112,81,172,108"/>
-<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="227,335,274,361"/>
-<area shape="rect" id="node17" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title="jacobf" alt="" coords="363,233,421,260"/>
-<area shape="rect" id="node18" href="$speclib_8f.html#a66d184d6cf0d520944c94caa7c86c03e" title="zwgjd" alt="" coords="114,183,170,209"/>
-<area shape="rect" id="node3" href="$speclib_8f.html#a4490eba1c2e68b68c343afc070461ad0" title="gammaf" alt="" coords="357,56,427,83"/>
-<area shape="rect" id="node6" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="343,335,441,361"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="359,436,425,463"/>
-<area shape="rect" id="node12" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="329,284,455,311"/>
-<area shape="rect" id="node7" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="533,385,589,412"/>
-<area shape="rect" id="node8" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="510,436,611,463"/>
-<area shape="rect" id="node9" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="503,335,618,361"/>
-<area shape="rect" id="node11" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="515,487,606,513"/>
-<area shape="rect" id="node13" href="$comm__mpi_8f.html#af434902df36175d2afdc00fbabc84b2c" title="dnekclock_sync" alt="" coords="503,132,619,159"/>
-<area shape="rect" id="node14" href="$papi_8f.html#a401adcc008e595bf3caeaf27a675bdb7" title="dnekgflops" alt="" coords="518,183,603,209"/>
-<area shape="rect" id="node15" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="527,233,594,260"/>
-<area shape="rect" id="node16" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="532,284,589,311"/>
-<area shape="rect" id="node19" href="$speclib_8f.html#ac094a28a65ff1a54fc5ad2755d4d3667" title="jacg" alt="" coords="227,183,274,209"/>
-<area shape="rect" id="node21" href="$speclib_8f.html#aca6a12813e9f8da78d33fb36fd7e75c5" title="pnormj" alt="" coords="220,132,281,159"/>
-<area shape="rect" id="node20" href="$navier7_8f.html#ae5853d8199b3ec1ff454795153efde35" title="swap" alt="" coords="365,183,419,209"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,69,209"/>
+<area shape="rect" id="node2" href="$speclib_8f.html#a91eec848c820802e16160a8e3afaefe2" title=" " alt="" coords="117,5,183,32"/>
+<area shape="rect" id="node4" href="$speclib_8f.html#adcb1c928c54b6d9a681b89921cf154e3" title=" " alt="" coords="117,81,183,108"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="239,335,291,361"/>
+<area shape="rect" id="node8" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title=" " alt="" coords="354,233,417,260"/>
+<area shape="rect" id="node9" href="$speclib_8f.html#a66d184d6cf0d520944c94caa7c86c03e" title=" " alt="" coords="120,183,180,209"/>
+<area shape="rect" id="node3" href="$speclib_8f.html#a4490eba1c2e68b68c343afc070461ad0" title=" " alt="" coords="347,56,424,83"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="349,335,422,361"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title=" " alt="" coords="472,335,575,361"/>
+<area shape="rect" id="node10" href="$speclib_8f.html#ac094a28a65ff1a54fc5ad2755d4d3667" title=" " alt="" coords="240,183,289,209"/>
+<area shape="rect" id="node12" href="$speclib_8f.html#aca6a12813e9f8da78d33fb36fd7e75c5" title=" " alt="" coords="231,132,299,159"/>
+<area shape="rect" id="node11" href="$navier7_8f.html#ae5853d8199b3ec1ff454795153efde35" title=" " alt="" coords="357,183,413,209"/>
 </map>

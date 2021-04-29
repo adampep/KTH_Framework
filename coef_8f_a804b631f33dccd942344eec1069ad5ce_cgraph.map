@@ -1,40 +1,34 @@
 <map id="glmapm3" name="glmapm3">
-<area shape="rect" id="node2" href="$math_8f.html#a1f336314da3012286837ede20a0495c6" title="addcol3" alt="" coords="245,81,312,108"/>
-<area shape="rect" id="node5" href="$math_8f.html#a40268d720140e9b00647213189f3144a" title="addcol4" alt="" coords="128,613,195,640"/>
-<area shape="rect" id="node6" href="$math_8f.html#a0e8d510c354d85c36831d9bb6acf55b4" title="ascol5" alt="" coords="131,664,191,691"/>
-<area shape="rect" id="node7" href="$coef_8f.html#a02ecca152b133e318dbc28f7b9edc261" title="chkjac" alt="" coords="131,715,191,741"/>
-<area shape="rect" id="node8" href="$math_8f.html#af75d691116fa36c290d6a2848b113928" title="chsign" alt="" coords="131,765,191,792"/>
-<area shape="rect" id="node9" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="387,461,438,488"/>
-<area shape="rect" id="node10" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="389,411,436,437"/>
-<area shape="rect" id="node23" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title="iglsum" alt="" coords="249,575,309,601"/>
-<area shape="rect" id="node24" href="$math_8f.html#a0fcb0ff151fe3548d0d07961e8365efe" title="invers2" alt="" coords="129,816,193,843"/>
-<area shape="rect" id="node25" href="$coef_8f.html#a0dfbc76a89d3e04fd1705289ccc1068d" title="map31" alt="" coords="131,461,192,488"/>
-<area shape="rect" id="node26" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="253,208,304,235"/>
-<area shape="rect" id="node33" href="$prepost_8f.html#aacb528c0b28bc79dff8db48d7ae9ac64" title="outpost" alt="" coords="129,360,194,387"/>
-<area shape="rect" id="node36" href="$math_8f.html#ae1294c8ac3b5b3c38bbcc250d252b9cb" title="rone" alt="" coords="138,867,185,893"/>
-<area shape="rect" id="node37" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="136,917,187,944"/>
-<area shape="rect" id="node38" href="$math_8f.html#ab775b4418a8ea415b19f2a0861af2636" title="subcol3" alt="" coords="128,968,195,995"/>
-<area shape="rect" id="node39" href="$math_8f.html#ac9219dc2eaa5e911fe7227ac36effd1a" title="subcol4" alt="" coords="128,1019,195,1045"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="372,5,453,32"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="848,107,933,133"/>
-<area shape="rect" id="node11" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="524,436,623,463"/>
-<area shape="rect" id="node16" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="540,335,607,361"/>
-<area shape="rect" id="node18" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="511,233,636,260"/>
-<area shape="rect" id="node12" href="$multimesh_8f.html#a40699f2aa7eb269d1dc0cd15036bb377" title="setintercomm" alt="" coords="691,436,793,463"/>
-<area shape="rect" id="node13" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="714,537,770,564"/>
-<area shape="rect" id="node15" href="$multimesh_8f.html#aaa5058fc7117a99c050d7d6467e82309" title="unsetintercomm" alt="" coords="685,487,799,513"/>
-<area shape="rect" id="node14" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="867,537,914,564"/>
-<area shape="rect" id="node17" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title="mpi_finalize" alt="" coords="697,335,787,361"/>
-<area shape="rect" id="node19" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="713,233,771,260"/>
-<area shape="rect" id="node20" href="$papi_8f.html#a401adcc008e595bf3caeaf27a675bdb7" title="dnekgflops" alt="" coords="699,284,785,311"/>
-<area shape="rect" id="node21" href="$comm__mpi_8f.html#af434902df36175d2afdc00fbabc84b2c" title="dnekclock_sync" alt="" coords="684,132,800,159"/>
-<area shape="rect" id="node22" href="$subs1_8f.html#a339739b88994e5bb12bd923147f94983" title="flush_io" alt="" coords="709,183,775,209"/>
-<area shape="rect" id="node27" href="$mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title="mxm_bgq_8" alt="" coords="366,208,459,235"/>
-<area shape="rect" id="node28" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title="mxm_bgq_16" alt="" coords="363,259,463,285"/>
-<area shape="rect" id="node29" href="$mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title="mxm_bgq_10" alt="" coords="363,309,463,336"/>
-<area shape="rect" id="node30" href="$mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title="mxm_bgq_6" alt="" coords="366,56,459,83"/>
-<area shape="rect" id="node31" href="$blas_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title="dgemm" alt="" coords="380,107,445,133"/>
-<area shape="rect" id="node32" href="$mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title="mxmf2" alt="" coords="381,157,444,184"/>
-<area shape="rect" id="node34" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title="outpost2" alt="" coords="243,360,315,387"/>
-<area shape="rect" id="node35" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="541,145,606,172"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,588,89,615"/>
+<area shape="rect" id="node2" href="$math_8f.html#a1f336314da3012286837ede20a0495c6" title=" " alt="" coords="261,81,335,108"/>
+<area shape="rect" id="node5" href="$math_8f.html#a40268d720140e9b00647213189f3144a" title=" " alt="" coords="137,563,211,589"/>
+<area shape="rect" id="node6" href="$math_8f.html#a0e8d510c354d85c36831d9bb6acf55b4" title=" " alt="" coords="142,613,206,640"/>
+<area shape="rect" id="node7" href="$coef_8f.html#a02ecca152b133e318dbc28f7b9edc261" title=" " alt="" coords="142,664,206,691"/>
+<area shape="rect" id="node8" href="$math_8f.html#af75d691116fa36c290d6a2848b113928" title=" " alt="" coords="142,715,206,741"/>
+<area shape="rect" id="node9" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="416,360,469,387"/>
+<area shape="rect" id="node10" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="417,461,469,488"/>
+<area shape="rect" id="node13" href="$math_8f.html#a269b9bcae973eb49454422b00e319706" title=" " alt="" coords="141,512,207,539"/>
+<area shape="rect" id="node17" href="$math_8f.html#a0fcb0ff151fe3548d0d07961e8365efe" title=" " alt="" coords="139,765,209,792"/>
+<area shape="rect" id="node18" href="$coef_8f.html#a0dfbc76a89d3e04fd1705289ccc1068d" title=" " alt="" coords="141,309,207,336"/>
+<area shape="rect" id="node19" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title=" " alt="" coords="270,208,326,235"/>
+<area shape="rect" id="node26" href="$prepost_8f.html#aacb528c0b28bc79dff8db48d7ae9ac64" title=" " alt="" coords="139,411,209,437"/>
+<area shape="rect" id="node29" href="$math_8f.html#ae1294c8ac3b5b3c38bbcc250d252b9cb" title=" " alt="" coords="149,816,199,843"/>
+<area shape="rect" id="node30" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="147,867,201,893"/>
+<area shape="rect" id="node31" href="$math_8f.html#ab775b4418a8ea415b19f2a0861af2636" title=" " alt="" coords="138,917,210,944"/>
+<area shape="rect" id="node32" href="$math_8f.html#ac9219dc2eaa5e911fe7227ac36effd1a" title=" " alt="" coords="138,968,210,995"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="399,5,487,32"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="548,5,643,32"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="559,461,632,488"/>
+<area shape="rect" id="node12" href="$mpi__dummy_8f.html#a55e9a1619aadb638b14211ce21d7d566" title=" " alt="" coords="691,461,793,488"/>
+<area shape="rect" id="node14" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title=" " alt="" coords="273,512,323,539"/>
+<area shape="rect" id="node15" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title=" " alt="" coords="414,512,471,539"/>
+<area shape="rect" id="node16" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title=" " alt="" coords="385,563,500,589"/>
+<area shape="rect" id="node20" href="$dgemm_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title=" " alt="" coords="407,56,479,83"/>
+<area shape="rect" id="node21" href="$mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title=" " alt="" coords="387,107,498,133"/>
+<area shape="rect" id="node22" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title=" " alt="" coords="387,157,498,184"/>
+<area shape="rect" id="node23" href="$mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title=" " alt="" coords="391,208,494,235"/>
+<area shape="rect" id="node24" href="$mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title=" " alt="" coords="391,259,494,285"/>
+<area shape="rect" id="node25" href="$mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title=" " alt="" coords="408,309,477,336"/>
+<area shape="rect" id="node27" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title=" " alt="" coords="259,411,337,437"/>
+<area shape="rect" id="node28" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title=" " alt="" coords="407,411,478,437"/>
 </map>

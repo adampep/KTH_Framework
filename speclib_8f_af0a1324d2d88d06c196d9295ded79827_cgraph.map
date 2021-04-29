@@ -1,8 +1,7 @@
 <map id="dgljgj" name="dgljgj">
-<area shape="rect" id="node2" href="$speclib_8f.html#a20d51e5f6c1af29bf81d09ca8840480d" title="dgljgjd" alt="" coords="105,81,164,108"/>
-<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="217,31,264,57"/>
-<area shape="rect" id="node7" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title="jacobf" alt="" coords="212,81,269,108"/>
-<area shape="rect" id="node4" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="331,5,429,32"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="347,56,413,83"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="317,107,443,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,64,57"/>
+<area shape="rect" id="node2" href="$speclib_8f.html#a20d51e5f6c1af29bf81d09ca8840480d" title=" " alt="" coords="112,56,179,83"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="232,5,284,32"/>
+<area shape="rect" id="node5" href="$speclib_8f.html#a7b43921b3c1feee969a92fb929834312" title=" " alt="" coords="227,56,289,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="337,5,411,32"/>
 </map>

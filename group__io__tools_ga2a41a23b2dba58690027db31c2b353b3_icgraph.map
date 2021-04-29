@@ -1,3 +1,4 @@
 <map id="io_file_close" name="io_file_close">
-<area shape="rect" id="node2" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework. " alt="" coords="148,5,231,32"/>
+<area shape="rect" id="node1" title="Close all opened files up to sotred max unit numer." alt="" coords="145,5,248,32"/>
+<area shape="rect" id="node2" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework." alt="" coords="5,5,97,32"/>
 </map>

@@ -1,6 +1,7 @@
 <map id="iniparser_getint" name="iniparser_getint">
-<area shape="rect" id="node2" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key. " alt="" coords="164,31,292,57"/>
-<area shape="rect" id="node3" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase. " alt="" coords="363,5,420,32"/>
-<area shape="rect" id="node4" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary. " alt="" coords="340,56,443,83"/>
-<area shape="rect" id="node5" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="491,56,604,83"/>
+<area shape="rect" id="node1" title="Get the string associated to a key, convert to an int." alt="" coords="5,31,129,57"/>
+<area shape="rect" id="node2" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key." alt="" coords="177,31,321,57"/>
+<area shape="rect" id="node3" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary." alt="" coords="369,5,484,32"/>
+<area shape="rect" id="node5" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase." alt="" coords="396,56,457,83"/>
+<area shape="rect" id="node4" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string." alt="" coords="532,5,657,32"/>
 </map>

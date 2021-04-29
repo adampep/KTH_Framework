@@ -1,9 +1,0 @@
-<map id="buff_2d_out" name="buff_2d_out">
-<area shape="rect" id="node2" href="$navier5_8f.html#a0fb915eb80cdf237d63af9217f8f6cdc" title="y_avg_buff" alt="" coords="144,5,231,32"/>
-<area shape="rect" id="node5" href="$navier5_8f.html#a5d7fbc03a871c1a6122db9be90df37fd" title="z_avg_buff" alt="" coords="144,107,231,133"/>
-<area shape="rect" id="node7" href="$navier5_8f.html#a5d2c2d9a6721caeae301dd86d646cd8e" title="y_ins_buff" alt="" coords="146,56,229,83"/>
-<area shape="rect" id="node8" href="$navier5_8f.html#a67bf109b407ff9cd36aaa873e6e2230e" title="z_ins_buff" alt="" coords="146,157,229,184"/>
-<area shape="rect" id="node3" href="$navier5_8f.html#a79c7741078370b5362787c8a7c2d487b" title="y2d" alt="" coords="279,56,321,83"/>
-<area shape="rect" id="node4" href="$navier5_8f.html#a82e29535b925b4fdfa47a069b169fa4b" title="anal_2d" alt="" coords="369,81,436,108"/>
-<area shape="rect" id="node6" href="$navier5_8f.html#acc4f6e7dc9fb2caaf3e5d8a79da085a1" title="z2d" alt="" coords="279,107,321,133"/>
-</map>

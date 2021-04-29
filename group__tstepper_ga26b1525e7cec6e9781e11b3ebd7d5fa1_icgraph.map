@@ -1,4 +1,0 @@
-<map id="tstpr_end" name="tstpr_end">
-<area shape="rect" id="node2" href="$group__tstepper.html#gac8a04944339e718910e56c4379aeb506" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule..." alt="" coords="129,5,216,32"/>
-<area shape="rect" id="node3" href="$group__tstepper.html#ga807771faae88aaf61d75b90d639b4ba6" title="Main time stepper interface. " alt="" coords="264,5,368,32"/>
-</map>

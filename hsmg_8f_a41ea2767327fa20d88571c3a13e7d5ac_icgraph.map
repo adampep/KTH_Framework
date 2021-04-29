@@ -1,5 +1,7 @@
 <map id="h1mg_schwarz_part1" name="h1mg_schwarz_part1">
-<area shape="rect" id="node2" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title="h1mg_schwarz" alt="" coords="200,5,311,32"/>
-<area shape="rect" id="node3" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="359,5,451,32"/>
-<area shape="rect" id="node4" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title="hmh_gmres" alt="" coords="499,5,589,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="475,31,635,57"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title=" " alt="" coords="308,31,427,57"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title=" " alt="" coords="159,31,260,57"/>
+<area shape="rect" id="node4" href="$hmholtz_8f.html#a8a396e973763e576543b4ab90c072b6d" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node5" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title=" " alt="" coords="9,56,107,83"/>
 </map>

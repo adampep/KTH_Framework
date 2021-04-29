@@ -1,11 +1,10 @@
 <map id="get_fast_bc" name="get_fast_bc">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title="exitti" alt="" coords="163,107,214,133"/>
-<area shape="rect" id="node10" href="$fast3d_8f.html#a2bcd520bc16e2b56ea423dc6f2c183eb" title="mhd_bc_dn" alt="" coords="144,157,233,184"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="287,5,340,32"/>
-<area shape="rect" id="node4" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title="chcopy" alt="" coords="281,56,345,83"/>
-<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="290,107,337,133"/>
-<area shape="rect" id="node9" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title="indx1" alt="" coords="287,157,340,184"/>
-<area shape="rect" id="node6" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="407,81,505,108"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="423,132,489,159"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="393,183,519,209"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,103,159"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title=" " alt="" coords="171,107,227,133"/>
+<area shape="rect" id="node8" href="$fast3d_8f.html#a2bcd520bc16e2b56ea423dc6f2c183eb" title=" " alt="" coords="151,157,247,184"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="299,5,358,32"/>
+<area shape="rect" id="node4" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title=" " alt="" coords="295,56,363,83"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="303,107,355,133"/>
+<area shape="rect" id="node7" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title=" " alt="" coords="299,157,358,184"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="411,107,484,133"/>
 </map>

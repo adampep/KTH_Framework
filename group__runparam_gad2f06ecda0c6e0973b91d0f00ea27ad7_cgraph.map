@@ -1,11 +1,10 @@
 <map id="rprm_sec_set_act" name="rprm_sec_set_act">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="195,5,249,32"/>
-<area shape="rect" id="node4" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="180,56,264,83"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="312,5,395,32"/>
-<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="330,56,377,83"/>
-<area shape="rect" id="node9" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="317,132,389,159"/>
-<area shape="rect" id="node6" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="456,5,555,32"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="472,56,539,83"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="443,107,568,133"/>
-<area shape="rect" id="node10" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="479,157,532,184"/>
+<area shape="rect" id="node1" title="Set section&#39;s activation flag. Master value is broadcasted." alt="" coords="5,31,141,57"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="208,5,265,32"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="189,56,284,83"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="332,5,421,32"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="351,56,403,83"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="337,107,417,133"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="469,56,543,83"/>
+<area shape="rect" id="node8" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="477,107,535,133"/>
 </map>

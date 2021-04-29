@@ -1,9 +1,12 @@
 <map id="iglmin" name="iglmin">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="109,132,156,159"/>
-<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="232,56,279,83"/>
-<area shape="rect" id="node7" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="229,107,282,133"/>
-<area shape="rect" id="node8" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="204,157,307,184"/>
-<area shape="rect" id="node4" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="368,107,467,133"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="384,5,451,32"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="355,56,480,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,68,83"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title=" " alt="" coords="116,56,167,83"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="246,5,298,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title=" " alt="" coords="243,56,301,83"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title=" " alt="" coords="215,107,329,133"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="448,5,521,32"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title=" " alt="" coords="377,56,592,83"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title=" " alt="" coords="409,107,560,133"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#abbddc050d7faafb34959984f69652e0a" title=" " alt="" coords="405,157,564,184"/>
+<area shape="rect" id="node10" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title=" " alt="" coords="419,208,550,235"/>
 </map>

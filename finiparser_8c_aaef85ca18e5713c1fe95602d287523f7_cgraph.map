@@ -1,7 +1,8 @@
 <map id="finiparser_getString" name="finiparser_getString">
-<area shape="rect" id="node2" href="$finiparser_8c.html#a6be15697584eab554b10454d143a44d8" title="addchar0" alt="" coords="215,5,289,32"/>
-<area shape="rect" id="node3" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key. " alt="" coords="188,56,316,83"/>
-<area shape="rect" id="node4" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase. " alt="" coords="387,31,444,57"/>
-<area shape="rect" id="node5" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary. " alt="" coords="364,81,467,108"/>
-<area shape="rect" id="node6" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="515,81,628,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$finiparser_8c.html#a6be15697584eab554b10454d143a44d8" title=" " alt="" coords="235,5,317,32"/>
+<area shape="rect" id="node3" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key." alt="" coords="204,56,348,83"/>
+<area shape="rect" id="node4" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary." alt="" coords="396,31,511,57"/>
+<area shape="rect" id="node6" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase." alt="" coords="423,81,484,108"/>
+<area shape="rect" id="node5" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string." alt="" coords="559,31,684,57"/>
 </map>

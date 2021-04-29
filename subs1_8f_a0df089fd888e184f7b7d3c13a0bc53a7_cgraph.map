@@ -1,8 +1,9 @@
 <map id="strs_project_b" name="strs_project_b">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="368,5,449,32"/>
-<area shape="rect" id="node4" href="$navier1_8f.html#ad1bbe02eb4b6eb1d16f7612e1947dac5" title="opadd2" alt="" coords="157,31,221,57"/>
-<area shape="rect" id="node6" href="$navier1_8f.html#a55f0c02db80925df02a6998e17985478" title="opcopy" alt="" coords="157,81,221,108"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="497,5,583,32"/>
-<area shape="rect" id="node5" href="$math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title="add2" alt="" coords="269,31,320,57"/>
-<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="269,81,320,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,119,57"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="388,5,476,32"/>
+<area shape="rect" id="node4" href="$navier1_8f.html#ad1bbe02eb4b6eb1d16f7612e1947dac5" title=" " alt="" coords="167,31,237,57"/>
+<area shape="rect" id="node6" href="$navier1_8f.html#a55f0c02db80925df02a6998e17985478" title=" " alt="" coords="167,81,237,108"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="524,5,619,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#a30b83d516b6ab162d3fafe73e03a3e92" title=" " alt="" coords="285,31,340,57"/>
+<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="286,81,339,108"/>
 </map>

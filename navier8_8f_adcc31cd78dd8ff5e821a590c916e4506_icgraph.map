@@ -1,17 +1,21 @@
 <map id="ituple_sort" name="ituple_sort">
-<area shape="rect" id="node2" href="$navier8_8f.html#ae736fabe1f3b79f4f460d680b5864979" title="irank_vec" alt="" coords="176,5,255,32"/>
-<area shape="rect" id="node3" href="$navier8_8f.html#aa9c9755ca658cfd729e50902f4792a1a" title="irank_vec_tally" alt="" coords="161,56,270,83"/>
-<area shape="rect" id="node4" href="$navier8_8f.html#ab45afa33532528c978fbfcf44355bb28" title="irank_vecn" alt="" coords="173,107,258,133"/>
-<area shape="rect" id="node5" href="$navier8_8f.html#ad95667f017072090d261e5eaef823395" title="gbtuple_rank" alt="" coords="381,132,477,159"/>
-<area shape="rect" id="node8" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing. " alt="" coords="147,208,283,235"/>
-<area shape="rect" id="node12" href="$group__monitor.html#ga65248b3e759c384b828bc4a18773b518" title="Provide ordered list of registered timers for printing. " alt="" coords="150,259,281,285"/>
-<area shape="rect" id="node15" href="$group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a" title="Print out summary of registered runtime parameters (active sections only) " alt="" coords="136,309,295,336"/>
-<area shape="rect" id="node6" href="$navier8_8f.html#a928aff746415692c89ffdfbaf08fd98d" title="setvert3d" alt="" coords="567,93,643,120"/>
-<area shape="rect" id="node7" href="$navier8_8f.html#aacefc924fd8555d5a3b58b36c7eda2ad" title="setvert2d" alt="" coords="567,144,643,171"/>
-<area shape="rect" id="node9" href="$group__monitor.html#ga11eb72ddf772cb55dfc112cfc070acc3" title="Print registered modules showing tree structure. " alt="" coords="343,208,516,235"/>
-<area shape="rect" id="node10" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="569,208,641,235"/>
-<area shape="rect" id="node11" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="695,259,783,285"/>
-<area shape="rect" id="node13" href="$group__monitor.html#ga37fbdcd8470a3cbc5805c6b6a9597e09" title="Print registered timers showing tree structure. " alt="" coords="346,259,513,285"/>
-<area shape="rect" id="node14" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework. " alt="" coords="564,259,647,285"/>
-<area shape="rect" id="node16" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="393,309,465,336"/>
+<area shape="rect" id="node1" title=" " alt="" coords="761,168,852,195"/>
+<area shape="rect" id="node2" href="$navier8_8f.html#ad95667f017072090d261e5eaef823395" title=" " alt="" coords="336,105,443,132"/>
+<area shape="rect" id="node6" href="$navier8_8f.html#ae736fabe1f3b79f4f460d680b5864979" title=" " alt="" coords="581,41,667,68"/>
+<area shape="rect" id="node7" href="$navier8_8f.html#aa9c9755ca658cfd729e50902f4792a1a" title=" " alt="" coords="563,92,685,119"/>
+<area shape="rect" id="node8" href="$navier8_8f.html#ab45afa33532528c978fbfcf44355bb28" title=" " alt="" coords="577,143,671,169"/>
+<area shape="rect" id="node9" href="$group__monitor.html#ga3955f6d6386b890963e294da79b0b260" title="Provide ordered list of registered modules for printing." alt="" coords="548,193,700,220"/>
+<area shape="rect" id="node13" href="$group__monitor.html#ga65248b3e759c384b828bc4a18773b518" title="Provide ordered list of registered timers for printing." alt="" coords="551,244,697,271"/>
+<area shape="rect" id="node16" href="$pstat2d_2pstat_8f.html#a77d4658d95cd95edeb634e02052a6bc8" title="Manipulate mesh to find proper element ordering (in case of AMR refine)" alt="" coords="535,295,713,321"/>
+<area shape="rect" id="node18" href="$group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a" title="Print out summary of registered runtime parameters (active sections only)" alt="" coords="535,345,713,372"/>
+<area shape="rect" id="node3" href="$navier8_8f.html#aacefc924fd8555d5a3b58b36c7eda2ad" title=" " alt="" coords="156,80,240,107"/>
+<area shape="rect" id="node5" href="$navier8_8f.html#a928aff746415692c89ffdfbaf08fd98d" title=" " alt="" coords="156,131,240,157"/>
+<area shape="rect" id="node4" href="$navier8_8f.html#a51b2c2d951e069b7ffa9a395b2def117" title=" " alt="" coords="17,105,92,132"/>
+<area shape="rect" id="node10" href="$group__monitor.html#ga11eb72ddf772cb55dfc112cfc070acc3" title="Print registered modules showing tree structure." alt="" coords="292,193,487,220"/>
+<area shape="rect" id="node11" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module." alt="" coords="157,193,239,220"/>
+<area shape="rect" id="node12" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework." alt="" coords="5,207,104,233"/>
+<area shape="rect" id="node14" href="$group__monitor.html#ga37fbdcd8470a3cbc5805c6b6a9597e09" title="Print registered timers showing tree structure." alt="" coords="295,244,484,271"/>
+<area shape="rect" id="node15" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework." alt="" coords="152,244,244,271"/>
+<area shape="rect" id="node17" href="$pstat2d_2pstat_8f.html#a0d6f97dd0ba526fdc91b7f6d903890e9" title="Main interface of pstat module." alt="" coords="342,295,437,321"/>
+<area shape="rect" id="node19" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary." alt="" coords="157,320,239,347"/>
 </map>

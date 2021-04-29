@@ -1,3 +1,4 @@
 <map id="sfd_solve" name="sfd_solve">
-<area shape="rect" id="node2" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="132,5,207,32"/>
+<area shape="rect" id="node1" title="Update filtered velocity field." alt="" coords="136,5,220,32"/>
+<area shape="rect" id="node2" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface." alt="" coords="5,5,88,32"/>
 </map>

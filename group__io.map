@@ -1,5 +1,6 @@
 <map id="Input/output module" name="Input/output module">
-<area shape="rect" id="node1" href="$group__chkpoint.html" title="Checkopinting routines for toolbox. " alt="" coords="307,5,461,32"/>
-<area shape="rect" id="node2" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
-<area shape="rect" id="node4" href="$group__io__tools.html" title="Input/Output simple tools. " alt="" coords="348,56,420,83"/>
+<area shape="rect" id="node1" href="$group__chkpoint.html" title="Checkpointing routines for toolbox." alt="" coords="328,5,500,31"/>
+<area shape="rect" id="node2" href="$group__toolbox.html" title="Toolbox for Nek5000." alt="" coords="5,31,77,56"/>
+<area shape="rect" id="node3" title="I/O routines for toolboxes." alt="" coords="125,31,280,56"/>
+<area shape="rect" id="node4" href="$group__io__tools.html" title="Input/Output simple tools." alt="" coords="376,55,452,80"/>
 </map>

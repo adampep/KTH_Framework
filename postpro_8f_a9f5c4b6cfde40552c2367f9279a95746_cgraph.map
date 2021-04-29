@@ -1,11 +1,11 @@
 <map id="hpts_out" name="hpts_out">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="137,81,192,108"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="136,132,193,159"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="125,183,204,209"/>
-<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="268,31,315,57"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="254,81,329,108"/>
-<area shape="rect" id="node4" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="392,5,491,32"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="408,56,475,83"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="379,107,504,133"/>
-<area shape="rect" id="node9" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="252,132,331,159"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,84,133"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title=" " alt="" coords="145,56,203,83"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title=" " alt="" coords="144,107,204,133"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="132,157,216,184"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="287,5,339,32"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title=" " alt="" coords="271,56,354,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="409,5,483,32"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title=" " alt="" coords="270,107,355,133"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title=" " alt="" coords="264,157,361,184"/>
 </map>

@@ -1,6 +1,7 @@
 <map id="strs_orthok" name="strs_orthok">
-<area shape="rect" id="node2" href="$subs1_8f.html#aaef64abc9b95d5dc8647b04c78551993" title="strs_ortho_one" alt="" coords="140,5,248,32"/>
-<area shape="rect" id="node5" href="$subs1_8f.html#ad1b90e9ceb8e0b264ad10cd00d17462a" title="strs_ortho_all" alt="" coords="144,56,244,83"/>
-<area shape="rect" id="node3" href="$subs1_8f.html#a36c4563e34db1fdc4cb050df0abd21e3" title="strs_project_a" alt="" coords="296,31,400,57"/>
-<area shape="rect" id="node4" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title="hmhzsf" alt="" coords="448,31,513,57"/>
+<area shape="rect" id="node1" title=" " alt="" coords="452,31,547,57"/>
+<area shape="rect" id="node2" href="$subs1_8f.html#ad1b90e9ceb8e0b264ad10cd00d17462a" title=" " alt="" coords="289,5,400,32"/>
+<area shape="rect" id="node5" href="$subs1_8f.html#aaef64abc9b95d5dc8647b04c78551993" title=" " alt="" coords="285,56,404,83"/>
+<area shape="rect" id="node3" href="$subs1_8f.html#a36c4563e34db1fdc4cb050df0abd21e3" title=" " alt="" coords="124,31,237,57"/>
+<area shape="rect" id="node4" href="$subs1_8f.html#aab6bde102bb9bd893cf1880c2d7746ad" title=" " alt="" coords="5,31,76,57"/>
 </map>

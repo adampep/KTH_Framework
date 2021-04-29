@@ -1,9 +1,10 @@
 <map id="outfldi_g" name="outfldi_g">
-<area shape="rect" id="node2" href="$connect1_8f.html#a8a4dcc3f7565abe5cef25a25ec136bbd" title="checkit" alt="" coords="124,5,188,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title="iglmax" alt="" coords="126,56,186,83"/>
-<area shape="rect" id="node8" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title="iglmin" alt="" coords="128,107,184,133"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title="igop" alt="" coords="236,81,283,108"/>
-<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="359,31,405,57"/>
-<area shape="rect" id="node6" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="355,81,409,108"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="331,132,433,159"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,84,83"/>
+<area shape="rect" id="node2" href="$connect1_8f.html#a8a4dcc3f7565abe5cef25a25ec136bbd" title=" " alt="" coords="132,5,201,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a8431e1799f5711943b2e061a602754ca" title=" " alt="" coords="133,56,200,83"/>
+<area shape="rect" id="node8" href="$math_8f.html#abddb480a4c33726fd422e964eff2a033" title=" " alt="" coords="135,107,198,133"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#a2e339eee45a784b56cbc42c452263761" title=" " alt="" coords="249,81,300,108"/>
+<area shape="rect" id="node5" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="379,31,431,57"/>
+<area shape="rect" id="node6" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title=" " alt="" coords="377,81,434,108"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title=" " alt="" coords="348,132,463,159"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="gsem_dairay" name="gsem_dairay">
+<area shape="rect" id="node1" title="Fill velocity array with eddies; Dairay." alt="" coords="309,5,416,32"/>
+<area shape="rect" id="node2" href="$group__gsyn__eddy.html#ga053440d8930b5fe6b4bc2cbe8ddfd37b" title="Time evolution of eddies." alt="" coords="152,5,261,32"/>
+<area shape="rect" id="node3" href="$group__gsyn__eddy.html#ga79077bcd4d269738b816281dd8f40193" title="Main gSyEM interface." alt="" coords="5,5,104,32"/>
+</map>

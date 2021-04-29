@@ -1,3 +1,4 @@
 <map id="Noise_box module" name="Noise_box module">
-<area shape="rect" id="node2" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node1" title="Add white noise to velocity field at given time in a box." alt="" coords="176,5,319,31"/>
+<area shape="rect" id="node2" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications." alt="" coords="5,5,128,31"/>
 </map>

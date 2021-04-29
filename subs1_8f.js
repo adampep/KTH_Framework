@@ -15,7 +15,6 @@ var subs1_8f =
     [ "chktcgs", "subs1_8f.html#a29d1fc90e6cddfc6443f71e8bb7c44ff", null ],
     [ "chktmg", "subs1_8f.html#a9af7bb769157f48bb21d95611bc3fc92", null ],
     [ "crs_strs", "subs1_8f.html#a67e502b31617d5ff9be230f1ce239133", null ],
-    [ "cumax", "subs1_8f.html#ac5a99c27d3ffe24a47e4b8dc21e2502a", null ],
     [ "cvgnlps", "subs1_8f.html#a4a7a49f2b10c08dee56798c23dbfbe5a", null ],
     [ "ddrst", "subs1_8f.html#a1c24564c4bf687782fa02b817446f8fc", null ],
     [ "diagnos", "subs1_8f.html#ad5131f6c1a4f17fad6a11880afd4b845", null ],

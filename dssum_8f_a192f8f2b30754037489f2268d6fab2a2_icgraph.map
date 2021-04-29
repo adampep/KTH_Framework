@@ -1,6 +1,13 @@
 <map id="ftovec" name="ftovec">
-<area shape="rect" id="node2" href="$dssum_8f.html#a31a64067a6274e816e2291149e0fbc26" title="apply_j" alt="" coords="112,56,175,83"/>
-<area shape="rect" id="node3" href="$dssum_8f.html#a99883f15d413d614f361d5864d3bac55" title="h1_proj" alt="" coords="241,5,305,32"/>
-<area shape="rect" id="node4" href="$dssum_8f.html#a9e3f805b8fe266668c98558691657ebe" title="dssum_msk" alt="" coords="226,56,319,83"/>
-<area shape="rect" id="node5" href="$dssum_8f.html#a3068cc414614f566c649c9eecc2aebd8" title="dssum_msk2" alt="" coords="223,107,323,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="492,157,555,184"/>
+<area shape="rect" id="node2" href="$dssum_8f.html#a31a64067a6274e816e2291149e0fbc26" title=" " alt="" coords="342,81,411,108"/>
+<area shape="rect" id="node7" href="$group__gsyn__eddy.html#gaa74db90a0d40197077972e97b9fb8c89" title="Generate family information." alt="" coords="309,157,444,184"/>
+<area shape="rect" id="node9" href="$group__gsyn__eddy.html#ga33af223dcdb8733c5ebb056786c9f3b9" title="Fill velocity array with eddies; ISO." alt="" coords="335,208,419,235"/>
+<area shape="rect" id="node3" href="$dssum_8f.html#a9e3f805b8fe266668c98558691657ebe" title=" " alt="" coords="157,5,257,32"/>
+<area shape="rect" id="node4" href="$dssum_8f.html#a3068cc414614f566c649c9eecc2aebd8" title=" " alt="" coords="153,56,261,83"/>
+<area shape="rect" id="node5" href="$dssum_8f.html#a99883f15d413d614f361d5864d3bac55" title=" " alt="" coords="171,107,242,133"/>
+<area shape="rect" id="node6" href="$group__tstepper.html#ga48d2b68042a86a8083bddfc6df3ca47e" title="Average velocity and temperature at element faces." alt="" coords="10,107,99,133"/>
+<area shape="rect" id="node8" href="$group__gsyn__eddy.html#ga7adcada8ea2d614db7b3f3c60ba656a9" title="Initilise gSyEM module." alt="" coords="163,157,250,184"/>
+<area shape="rect" id="node10" href="$group__gsyn__eddy.html#ga053440d8930b5fe6b4bc2cbe8ddfd37b" title="Time evolution of eddies." alt="" coords="152,208,261,235"/>
+<area shape="rect" id="node11" href="$group__gsyn__eddy.html#ga79077bcd4d269738b816281dd8f40193" title="Main gSyEM interface." alt="" coords="5,208,104,235"/>
 </map>

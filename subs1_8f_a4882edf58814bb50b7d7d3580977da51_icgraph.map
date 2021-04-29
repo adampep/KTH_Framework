@@ -1,7 +1,8 @@
 <map id="setdtfs" name="setdtfs">
-<area shape="rect" id="node2" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title="setdt" alt="" coords="116,56,167,83"/>
-<area shape="rect" id="node3" href="$drive2_8f.html#a6f905c80a0a2b0d5ed7f0449eda3e127" title="settime" alt="" coords="215,56,280,83"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title="nek_advance" alt="" coords="328,5,427,32"/>
-<area shape="rect" id="node5" href="$ssolv_8f.html#a4bb42a5afabbba8c6518d83cbe481c17" title="go1step" alt="" coords="343,56,411,83"/>
-<area shape="rect" id="node6" href="$ssolv_8f.html#a2de8913c214fa083dcb088c57bd45272" title="gostep" alt="" coords="347,107,408,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="384,56,451,83"/>
+<area shape="rect" id="node2" href="$subs1_8f.html#a156860172f4c95a65ff7fb5b447d472e" title=" " alt="" coords="281,56,336,83"/>
+<area shape="rect" id="node3" href="$drive2_8f.html#a6f905c80a0a2b0d5ed7f0449eda3e127" title=" " alt="" coords="161,56,233,83"/>
+<area shape="rect" id="node4" href="$ssolv_8f.html#a4bb42a5afabbba8c6518d83cbe481c17" title=" " alt="" coords="22,5,97,32"/>
+<area shape="rect" id="node5" href="$ssolv_8f.html#a2de8913c214fa083dcb088c57bd45272" title=" " alt="" coords="26,56,93,83"/>
+<area shape="rect" id="node6" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title=" " alt="" coords="5,107,113,133"/>
 </map>

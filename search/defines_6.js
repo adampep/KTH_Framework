@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['max_5fname',['MAX_NAME',['../byte_8c.html#ac7c0207aa5a0e10d378be03b68041350',1,'byte.c']]],
-  ['maxvalsz',['MAXVALSZ',['../dictionary_8c.html#a071228a4e1c69ac2eec59e9c1385185a',1,'dictionary.c']]]
+  ['ini_5finvalid_5fkey_5251',['INI_INVALID_KEY',['../iniparser_8c.html#afd7ba4a10fc951dcb65fa2b001afb7a4',1,'iniparser.c']]]
 ];

@@ -1,4 +1,5 @@
 <map id="mntr_logi" name="mntr_logi">
-<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="128,5,200,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="248,5,301,32"/>
+<area shape="rect" id="node1" title="Write log message adding single integer." alt="" coords="5,5,89,32"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="137,5,217,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="265,5,324,32"/>
 </map>

@@ -1,33 +1,33 @@
-\form#0:$\vec{f} = - \chi (\vec{u} - \vec{\bar{u}}),$
-\form#1:$\vec{u}$
-\form#2:$\vec{\bar{u}}$
-\form#3:$\dot{\vec{\bar{u}}} = (\vec{u} - \vec{\bar{u}})/\Delta.$
-\form#4:$\chi$
-\form#5:$\Delta$
-\form#6:$\epsilon=\|(\vec{u} - \vec{\bar{u}})\|$
-\form#7:$\Omega$
-\form#8:\[ \vec F = \lambda(x) \left( \vec U - \vec u\right),\]
-\form#9:$ \lambda(x), \vec U$
-\form#10:$ \vec u$
-\form#11:\[ \lambda(x) = \lambda_{max} *\left[S\left((x_{min} + \Delta_{wl} - x)/\Delta_{dl} \right) + S\left((x - x_{max} + \Delta_{wr})/\Delta_{dr} \right) \right],\]
-\form#12:$ \lambda_{max} $
-\form#13:$ S(x) $
-\form#14:$ x_{min}, x_{max} $
-\form#15:$ \Delta_{wl}, \Delta_{wr} $
-\form#16:$ \Delta_{dl}, \Delta_{dr} $
-\form#17:$ \Delta_{wl}$
-\form#18:$ \Delta_{wr} $
-\form#19:\begin{eqnarray*} f_{smth}(r) = \left\{ \begin{array}{ll} exp\left(-r^2\right)*\left(1-r^2\right)^2 &\mbox{ if $r \leq 1.0$} \\ 0 &\mbox{ if $x > 1.0$} \end{array} \right. \end{eqnarray*}
-\form#20:\[ r^2 = \left( {x_{rot} \over SMTHX} \right)^2 + \left( {y_{rot} \over SMTHY} \right)^2 \]
-\form#21:\begin{eqnarray*} x_{rot} &=& x_{tr}*cos(ROTA)+y_{tr}*sin(ROTA), \\ y_{rot} &=& -x_{tr}*sin(ROTA)+y_{tr}*cos(ROTA). \end{eqnarray*}
-\form#22:$x_{tr}$
-\form#23:$y_{tr}$
-\form#24:\begin{eqnarray*} f_x &=& -f_{smth}(r)*f(z,t)*sin(ROTA), \\ f_y &=& f_{smth}(r)*f(z,t)cos(ROTA), \end{eqnarray*}
-\form#25:\[ f(z,t) = TIAMP*g(z) + TDAMP*\left[ \left(1-b(t)\right)h^i(z) + b(t)h^{i+1}(z) \right] \]
-\form#26:\begin{eqnarray*} i &=& int(t/TDT), \\ b(t) &=& 3p^2-2p^3, \\ p &=& t/TDT -i. \end{eqnarray*}
-\form#27:$g(z)$
-\form#28:$h(z)$
-\form#29:$2\pi/TDT$
-\form#30:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
-\form#31:$ x_{min} = 0.02$
-\form#32:$ x_{max}=0.98$
+\_form#0:$\vec{f} = - \chi (\vec{u} - \vec{\bar{u}}),$
+\_form#1:$\vec{u}$
+\_form#2:$\vec{\bar{u}}$
+\_form#3:$\dot{\vec{\bar{u}}} = (\vec{u} - \vec{\bar{u}})/\Delta.$
+\_form#4:$\chi$
+\_form#5:$\Delta$
+\_form#6:$\epsilon=\|(\vec{u} - \vec{\bar{u}})\|$
+\_form#7:$\Omega$
+\_form#8:\[ \vec F = \lambda(x) \left( \vec U - \vec u\right),\]
+\_form#9:$ \lambda(x), \vec U$
+\_form#10:$ \vec u$
+\_form#11:\[ \lambda(x) = \lambda_{max} *\left[S\left((x_{min} + \Delta_{wl} - x)/\Delta_{dl} \right) + S\left((x - x_{max} + \Delta_{wr})/\Delta_{dr} \right) \right],\]
+\_form#12:$ \lambda_{max} $
+\_form#13:$ S(x) $
+\_form#14:$ x_{min}, x_{max} $
+\_form#15:$ \Delta_{wl}, \Delta_{wr} $
+\_form#16:$ \Delta_{dl}, \Delta_{dr} $
+\_form#17:$ \Delta_{wl}$
+\_form#18:$ \Delta_{wr} $
+\_form#19:\begin{eqnarray*} f_{smth}(r) = \left\{ \begin{array}{ll} exp\left(-r^2\right)*\left(1-r^2\right)^2 &\mbox{ if $r \leq 1.0$} \\ 0 &\mbox{ if $x > 1.0$} \end{array} \right. \end{eqnarray*}
+\_form#20:\[ r^2 = \left( {x_{rot} \over SMTHX} \right)^2 + \left( {y_{rot} \over SMTHY} \right)^2 \]
+\_form#21:\begin{eqnarray*} x_{rot} &=& x_{tr}*cos(ROTA)+y_{tr}*sin(ROTA), \\ y_{rot} &=& -x_{tr}*sin(ROTA)+y_{tr}*cos(ROTA). \end{eqnarray*}
+\_form#22:$x_{tr}$
+\_form#23:$y_{tr}$
+\_form#24:\begin{eqnarray*} f_x &=& -f_{smth}(r)*f(z,t)*sin(ROTA), \\ f_y &=& f_{smth}(r)*f(z,t)cos(ROTA), \end{eqnarray*}
+\_form#25:\[ f(z,t) = TIAMP*g(z) + TDAMP*\left[ \left(1-b(t)\right)h^i(z) + b(t)h^{i+1}(z) \right] \]
+\_form#26:\begin{eqnarray*} i &=& int(t/TDT), \\ b(t) &=& 3p^2-2p^3, \\ p &=& t/TDT -i. \end{eqnarray*}
+\_form#27:$g(z)$
+\_form#28:$h(z)$
+\_form#29:$2\pi/TDT$
+\_form#30:\begin{eqnarray*} stepf(x) = \left\{ \begin{array}{ll} 0 &\mbox{ if $x \leq x_{min}$} \\ \left(1+e^{\left((x-1)^{-1} + x^{-1}\right)}\right)^{-1} &\mbox{ if $x \leq x_{max}$} \\ 1 &\mbox{ if $x > x_{max}$} \end{array} \right. \end{eqnarray*}
+\_form#31:$ x_{min} = 0.02$
+\_form#32:$ x_{max}=0.98$

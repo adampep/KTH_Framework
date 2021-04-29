@@ -1,5 +1,0 @@
-<map id="mfi_singlev" name="mfi_singlev">
-<area shape="rect" id="node2" href="$group__arnoldi__arpack.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors) " alt="" coords="141,5,213,32"/>
-<area shape="rect" id="node3" href="$group__arnoldi__arpack.html#ga95c6aaff799d6143f108a4455ff1ad36" title="Read from checkpoints. " alt="" coords="261,5,356,32"/>
-<area shape="rect" id="node4" href="$group__arnoldi__arpack.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise arnoldi_arpack. " alt="" coords="404,5,500,32"/>
-</map>

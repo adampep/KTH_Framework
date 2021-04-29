@@ -1,5 +1,8 @@
 <map id="restart_nfld" name="restart_nfld">
-<area shape="rect" id="node2" href="$prepost_8f.html#a3faa39946b56ca71cbb123811e58160d" title="mfo_open_files" alt="" coords="140,5,251,32"/>
-<area shape="rect" id="node3" href="$prepost_8f.html#a2b0ed536ab0284c398d7f2ac35622d88" title="mfo_outfld" alt="" coords="299,5,381,32"/>
-<area shape="rect" id="node4" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="429,5,484,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="536,56,633,83"/>
+<area shape="rect" id="node2" href="$prepost_8f.html#a3faa39946b56ca71cbb123811e58160d" title=" " alt="" coords="365,56,488,83"/>
+<area shape="rect" id="node3" href="$prepost_8f.html#a2b0ed536ab0284c398d7f2ac35622d88" title=" " alt="" coords="209,5,303,32"/>
+<area shape="rect" id="node5" href="$stat__IO_8f.html#aaf6879d5db7c39db485b088babf5ff94" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="195,56,317,83"/>
+<area shape="rect" id="node6" href="$stat__IO_8f.html#ae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="5,81,147,108"/>
+<area shape="rect" id="node4" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title=" " alt="" coords="46,5,106,32"/>
 </map>

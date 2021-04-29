@@ -1,3 +1,4 @@
 <map id="Power itertion routines" name="Power itertion routines">
-<area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000. " alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000." alt="" coords="5,5,169,31"/>
+<area shape="rect" id="node2" title="Power iteration submodule." alt="" coords="217,5,388,31"/>
 </map>

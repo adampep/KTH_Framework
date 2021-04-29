@@ -1,5 +1,6 @@
 <map id="rprm_check" name="rprm_check">
-<area shape="rect" id="node2" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="155,5,205,32"/>
-<area shape="rect" id="node3" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="144,56,216,83"/>
-<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="264,56,317,83"/>
+<area shape="rect" id="node1" title="Check consistency of module&#39;s runtime parameters." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title=" " alt="" coords="165,5,219,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="152,56,232,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="280,56,339,83"/>
 </map>

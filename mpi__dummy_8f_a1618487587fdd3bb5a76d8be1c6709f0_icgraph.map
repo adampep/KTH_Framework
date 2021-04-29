@@ -1,6 +1,9 @@
 <map id="mpi_comm_dup" name="mpi_comm_dup">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a0d0f535bedd0124e7a09b4f15db6de8e" title="create_comm" alt="" coords="177,5,279,32"/>
-<area shape="rect" id="node5" href="$singlmesh_8f.html#a0b340eaa9352e5b5d12ff7d525b30c0a" title="get_session_info" alt="" coords="168,56,288,83"/>
-<area shape="rect" id="node3" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title="cdscal_cvode" alt="" coords="336,5,439,32"/>
-<area shape="rect" id="node4" href="$drive2_8f.html#aee60b6a659972e6dbd4c16aad7b6f855" title="heat_cvode" alt="" coords="487,5,576,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="467,31,593,57"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a0d0f535bedd0124e7a09b4f15db6de8e" title=" " alt="" coords="308,5,419,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a876278decc78f1f369bcb7548279a015" title=" " alt="" coords="314,56,413,83"/>
+<area shape="rect" id="node3" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title=" " alt="" coords="151,5,260,32"/>
+<area shape="rect" id="node4" href="$drive2_8f.html#aee60b6a659972e6dbd4c16aad7b6f855" title=" " alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node6" href="$drive1_8f.html#a83f7c6d78ac4e68394f32533e847d0a3" title=" " alt="" coords="168,56,243,83"/>
+<area shape="rect" id="node7" href="$drive_8f.html#a13048bf28dd0734640412d69349e3857" title=" " alt="" coords="21,56,87,83"/>
 </map>

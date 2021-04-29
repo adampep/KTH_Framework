@@ -1,11 +1,10 @@
 <map id="gammaf" name="gammaf">
-<area shape="rect" id="node2" href="$speclib_8f.html#a66d184d6cf0d520944c94caa7c86c03e" title="zwgjd" alt="" coords="234,22,290,48"/>
-<area shape="rect" id="node8" href="$speclib_8f.html#a91eec848c820802e16160a8e3afaefe2" title="endw1" alt="" coords="232,72,292,99"/>
-<area shape="rect" id="node9" href="$speclib_8f.html#adcb1c928c54b6d9a681b89921cf154e3" title="endw2" alt="" coords="123,123,183,150"/>
-<area shape="rect" id="node10" href="$speclib_8f.html#aca6a12813e9f8da78d33fb36fd7e75c5" title="pnormj" alt="" coords="123,22,184,48"/>
-<area shape="rect" id="node3" href="$speclib_8f.html#ae296dfc5588151cd6cc7e2045e2c0330" title="zwgj" alt="" coords="345,22,394,48"/>
-<area shape="rect" id="node6" href="$speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title="zwgljd" alt="" coords="340,72,399,99"/>
-<area shape="rect" id="node4" href="$coef_8f.html#a0d49b1aee56670901cd4cdfde7245e6c" title="genwz" alt="" coords="547,22,607,48"/>
-<area shape="rect" id="node5" href="$speclib_8f.html#a1aea25f2ddfcdcb1f50e66bbd4282fe2" title="zwgl" alt="" coords="448,22,497,48"/>
-<area shape="rect" id="node7" href="$speclib_8f.html#a0a1a17375323b7ab32d6ebe1c52ab1c3" title="zwglj" alt="" coords="447,72,499,99"/>
+<area shape="rect" id="node1" title=" " alt="" coords="451,81,528,108"/>
+<area shape="rect" id="node2" href="$speclib_8f.html#a91eec848c820802e16160a8e3afaefe2" title=" " alt="" coords="221,5,287,32"/>
+<area shape="rect" id="node5" href="$speclib_8f.html#adcb1c928c54b6d9a681b89921cf154e3" title=" " alt="" coords="336,56,401,83"/>
+<area shape="rect" id="node6" href="$speclib_8f.html#aca6a12813e9f8da78d33fb36fd7e75c5" title=" " alt="" coords="335,107,403,133"/>
+<area shape="rect" id="node7" href="$speclib_8f.html#a66d184d6cf0d520944c94caa7c86c03e" title=" " alt="" coords="224,107,284,133"/>
+<area shape="rect" id="node3" href="$speclib_8f.html#a1de21b6470e13421db7e4bafe58b6a20" title=" " alt="" coords="109,56,173,83"/>
+<area shape="rect" id="node4" href="$speclib_8f.html#a0a1a17375323b7ab32d6ebe1c52ab1c3" title=" " alt="" coords="5,56,61,83"/>
+<area shape="rect" id="node8" href="$speclib_8f.html#ae296dfc5588151cd6cc7e2045e2c0330" title=" " alt="" coords="115,107,167,133"/>
 </map>

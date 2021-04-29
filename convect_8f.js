@@ -37,12 +37,10 @@ var convect_8f =
     [ "set_bdivw", "convect_8f.html#a544a80baafa78a1ae340305d8b2da8e0", null ],
     [ "set_binv", "convect_8f.html#a489f898d5eeb5eaff084236b91a29b9d", null ],
     [ "set_bmass", "convect_8f.html#ad0fab620f6b73642cf22f4ef41d2d0d1", null ],
-    [ "set_char_mask", "convect_8f.html#a01a29f5210c957bacaaa03e41d3d7db9", null ],
     [ "set_conv_char", "convect_8f.html#a41db151aa7950a8af4ccb8ce17f2bbf2", null ],
     [ "set_convect_cons", "convect_8f.html#ab9dc1c74179f5d10465e63bb065f65eb", null ],
     [ "set_convect_new", "convect_8f.html#a768d72f963bbcaf77ab9725ad7847c72", null ],
     [ "set_ct_cvx", "convect_8f.html#ac3d8bc4e3ce025f8bd0e116715d69ad2", null ],
     [ "set_dg_wgts", "convect_8f.html#a1ea9345e199e3ab349e0616a5aaa0bf0", null ],
-    [ "setup_convect", "convect_8f.html#a9b58d62988f53102b490531b844a1891", null ],
     [ "setup_dg_gs", "convect_8f.html#ae036baf441f94f93768933971b22ca5e", null ]
 ];

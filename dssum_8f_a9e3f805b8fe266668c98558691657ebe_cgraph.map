@@ -1,19 +1,20 @@
 <map id="dssum_msk" name="dssum_msk">
-<area shape="rect" id="node2" href="$dssum_8f.html#a31a64067a6274e816e2291149e0fbc26" title="apply_j" alt="" coords="155,132,217,159"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="535,360,616,387"/>
-<area shape="rect" id="node11" href="$dssum_8f.html#a9443c1f36d3059401c55b612e5292096" title="apply_jt" alt="" coords="153,259,219,285"/>
-<area shape="rect" id="node16" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="163,411,209,437"/>
-<area shape="rect" id="node17" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="147,461,225,488"/>
-<area shape="rect" id="node3" href="$dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title="ftovec" alt="" coords="287,56,346,83"/>
-<area shape="rect" id="node5" href="$dssum_8f.html#a6a874ca710334407c7e4e1e45ba3622b" title="matvec3" alt="" coords="281,208,353,235"/>
-<area shape="rect" id="node10" href="$dssum_8f.html#aae6bc5b0b8979029573a6a52e83de868" title="vectof" alt="" coords="287,5,346,32"/>
-<area shape="rect" id="node4" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="419,81,476,108"/>
-<area shape="rect" id="node6" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="422,309,473,336"/>
-<area shape="rect" id="node8" href="$math_8f.html#a17c0ecae12cc5c6096939885da90ad2b" title="transpose" alt="" coords="408,259,487,285"/>
-<area shape="rect" id="node9" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="422,208,473,235"/>
-<area shape="rect" id="node12" href="$dssum_8f.html#a83fca26083d2ff2aa1533db6c722224a" title="ftovec_0" alt="" coords="281,107,353,133"/>
-<area shape="rect" id="node13" href="$dssum_8f.html#a4d41cefc422619f6ca03720b4c6002df" title="matvec3t" alt="" coords="279,259,355,285"/>
-<area shape="rect" id="node14" href="$dssum_8f.html#afd8c7209444f900fe30712458263fbc9" title="matvect" alt="" coords="282,309,351,336"/>
-<area shape="rect" id="node15" href="$dssum_8f.html#a67e4507f868154bf0bd8a76edddfbefd" title="vectof_add" alt="" coords="273,157,360,184"/>
-<area shape="rect" id="node18" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="273,461,360,488"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,360,105,387"/>
+<area shape="rect" id="node2" href="$dssum_8f.html#a31a64067a6274e816e2291149e0fbc26" title=" " alt="" coords="161,284,230,311"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="565,360,653,387"/>
+<area shape="rect" id="node11" href="$dssum_8f.html#a9443c1f36d3059401c55b612e5292096" title=" " alt="" coords="158,157,233,184"/>
+<area shape="rect" id="node16" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title=" " alt="" coords="171,411,220,437"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="153,461,237,488"/>
+<area shape="rect" id="node3" href="$dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title=" " alt="" coords="303,309,365,336"/>
+<area shape="rect" id="node5" href="$dssum_8f.html#a6a874ca710334407c7e4e1e45ba3622b" title=" " alt="" coords="295,107,373,133"/>
+<area shape="rect" id="node10" href="$dssum_8f.html#aae6bc5b0b8979029573a6a52e83de868" title=" " alt="" coords="303,259,365,285"/>
+<area shape="rect" id="node4" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title=" " alt="" coords="443,233,505,260"/>
+<area shape="rect" id="node6" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="447,81,501,108"/>
+<area shape="rect" id="node7" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title=" " alt="" coords="446,31,502,57"/>
+<area shape="rect" id="node9" href="$math_8f.html#a17c0ecae12cc5c6096939885da90ad2b" title=" " alt="" coords="431,132,517,159"/>
+<area shape="rect" id="node12" href="$dssum_8f.html#a83fca26083d2ff2aa1533db6c722224a" title=" " alt="" coords="295,157,373,184"/>
+<area shape="rect" id="node13" href="$dssum_8f.html#a4d41cefc422619f6ca03720b4c6002df" title=" " alt="" coords="292,56,376,83"/>
+<area shape="rect" id="node14" href="$dssum_8f.html#afd8c7209444f900fe30712458263fbc9" title=" " alt="" coords="296,5,372,32"/>
+<area shape="rect" id="node15" href="$dssum_8f.html#a67e4507f868154bf0bd8a76edddfbefd" title=" " alt="" coords="287,208,381,235"/>
+<area shape="rect" id="node18" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title=" " alt="" coords="285,461,383,488"/>
 </map>

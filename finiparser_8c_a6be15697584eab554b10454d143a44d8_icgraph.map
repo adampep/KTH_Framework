@@ -1,8 +1,9 @@
 <map id="addchar0" name="addchar0">
-<area shape="rect" id="node2" href="$finiparser_8c.html#abd2fb32ad54775a69dfa8c9a1e0d28a6" title="finiparser_find" alt="" coords="150,5,253,32"/>
-<area shape="rect" id="node3" href="$finiparser_8c.html#ac5e7774c13da3260f6c0773c5c866337" title="finiparser_load" alt="" coords="148,56,255,83"/>
-<area shape="rect" id="node4" href="$finiparser_8c.html#aaef85ca18e5713c1fe95602d287523f7" title="finiparser_getString" alt="" coords="134,107,269,133"/>
-<area shape="rect" id="node5" href="$finiparser_8c.html#af5df250317c6b77007820c62d9e21cd7" title="finiparser_getBool" alt="" coords="138,157,265,184"/>
-<area shape="rect" id="node6" href="$finiparser_8c.html#ad08f4425404638785a73b66059419d71" title="finiparser_getDbl" alt="" coords="141,208,261,235"/>
-<area shape="rect" id="node7" href="$finiparser_8c.html#a01f307219b181cbb452a59d547b74e54" title="finiparser_findTokens" alt="" coords="128,259,275,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="213,132,296,159"/>
+<area shape="rect" id="node2" href="$finiparser_8c.html#abd2fb32ad54775a69dfa8c9a1e0d28a6" title=" " alt="" coords="27,5,143,32"/>
+<area shape="rect" id="node3" href="$finiparser_8c.html#a01f307219b181cbb452a59d547b74e54" title=" " alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node4" href="$finiparser_8c.html#af5df250317c6b77007820c62d9e21cd7" title=" " alt="" coords="15,107,156,133"/>
+<area shape="rect" id="node5" href="$finiparser_8c.html#ad08f4425404638785a73b66059419d71" title=" " alt="" coords="18,157,153,184"/>
+<area shape="rect" id="node6" href="$finiparser_8c.html#aaef85ca18e5713c1fe95602d287523f7" title=" " alt="" coords="10,208,161,235"/>
+<area shape="rect" id="node7" href="$finiparser_8c.html#ac5e7774c13da3260f6c0773c5c866337" title=" " alt="" coords="26,259,145,285"/>
 </map>

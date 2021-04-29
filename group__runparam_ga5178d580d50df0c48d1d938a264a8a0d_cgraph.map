@@ -1,12 +1,11 @@
 <map id="rprm_rp_set" name="rprm_rp_set">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="159,5,213,32"/>
-<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="443,81,496,108"/>
-<area shape="rect" id="node5" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="144,208,228,235"/>
-<area shape="rect" id="node10" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="281,132,353,159"/>
-<area shape="rect" id="node11" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="145,157,227,184"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="276,5,359,32"/>
-<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="294,208,341,235"/>
-<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="420,183,519,209"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="436,233,503,260"/>
-<area shape="rect" id="node9" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="407,284,532,311"/>
+<area shape="rect" id="node1" title="Set runtime parameter of active section. Master value is broadcasted." alt="" coords="5,107,105,133"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="172,5,229,32"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="441,95,499,121"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="153,208,248,235"/>
+<area shape="rect" id="node8" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="301,132,381,159"/>
+<area shape="rect" id="node9" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="155,107,247,133"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="296,5,385,32"/>
+<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="315,208,367,235"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="433,208,507,235"/>
 </map>

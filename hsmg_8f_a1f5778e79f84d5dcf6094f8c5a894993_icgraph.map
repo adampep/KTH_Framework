@@ -1,5 +1,6 @@
 <map id="hsmg_rstr" name="hsmg_rstr">
-<area shape="rect" id="node2" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="133,5,225,32"/>
-<area shape="rect" id="node3" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="273,5,376,32"/>
-<area shape="rect" id="node4" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title="esolver" alt="" coords="424,5,488,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="432,5,519,32"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title=" " alt="" coords="284,5,384,32"/>
+<area shape="rect" id="node3" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title=" " alt="" coords="124,5,236,32"/>
+<area shape="rect" id="node4" href="$navier0_8f.html#aaba079db7e38db9800deef09526370ec" title=" " alt="" coords="5,5,76,32"/>
 </map>

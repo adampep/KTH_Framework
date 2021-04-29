@@ -1,6 +1,7 @@
 <map id="Forcing module" name="Forcing module">
-<area shape="rect" id="node1" href="$group__noise__box.html" title="Add white noise to velocity field at given time in a box. " alt="" coords="319,5,450,32"/>
-<area shape="rect" id="node2" href="$group__sponge__box.html" title="Sponge/fringe for simple box mesh. " alt="" coords="315,56,455,83"/>
-<area shape="rect" id="node3" href="$group__utility.html" title="Diverse utilities for toolboxes. " alt="" coords="5,56,108,83"/>
-<area shape="rect" id="node4" href="$group__trip__line.html" title="Random volume force along the line. " alt="" coords="315,107,454,133"/>
+<area shape="rect" id="node1" href="$group__noise__box.html" title="Add white noise to velocity field at given time in a box." alt="" coords="345,5,488,31"/>
+<area shape="rect" id="node2" href="$group__sponge__box.html" title="Sponge/fringe for simple box mesh." alt="" coords="339,55,494,80"/>
+<area shape="rect" id="node3" href="$group__utility.html" title="Diverse utilities for toolboxes." alt="" coords="5,55,120,80"/>
+<area shape="rect" id="node5" title="Diverse tools related to forcing, adding noise or other solution modifications." alt="" coords="168,55,291,80"/>
+<area shape="rect" id="node4" href="$group__trip__line.html" title="Random volume force along the line." alt="" coords="339,104,495,129"/>
 </map>

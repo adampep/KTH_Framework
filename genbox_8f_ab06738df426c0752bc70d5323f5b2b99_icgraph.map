@@ -1,9 +1,0 @@
-<map id="jjnt" name="jjnt">
-<area shape="rect" id="node2" href="$genbox_8f.html#ab2bdf6f53d8db9233b7ed8d3f0a70935" title="gen_gtp_vertex" alt="" coords="92,81,203,108"/>
-<area shape="rect" id="node3" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="251,56,337,83"/>
-<area shape="rect" id="node6" href="$navier8_8f.html#a3c68a6cfc47f9c2602ab5029cae20ac8" title="get_vertex" alt="" coords="253,107,335,133"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="420,5,487,32"/>
-<area shape="rect" id="node5" href="$navier5_8f.html#a3ddf063e839f1d6e8baa613360545589" title="add_temp" alt="" coords="414,56,493,83"/>
-<area shape="rect" id="node7" href="$navier8_8f.html#a809b9aa647f2046d09131be2f6074ff6" title="set_up_h1_crs" alt="" coords="400,107,507,133"/>
-<area shape="rect" id="node8" href="$subs1_8f.html#a4a41bf250a5f224d28fa0e8ac216b40f" title="set_up_h1_crs_strs" alt="" coords="385,157,521,184"/>
-</map>

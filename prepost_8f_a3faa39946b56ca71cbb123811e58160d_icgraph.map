@@ -1,5 +1,9 @@
 <map id="mfo_open_files" name="mfo_open_files">
-<area shape="rect" id="node2" href="$prepost_8f.html#a2b0ed536ab0284c398d7f2ac35622d88" title="mfo_outfld" alt="" coords="164,5,247,32"/>
-<area shape="rect" id="node3" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title="outfld" alt="" coords="295,5,349,32"/>
-<area shape="rect" id="node4" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title="prepost" alt="" coords="397,5,463,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="493,56,616,83"/>
+<area shape="rect" id="node2" href="$prepost_8f.html#a2b0ed536ab0284c398d7f2ac35622d88" title=" " alt="" coords="337,5,431,32"/>
+<area shape="rect" id="node5" href="$stat__IO_8f.html#aaf6879d5db7c39db485b088babf5ff94" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="323,56,445,83"/>
+<area shape="rect" id="node6" href="$stat__IO_8f.html#ae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="133,81,275,108"/>
+<area shape="rect" id="node3" href="$prepost_8f.html#a7e6b503691396e2ba24a32272da91f7a" title=" " alt="" coords="174,5,234,32"/>
+<area shape="rect" id="node4" href="$prepost_8f.html#a4a3b0e4ce35b3381281c0839e5846370" title=" " alt="" coords="10,5,81,32"/>
+<area shape="rect" id="node7" href="$stat__IO_8f.html#a646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="5,81,85,108"/>
 </map>

@@ -1,0 +1,13 @@
+<map id="lpm_comm_setup" name="lpm_comm_setup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,144,209"/>
+<area shape="rect" id="node2" href="$interp_8f.html#a57a6a26b3125b22afff9a2c1e4949081" title=" " alt="" coords="192,183,295,209"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a59fcf8a02fe54ab37f61050e3ca6b197" title=" " alt="" coords="368,107,424,133"/>
+<area shape="rect" id="node8" href="$navier8_8f.html#a8b6e50cdeb42b0751c582c0e11893f99" title=" " alt="" coords="343,259,449,285"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="509,5,567,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#ad7fb480cea001849621405f37167aab1" title=" " alt="" coords="504,56,572,83"/>
+<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="627,208,679,235"/>
+<area shape="rect" id="node7" href="$ic_8f.html#ada3a2c3283a9052e1fe4b7a90375b09b" title=" " alt="" coords="509,157,567,184"/>
+<area shape="rect" id="node9" href="$speclib_8f.html#ab14f01571bb13d5185f4a8b163c1958a" title=" " alt="" coords="511,259,565,285"/>
+<area shape="rect" id="node10" href="$navier8_8f.html#a5c307bcd1af1a0036e75f65db3d06e39" title=" " alt="" coords="497,309,579,336"/>
+<area shape="rect" id="node11" href="$speclib_8f.html#a3788ff93193b0428aad51e76c6ed2e18" title=" " alt="" coords="510,360,566,387"/>
+</map>

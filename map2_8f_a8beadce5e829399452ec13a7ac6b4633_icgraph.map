@@ -1,9 +1,6 @@
 <map id="assign_gllnid" name="assign_gllnid">
-<area shape="rect" id="node2" href="$map2_8f.html#a6888b8a47bbcadddb362abc5bf0be43d" title="get_vert_map" alt="" coords="151,107,252,133"/>
-<area shape="rect" id="node3" href="$map2_8f.html#a3126acd6d2b7a3e63f6f0329d5bae424" title="get_vert" alt="" coords="300,107,369,133"/>
-<area shape="rect" id="node4" href="$connect1_8f.html#a555c5112d24b342a7e0c9d0990c53ae2" title="setup_topo" alt="" coords="443,5,530,32"/>
-<area shape="rect" id="node5" href="$hsmg_8f.html#ae0fd4b116048f3b3c3efe9116ae63a58" title="hsmg_setup_dssum" alt="" coords="417,56,556,83"/>
-<area shape="rect" id="node6" href="$hsmg_8f.html#af4bdfbdcb8eeccc615c574ca02e629a9" title="h1mg_setup_dssum" alt="" coords="417,107,556,133"/>
-<area shape="rect" id="node7" href="$map2_8f.html#a13d7dde54ee02508285dda66f7def6bf" title="get_map" alt="" coords="451,157,523,184"/>
-<area shape="rect" id="node8" href="$navier8_8f.html#a3c68a6cfc47f9c2602ab5029cae20ac8" title="get_vertex" alt="" coords="445,208,528,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="424,5,531,32"/>
+<area shape="rect" id="node2" href="$map2_8f.html#aae64b5fb12bc50321e1e4bdc3a2e978f" title=" " alt="" coords="289,5,376,32"/>
+<area shape="rect" id="node3" href="$map2_8f.html#ad7e6baf5b27258e1eaa5451ff2265b18" title=" " alt="" coords="129,5,241,32"/>
+<area shape="rect" id="node4" href="$map2_8f.html#a3126acd6d2b7a3e63f6f0329d5bae424" title=" " alt="" coords="5,5,81,32"/>
 </map>

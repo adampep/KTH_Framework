@@ -1,5 +1,6 @@
 <map id="iglm" name="iglm">
-<area shape="rect" id="node2" href="$speclib_8f.html#a194ae1304769cd597fba24d9a749dfbd" title="hgl" alt="" coords="100,31,139,57"/>
-<area shape="rect" id="node3" href="$speclib_8f.html#a04d6092caed3a484dc7ff9a6694e524e" title="pndleg" alt="" coords="187,5,247,32"/>
-<area shape="rect" id="node4" href="$speclib_8f.html#aa1aef699466ae5e2ced9cbdd09a4f198" title="pnleg" alt="" coords="190,56,243,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node2" href="$speclib_8f.html#a194ae1304769cd597fba24d9a749dfbd" title=" " alt="" coords="104,31,147,57"/>
+<area shape="rect" id="node3" href="$speclib_8f.html#a04d6092caed3a484dc7ff9a6694e524e" title=" " alt="" coords="195,5,261,32"/>
+<area shape="rect" id="node4" href="$speclib_8f.html#aa1aef699466ae5e2ced9cbdd09a4f198" title=" " alt="" coords="199,56,257,83"/>
 </map>

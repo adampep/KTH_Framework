@@ -1,5 +1,6 @@
 <map id="map_c_to_f_l2_bilin" name="map_c_to_f_l2_bilin">
-<area shape="rect" id="node2" href="$navier8_8f.html#a79ba12ae05422c181379668b90e41d18" title="crs_solve_l2" alt="" coords="191,5,285,32"/>
-<area shape="rect" id="node3" href="$navier3_8f.html#af669ac1ac644d9b0594f8e305471b0aa" title="dd_solver" alt="" coords="333,5,412,32"/>
-<area shape="rect" id="node4" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title="eprec2" alt="" coords="460,5,521,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="404,5,555,32"/>
+<area shape="rect" id="node2" href="$navier8_8f.html#a79ba12ae05422c181379668b90e41d18" title=" " alt="" coords="253,5,356,32"/>
+<area shape="rect" id="node3" href="$navier3_8f.html#af669ac1ac644d9b0594f8e305471b0aa" title=" " alt="" coords="120,5,205,32"/>
+<area shape="rect" id="node4" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title=" " alt="" coords="5,5,72,32"/>
 </map>

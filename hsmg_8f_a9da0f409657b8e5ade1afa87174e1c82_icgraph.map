@@ -1,6 +1,8 @@
 <map id="hsmg_schwarz_wt" name="hsmg_schwarz_wt">
-<area shape="rect" id="node2" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title="h1mg_schwarz" alt="" coords="184,5,295,32"/>
-<area shape="rect" id="node5" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="193,56,285,83"/>
-<area shape="rect" id="node3" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="343,5,435,32"/>
-<area shape="rect" id="node4" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title="hmh_gmres" alt="" coords="483,5,573,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="475,56,616,83"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#aaef68aa25140b10d1a42123f7ccbd2d8" title=" " alt="" coords="308,31,427,57"/>
+<area shape="rect" id="node6" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title=" " alt="" coords="317,81,417,108"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title=" " alt="" coords="159,31,260,57"/>
+<area shape="rect" id="node4" href="$hmholtz_8f.html#a8a396e973763e576543b4ab90c072b6d" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node5" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title=" " alt="" coords="9,56,107,83"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="get_bytesw_write" name="get_bytesw_write">
-<area shape="rect" id="node2" href="$group__arnoldi__arpack.html#gaae330c083938363c2f1810f66edff8ff" title="Write procesor independent variables. " alt="" coords="177,5,253,32"/>
-<area shape="rect" id="node3" href="$group__arnoldi__arpack.html#ga9a45d355698b986d39b4cdfdc8144fe6" title="Write procesor independent data. " alt="" coords="301,5,401,32"/>
-<area shape="rect" id="node4" href="$group__arnoldi__arpack.html#ga4796afc64a05aa2bc2acf6e6ab5b8caf" title="Take care of savings for restart. " alt="" coords="449,5,547,32"/>
-</map>

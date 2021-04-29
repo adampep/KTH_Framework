@@ -1,5 +1,10 @@
 <map id="apply_j" name="apply_j">
-<area shape="rect" id="node2" href="$dssum_8f.html#a99883f15d413d614f361d5864d3bac55" title="h1_proj" alt="" coords="134,5,198,32"/>
-<area shape="rect" id="node3" href="$dssum_8f.html#a9e3f805b8fe266668c98558691657ebe" title="dssum_msk" alt="" coords="119,56,213,83"/>
-<area shape="rect" id="node4" href="$dssum_8f.html#a3068cc414614f566c649c9eecc2aebd8" title="dssum_msk2" alt="" coords="116,107,216,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="468,56,537,83"/>
+<area shape="rect" id="node2" href="$dssum_8f.html#a9e3f805b8fe266668c98558691657ebe" title=" " alt="" coords="316,5,416,32"/>
+<area shape="rect" id="node3" href="$dssum_8f.html#a3068cc414614f566c649c9eecc2aebd8" title=" " alt="" coords="312,56,420,83"/>
+<area shape="rect" id="node4" href="$dssum_8f.html#a99883f15d413d614f361d5864d3bac55" title=" " alt="" coords="331,107,401,133"/>
+<area shape="rect" id="node5" href="$group__tstepper.html#ga48d2b68042a86a8083bddfc6df3ca47e" title="Average velocity and temperature at element faces." alt="" coords="175,107,264,133"/>
+<area shape="rect" id="node6" href="$group__arn__arp.html#ga2128f4c08428d15f1f20c5ee697da010" title="Interface to pdnaupd." alt="" coords="21,56,111,83"/>
+<area shape="rect" id="node7" href="$group__powerit.html#gac56f63bdb958fdc41a3e2feef5013eb6" title="Initilise power iteration module." alt="" coords="17,107,115,133"/>
+<area shape="rect" id="node8" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence." alt="" coords="5,157,127,184"/>
 </map>

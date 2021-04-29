@@ -1,4 +1,5 @@
 <map id="iface_vert_int8" name="iface_vert_int8">
-<area shape="rect" id="node2" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="160,5,217,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a1b43063a28b6cf21d36618121c8b0d10" title="i8zero" alt="" coords="160,56,217,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,124,57"/>
+<area shape="rect" id="node2" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title=" " alt="" coords="172,5,235,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a1b43063a28b6cf21d36618121c8b0d10" title=" " alt="" coords="172,56,235,83"/>
 </map>

@@ -1,7 +1,8 @@
 <map id="finiparser_getBool" name="finiparser_getBool">
-<area shape="rect" id="node2" href="$finiparser_8c.html#a6be15697584eab554b10454d143a44d8" title="addchar0" alt="" coords="213,5,288,32"/>
-<area shape="rect" id="node3" href="$iniparser_8c.html#afa30800883e2853074c038467f5fde2b" title="Get the string associated to a key, convert to a boolean. " alt="" coords="180,56,321,83"/>
-<area shape="rect" id="node4" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key. " alt="" coords="369,56,497,83"/>
-<area shape="rect" id="node5" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase. " alt="" coords="568,31,625,57"/>
-<area shape="rect" id="node6" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary. " alt="" coords="545,81,648,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,147,57"/>
+<area shape="rect" id="node2" href="$finiparser_8c.html#a6be15697584eab554b10454d143a44d8" title=" " alt="" coords="233,5,315,32"/>
+<area shape="rect" id="node3" href="$iniparser_8c.html#afa30800883e2853074c038467f5fde2b" title="Get the string associated to a key, convert to a boolean." alt="" coords="195,56,353,83"/>
+<area shape="rect" id="node4" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key." alt="" coords="401,56,545,83"/>
+<area shape="rect" id="node5" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary." alt="" coords="593,31,708,57"/>
+<area shape="rect" id="node6" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase." alt="" coords="620,81,681,108"/>
 </map>

@@ -1,8 +1,9 @@
 <map id="mntr_get_step_delay" name="mntr_get_step_delay">
-<area shape="rect" id="node2" href="$group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module. " alt="" coords="205,5,284,32"/>
-<area shape="rect" id="node3" href="$group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca" title="Main checkpoint interface. " alt="" coords="200,56,289,83"/>
-<area shape="rect" id="node6" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint. " alt="" coords="196,107,293,133"/>
-<area shape="rect" id="node4" href="$group__powerit.html#ga63239a803652b1366b764ebb4d83192c" title="Initialise power iterations. " alt="" coords="349,5,445,32"/>
-<area shape="rect" id="node5" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence. " alt="" coords="341,56,452,83"/>
-<area shape="rect" id="node7" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="359,107,434,133"/>
+<area shape="rect" id="node1" title="Get step delay." alt="" coords="323,81,481,108"/>
+<area shape="rect" id="node2" href="$group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module." alt="" coords="170,5,257,32"/>
+<area shape="rect" id="node3" href="$group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca" title="Main checkpoint interface." alt="" coords="164,56,263,83"/>
+<area shape="rect" id="node4" href="$group__gsyn__eddy.html#ga3a453617a573ba433e296ffb8a5c6d6d" title="Create checkpoint." alt="" coords="152,107,275,133"/>
+<area shape="rect" id="node6" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint." alt="" coords="160,157,267,184"/>
+<area shape="rect" id="node5" href="$group__gsyn__eddy.html#ga79077bcd4d269738b816281dd8f40193" title="Main gSyEM interface." alt="" coords="5,107,104,133"/>
+<area shape="rect" id="node7" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface." alt="" coords="13,157,96,184"/>
 </map>

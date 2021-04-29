@@ -1,0 +1,8 @@
+<map id="gsem_gen_elist" name="gsem_gen_elist">
+<area shape="rect" id="node1" title="Generate eddies from the list for a given family." alt="" coords="485,31,609,57"/>
+<area shape="rect" id="node2" href="$group__gsyn__eddy.html#ga3e3040cb1dac8f1173d5df962efb4930" title="Advect/recycle eddies (gsem_mode.eq.1) for a given family." alt="" coords="309,5,437,32"/>
+<area shape="rect" id="node5" href="$group__gsyn__eddy.html#ga1b667e3f47a2bb36eb7cbde8b0a55eef" title="Inital generation of all eddies (gsem_mode.eq.1) for a given family." alt="" coords="313,56,433,83"/>
+<area shape="rect" id="node3" href="$group__gsyn__eddy.html#ga053440d8930b5fe6b4bc2cbe8ddfd37b" title="Time evolution of eddies." alt="" coords="152,5,261,32"/>
+<area shape="rect" id="node4" href="$group__gsyn__eddy.html#ga79077bcd4d269738b816281dd8f40193" title="Main gSyEM interface." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node6" href="$group__gsyn__eddy.html#ga7adcada8ea2d614db7b3f3c60ba656a9" title="Initilise gSyEM module." alt="" coords="163,56,250,83"/>
+</map>

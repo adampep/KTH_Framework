@@ -1,3 +1,4 @@
 <map id="Monitoring module" name="Monitoring module">
-<area shape="rect" id="node2" href="$group__frame.html" title="Backbone for toolboxes. " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node1" title="Monitoring routines for toolboxes." alt="" coords="169,5,315,31"/>
+<area shape="rect" id="node2" href="$group__frame.html" title="Backbone for toolboxes." alt="" coords="5,5,121,31"/>
 </map>

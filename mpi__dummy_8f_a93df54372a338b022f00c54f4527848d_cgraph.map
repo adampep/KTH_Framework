@@ -1,5 +1,6 @@
 <map id="mpi_reduce" name="mpi_reduce">
-<area shape="rect" id="node2" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title="mpi_reduce_double_precision" alt="" coords="143,5,336,32"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title="mpi_reduce_integer" alt="" coords="172,56,307,83"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title="mpi_reduce_real" alt="" coords="181,107,298,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,104,83"/>
+<area shape="rect" id="node2" href="$mpi__dummy_8f.html#a64285f5ce9bed08bfd13bc27264db185" title=" " alt="" coords="152,5,367,32"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#aa549a352c5ab9ce53b8dfd222da38fa6" title=" " alt="" coords="184,56,335,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a47f146895b36dc21100a1c42d343762c" title=" " alt="" coords="194,107,325,133"/>
 </map>

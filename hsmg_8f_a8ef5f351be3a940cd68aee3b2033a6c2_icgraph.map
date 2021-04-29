@@ -1,8 +1,9 @@
 <map id="hsmg_intp_fc" name="hsmg_intp_fc">
-<area shape="rect" id="node2" href="$hsmg_8f.html#a701c47edd10a70df9f18fd456df1262f" title="mg_set_h1" alt="" coords="153,5,240,32"/>
-<area shape="rect" id="node7" href="$hsmg_8f.html#aa2de64df7a863874d8b2d34cab19db2a" title="mg_set_h2" alt="" coords="153,56,240,83"/>
-<area shape="rect" id="node3" href="$hsmg_8f.html#a69c832fdb8ddb920e673132a4f61db87" title="h1mg_axm" alt="" coords="291,5,378,32"/>
-<area shape="rect" id="node5" href="$hsmg_8f.html#a6dff08ef961a6a5565642ab92a12b1e8" title="h1mg_setup" alt="" coords="288,56,381,83"/>
-<area shape="rect" id="node4" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="429,5,521,32"/>
-<area shape="rect" id="node6" href="$navier6_8f.html#a45317b1def173b8f1db2e5083595d095" title="set_overlap" alt="" coords="431,56,520,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="447,31,556,57"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#a701c47edd10a70df9f18fd456df1262f" title=" " alt="" coords="305,5,399,32"/>
+<area shape="rect" id="node7" href="$hsmg_8f.html#aa2de64df7a863874d8b2d34cab19db2a" title=" " alt="" coords="305,56,399,83"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#a69c832fdb8ddb920e673132a4f61db87" title=" " alt="" coords="159,5,253,32"/>
+<area shape="rect" id="node5" href="$hsmg_8f.html#a6dff08ef961a6a5565642ab92a12b1e8" title=" " alt="" coords="155,56,257,83"/>
+<area shape="rect" id="node4" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title=" " alt="" coords="5,5,107,32"/>
+<area shape="rect" id="node6" href="$navier6_8f.html#a45317b1def173b8f1db2e5083595d095" title=" " alt="" coords="7,56,105,83"/>
 </map>

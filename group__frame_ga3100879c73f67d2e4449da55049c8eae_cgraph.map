@@ -1,9 +1,10 @@
 <map id="frame_monitor" name="frame_monitor">
-<area shape="rect" id="node2" href="$group__monitor.html#ga6101dffea614562593d1b87b75155e33" title="Monitor simulation wall clock. " alt="" coords="159,56,255,83"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="303,5,384,32"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="316,56,371,83"/>
-<area shape="rect" id="node7" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="307,107,379,133"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="432,5,517,32"/>
-<area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="433,56,516,83"/>
-<area shape="rect" id="node8" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="448,107,501,133"/>
+<area shape="rect" id="node1" title="Simulataion monitoring." alt="" coords="5,56,124,83"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga6101dffea614562593d1b87b75155e33" title="Monitor simulation wall clock." alt="" coords="172,56,277,83"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="341,5,398,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="325,56,413,83"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="329,107,409,133"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="464,5,553,32"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="461,56,556,83"/>
+<area shape="rect" id="node8" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="479,107,538,133"/>
 </map>

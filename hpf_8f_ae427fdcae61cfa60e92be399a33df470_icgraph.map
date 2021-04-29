@@ -1,6 +1,10 @@
 <map id="spec_coeff_init" name="spec_coeff_init">
-<area shape="rect" id="node2" href="$hpf_8f.html#aa2c1f548d5b9a2cb69bae6085dda9d95" title="build_hpf_mat" alt="" coords="164,31,267,57"/>
-<area shape="rect" id="node3" href="$hpf_8f.html#aa74c82c5e339de802f489470b23422a0" title="make_hpf" alt="" coords="315,31,393,57"/>
-<area shape="rect" id="node4" href="$makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title="makeq_aux" alt="" coords="441,5,531,32"/>
-<area shape="rect" id="node5" href="$navier1_8f.html#a83189b3d1938d87f00ace2e7e05d9e4c" title="makef" alt="" coords="457,56,515,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="449,56,569,83"/>
+<area shape="rect" id="node2" href="$hpf_8f.html#aa2c1f548d5b9a2cb69bae6085dda9d95" title=" " alt="" coords="287,56,401,83"/>
+<area shape="rect" id="node3" href="$avm_8f.html#a9e1209421d37bc600934cdb4974e3437" title=" " alt="" coords="151,31,239,57"/>
+<area shape="rect" id="node4" href="$hpf_8f.html#aa74c82c5e339de802f489470b23422a0" title=" " alt="" coords="151,81,238,108"/>
+<area shape="rect" id="node5" href="$navier1_8f.html#a83189b3d1938d87f00ace2e7e05d9e4c" title=" " alt="" coords="23,5,85,32"/>
+<area shape="rect" id="node6" href="$perturb_8f.html#a807bd5cbc891f8c0a4a0bfa3e02375fa" title=" " alt="" coords="19,56,89,83"/>
+<area shape="rect" id="node7" href="$makeq__aux_8f.html#a5175a1919b169361f171b8909a169863" title=" " alt="" coords="5,107,103,133"/>
+<area shape="rect" id="node8" href="$perturb_8f.html#a634404bcd696013d358ddbe24423001f" title=" " alt="" coords="17,157,91,184"/>
 </map>

@@ -1,12 +1,13 @@
 <map id="rprm_init" name="rprm_init">
-<area shape="rect" id="node2" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value. " alt="" coords="157,5,252,32"/>
-<area shape="rect" id="node3" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="464,132,536,159"/>
-<area shape="rect" id="node5" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="333,107,415,133"/>
-<area shape="rect" id="node6" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally. " alt="" coords="159,56,250,83"/>
-<area shape="rect" id="node9" href="$group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a" title="Print out summary of registered runtime parameters (active sections only) " alt="" coords="125,208,284,235"/>
-<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="584,132,637,159"/>
-<area shape="rect" id="node7" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="332,56,416,83"/>
-<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="477,56,523,83"/>
-<area shape="rect" id="node10" href="$navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title="ituple_sort" alt="" coords="333,259,415,285"/>
-<area shape="rect" id="node11" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title="icopy" alt="" coords="473,259,527,285"/>
+<area shape="rect" id="node1" title="Initialise modules runtime parameters and write summary." alt="" coords="5,107,87,133"/>
+<area shape="rect" id="node2" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="171,5,277,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="504,132,584,159"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="363,107,455,133"/>
+<area shape="rect" id="node6" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally." alt="" coords="173,56,275,83"/>
+<area shape="rect" id="node9" href="$group__runparam.html#ga5bcfbdb3ef72f8a0922030d531e0022a" title="Print out summary of registered runtime parameters (active sections only)" alt="" coords="135,208,313,235"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="632,132,691,159"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="361,56,456,83"/>
+<area shape="rect" id="node8" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="518,56,570,83"/>
+<area shape="rect" id="node10" href="$navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title=" " alt="" coords="363,259,454,285"/>
+<area shape="rect" id="node11" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title=" " alt="" coords="515,259,573,285"/>
 </map>

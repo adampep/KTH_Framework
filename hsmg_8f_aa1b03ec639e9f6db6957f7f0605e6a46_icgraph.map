@@ -1,10 +1,11 @@
 <map id="hsmg_do_wt" name="hsmg_do_wt">
-<area shape="rect" id="node2" href="$hsmg_8f.html#a1f5778e79f84d5dcf6094f8c5a894993" title="hsmg_rstr" alt="" coords="183,5,263,32"/>
-<area shape="rect" id="node3" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="344,81,436,108"/>
-<area shape="rect" id="node5" href="$hsmg_8f.html#a0954711b1dddc9fd05814db2210a65d3" title="hsmg_rstr_no_dssum" alt="" coords="149,107,296,133"/>
-<area shape="rect" id="node6" href="$hsmg_8f.html#a66d72f30649dfb581129bf9adafe017f" title="hsmg_schwarz" alt="" coords="167,157,278,184"/>
-<area shape="rect" id="node7" href="$hsmg_8f.html#a64c01748f81a2e5afc3666e28c483c6b" title="h1mg_rstr" alt="" coords="183,208,263,235"/>
-<area shape="rect" id="node4" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="484,81,587,108"/>
-<area shape="rect" id="node8" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title="h1mg_solve" alt="" coords="344,208,436,235"/>
-<area shape="rect" id="node9" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title="hmh_gmres" alt="" coords="490,208,581,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="516,132,620,159"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#a64c01748f81a2e5afc3666e28c483c6b" title=" " alt="" coords="344,31,432,57"/>
+<area shape="rect" id="node6" href="$hsmg_8f.html#a1f5778e79f84d5dcf6094f8c5a894993" title=" " alt="" coords="345,81,431,108"/>
+<area shape="rect" id="node7" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title=" " alt="" coords="159,157,259,184"/>
+<area shape="rect" id="node8" href="$hsmg_8f.html#a0954711b1dddc9fd05814db2210a65d3" title=" " alt="" coords="308,183,468,209"/>
+<area shape="rect" id="node9" href="$hsmg_8f.html#a66d72f30649dfb581129bf9adafe017f" title=" " alt="" coords="329,233,447,260"/>
+<area shape="rect" id="node3" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title=" " alt="" coords="159,31,260,57"/>
+<area shape="rect" id="node4" href="$hmholtz_8f.html#a8a396e973763e576543b4ab90c072b6d" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node5" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title=" " alt="" coords="9,56,107,83"/>
 </map>

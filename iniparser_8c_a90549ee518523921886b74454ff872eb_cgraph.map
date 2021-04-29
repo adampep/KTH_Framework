@@ -1,3 +1,4 @@
 <map id="iniparser_freedict" name="iniparser_freedict">
-<area shape="rect" id="node2" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object. " alt="" coords="175,5,277,32"/>
+<area shape="rect" id="node1" title="Free all memory associated to an ini dictionary." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node2" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object." alt="" coords="189,5,304,32"/>
 </map>

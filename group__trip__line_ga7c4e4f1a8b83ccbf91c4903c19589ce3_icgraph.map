@@ -1,4 +1,5 @@
 <map id="trip_1dprj" name="trip_1dprj">
-<area shape="rect" id="node2" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module. " alt="" coords="134,5,198,32"/>
-<area shape="rect" id="node3" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping. " alt="" coords="128,56,204,83"/>
+<area shape="rect" id="node1" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="137,31,221,57"/>
+<area shape="rect" id="node2" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module." alt="" coords="11,5,83,32"/>
+<area shape="rect" id="node3" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping." alt="" coords="5,56,89,83"/>
 </map>

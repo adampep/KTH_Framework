@@ -1,0 +1,5 @@
+<map id="stat_compute_1dav2" name="stat_compute_1dav2">
+<area shape="rect" id="node1" title="Perform local 1D integration on multiplication of 2 variables." alt="" coords="291,5,449,32"/>
+<area shape="rect" id="node2" href="$stat_8f.html#a678db8504a48380d268b8bc8fdcbe6bc" title="Compute statistics." alt="" coords="132,5,243,32"/>
+<area shape="rect" id="node3" href="$stat_8f.html#a16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="5,5,84,32"/>
+</map>

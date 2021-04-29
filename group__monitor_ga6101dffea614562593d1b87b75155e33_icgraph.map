@@ -1,3 +1,4 @@
 <map id="mntr_wclock" name="mntr_wclock">
-<area shape="rect" id="node2" href="$group__frame.html#ga3100879c73f67d2e4449da55049c8eae" title="Simulataion monitoring. " alt="" coords="149,5,255,32"/>
+<area shape="rect" id="node1" title="Monitor simulation wall clock." alt="" coords="172,5,277,32"/>
+<area shape="rect" id="node2" href="$group__frame.html#ga3100879c73f67d2e4449da55049c8eae" title="Simulataion monitoring." alt="" coords="5,5,124,32"/>
 </map>

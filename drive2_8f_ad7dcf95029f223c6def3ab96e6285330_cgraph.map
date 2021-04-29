@@ -1,10 +1,14 @@
 <map id="dofcnt" name="dofcnt">
-<area shape="rect" id="node2" href="$math_8f.html#a255eb2b5e6ee8be11915d2c3b5b5bf74" title="glsc2" alt="" coords="114,81,167,108"/>
-<area shape="rect" id="node9" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title="glsum" alt="" coords="112,132,169,159"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="217,107,260,133"/>
-<area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="334,5,385,32"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="319,56,400,83"/>
-<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="336,107,383,133"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title="mpi_allreduce" alt="" coords="308,157,411,184"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="320,208,399,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,68,184"/>
+<area shape="rect" id="node2" href="$math_8f.html#a255eb2b5e6ee8be11915d2c3b5b5bf74" title=" " alt="" coords="125,157,181,184"/>
+<area shape="rect" id="node9" href="$math_8f.html#ac231f0566c16504dadd6ba0f16a38bd9" title=" " alt="" coords="122,107,185,133"/>
+<area shape="rect" id="node10" href="$math_8f.html#a8cd712001d12f5f4a00ef98937109e47" title=" " alt="" coords="116,208,191,235"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title=" " alt="" coords="245,107,291,133"/>
+<area shape="rect" id="node4" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="376,5,429,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="359,56,447,83"/>
+<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="377,157,429,184"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title=" " alt="" coords="345,208,460,235"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="361,107,445,133"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#af260c1a2fb7cc8a919bbf5d01e83b74c" title=" " alt="" coords="239,208,297,235"/>
+<area shape="rect" id="node12" href="$math_8f.html#ae440982936535b602f42ea90d02b94d9" title=" " alt="" coords="370,259,435,285"/>
 </map>

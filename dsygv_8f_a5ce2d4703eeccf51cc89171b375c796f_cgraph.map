@@ -1,8 +1,0 @@
-<map id="dsytd2" name="dsytd2">
-<area shape="rect" id="node2" href="$blas_8f.html#adb136e14634fe4b772a0b034f52f3939" title="daxpy" alt="" coords="117,5,174,32"/>
-<area shape="rect" id="node3" href="$dsygv_8f.html#aabb59655e820b3551af27781bd716143" title="dlarfg" alt="" coords="118,56,173,83"/>
-<area shape="rect" id="node5" href="$blas_8f.html#a6ab49c8fa5e2608d9545483045bf3d03" title="dsymv" alt="" coords="115,107,176,133"/>
-<area shape="rect" id="node6" href="$blas_8f.html#a377ee61015baf8dea7770b3a404b1c07" title="xerbla" alt="" coords="224,157,281,184"/>
-<area shape="rect" id="node7" href="$blas_8f.html#ae96880c53b8eaee70bbef273b905715f" title="dsyr2" alt="" coords="118,208,173,235"/>
-<area shape="rect" id="node4" href="$blas_8f.html#a0590f8db475e11dc2c9137bb13887acf" title="dscal" alt="" coords="226,56,279,83"/>
-</map>

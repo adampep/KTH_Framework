@@ -1,11 +1,18 @@
 <map id="mntr_mod_get_info" name="mntr_mod_get_info">
-<area shape="rect" id="node2" href="$group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="187,157,288,184"/>
-<area shape="rect" id="node3" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters. " alt="" coords="336,5,459,32"/>
-<area shape="rect" id="node5" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database. " alt="" coords="348,56,447,83"/>
-<area shape="rect" id="node6" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="345,107,449,133"/>
-<area shape="rect" id="node7" href="$group__sfd.html#ga43ee3323c9f0a245a97af5985a675042" title="Register SFD module. " alt="" coords="352,157,443,184"/>
-<area shape="rect" id="node8" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module. " alt="" coords="347,208,447,235"/>
-<area shape="rect" id="node9" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module. " alt="" coords="347,259,447,285"/>
-<area shape="rect" id="node10" href="$group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab" title="Register tripping module. " alt="" coords="352,309,443,336"/>
-<area shape="rect" id="node4" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="507,31,595,57"/>
+<area shape="rect" id="node1" title="Get module name an parent id for given module id. This operation is performed locally." alt="" coords="497,309,647,336"/>
+<area shape="rect" id="node2" href="$group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section." alt="" coords="339,309,449,336"/>
+<area shape="rect" id="node3" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module." alt="" coords="164,5,279,32"/>
+<area shape="rect" id="node4" href="$conht__tools_8f.html#a9c8b1f2cf1663dacc7871da6a4f3f40c" title="Register conjugated heat transfer tools module." alt="" coords="172,107,271,133"/>
+<area shape="rect" id="node5" href="$group__tstepper.html#gab7707ea3b69cf33ac31a7f280bf0068f" title="Register time stepper module." alt="" coords="7,107,103,133"/>
+<area shape="rect" id="node6" href="$group__gsyn__eddy.html#ga66528e476e2f156a06fa5b1379bfec81" title="Register gSyEM module." alt="" coords="164,157,279,184"/>
+<area shape="rect" id="node7" href="$group__monitor.html#gad8a160fa3c099342abc581c5073a5744" title="Register monitor runtime parameters." alt="" coords="152,360,291,387"/>
+<area shape="rect" id="node9" href="$group__noise__box.html#gabff51957fc953dc6a5c13ab63a47db53" title="Register noise_box module." alt="" coords="166,259,277,285"/>
+<area shape="rect" id="node10" href="$pstat2d_2pstat_8f.html#addf6d8f7b56feaf0e619a2d7c66ecf55" title="Register post processing statistics module." alt="" coords="165,309,277,336"/>
+<area shape="rect" id="node11" href="$group__runparam.html#ga0a358e8c1cfec90802d0529ace7bcd4e" title="Register runtime parameters database." alt="" coords="166,563,277,589"/>
+<area shape="rect" id="node12" href="$group__sfd.html#ga43ee3323c9f0a245a97af5985a675042" title="Register SFD module." alt="" coords="172,411,271,437"/>
+<area shape="rect" id="node13" href="$group__sponge__box.html#gac1845c6016b1482e391ecd591cb114e9" title="Register sponge_box module." alt="" coords="166,461,277,488"/>
+<area shape="rect" id="node14" href="$stat_8f.html#a5b0d78dee858f1d9efcd6ce57aeb5ec8" title="Register 2D and 3D statistics module." alt="" coords="169,512,273,539"/>
+<area shape="rect" id="node15" href="$group__arn__arp.html#ga0090b5720eddacfd07206629455fee38" title="Register Arnoldi ARPACK module." alt="" coords="157,56,285,83"/>
+<area shape="rect" id="node16" href="$group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab" title="Register tripping module." alt="" coords="171,613,272,640"/>
+<area shape="rect" id="node8" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework." alt="" coords="5,461,104,488"/>
 </map>

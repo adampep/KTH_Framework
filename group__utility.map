@@ -1,5 +1,8 @@
 <map id="Utility module" name="Utility module">
-<area shape="rect" id="node1" href="$group__math.html" title="Diverse mathematical tools. " alt="" coords="279,5,376,32"/>
-<area shape="rect" id="node4" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications. " alt="" coords="272,56,383,83"/>
-<area shape="rect" id="node3" href="$group__toolbox.html" title="Toolbox for Nek5000. " alt="" coords="5,31,73,57"/>
+<area shape="rect" id="node1" href="$group__math.html" title="Diverse mathematical tools." alt="" coords="308,5,416,31"/>
+<area shape="rect" id="node2" title="Diverse utilities for toolboxes." alt="" coords="125,92,240,117"/>
+<area shape="rect" id="node4" href="$group__bcnd.html" title="Diverse tools related to applying boundary conditions." alt="" coords="288,55,436,95"/>
+<area shape="rect" id="node5" href="$group__grid.html" title="Diverse tools for manipulation of the grid." alt="" coords="311,120,413,145"/>
+<area shape="rect" id="node6" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications." alt="" coords="301,169,423,195"/>
+<area shape="rect" id="node3" href="$group__toolbox.html" title="Toolbox for Nek5000." alt="" coords="5,92,77,117"/>
 </map>

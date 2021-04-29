@@ -1,6 +1,7 @@
 <map id="dface_ext_g" name="dface_ext_g">
-<area shape="rect" id="node2" href="$gmres_8f.html#a7dd7ba8d0405188645e01979e306211b" title="dd_swap_vals" alt="" coords="147,31,252,57"/>
-<area shape="rect" id="node3" href="$gmres_8f.html#a3186bb19bf545a9381a31573cc142500" title="h1_overlap_2" alt="" coords="300,31,399,57"/>
-<area shape="rect" id="node4" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title="hmh_gmres" alt="" coords="447,5,537,32"/>
-<area shape="rect" id="node5" href="$hmholtz_8f.html#a8734f3cc2d37d6a2ccd1daa8db57513d" title="cggo" alt="" coords="585,31,636,57"/>
+<area shape="rect" id="node1" title=" " alt="" coords="572,5,673,32"/>
+<area shape="rect" id="node2" href="$gmres_8f.html#a7dd7ba8d0405188645e01979e306211b" title=" " alt="" coords="411,5,524,32"/>
+<area shape="rect" id="node3" href="$gmres_8f.html#a3186bb19bf545a9381a31573cc142500" title=" " alt="" coords="253,5,363,32"/>
+<area shape="rect" id="node4" href="$hmholtz_8f.html#a8734f3cc2d37d6a2ccd1daa8db57513d" title=" " alt="" coords="5,5,59,32"/>
+<area shape="rect" id="node5" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title=" " alt="" coords="107,31,205,57"/>
 </map>

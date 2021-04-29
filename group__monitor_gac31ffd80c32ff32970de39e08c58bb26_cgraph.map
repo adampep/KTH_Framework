@@ -1,12 +1,11 @@
 <map id="mntr_tmr_reg" name="mntr_tmr_reg">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="167,5,221,32"/>
-<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="451,95,504,121"/>
-<area shape="rect" id="node5" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="169,107,219,133"/>
-<area shape="rect" id="node6" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="152,208,236,235"/>
-<area shape="rect" id="node11" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="289,157,361,184"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="284,5,367,32"/>
-<area shape="rect" id="node7" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="302,208,349,235"/>
-<area shape="rect" id="node8" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="428,183,527,209"/>
-<area shape="rect" id="node9" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="444,233,511,260"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="415,284,540,311"/>
+<area shape="rect" id="node1" title="Register new timer." alt="" coords="5,107,116,133"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="183,5,240,32"/>
+<area shape="rect" id="node4" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="451,107,510,133"/>
+<area shape="rect" id="node5" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title=" " alt="" coords="184,107,239,133"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="164,208,259,235"/>
+<area shape="rect" id="node9" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="311,157,391,184"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="307,5,396,32"/>
+<area shape="rect" id="node7" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="325,208,377,235"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="444,208,517,235"/>
 </map>

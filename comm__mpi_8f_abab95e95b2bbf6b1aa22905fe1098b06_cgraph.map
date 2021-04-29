@@ -1,51 +1,52 @@
 <map id="platform_timer" name="platform_timer">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144" title="comm_test" alt="" coords="159,767,245,793"/>
-<area shape="rect" id="node27" href="$mxm__std_8f.html#a2f1607228da266881361a7dbb213d9f4" title="mxm_test_all" alt="" coords="423,1425,523,1452"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#adfd24553503bf8ac7e0a0be2c517211d" title="gop_test" alt="" coords="437,184,509,211"/>
-<area shape="rect" id="node9" href="$comm__mpi_8f.html#a13eb5b07cdb8c8c2d1da7353bae3f02a" title="gp2_test" alt="" coords="298,969,370,996"/>
-<area shape="rect" id="node15" href="$math_8f.html#a73058ab7dcbe8aa40dbbd6ffe547b1c9" title="log2" alt="" coords="599,843,645,869"/>
-<area shape="rect" id="node17" href="$comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29" title="pingpong" alt="" coords="297,437,371,464"/>
-<area shape="rect" id="node26" href="$comm__mpi_8f.html#a557724d36fed5680ba696aae60ae5992" title="pingpongo" alt="" coords="293,741,375,768"/>
-<area shape="rect" id="node4" href="$math_8f.html#add7cf4f5279a2239cfd54f963a53e618" title="cfill" alt="" coords="601,32,643,59"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="601,640,643,667"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="860,640,945,667"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="727,387,806,413"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="726,1020,807,1047"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#a82ebf4b360b146e1e5c20ffd30008bf9" title="gp2" alt="" coords="451,843,494,869"/>
-<area shape="rect" id="node16" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="447,1248,498,1275"/>
-<area shape="rect" id="node11" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title="crecv" alt="" coords="595,893,649,920"/>
-<area shape="rect" id="node13" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title="csend" alt="" coords="593,792,651,819"/>
-<area shape="rect" id="node12" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title="mpi_recv" alt="" coords="729,919,804,945"/>
-<area shape="rect" id="node14" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="727,488,806,515"/>
-<area shape="rect" id="node18" href="$comm__mpi_8f.html#a4ae0ceb703bba6170a61c696ee3871d3" title="get_msg_vol" alt="" coords="425,640,521,667"/>
-<area shape="rect" id="node23" href="$comm__mpi_8f.html#a8493e0f05af0ea25b69053ada11d808a" title="ping_loop" alt="" coords="583,589,661,616"/>
-<area shape="rect" id="node24" href="$comm__mpi_8f.html#af348945adab9e6683c509187f6e4e2fc" title="ping_loop1" alt="" coords="580,235,664,261"/>
-<area shape="rect" id="node25" href="$comm__mpi_8f.html#ae95dc0de6852549c6cab7465978b3570" title="ping_loop2" alt="" coords="580,285,664,312"/>
-<area shape="rect" id="node19" href="$comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title="irecv" alt="" coords="597,741,647,768"/>
-<area shape="rect" id="node21" href="$comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="731,133,802,160"/>
-<area shape="rect" id="node20" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="727,539,806,565"/>
-<area shape="rect" id="node22" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="865,235,940,261"/>
-<area shape="rect" id="node28" href="$mxm__std_8f.html#ab8e92325f3df8d7fcfe4299472f317b3" title="mxms" alt="" coords="593,1349,651,1376"/>
-<area shape="rect" id="node29" href="$mxm__std_8f.html#a0f5f79847f6d3599e697e4fd9a88825f" title="mxmur2" alt="" coords="587,1451,657,1477"/>
-<area shape="rect" id="node41" href="$mxm__std_8f.html#a28f250187cf537e8be55e6217a58ee25" title="mxmur3" alt="" coords="587,1400,657,1427"/>
-<area shape="rect" id="node42" href="$mxm__std_8f.html#af3c228f77e51ff37e44aa26fa56f0b8f" title="mxmd" alt="" coords="593,1501,651,1528"/>
-<area shape="rect" id="node43" href="$mxm__std_8f.html#a52c2339fc52b50631f71cdee3dc7d16f" title="mxmfb" alt="" coords="591,1552,653,1579"/>
-<area shape="rect" id="node44" href="$mxm__std_8f.html#abb29f5f30d39689527c15e4648c80bb0" title="mxmf3" alt="" coords="591,1603,653,1629"/>
-<area shape="rect" id="node45" href="$mxm__std_8f.html#a9d7d1f2e7214f6a2d242c1ae1d839b01" title="mxmu4" alt="" coords="589,1653,655,1680"/>
-<area shape="rect" id="node46" href="$mxm__std_8f.html#a12ed799305c9b614074f79911f3bccf5" title="madd" alt="" coords="595,1704,649,1731"/>
-<area shape="rect" id="node47" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title="mxm" alt="" coords="597,1096,647,1123"/>
-<area shape="rect" id="node48" href="$mxm__std_8f.html#a8530a043fbea2ceac5492781484f58ba" title="mxm44" alt="" coords="589,1755,655,1781"/>
-<area shape="rect" id="node49" href="$mxm__std_8f.html#ab156666b12ab6851c666000fc8c95ab7" title="mxmtest" alt="" coords="585,1248,659,1275"/>
-<area shape="rect" id="node50" href="$mxm__std_8f.html#a866b67064f1d117978c4c733fd931e8a" title="mxm_analyze" alt="" coords="571,1299,673,1325"/>
-<area shape="rect" id="node30" href="$mxm__std_8f.html#a83df685f52e0a40364bfc33dad44a70a" title="mxmur2_1" alt="" coords="725,1501,808,1528"/>
-<area shape="rect" id="node31" href="$mxm__std_8f.html#a7ff2d4653086790d6bc0b0ccf1bdf76c" title="mxmur2_2" alt="" coords="725,1552,808,1579"/>
-<area shape="rect" id="node32" href="$mxm__std_8f.html#ae1398bd8f96e6fb31c77e728c3cee02a" title="mxmur2_3" alt="" coords="725,1603,808,1629"/>
-<area shape="rect" id="node33" href="$mxm__std_8f.html#a9e6691e1e6c43600409e1fefb0854319" title="mxmur2_4" alt="" coords="725,1653,808,1680"/>
-<area shape="rect" id="node34" href="$mxm__std_8f.html#a466e6912570a0c8adb7ea96a61ed9e35" title="mxmur2_5" alt="" coords="725,1704,808,1731"/>
-<area shape="rect" id="node35" href="$mxm__std_8f.html#a05a2b017348adbbf2e942c041a7309db" title="mxmur2_6" alt="" coords="725,1755,808,1781"/>
-<area shape="rect" id="node36" href="$mxm__std_8f.html#af2733ba4212929a05f502dd02c01760a" title="mxmur2_7" alt="" coords="725,1248,808,1275"/>
-<area shape="rect" id="node37" href="$mxm__std_8f.html#a5280c1f14f07a0a91bad32ecb243b98a" title="mxmur2_8" alt="" coords="725,1299,808,1325"/>
-<area shape="rect" id="node38" href="$mxm__std_8f.html#ad345052a532cc258f529a8c03ea2015c" title="mxmur2_9" alt="" coords="725,1349,808,1376"/>
-<area shape="rect" id="node39" href="$mxm__std_8f.html#a1e17db6139b83260740b5c91ab497198" title="mxmur2_10" alt="" coords="721,1400,812,1427"/>
-<area shape="rect" id="node40" href="$mxm__std_8f.html#aff8c64278fddb2b526c14bb5d283b8d2" title="mxmur2_11" alt="" coords="721,1451,812,1477"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,1161,125,1188"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144" title=" " alt="" coords="173,573,268,600"/>
+<area shape="rect" id="node27" href="$mxm__std_8f.html#a2f1607228da266881361a7dbb213d9f4" title=" " alt="" coords="455,1384,565,1411"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#adfd24553503bf8ac7e0a0be2c517211d" title=" " alt="" coords="471,143,549,169"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#a13eb5b07cdb8c8c2d1da7353bae3f02a" title=" " alt="" coords="322,1048,401,1075"/>
+<area shape="rect" id="node16" href="$math_8f.html#a73058ab7dcbe8aa40dbbd6ffe547b1c9" title=" " alt="" coords="336,295,387,321"/>
+<area shape="rect" id="node17" href="$comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29" title=" " alt="" coords="320,396,403,423"/>
+<area shape="rect" id="node26" href="$comm__mpi_8f.html#a557724d36fed5680ba696aae60ae5992" title=" " alt="" coords="316,751,407,777"/>
+<area shape="rect" id="node4" href="$math_8f.html#add7cf4f5279a2239cfd54f963a53e618" title=" " alt="" coords="647,41,694,68"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title=" " alt="" coords="647,599,694,625"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="935,599,1029,625"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="789,396,873,423"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="787,827,875,853"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#a82ebf4b360b146e1e5c20ffd30008bf9" title=" " alt="" coords="487,953,533,980"/>
+<area shape="rect" id="node15" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="483,1156,537,1183"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a243c9bed2592e7cd159fb36be4fda037" title=" " alt="" coords="642,953,699,980"/>
+<area shape="rect" id="node13" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title=" " alt="" coords="641,801,701,828"/>
+<area shape="rect" id="node12" href="$mpi__dummy_8f.html#a709ef20e522dddac7afb17999141cfd4" title=" " alt="" coords="790,1004,873,1031"/>
+<area shape="rect" id="node14" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title=" " alt="" coords="789,447,874,473"/>
+<area shape="rect" id="node18" href="$comm__mpi_8f.html#a4ae0ceb703bba6170a61c696ee3871d3" title=" " alt="" coords="457,751,563,777"/>
+<area shape="rect" id="node23" href="$comm__mpi_8f.html#a8493e0f05af0ea25b69053ada11d808a" title=" " alt="" coords="628,548,713,575"/>
+<area shape="rect" id="node24" href="$comm__mpi_8f.html#af348945adab9e6683c509187f6e4e2fc" title=" " alt="" coords="624,295,717,321"/>
+<area shape="rect" id="node25" href="$comm__mpi_8f.html#ae95dc0de6852549c6cab7465978b3570" title=" " alt="" coords="624,244,717,271"/>
+<area shape="rect" id="node19" href="$comm__mpi_8f.html#ae679f95ac0933fe20197a868f1d4272b" title=" " alt="" coords="643,700,698,727"/>
+<area shape="rect" id="node21" href="$comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title=" " alt="" coords="792,143,871,169"/>
+<area shape="rect" id="node20" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title=" " alt="" coords="788,497,875,524"/>
+<area shape="rect" id="node22" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title=" " alt="" coords="941,295,1023,321"/>
+<area shape="rect" id="node28" href="$mxm__std_8f.html#a12ed799305c9b614074f79911f3bccf5" title=" " alt="" coords="641,1257,700,1284"/>
+<area shape="rect" id="node29" href="$mxm__wrapper_8f.html#ab9ec2260a10061af6ce1c52f3c8a41da" title=" " alt="" coords="643,1460,699,1487"/>
+<area shape="rect" id="node36" href="$mxm__std_8f.html#a8530a043fbea2ceac5492781484f58ba" title=" " alt="" coords="635,1511,707,1537"/>
+<area shape="rect" id="node39" href="$mxm__std_8f.html#a866b67064f1d117978c4c733fd931e8a" title=" " alt="" coords="613,1561,728,1588"/>
+<area shape="rect" id="node41" href="$mxm__std_8f.html#af3c228f77e51ff37e44aa26fa56f0b8f" title=" " alt="" coords="639,1359,703,1385"/>
+<area shape="rect" id="node42" href="$mxm__std_8f.html#abb29f5f30d39689527c15e4648c80bb0" title=" " alt="" coords="636,1409,705,1436"/>
+<area shape="rect" id="node45" href="$mxm__std_8f.html#a52c2339fc52b50631f71cdee3dc7d16f" title=" " alt="" coords="636,1308,705,1335"/>
+<area shape="rect" id="node46" href="$mxm__std_8f.html#ab8e92325f3df8d7fcfe4299472f317b3" title=" " alt="" coords="639,1612,702,1639"/>
+<area shape="rect" id="node47" href="$mxm__std_8f.html#ab156666b12ab6851c666000fc8c95ab7" title=" " alt="" coords="630,1004,711,1031"/>
+<area shape="rect" id="node48" href="$mxm__std_8f.html#a9d7d1f2e7214f6a2d242c1ae1d839b01" title=" " alt="" coords="635,1663,707,1689"/>
+<area shape="rect" id="node49" href="$mxm__std_8f.html#a0f5f79847f6d3599e697e4fd9a88825f" title=" " alt="" coords="632,1713,709,1740"/>
+<area shape="rect" id="node50" href="$mxm__std_8f.html#a28f250187cf537e8be55e6217a58ee25" title=" " alt="" coords="632,1207,709,1233"/>
+<area shape="rect" id="node30" href="$dgemm_8f.html#aeda3cbd99c8fb834a60a6412878226e1" title=" " alt="" coords="795,1283,867,1309"/>
+<area shape="rect" id="node31" href="$mxm__bgq_8f.html#a8a70163b4dbfdbfcce7bff170597fcad" title=" " alt="" coords="776,1485,887,1512"/>
+<area shape="rect" id="node32" href="$mxm__bgq_8f.html#a3fda9ea4bc7a5713a19d6939fa2b541f" title=" " alt="" coords="776,1536,887,1563"/>
+<area shape="rect" id="node33" href="$mxm__bgq_8f.html#af192c3c8b982aa5bbc2a757156718a91" title=" " alt="" coords="780,1587,883,1613"/>
+<area shape="rect" id="node34" href="$mxm__bgq_8f.html#a8faaef428336095704ece51624bbfe92" title=" " alt="" coords="780,1637,883,1664"/>
+<area shape="rect" id="node35" href="$mxm__std_8f.html#aa9e8685c4a72f18fb5d1ee88ed17a3d6" title=" " alt="" coords="797,1435,866,1461"/>
+<area shape="rect" id="node37" href="$mxm__std_8f.html#a6a00c372877a5e1f6da76423dc708227" title=" " alt="" coords="782,1739,881,1765"/>
+<area shape="rect" id="node38" href="$mxm__std_8f.html#a037e48370377fcb58f780adbf86e51d1" title=" " alt="" coords="782,1688,881,1715"/>
+<area shape="rect" id="node40" href="$mxm__std_8f.html#a019be3c671c3ab0b45e2b93436979aa7" title=" " alt="" coords="792,1789,871,1816"/>
+<area shape="rect" id="node43" href="$mxm__std_8f.html#a3430c05cac7709c28358d953cbe6c068" title=" " alt="" coords="789,1384,873,1411"/>
+<area shape="rect" id="node44" href="$mxm__std_8f.html#a9584e1d89e0db2bb5a544db65c97fadf" title=" " alt="" coords="785,1333,877,1360"/>
 </map>

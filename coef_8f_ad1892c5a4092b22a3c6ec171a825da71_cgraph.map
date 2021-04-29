@@ -1,4 +1,5 @@
 <map id="area2" name="area2">
-<area shape="rect" id="node2" href="$coef_8f.html#a3ee2de5bcdbd6c52f8a756e8d36bd28b" title="setwgtr" alt="" coords="108,5,173,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="221,5,272,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node2" href="$coef_8f.html#a3ee2de5bcdbd6c52f8a756e8d36bd28b" title=" " alt="" coords="112,5,183,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="231,5,284,32"/>
 </map>

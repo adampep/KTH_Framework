@@ -1,12 +1,13 @@
 <map id="nseb_noise_add" name="nseb_noise_add">
-<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="329,24,401,51"/>
-<area shape="rect" id="node4" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally. " alt="" coords="169,24,272,51"/>
-<area shape="rect" id="node5" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title="opcolv" alt="" coords="191,75,251,101"/>
-<area shape="rect" id="node6" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title="opdssum" alt="" coords="183,125,258,152"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="471,24,525,51"/>
-<area shape="rect" id="node7" href="$navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title="rotate_cyc" alt="" coords="323,100,406,127"/>
-<area shape="rect" id="node9" href="$dssum_8f.html#a04a475747f747981907f8e5203c421ed" title="vec_dssum" alt="" coords="320,151,409,177"/>
-<area shape="rect" id="node8" href="$bdry_8f.html#adaa309873cbbbd3c117145741e3e41b3" title="facind2" alt="" coords="466,100,530,127"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="457,151,539,177"/>
-<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="459,201,537,228"/>
+<area shape="rect" id="node1" title="Add noise to velocity field in a box." alt="" coords="5,50,132,76"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="350,24,430,51"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="180,24,295,51"/>
+<area shape="rect" id="node5" href="$navier1_8f.html#a968374df04841450c737483b598fa474" title=" " alt="" coords="205,75,270,102"/>
+<area shape="rect" id="node6" href="$navier1_8f.html#a2f89b54d1ceda6fb201432d7a61bc907" title=" " alt="" coords="197,126,278,152"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="500,24,559,51"/>
+<area shape="rect" id="node7" href="$navier1_8f.html#a7dc78f2f7df7b41bdbfe8f1bb2d80b4d" title=" " alt="" coords="345,100,435,127"/>
+<area shape="rect" id="node9" href="$dssum_8f.html#a04a475747f747981907f8e5203c421ed" title=" " alt="" coords="343,151,437,178"/>
+<area shape="rect" id="node8" href="$bdry_8f.html#adaa309873cbbbd3c117145741e3e41b3" title=" " alt="" coords="494,100,565,127"/>
+<area shape="rect" id="node10" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="485,151,573,178"/>
+<area shape="rect" id="node11" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="487,202,571,228"/>
 </map>

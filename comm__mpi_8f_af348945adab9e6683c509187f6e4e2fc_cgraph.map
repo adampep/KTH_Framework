@@ -1,9 +1,10 @@
 <map id="ping_loop1" name="ping_loop1">
-<area shape="rect" id="node2" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title="mpi_irecv" alt="" coords="141,5,219,32"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title="mpi_send" alt="" coords="141,56,219,83"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title="mpi_wait" alt="" coords="277,157,351,184"/>
-<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="137,157,223,184"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title="msgwait" alt="" coords="145,208,215,235"/>
-<area shape="rect" id="node7" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="141,259,219,285"/>
-<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="271,259,357,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,99,159"/>
+<area shape="rect" id="node2" href="$mpi__dummy_8f.html#adf2a055de10dc93a671a453c7190fd10" title=" " alt="" coords="151,5,237,32"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#af98c20c7332635506f852083f7ee504a" title=" " alt="" coords="151,56,237,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a90b9c69c5b43af73d8821c11b5d8f22d" title=" " alt="" coords="297,157,379,184"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="147,157,241,184"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a3b0be5279d427588484102fe8bac8ef0" title=" " alt="" coords="155,208,233,235"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="152,259,236,285"/>
+<area shape="rect" id="node8" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title=" " alt="" coords="289,259,387,285"/>
 </map>

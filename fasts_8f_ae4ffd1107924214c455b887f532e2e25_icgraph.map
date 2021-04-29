@@ -1,7 +1,8 @@
 <map id="fastdm1" name="fastdm1">
-<area shape="rect" id="node2" href="$fasts_8f.html#adf929f1c8210a58914bda5771ed68098" title="local_solves_fdm" alt="" coords="123,31,245,57"/>
-<area shape="rect" id="node3" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title="hsmg_solve" alt="" coords="293,5,385,32"/>
-<area shape="rect" id="node5" href="$navier3_8f.html#af669ac1ac644d9b0594f8e305471b0aa" title="dd_solver" alt="" coords="300,56,379,83"/>
-<area shape="rect" id="node4" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title="uzawa_gmres" alt="" coords="433,5,536,32"/>
-<area shape="rect" id="node6" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title="eprec2" alt="" coords="454,56,515,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="496,31,572,57"/>
+<area shape="rect" id="node2" href="$fasts_8f.html#adf929f1c8210a58914bda5771ed68098" title=" " alt="" coords="313,31,448,57"/>
+<area shape="rect" id="node3" href="$navier3_8f.html#af669ac1ac644d9b0594f8e305471b0aa" title=" " alt="" coords="173,5,258,32"/>
+<area shape="rect" id="node5" href="$hsmg_8f.html#ab28b637ce952431f92c7210efdd23b52" title=" " alt="" coords="165,56,265,83"/>
+<area shape="rect" id="node4" href="$navier3_8f.html#a7b3bc6faab84d98556026751dbf434ef" title=" " alt="" coords="28,5,95,32"/>
+<area shape="rect" id="node6" href="$gmres_8f.html#a7ddb9e8764ebf87db6b357ca39df2a08" title=" " alt="" coords="5,56,117,83"/>
 </map>

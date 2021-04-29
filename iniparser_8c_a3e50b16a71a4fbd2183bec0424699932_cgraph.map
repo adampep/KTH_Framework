@@ -1,6 +1,7 @@
 <map id="iniparser_getsecnkeys" name="iniparser_getsecnkeys">
-<area shape="rect" id="node2" href="$iniparser_8c.html#acd872a1e8c56f23a79ab2f2f7a26a7ac" title="Finds out if a given entry exists in a dictionary. " alt="" coords="205,31,340,57"/>
-<area shape="rect" id="node3" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key. " alt="" coords="388,31,516,57"/>
-<area shape="rect" id="node4" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase. " alt="" coords="587,5,644,32"/>
-<area shape="rect" id="node5" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary. " alt="" coords="564,56,667,83"/>
+<area shape="rect" id="node1" title="Get the number of keys in a section of a dictionary." alt="" coords="5,31,172,57"/>
+<area shape="rect" id="node2" href="$iniparser_8c.html#acd872a1e8c56f23a79ab2f2f7a26a7ac" title="Finds out if a given entry exists in a dictionary." alt="" coords="220,31,372,57"/>
+<area shape="rect" id="node3" href="$iniparser_8c.html#afa02a2ab6d21e751472f6a330ab7b815" title="Get the string associated to a key." alt="" coords="420,31,564,57"/>
+<area shape="rect" id="node4" href="$dictionary_8c.html#a8691664a012a1c689bd46b6b4477ea68" title="Get a value from a dictionary." alt="" coords="612,5,727,32"/>
+<area shape="rect" id="node5" href="$iniparser_8c.html#a427d5fbf1dca7f817ee5f4af7f9bc6e3" title="Convert a string to lowercase." alt="" coords="639,56,700,83"/>
 </map>

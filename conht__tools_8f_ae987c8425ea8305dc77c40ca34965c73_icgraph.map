@@ -1,0 +1,5 @@
+<map id="cht_opcopy" name="cht_opcopy">
+<area shape="rect" id="node1" title="Copy vectors A=B (velocity and temperature)" alt="" coords="175,31,271,57"/>
+<area shape="rect" id="node2" href="$group__powerit.html#gac56f63bdb958fdc41a3e2feef5013eb6" title="Initilise power iteration module." alt="" coords="17,5,115,32"/>
+<area shape="rect" id="node3" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence." alt="" coords="5,56,127,83"/>
+</map>

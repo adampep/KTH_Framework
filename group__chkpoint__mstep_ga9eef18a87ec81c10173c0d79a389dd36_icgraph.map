@@ -1,4 +1,9 @@
 <map id="chkpt_set_name" name="chkpt_set_name">
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#ga5a1a5e27f3cc18d976b7ca6f0ac4bcba" title="Write full file restart set. " alt="" coords="172,5,268,32"/>
-<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set. " alt="" coords="173,56,267,83"/>
+<area shape="rect" id="node1" title="Generate set of restart file names in snapshot." alt="" coords="333,81,463,108"/>
+<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#gac43d874790794f7a13bdbbd72e6e4f5a" title="Read full file restart set." alt="" coords="179,5,281,32"/>
+<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga5a1a5e27f3cc18d976b7ca6f0ac4bcba" title="Write full file restart set." alt="" coords="177,56,283,83"/>
+<area shape="rect" id="node4" href="$group__powerit.html#gadebf99ef8b12430e2fb793802cb08b78" title="Read restart files." alt="" coords="177,107,283,133"/>
+<area shape="rect" id="node6" href="$group__powerit.html#gae25b7393d77e1cd5139cd60f0672b4b5" title="Write restart files." alt="" coords="175,157,285,184"/>
+<area shape="rect" id="node5" href="$group__powerit.html#gac56f63bdb958fdc41a3e2feef5013eb6" title="Initilise power iteration module." alt="" coords="17,107,115,133"/>
+<area shape="rect" id="node7" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence." alt="" coords="5,157,127,184"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="mpi_allgatherv" name="mpi_allgatherv">
-<area shape="rect" id="node2" href="$mpi__dummy_8f.html#adacf9df014afd4915da1d7d4648c1f1b" title="mpi_copy_double_precision" alt="" coords="160,5,343,32"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#a94372b6e010f751b2c13ff97fa327dc6" title="mpi_copy_integer" alt="" coords="189,56,313,83"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ac0c4aac64adb7d2d38a1253c9fa7fe59" title="mpi_copy_real" alt="" coords="198,107,305,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,125,83"/>
+<area shape="rect" id="node2" href="$mpi__dummy_8f.html#adacf9df014afd4915da1d7d4648c1f1b" title=" " alt="" coords="173,5,376,32"/>
+<area shape="rect" id="node3" href="$mpi__dummy_8f.html#a94372b6e010f751b2c13ff97fa327dc6" title=" " alt="" coords="205,56,344,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ac0c4aac64adb7d2d38a1253c9fa7fe59" title=" " alt="" coords="216,107,333,133"/>
 </map>

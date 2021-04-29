@@ -14,6 +14,8 @@ var navier4_8f =
     [ "proj_matvec", "navier4_8f.html#af4b23fbc45dccb01483f8c2910388e3f", null ],
     [ "proj_ortho", "navier4_8f.html#a699a84f6ca5347a86adf5f41889d1d82", null ],
     [ "proj_ortho_full", "navier4_8f.html#aba985c129d004858fb54cb2f76b52803", null ],
+    [ "proj_ortho_full_cgs2", "navier4_8f.html#a774a1ef15fb09f53e238de124aa82402", null ],
+    [ "proj_ortho_full_mgs", "navier4_8f.html#a92a0c25e8af2ea445b4cb047a603c1cc", null ],
     [ "project1", "navier4_8f.html#a142a136172575274b25ce7f923c429fc", null ],
     [ "project1_a", "navier4_8f.html#a27e33c31307e6975268baa1be42b5c03", null ],
     [ "project2", "navier4_8f.html#ac1700cca28238294c52879cb29424911", null ],

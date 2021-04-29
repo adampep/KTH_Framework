@@ -1,3 +1,4 @@
 <map id="Sponge_box module" name="Sponge_box module">
-<area shape="rect" id="node2" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node1" title="Sponge/fringe for simple box mesh." alt="" coords="176,5,331,31"/>
+<area shape="rect" id="node2" href="$group__forcing.html" title="Diverse tools related to forcing, adding noise or other solution modifications." alt="" coords="5,5,128,31"/>
 </map>

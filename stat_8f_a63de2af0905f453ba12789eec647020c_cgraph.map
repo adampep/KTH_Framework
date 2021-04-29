@@ -1,0 +1,13 @@
+<map id="stat_compute_1dav2" name="stat_compute_1dav2">
+<area shape="rect" id="node1" title="Perform local 1D integration on multiplication of 2 variables." alt="" coords="5,81,164,108"/>
+<area shape="rect" id="node2" href="$math_8f.html#a4671df6a3bb4689a1bb6566729ce4a37" title=" " alt="" coords="221,5,298,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title=" " alt="" coords="235,56,284,83"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="212,107,307,133"/>
+<area shape="rect" id="node11" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="232,157,287,184"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="355,56,443,83"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="491,56,585,83"/>
+<area shape="rect" id="node7" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="373,107,425,133"/>
+<area shape="rect" id="node9" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="359,157,439,184"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="501,107,575,133"/>
+<area shape="rect" id="node10" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="509,157,567,184"/>
+</map>

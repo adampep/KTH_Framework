@@ -1,10 +1,9 @@
 <map id="rprm_rp_get" name="rprm_rp_get">
-<area shape="rect" id="node2" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="144,81,228,108"/>
-<area shape="rect" id="node9" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="145,132,227,159"/>
-<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="289,56,335,83"/>
-<area shape="rect" id="node7" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="276,132,348,159"/>
-<area shape="rect" id="node4" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="409,5,508,32"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="425,56,492,83"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="396,107,521,133"/>
-<area shape="rect" id="node8" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="432,157,485,184"/>
+<area shape="rect" id="node1" title="Get runtime parameter form active section. This operation is performed locally." alt="" coords="5,31,107,57"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="155,5,249,32"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="156,56,248,83"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="311,5,363,32"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="297,56,377,83"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="425,5,499,32"/>
+<area shape="rect" id="node6" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="433,56,491,83"/>
 </map>

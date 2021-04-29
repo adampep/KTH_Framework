@@ -1,5 +1,0 @@
-<map id="init_nek_comm" name="init_nek_comm">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#ad144041d3b33dd06035861d134cd9c35" title="iniproc" alt="" coords="164,5,224,32"/>
-<area shape="rect" id="node3" href="$multimesh_8f.html#a0b340eaa9352e5b5d12ff7d525b30c0a" title="get_session_info" alt="" coords="272,5,392,32"/>
-<area shape="rect" id="node4" href="$drive1_8f.html#a87bd37ae2c18426f28f35cc3f24e4355" title="nek_init" alt="" coords="440,5,507,32"/>
-</map>

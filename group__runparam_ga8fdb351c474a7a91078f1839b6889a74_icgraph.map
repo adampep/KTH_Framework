@@ -1,10 +1,17 @@
 <map id="rprm_rp_get" name="rprm_rp_get">
-<area shape="rect" id="node2" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module. " alt="" coords="147,5,219,32"/>
-<area shape="rect" id="node4" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary. " alt="" coords="147,56,219,83"/>
-<area shape="rect" id="node5" href="$group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module. " alt="" coords="144,107,223,133"/>
-<area shape="rect" id="node6" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module. " alt="" coords="151,157,215,184"/>
-<area shape="rect" id="node7" href="$group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9" title="Initilise noise_box module. " alt="" coords="146,208,221,235"/>
-<area shape="rect" id="node8" href="$group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6" title="Initilise sponge_box module. " alt="" coords="146,259,221,285"/>
-<area shape="rect" id="node9" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module. " alt="" coords="151,309,215,336"/>
-<area shape="rect" id="node3" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework. " alt="" coords="271,31,359,57"/>
+<area shape="rect" id="node1" title="Get runtime parameter form active section. This operation is performed locally." alt="" coords="299,309,400,336"/>
+<area shape="rect" id="node2" href="$group__chkpoint.html#ga1523ccf52ac13164ba8fcb08a7d0da33" title="Initilise checkpointing module." alt="" coords="158,5,245,32"/>
+<area shape="rect" id="node3" href="$conht__tools_8f.html#a655398c45f0d615e5dc622bbcd2c854e" title="Initilise conjugated heat transfer tools module." alt="" coords="166,107,237,133"/>
+<area shape="rect" id="node4" href="$group__tstepper.html#ga3a72449a0077495512ca103ace522a29" title="Initilise time stepper module." alt="" coords="21,107,88,133"/>
+<area shape="rect" id="node5" href="$group__gsyn__eddy.html#ga7adcada8ea2d614db7b3f3c60ba656a9" title="Initilise gSyEM module." alt="" coords="158,157,245,184"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga9857db9e2b30b884b0c48aa8367a5ea2" title="Initialise monitor module." alt="" coords="161,360,242,387"/>
+<area shape="rect" id="node8" href="$group__noise__box.html#ga8c5a247f8e07ba3280af482559fc72c9" title="Initilise noise_box module." alt="" coords="161,259,242,285"/>
+<area shape="rect" id="node9" href="$pstat2d_2pstat_8f.html#a2bbe8d3479b4665f78bcf5e0993821c2" title="Initilise pstat module." alt="" coords="160,309,243,336"/>
+<area shape="rect" id="node10" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary." alt="" coords="161,563,242,589"/>
+<area shape="rect" id="node11" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module." alt="" coords="166,411,237,437"/>
+<area shape="rect" id="node12" href="$group__sponge__box.html#ga90611f6a3f9eec8349e55392ec7516b6" title="Initilise sponge_box module." alt="" coords="161,461,242,488"/>
+<area shape="rect" id="node13" href="$stat_8f.html#a451d6573c47246d8e0c35e4028a3a1f0" title="Initilise statistics module." alt="" coords="164,512,239,539"/>
+<area shape="rect" id="node14" href="$group__arn__arp.html#gac56f63bdb958fdc41a3e2feef5013eb6" title="Initilise Arnoldi ARPACK module." alt="" coords="152,56,251,83"/>
+<area shape="rect" id="node15" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module." alt="" coords="165,613,237,640"/>
+<area shape="rect" id="node7" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework." alt="" coords="5,461,104,488"/>
 </map>

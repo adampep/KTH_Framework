@@ -1,0 +1,10 @@
+<map id="stat_compute_1dav1" name="stat_compute_1dav1">
+<area shape="rect" id="node1" title="Perform local 1D integration on 1 variable." alt="" coords="5,56,164,83"/>
+<area shape="rect" id="node2" href="$math_8f.html#a4671df6a3bb4689a1bb6566729ce4a37" title=" " alt="" coords="221,5,298,32"/>
+<area shape="rect" id="node3" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="212,56,307,83"/>
+<area shape="rect" id="node8" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="232,107,287,133"/>
+<area shape="rect" id="node4" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="369,31,421,57"/>
+<area shape="rect" id="node6" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="355,81,435,108"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="483,31,556,57"/>
+<area shape="rect" id="node7" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="490,81,549,108"/>
+</map>

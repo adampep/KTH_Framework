@@ -1,4 +1,10 @@
 <map id="Nek5000/core/3rd_party/iniparser.c" name="Nek5000/core/3rd_party/iniparser.c">
-<area shape="rect" id="node3" href="$iniparser_8h.html" title="Parser for ini files. " alt="" coords="123,95,205,121"/>
-<area shape="rect" id="node7" href="$dictionary_8h.html" title="Implements a dictionary for string variables. " alt="" coords="161,169,250,196"/>
+<area shape="rect" id="node1" title="Parser for ini files." alt="" coords="32,5,211,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="34,95,105,121"/>
+<area shape="rect" id="node3" href="$iniparser_8h.html" title="Parser for ini files." alt="" coords="129,95,220,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,244,72,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="97,244,167,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="291,244,362,271"/>
+<area shape="rect" id="node7" href="$dictionary_8h.html" title="Implements a dictionary for string variables." alt="" coords="170,169,267,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="192,244,267,271"/>
 </map>

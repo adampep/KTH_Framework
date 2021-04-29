@@ -1,6 +1,7 @@
 <map id="opcol2" name="opcol2">
-<area shape="rect" id="node2" href="$ssolv_8f.html#a8b37c01e0bc4d591edd93e01f68f6ba9" title="chkssv" alt="" coords="113,31,177,57"/>
-<area shape="rect" id="node3" href="$ssolv_8f.html#a74bc64398b67796fee9c14b71bb435f3" title="chkssvt" alt="" coords="225,31,293,57"/>
-<area shape="rect" id="node4" href="$ssolv_8f.html#a4bb42a5afabbba8c6518d83cbe481c17" title="go1step" alt="" coords="341,5,409,32"/>
-<area shape="rect" id="node5" href="$ssolv_8f.html#a2de8913c214fa083dcb088c57bd45272" title="gostep" alt="" coords="345,56,406,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="363,31,428,57"/>
+<area shape="rect" id="node2" href="$ssolv_8f.html#a8b37c01e0bc4d591edd93e01f68f6ba9" title=" " alt="" coords="248,31,315,57"/>
+<area shape="rect" id="node3" href="$ssolv_8f.html#a74bc64398b67796fee9c14b71bb435f3" title=" " alt="" coords="128,31,200,57"/>
+<area shape="rect" id="node4" href="$ssolv_8f.html#a4bb42a5afabbba8c6518d83cbe481c17" title=" " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node5" href="$ssolv_8f.html#a2de8913c214fa083dcb088c57bd45272" title=" " alt="" coords="9,56,76,83"/>
 </map>

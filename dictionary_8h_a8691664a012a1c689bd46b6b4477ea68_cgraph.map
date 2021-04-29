@@ -1,3 +1,4 @@
 <map id="dictionary_get" name="dictionary_get">
-<area shape="rect" id="node2" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="156,5,269,32"/>
+<area shape="rect" id="node1" title="Get a value from a dictionary." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string." alt="" coords="168,5,293,32"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="ping_loop2" name="ping_loop2">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29" title="pingpong" alt="" coords="137,5,212,32"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144" title="comm_test" alt="" coords="260,5,347,32"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06" title="platform_timer" alt="" coords="395,5,500,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="447,5,540,32"/>
+<area shape="rect" id="node2" href="$comm__mpi_8f.html#aeddcd2657d2637d2e92b83d293229f29" title=" " alt="" coords="316,5,399,32"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4ae3a0a5f8272f42f30b9a02ae9b5144" title=" " alt="" coords="173,5,268,32"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#abab95e95b2bbf6b1aa22905fe1098b06" title=" " alt="" coords="5,5,125,32"/>
 </map>

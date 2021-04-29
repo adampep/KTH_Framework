@@ -1,6 +1,7 @@
 <map id="grad_rstd_ta" name="grad_rstd_ta">
-<area shape="rect" id="node2" href="$convect_8f.html#ae77a896f076c052786cd0dbdbc7b7e95" title="convop_weak" alt="" coords="148,31,251,57"/>
-<area shape="rect" id="node3" href="$convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title="conv_rhs_dg_weak" alt="" coords="299,31,433,57"/>
-<area shape="rect" id="node4" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title="conv_rhs_dg" alt="" coords="481,5,577,32"/>
-<area shape="rect" id="node5" href="$convect_8f.html#ac116aa7e82985c8c7851da63aef07c6c" title="convect_dg" alt="" coords="485,56,574,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="508,31,611,57"/>
+<area shape="rect" id="node2" href="$convect_8f.html#ae77a896f076c052786cd0dbdbc7b7e95" title=" " alt="" coords="349,31,460,57"/>
+<area shape="rect" id="node3" href="$convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title=" " alt="" coords="156,31,301,57"/>
+<area shape="rect" id="node4" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title=" " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node5" href="$convect_8f.html#ac116aa7e82985c8c7851da63aef07c6c" title=" " alt="" coords="9,56,105,83"/>
 </map>

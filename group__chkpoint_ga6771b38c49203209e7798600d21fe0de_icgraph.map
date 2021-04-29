@@ -1,4 +1,9 @@
 <map id="chkpt_get_fset" name="chkpt_get_fset">
-<area shape="rect" id="node2" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint. " alt="" coords="161,5,259,32"/>
-<area shape="rect" id="node3" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface. " alt="" coords="307,5,381,32"/>
+<area shape="rect" id="node1" title="Get step count to the checkpoint and a set number." alt="" coords="345,56,464,83"/>
+<area shape="rect" id="node2" href="$group__gsyn__eddy.html#ga3a453617a573ba433e296ffb8a5c6d6d" title="Create checkpoint." alt="" coords="175,5,297,32"/>
+<area shape="rect" id="node4" href="$group__sfd.html#ga89991c1aeab15b83507d645abf1180ac" title="Create checkpoint." alt="" coords="183,56,289,83"/>
+<area shape="rect" id="node6" href="$group__powerit.html#gae25b7393d77e1cd5139cd60f0672b4b5" title="Write restart files." alt="" coords="181,107,291,133"/>
+<area shape="rect" id="node3" href="$group__gsyn__eddy.html#ga79077bcd4d269738b816281dd8f40193" title="Main gSyEM interface." alt="" coords="17,5,115,32"/>
+<area shape="rect" id="node5" href="$group__sfd.html#ga0b6632977093e8240081e63a4581ae7a" title="Main SFD interface." alt="" coords="25,56,107,83"/>
+<area shape="rect" id="node7" href="$group__powerit.html#ga61cd8777c90822cd29525e306f16879a" title="Renormalise vector and check convergence." alt="" coords="5,107,127,133"/>
 </map>

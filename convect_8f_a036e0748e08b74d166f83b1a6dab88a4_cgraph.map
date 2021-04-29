@@ -1,24 +1,25 @@
 <map id="conv_rhs" name="conv_rhs">
-<area shape="rect" id="node2" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title="col2" alt="" coords="364,5,411,32"/>
-<area shape="rect" id="node5" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title="conv_rhs_dg" alt="" coords="152,183,248,209"/>
-<area shape="rect" id="node11" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="529,309,579,336"/>
-<area shape="rect" id="node16" href="$convect_8f.html#ace970aac277cdecdce1ee7e820473310" title="conv_rhs_dg_aliased" alt="" coords="128,411,272,437"/>
-<area shape="rect" id="node17" href="$convect_8f.html#a281f1b22620e0b1de622a0a0a760df6b" title="convop_cons_3d" alt="" coords="327,512,447,539"/>
-<area shape="rect" id="node19" href="$convect_8f.html#aadc03184873881e2a6bd5ca5541cffa3" title="convop_cons_2d" alt="" coords="327,563,447,589"/>
-<area shape="rect" id="node20" href="$convect_8f.html#a48fc2129fc315f3f12e1ecbb79c3fa5d" title="convop_fst_3d" alt="" coords="334,715,441,741"/>
-<area shape="rect" id="node22" href="$convect_8f.html#a99596f9c7a3ed1479d79bbbefc309449" title="convop_fst_2d" alt="" coords="334,613,441,640"/>
-<area shape="rect" id="node23" href="$math_8f.html#ab775b4418a8ea415b19f2a0861af2636" title="subcol3" alt="" coords="167,715,233,741"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="513,5,595,32"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="653,5,739,32"/>
-<area shape="rect" id="node6" href="$convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title="conv_rhs_dg_weak" alt="" coords="320,107,455,133"/>
-<area shape="rect" id="node10" href="$convect_8f.html#a81ad5024730ce16b71458235d4565f3c" title="full2face" alt="" coords="519,233,589,260"/>
-<area shape="rect" id="node12" href="$convect_8f.html#ae2e3f3b9edb0976a0d8ab264e9902f59" title="map_faced" alt="" coords="511,56,597,83"/>
-<area shape="rect" id="node14" href="$convect_8f.html#ab0242c1110829477bfb44e4f32604a81" title="add_face2full" alt="" coords="338,259,437,285"/>
-<area shape="rect" id="node15" href="$convect_8f.html#ab6188f7006db1c14b2392e513422c0ac" title="fbinvert" alt="" coords="355,309,420,336"/>
-<area shape="rect" id="node7" href="$convect_8f.html#ae77a896f076c052786cd0dbdbc7b7e95" title="convop_weak" alt="" coords="503,183,605,209"/>
-<area shape="rect" id="node13" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="529,107,579,133"/>
-<area shape="rect" id="node8" href="$convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title="lim_chk" alt="" coords="787,512,853,539"/>
-<area shape="rect" id="node9" href="$convect_8f.html#a9560f353879de6e4a86926a9831842a3" title="intp_rstd" alt="" coords="660,563,732,589"/>
-<area shape="rect" id="node18" href="$convect_8f.html#af2ed8cbbeeddc66bc8705dbf318b126d" title="grad_rst" alt="" coords="519,461,589,488"/>
-<area shape="rect" id="node21" href="$convect_8f.html#aa4ec1eea6c397af2007b94806e2ff9fb" title="grad_rstd" alt="" coords="516,715,592,741"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,512,85,539"/>
+<area shape="rect" id="node2" href="$math_8f.html#a3470db04166d9ba91454a14cc17dbec2" title=" " alt="" coords="387,5,436,32"/>
+<area shape="rect" id="node5" href="$convect_8f.html#a54a097b9694cc1cd26ab1bc8eba625e4" title=" " alt="" coords="161,183,263,209"/>
+<area shape="rect" id="node14" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="560,309,615,336"/>
+<area shape="rect" id="node16" href="$convect_8f.html#ace970aac277cdecdce1ee7e820473310" title=" " alt="" coords="133,411,291,437"/>
+<area shape="rect" id="node17" href="$convect_8f.html#aadc03184873881e2a6bd5ca5541cffa3" title=" " alt="" coords="347,512,476,539"/>
+<area shape="rect" id="node19" href="$convect_8f.html#a281f1b22620e0b1de622a0a0a760df6b" title=" " alt="" coords="347,563,476,589"/>
+<area shape="rect" id="node20" href="$convect_8f.html#a99596f9c7a3ed1479d79bbbefc309449" title=" " alt="" coords="353,613,469,640"/>
+<area shape="rect" id="node22" href="$convect_8f.html#a48fc2129fc315f3f12e1ecbb79c3fa5d" title=" " alt="" coords="353,715,469,741"/>
+<area shape="rect" id="node23" href="$math_8f.html#ab775b4418a8ea415b19f2a0861af2636" title=" " alt="" coords="176,715,248,741"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="543,5,631,32"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="691,5,785,32"/>
+<area shape="rect" id="node6" href="$convect_8f.html#ab0242c1110829477bfb44e4f32604a81" title=" " alt="" coords="356,259,467,285"/>
+<area shape="rect" id="node7" href="$convect_8f.html#a7975b977bdaf7637493e0beacb3a224b" title=" " alt="" coords="339,107,484,133"/>
+<area shape="rect" id="node12" href="$convect_8f.html#a81ad5024730ce16b71458235d4565f3c" title=" " alt="" coords="548,233,627,260"/>
+<area shape="rect" id="node13" href="$convect_8f.html#ae2e3f3b9edb0976a0d8ab264e9902f59" title=" " alt="" coords="540,56,635,83"/>
+<area shape="rect" id="node15" href="$convect_8f.html#ab6188f7006db1c14b2392e513422c0ac" title=" " alt="" coords="375,309,448,336"/>
+<area shape="rect" id="node8" href="$convect_8f.html#ae77a896f076c052786cd0dbdbc7b7e95" title=" " alt="" coords="532,183,643,209"/>
+<area shape="rect" id="node11" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="561,107,614,133"/>
+<area shape="rect" id="node9" href="$convect_8f.html#a9560f353879de6e4a86926a9831842a3" title=" " alt="" coords="699,563,777,589"/>
+<area shape="rect" id="node10" href="$convect_8f.html#aef5d48d354e9e03de35748eecb7e42f9" title=" " alt="" coords="833,512,907,539"/>
+<area shape="rect" id="node18" href="$convect_8f.html#af2ed8cbbeeddc66bc8705dbf318b126d" title=" " alt="" coords="550,461,625,488"/>
+<area shape="rect" id="node21" href="$convect_8f.html#aa4ec1eea6c397af2007b94806e2ff9fb" title=" " alt="" coords="546,715,629,741"/>
 </map>

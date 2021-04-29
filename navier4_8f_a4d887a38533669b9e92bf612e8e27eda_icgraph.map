@@ -1,5 +1,6 @@
 <map id="hypot" name="hypot">
-<area shape="rect" id="node2" href="$navier4_8f.html#a175a74fde36ad061edc2ea92146a9ed3" title="givens_rotation" alt="" coords="108,5,219,32"/>
-<area shape="rect" id="node3" href="$navier4_8f.html#a699a84f6ca5347a86adf5f41889d1d82" title="proj_ortho" alt="" coords="267,5,345,32"/>
-<area shape="rect" id="node4" href="$navier4_8f.html#ab39fd511a29c7e9726338ba7d82d72d8" title="project2_a" alt="" coords="393,5,476,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="451,5,509,32"/>
+<area shape="rect" id="node2" href="$navier4_8f.html#a175a74fde36ad061edc2ea92146a9ed3" title=" " alt="" coords="280,5,403,32"/>
+<area shape="rect" id="node3" href="$navier4_8f.html#a699a84f6ca5347a86adf5f41889d1d82" title=" " alt="" coords="144,5,232,32"/>
+<area shape="rect" id="node4" href="$navier4_8f.html#ab39fd511a29c7e9726338ba7d82d72d8" title=" " alt="" coords="5,5,96,32"/>
 </map>

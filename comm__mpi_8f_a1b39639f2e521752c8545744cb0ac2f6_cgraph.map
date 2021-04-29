@@ -1,6 +1,0 @@
-<map id="init_nek_comm" name="init_nek_comm">
-<area shape="rect" id="node2" href="$comm__mpi_8f.html#a2fae0158282f10009f27373acd2a0337" title="mynode" alt="" coords="171,5,239,32"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#a5fa0e3f8e522daadca985edc11b014c1" title="numnodes" alt="" coords="164,56,247,83"/>
-<area shape="rect" id="node3" href="$mpi__dummy_8f.html#aabc99956c6af4e66cc75f4247046594c" title="mpi_comm_rank" alt="" coords="295,5,413,32"/>
-<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ac160db4315dd0998ac7f60dd94f35c0e" title="mpi_comm_size" alt="" coords="295,56,413,83"/>
-</map>

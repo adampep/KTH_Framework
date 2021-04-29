@@ -1,0 +1,52 @@
+<map id="pstat_main" name="pstat_main">
+<area shape="rect" id="node1" title="Main interface of pstat module." alt="" coords="5,1611,100,1638"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="724,1637,804,1663"/>
+<area shape="rect" id="node4" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="148,1915,263,1942"/>
+<area shape="rect" id="node5" href="$pstat2d_2pstat_8f.html#a9434562889542582abb5076bd17ae136" title="Calculate derivatives." alt="" coords="158,598,253,625"/>
+<area shape="rect" id="node23" href="$pstat2d_2pstat_8f.html#a750a6d785e8c0711c55cc38d0f19c77f" title="Interpolate int the set of points." alt="" coords="155,1257,255,1283"/>
+<area shape="rect" id="node34" href="$pstat2d_2pstat_8f.html#a77d4658d95cd95edeb634e02052a6bc8" title="Manipulate mesh to find proper element ordering (in case of AMR refine)" alt="" coords="311,1383,489,1410"/>
+<area shape="rect" id="node38" href="$pstat2d_2pstat__IO_8f.html#a98a6c5134b7f66e05a590da2e76d4f50" title="Read nonconforming data from the file." alt="" coords="337,1713,463,1739"/>
+<area shape="rect" id="node46" href="$pstat2d_2pstat_8f.html#a6e53f4cb7a8bc530f19201e28dff2741" title="Read in fields and average them." alt="" coords="149,1611,261,1638"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="852,1701,911,1727"/>
+<area shape="rect" id="node6" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="737,725,791,751"/>
+<area shape="rect" id="node7" href="$ic_8f.html#aaf47b255d1cfac3451a8473ee6876b4f" title=" " alt="" coords="351,269,449,295"/>
+<area shape="rect" id="node10" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="737,294,791,321"/>
+<area shape="rect" id="node17" href="$navier5_8f.html#aef718c6a74c3602cfcd7871434619ee5" title=" " alt="" coords="364,649,436,675"/>
+<area shape="rect" id="node21" href="$prepost_8f.html#aaf4c0f2e1790302116a4c719c2eb50ff" title=" " alt="" coords="361,775,439,802"/>
+<area shape="rect" id="node8" href="$coef_8f.html#a8cbb48eee5edaf128d65bb31ac49c3ff" title=" " alt="" coords="573,91,640,118"/>
+<area shape="rect" id="node9" href="$coef_8f.html#aa1888ed007f00d368349e09888f324ca" title=" " alt="" coords="573,345,640,371"/>
+<area shape="rect" id="node11" href="$ic_8f.html#a43c44d63d3f7f32d6e526ba4baab2f33" title=" " alt="" coords="561,142,652,169"/>
+<area shape="rect" id="node12" href="$genxyz_8f.html#a320d8270cd92517272b9ea39555aafee" title=" " alt="" coords="575,294,638,321"/>
+<area shape="rect" id="node13" href="$coef_8f.html#a23e88cda66e9644ca7e005629785b0f2" title=" " alt="" coords="569,497,644,523"/>
+<area shape="rect" id="node14" href="$hmholtz_8f.html#a2810cb17f431100b674ac6d746d45ad9" title=" " alt="" coords="571,41,642,67"/>
+<area shape="rect" id="node15" href="$subs2_8f.html#aa57451cc7f331b193194eadc074dbbba" title=" " alt="" coords="566,193,647,219"/>
+<area shape="rect" id="node16" href="$coef_8f.html#a9f5bcc9bbca02379fdf1aa0aa77845cf" title=" " alt="" coords="571,243,642,270"/>
+<area shape="rect" id="node18" href="$navier5_8f.html#a53feb767cebebba399ab3c5a50f53155" title=" " alt="" coords="558,598,655,625"/>
+<area shape="rect" id="node19" href="$navier5_8f.html#ad24367e4a843f60b63a2205aef1ba551" title=" " alt="" coords="558,649,655,675"/>
+<area shape="rect" id="node20" href="$subs1_8f.html#a8a9da5a10943bfb2176353bd597f87ce" title=" " alt="" coords="569,699,644,726"/>
+<area shape="rect" id="node22" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="738,1155,790,1182"/>
+<area shape="rect" id="node24" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="553,1257,660,1283"/>
+<area shape="rect" id="node25" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="559,1561,654,1587"/>
+<area shape="rect" id="node26" href="$pstat2d_2pstat__IO_8f.html#a12b51101e020a8cb5da32bab44b7a7b2" title="Read interpolation points position and redistribute them." alt="" coords="335,1181,465,1207"/>
+<area shape="rect" id="node33" href="$pstat2d_2pstat__IO_8f.html#a4844b1fb9dc1512c85d69f90dcc82cca" title="Geather data and write it down." alt="" coords="333,1003,467,1030"/>
+<area shape="rect" id="node27" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="578,1409,635,1435"/>
+<area shape="rect" id="node28" href="$prepost_8f.html#a5802584ce57124068d1ee183348e3275" title=" " alt="" coords="573,1307,640,1334"/>
+<area shape="rect" id="node29" href="$comm__mpi_8f.html#a0af9bbba11023702ef8c8dac4dd80677" title=" " alt="" coords="574,953,639,979"/>
+<area shape="rect" id="node30" href="$comm__mpi_8f.html#abd95004b45059acdcc13614c52e60eae" title=" " alt="" coords="577,1003,637,1030"/>
+<area shape="rect" id="node31" href="$group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation." alt="" coords="537,1155,676,1182"/>
+<area shape="rect" id="node32" href="$group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer." alt="" coords="565,1206,649,1233"/>
+<area shape="rect" id="node35" href="$dprocmap_8f.html#a90fd349db1c16c4cb8108485b3c200e0" title=" " alt="" coords="581,1510,632,1537"/>
+<area shape="rect" id="node36" href="$dprocmap_8f.html#aa8f8117aad966b2c1f877b334d9d407b" title=" " alt="" coords="577,1459,636,1486"/>
+<area shape="rect" id="node37" href="$navier8_8f.html#adcc31cd78dd8ff5e821a590c916e4506" title=" " alt="" coords="561,1358,652,1385"/>
+<area shape="rect" id="node39" href="$ic_8f.html#a6c038aadb593728de8050e552ea4acc6" title=" " alt="" coords="575,1966,638,1993"/>
+<area shape="rect" id="node40" href="$byte__mpi_8f.html#ad3bd4b2e53becc49947fba3e0738f789" title=" " alt="" coords="545,1814,669,1841"/>
+<area shape="rect" id="node41" href="$byte__mpi_8f.html#a0e8afd7bb43c632b4f370196cb302c65" title=" " alt="" coords="545,1662,668,1689"/>
+<area shape="rect" id="node42" href="$byte__mpi_8f.html#a91adf5e8a4faef0ead93d4cd48e4ab00" title=" " alt="" coords="547,1713,666,1739"/>
+<area shape="rect" id="node43" href="$byte__mpi_8f.html#ad62e65c087d45367b00222a7b05890eb" title=" " alt="" coords="549,1865,665,1891"/>
+<area shape="rect" id="node44" href="$prepost_8f.html#abb385320698675796ad307a27f4855af" title=" " alt="" coords="575,2017,638,2043"/>
+<area shape="rect" id="node45" href="$group__io__tools.html#ga7397583188d542970171dd7f560c9427" title="Generate file name according to nek rulles without opening the file." alt="" coords="549,2067,665,2094"/>
+<area shape="rect" id="node47" href="$math_8f.html#a34a2c89ac31311482e2ec34fbb7c5a7a" title=" " alt="" coords="365,1561,435,1587"/>
+<area shape="rect" id="node48" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="371,1662,429,1689"/>
+<area shape="rect" id="node49" href="$ic_8f.html#a05e0886b196049bac2d39b9d500a70d1" title=" " alt="" coords="378,1821,422,1847"/>
+<area shape="rect" id="node50" href="$pstat2d_2pstat_8f.html#a87816897b638c05b66abca0a6ee35910" title="Reshuffle elements between sts and current ordering." alt="" coords="343,1459,457,1486"/>
+</map>

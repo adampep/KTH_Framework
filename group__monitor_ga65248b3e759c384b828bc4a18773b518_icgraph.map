@@ -1,4 +1,5 @@
 <map id="mntr_tmr_get_olist" name="mntr_tmr_get_olist">
-<area shape="rect" id="node2" href="$group__monitor.html#ga37fbdcd8470a3cbc5805c6b6a9597e09" title="Print registered timers showing tree structure. " alt="" coords="184,5,351,32"/>
-<area shape="rect" id="node3" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework. " alt="" coords="399,5,481,32"/>
+<area shape="rect" id="node1" title="Provide ordered list of registered timers for printing." alt="" coords="383,5,529,32"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga37fbdcd8470a3cbc5805c6b6a9597e09" title="Print registered timers showing tree structure." alt="" coords="145,5,335,32"/>
+<area shape="rect" id="node3" href="$group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce" title="Finalise framework." alt="" coords="5,5,97,32"/>
 </map>

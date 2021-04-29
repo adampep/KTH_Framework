@@ -1,0 +1,4 @@
+<map id="stepper_vsolve" name="stepper_vsolve">
+<area shape="rect" id="node1" title="Create Krylov space, get Ritz values and restart stepper phase." alt="" coords="135,5,256,32"/>
+<area shape="rect" id="node2" href="$group__tstepper.html#gabc3504de0ea6143af4350deba53d3004" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule." alt="" coords="5,5,87,32"/>
+</map>

@@ -1,8 +1,9 @@
 <map id="ibdgeom" name="ibdgeom">
-<area shape="rect" id="node2" href="$dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title="dsop" alt="" coords="132,5,183,32"/>
-<area shape="rect" id="node5" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title="facind" alt="" coords="129,56,186,83"/>
-<area shape="rect" id="node6" href="$mvmesh_8f.html#ab2e777b461498ed25817c76db1188cda" title="inigeom" alt="" coords="124,107,191,133"/>
-<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="132,157,183,184"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="239,5,317,32"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="365,5,452,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,84,108"/>
+<area shape="rect" id="node2" href="$dssum_8f.html#ab0865b005738b43cd2bcc73e7bac86f7" title=" " alt="" coords="143,5,196,32"/>
+<area shape="rect" id="node5" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title=" " alt="" coords="138,56,201,83"/>
+<area shape="rect" id="node6" href="$mvmesh_8f.html#ab2e777b461498ed25817c76db1188cda" title=" " alt="" coords="132,107,207,133"/>
+<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="142,157,197,184"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="255,5,339,32"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title=" " alt="" coords="387,5,484,32"/>
 </map>

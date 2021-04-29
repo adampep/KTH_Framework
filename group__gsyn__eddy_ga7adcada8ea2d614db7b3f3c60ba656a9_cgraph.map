@@ -1,0 +1,44 @@
+<map id="gsem_init" name="gsem_init">
+<area shape="rect" id="node1" title="Initilise gSyEM module." alt="" coords="5,1120,92,1147"/>
+<area shape="rect" id="node2" href="$group__gsyn__eddy.html#gaa74db90a0d40197077972e97b9fb8c89" title="Generate family information." alt="" coords="140,461,275,488"/>
+<area shape="rect" id="node18" href="$group__monitor.html#gace23caf3364c03dfa97a87212382b41a" title="Abort simulation." alt="" coords="549,664,688,691"/>
+<area shape="rect" id="node26" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="365,917,459,944"/>
+<area shape="rect" id="node30" href="$group__gsyn__eddy.html#ga1b667e3f47a2bb36eb7cbde8b0a55eef" title="Inital generation of all eddies (gsem_mode.eq.1) for a given family." alt="" coords="147,1019,267,1045"/>
+<area shape="rect" id="node33" href="$group__gsyn__eddy.html#gaecaecac1f66b465eda5ede6957961890" title="Inital generation of all modes (gsem_mode.eq.3) for a given family." alt="" coords="349,1272,475,1299"/>
+<area shape="rect" id="node34" href="$group__gsyn__eddy.html#ga0bed8f78f50b3ee9d289c40a096b354b" title="Read from checkpoint." alt="" coords="353,753,471,780"/>
+<area shape="rect" id="node35" href="$math_8f.html#a943dc1fc319c98267fac3af1e8010e9a" title=" " alt="" coords="180,1120,235,1147"/>
+<area shape="rect" id="node36" href="$group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id." alt="" coords="323,1449,501,1476"/>
+<area shape="rect" id="node38" href="$group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="150,1171,265,1197"/>
+<area shape="rect" id="node39" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="366,1221,458,1248"/>
+<area shape="rect" id="node40" href="$group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally." alt="" coords="157,1069,258,1096"/>
+<area shape="rect" id="node41" href="$group__runparam.html#ga2b21fc1b5a753233af599fc4c9746af1" title="Check if parameter name is registered and return its id. Check flags as well." alt="" coords="331,1399,493,1425"/>
+<area shape="rect" id="node42" href="$group__runparam.html#gab392710d0bba8720e60d190aff199693" title="Check if section name is registered and return its id. Check mid as well." alt="" coords="326,1323,498,1349"/>
+<area shape="rect" id="node3" href="$math_8f.html#add7cf4f5279a2239cfd54f963a53e618" title=" " alt="" coords="389,157,435,184"/>
+<area shape="rect" id="node4" href="$math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="589,309,648,336"/>
+<area shape="rect" id="node5" href="$dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2" title=" " alt="" coords="381,208,443,235"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title=" " alt="" coords="389,259,435,285"/>
+<area shape="rect" id="node13" href="$group__gsyn__eddy.html#ga03ed80591aca627152b1887d76d46cb1" title="Generate profile information for given family face." alt="" coords="349,360,475,387"/>
+<area shape="rect" id="node15" href="$group__gsyn__eddy.html#ga588937b445a3c01303443acda7fbcc2b" title="Read profiles for all familes." alt="" coords="349,537,475,564"/>
+<area shape="rect" id="node19" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="755,1069,835,1096"/>
+<area shape="rect" id="node22" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="591,461,646,488"/>
+<area shape="rect" id="node23" href="$group__math.html#ga02eb40bed26d98d5ee0ff81595c927d4" title="Extract element edge." alt="" coords="359,56,465,83"/>
+<area shape="rect" id="node25" href="$group__math.html#ga23132f7174dc96fb527ae9d48a3bb930" title="Initialise Marsaglia&#45;Zaman random number generator." alt="" coords="359,588,465,615"/>
+<area shape="rect" id="node27" href="$group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer." alt="" coords="577,1019,661,1045"/>
+<area shape="rect" id="node28" href="$group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real." alt="" coords="576,917,661,944"/>
+<area shape="rect" id="node29" href="$group__math.html#gacf2f8e58087ed7f086d976075e59c60f" title="3D rotation of a vector along given axis" alt="" coords="363,411,461,437"/>
+<area shape="rect" id="node6" href="$connect1_8f.html#aa1c9016b4c28e8a8512be6f6d67eefce" title=" " alt="" coords="587,56,650,83"/>
+<area shape="rect" id="node8" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="592,411,645,437"/>
+<area shape="rect" id="node9" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="751,233,839,260"/>
+<area shape="rect" id="node10" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="769,664,821,691"/>
+<area shape="rect" id="node11" href="$mpi__dummy_8f.html#acd9229b5fb6a4d16f9917a5b5c2f0909" title=" " alt="" coords="561,157,676,184"/>
+<area shape="rect" id="node12" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="577,208,661,235"/>
+<area shape="rect" id="node14" href="$math_8f.html#a0d9af374781723c272547a185cb3da5e" title=" " alt="" coords="594,360,643,387"/>
+<area shape="rect" id="node16" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="590,1272,647,1299"/>
+<area shape="rect" id="node17" href="$group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="565,563,672,589"/>
+<area shape="rect" id="node21" href="$group__monitor.html#gab81bed6cf61e681559a5b091e58640ac" title="Write log message from given process." alt="" coords="736,563,855,589"/>
+<area shape="rect" id="node20" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="903,1196,961,1223"/>
+<area shape="rect" id="node24" href="$group__math.html#gadccfbc20f9594206eb9487e35c9219cd" title="Give bounds for loops to extract edge." alt="" coords="565,5,672,32"/>
+<area shape="rect" id="node31" href="$group__gsyn__eddy.html#gaf08168930511acdb011567cb27b05f8e" title="Generate eddies from the list for a given family." alt="" coords="350,1069,474,1096"/>
+<area shape="rect" id="node32" href="$math_8f.html#a1e85d2406444243269f0d85c61a02dce" title=" " alt="" coords="590,1069,647,1096"/>
+<area shape="rect" id="node37" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title=" " alt="" coords="591,1424,646,1451"/>
+</map>

@@ -1,10 +1,11 @@
 <map id="cfl_check" name="cfl_check">
-<area shape="rect" id="node2" href="$induct_8f.html#ad9f4f0bccae8f16bc99748c359b489db" title="compute_cfl" alt="" coords="147,56,241,83"/>
-<area shape="rect" id="node8" href="$navier1_8f.html#a55f0c02db80925df02a6998e17985478" title="opcopy" alt="" coords="304,107,368,133"/>
-<area shape="rect" id="node9" href="$induct_8f.html#af71d0ae6a9ff8b0615184d959333fda5" title="phys_to_elsasser" alt="" coords="132,157,256,184"/>
-<area shape="rect" id="node3" href="$induct_8f.html#ae640c10e27288b1e650b562ce9ecdcdc" title="getdr" alt="" coords="311,5,361,32"/>
-<area shape="rect" id="node5" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title="glmax" alt="" coords="307,56,365,83"/>
-<area shape="rect" id="node4" href="$math_8f.html#ae73fec4554ac4d498b4de4e092fb32fa" title="invcol1" alt="" coords="416,5,479,32"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title="gop" alt="" coords="426,56,469,83"/>
-<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="527,81,577,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,88,133"/>
+<area shape="rect" id="node2" href="$induct_8f.html#ad9f4f0bccae8f16bc99748c359b489db" title=" " alt="" coords="152,56,255,83"/>
+<area shape="rect" id="node8" href="$navier1_8f.html#a55f0c02db80925df02a6998e17985478" title=" " alt="" coords="319,107,388,133"/>
+<area shape="rect" id="node9" href="$induct_8f.html#af71d0ae6a9ff8b0615184d959333fda5" title=" " alt="" coords="136,157,271,184"/>
+<area shape="rect" id="node3" href="$induct_8f.html#ae640c10e27288b1e650b562ce9ecdcdc" title=" " alt="" coords="325,5,381,32"/>
+<area shape="rect" id="node5" href="$math_8f.html#af58b0d2ff8df811dc27c9e42460492b9" title=" " alt="" coords="322,56,385,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#ae73fec4554ac4d498b4de4e092fb32fa" title=" " alt="" coords="436,5,505,32"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a3f652605d55796462e959d17b5a9612b" title=" " alt="" coords="447,56,494,83"/>
+<area shape="rect" id="node7" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="553,81,607,108"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="Checkpointing routines" name="Checkpointing routines">
-<area shape="rect" id="node1" href="$group__chkptdummy.html" title="Dummy routines for checkpointing. " alt="" coords="397,5,549,32"/>
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html" title="Multistep checkpointing for DNS, MHD and linear simulations. " alt="" coords="393,56,552,83"/>
-<area shape="rect" id="node4" href="$group__io.html" title="I/O routines for toolboxes. " alt="" coords="5,31,143,57"/>
+<area shape="rect" id="node1" href="$group__chkptdummy.html" title="Dummy routines for checkpointing." alt="" coords="433,5,602,31"/>
+<area shape="rect" id="node2" href="$group__chkpoint__mstep.html" title="Multistep checkpointing for DNS, MHD and linear simulations." alt="" coords="428,55,607,80"/>
+<area shape="rect" id="node3" title="Checkpointing routines for toolbox." alt="" coords="208,31,380,56"/>
+<area shape="rect" id="node4" href="$group__io.html" title="I/O routines for toolboxes." alt="" coords="5,31,160,56"/>
 </map>

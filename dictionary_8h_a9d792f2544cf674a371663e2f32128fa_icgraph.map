@@ -1,6 +1,5 @@
 <map id="dictionary_del" name="dictionary_del">
-<area shape="rect" id="node2" href="$finiparser_8c.html#a074d8c2823b366970120fdf71f5004a1" title="finiparser_free" alt="" coords="165,5,269,32"/>
-<area shape="rect" id="node3" href="$iniparser_8h.html#ab0be559bfb769224b3f1b75e26242a67" title="Parse an ini file and return an allocated dictionary object. " alt="" coords="165,56,268,83"/>
-<area shape="rect" id="node5" href="$iniparser_8h.html#a90549ee518523921886b74454ff872eb" title="Free all memory associated to an ini dictionary. " alt="" coords="156,107,277,133"/>
-<area shape="rect" id="node4" href="$finiparser_8c.html#ac5e7774c13da3260f6c0773c5c866337" title="finiparser_load" alt="" coords="325,56,432,83"/>
+<area shape="rect" id="node1" title="Delete a dictionary object." alt="" coords="189,31,304,57"/>
+<area shape="rect" id="node2" href="$iniparser_8h.html#a90549ee518523921886b74454ff872eb" title="Free all memory associated to an ini dictionary." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node3" href="$iniparser_8h.html#ab0be559bfb769224b3f1b75e26242a67" title="Parse an ini file and return an allocated dictionary object." alt="" coords="16,56,131,83"/>
 </map>

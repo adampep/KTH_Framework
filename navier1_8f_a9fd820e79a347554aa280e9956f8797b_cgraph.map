@@ -1,10 +1,9 @@
 <map id="setbd" name="setbd">
-<area shape="rect" id="node2" href="$navier1_8f.html#a835b4c94347f028b18f1decba7cbe80b" title="bdsys" alt="" coords="108,5,165,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="213,31,264,57"/>
-<area shape="rect" id="node4" href="$gauss_8f.html#a56096d95369f48aa8e36034ede66f33b" title="lu" alt="" coords="117,107,156,133"/>
-<area shape="rect" id="node5" href="$gauss_8f.html#a47ad19a4031a1ba83c34e96abab9476c" title="solve" alt="" coords="110,157,163,184"/>
-<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="215,157,262,184"/>
-<area shape="rect" id="node7" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="325,132,424,159"/>
-<area shape="rect" id="node8" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="341,183,408,209"/>
-<area shape="rect" id="node9" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="312,233,437,260"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,64,83"/>
+<area shape="rect" id="node2" href="$navier1_8f.html#a835b4c94347f028b18f1decba7cbe80b" title=" " alt="" coords="112,5,172,32"/>
+<area shape="rect" id="node4" href="$gauss_8f.html#a56096d95369f48aa8e36034ede66f33b" title=" " alt="" coords="123,56,161,83"/>
+<area shape="rect" id="node5" href="$gauss_8f.html#a47ad19a4031a1ba83c34e96abab9476c" title=" " alt="" coords="113,107,171,133"/>
+<area shape="rect" id="node3" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="220,5,275,32"/>
+<area shape="rect" id="node6" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="221,107,273,133"/>
+<area shape="rect" id="node7" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="323,107,396,133"/>
 </map>

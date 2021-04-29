@@ -1,4 +1,5 @@
 <map id="mntr_tmr_add" name="mntr_tmr_add">
-<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="156,5,228,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="276,5,329,32"/>
+<area shape="rect" id="node1" title="Check if timer id is registered. This operation is performed locally." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="168,5,248,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="296,5,355,32"/>
 </map>

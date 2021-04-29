@@ -1,0 +1,7 @@
+<map id="stat_reshufflev" name="stat_reshufflev">
+<area shape="rect" id="node1" title="Array reshuffle." alt="" coords="295,31,415,57"/>
+<area shape="rect" id="node2" href="$stat_8f.html#a678db8504a48380d268b8bc8fdcbe6bc" title="Compute statistics." alt="" coords="134,5,245,32"/>
+<area shape="rect" id="node4" href="$stat_8f.html#a978f4265e37388765d18773f660633ba" title="Get local integration coefficients." alt="" coords="132,56,247,83"/>
+<area shape="rect" id="node3" href="$stat_8f.html#a16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node5" href="$stat_8f.html#a451d6573c47246d8e0c35e4028a3a1f0" title="Initilise statistics module." alt="" coords="7,56,82,83"/>
+</map>

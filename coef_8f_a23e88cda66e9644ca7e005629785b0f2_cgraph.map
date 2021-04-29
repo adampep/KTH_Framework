@@ -1,9 +1,10 @@
 <map id="setinvm" name="setinvm">
-<area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title="copy" alt="" coords="127,5,178,32"/>
-<area shape="rect" id="node3" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title="dssum" alt="" coords="122,56,183,83"/>
-<area shape="rect" id="node8" href="$math_8f.html#ae73fec4554ac4d498b4de4e092fb32fa" title="invcol1" alt="" coords="121,107,184,133"/>
-<area shape="rect" id="node4" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="233,31,312,57"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="232,81,313,108"/>
-<area shape="rect" id="node5" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="361,31,448,57"/>
-<area shape="rect" id="node7" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="362,81,447,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,80,83"/>
+<area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="136,5,189,32"/>
+<area shape="rect" id="node3" href="$dssum_8f.html#ad67373714b1c3bafed536081167e2cd6" title=" " alt="" coords="130,56,195,83"/>
+<area shape="rect" id="node8" href="$math_8f.html#ae73fec4554ac4d498b4de4e092fb32fa" title=" " alt="" coords="128,107,197,133"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="245,31,333,57"/>
+<area shape="rect" id="node6" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="247,81,331,108"/>
+<area shape="rect" id="node5" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="383,31,477,57"/>
+<area shape="rect" id="node7" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title=" " alt="" coords="381,81,479,108"/>
 </map>

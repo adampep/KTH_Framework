@@ -1,8 +1,9 @@
 <map id="hsmg_setup_rstr_wt" name="hsmg_setup_rstr_wt">
-<area shape="rect" id="node2" href="$hsmg_8f.html#a53462275516b6927e6922dca3e6c2ecf" title="hsmg_dssum" alt="" coords="193,31,293,57"/>
-<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title="rzero" alt="" coords="218,81,269,108"/>
-<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title="dnekclock" alt="" coords="341,5,423,32"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title="nekgsync" alt="" coords="343,56,421,83"/>
-<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title="mpi_wtime" alt="" coords="471,5,557,32"/>
-<area shape="rect" id="node6" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title="mpi_barrier" alt="" coords="471,56,557,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,159,83"/>
+<area shape="rect" id="node2" href="$hsmg_8f.html#a53462275516b6927e6922dca3e6c2ecf" title=" " alt="" coords="207,31,315,57"/>
+<area shape="rect" id="node7" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="233,81,288,108"/>
+<area shape="rect" id="node3" href="$comm__mpi_8f.html#af06ec29f06aac3f8809e19de2a7e8946" title=" " alt="" coords="363,5,451,32"/>
+<area shape="rect" id="node5" href="$comm__mpi_8f.html#a4acb4d8e379294232e9219bec063d8f3" title=" " alt="" coords="365,56,449,83"/>
+<area shape="rect" id="node4" href="$mpi__dummy_8f.html#ae6a5ef945f87c2c27849696b70f3af2a" title=" " alt="" coords="500,5,595,32"/>
+<area shape="rect" id="node6" href="$mpi__dummy_8f.html#a070afe564196eb48413dbf1a9fbc99aa" title=" " alt="" coords="499,56,596,83"/>
 </map>

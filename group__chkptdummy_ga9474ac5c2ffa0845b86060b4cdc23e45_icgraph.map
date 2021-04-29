@@ -1,3 +1,4 @@
 <map id="chkpts_is_initialised" name="chkpts_is_initialised">
-<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#ga9474ac5c2ffa0845b86060b4cdc23e45" title="Check if module was initialised. " alt="" coords="192,5,331,32"/>
+<area shape="rect" id="node1" title="Dummy replacement for check of module initialisation." alt="" coords="208,5,363,32"/>
+<area shape="rect" id="node2" href="$group__chkpoint__mstep.html#ga9474ac5c2ffa0845b86060b4cdc23e45" title="Check if module was initialised." alt="" coords="5,5,160,32"/>
 </map>

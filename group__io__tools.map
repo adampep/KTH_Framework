@@ -1,3 +1,4 @@
 <map id="I/O tools" name="I/O tools">
-<area shape="rect" id="node1" href="$group__io.html" title="I/O routines for toolboxes. " alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node1" href="$group__io.html" title="I/O routines for toolboxes." alt="" coords="5,5,160,31"/>
+<area shape="rect" id="node2" title="Input/Output simple tools." alt="" coords="208,5,284,31"/>
 </map>

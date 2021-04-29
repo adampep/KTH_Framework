@@ -1,4 +1,5 @@
 <map id="mntr_set_step_delay" name="mntr_set_step_delay">
-<area shape="rect" id="node2" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module. " alt="" coords="199,5,303,32"/>
-<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module. " alt="" coords="196,56,307,83"/>
+<area shape="rect" id="node1" title="Set number of steps necessary to write proper checkpointing." alt="" coords="176,31,335,57"/>
+<area shape="rect" id="node2" href="$group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8" title="Register checkpointing module." alt="" coords="9,5,124,32"/>
+<area shape="rect" id="node3" href="$group__chkpoint__mstep.html#ga358b78dddcfafe899999554af7bc032c" title="Register multi step checkpointing module." alt="" coords="5,56,128,83"/>
 </map>

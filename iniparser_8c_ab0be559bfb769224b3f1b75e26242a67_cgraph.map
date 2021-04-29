@@ -1,4 +1,5 @@
 <map id="iniparser_load" name="iniparser_load">
-<area shape="rect" id="node2" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object. " alt="" coords="159,5,262,32"/>
-<area shape="rect" id="node3" href="$dictionary_8c.html#afd6e7e396a9b18f8e610b1236261f6dd" title="Create a new dictionary object. " alt="" coords="156,56,265,83"/>
+<area shape="rect" id="node1" title="Parse an ini file and return an allocated dictionary object." alt="" coords="5,31,120,57"/>
+<area shape="rect" id="node2" href="$dictionary_8c.html#a11b19a39bef9cf05b19adb01ced4fae5" title="Delete a dictionary object." alt="" coords="171,5,286,32"/>
+<area shape="rect" id="node3" href="$dictionary_8c.html#afd6e7e396a9b18f8e610b1236261f6dd" title="Create a new dictionary object." alt="" coords="168,56,289,83"/>
 </map>

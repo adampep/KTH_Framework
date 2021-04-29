@@ -1,22 +1,21 @@
 <map id="rprm_register" name="rprm_register">
-<area shape="rect" id="node2" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation. " alt="" coords="386,385,470,412"/>
-<area shape="rect" id="node9" href="$group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id. " alt="" coords="152,613,313,640"/>
-<area shape="rect" id="node13" href="$group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module. " alt="" coords="180,487,285,513"/>
-<area shape="rect" id="node14" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message. " alt="" coords="191,183,274,209"/>
-<area shape="rect" id="node15" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter. " alt="" coords="187,335,278,361"/>
-<area shape="rect" id="node19" href="$group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section. " alt="" coords="182,563,283,589"/>
-<area shape="rect" id="node21" href="$group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted. " alt="" coords="169,436,296,463"/>
-<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title="exitt" alt="" coords="561,81,607,108"/>
-<area shape="rect" id="node7" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message. " alt="" coords="548,385,620,412"/>
-<area shape="rect" id="node4" href="$multimesh_8f.html#a3cf86c0c810f08d2ed2b3ecdb183146f" title="happy_check" alt="" coords="687,107,785,133"/>
-<area shape="rect" id="node5" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title="nek_die" alt="" coords="703,5,769,32"/>
-<area shape="rect" id="node6" href="$comm__mpi_8f.html#aecb92a457f6ec83709a380299db794ed" title="print_runtime_info" alt="" coords="673,56,799,83"/>
-<area shape="rect" id="node8" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title="blank" alt="" coords="709,537,763,564"/>
-<area shape="rect" id="node10" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title="bcast" alt="" coords="401,487,455,513"/>
-<area shape="rect" id="node12" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title="capit" alt="" coords="403,588,453,615"/>
-<area shape="rect" id="node11" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title="mpi_bcast" alt="" coords="543,487,625,513"/>
-<area shape="rect" id="node16" href="$group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer. " alt="" coords="391,335,465,361"/>
-<area shape="rect" id="node17" href="$group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real. " alt="" coords="390,183,466,209"/>
-<area shape="rect" id="node18" href="$group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical. " alt="" coords="391,233,465,260"/>
-<area shape="rect" id="node20" href="$group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally. " alt="" coords="361,689,495,716"/>
+<area shape="rect" id="node1" title="Register runtime parameters database." alt="" coords="5,301,116,328"/>
+<area shape="rect" id="node2" href="$group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="418,250,513,277"/>
+<area shape="rect" id="node7" href="$group__monitor.html#ga269486082a4638007da6211cc7b5e7c5" title="Check if module name is registered and return its id." alt="" coords="164,478,343,505"/>
+<area shape="rect" id="node11" href="$group__monitor.html#ga867167eade1153eaa8ff63884b147f97" title="Register new module." alt="" coords="195,352,312,378"/>
+<area shape="rect" id="node12" href="$group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="207,48,299,74"/>
+<area shape="rect" id="node13" href="$group__runparam.html#gac4d4e37bd7bfbeb6521d7f3ddae634e9" title="Register new runtime parameter." alt="" coords="203,200,304,226"/>
+<area shape="rect" id="node17" href="$group__runparam.html#gaf31b3ce9a658c84a704cd3af30cc2878" title="Register new parameter section." alt="" coords="198,428,309,454"/>
+<area shape="rect" id="node19" href="$group__runparam.html#gad2f06ecda0c6e0973b91d0f00ea27ad7" title="Set section&#39;s activation flag. Master value is broadcasted." alt="" coords="185,301,321,328"/>
+<area shape="rect" id="node3" href="$byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="607,225,659,252"/>
+<area shape="rect" id="node5" href="$group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="593,276,673,302"/>
+<area shape="rect" id="node4" href="$comm__mpi_8f.html#acc8803a3787828530843112e0c48941b" title=" " alt="" coords="725,225,799,252"/>
+<area shape="rect" id="node6" href="$math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="733,352,791,378"/>
+<area shape="rect" id="node8" href="$comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="437,402,494,429"/>
+<area shape="rect" id="node10" href="$ic_8f.html#a65a25147f7d5423171da71200182a19b" title=" " alt="" coords="438,453,493,480"/>
+<area shape="rect" id="node9" href="$mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="588,402,677,429"/>
+<area shape="rect" id="node14" href="$group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d" title="Write log message adding single integer." alt="" coords="423,149,507,176"/>
+<area shape="rect" id="node15" href="$group__monitor.html#gaa3ac36b6511924ccaf00bd898c8ad202" title="Write log message adding single logical." alt="" coords="423,200,507,226"/>
+<area shape="rect" id="node16" href="$group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd" title="Write log message adding single real." alt="" coords="423,48,508,74"/>
+<area shape="rect" id="node18" href="$group__monitor.html#ga33e34a4a3b46c645a315d0ab4988b55e" title="Get module name an parent id for given module id. This operation is performed locally." alt="" coords="391,504,540,530"/>
 </map>
