@@ -1,0 +1,5 @@
+<map id="map2d_init_coord" name="map2d_init_coord">
+<area shape="rect" id="node1" title="Generate 2D mesh out of 3D one." alt="" coords="271,5,409,32"/>
+<area shape="rect" id="node2" href="$group__map2d.html#ga447f2d8044a3b5c731f50a830b532578" title="Initilise map2d module." alt="" coords="128,5,223,32"/>
+<area shape="rect" id="node3" href="$group__stat.html#ga451d6573c47246d8e0c35e4028a3a1f0" title="Initilise statistics module." alt="" coords="5,5,80,32"/>
+</map>

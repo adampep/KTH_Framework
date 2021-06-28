@@ -1,4 +1,4 @@
 var group__grid =
 [
-    [ "Grid mapping", "group__mat2d.html", null ]
+    [ "Grid mapping", "group__map2d.html", "group__map2d" ]
 ];

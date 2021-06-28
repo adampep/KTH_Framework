@@ -5,7 +5,7 @@
 <area shape="rect" id="node11" href="$coef_8f.html#a804b631f33dccd942344eec1069ad5ce" title=" " alt="" coords="406,208,490,235"/>
 <area shape="rect" id="node12" href="$multimesh_8f.html#a496bf595bdb0c099877ab39e6236c027" title=" " alt="" coords="392,259,504,285"/>
 <area shape="rect" id="node15" href="$pstat3d_2pstat__IO_8f.html#a18d06d3a7403750579f7343888215b61" title="Write field data data to the file." alt="" coords="404,309,492,336"/>
-<area shape="rect" id="node18" href="$stat__IO_8f.html#a8b6dea9cd25daa3c2cf83ef58b2714b6" title="Statistics muti&#45;file output of 3D data." alt="" coords="377,360,519,387"/>
+<area shape="rect" id="node18" href="$group__stat.html#ga8b6dea9cd25daa3c2cf83ef58b2714b6" title="Statistics muti&#45;file output of 3D data." alt="" coords="377,360,519,387"/>
 <area shape="rect" id="node4" href="$cvode__driver_8f.html#a365f4a5b0accedd6fda56ba6be129643" title=" " alt="" coords="188,56,304,83"/>
 <area shape="rect" id="node7" href="$coef_8f.html#a8cbb48eee5edaf128d65bb31ac49c3ff" title=" " alt="" coords="213,157,279,184"/>
 <area shape="rect" id="node5" href="$cvode__driver_8f.html#aee31e0eed35b392c2fdac6a1f39d498b" title=" " alt="" coords="5,5,115,32"/>
@@ -17,6 +17,7 @@
 <area shape="rect" id="node14" href="$multimesh_8f.html#a282d987d75bd8a426ecf0d9e752cd2df" title=" " alt="" coords="8,259,112,285"/>
 <area shape="rect" id="node16" href="$pstat3d_2pstat_8f.html#a3d981240a4704517a9abe38fdcecbc97" title="Calculate new fileds." alt="" coords="197,309,295,336"/>
 <area shape="rect" id="node17" href="$pstat3d_2pstat_8f.html#a0d6f97dd0ba526fdc91b7f6d903890e9" title="Main interface of pstat module." alt="" coords="13,309,107,336"/>
-<area shape="rect" id="node19" href="$stat__IO_8f.html#a646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="206,360,286,387"/>
-<area shape="rect" id="node20" href="$stat_8f.html#a16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="21,360,99,387"/>
+<area shape="rect" id="node19" href="$group__stat.html#ga646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="206,360,286,387"/>
+<area shape="rect" id="node20" href="$group__stat.html#ga16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="21,360,99,387"/>
+<area shape="rect" id="node21" href="$group__stat.html#gaac93fa6c1a2e5a04333c0023f52b95f8" title="Finalise statistics module." alt="" coords="21,411,99,437"/>
 </map>

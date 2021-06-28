@@ -1,0 +1,5 @@
+<map id="stat_gs_sum" name="stat_gs_sum">
+<area shape="rect" id="node1" title="Global statistics summation." alt="" coords="132,31,236,57"/>
+<area shape="rect" id="node2" href="$group__stat.html#ga16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node3" href="$group__stat.html#gaac93fa6c1a2e5a04333c0023f52b95f8" title="Finalise statistics module." alt="" coords="5,56,84,83"/>
+</map>

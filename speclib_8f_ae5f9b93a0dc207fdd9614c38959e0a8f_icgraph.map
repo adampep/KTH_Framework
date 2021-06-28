@@ -14,7 +14,7 @@
 <area shape="rect" id="node25" href="$navier5_8f.html#a519066c177fc94530849e83d3b9d4cfb" title=" " alt="" coords="407,613,475,640"/>
 <area shape="rect" id="node28" href="$navier1_8f.html#a953b93104eb4b5c889883705199275de" title=" " alt="" coords="398,689,483,716"/>
 <area shape="rect" id="node31" href="$navier1_8f.html#a9cf22f4fc159530c6bf3a970b2443ab6" title=" " alt="" coords="405,765,476,792"/>
-<area shape="rect" id="node33" href="$stat__IO_8f.html#aaf6879d5db7c39db485b088babf5ff94" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="379,841,502,868"/>
+<area shape="rect" id="node33" href="$group__stat.html#gaaf6879d5db7c39db485b088babf5ff94" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="379,841,502,868"/>
 <area shape="rect" id="node4" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file." alt="" coords="208,5,295,32"/>
 <area shape="rect" id="node5" href="$group__sfd.html#gab838b3ce1a43844a03dcb6f578d9ff02" title="Load SFD restart file." alt="" coords="216,56,287,83"/>
 <area shape="rect" id="node7" href="$meshsmoother_8f.html#a381ecddf77fc5669d3a8e246b65d1960" title=" " alt="" coords="198,107,305,133"/>
@@ -32,5 +32,5 @@
 <area shape="rect" id="node29" href="$navier1_8f.html#ab739e9434270ea19385f64504a29adf8" title=" " alt="" coords="218,715,285,741"/>
 <area shape="rect" id="node30" href="$induct_8f.html#addce37653534d34a52ad5af30954029b" title=" " alt="" coords="5,740,128,767"/>
 <area shape="rect" id="node32" href="$navier1_8f.html#aa1359ec8216b3e1a34ae938d074e8a1b" title=" " alt="" coords="220,816,283,843"/>
-<area shape="rect" id="node34" href="$stat__IO_8f.html#ae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="181,867,322,893"/>
+<area shape="rect" id="node34" href="$group__stat.html#gae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="181,867,322,893"/>
 </map>

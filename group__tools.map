@@ -1,6 +1,8 @@
 <map id="Tools module" name="Tools module">
 <area shape="rect" id="node1" href="$group__tstepper.html" title="Time stepper for Nek5000." alt="" coords="281,5,445,31"/>
 <area shape="rect" id="node2" href="$group__baseflow.html" title="Set of tools for base flow calculation." alt="" coords="283,55,444,80"/>
-<area shape="rect" id="node3" href="$group__toolbox.html" title="Toolbox for Nek5000." alt="" coords="5,31,77,56"/>
-<area shape="rect" id="node4" title="Set of tools for Nek5000 framework." alt="" coords="125,31,233,56"/>
+<area shape="rect" id="node3" href="$group__toolbox.html" title="Toolbox for Nek5000." alt="" coords="5,84,77,109"/>
+<area shape="rect" id="node5" title="Set of tools for Nek5000 framework." alt="" coords="125,84,233,109"/>
+<area shape="rect" id="node4" href="$group__stat.html" title="Set of rutines to collect 44 fileds for statistics." alt="" coords="287,105,440,145"/>
+<area shape="rect" id="node6" href="$group__tsrs.html" title="Set of rutines to collect a time history for set of points." alt="" coords="289,169,438,209"/>
 </map>

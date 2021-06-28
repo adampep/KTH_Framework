@@ -1,5 +1,7 @@
 <map id="trip_1dprj" name="trip_1dprj">
-<area shape="rect" id="node1" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="5,31,89,57"/>
-<area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="137,5,191,32"/>
-<area shape="rect" id="node3" href="$math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="141,56,187,83"/>
+<area shape="rect" id="node1" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="5,81,89,108"/>
+<area shape="rect" id="node2" href="$math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="138,5,191,32"/>
+<area shape="rect" id="node3" href="$math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title=" " alt="" coords="143,56,186,83"/>
+<area shape="rect" id="node4" href="$math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="137,107,192,133"/>
+<area shape="rect" id="node5" href="$math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="141,157,188,184"/>
 </map>

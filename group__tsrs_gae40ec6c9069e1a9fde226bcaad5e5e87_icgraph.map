@@ -1,0 +1,6 @@
+<map id="tsrs_buffer_save" name="tsrs_buffer_save">
+<area shape="rect" id="node1" title="Buffer and save interpolated fields." alt="" coords="265,56,396,83"/>
+<area shape="rect" id="node2" href="$group__tsrs.html#ga901638f3fa9b929b7787591a91bfd8b7" title="Finalise time series module." alt="" coords="140,5,217,32"/>
+<area shape="rect" id="node3" href="$group__tsrs.html#ga9dc8f36af145e0602756a0605b1ebade" title="Perform interpolation and data buffering." alt="" coords="141,56,216,83"/>
+<area shape="rect" id="node4" href="$group__tsrs.html#ga484dc0e23a97e3874c2fc46d6d73eb69" title="Main interface of time series module." alt="" coords="5,81,92,108"/>
+</map>

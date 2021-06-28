@@ -44,7 +44,7 @@
 <area shape="rect" id="node25" href="$group__arn__arp.html#ga4aac7433d8ee19e1dbd46d02a8d4350a" title="Read procesor dependent data (long vectors)" alt="" coords="139,1171,219,1197"/>
 <area shape="rect" id="node33" href="$group__io__tools.html#ga04a370fda8b8de1135ca342294ac3ddd" title="Write single scalar to the file." alt="" coords="316,1576,391,1603"/>
 <area shape="rect" id="node35" href="$group__arn__arp.html#ga0fb61884e52cfe4c81bc34ccc7765c0c" title="Write single Krylov vector to the file." alt="" coords="302,1627,405,1653"/>
-<area shape="rect" id="node37" href="$stat__IO_8f.html#ae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="283,1677,424,1704"/>
+<area shape="rect" id="node37" href="$group__stat.html#gae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="283,1677,424,1704"/>
 <area shape="rect" id="node34" href="$group__chkpoint__mstep.html#ga1e49e1c0c7a26355ec3c09a941a21eb6" title="Write field to the file." alt="" coords="133,1475,224,1501"/>
 <area shape="rect" id="node36" href="$group__arn__arp.html#gac66224645ce6b6b4a54a11b5ad1c363c" title="Write procesor dependent data (long vectors)" alt="" coords="137,1576,221,1603"/>
 <area shape="rect" id="node39" href="$group__io__tools.html#ga20adcbb01683b34704cd0cc48a55f407" title="Write single vector to the file." alt="" coords="316,1475,391,1501"/>

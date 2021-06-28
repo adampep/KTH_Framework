@@ -1,0 +1,8 @@
+<map id="tsrs_mfo_outs" name="tsrs_mfo_outs">
+<area shape="rect" id="node1" title="Write single field for a local set of points." alt="" coords="616,56,731,83"/>
+<area shape="rect" id="node2" href="$group__tsrs.html#ga399fe64adceb62163847a97ff428af73" title="Write a point history file." alt="" coords="444,56,568,83"/>
+<area shape="rect" id="node3" href="$group__tsrs.html#gae40ec6c9069e1a9fde226bcaad5e5e87" title="Buffer and save interpolated fields." alt="" coords="265,56,396,83"/>
+<area shape="rect" id="node4" href="$group__tsrs.html#ga901638f3fa9b929b7787591a91bfd8b7" title="Finalise time series module." alt="" coords="140,5,217,32"/>
+<area shape="rect" id="node5" href="$group__tsrs.html#ga9dc8f36af145e0602756a0605b1ebade" title="Perform interpolation and data buffering." alt="" coords="141,56,216,83"/>
+<area shape="rect" id="node6" href="$group__tsrs.html#ga484dc0e23a97e3874c2fc46d6d73eb69" title="Main interface of time series module." alt="" coords="5,81,92,108"/>
+</map>

@@ -1,7 +1,7 @@
 <map id="iswap_ip" name="iswap_ip">
 <area shape="rect" id="node1" title=" " alt="" coords="481,31,560,57"/>
-<area shape="rect" id="node2" href="$map2D_8f.html#a24f927a4ec0f97af941208dfb5f12bd0" title="Get global 3D=&gt;2D mapping." alt="" coords="291,5,433,32"/>
-<area shape="rect" id="node5" href="$map2D_8f.html#a5d7c4e5e493f5dad9c9a8e7dbcb00976" title="Get local 3D=&gt;2D mapping." alt="" coords="295,56,429,83"/>
-<area shape="rect" id="node3" href="$map2D_8f.html#aa375386064e3bde909740b212e59419a" title="Get 3D to 2D element mapping." alt="" coords="148,31,243,57"/>
-<area shape="rect" id="node4" href="$map2D_8f.html#a447f2d8044a3b5c731f50a830b532578" title="Initilise map2d module." alt="" coords="5,31,100,57"/>
+<area shape="rect" id="node2" href="$group__map2d.html#ga24f927a4ec0f97af941208dfb5f12bd0" title="Get global 3D=&gt;2D mapping." alt="" coords="291,5,433,32"/>
+<area shape="rect" id="node5" href="$group__map2d.html#ga5d7c4e5e493f5dad9c9a8e7dbcb00976" title="Get local 3D=&gt;2D mapping." alt="" coords="295,56,429,83"/>
+<area shape="rect" id="node3" href="$group__map2d.html#gaa375386064e3bde909740b212e59419a" title="Get 3D to 2D element mapping." alt="" coords="148,31,243,57"/>
+<area shape="rect" id="node4" href="$group__map2d.html#ga447f2d8044a3b5c731f50a830b532578" title="Initilise map2d module." alt="" coords="5,31,100,57"/>
 </map>

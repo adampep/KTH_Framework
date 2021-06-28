@@ -1,0 +1,7 @@
+<map id="stat_mfo_crd2d" name="stat_mfo_crd2d">
+<area shape="rect" id="node1" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="449,31,572,57"/>
+<area shape="rect" id="node2" href="$group__stat.html#gae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="260,31,401,57"/>
+<area shape="rect" id="node3" href="$group__stat.html#ga646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="132,31,212,57"/>
+<area shape="rect" id="node4" href="$group__stat.html#ga16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node5" href="$group__stat.html#gaac93fa6c1a2e5a04333c0023f52b95f8" title="Finalise statistics module." alt="" coords="5,56,84,83"/>
+</map>

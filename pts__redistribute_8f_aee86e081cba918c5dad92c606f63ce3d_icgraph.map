@@ -1,0 +1,6 @@
+<map id="pts_transfer" name="pts_transfer">
+<area shape="rect" id="node1" title=" " alt="" coords="463,5,563,32"/>
+<area shape="rect" id="node2" href="$pts__redistribute_8f.html#ae16f3b90b7d81848de6f3a2d1526f802" title=" " alt="" coords="340,5,415,32"/>
+<area shape="rect" id="node3" href="$group__tsrs.html#ga8087d9234c10f2b4cf646fd838b4b03f" title="Read and redistribute points among mpi ranks." alt="" coords="128,5,292,32"/>
+<area shape="rect" id="node4" href="$group__tsrs.html#ga27505d40c2c8d0b9a8c62b032128c173" title="Initilise time series module." alt="" coords="5,5,80,32"/>
+</map>

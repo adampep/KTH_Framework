@@ -1,6 +1,0 @@
-<map id="map2d_get_local" name="map2d_get_local">
-<area shape="rect" id="node1" title="Get local 3D=&gt;2D mapping." alt="" coords="413,5,547,32"/>
-<area shape="rect" id="node2" href="$map2D_8f.html#aa375386064e3bde909740b212e59419a" title="Get 3D to 2D element mapping." alt="" coords="271,5,365,32"/>
-<area shape="rect" id="node3" href="$map2D_8f.html#a447f2d8044a3b5c731f50a830b532578" title="Initilise map2d module." alt="" coords="128,5,223,32"/>
-<area shape="rect" id="node4" href="$stat_8f.html#a451d6573c47246d8e0c35e4028a3a1f0" title="Initilise statistics module." alt="" coords="5,5,80,32"/>
-</map>

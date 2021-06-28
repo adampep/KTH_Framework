@@ -1,0 +1,6 @@
+<map id="pts_map_set" name="pts_map_set">
+<area shape="rect" id="node1" title=" " alt="" coords="489,5,595,32"/>
+<area shape="rect" id="node2" href="$pts__redistribute_8f.html#adbb3793e4432fc05d7d79fd238031e43" title=" " alt="" coords="340,5,441,32"/>
+<area shape="rect" id="node3" href="$pts__redistribute_8f.html#ae16f3b90b7d81848de6f3a2d1526f802" title=" " alt="" coords="217,5,292,32"/>
+<area shape="rect" id="node4" href="$group__tsrs.html#ga8087d9234c10f2b4cf646fd838b4b03f" title="Read and redistribute points among mpi ranks." alt="" coords="5,5,169,32"/>
+</map>

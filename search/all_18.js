@@ -1,20 +1,9 @@
 var searchData=
 [
-  ['x_2575',['x',['../structcrs__data.html#a9a49a8fbb306687e3957c1d5f9c6f29c',1,'crs_data::x()'],['../structxxt.html#a51cf2b3faf77dca80906a577fa629bd9',1,'xxt::X()']]],
-  ['x8toxm_2576',['x8toxm',['../meshsmoother_8f.html#aa48c53bb4556b1a81cb8b716404f9a77',1,'meshsmoother.f']]],
-  ['x_5fmap_2577',['x_map',['../fem__amg__preco_8h.html#af4d03b8aa1ef93f5aa5bb1a5da7069b1',1,'fem_amg_preco.h']]],
-  ['xaddcol3_2578',['xaddcol3',['../math_8f.html#a5a66d972a88384a4e1211427df641526',1,'math.f']]],
-  ['xerbla_2579',['xerbla',['../xerbla_8f.html#a377ee61015baf8dea7770b3a404b1c07',1,'xerbla.f']]],
-  ['xerbla_2ef_2580',['xerbla.f',['../xerbla_8f.html',1,'']]],
-  ['xm1toxmc_2581',['xm1toxmc',['../meshsmoother_8f.html#ae29221483c794344c304f6d213e9bc23',1,'meshsmoother.f']]],
-  ['xmctoxm1_2582',['xmctoxm1',['../meshsmoother_8f.html#a91ae54dbd00c38653b2a5f27da6a33f7',1,'meshsmoother.f']]],
-  ['xmtox8_2583',['xmtox8',['../meshsmoother_8f.html#abeb47ac89a09712fdc1ccb615be69336',1,'meshsmoother.f']]],
-  ['xn_2584',['xn',['../structxxt.html#aee43f7721bfcaccad4d99e8b5685ac6b',1,'xxt']]],
-  ['xor_2585',['xor',['../comm__mpi_8f.html#aa58338baef9abc506b23bd96e3c54d44',1,'comm_mpi.f']]],
-  ['xp_2586',['Xp',['../structxxt.html#ad12c98342ed17b7d81258cc2f8b86c11',1,'xxt']]],
-  ['xxt_2587',['xxt',['../structxxt.html',1,'']]],
-  ['xyzlin_2588',['xyzlin',['../genxyz_8f.html#a16eca2a8f6bca6167dcfa98ff3eac09c',1,'genxyz.f']]],
-  ['xyzquad_2589',['xyzquad',['../genxyz_8f.html#a7c0d9ad72ade85a885511477626382a9',1,'genxyz.f']]],
-  ['xyzrst_2590',['xyzrst',['../coef_8f.html#a82cf1663c9a821049d0aad836343591a',1,'coef.f']]],
-  ['xyzrstc_2591',['xyzrstc',['../meshsmoother_8f.html#aad5f7993adbb6c754fbc224c4abf638e',1,'meshsmoother.f']]]
+  ['w_2592',['W',['../structcrs__data.html#ab2461d15d61230e397e2ad65c3331141',1,'crs_data']]],
+  ['wgradm1_2593',['wgradm1',['../navier1_8f.html#a6d3df5bfd9eeabae524e4da76ac13c51',1,'navier1.f']]],
+  ['wlaplacian_2594',['wlaplacian',['../navier1_8f.html#a08e5b36029e39242bd7344bd10ed472c',1,'navier1.f']]],
+  ['work_2595',['work',['../structfind__id__data.html#a77f5821b503c97b0eb0b92e3eb3af111',1,'find_id_data']]],
+  ['wp_2596',['wp',['../structfind__id__work.html#a6a6eddde72bd49668670f8674bae43f0',1,'find_id_work']]],
+  ['write_2597',['WRITE',['../byte_8c.html#aa10f470e996d0f51210d24f442d25e1e',1,'byte.c']]]
 ];

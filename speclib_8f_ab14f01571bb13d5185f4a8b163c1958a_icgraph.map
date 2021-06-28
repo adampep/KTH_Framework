@@ -13,7 +13,7 @@
 <area shape="rect" id="node33" href="$navier5_8f.html#a519066c177fc94530849e83d3b9d4cfb" title=" " alt="" coords="545,613,613,640"/>
 <area shape="rect" id="node36" href="$navier1_8f.html#a953b93104eb4b5c889883705199275de" title=" " alt="" coords="537,733,622,760"/>
 <area shape="rect" id="node41" href="$navier1_8f.html#a9cf22f4fc159530c6bf3a970b2443ab6" title=" " alt="" coords="355,715,425,741"/>
-<area shape="rect" id="node43" href="$stat__IO_8f.html#aaf6879d5db7c39db485b088babf5ff94" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="518,809,641,836"/>
+<area shape="rect" id="node43" href="$group__stat.html#gaaf6879d5db7c39db485b088babf5ff94" title="Write element centres to the file (in case of AMR level as well)" alt="" coords="518,809,641,836"/>
 <area shape="rect" id="node3" href="$group__chkpoint__mstep.html#gafc412327b613cee4d675fcdba943d905" title="Read field to the file." alt="" coords="347,56,433,83"/>
 <area shape="rect" id="node5" href="$group__sfd.html#gab838b3ce1a43844a03dcb6f578d9ff02" title="Load SFD restart file." alt="" coords="355,5,425,32"/>
 <area shape="rect" id="node4" href="$group__chkpoint__mstep.html#gaf75d9ab97c271cb4a5cdc02d6babd210" title="Read checkpoint snapshot." alt="" coords="123,56,267,83"/>
@@ -42,6 +42,6 @@
 <area shape="rect" id="node39" href="$navier1_8f.html#af66b0da5eb394cfc625e8099738e70a7" title=" " alt="" coords="159,765,230,792"/>
 <area shape="rect" id="node40" href="$navier1_8f.html#a1b70ccf853606db85f73ee320f561274" title=" " alt="" coords="5,715,75,741"/>
 <area shape="rect" id="node42" href="$navier1_8f.html#aa1359ec8216b3e1a34ae938d074e8a1b" title=" " alt="" coords="163,664,226,691"/>
-<area shape="rect" id="node44" href="$stat__IO_8f.html#ae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="319,816,461,843"/>
-<area shape="rect" id="node45" href="$stat__IO_8f.html#a646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="155,816,235,843"/>
+<area shape="rect" id="node44" href="$group__stat.html#gae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="319,816,461,843"/>
+<area shape="rect" id="node45" href="$group__stat.html#ga646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="155,816,235,843"/>
 </map>

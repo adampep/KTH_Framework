@@ -2,13 +2,13 @@
 <area shape="rect" id="node1" title=" " alt="" coords="524,107,601,133"/>
 <area shape="rect" id="node2" href="$hsmg_8f.html#a69c832fdb8ddb920e673132a4f61db87" title=" " alt="" coords="349,31,444,57"/>
 <area shape="rect" id="node6" href="$navier5_8f.html#a519066c177fc94530849e83d3b9d4cfb" title=" " alt="" coords="363,81,431,108"/>
-<area shape="rect" id="node9" href="$stat_8f.html#aad87c54a79675d05b4ee470ae15c7781" title="Perform local 1D integration on 1 variable." alt="" coords="317,132,476,159"/>
-<area shape="rect" id="node12" href="$stat_8f.html#a63de2af0905f453ba12789eec647020c" title="Perform local 1D integration on multiplication of 2 variables." alt="" coords="317,183,476,209"/>
+<area shape="rect" id="node9" href="$group__stat.html#gaad87c54a79675d05b4ee470ae15c7781" title="Perform local 1D integration on 1 variable." alt="" coords="317,132,476,159"/>
+<area shape="rect" id="node12" href="$group__stat.html#ga63de2af0905f453ba12789eec647020c" title="Perform local 1D integration on multiplication of 2 variables." alt="" coords="317,183,476,209"/>
 <area shape="rect" id="node3" href="$hsmg_8f.html#a80c3292949e823718ac035e38b894494" title=" " alt="" coords="163,31,265,57"/>
 <area shape="rect" id="node4" href="$hmholtz_8f.html#a8a396e973763e576543b4ab90c072b6d" title=" " alt="" coords="5,5,111,32"/>
 <area shape="rect" id="node5" href="$gmres_8f.html#a377d8578c6ccd4fddffb699c7a18f603" title=" " alt="" coords="9,56,107,83"/>
 <area shape="rect" id="node7" href="$induct_8f.html#adef470718d07d8b4c7f6bf32b2a9ecb9" title=" " alt="" coords="172,81,256,108"/>
 <area shape="rect" id="node8" href="$drive1_8f.html#ae177ea7efac97f35241521b782a671c0" title=" " alt="" coords="160,132,268,159"/>
-<area shape="rect" id="node10" href="$stat_8f.html#a678db8504a48380d268b8bc8fdcbe6bc" title="Compute statistics." alt="" coords="159,183,269,209"/>
-<area shape="rect" id="node11" href="$stat_8f.html#a16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="19,183,97,209"/>
+<area shape="rect" id="node10" href="$group__stat.html#ga678db8504a48380d268b8bc8fdcbe6bc" title="Compute statistics." alt="" coords="159,183,269,209"/>
+<area shape="rect" id="node11" href="$group__stat.html#ga16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="19,183,97,209"/>
 </map>

@@ -167,7 +167,7 @@ Functions</h2></td></tr>
 <p>This forcing has one continuous time derivative and is independent of the time discretisation. It should be independent as well on the simulation details (e.g. number of mpi ranks or restart flag). It is based on a similar implementation in the SIMSON code <a class="el" href="citelist.html#CITEREF_Chevalier2007">[2]</a>, and is described in detail in <a class="el" href="citelist.html#CITEREF_Schlatter2012">[5]</a>.</p>
 <p>This tool can simulate number of lines with different set of parameters for each line. The maximal number of lines is given by trip_nline_max in TRIPD include file. In the same way maximal number of Fouries modes per line is given by trip_nmode_max parameter. User havs to adjust values of these variables before compilation of the code.</p>
 <dl class="section user"><dt>Module interface:\n</dt><dd></dd></dl>
-<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000016">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
+<dl class="interface_list_page"><dt><b><a class="el" href="interface_list_page.html#_interface_list_page000018">Global interface list:</a></b></dt><dd>Interface provided:<ol type="1">
 <li><a class="el" href="group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab">trip_register</a></li>
 <li><a class="el" href="group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24">trip_init</a></li>
 <li><a class="el" href="group__trip__line.html#ga5d15816dd685407a8d55732214002baa">trip_is_initialised</a></li>
@@ -261,7 +261,7 @@ Functions</h2></td></tr>
 <div class="line">!======================================================================</div>
 </div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Module parameters:\n</dt><dd></dd></dl>
-<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000011">Global parameter list:</a></b></dt><dd>Parameters provided by trip_line module (include file - <em>TRIPD</em>): </dd></dl>
+<dl class="parameter_list_page"><dt><b><a class="el" href="parameter_list_page.html#_parameter_list_page000013">Global parameter list:</a></b></dt><dd>Parameters provided by trip_line module (include file - <em>TRIPD</em>): </dd></dl>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Varaible </th><th class="markdownTableHeadNone">Type </th><th class="markdownTableHeadNone">Runtime parameter </th><th class="markdownTableHeadNone">Default value </th><th class="markdownTableHeadNone">Description  </th></tr>
@@ -288,12 +288,14 @@ Functions</h2></td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">trip_smth(2,il) </td><td class="markdownTableBodyNone">real </td><td class="markdownTableBodyNone">_tripping:smthy'il' </td><td class="markdownTableBodyNone">0.0 </td><td class="markdownTableBodyNone">Smoothing length Y of 'il' line  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">trip_smth(3,il) </td><td class="markdownTableBodyNone">real </td><td class="markdownTableBodyNone">_tripping:smthz'il' </td><td class="markdownTableBodyNone">0.0 </td><td class="markdownTableBodyNone">Smoothing length Z of 'il' line (not used)  </td></tr>
+<td class="markdownTableBodyNone">trip_smth(3,il) </td><td class="markdownTableBodyNone">real </td><td class="markdownTableBodyNone">_tripping:smthz'il' </td><td class="markdownTableBodyNone">0.0 </td><td class="markdownTableBodyNone">Smoothing length Z of 'il' line  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">trip_rota(il) </td><td class="markdownTableBodyNone">real </td><td class="markdownTableBodyNone">_tripping:rota'il' </td><td class="markdownTableBodyNone">0.0 </td><td class="markdownTableBodyNone">Rotation angle of 'il' line  </td></tr>
+<td class="markdownTableBodyNone">trip_lext(il) </td><td class="markdownTableBodyNone">logical </td><td class="markdownTableBodyNone">_tripping:lext'il' </td><td class="markdownTableBodyNone">.F. </td><td class="markdownTableBodyNone">Line extension  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">trip_nmode(il) </td><td class="markdownTableBodyNone">integer </td><td class="markdownTableBodyNone">_tripping:nmode'il' </td><td class="markdownTableBodyNone">0 </td><td class="markdownTableBodyNone">Number of Fourier modes of 'il' line  </td></tr>
+<td class="markdownTableBodyNone">trip_rota(il) </td><td class="markdownTableBodyNone">real </td><td class="markdownTableBodyNone">_tripping:rota'il' </td><td class="markdownTableBodyNone">0.0 </td><td class="markdownTableBodyNone">Rotation angle of 'il' line  </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">trip_nmode(il) </td><td class="markdownTableBodyNone">integer </td><td class="markdownTableBodyNone">_tripping:nmode'il' </td><td class="markdownTableBodyNone">0 </td><td class="markdownTableBodyNone">Number of Fourier modes of 'il' line  </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">trip_tdt(il) </td><td class="markdownTableBodyNone">real </td><td class="markdownTableBodyNone">_tripping:tdt'il' </td><td class="markdownTableBodyNone">0.0 </td><td class="markdownTableBodyNone">Time step for tripping of 'il' line  </td></tr>
 </table>
 <dl class="section user"><dt>Module parameter usage:\n</dt><dd><div class="fragment"><div class="line">[_TRIPPING]             # Runtime paramere section <span class="keywordflow">for</span> tripping module</div>
@@ -309,6 +311,7 @@ Functions</h2></td></tr>
 <div class="line">SMTHX01              = 1.36000000E+00         # Smoothing length X</div>
 <div class="line">SMTHY01              = 0.34000000E+00         # Smoothing length Y</div>
 <div class="line">SMTHZ01              = 0.00000000E+00         # Smoothing length Z</div>
+<div class="line">LEXT01               = yes                    # Line extension</div>
 <div class="line">ROTA01               = 0.00000000E+00         # Rotation angle in radians</div>
 <div class="line">NMODE01              = 16                     # Number of Fourier modes</div>
 <div class="line">TDT01                = 0.14000000E+00         # Time step <span class="keywordflow">for</span> tripping</div>
@@ -321,6 +324,8 @@ Functions</h2></td></tr>
 <div class="line">SMTHX02              = 0.28000000E+00         # Smoothing length X</div>
 <div class="line">SMTHY02              = 0.07000000E+00         # Smoothing length Y</div>
 <div class="line">SMTHZ02              = 0.00000000E+00         # Smoothing length Z</div>
+<div class="line">SMTHZ02              = 0.20000000E+00         # Smoothing length Z</div>
+<div class="line">LEXT02               = no                     # Line extension</div>
 <div class="line">ROTA02               = 0.12300000E+00         # Rotation angle in radians</div>
 <div class="line">NMODE02              = 76                     # Number of Fourier modes</div>
 <div class="line">TDT02                = 0.14000000E+00         # Time step <span class="keywordflow">for</span> tripping</div>
@@ -341,9 +346,9 @@ Functions</h2></td></tr>
 <p>Get 1D projection, array mapping and forcing smoothing. </p>
 <p>This routine is just a simple version supporting only lines paralles to z axis. In future it can be generalised. </p><dl class="section remark"><dt>Remarks</dt><dd>This routine uses global scratch space <em>CTMP0</em> and <em>CTMP1</em> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00357">357</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00376">376</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="math_8f_source.html#l00260">copy()</a>, and <a class="el" href="math_8f_source.html#l01325">sort()</a>.</p>
+<p class="reference">References <a class="el" href="math_8f_source.html#l00260">copy()</a>, <a class="el" href="math_8f_source.html#l00252">ifill()</a>, <a class="el" href="math_8f_source.html#l00208">rzero()</a>, and <a class="el" href="math_8f_source.html#l01325">sort()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -351,9 +356,11 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__trip__line_ga7c4e4f1a8b83ccbf91c4903c19589ce3_cgraph.png" border="0" usemap="#group__trip__line_ga7c4e4f1a8b83ccbf91c4903c19589ce3_cgraph" alt=""/></div>
 <map name="group__trip__line_ga7c4e4f1a8b83ccbf91c4903c19589ce3_cgraph" id="group__trip__line_ga7c4e4f1a8b83ccbf91c4903c19589ce3_cgraph">
-<area shape="rect" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="5,31,89,57"/>
-<area shape="rect" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="137,5,191,32"/>
-<area shape="rect" href="math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="141,56,187,83"/>
+<area shape="rect" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="5,81,89,108"/>
+<area shape="rect" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="138,5,191,32"/>
+<area shape="rect" href="math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title=" " alt="" coords="143,56,186,83"/>
+<area shape="rect" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="137,107,192,133"/>
+<area shape="rect" href="math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="141,157,188,184"/>
 </map>
 </div>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -437,7 +444,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00293">293</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00310">310</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="dprocmap_8f_source.html#l00183">gllel()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -484,7 +491,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00578">578</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00636">636</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="math_8f_source.html#l00315">cmult()</a>, <a class="el" href="math_8f_source.html#l00260">copy()</a>, <a class="el" href="io__tools_8f_source.html#l00047">io_file_freeid()</a>, and <a class="el" href="math_8f_source.html#l00208">rzero()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -532,9 +539,9 @@ Functions</h2></td></tr>
 <p>Initilise tripping module. </p>
 <dl class="section note"><dt>Note</dt><dd>This routine should be called in frame_usr_init </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00137">137</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00140">140</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrlog_8f_source.html#l00752">mntr_warn()</a>, <a class="el" href="rprm_8f_source.html#l00858">rprm_rp_get()</a>, <a class="el" href="trip_8f_source.html#l00357">trip_1dprj()</a>, <a class="el" href="trip_8f_source.html#l00578">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00458">trip_rphs_get()</a>.</p>
+<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="mntrlog_8f_source.html#l00752">mntr_warn()</a>, <a class="el" href="rprm_8f_source.html#l00858">rprm_rp_get()</a>, <a class="el" href="trip_8f_source.html#l00376">trip_1dprj()</a>, <a class="el" href="trip_8f_source.html#l00636">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00516">trip_rphs_get()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -547,19 +554,20 @@ Functions</h2></td></tr>
 <area shape="rect" href="group__monitor.html#ga19967e912d1d55605f4be8da607d9f63" title="Write warning message." alt="" coords="295,56,387,83"/>
 <area shape="rect" href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74" title="Get runtime parameter form active section. This operation is performed locally." alt="" coords="132,107,233,133"/>
 <area shape="rect" href="group__trip__line.html#ga7c4e4f1a8b83ccbf91c4903c19589ce3" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="141,360,225,387"/>
-<area shape="rect" href="group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line." alt="" coords="131,208,234,235"/>
-<area shape="rect" href="group__trip__line.html#ga1c9efa121ba419b340fc0469c8df50a2" title="Generate set of random phases." alt="" coords="129,284,236,311"/>
+<area shape="rect" href="group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line." alt="" coords="131,259,234,285"/>
+<area shape="rect" href="group__trip__line.html#ga1c9efa121ba419b340fc0469c8df50a2" title="Generate set of random phases." alt="" coords="129,183,236,209"/>
 <area shape="rect" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="447,56,527,83"/>
 <area shape="rect" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="580,56,639,83"/>
 <area shape="rect" href="group__monitor.html#ga4fd2fb5339a1f242f4900151dd84d1bf" title="Abort simulation." alt="" coords="294,107,389,133"/>
 <area shape="rect" href="byte_8c.html#a2da8eeb074dfd3ffbfb3e9a4d301cda4" title=" " alt="" coords="461,107,513,133"/>
-<area shape="rect" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="315,360,368,387"/>
-<area shape="rect" href="math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="318,411,365,437"/>
-<area shape="rect" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="312,208,371,235"/>
-<area shape="rect" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="288,259,395,285"/>
-<area shape="rect" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="314,157,369,184"/>
-<area shape="rect" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="313,309,370,336"/>
-<area shape="rect" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="443,309,532,336"/>
+<area shape="rect" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="315,309,368,336"/>
+<area shape="rect" href="math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title=" " alt="" coords="320,411,363,437"/>
+<area shape="rect" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="314,360,369,387"/>
+<area shape="rect" href="math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="318,461,365,488"/>
+<area shape="rect" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="312,259,371,285"/>
+<area shape="rect" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="288,208,395,235"/>
+<area shape="rect" href="comm__mpi_8f.html#ae425c1deb2e82d2007c97e1c4be990c8" title=" " alt="" coords="313,157,370,184"/>
+<area shape="rect" href="mpi__dummy_8f.html#ae0bd4baaea848988f45664ce0de33350" title=" " alt="" coords="443,157,532,184"/>
 </map>
 </div>
 
@@ -580,7 +588,7 @@ Functions</h2></td></tr>
 <p>Check if module was initialised. </p>
 <dl class="section return"><dt>Returns</dt><dd>trip_is_initialised </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00247">247</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00264">264</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 </div>
 </div>
@@ -609,7 +617,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ran </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00536">536</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00594">594</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 </div>
 </div>
@@ -679,9 +687,9 @@ Functions</h2></td></tr>
 
 <p>Reset tripping. </p>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00324">324</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00343">343</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00357">trip_1dprj()</a>, and <a class="el" href="trip_8f_source.html#l00578">trip_frcs_get()</a>.</p>
+<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00376">trip_1dprj()</a>, and <a class="el" href="trip_8f_source.html#l00636">trip_frcs_get()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -689,17 +697,18 @@ Functions</h2></td></tr>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__trip__line_ga1ff51ce392b4ef3b9becafeee8bb8c2b_cgraph.png" border="0" usemap="#group__trip__line_ga1ff51ce392b4ef3b9becafeee8bb8c2b_cgraph" alt=""/></div>
 <map name="group__trip__line_ga1ff51ce392b4ef3b9becafeee8bb8c2b_cgraph" id="group__trip__line_ga1ff51ce392b4ef3b9becafeee8bb8c2b_cgraph">
-<area shape="rect" title="Reset tripping." alt="" coords="5,81,89,108"/>
-<area shape="rect" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="137,19,252,45"/>
-<area shape="rect" href="group__trip__line.html#ga7c4e4f1a8b83ccbf91c4903c19589ce3" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="153,81,237,108"/>
-<area shape="rect" href="group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line." alt="" coords="143,157,246,184"/>
+<area shape="rect" title="Reset tripping." alt="" coords="5,132,89,159"/>
+<area shape="rect" href="group__monitor.html#ga214aa24b6e79b5d041c124701ca13d8b" title="Check if timer id is registered. This operation is performed locally." alt="" coords="137,44,252,71"/>
+<area shape="rect" href="group__trip__line.html#ga7c4e4f1a8b83ccbf91c4903c19589ce3" title="Get 1D projection, array mapping and forcing smoothing." alt="" coords="153,208,237,235"/>
+<area shape="rect" href="group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line." alt="" coords="143,132,246,159"/>
 <area shape="rect" href="group__monitor.html#ga5e38f68c331940087081bbdaf8534cff" title="Write log message." alt="" coords="313,5,393,32"/>
 <area shape="rect" href="math_8f.html#a692155d1d2ec380a9fdb2d81ef221625" title=" " alt="" coords="455,5,513,32"/>
-<area shape="rect" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="327,107,380,133"/>
-<area shape="rect" href="math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="330,56,377,83"/>
-<area shape="rect" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="324,157,383,184"/>
-<area shape="rect" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="300,208,407,235"/>
-<area shape="rect" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="326,259,381,285"/>
+<area shape="rect" href="math_8f.html#a3b43508554f14bdea8e14473d7d0803c" title=" " alt="" coords="327,208,380,235"/>
+<area shape="rect" href="math_8f.html#a16c41e2c6a58c051aef77bab8374b652" title=" " alt="" coords="332,309,375,336"/>
+<area shape="rect" href="math_8f.html#af44de42b023a4a68cd98ea341204342d" title=" " alt="" coords="326,157,381,184"/>
+<area shape="rect" href="math_8f.html#afe46b1d4d7c6bffb46d1997bec21c471" title=" " alt="" coords="330,259,377,285"/>
+<area shape="rect" href="math_8f.html#ad2b51b68d370651f4f6d81952503e7be" title=" " alt="" coords="324,107,383,133"/>
+<area shape="rect" href="group__io__tools.html#ga53baee4631318962388cf17fe0ceccc5" title="Get free file unit number and store max unit value." alt="" coords="300,56,407,83"/>
 </map>
 </div>
 
@@ -719,7 +728,7 @@ Functions</h2></td></tr>
 
 <p>Generate set of random phases. </p>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00458">458</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00516">516</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
 <p class="reference">References <a class="el" href="comm__mpi_8f_source.html#l00431">bcast()</a>, <a class="el" href="math_8f_source.html#l00260">copy()</a>, and <a class="el" href="io__tools_8f_source.html#l00047">io_file_freeid()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -765,9 +774,9 @@ Functions</h2></td></tr>
 
 <p>Update tripping. </p>
 
-<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00260">260</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
+<p class="definition">Definition at line <a class="el" href="trip_8f_source.html#l00277">277</a> of file <a class="el" href="trip_8f_source.html">trip.f</a>.</p>
 
-<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00578">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00458">trip_rphs_get()</a>.</p>
+<p class="reference">References <a class="el" href="mntrtmr_8f_source.html#l00237">mntr_tmr_add()</a>, <a class="el" href="trip_8f_source.html#l00636">trip_frcs_get()</a>, and <a class="el" href="trip_8f_source.html#l00516">trip_rphs_get()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -800,15 +809,15 @@ Functions</h2></td></tr>
 <div class="ttc" id="agroup__trip__line_html_gaf92b120b6c9a4ec94f6cc510c33f95ab"><div class="ttname"><a href="group__trip__line.html#gaf92b120b6c9a4ec94f6cc510c33f95ab">trip_register</a></div><div class="ttdeci">subroutine trip_register()</div><div class="ttdoc">Register tripping module.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00018">trip.f:18</a></div></div>
 <div class="ttc" id="agroup__chkpoint_html_gab4a17862a5f644ef26e2538240fc3ae8"><div class="ttname"><a href="group__chkpoint.html#gab4a17862a5f644ef26e2538240fc3ae8">chkpt_register</a></div><div class="ttdeci">subroutine chkpt_register()</div><div class="ttdoc">Register checkpointing module.</div><div class="ttdef"><b>Definition:</b> <a href="chkpoint_8f_source.html#l00011">chkpoint.f:11</a></div></div>
 <div class="ttc" id="agroup__chkpoint_html_ga2d682999600b8303ea7c4850cb54c9ca"><div class="ttname"><a href="group__chkpoint.html#ga2d682999600b8303ea7c4850cb54c9ca">chkpt_main</a></div><div class="ttdeci">subroutine chkpt_main</div><div class="ttdoc">Main checkpoint interface.</div><div class="ttdef"><b>Definition:</b> <a href="chkpoint_8f_source.html#l00201">chkpoint.f:201</a></div></div>
-<div class="ttc" id="agroup__trip__line_html_ga9f6bf182217ebda5283528ae236aec24"><div class="ttname"><a href="group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24">trip_init</a></div><div class="ttdeci">subroutine trip_init()</div><div class="ttdoc">Initilise tripping module.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00137">trip.f:137</a></div></div>
+<div class="ttc" id="agroup__trip__line_html_ga9f6bf182217ebda5283528ae236aec24"><div class="ttname"><a href="group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24">trip_init</a></div><div class="ttdeci">subroutine trip_init()</div><div class="ttdoc">Initilise tripping module.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00140">trip.f:140</a></div></div>
 <div class="ttc" id="agroup__io__tools_html_ga6000a8a35e3c582a70d70b517abaedd0"><div class="ttname"><a href="group__io__tools.html#ga6000a8a35e3c582a70d70b517abaedd0">io_register</a></div><div class="ttdeci">subroutine io_register()</div><div class="ttdoc">Register io tool module.</div><div class="ttdef"><b>Definition:</b> <a href="io__tools_8f_source.html#l00011">io_tools.f:11</a></div></div>
-<div class="ttc" id="agroup__trip__line_html_ga21312d753a5904b4b9b39de2101ff42f"><div class="ttname"><a href="group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f">trip_update</a></div><div class="ttdeci">subroutine trip_update()</div><div class="ttdoc">Update tripping.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00260">trip.f:260</a></div></div>
-<div class="ttc" id="agroup__trip__line_html_ga12680f4f32a0ba8c7730d12111dd4cf5"><div class="ttname"><a href="group__trip__line.html#ga12680f4f32a0ba8c7730d12111dd4cf5">trip_forcing</a></div><div class="ttdeci">subroutine trip_forcing(ffx, ffy, ffz, ix, iy, iz, ieg)</div><div class="ttdoc">Compute tripping forcing.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00293">trip.f:293</a></div></div>
+<div class="ttc" id="agroup__trip__line_html_ga21312d753a5904b4b9b39de2101ff42f"><div class="ttname"><a href="group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f">trip_update</a></div><div class="ttdeci">subroutine trip_update()</div><div class="ttdoc">Update tripping.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00277">trip.f:277</a></div></div>
+<div class="ttc" id="agroup__trip__line_html_ga12680f4f32a0ba8c7730d12111dd4cf5"><div class="ttname"><a href="group__trip__line.html#ga12680f4f32a0ba8c7730d12111dd4cf5">trip_forcing</a></div><div class="ttdeci">subroutine trip_forcing(ffx, ffy, ffz, ix, iy, iz, ieg)</div><div class="ttdoc">Compute tripping forcing.</div><div class="ttdef"><b>Definition:</b> <a href="trip_8f_source.html#l00310">trip.f:310</a></div></div>
 <div class="ttc" id="agroup__frame_html_ga81cd9de9df55590aae9e54090dd1a3ce"><div class="ttname"><a href="group__frame.html#ga81cd9de9df55590aae9e54090dd1a3ce">frame_end</a></div><div class="ttdeci">subroutine frame_end</div><div class="ttdoc">Finalise framework.</div><div class="ttdef"><b>Definition:</b> <a href="frame_8f_source.html#l00075">frame.f:75</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 29 2021 11:41:41 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Mon Jun 28 2021 17:13:40 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -1,6 +1,0 @@
-<map id="stat_mfo_write_stat2d" name="stat_mfo_write_stat2d">
-<area shape="rect" id="node1" title="Write additional data at the end of the file." alt="" coords="449,5,617,32"/>
-<area shape="rect" id="node2" href="$stat__IO_8f.html#ae0917441bba221a62e956c7ea5622675" title="Statistics muti&#45;file output of 2D data." alt="" coords="260,5,401,32"/>
-<area shape="rect" id="node3" href="$stat__IO_8f.html#a646a7c83620c31e3fbdd385eeeb7fd2c" title="Main interface for saving statistics." alt="" coords="132,5,212,32"/>
-<area shape="rect" id="node4" href="$stat_8f.html#a16cd0d213c2bea15c7caf8c205241388" title="Main interface of statistics module." alt="" coords="5,5,84,32"/>
-</map>

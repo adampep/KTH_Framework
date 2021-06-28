@@ -1,26 +1,28 @@
 <map id="io_file_freeid" name="io_file_freeid">
-<area shape="rect" id="node1" title="Get free file unit number and store max unit value." alt="" coords="561,284,668,311"/>
-<area shape="rect" id="node2" href="$group__arn__arp.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing." alt="" coords="397,5,491,32"/>
-<area shape="rect" id="node5" href="$group__gsyn__eddy.html#ga588937b445a3c01303443acda7fbcc2b" title="Read profiles for all familes." alt="" coords="381,56,507,83"/>
-<area shape="rect" id="node8" href="$map2D_8f.html#aa375386064e3bde909740b212e59419a" title="Get 3D to 2D element mapping." alt="" coords="397,107,491,133"/>
-<area shape="rect" id="node11" href="$map2D_8f.html#afa585933f6b819d03ab8dcb28f3cf114" title="Generate 2D mesh out of 3D one." alt="" coords="375,157,513,184"/>
+<area shape="rect" id="node1" title="Get free file unit number and store max unit value." alt="" coords="587,309,693,336"/>
+<area shape="rect" id="node2" href="$group__arn__arp.html#ga2b3b1486ed5812db2dd8f7a8e78642aa" title="ARPACK postprocessing." alt="" coords="410,5,503,32"/>
+<area shape="rect" id="node5" href="$group__gsyn__eddy.html#ga588937b445a3c01303443acda7fbcc2b" title="Read profiles for all familes." alt="" coords="393,56,520,83"/>
+<area shape="rect" id="node8" href="$group__map2d.html#gaa375386064e3bde909740b212e59419a" title="Get 3D to 2D element mapping." alt="" coords="409,157,504,184"/>
+<area shape="rect" id="node11" href="$group__map2d.html#gafa585933f6b819d03ab8dcb28f3cf114" title="Generate 2D mesh out of 3D one." alt="" coords="387,107,526,133"/>
 <area shape="rect" id="node12" href="$pstat2d_2pstat_8f.html#a750a6d785e8c0711c55cc38d0f19c77f" title="Interpolate int the set of points." alt="" coords="187,259,287,285"/>
 <area shape="rect" id="node14" href="$pstat2d_2pstat_8f.html#a77d4658d95cd95edeb634e02052a6bc8" title="Manipulate mesh to find proper element ordering (in case of AMR refine)" alt="" coords="148,309,327,336"/>
 <area shape="rect" id="node15" href="$pstat2d_2pstat__IO_8f.html#a98a6c5134b7f66e05a590da2e76d4f50" title="Read nonconforming data from the file." alt="" coords="174,360,301,387"/>
-<area shape="rect" id="node16" href="$pstat2d_2pstat__IO_8f.html#a12b51101e020a8cb5da32bab44b7a7b2" title="Read interpolation points position and redistribute them." alt="" coords="379,259,509,285"/>
-<area shape="rect" id="node17" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary." alt="" coords="403,411,485,437"/>
-<area shape="rect" id="node19" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module." alt="" coords="409,461,479,488"/>
-<area shape="rect" id="node20" href="$group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line." alt="" coords="393,563,495,589"/>
-<area shape="rect" id="node24" href="$group__trip__line.html#ga1c9efa121ba419b340fc0469c8df50a2" title="Generate set of random phases." alt="" coords="391,512,497,539"/>
+<area shape="rect" id="node16" href="$pstat2d_2pstat__IO_8f.html#a12b51101e020a8cb5da32bab44b7a7b2" title="Read interpolation points position and redistribute them." alt="" coords="392,208,521,235"/>
+<area shape="rect" id="node17" href="$group__runparam.html#ga813bb2c54ba5379f67f6ab807d7d0bf5" title="Initialise modules runtime parameters and write summary." alt="" coords="416,411,497,437"/>
+<area shape="rect" id="node19" href="$group__sfd.html#gaedfae65d8524e7c3e3027e5fcca5e365" title="Initialise SFD module." alt="" coords="421,461,492,488"/>
+<area shape="rect" id="node20" href="$group__trip__line.html#gad310dfda934030797dc92e02b94be614" title="Generate forcing along 1D line." alt="" coords="405,563,508,589"/>
+<area shape="rect" id="node24" href="$group__trip__line.html#ga1c9efa121ba419b340fc0469c8df50a2" title="Generate set of random phases." alt="" coords="403,512,510,539"/>
+<area shape="rect" id="node25" href="$group__tsrs.html#ga8087d9234c10f2b4cf646fd838b4b03f" title="Read and redistribute points among mpi ranks." alt="" coords="375,613,539,640"/>
 <area shape="rect" id="node3" href="$group__arn__arp.html#ga61cd8777c90822cd29525e306f16879a" title="Create Krylov space, get Ritz values and restart stepper phase." alt="" coords="177,5,298,32"/>
 <area shape="rect" id="node4" href="$group__tstepper.html#gabc3504de0ea6143af4350deba53d3004" title="Control time stepper after every nek5000 step and call suitable stepper_vsolve of required submodule." alt="" coords="12,5,93,32"/>
 <area shape="rect" id="node6" href="$group__gsyn__eddy.html#gaa74db90a0d40197077972e97b9fb8c89" title="Generate family information." alt="" coords="170,56,305,83"/>
 <area shape="rect" id="node7" href="$group__gsyn__eddy.html#ga7adcada8ea2d614db7b3f3c60ba656a9" title="Initilise gSyEM module." alt="" coords="9,56,96,83"/>
-<area shape="rect" id="node9" href="$map2D_8f.html#a447f2d8044a3b5c731f50a830b532578" title="Initilise map2d module." alt="" coords="190,132,285,159"/>
-<area shape="rect" id="node10" href="$stat_8f.html#a451d6573c47246d8e0c35e4028a3a1f0" title="Initilise statistics module." alt="" coords="15,132,90,159"/>
+<area shape="rect" id="node9" href="$group__map2d.html#ga447f2d8044a3b5c731f50a830b532578" title="Initilise map2d module." alt="" coords="190,132,285,159"/>
+<area shape="rect" id="node10" href="$group__stat.html#ga451d6573c47246d8e0c35e4028a3a1f0" title="Initilise statistics module." alt="" coords="15,132,90,159"/>
 <area shape="rect" id="node13" href="$pstat2d_2pstat_8f.html#a0d6f97dd0ba526fdc91b7f6d903890e9" title="Main interface of pstat module." alt="" coords="5,309,100,336"/>
 <area shape="rect" id="node18" href="$group__frame.html#ga3b2fa5ca96c4d901949ed15b9e1e459c" title="Start framework." alt="" coords="188,411,287,437"/>
-<area shape="rect" id="node21" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module." alt="" coords="201,512,273,539"/>
-<area shape="rect" id="node22" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping." alt="" coords="195,613,279,640"/>
-<area shape="rect" id="node23" href="$group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f" title="Update tripping." alt="" coords="189,563,285,589"/>
+<area shape="rect" id="node21" href="$group__trip__line.html#ga9f6bf182217ebda5283528ae236aec24" title="Initilise tripping module." alt="" coords="201,537,273,564"/>
+<area shape="rect" id="node22" href="$group__trip__line.html#ga1ff51ce392b4ef3b9becafeee8bb8c2b" title="Reset tripping." alt="" coords="195,588,279,615"/>
+<area shape="rect" id="node23" href="$group__trip__line.html#ga21312d753a5904b4b9b39de2101ff42f" title="Update tripping." alt="" coords="189,487,285,513"/>
+<area shape="rect" id="node26" href="$group__tsrs.html#ga27505d40c2c8d0b9a8c62b032128c173" title="Initilise time series module." alt="" coords="200,639,275,665"/>
 </map>
