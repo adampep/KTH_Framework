@@ -1,5 +1,5 @@
 <map id="Utility module" name="Utility module">
-<area shape="rect" id="node1" href="$group__math.html" title="Diverse mathematical tools." alt="" coords="308,5,416,31"/>
+<area shape="rect" id="node1" href="$group__math.html" title="Diverse tools for matht or data operations." alt="" coords="308,5,416,31"/>
 <area shape="rect" id="node2" title="Diverse utilities for toolboxes." alt="" coords="125,92,240,117"/>
 <area shape="rect" id="node4" href="$group__bcnd.html" title="Diverse tools related to applying boundary conditions." alt="" coords="288,55,436,95"/>
 <area shape="rect" id="node5" href="$group__grid.html" title="Diverse tools for manipulation of the grid." alt="" coords="311,120,413,145"/>

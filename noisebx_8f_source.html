@@ -278,7 +278,7 @@ $(document).ready(function(){initNavTree('noisebx_8f_source.html',''); initResiz
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="keywordtype">      real</span> ltim</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="comment">! functions</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordtype">      real</span> dnekclock, mth_ran_dst</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordtype">      real</span> dnekclock, math_ran_dst</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="comment">!-----------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      <span class="comment">! add noise</span></div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;      <span class="keywordflow">if</span> (nseb_amp.gt.0.0) <span class="keywordflow">then</span></div>
@@ -311,19 +311,19 @@ $(document).ready(function(){initNavTree('noisebx_8f_source.html',''); initResiz
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                           fcoeff(2)= -1.5e3</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                           fcoeff(3)=  0.5e5</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                           vx(il,jl,kl,iel)=vx(il,jl,kl,iel)+nseb_amp*</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;     $                          mth_ran_dst(il,jl,kl,ieg,xl,fcoeff)</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;     $                          math_ran_dst(il,jl,kl,ieg,xl,fcoeff)</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                           fcoeff(1)=  2.3e4</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                           fcoeff(2)=  2.3e3</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                           fcoeff(3)= -2.0e5</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                           vy(il,jl,kl,iel)=vy(il,jl,kl,iel)+nseb_amp*</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;     $                          mth_ran_dst(il,jl,kl,ieg,xl,fcoeff)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;     $                          math_ran_dst(il,jl,kl,ieg,xl,fcoeff)</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                           <span class="keywordflow">if</span> (if3d) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                              fcoeff(1)= 2.e4</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                              fcoeff(2)= 1.e3</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                              fcoeff(3)= 1.e5</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                              vz(il,jl,kl,iel)=vz(il,jl,kl,iel)+</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;     $                             nseb_amp*</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;     $                             mth_ran_dst(il,jl,kl,ieg,xl,fcoeff)</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;     $                             math_ran_dst(il,jl,kl,ieg,xl,fcoeff)</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="keywordflow">                           endif</span></div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="keywordflow">                        endif</span></div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
@@ -370,7 +370,7 @@ $(document).ready(function(){initNavTree('noisebx_8f_source.html',''); initResiz
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_90a01da27c815ec0f52ae9e4dc4ab23c.html">Toolbox</a></li><li class="navelem"><a class="el" href="dir_511b452bff9958442653cbf494ea410f.html">utility</a></li><li class="navelem"><a class="el" href="dir_7047e2ce769915173b7c5786f72f4e66.html">forcing</a></li><li class="navelem"><a class="el" href="dir_1ca52ddd4439303bfc755a9662561d63.html">noise_box</a></li><li class="navelem"><a class="el" href="noisebx_8f.html">noisebx.f</a></li>
-    <li class="footer">Generated on Mon Jun 28 2021 17:13:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jun 29 2021 14:45:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

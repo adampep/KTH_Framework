@@ -909,9 +909,9 @@ $(document).ready(function(){initNavTree('gSyEM_8f_source.html',''); initResizab
 <div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;<span class="keywordflow">         enddo</span></div>
 <div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160; </div>
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;         <span class="comment">! rotate bounding box to get 2D constraint; THIS IS NOT FINISHED</span></div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;         <span class="keyword">call </span><a class="code" href="group__math.html#gacf2f8e58087ed7f086d976075e59c60f">mth_rot3da</a>(drtmp,gsem_bmin(1,il),</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;         <span class="keyword">call </span><a class="code" href="group__math.html#ga7b24319b0444a916f0a85e2160879724">math_rot3da</a>(drtmp,gsem_bmin(1,il),</div>
 <div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;     $        gsem_raxs(1,il),-gsem_rang(il))</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;         <span class="keyword">call </span><a class="code" href="group__math.html#gacf2f8e58087ed7f086d976075e59c60f">mth_rot3da</a>(drtmp,gsem_bmax(1,il),</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;         <span class="keyword">call </span><a class="code" href="group__math.html#ga7b24319b0444a916f0a85e2160879724">math_rot3da</a>(drtmp,gsem_bmax(1,il),</div>
 <div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;     $        gsem_raxs(1,il),-gsem_rang(il))</div>
 <div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160; </div>
 <div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;         <span class="comment">! Should I shift edges to the surface normal to gsem_bcrd???????</span></div>
@@ -1408,7 +1408,7 @@ $(document).ready(function(){initNavTree('gSyEM_8f_source.html',''); initResizab
 <div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;      <span class="keywordtype">integer</span> il, jl, itmp</div>
 <div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160; </div>
 <div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;      <span class="comment">! functions</span></div>
-<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;<span class="keywordtype">      real</span> mth_ran_rng</div>
+<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;<span class="keywordtype">      real</span> math_ran_rng</div>
 <div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;<span class="comment">!-----------------------------------------------------------------------</span></div>
 <div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;      <span class="comment">! stamp logs</span></div>
 <div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;      <span class="keyword">call </span><a class="code" href="group__monitor.html#ga0510d3027574c1fa648d9cd2abe2be6d">mntr_logi</a>(gsem_id,lp_prd,<span class="stringliteral">&#39;Initilise modes for family=&#39;</span>,nfam)</div>
@@ -1418,8 +1418,8 @@ $(document).ready(function(){initNavTree('gSyEM_8f_source.html',''); initResizab
 <div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;         <span class="keywordflow">do</span> il=0,gsem_neddy(nfam)-1</div>
 <div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;            itmp = gsem_eoff(nfam)+il</div>
 <div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;            <span class="keywordflow">do</span> jl=1,ldim</div>
-<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;               gsem_eamp(jl,itmp) = mth_ran_rng(0.0,1.0)</div>
-<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;               gsem_ephs(jl,itmp) = mth_ran_rng(0.0,2.0*pi)</div>
+<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;               gsem_eamp(jl,itmp) = math_ran_rng(0.0,1.0)</div>
+<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;               gsem_ephs(jl,itmp) = math_ran_rng(0.0,2.0*pi)</div>
 <div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;<span class="keywordflow">            enddo</span></div>
 <div class="line"><a name="l01402"></a><span class="lineno"> 1402</span>&#160;<span class="keywordflow">         enddo</span></div>
 <div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;<span class="keywordflow">      endif</span></div>
@@ -1674,7 +1674,6 @@ $(document).ready(function(){initNavTree('gSyEM_8f_source.html',''); initResizab
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="agroup__gsyn__eddy_html_ga03ed80591aca627152b1887d76d46cb1"><div class="ttname"><a href="group__gsyn__eddy.html#ga03ed80591aca627152b1887d76d46cb1">gsem_face_prof</a></div><div class="ttdeci">subroutine gsem_face_prof(nfam, poff, rpos, umean, tke, dss, iel, ifc, ifn, dist)</div><div class="ttdoc">Generate profile information for given family face.</div><div class="ttdef"><b>Definition:</b> <a href="gSyEM_8f_source.html#l01117">gSyEM.f:1117</a></div></div>
-<div class="ttc" id="agroup__math_html_gacf2f8e58087ed7f086d976075e59c60f"><div class="ttname"><a href="group__math.html#gacf2f8e58087ed7f086d976075e59c60f">mth_rot3da</a></div><div class="ttdeci">subroutine mth_rot3da(vo, vi, va, an)</div><div class="ttdoc">3D rotation of a vector along given axis</div><div class="ttdef"><b>Definition:</b> <a href="math__tools_8f_source.html#l00329">math_tools.f:329</a></div></div>
 <div class="ttc" id="agroup__gsyn__eddy_html_ga3a453617a573ba433e296ffb8a5c6d6d"><div class="ttname"><a href="group__gsyn__eddy.html#ga3a453617a573ba433e296ffb8a5c6d6d">gsem_rst_write</a></div><div class="ttdeci">subroutine gsem_rst_write</div><div class="ttdoc">Create checkpoint.</div><div class="ttdef"><b>Definition:</b> <a href="gSyEM_8f_source.html#l00394">gSyEM.f:394</a></div></div>
 <div class="ttc" id="amath_8f_html_add7cf4f5279a2239cfd54f963a53e618"><div class="ttname"><a href="math_8f.html#add7cf4f5279a2239cfd54f963a53e618">cfill</a></div><div class="ttdeci">subroutine cfill(a, b, n)</div><div class="ttdef"><b>Definition:</b> <a href="math_8f_source.html#l00244">math.f:244</a></div></div>
 <div class="ttc" id="amath_8f_html_a943dc1fc319c98267fac3af1e8010e9a"><div class="ttname"><a href="math_8f.html#a943dc1fc319c98267fac3af1e8010e9a">izero</a></div><div class="ttdeci">subroutine izero(a, n)</div><div class="ttdef"><b>Definition:</b> <a href="math_8f_source.html#l00215">math.f:215</a></div></div>
@@ -1689,6 +1688,7 @@ $(document).ready(function(){initNavTree('gSyEM_8f_source.html',''); initResizab
 <div class="ttc" id="agroup__monitor_html_ga1706f7a9b56366c2f646ff1e49a347dd"><div class="ttname"><a href="group__monitor.html#ga1706f7a9b56366c2f646ff1e49a347dd">mntr_logr</a></div><div class="ttdeci">subroutine mntr_logr(mid, priority, logs, rvar)</div><div class="ttdoc">Write log message adding single real.</div><div class="ttdef"><b>Definition:</b> <a href="mntrlog_8f_source.html#l00708">mntrlog.f:708</a></div></div>
 <div class="ttc" id="adssum_8f_html_a192f8f2b30754037489f2268d6fab2a2"><div class="ttname"><a href="dssum_8f.html#a192f8f2b30754037489f2268d6fab2a2">ftovec</a></div><div class="ttdeci">subroutine ftovec(a, b, ie, iface, nx, ny, nz)</div><div class="ttdef"><b>Definition:</b> <a href="dssum_8f_source.html#l00417">dssum.f:417</a></div></div>
 <div class="ttc" id="agroup__runparam_html_ga8fdb351c474a7a91078f1839b6889a74"><div class="ttname"><a href="group__runparam.html#ga8fdb351c474a7a91078f1839b6889a74">rprm_rp_get</a></div><div class="ttdeci">subroutine rprm_rp_get(ipval, rpval, lpval, cpval, rpid, ptype)</div><div class="ttdoc">Get runtime parameter form active section. This operation is performed locally.</div><div class="ttdef"><b>Definition:</b> <a href="rprm_8f_source.html#l00858">rprm.f:858</a></div></div>
+<div class="ttc" id="agroup__math_html_ga7b24319b0444a916f0a85e2160879724"><div class="ttname"><a href="group__math.html#ga7b24319b0444a916f0a85e2160879724">math_rot3da</a></div><div class="ttdeci">subroutine math_rot3da(vo, vi, va, an)</div><div class="ttdoc">3D rotation of a vector along given axis</div><div class="ttdef"><b>Definition:</b> <a href="math__tools_8f_source.html#l00329">math_tools.f:329</a></div></div>
 <div class="ttc" id="amath_8f_html_a3470db04166d9ba91454a14cc17dbec2"><div class="ttname"><a href="math_8f.html#a3470db04166d9ba91454a14cc17dbec2">col2</a></div><div class="ttdeci">subroutine col2(a, b, n)</div><div class="ttdef"><b>Definition:</b> <a href="math_8f_source.html#l00564">math.f:564</a></div></div>
 <div class="ttc" id="agroup__monitor_html_ga0e58e9dcba8cb0605934b9fa01b12410"><div class="ttname"><a href="group__monitor.html#ga0e58e9dcba8cb0605934b9fa01b12410">mntr_tmr_is_name_reg</a></div><div class="ttdeci">subroutine mntr_tmr_is_name_reg(mid, mname)</div><div class="ttdoc">Check if timer name is registered and return its id.</div><div class="ttdef"><b>Definition:</b> <a href="mntrtmr_8f_source.html#l00146">mntrtmr.f:146</a></div></div>
 <div class="ttc" id="agroup__monitor_html_gaa627e350052a5f1d97b31e249f1843f2"><div class="ttname"><a href="group__monitor.html#gaa627e350052a5f1d97b31e249f1843f2">mntr_get_step_delay</a></div><div class="ttdeci">subroutine mntr_get_step_delay(dstep)</div><div class="ttdoc">Get step delay.</div><div class="ttdef"><b>Definition:</b> <a href="mntrlog_8f_source.html#l00254">mntrlog.f:254</a></div></div>
@@ -1739,7 +1739,7 @@ $(document).ready(function(){initNavTree('gSyEM_8f_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_90a01da27c815ec0f52ae9e4dc4ab23c.html">Toolbox</a></li><li class="navelem"><a class="el" href="dir_511b452bff9958442653cbf494ea410f.html">utility</a></li><li class="navelem"><a class="el" href="dir_02e5d57aae54252a080548ed2c47d3ad.html">bcnd</a></li><li class="navelem"><a class="el" href="dir_23f4e381ea043bb30a2e0772824bc36e.html">gsyem</a></li><li class="navelem"><a class="el" href="gSyEM_8f.html">gSyEM.f</a></li>
-    <li class="footer">Generated on Mon Jun 28 2021 17:13:38 for KTH framework for Nek5000 toolboxes; testing version by
+    <li class="footer">Generated on Tue Jun 29 2021 14:45:38 for KTH framework for Nek5000 toolboxes; testing version by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

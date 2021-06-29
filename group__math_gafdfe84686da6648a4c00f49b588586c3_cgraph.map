@@ -1,0 +1,4 @@
+<map id="math_ran_rng" name="math_ran_rng">
+<area shape="rect" id="node1" title="Give random number in the defined range." alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node2" href="$group__math.html#ga9f2bb8e84aba456086ffc193a810a664" title="Marsaglia&#45;Zaman random number generator." alt="" coords="165,5,280,32"/>
+</map>
